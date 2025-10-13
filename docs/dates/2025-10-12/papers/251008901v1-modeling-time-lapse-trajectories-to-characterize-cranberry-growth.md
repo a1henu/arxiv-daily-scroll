@@ -7,14 +7,14 @@ title: Modeling Time-Lapse Trajectories to Characterize Cranberry Growth
 **arXiv**：[2510.08901v1](https://arxiv.org/abs/2510.08901) · [PDF](https://arxiv.org/pdf/2510.08901.pdf)  
 **作者**：Ronan John, Anis Chihoub, Ryan Meegan, Gina Sidelli, Jeffery Neyhart, Peter Oudemans, Kristin Dana  
 
-**一句话要点**：提出自监督视觉变换器方法以建模蔓越莓生长轨迹，解决手动监测问题。
+**一句话要点**：提出基于自监督ViT的时间轨迹建模方法，以自动化监测蔓越莓生长。
 
-**关键词**：自监督学习, 视觉变换器, 时间序列建模, 作物监测, 蔓越莓生长
+**关键词**：时间轨迹建模, 自监督学习, 视觉变换器, 作物监测, 时间序列分析
 
 ## 3 点简述
-- 核心问题：蔓越莓生长监测依赖手动，耗时且需精细标注。
-- 方法要点：使用时间回归和类别预测的自监督ViT，学习时间序列潜在空间。
-- 实验或效果：构建新数据集，模型可预测生长和区分品种差异。
+- 核心问题：蔓越莓生长监测依赖手动，耗时且需大量标注。
+- 方法要点：使用时间回归和类别预测的自监督ViT，学习植物外观的潜在空间。
+- 实验或效果：构建新数据集，模型可预测生长和区分品种时间差异。
 
 ## 摘要（原文）
 

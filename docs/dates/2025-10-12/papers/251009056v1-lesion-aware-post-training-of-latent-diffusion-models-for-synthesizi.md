@@ -7,14 +7,14 @@ title: Lesion-Aware Post-Training of Latent Diffusion Models for Synthesizing Di
 **arXiv**：[2510.09056v1](https://arxiv.org/abs/2510.09056) · [PDF](https://arxiv.org/pdf/2510.09056.pdf)  
 **作者**：Junhyeok Lee, Hyunwoong Kim, Hyungjin Chung, Heeseong Eom, Joon Jang, Chul-Ho Sohn, Kyu Sung Choi  
 
-**一句话要点**：提出病灶感知后训练框架，提升CT到MRI转换中病灶重建精度
+**一句话要点**：提出病灶感知后训练框架，以提升CT灌注到扩散MRI合成的病灶描绘精度
 
-**关键词**：潜在扩散模型, 医学图像转换, 病灶重建, 后训练框架, CT到MRI合成
+**关键词**：潜在扩散模型, 医学图像翻译, 病灶感知, 后训练, CT灌注, 扩散MRI
 
 ## 3 点简述
-- 潜在扩散模型在医学图像转换中可能丢失关键像素细节，影响病灶重建
-- 引入病灶感知像素空间目标，增强整体图像质量和病灶描绘准确性
-- 在817名患者数据集上验证，合成DWI和ADC图像优于现有方法
+- 潜在扩散模型在医学图像翻译中可能丢失关键像素细节，影响病灶等小结构重建
+- 引入病灶感知像素空间目标进行后训练，增强整体图像质量和病灶描绘精度
+- 在817名急性缺血性卒中患者数据集上验证，合成DWI和ADC图像优于现有方法
 
 ## 摘要（原文）
 

@@ -13,8 +13,8 @@ title: SegTrans: Transferable Adversarial Examples for Segmentation Models
 
 ## 3 点简述
 - 分割模型在对抗攻击中可迁移性差，源于上下文依赖和特征分布差异
-- 方法将输入分区域并重映射语义信息，生成增强样本优化扰动
-- 实验在多个数据集和模型上显示，迁移成功率平均提升8.55%，效率提高超100%
+- 方法将输入划分为局部区域并重映射语义，生成多样增强样本优化扰动
+- 实验在PASCAL VOC和Cityscapes数据集上，显著提高迁移成功率与效率
 
 ## 摘要（原文）
 

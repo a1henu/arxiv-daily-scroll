@@ -7,13 +7,13 @@ title: Towards Safer and Understandable Driver Intention Prediction
 **arXiv**：[2510.09200v1](https://arxiv.org/abs/2510.09200) · [PDF](https://arxiv.org/pdf/2510.09200.pdf)  
 **作者**：Mukilan Karuppasamy, Shankar Gangisetty, Shyam Nandan Rai, Carlo Masone, C V Jawahar  
 
-**一句话要点**：提出视频概念瓶颈模型以提升自动驾驶中驾驶员意图预测的可解释性
+**一句话要点**：提出视频概念瓶颈模型以增强自动驾驶中驾驶员意图预测的可解释性
 
 **关键词**：驾驶员意图预测, 可解释人工智能, 多模态数据集, 视频理解, Transformer模型
 
 ## 3 点简述
 - 核心问题：自动驾驶系统决策过程缺乏可解释性，影响人机交互安全。
-- 方法要点：构建DAAD-X数据集，并开发VCBM框架生成时空一致的解释。
+- 方法要点：引入DAAD-X数据集和VCBM框架，生成时空一致的解释。
 - 实验或效果：评估显示基于Transformer的模型比CNN更具可解释性。
 
 ## 摘要（原文）
