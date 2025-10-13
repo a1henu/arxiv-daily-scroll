@@ -6,12 +6,13 @@ title: HandEval: Taking the First Step Towards Hand Quality Evaluation in Genera
 # HandEval: Taking the First Step Towards Hand Quality Evaluation in Generated Images
 **arXiv**：[2510.08978v1](https://arxiv.org/abs/2510.08978) · [PDF](https://arxiv.org/pdf/2510.08978.pdf)  
 **作者**：Zichuan Wang, Bo Peng, Songlin Yang, Zhenchen Tang, Jing Dong  
+
 **一句话要点**：提出HandEval以评估生成图像中手部质量，提升下游任务性能
 
-**关键词**：手部质量评估, 文本到图像生成, 多模态大语言模型, AIGC检测, 数据集构建
+**关键词**：手部质量评估, 文本到图像模型, 多模态大语言模型, AIGC检测, 图像生成优化
 
 ## 3 点简述
-- 文本到图像模型在复杂局部区域如手部生成细节不准确，影响整体视觉质量
+- 文本到图像模型在手部细节生成中常出现结构扭曲和不真实纹理问题
 - 基于HandPair数据集和MLLM，开发HandEval模型，结合手部关键点先验知识
 - 实验显示HandEval优于现有方法，在图像生成和AIGC检测中显著提升效果
 

@@ -6,14 +6,15 @@ title: Diagonal Artifacts in Samsung Images: PRNU Challenges and Solutions
 # Diagonal Artifacts in Samsung Images: PRNU Challenges and Solutions
 **arXiv**：[2510.09509v1](https://arxiv.org/abs/2510.09509) · [PDF](https://arxiv.org/pdf/2510.09509.pdf)  
 **作者**：David Vázquez-Padín, Fernando Pérez-González, Alejandro Martín-Del-Río  
+
 **一句话要点**：分析三星图像对角线伪影对PRNU验证的影响并提出解决方案
 
-**关键词**：PRNU验证, 图像伪影, 相机源识别, 原始图像处理, 法证应用
+**关键词**：PRNU验证, 图像伪影, 相机源识别, 原始图像, 法医图像分析, 智能手机图像处理
 
 ## 3 点简述
-- 核心问题：三星Galaxy S和A系列图像存在对角线伪影，导致PRNU指纹碰撞。
-- 方法要点：利用PRO模式原始图像绕过处理流水线，避免伪影干扰。
-- 实验或效果：验证原始图像PRNU可靠性，并探索伪影在HDR和肖像模式的应用。
+- 三星Galaxy S和A系列图像存在对角线伪影，导致PRNU指纹碰撞问题
+- 使用PRO模式原始图像可避免伪影，但中端A系列和法医场景无法获取
+- 伪影可用于减少HDR误检和定位人像模式合成虚化区域
 
 ## 摘要（原文）
 

@@ -6,9 +6,10 @@ title: Visibility-Aware Densification for 3D Gaussian Splatting in Dynamic Urban
 # Visibility-Aware Densification for 3D Gaussian Splatting in Dynamic Urban Scenes
 **arXiv**：[2510.09364v1](https://arxiv.org/abs/2510.09364) · [PDF](https://arxiv.org/pdf/2510.09364.pdf)  
 **作者**：Yikang Zhang, Rui Fan  
+
 **一句话要点**：提出VAD-GS框架以解决动态城市场景中3D高斯溅射的几何恢复问题
 
-**关键词**：3D高斯溅射, 几何恢复, 多视图立体, 动态场景, 城市场景重建
+**关键词**：3D高斯溅射, 几何恢复, 动态城市场景, 多视图立体, 可见性推理, 点云初始化
 
 ## 3 点简述
 - 核心问题：动态无界城市场景中，点云初始化不完整导致3D高斯溅射产生失真和伪影

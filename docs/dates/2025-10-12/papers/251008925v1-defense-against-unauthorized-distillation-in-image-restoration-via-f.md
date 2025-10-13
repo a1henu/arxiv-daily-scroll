@@ -6,14 +6,15 @@ title: Defense against Unauthorized Distillation in Image Restoration via Featur
 # Defense against Unauthorized Distillation in Image Restoration via Feature Space Perturbation
 **arXiv**：[2510.08925v1](https://arxiv.org/abs/2510.08925) · [PDF](https://arxiv.org/pdf/2510.08925.pdf)  
 **作者**：Han Hu, Zhuoran Zheng, Chen Lyu  
+
 **一句话要点**：提出自适应奇异值扰动以防御图像恢复模型的知识蒸馏攻击
 
 **关键词**：图像恢复, 知识蒸馏防御, 奇异值分解, 特征扰动, 模型保护
 
 ## 3 点简述
-- 知识蒸馏攻击威胁模型知识产权，图像恢复因连续高维输出难以防御
-- ASVP在运行时扰动教师模型特征图，放大奇异值注入高频扰动
-- 实验显示ASVP显著降低学生性能，对教师影响可忽略，覆盖多种任务
+- 核心问题：图像恢复模型易受知识蒸馏攻击，传统扰动方法在连续高维输出中效果不佳
+- 方法要点：在特征空间使用奇异值分解，放大顶部奇异值注入高频扰动
+- 实验或效果：在多个恢复任务中，显著降低学生模型性能，教师模型输出质量几乎不变
 
 ## 摘要（原文）
 

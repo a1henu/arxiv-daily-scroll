@@ -6,6 +6,7 @@ title: RO-Bench: Large-scale robustness evaluation of MLLMs with text-driven cou
 # RO-Bench: Large-scale robustness evaluation of MLLMs with text-driven counterfactual videos
 **arXiv**：[2510.08936v1](https://arxiv.org/abs/2510.08936) · [PDF](https://arxiv.org/pdf/2510.08936.pdf)  
 **作者**：Zixi Yang, Jiapeng Li, Muxi Diao, Yinuo Jing, Kongming Liang  
+
 **一句话要点**：提出Ro-Bench基准以评估多模态大语言模型在反事实视频中的鲁棒性
 
 **关键词**：多模态大语言模型, 视频理解, 鲁棒性评估, 反事实数据, 分布外测试, 基准构建
@@ -13,7 +14,7 @@ title: RO-Bench: Large-scale robustness evaluation of MLLMs with text-driven cou
 ## 3 点简述
 - 多模态大语言模型在视频理解任务中表现优异，但面对操纵视频内容时鲁棒性未知
 - 通过编辑风格、对象、背景及其组合，构建动态分布外反事实视频测试集
-- 评估显示模型性能显著下降，反事实数据微调可提升鲁棒性，在基准上性能提高21.73%
+- 评估显示模型性能显著下降，反事实数据微调可提升鲁棒性，在Ro-Bench和MVBench上分别提高21.73%和12.78%
 
 ## 摘要（原文）
 

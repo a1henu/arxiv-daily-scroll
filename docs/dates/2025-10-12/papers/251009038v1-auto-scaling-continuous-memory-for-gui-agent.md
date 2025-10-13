@@ -6,13 +6,14 @@ title: Auto-scaling Continuous Memory for GUI Agent
 # Auto-scaling Continuous Memory for GUI Agent
 **arXiv**：[2510.09038v1](https://arxiv.org/abs/2510.09038) · [PDF](https://arxiv.org/pdf/2510.09038.pdf)  
 **作者**：Wenyi Wu, Kun Zhou, Ruoxin Yuan, Vivian Yu, Stephen Wang, Zhiting Hu, Biwei Huang  
+
 **一句话要点**：提出连续记忆方法以增强GUI代理在陌生界面和长任务中的泛化能力
 
 **关键词**：GUI代理, 连续记忆, 视觉语言模型, 自动扩展, 长任务泛化, 嵌入编码
 
 ## 3 点简述
 - 核心问题：现有GUI代理压缩轨迹为文本，导致上下文过长且丢失关键视觉信息。
-- 方法要点：使用VLM编码轨迹为固定长度连续嵌入，直接输入骨干网络，降低上下文成本。
+- 方法要点：使用VLM编码轨迹为固定长度连续嵌入，直接输入骨干网络减少上下文成本。
 - 实验或效果：在真实GUI基准测试中，成功率和泛化能力显著提升，性能接近闭源模型。
 
 ## 摘要（原文）

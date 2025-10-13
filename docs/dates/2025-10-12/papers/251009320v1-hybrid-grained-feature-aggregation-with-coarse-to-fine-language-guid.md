@@ -6,14 +6,15 @@ title: Hybrid-grained Feature Aggregation with Coarse-to-fine Language Guidance 
 # Hybrid-grained Feature Aggregation with Coarse-to-fine Language Guidance for Self-supervised Monocular Depth Estimation
 **arXiv**：[2510.09320v1](https://arxiv.org/abs/2510.09320) · [PDF](https://arxiv.org/pdf/2510.09320.pdf)  
 **作者**：Wenyao Zhang, Hongsi Liu, Bohan Li, Jiawei He, Zekun Qi, Yunnan Wang, Shengyang Zhao, Xinqiang Yu, Wenjun Zeng, Xin Jin  
-**一句话要点**：提出混合粒度特征聚合框架，结合语言指导解决自监督单目深度估计中语义空间知识不足问题
 
-**关键词**：自监督单目深度估计, 混合粒度特征聚合, 语言指导, CLIP模型, DINO模型, KITTI基准
+**一句话要点**：提出混合粒度特征聚合框架，通过语言引导解决自监督单目深度估计中语义-空间知识不足问题
+
+**关键词**：自监督单目深度估计, 混合粒度特征聚合, 语言引导学习, CLIP模型, DINO模型, KITTI基准
 
 ## 3 点简述
-- 核心问题：自监督单目深度估计中语义和空间知识提取不足，导致性能受限
-- 方法要点：整合CLIP和DINO模型，通过粗到细语言指导聚合多粒度特征，设计代理任务对齐深度感知特征
-- 实验或效果：在KITTI基准上显著超越SOTA方法，并提升下游任务如BEV感知性能
+- 核心问题：自监督单目深度估计中语义-空间知识提取不足，导致性能受限
+- 方法要点：整合CLIP和DINO模型，通过粗到细语言引导聚合多粒度特征
+- 实验或效果：在KITTI基准上显著超越SOTA方法，并提升下游任务如BEV感知
 
 ## 摘要（原文）
 

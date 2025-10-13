@@ -6,14 +6,15 @@ title: TARO: Toward Semantically Rich Open-World Object Detection
 # TARO: Toward Semantically Rich Open-World Object Detection
 **arXiv**：[2510.09173v1](https://arxiv.org/abs/2510.09173) · [PDF](https://arxiv.org/pdf/2510.09173.pdf)  
 **作者**：Yuchen Zhang, Yao Lu, Johannes Betz  
+
 **一句话要点**：提出TARO框架以解决开放世界物体检测中未知对象语义分类不足的问题
 
 **关键词**：开放世界物体检测, 语义层次分类, 稀疏最大头, 未知对象识别, 自动驾驶安全
 
 ## 3 点简述
-- 核心问题：现有检测器在封闭世界假设下，无法对未知对象进行细粒度语义分类
-- 方法要点：采用稀疏最大头建模物体性，结合层次引导重标签和分类模块学习语义层次
-- 实验或效果：TARO可将29.9%未知对象分类为粗类别，减少未知与已知类混淆，性能竞争
+- 核心问题：现有检测器局限于封闭世界，未知对象仅被识别为单一类别，缺乏语义丰富性。
+- 方法要点：采用稀疏最大头建模物体性，结合层次引导重标签和分类模块学习语义层次关系。
+- 实验或效果：TARO可将29.9%未知对象分类为粗粒度类别，减少未知与已知类混淆，性能竞争。
 
 ## 摘要（原文）
 

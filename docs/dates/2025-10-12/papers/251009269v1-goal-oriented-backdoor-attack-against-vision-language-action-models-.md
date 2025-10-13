@@ -6,14 +6,15 @@ title: Goal-oriented Backdoor Attack against Vision-Language-Action Models via P
 # Goal-oriented Backdoor Attack against Vision-Language-Action Models via Physical Objects
 **arXiv**：[2510.09269v1](https://arxiv.org/abs/2510.09269) · [PDF](https://arxiv.org/pdf/2510.09269.pdf)  
 **作者**：Zirun Zhou, Zhengyang Xiao, Haochuan Xu, Jing Sun, Di Wang, Jingfeng Zhang  
+
 **一句话要点**：提出目标导向后门攻击，通过物理对象操纵视觉-语言-动作模型
 
 **关键词**：后门攻击, 视觉-语言-动作模型, 物理触发器, 目标导向动作, 安全评估, 数据集污染
 
 ## 3 点简述
-- 核心问题：视觉-语言-动作模型依赖未筛选数据集，易受物理对象后门攻击。
-- 方法要点：注入物理触发器至训练数据，使模型在触发时执行预设目标动作。
-- 实验效果：攻击成功率97%，清洁输入性能无下降，动作轨迹和颜色影响显著。
+- 视觉-语言-动作模型依赖未筛选数据集，存在安全风险，现有攻击多为白盒且导致任务失败
+- 引入物理对象作为触发器，在触发时执行预设目标动作，不影响正常输入性能
+- 实验显示攻击成功率97%，动作轨迹和触发器颜色显著影响性能，代码和数据集已公开
 
 ## 摘要（原文）
 

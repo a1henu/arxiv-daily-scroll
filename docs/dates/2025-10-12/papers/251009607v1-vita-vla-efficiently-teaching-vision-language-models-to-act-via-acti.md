@@ -6,13 +6,14 @@ title: VITA-VLA: Efficiently Teaching Vision-Language Models to Act via Action E
 # VITA-VLA: Efficiently Teaching Vision-Language Models to Act via Action Expert Distillation
 **arXiv**：[2510.09607v1](https://arxiv.org/abs/2510.09607) · [PDF](https://arxiv.org/pdf/2510.09607.pdf)  
 **作者**：Shaoqi Dong, Chaoyou Fu, Haihan Gao, Yi-Fan Zhang, Chi Yan, Chu Wu, Xiaoyu Liu, Yunhang Shen, Jing Huo, Deqiang Jiang, Haoyu Cao, Yang Gao, Xing Sun, Ran He, Caifeng Shan  
-**一句话要点**：提出基于动作专家蒸馏的框架，高效赋予视觉语言模型动作执行能力。
 
-**关键词**：视觉语言动作模型, 知识蒸馏, 机器人操作, 高效训练, 动作生成
+**一句话要点**：提出基于动作专家蒸馏的框架，高效赋予视觉语言模型动作执行能力
+
+**关键词**：视觉语言动作模型, 知识蒸馏, 机器人操作, 高效训练, 动作预测
 
 ## 3 点简述
-- 核心问题：训练视觉语言动作模型成本高昂，需从零开始。
-- 方法要点：通过两阶段蒸馏，重用预训练小动作模型知识，避免昂贵预训练。
+- 核心问题：训练大型视觉语言动作模型成本高昂，限制其泛化能力。
+- 方法要点：通过两阶段蒸馏，重用预训练小动作模型知识，避免从头训练。
 - 实验效果：在LIBERO和真实任务中显著提升成功率，降低训练成本。
 
 ## 摘要（原文）

@@ -6,14 +6,15 @@ title: Visual Anomaly Detection for Reliable Robotic Implantation of Flexible Mi
 # Visual Anomaly Detection for Reliable Robotic Implantation of Flexible Microelectrode Array
 **arXiv**：[2510.09071v1](https://arxiv.org/abs/2510.09071) · [PDF](https://arxiv.org/pdf/2510.09071.pdf)  
 **作者**：Yitong Chen, Xinyao Xu, Ping Zhu, Xinyong Han, Fangbo Qin, Shan Yu  
-**一句话要点**：提出基于视觉Transformer的异常检测框架，用于机器人柔性微电极植入的可靠性监控
 
-**关键词**：视觉异常检测, 机器人植入, 柔性微电极, 视觉Transformer, 特征采样, 脑皮层监控
+**一句话要点**：提出基于视觉Transformer的异常检测框架，用于机器人柔性微电极植入过程监控
+
+**关键词**：视觉异常检测, 机器人植入, 柔性微电极, 视觉Transformer, 特征采样, 脑皮层手术
 
 ## 3 点简述
-- 核心问题：柔性微电极植入脑皮层时，因探针变形和生物组织交互，需可靠监控以确保安全。
-- 方法要点：利用预训练ViT提取对齐ROI特征，采用渐进粒度采样和特征通道选择优化检测。
-- 实验或效果：在植入系统收集的图像数据集上验证了方法的有效性。
+- 核心问题：柔性微电极植入脑皮层时，因结构变形和生物组织交互，需可靠监控以确保安全
+- 方法要点：利用预训练ViT提取对齐ROI特征，采用渐进粒度采样和特征通道选择优化检测
+- 实验或效果：在植入系统收集的图像数据集上验证了方法的有效性，未知具体性能指标
 
 ## 摘要（原文）
 

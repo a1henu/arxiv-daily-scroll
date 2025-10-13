@@ -6,14 +6,15 @@ title: PhysToolBench: Benchmarking Physical Tool Understanding for MLLMs
 # PhysToolBench: Benchmarking Physical Tool Understanding for MLLMs
 **arXiv**：[2510.09507v1](https://arxiv.org/abs/2510.09507) · [PDF](https://arxiv.org/pdf/2510.09507.pdf)  
 **作者**：Zixin Zhang, Kanghao Chen, Xingwang Lin, Lutao Jiang, Xu Zheng, Yuanhuiyi Lyu, Litao Guo, Yinchuan Li, Ying-Cong Chen  
+
 **一句话要点**：提出PhysToolBench基准以评估多模态大语言模型对物理工具的理解能力
 
-**关键词**：物理工具理解, 多模态大语言模型, 视觉问答基准, 工具识别, 工具创造, 智能体评估
+**关键词**：物理工具理解, 多模态大语言模型, 视觉问答基准, 具身AI, 工具创造
 
 ## 3 点简述
-- 核心问题：MLLMs对物理工具的理解能力尚未量化，影响通用智能体在物理世界交互的适应性。
-- 方法要点：构建包含1000+图像-文本对的VQA数据集，评估工具识别、理解和创造三个难度级别。
-- 实验或效果：评估32个MLLMs，发现工具理解存在显著缺陷，并提出初步解决方案。
+- 核心问题：多模态大语言模型对物理工具的理解能力尚未量化，影响其在具身AI中的应用。
+- 方法要点：构建包含1000+图像-文本对的视觉问答数据集，评估工具识别、理解和创造三个难度级别。
+- 实验或效果：评估32个模型发现工具理解存在显著缺陷，并提供初步解决方案。
 
 ## 摘要（原文）
 

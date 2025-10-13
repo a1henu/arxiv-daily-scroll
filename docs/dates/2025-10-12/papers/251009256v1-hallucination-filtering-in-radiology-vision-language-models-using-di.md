@@ -6,14 +6,15 @@ title: Hallucination Filtering in Radiology Vision-Language Models Using Discret
 # Hallucination Filtering in Radiology Vision-Language Models Using Discrete Semantic Entropy
 **arXiv**：[2510.09256v1](https://arxiv.org/abs/2510.09256) · [PDF](https://arxiv.org/pdf/2510.09256.pdf)  
 **作者**：Patrick Wienholt, Sophie Caselitz, Robert Siepmann, Philipp Bruners, Keno Bressem, Christiane Kuhl, Jakob Nikolas Kather, Sven Nebelung, Daniel Truhn  
+
 **一句话要点**：提出离散语义熵以过滤放射学视觉语言模型中的幻觉，提升诊断准确性
 
-**关键词**：视觉语言模型, 离散语义熵, 幻觉过滤, 放射学视觉问答, 诊断准确性
+**关键词**：视觉语言模型, 放射学视觉问答, 离散语义熵, 幻觉过滤, 诊断准确性
 
 ## 3 点简述
 - 核心问题：黑盒视觉语言模型在放射学视觉问答中易产生幻觉，影响诊断准确性。
 - 方法要点：使用离散语义熵量化语义不一致性，过滤高熵问题以减少幻觉。
-- 实验或效果：在706个图像-问题对中，过滤后GPT-4o准确率从51.7%提升至76.3%。
+- 实验效果：在706个图像-问题对中，过滤后GPT-4o准确率从51.7%提升至76.3%。
 
 ## 摘要（原文）
 
