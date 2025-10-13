@@ -75,7 +75,7 @@ def build_date_index_md(date_label: str, papers: List[Dict[str, Any]], site_titl
         tag_str = ", ".join(tags) if tags else ""
         lines.append(f"| {i} | [{md_escape(title)}](./papers/{slug}.html) | {headline} | {md_escape(tag_str)} |")
     lines.append("")
-    lines.append("[返回首页](../index.html)")
+    lines.append("[返回首页](../../index.html)")
     return "\n".join(lines)
 
 def build_home_md(dates: List[str], latest_date: str, site_title: str) -> str:
