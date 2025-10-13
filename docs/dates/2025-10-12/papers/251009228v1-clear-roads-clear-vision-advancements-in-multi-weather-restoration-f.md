@@ -7,6 +7,7 @@ title: Clear Roads, Clear Vision: Advancements in Multi-Weather Restoration for 
 **arXiv**：[2510.09228v1](https://arxiv.org/abs/2510.09228) · [PDF](https://arxiv.org/pdf/2510.09228.pdf)  
 **作者**：Vijay M. Galshetwar, Praful Hambarde, Prashant W. Patil, Akshay Dudhane, Sachin Chaudhary, Santosh Kumar Vipparathi, Subrahmanyam Murala  
 **一句话要点**：综述多天气图像视频恢复技术以提升智能交通系统视觉输入质量
+
 **关键词**：图像恢复, 视频恢复, 多天气处理, 智能交通系统, 数据驱动模型, 基准数据集
 
 ## 3 点简述

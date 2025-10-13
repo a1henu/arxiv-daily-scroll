@@ -7,6 +7,7 @@ title: Efficient Bayesian Inference from Noisy Pairwise Comparisons
 **arXiv**：[2510.09333v1](https://arxiv.org/abs/2510.09333) · [PDF](https://arxiv.org/pdf/2510.09333.pdf)  
 **作者**：Till Aczel, Lucas Theis, Wattenhofer Roger  
 **一句话要点**：提出BBQ贝叶斯Bradley-Terry变体以解决生成模型评估中噪声成对比较的聚合问题
+
 **关键词**：贝叶斯推断, 成对比较, Bradley-Terry模型, 评估者质量建模, 生成模型评估, EM算法
 
 ## 3 点简述

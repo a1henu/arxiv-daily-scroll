@@ -7,6 +7,7 @@ title: Boosting Multi-modal Keyphrase Prediction with Dynamic Chain-of-Thought i
 **arXiv**：[2510.09358v1](https://arxiv.org/abs/2510.09358) · [PDF](https://arxiv.org/pdf/2510.09358.pdf)  
 **作者**：Qihang Ma, Shengyu Li, Jie Tang, Dingkang Yang, Shaodong Chen, Yingyi Zhang, Chao Feng, Jiao Ran  
 **一句话要点**：提出动态思维链策略以提升视觉语言模型在多模态关键词预测中的推理能力
+
 **关键词**：多模态关键词预测, 视觉语言模型, 思维链推理, 动态训练策略, 模型微调
 
 ## 3 点简述

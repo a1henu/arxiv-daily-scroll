@@ -7,6 +7,7 @@ title: FSP-DETR: Few-Shot Prototypical Parasitic Ova Detection
 **arXiv**：[2510.09583v1](https://arxiv.org/abs/2510.09583) · [PDF](https://arxiv.org/pdf/2510.09583.pdf)  
 **作者**：Shubham Trehan, Udhav Ramachandran, Akash Rao, Ruth Scimeca, Sathyanarayanan N. Aakur  
 **一句话要点**：提出FSP-DETR框架以解决生物医学中少样本检测和开放集识别问题
+
 **关键词**：少样本目标检测, 原型学习, 开放集识别, 生物医学图像分析, DETR框架
 
 ## 3 点简述

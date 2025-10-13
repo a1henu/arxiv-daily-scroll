@@ -7,6 +7,7 @@ title: Auto-scaling Continuous Memory for GUI Agent
 **arXiv**：[2510.09038v1](https://arxiv.org/abs/2510.09038) · [PDF](https://arxiv.org/pdf/2510.09038.pdf)  
 **作者**：Wenyi Wu, Kun Zhou, Ruoxin Yuan, Vivian Yu, Stephen Wang, Zhiting Hu, Biwei Huang  
 **一句话要点**：提出连续记忆方法以增强GUI代理在陌生界面和长任务中的泛化能力
+
 **关键词**：GUI代理, 连续记忆, 视觉语言模型, 自动扩展, 长任务泛化, 嵌入编码
 
 ## 3 点简述

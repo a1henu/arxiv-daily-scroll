@@ -7,6 +7,7 @@ title: Uncolorable Examples: Preventing Unauthorized AI Colorization via Percept
 **arXiv**：[2510.08979v1](https://arxiv.org/abs/2510.08979) · [PDF](https://arxiv.org/pdf/2510.08979.pdf)  
 **作者**：Yuki Nii, Futa Waseda, Ching-Chun Chang, Isao Echizen  
 **一句话要点**：提出PAChroma方法以防止未经授权的AI图像着色，保护版权内容。
+
 **关键词**：图像着色防御, 不可感知扰动, 版权保护, 生成媒体安全, 鲁棒性优化
 
 ## 3 点简述

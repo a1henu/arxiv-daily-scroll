@@ -7,6 +7,7 @@ title: Mono4DEditor: Text-Driven 4D Scene Editing from Monocular Video via Point
 **arXiv**：[2510.09438v1](https://arxiv.org/abs/2510.09438) · [PDF](https://arxiv.org/pdf/2510.09438.pdf)  
 **作者**：Jin-Chuan Shi, Chengye Su, Jiajun Wang, Ariel Shamir, Miao Wang  
 **一句话要点**：提出Mono4DEditor框架，通过语言嵌入高斯点实现单目视频4D场景的文本驱动编辑
+
 **关键词**：4D场景编辑, 文本驱动编辑, 高斯点表示, CLIP特征嵌入, 扩散模型编辑, 单目视频重建
 
 ## 3 点简述

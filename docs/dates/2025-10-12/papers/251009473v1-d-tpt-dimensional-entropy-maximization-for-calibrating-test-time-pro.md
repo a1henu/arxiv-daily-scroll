@@ -7,6 +7,7 @@ title: D-TPT: Dimensional Entropy Maximization for Calibrating Test-Time Prompt 
 **arXiv**：[2510.09473v1](https://arxiv.org/abs/2510.09473) · [PDF](https://arxiv.org/pdf/2510.09473.pdf)  
 **作者**：Jisu Han, Wonjun Hwang  
 **一句话要点**：提出维度熵最大化方法以改善视觉语言模型测试时提示调优的校准性能
+
 **关键词**：视觉语言模型, 测试时适应, 提示调优, 维度熵最大化, 校准误差, 模态间隙
 
 ## 3 点简述

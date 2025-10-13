@@ -7,6 +7,7 @@ title: StreamingVLM: Real-Time Understanding for Infinite Video Streams
 **arXiv**：[2510.09608v1](https://arxiv.org/abs/2510.09608) · [PDF](https://arxiv.org/pdf/2510.09608.pdf)  
 **作者**：Ruyi Xu, Guangxuan Xiao, Yukang Chen, Liuning He, Kelly Peng, Yao Lu, Song Han  
 **一句话要点**：提出StreamingVLM以解决无限视频流实时理解中的延迟与内存问题
+
 **关键词**：无限视频流理解, 实时视觉语言模型, KV缓存优化, 监督微调, 长视频基准评估
 
 ## 3 点简述

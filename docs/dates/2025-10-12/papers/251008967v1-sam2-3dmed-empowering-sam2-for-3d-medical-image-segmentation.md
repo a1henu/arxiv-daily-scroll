@@ -7,6 +7,7 @@ title: SAM2-3dMed: Empowering SAM2 for 3D Medical Image Segmentation
 **arXiv**：[2510.08967v1](https://arxiv.org/abs/2510.08967) · [PDF](https://arxiv.org/pdf/2510.08967.pdf)  
 **作者**：Yeqing Yang, Le Xu, Lixia Tian  
 **一句话要点**：提出SAM2-3dMed以解决3D医学图像分割中的领域差距问题
+
 **关键词**：3D医学图像分割, 切片相对位置预测, 边界检测, 自监督学习, 领域适应
 
 ## 3 点简述

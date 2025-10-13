@@ -7,6 +7,7 @@ title: Visual Anomaly Detection for Reliable Robotic Implantation of Flexible Mi
 **arXiv**：[2510.09071v1](https://arxiv.org/abs/2510.09071) · [PDF](https://arxiv.org/pdf/2510.09071.pdf)  
 **作者**：Yitong Chen, Xinyao Xu, Ping Zhu, Xinyong Han, Fangbo Qin, Shan Yu  
 **一句话要点**：提出基于视觉Transformer的异常检测框架，用于机器人柔性微电极植入的可靠性监控
+
 **关键词**：视觉异常检测, 机器人植入, 柔性微电极, 视觉Transformer, 特征采样, 脑皮层监控
 
 ## 3 点简述

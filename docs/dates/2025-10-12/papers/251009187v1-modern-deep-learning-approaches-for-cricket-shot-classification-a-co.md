@@ -7,6 +7,7 @@ title: Modern Deep Learning Approaches for Cricket Shot Classification: A Compre
 **arXiv**：[2510.09187v1](https://arxiv.org/abs/2510.09187) · [PDF](https://arxiv.org/pdf/2510.09187.pdf)  
 **作者**：Sungwoo Kang  
 **一句话要点**：提出现代深度学习基线研究，系统比较七种方法以解决板球击球分类问题。
+
 **关键词**：板球击球分类, 深度学习基线, 时空特征建模, 标准化评估, EfficientNet-GRU, 视频分析
 
 ## 3 点简述

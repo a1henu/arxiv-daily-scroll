@@ -7,6 +7,7 @@ title: Progressive Uncertainty-Guided Evidential U-KAN for Trustworthy Medical I
 **arXiv**：[2510.08949v1](https://arxiv.org/abs/2510.08949) · [PDF](https://arxiv.org/pdf/2510.08949.pdf)  
 **作者**：Zhen Yang, Yansong Ma, Lei Chen  
 **一句话要点**：提出Evidential U-KAN以解决可信医学图像分割中边界模糊问题
+
 **关键词**：医学图像分割, 证据深度学习, 不确定性引导, 注意力机制, 语义保持学习
 
 ## 3 点简述

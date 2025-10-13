@@ -7,6 +7,7 @@ title: CapGeo: A Caption-Assisted Approach to Geometric Reasoning
 **arXiv**：[2510.09302v1](https://arxiv.org/abs/2510.09302) · [PDF](https://arxiv.org/pdf/2510.09302.pdf)  
 **作者**：Yuying Li, Siyi Qian, Hao Liang, Leqi Zheng, Ruichuan An, Yongzhen Guo, Wentao Zhang  
 **一句话要点**：提出CapGeo框架，通过字幕辅助解决多模态大语言模型的几何推理瓶颈
+
 **关键词**：几何推理, 多模态大语言模型, 字幕辅助, CapGeo框架, CapGeo-Bench数据集, 关键点评估指标
 
 ## 3 点简述

@@ -7,6 +7,7 @@ title: RadioFlow: Efficient Radio Map Construction Framework with Flow Matching
 **arXiv**：[2510.09314v1](https://arxiv.org/abs/2510.09314) · [PDF](https://arxiv.org/pdf/2510.09314.pdf)  
 **作者**：Haozhe Jia, Wenshuo Chen, Xiucheng Wang, Nan Cheng, Hongbo Zhang, Kuimou Yu, Songning Lai, Nanjian Jia, Bowen Tian, Hongru Xiao, Yutao Yue  
 **一句话要点**：提出RadioFlow框架，通过流匹配实现高效无线电地图构建，用于6G网络
+
 **关键词**：无线电地图生成, 流匹配, 高效采样, 6G网络, 生成模型, 推理加速
 
 ## 3 点简述

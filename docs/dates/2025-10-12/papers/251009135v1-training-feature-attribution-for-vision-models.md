@@ -7,6 +7,7 @@ title: Training Feature Attribution for Vision Models
 **arXiv**：[2510.09135v1](https://arxiv.org/abs/2510.09135) · [PDF](https://arxiv.org/pdf/2510.09135.pdf)  
 **作者**：Aziz Bacha, Thomas George  
 **一句话要点**：提出训练特征归因方法，联合分析测试预测与训练图像区域，提升视觉模型可解释性。
+
 **关键词**：训练特征归因, 视觉模型可解释性, 深度神经网络, 测试预测分析, 虚假相关性检测
 
 ## 3 点简述

@@ -7,6 +7,7 @@ title: Exploring Single Domain Generalization of LiDAR-based Semantic Segmentati
 **arXiv**：[2510.09035v1](https://arxiv.org/abs/2510.09035) · [PDF](https://arxiv.org/pdf/2510.09035.pdf)  
 **作者**：Weitong Kong, Zichao Zeng, Di Wen, Jiale Wei, Kunyu Peng, June Moh Goo, Jan Boehm, Rainer Stiefelhagen  
 **一句话要点**：提出DuNe双视图框架以解决LiDAR语义分割在噪声标签下的单域泛化问题
+
 **关键词**：LiDAR语义分割, 域泛化, 噪声标签学习, 双视图框架, 3D点云处理
 
 ## 3 点简述

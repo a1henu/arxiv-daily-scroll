@@ -7,6 +7,7 @@ title: SilvaScenes: Tree Segmentation and Species Classification from Under-Cano
 **arXiv**：[2510.09458v1](https://arxiv.org/abs/2510.09458) · [PDF](https://arxiv.org/pdf/2510.09458.pdf)  
 **作者**：David-Alexandre Duclos, William Guimont-Martin, Gabriel Jeanson, Arthur Larochelle-Tremblay, Théo Defosse, Frédéric Moore, Philippe Nolet, François Pomerleau, Philippe Giguère  
 **一句话要点**：提出SilvaScenes数据集以解决自然林冠下树木分割与物种分类的感知挑战
+
 **关键词**：实例分割, 树木物种分类, 森林机器人感知, 自然环境数据集, 深度学习基准测试
 
 ## 3 点简述

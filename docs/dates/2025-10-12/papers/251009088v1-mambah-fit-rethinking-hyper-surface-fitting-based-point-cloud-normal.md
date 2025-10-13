@@ -7,6 +7,7 @@ title: MambaH-Fit: Rethinking Hyper-surface Fitting-based Point Cloud Normal Est
 **arXiv**：[2510.09088v1](https://arxiv.org/abs/2510.09088) · [PDF](https://arxiv.org/pdf/2510.09088.pdf)  
 **作者**：Weijia Wang, Yuanzhi Su, Pei-Gen Ye, Yuan-Gen Wang, Xuequan Lu  
 **一句话要点**：提出MambaH-Fit框架，通过状态空间建模改进点云法向量估计的精细几何结构建模。
+
 **关键词**：点云法向量估计, 状态空间模型, 超曲面拟合, 注意力机制, 多尺度特征融合
 
 ## 3 点简述

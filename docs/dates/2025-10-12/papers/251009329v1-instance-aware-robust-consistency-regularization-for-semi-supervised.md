@@ -7,6 +7,7 @@ title: Instance-Aware Robust Consistency Regularization for Semi-Supervised Nucl
 **arXiv**：[2510.09329v1](https://arxiv.org/abs/2510.09329) · [PDF](https://arxiv.org/pdf/2510.09329.pdf)  
 **作者**：Zenan Lin, Wei Li, Jintao Chen, Zihao Wu, Wenxiong Kang, Changxin Gao, Liansheng Wang, Jin-Gang Yu  
 **一句话要点**：提出IRCR-Net以解决病理图像中半监督细胞实例分割的噪声与一致性不足问题
+
 **关键词**：半监督学习, 细胞实例分割, 一致性正则化, 伪标签噪声, 病理图像分析, 形态先验知识
 
 ## 3 点简述

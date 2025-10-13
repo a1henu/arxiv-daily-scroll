@@ -7,6 +7,7 @@ title: MSDM: Generating Task-Specific Pathology Images with a Multimodal Conditi
 **arXiv**：[2510.09121v1](https://arxiv.org/abs/2510.09121) · [PDF](https://arxiv.org/pdf/2510.09121.pdf)  
 **作者**：Dominik Winter, Mai Bui, Monica Azqueta Gavaldon, Nicolas Triltsch, Marco Rosati, Nicolas Brieu  
 **一句话要点**：提出多模态语义扩散模型以生成病理图像-掩码对，提升细胞和核分割性能
+
 **关键词**：计算病理学, 扩散模型, 细胞分割, 合成数据生成, 多模态条件生成
 
 ## 3 点简述

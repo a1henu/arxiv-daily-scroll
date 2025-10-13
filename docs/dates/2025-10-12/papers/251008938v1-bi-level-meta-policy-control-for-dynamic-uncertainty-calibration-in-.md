@@ -7,6 +7,7 @@ title: Bi-level Meta-Policy Control for Dynamic Uncertainty Calibration in Evide
 **arXiv**：[2510.08938v1](https://arxiv.org/abs/2510.08938) · [PDF](https://arxiv.org/pdf/2510.08938.pdf)  
 **作者**：Zhen Yang, Yansong Ma, Lei Chen  
 **一句话要点**：提出元策略控制器以解决动态数据分布下不确定性校准问题
+
 **关键词**：元学习, 不确定性校准, 证据深度学习, 双层优化, 狄利克雷先验
 
 ## 3 点简述

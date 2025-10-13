@@ -7,6 +7,7 @@ title: Polar Separable Transform for Efficient Orthogonal Rotation-Invariant Ima
 **arXiv**：[2510.09125v1](https://arxiv.org/abs/2510.09125) · [PDF](https://arxiv.org/pdf/2510.09125.pdf)  
 **作者**：Satya P. Singh, Rashmi Chaudhry, Anand Srivastava, Jagath C. Rajapakse  
 **一句话要点**：提出PSepT变换以高效实现正交旋转不变图像表示
+
 **关键词**：正交矩, 图像表示, 旋转不变性, 可分离变换, 计算效率, 数值稳定性
 
 ## 3 点简述

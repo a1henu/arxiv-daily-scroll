@@ -7,6 +7,7 @@ title: BLINK-Twice: You see, but do you observe? A Reasoning Benchmark on Visual
 **arXiv**：[2510.09361v1](https://arxiv.org/abs/2510.09361) · [PDF](https://arxiv.org/pdf/2510.09361.pdf)  
 **作者**：Junyan Ye, Dongzhi Jiang, Jun He, Baichuan Zhou, Zilong Huang, Zhiyuan Yan, Hongsheng Li, Conghui He, Weijia Li  
 **一句话要点**：提出BLINK-Twice基准以评估多模态大模型在视觉感知推理中的能力
+
 **关键词**：多模态大语言模型, 视觉推理基准, 感知任务, 对抗图像对, 推理链评估, 模型性能分析
 
 ## 3 点简述

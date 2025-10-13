@@ -7,6 +7,7 @@ title: A Novel Multi-branch ConvNeXt Architecture for Identifying Subtle Patholo
 **arXiv**：[2510.09107v1](https://arxiv.org/abs/2510.09107) · [PDF](https://arxiv.org/pdf/2510.09107.pdf)  
 **作者**：Irash Perera, Uthayasanker Thayasivam  
 **一句话要点**：提出多分支ConvNeXt架构以识别CT扫描中的细微病理特征
+
 **关键词**：多分支架构, ConvNeXt, CT扫描分析, 医学影像分类, 注意力机制, COVID-19诊断
 
 ## 3 点简述

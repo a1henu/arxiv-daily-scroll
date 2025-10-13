@@ -7,6 +7,7 @@ title: Unleashing Perception-Time Scaling to Multimodal Reasoning Models
 **arXiv**：[2510.08964v1](https://arxiv.org/abs/2510.08964) · [PDF](https://arxiv.org/pdf/2510.08964.pdf)  
 **作者**：Yifan Li, Zhenghao Chen, Ziheng Wu, Kun Zhou, Ruipu Luo, Can Zhang, Zhentao He, Yufei Zhan, Wayne Xin Zhao, Minghui Qiu  
 **一句话要点**：提出感知时缩放以提升多模态模型的视觉感知精度
+
 **关键词**：感知时缩放, 多模态推理, 视觉估计, 强化学习, 基准评估
 
 ## 3 点简述

@@ -7,6 +7,7 @@ title: Hybrid-grained Feature Aggregation with Coarse-to-fine Language Guidance 
 **arXiv**：[2510.09320v1](https://arxiv.org/abs/2510.09320) · [PDF](https://arxiv.org/pdf/2510.09320.pdf)  
 **作者**：Wenyao Zhang, Hongsi Liu, Bohan Li, Jiawei He, Zekun Qi, Yunnan Wang, Shengyang Zhao, Xinqiang Yu, Wenjun Zeng, Xin Jin  
 **一句话要点**：提出混合粒度特征聚合框架，结合语言指导解决自监督单目深度估计中语义空间知识不足问题
+
 **关键词**：自监督单目深度估计, 混合粒度特征聚合, 语言指导, CLIP模型, DINO模型, KITTI基准
 
 ## 3 点简述

@@ -7,6 +7,7 @@ title: Foraging with the Eyes: Dynamics in Human Visual Gaze and Deep Predictive
 **arXiv**：[2510.09299v1](https://arxiv.org/abs/2510.09299) · [PDF](https://arxiv.org/pdf/2510.09299.pdf)  
 **作者**：Tejaswi V. Panchagnula  
 **一句话要点**：揭示人类视觉注视遵循莱维行走动态，并训练CNN预测注视热图
+
 **关键词**：视觉注视动态, 莱维行走, 眼动追踪, 卷积神经网络, 注视预测, 视觉注意力建模
 
 ## 3 点简述

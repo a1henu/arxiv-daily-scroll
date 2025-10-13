@@ -7,6 +7,7 @@ title: Denoised Diffusion for Object-Focused Image Augmentation
 **arXiv**：[2510.08955v1](https://arxiv.org/abs/2510.08955) · [PDF](https://arxiv.org/pdf/2510.08955.pdf)  
 **作者**：Nisha Pillai, Aditi Virupakshaiah, Harrison W. Smith, Amanda J. Ashworth, Prasanna Gowda, Phillip R. Owens, Adam R. Rivers, Bindu Nanduri, Mahalingam Ramkumar  
 **一句话要点**：提出对象聚焦数据增强框架以解决农业动物健康监测中数据稀缺问题
+
 **关键词**：数据增强, 动物健康监测, 扩散模型, 对象分割, 农业无人机, 小样本学习
 
 ## 3 点简述

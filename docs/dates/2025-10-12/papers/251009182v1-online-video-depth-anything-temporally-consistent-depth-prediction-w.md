@@ -7,6 +7,7 @@ title: Online Video Depth Anything: Temporally-Consistent Depth Prediction with 
 **arXiv**：[2510.09182v1](https://arxiv.org/abs/2510.09182) · [PDF](https://arxiv.org/pdf/2510.09182.pdf)  
 **作者**：Johann-Friedrich Feiden, Tim Küchler, Denis Zavadski, Bogdan Savchynskyy, Carsten Rother  
 **一句话要点**：提出在线视频深度估计方法oVDA，实现低内存消耗和时序一致性深度预测。
+
 **关键词**：在线视频深度估计, 时序一致性, 低内存消耗, 边缘设备部署, 潜在特征缓存, 帧掩码训练
 
 ## 3 点简述

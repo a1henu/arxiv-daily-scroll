@@ -7,6 +7,7 @@ title: Spotlight on Token Perception for Multimodal Reinforcement Learning
 **arXiv**：[2510.09285v1](https://arxiv.org/abs/2510.09285) · [PDF](https://arxiv.org/pdf/2510.09285.pdf)  
 **作者**：Siyuan Huang, Xiaoye Qu, Yafu Li, Yun Luo, Zefeng He, Daizong Liu, Yu Cheng  
 **一句话要点**：提出视觉感知策略优化以增强多模态强化学习中的视觉推理能力
+
 **关键词**：多模态强化学习, 令牌感知, 视觉依赖, 策略优化, 推理基准
 
 ## 3 点简述

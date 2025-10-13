@@ -7,6 +7,7 @@ title: Goal-oriented Backdoor Attack against Vision-Language-Action Models via P
 **arXiv**：[2510.09269v1](https://arxiv.org/abs/2510.09269) · [PDF](https://arxiv.org/pdf/2510.09269.pdf)  
 **作者**：Zirun Zhou, Zhengyang Xiao, Haochuan Xu, Jing Sun, Di Wang, Jingfeng Zhang  
 **一句话要点**：提出目标导向后门攻击，通过物理对象操纵视觉-语言-动作模型
+
 **关键词**：后门攻击, 视觉-语言-动作模型, 物理触发器, 目标导向动作, 安全评估, 数据集污染
 
 ## 3 点简述

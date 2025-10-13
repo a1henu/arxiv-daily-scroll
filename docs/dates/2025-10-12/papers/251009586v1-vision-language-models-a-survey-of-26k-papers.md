@@ -7,6 +7,7 @@ title: Vision Language Models: A Survey of 26K Papers
 **arXiv**：[2510.09586v1](https://arxiv.org/abs/2510.09586) · [PDF](https://arxiv.org/pdf/2510.09586.pdf)  
 **作者**：Fengming Lin  
 **一句话要点**：分析26K篇论文以量化计算机视觉与语言模型研究趋势
+
 **关键词**：视觉语言模型, 多模态研究, 生成方法, 3D视频分析, 参数高效适应, 研究趋势分析
 
 ## 3 点简述

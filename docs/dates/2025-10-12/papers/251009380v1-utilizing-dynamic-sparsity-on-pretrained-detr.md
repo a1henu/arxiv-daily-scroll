@@ -7,6 +7,7 @@ title: Utilizing dynamic sparsity on pretrained DETR
 **arXiv**：[2510.09380v1](https://arxiv.org/abs/2510.09380) · [PDF](https://arxiv.org/pdf/2510.09380.pdf)  
 **作者**：Reza Sedghi, Anand Subramoney, David Kappel  
 **一句话要点**：提出动态稀疏化方法以提升预训练DETR在目标检测中的推理效率
+
 **关键词**：动态稀疏化, DETR模型, 目标检测, 推理效率, 预训练模型, COCO数据集
 
 ## 3 点简述

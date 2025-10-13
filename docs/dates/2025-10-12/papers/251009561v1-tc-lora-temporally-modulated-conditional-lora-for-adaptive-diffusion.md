@@ -7,6 +7,7 @@ title: TC-LoRA: Temporally Modulated Conditional LoRA for Adaptive Diffusion Con
 **arXiv**：[2510.09561v1](https://arxiv.org/abs/2510.09561) · [PDF](https://arxiv.org/pdf/2510.09561.pdf)  
 **作者**：Minkyoung Cho, Ruben Ohana, Christian Jacobsen, Adityan Jothi, Min-Hung Chen, Z. Morley Mao, Ethem Can  
 **一句话要点**：提出TC-LoRA以动态适应扩散模型的控制需求
+
 **关键词**：扩散模型, 动态控制, LoRA适配器, 超网络, 条件生成
 
 ## 3 点简述

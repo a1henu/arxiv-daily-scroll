@@ -7,6 +7,7 @@ title: FLOWING: Implicit Neural Flows for Structure-Preserving Morphing
 **arXiv**：[2510.09537v1](https://arxiv.org/abs/2510.09537) · [PDF](https://arxiv.org/pdf/2510.09537.pdf)  
 **作者**：Arthur Bizzi, Matias Grynberg, Vitor Matias, Daniel Perazzo, João Paulo Lima, Luiz Velho, Nuno Gonçalves, João Pereira, Guilherme Schardong, Tiago Novello  
 **一句话要点**：提出FLOWING框架，通过微分向量流实现结构保持的2D图像和3D形状变形
+
 **关键词**：隐式神经表示, 图像变形, 3D形状变形, 微分向量流, 结构保持变形
 
 ## 3 点简述

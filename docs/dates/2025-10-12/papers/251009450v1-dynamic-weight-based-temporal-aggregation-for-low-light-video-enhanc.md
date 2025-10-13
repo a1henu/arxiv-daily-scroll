@@ -7,6 +7,7 @@ title: Dynamic Weight-based Temporal Aggregation for Low-light Video Enhancement
 **arXiv**：[2510.09450v1](https://arxiv.org/abs/2510.09450) · [PDF](https://arxiv.org/pdf/2510.09450.pdf)  
 **作者**：Ruirui Lin, Guoxi Huang, Nantheera Anantrasirichai  
 **一句话要点**：提出DWTA-Net框架以解决低光视频增强中的噪声和伪影问题
+
 **关键词**：低光视频增强, 时序聚合, 动态权重, 光流引导, 纹理自适应损失, 两阶段框架
 
 ## 3 点简述

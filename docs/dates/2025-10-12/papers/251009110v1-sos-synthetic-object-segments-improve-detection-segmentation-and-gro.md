@@ -7,6 +7,7 @@ title: SOS: Synthetic Object Segments Improve Detection, Segmentation, and Groun
 **arXiv**：[2510.09110v1](https://arxiv.org/abs/2510.09110) · [PDF](https://arxiv.org/pdf/2510.09110.pdf)  
 **作者**：Weikai Huang, Jieyu Zhang, Taoyang Jia, Chenhao Zheng, Ziqi Gao, Jae Sung Park, Ranjay Krishna  
 **一句话要点**：提出SOS合成对象分割数据管道，提升检测、分割和视觉定位性能
+
 **关键词**：合成数据生成, 对象检测, 实例分割, 视觉定位, 数据增强, 泛化性能
 
 ## 3 点简述

@@ -7,6 +7,7 @@ title: SegTrans: Transferable Adversarial Examples for Segmentation Models
 **arXiv**：[2510.08922v1](https://arxiv.org/abs/2510.08922) · [PDF](https://arxiv.org/pdf/2510.08922.pdf)  
 **作者**：Yufei Song, Ziqi Zhou, Qi Lu, Hangtao Zhang, Yifan Hu, Lulu Xue, Shengshan Hu, Minghui Li, Leo Yu Zhang  
 **一句话要点**：提出SegTrans框架以提升分割模型间对抗样本的可迁移性
+
 **关键词**：对抗攻击, 分割模型, 可迁移性, 语义重映射, 局部区域优化
 
 ## 3 点简述

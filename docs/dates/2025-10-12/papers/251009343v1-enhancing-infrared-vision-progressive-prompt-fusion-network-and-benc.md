@@ -7,6 +7,7 @@ title: Enhancing Infrared Vision: Progressive Prompt Fusion Network and Benchmar
 **arXiv**：[2510.09343v1](https://arxiv.org/abs/2510.09343) · [PDF](https://arxiv.org/pdf/2510.09343.pdf)  
 **作者**：Jinyuan Liu, Zihang Chen, Zhu Liu, Zhiying Jiang, Long Ma, Xin Fan, Risheng Liu  
 **一句话要点**：提出渐进提示融合网络以解决热红外图像增强中的耦合退化问题
+
 **关键词**：热红外图像增强, 渐进提示融合网络, 耦合退化处理, 选择性渐进训练, 红外基准数据集
 
 ## 3 点简述

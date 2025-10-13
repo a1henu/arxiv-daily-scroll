@@ -7,6 +7,7 @@ title: PhysToolBench: Benchmarking Physical Tool Understanding for MLLMs
 **arXiv**：[2510.09507v1](https://arxiv.org/abs/2510.09507) · [PDF](https://arxiv.org/pdf/2510.09507.pdf)  
 **作者**：Zixin Zhang, Kanghao Chen, Xingwang Lin, Lutao Jiang, Xu Zheng, Yuanhuiyi Lyu, Litao Guo, Yinchuan Li, Ying-Cong Chen  
 **一句话要点**：提出PhysToolBench基准以评估多模态大语言模型对物理工具的理解能力
+
 **关键词**：物理工具理解, 多模态大语言模型, 视觉问答基准, 工具识别, 工具创造, 智能体评估
 
 ## 3 点简述

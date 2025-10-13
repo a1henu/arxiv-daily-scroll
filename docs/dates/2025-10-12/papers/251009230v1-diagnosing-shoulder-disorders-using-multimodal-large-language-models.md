@@ -7,6 +7,7 @@ title: Diagnosing Shoulder Disorders Using Multimodal Large Language Models and 
 **arXiv**：[2510.09230v1](https://arxiv.org/abs/2510.09230) · [PDF](https://arxiv.org/pdf/2510.09230.pdf)  
 **作者**：Jindong Hong, Wencheng Zhang, Shiqin Qiao, Jianhai Chen, Jianing Qiu, Chuanyang Zheng, Qian Xu, Yun Ji, Qianyue Wen, Weiwei Sun, Hao Li, Huizhen Li, Huichao Wang, Kai Wu, Meng Li, Yijun He, Lingjie Luo, Jiankai Sun  
 **一句话要点**：提出HMVDx框架，利用消费级摄像头和MLLMs辅助诊断肩部疾病。
+
 **关键词**：多模态大语言模型, 肩部疾病诊断, 消费级摄像头, 视频理解, 医疗辅助诊断, 可用性指标
 
 ## 3 点简述

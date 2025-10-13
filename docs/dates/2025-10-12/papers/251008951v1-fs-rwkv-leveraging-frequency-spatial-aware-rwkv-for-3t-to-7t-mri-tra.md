@@ -7,6 +7,7 @@ title: FS-RWKV: Leveraging Frequency Spatial-Aware RWKV for 3T-to-7T MRI Transla
 **arXiv**：[2510.08951v1](https://arxiv.org/abs/2510.08951) · [PDF](https://arxiv.org/pdf/2510.08951.pdf)  
 **作者**：Yingtie Lei, Zimeng Li, Chi-Man Pun, Yupeng Liu, Xuhang Chen  
 **一句话要点**：提出FS-RWKV框架，利用频率空间感知RWKV实现3T到7T MRI图像翻译。
+
 **关键词**：医学图像合成, MRI图像翻译, RWKV架构, 频率空间感知, 解剖结构保真
 
 ## 3 点简述

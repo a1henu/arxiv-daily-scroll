@@ -7,6 +7,7 @@ title: Lesion-Aware Post-Training of Latent Diffusion Models for Synthesizing Di
 **arXiv**：[2510.09056v1](https://arxiv.org/abs/2510.09056) · [PDF](https://arxiv.org/pdf/2510.09056.pdf)  
 **作者**：Junhyeok Lee, Hyunwoong Kim, Hyungjin Chung, Heeseong Eom, Joon Jang, Chul-Ho Sohn, Kyu Sung Choi  
 **一句话要点**：提出病灶感知后训练框架，以提升CT到MRI转换中病灶重建精度
+
 **关键词**：潜在扩散模型, 医学图像转换, 病灶重建, 后训练框架, CT到MRI合成
 
 ## 3 点简述

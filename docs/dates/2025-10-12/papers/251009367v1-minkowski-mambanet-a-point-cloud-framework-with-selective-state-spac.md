@@ -7,6 +7,7 @@ title: Minkowski-MambaNet: A Point Cloud Framework with Selective State Space Mo
 **arXiv**：[2510.09367v1](https://arxiv.org/abs/2510.09367) · [PDF](https://arxiv.org/pdf/2510.09367.pdf)  
 **作者**：Jinxiang Tu, Dayong Ren, Fei Shi, Zhenhong Jia, Yahong Ren, Jiwei Qin, Fang He  
 **一句话要点**：提出Minkowski-MambaNet框架，结合选择性状态空间模型，从LiDAR点云直接估计森林生物量。
+
 **关键词**：点云处理, 选择性状态空间模型, 森林生物量估计, LiDAR数据分析, 深度学习框架
 
 ## 3 点简述

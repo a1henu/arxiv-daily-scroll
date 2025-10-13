@@ -7,6 +7,7 @@ title: On Epistemic Uncertainty of Visual Tokens for Object Hallucinations in La
 **arXiv**：[2510.09008v1](https://arxiv.org/abs/2510.09008) · [PDF](https://arxiv.org/pdf/2510.09008.pdf)  
 **作者**：Hoigi Seo, Dong Un Kang, Hyunjin Cho, Joohoon Lee, Se Young Chun  
 **一句话要点**：提出视觉编码器修改策略以缓解大视觉语言模型中的物体幻觉问题
+
 **关键词**：大视觉语言模型, 物体幻觉, 视觉编码器, 对抗扰动, 自注意力掩码, 不确定性估计
 
 ## 3 点简述

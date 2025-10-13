@@ -7,6 +7,7 @@ title: PHyCLIP: $\ell_1$-Product of Hyperbolic Factors Unifies Hierarchy and Com
 **arXiv**：[2510.08919v1](https://arxiv.org/abs/2510.08919) · [PDF](https://arxiv.org/pdf/2510.08919.pdf)  
 **作者**：Daiki Yoshikawa, Takashi Matsubara  
 **一句话要点**：提出PHyCLIP以统一视觉语言表示中的层次性和组合性
+
 **关键词**：视觉语言表示学习, 双曲空间, 层次性建模, 组合性建模, 零样本分类, 嵌入可解释性
 
 ## 3 点简述

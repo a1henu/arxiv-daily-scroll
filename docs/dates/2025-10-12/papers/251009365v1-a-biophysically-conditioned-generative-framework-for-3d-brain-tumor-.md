@@ -7,6 +7,7 @@ title: A Biophysically-Conditioned Generative Framework for 3D Brain Tumor MRI S
 **arXiv**：[2510.09365v1](https://arxiv.org/abs/2510.09365) · [PDF](https://arxiv.org/pdf/2510.09365.pdf)  
 **作者**：Valentin Biller, Lucas Zimmer, Can Erdur, Sandeep Nagar, Daniel Rückert, Niklas Bubeck, Jonas Weidner  
 **一句话要点**：提出基于生物物理条件的生成框架，用于3D脑肿瘤MRI合成与健康组织修复
+
 **关键词**：脑肿瘤MRI合成, 潜在扩散模型, 生物物理条件, 健康组织修复, 3D图像生成
 
 ## 3 点简述

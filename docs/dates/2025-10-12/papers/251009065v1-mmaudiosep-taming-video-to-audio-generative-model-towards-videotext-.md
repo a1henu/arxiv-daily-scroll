@@ -7,6 +7,7 @@ title: MMAudioSep: Taming Video-to-Audio Generative Model Towards Video/Text-Que
 **arXiv**：[2510.09065v1](https://arxiv.org/abs/2510.09065) · [PDF](https://arxiv.org/pdf/2510.09065.pdf)  
 **作者**：Akira Takahashi, Shusuke Takahashi, Yuki Mitsufuji  
 **一句话要点**：提出MMAudioSep，基于预训练视频到音频模型实现视频/文本查询的声音分离。
+
 **关键词**：声音分离, 视频到音频生成, 预训练模型微调, 多模态查询, 生成模型
 
 ## 3 点简述

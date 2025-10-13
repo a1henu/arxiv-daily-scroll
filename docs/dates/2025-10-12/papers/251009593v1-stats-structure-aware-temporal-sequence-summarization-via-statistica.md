@@ -7,6 +7,7 @@ title: STaTS: Structure-Aware Temporal Sequence Summarization via Statistical Wi
 **arXiv**：[2510.09593v1](https://arxiv.org/abs/2510.09593) · [PDF](https://arxiv.org/pdf/2510.09593.pdf)  
 **作者**：Disharee Bhowmick, Ranjith Ramanathan, Sathyanarayanan N. Aakur  
 **一句话要点**：提出STaTS框架以高效压缩时间序列并保留结构信息
+
 **关键词**：时间序列压缩, 结构感知建模, 无监督学习, 变点检测, 计算效率优化
 
 ## 3 点简述

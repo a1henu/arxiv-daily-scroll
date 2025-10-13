@@ -7,6 +7,7 @@ title: Dyna-Mind: Learning to Simulate from Experience for Better AI Agents
 **arXiv**：[2510.09577v1](https://arxiv.org/abs/2510.09577) · [PDF](https://arxiv.org/pdf/2510.09577.pdf)  
 **作者**：Xiao Yu, Baolin Peng, Michel Galley, Hao Cheng, Qianhui Wu, Janardhan Kulkarni, Suman Nath, Zhou Yu, Jianfeng Gao  
 **一句话要点**：提出Dyna-Mind框架以提升AI代理在复杂交互任务中的推理与决策能力
+
 **关键词**：AI代理, 模拟推理, 强化学习, 长时程任务, 交互环境, 决策优化
 
 ## 3 点简述

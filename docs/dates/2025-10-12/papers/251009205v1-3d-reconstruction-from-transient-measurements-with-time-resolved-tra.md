@@ -7,6 +7,7 @@ title: 3D Reconstruction from Transient Measurements with Time-Resolved Transfor
 **arXiv**：[2510.09205v1](https://arxiv.org/abs/2510.09205) · [PDF](https://arxiv.org/pdf/2510.09205.pdf)  
 **作者**：Yue Li, Shida Sun, Yu Hong, Feihu Xu, Zhiwei Xiong  
 **一句话要点**：提出时间分辨Transformer以提升光子高效成像中的3D重建性能
+
 **关键词**：3D重建, 瞬态测量, 时间分辨Transformer, 非视距成像, 光子高效成像
 
 ## 3 点简述

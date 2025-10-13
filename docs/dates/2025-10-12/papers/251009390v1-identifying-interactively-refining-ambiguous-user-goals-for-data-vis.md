@@ -7,6 +7,7 @@ title: Identifying & Interactively Refining Ambiguous User Goals for Data Visual
 **arXiv**：[2510.09390v1](https://arxiv.org/abs/2510.09390) · [PDF](https://arxiv.org/pdf/2510.09390.pdf)  
 **作者**：Mert İnan, Anthony Sicilia, Alex Xie, Saujas Vaduguru, Daniel Fried, Malihe Alikhani  
 **一句话要点**：提出歧义分类与多轮对话方法，以提升数据可视化代码生成的准确性。
+
 **关键词**：数据可视化, 代码生成, 自然语言歧义, 多轮对话, 语用模型, 歧义分类
 
 ## 3 点简述

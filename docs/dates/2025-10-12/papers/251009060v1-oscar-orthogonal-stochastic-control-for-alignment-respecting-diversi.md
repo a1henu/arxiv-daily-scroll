@@ -7,6 +7,7 @@ title: OSCAR: Orthogonal Stochastic Control for Alignment-Respecting Diversity i
 **arXiv**：[2510.09060v1](https://arxiv.org/abs/2510.09060) · [PDF](https://arxiv.org/pdf/2510.09060.pdf)  
 **作者**：Jingxuan Wu, Zhenglin Wan, Xingrui Yu, Yuzhe Yang, Bo An, Ivor Tsang  
 **一句话要点**：提出正交随机控制方法以提升流匹配模型的多样性，同时保持图像质量和对齐性。
+
 **关键词**：流匹配模型, 多样性增强, 正交扰动, 文本到图像生成, 推理时控制, 图像质量保持
 
 ## 3 点简述

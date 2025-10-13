@@ -7,6 +7,7 @@ title: Speculative Jacobi-Denoising Decoding for Accelerating Autoregressive Tex
 **arXiv**：[2510.08994v1](https://arxiv.org/abs/2510.08994) · [PDF](https://arxiv.org/pdf/2510.08994.pdf)  
 **作者**：Yao Teng, Fuyun Wang, Xian Liu, Zhekai Chen, Han Shi, Yu Wang, Zhenguo Li, Weiyang Liu, Difan Zou, Xihui Liu  
 **一句话要点**：提出推测性雅可比去噪解码以加速自回归文本到图像生成
+
 **关键词**：自回归模型, 文本到图像生成, 推理加速, 雅可比迭代, 去噪解码
 
 ## 3 点简述

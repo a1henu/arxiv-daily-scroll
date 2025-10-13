@@ -7,6 +7,7 @@ title: Towards Safer and Understandable Driver Intention Prediction
 **arXiv**：[2510.09200v1](https://arxiv.org/abs/2510.09200) · [PDF](https://arxiv.org/pdf/2510.09200.pdf)  
 **作者**：Mukilan Karuppasamy, Shankar Gangisetty, Shyam Nandan Rai, Carlo Masone, C V Jawahar  
 **一句话要点**：提出可解释驾驶意图预测框架VCBM，提升自动驾驶安全性。
+
 **关键词**：自动驾驶, 意图预测, 可解释AI, 多模态数据集, Transformer模型
 
 ## 3 点简述

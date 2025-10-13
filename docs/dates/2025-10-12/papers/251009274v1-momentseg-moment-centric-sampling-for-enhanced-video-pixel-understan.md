@@ -7,6 +7,7 @@ title: MomentSeg: Moment-Centric Sampling for Enhanced Video Pixel Understanding
 **arXiv**：[2510.09274v1](https://arxiv.org/abs/2510.09274) · [PDF](https://arxiv.org/pdf/2510.09274.pdf)  
 **作者**：Ming Dai, Sen Yang, Boqiang Duan, Wankou Yang, Jingdong Wang  
 **一句话要点**：提出MomentSeg框架，通过关键时刻采样优化视频像素理解，解决RefVOS中的时序推理问题。
+
 **关键词**：视频对象分割, 时序句子定位, 关键时刻采样, 双向传播, 语言引导分割, 视频理解
 
 ## 3 点简述

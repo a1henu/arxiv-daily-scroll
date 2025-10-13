@@ -7,6 +7,7 @@ title: GL-DT: Multi-UAV Detection and Tracking with Global-Local Integration
 **arXiv**：[2510.09092v1](https://arxiv.org/abs/2510.09092) · [PDF](https://arxiv.org/pdf/2510.09092.pdf)  
 **作者**：Juanqin Liu, Leonardo Plotegher, Eloy Roura, Shaoming He  
 **一句话要点**：提出GL-DT框架以解决无人机多目标检测与跟踪中的小目标和轨迹中断问题
+
 **关键词**：多目标跟踪, 无人机检测, 时空特征融合, 小目标检测, 轨迹连续性
 
 ## 3 点简述

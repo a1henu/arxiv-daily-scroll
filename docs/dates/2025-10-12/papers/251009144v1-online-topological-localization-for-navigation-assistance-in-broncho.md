@@ -7,6 +7,7 @@ title: Online Topological Localization for Navigation Assistance in Bronchoscopy
 **arXiv**：[2510.09144v1](https://arxiv.org/abs/2510.09144) · [PDF](https://arxiv.org/pdf/2510.09144.pdf)  
 **作者**：Clara Tomasini, Luis Riazuelo, Ana C. Murillo  
 **一句话要点**：提出基于图像的支气管镜拓扑定位方法，用于术中导航辅助，无需患者CT扫描。
+
 **关键词**：支气管镜导航, 拓扑定位, 图像处理, 医学影像, 无CT扫描, 泛化能力
 
 ## 3 点简述

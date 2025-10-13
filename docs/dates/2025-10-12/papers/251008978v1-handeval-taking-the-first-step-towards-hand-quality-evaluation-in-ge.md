@@ -7,6 +7,7 @@ title: HandEval: Taking the First Step Towards Hand Quality Evaluation in Genera
 **arXiv**：[2510.08978v1](https://arxiv.org/abs/2510.08978) · [PDF](https://arxiv.org/pdf/2510.08978.pdf)  
 **作者**：Zichuan Wang, Bo Peng, Songlin Yang, Zhenchen Tang, Jing Dong  
 **一句话要点**：提出HandEval以评估生成图像中手部质量，提升下游任务性能
+
 **关键词**：手部质量评估, 文本到图像生成, 多模态大语言模型, AIGC检测, 数据集构建
 
 ## 3 点简述

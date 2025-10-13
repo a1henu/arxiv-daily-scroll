@@ -7,6 +7,7 @@ title: Tag-Enriched Multi-Attention with Large Language Models for Cross-Domain 
 **arXiv**：[2510.09224v1](https://arxiv.org/abs/2510.09224) · [PDF](https://arxiv.org/pdf/2510.09224.pdf)  
 **作者**：Wangyu Wu, Xuhang Chen, Zhenhong Chen, Jing-En Jiang, Kim-Fung Tsang, Xiaowei Huang, Fei Ma, Jimin Xiao  
 **一句话要点**：提出TEMA-LLM框架，利用大语言模型生成语义标签以提升跨域序列推荐性能
+
 **关键词**：跨域序列推荐, 大语言模型, 语义标签, 多注意力机制, 电商推荐
 
 ## 3 点简述

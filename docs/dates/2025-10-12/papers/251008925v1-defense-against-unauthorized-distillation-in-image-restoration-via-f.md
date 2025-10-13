@@ -7,6 +7,7 @@ title: Defense against Unauthorized Distillation in Image Restoration via Featur
 **arXiv**：[2510.08925v1](https://arxiv.org/abs/2510.08925) · [PDF](https://arxiv.org/pdf/2510.08925.pdf)  
 **作者**：Han Hu, Zhuoran Zheng, Chen Lyu  
 **一句话要点**：提出自适应奇异值扰动以防御图像恢复模型的知识蒸馏攻击
+
 **关键词**：图像恢复, 知识蒸馏防御, 奇异值分解, 特征扰动, 模型保护
 
 ## 3 点简述

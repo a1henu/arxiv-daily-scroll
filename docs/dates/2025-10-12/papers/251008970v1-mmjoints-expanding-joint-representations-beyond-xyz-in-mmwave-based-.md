@@ -7,6 +7,7 @@ title: mmJoints: Expanding Joint Representations Beyond (x,y,z) in mmWave-Based 
 **arXiv**：[2510.08970v1](https://arxiv.org/abs/2510.08970) · [PDF](https://arxiv.org/pdf/2510.08970.pdf)  
 **作者**：Zhenyu Wang, Mahathir Monjur, Shahriar Nirjon  
 **一句话要点**：提出mmJoints框架，通过增强关节描述符提升毫米波3D姿态估计的可靠性和下游任务性能
+
 **关键词**：毫米波3D姿态估计, 关节描述符, 可解释性增强, 活动识别, 可靠性估计
 
 ## 3 点简述

@@ -49,7 +49,7 @@ def render_paper_md(p: Dict[str, Any]) -> str:
     if headline:
         lines.append(f"**一句话要点**：{md_escape(headline)}")
     if tags:
-        lines.append(f"**关键词**：{', '.join(tags)}")
+        lines.append(f"\n**关键词**：{', '.join(tags)}")
     lines.append("")
     if intro and isinstance(intro, list):
         lines.append("## 3 点简述")

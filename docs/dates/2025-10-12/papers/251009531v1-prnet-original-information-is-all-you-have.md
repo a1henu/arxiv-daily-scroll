@@ -7,6 +7,7 @@ title: PRNet: Original Information Is All You Have
 **arXiv**：[2510.09531v1](https://arxiv.org/abs/2510.09531) · [PDF](https://arxiv.org/pdf/2510.09531.pdf)  
 **作者**：PeiHuang Zheng, Yunlong Zhao, Zheng Cui, Yang Li  
 **一句话要点**：提出PRNet以解决航拍图像小目标检测中的信息退化问题
+
 **关键词**：小目标检测, 航拍图像, 特征对齐, 实时检测, 渐进细化, 信息保留
 
 ## 3 点简述

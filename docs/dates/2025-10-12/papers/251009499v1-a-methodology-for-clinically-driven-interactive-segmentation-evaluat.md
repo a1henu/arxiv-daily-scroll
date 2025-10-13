@@ -7,6 +7,7 @@ title: A methodology for clinically driven interactive segmentation evaluation
 **arXiv**：[2510.09499v1](https://arxiv.org/abs/2510.09499) · [PDF](https://arxiv.org/pdf/2510.09499.pdf)  
 **作者**：Parhom Esmaeili, Virginia Fernandez, Pedro Borges, Eli Gibson, Sebastien Ourselin, M. Jorge Cardoso  
 **一句话要点**：提出临床驱动的交互式分割评估方法以解决医学图像分割评估不一致问题
+
 **关键词**：交互式分割, 医学图像评估, 临床驱动方法, 标准化框架, 模型鲁棒性
 
 ## 3 点简述
