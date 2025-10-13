@@ -1,9 +1,9 @@
 ---
 layout: default
-title: arXiv·cs.CV 中文要点汇总
+title: arXiv·cs.CV 中文要点汇总（with DeepSeek）
 ---
 
-# arXiv·cs.CV 中文要点汇总
+# arXiv·cs.CV 中文要点汇总（with DeepSeek）
 
 > 支持多日期切换：从下拉菜单选择某一天进入该日目录页（含所有论文条目与详情页）。
 

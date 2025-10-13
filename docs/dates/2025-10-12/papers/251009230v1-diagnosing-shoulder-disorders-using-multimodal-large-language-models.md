@@ -6,14 +6,15 @@ title: Diagnosing Shoulder Disorders Using Multimodal Large Language Models and 
 # Diagnosing Shoulder Disorders Using Multimodal Large Language Models and Consumer-Grade Cameras
 **arXiv**：[2510.09230v1](https://arxiv.org/abs/2510.09230) · [PDF](https://arxiv.org/pdf/2510.09230.pdf)  
 **作者**：Jindong Hong, Wencheng Zhang, Shiqin Qiao, Jianhai Chen, Jianing Qiu, Chuanyang Zheng, Qian Xu, Yun Ji, Qianyue Wen, Weiwei Sun, Hao Li, Huizhen Li, Huichao Wang, Kai Wu, Meng Li, Yijun He, Lingjie Luo, Jiankai Sun  
-**一句话要点**：提出HMVDx框架，利用消费级摄像头和MLLMs辅助诊断肩部疾病。
 
-**关键词**：多模态大语言模型, 肩部疾病诊断, 消费级摄像头, 视频理解, 医疗辅助诊断, 可用性指标
+**一句话要点**：提出HMVDx框架，使用消费级摄像头和MLLMs辅助诊断肩部疾病。
+
+**关键词**：多模态大语言模型, 肩部疾病诊断, 消费级摄像头, 视频理解, 医疗辅助诊断
 
 ## 3 点简述
-- 核心问题：医疗资源稀缺地区肩部疾病早期诊断困难，需低成本可扩展方案。
-- 方法要点：使用消费级摄像头视频，通过HMVDx框架分割动作理解和疾病诊断任务。
-- 实验或效果：HMVDx诊断准确率比直接视频诊断提升79.6%，提出可用性指标评估。
+- 核心问题：医疗资源稀缺地区肩部疾病早期诊断成本高、难度大。
+- 方法要点：HMVDx框架分动作理解和疾病诊断两任务，由两个MLLMs完成。
+- 实验或效果：HMVDx诊断准确率比直接视频诊断提升79.6%。
 
 ## 摘要（原文）
 

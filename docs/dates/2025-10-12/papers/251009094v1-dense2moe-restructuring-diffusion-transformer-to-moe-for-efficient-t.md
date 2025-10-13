@@ -6,13 +6,14 @@ title: Dense2MoE: Restructuring Diffusion Transformer to MoE for Efficient Text-
 # Dense2MoE: Restructuring Diffusion Transformer to MoE for Efficient Text-to-Image Generation
 **arXiv**：[2510.09094v1](https://arxiv.org/abs/2510.09094) · [PDF](https://arxiv.org/pdf/2510.09094.pdf)  
 **作者**：Youwei Zheng, Yuxi Ren, Xin Xia, Xuefeng Xiao, Xiaohua Xie  
+
 **一句话要点**：提出Dense2MoE将扩散Transformer转换为MoE结构以高效文本到图像生成
 
 **关键词**：文本到图像生成, 扩散Transformer, 专家混合, 结构化稀疏化, 知识蒸馏, 参数效率
 
 ## 3 点简述
 - 扩散Transformer参数大导致推理开销高，现有剪枝方法易造成性能下降
-- 将DiT块中前馈网络替换为MoE层，并引入块混合选择性激活以结构化稀疏化
+- 将DiT块中前馈网络替换为MoE层，并引入混合块选择性激活以结构化稀疏化
 - 实验显示激活参数减少60%，性能保持原水平，优于剪枝方法
 
 ## 摘要（原文）

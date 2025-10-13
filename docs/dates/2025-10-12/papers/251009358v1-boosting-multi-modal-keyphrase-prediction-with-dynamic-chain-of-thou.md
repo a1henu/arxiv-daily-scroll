@@ -6,14 +6,15 @@ title: Boosting Multi-modal Keyphrase Prediction with Dynamic Chain-of-Thought i
 # Boosting Multi-modal Keyphrase Prediction with Dynamic Chain-of-Thought in Vision-Language Models
 **arXiv**：[2510.09358v1](https://arxiv.org/abs/2510.09358) · [PDF](https://arxiv.org/pdf/2510.09358.pdf)  
 **作者**：Qihang Ma, Shengyu Li, Jie Tang, Dingkang Yang, Shaodong Chen, Yingyi Zhang, Chao Feng, Jiao Ran  
-**一句话要点**：提出动态思维链策略以提升视觉语言模型在多模态关键词预测中的推理能力
 
-**关键词**：多模态关键词预测, 视觉语言模型, 思维链推理, 动态训练策略, 模型微调
+**一句话要点**：提出动态思维链策略以提升多模态关键词预测在视觉语言模型中的性能
+
+**关键词**：多模态关键词预测, 视觉语言模型, 思维链, 动态推理, 微调策略, 基准评估
 
 ## 3 点简述
-- 核心问题：传统多模态方法在缺失和未见场景中表现不佳，且基准测试高估模型能力
-- 方法要点：采用零样本和监督微调评估基线，并引入动态思维链策略优化推理过程
-- 实验或效果：在多个数据集上验证了方法的有效性，代码已开源
+- 多模态关键词预测面临模态缺失和未见场景的挑战，现有基准高估模型能力
+- 采用零样本和微调评估基线，引入Fine-tune-CoT和动态CoT增强推理能力
+- 实验验证动态CoT策略有效，代码已开源
 
 ## 摘要（原文）
 

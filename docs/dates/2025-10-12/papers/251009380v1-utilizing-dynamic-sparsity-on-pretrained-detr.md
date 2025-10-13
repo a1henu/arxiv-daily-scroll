@@ -6,14 +6,15 @@ title: Utilizing dynamic sparsity on pretrained DETR
 # Utilizing dynamic sparsity on pretrained DETR
 **arXiv**：[2510.09380v1](https://arxiv.org/abs/2510.09380) · [PDF](https://arxiv.org/pdf/2510.09380.pdf)  
 **作者**：Reza Sedghi, Anand Subramoney, David Kappel  
+
 **一句话要点**：提出动态稀疏化方法以提升预训练DETR在目标检测中的推理效率
 
-**关键词**：动态稀疏化, DETR模型, 目标检测, 推理效率, 预训练模型, COCO数据集
+**关键词**：动态稀疏化, DETR模型, 目标检测, 推理效率, 门控机制, COCO数据集
 
 ## 3 点简述
 - 核心问题：Transformer模型在视觉任务中推理效率低，尤其DETR的MLP层存在固有稀疏性。
-- 方法要点：引入SIBS和MGS方法，利用固定或动态预测实现激活稀疏化，无需重新训练模型。
-- 实验或效果：在COCO数据集上，MGS实现85-95%稀疏度，保持或提升性能并显著减少计算。
+- 方法要点：引入SIBS和MGS，MGS使用轻量门控机制预测动态稀疏，无需完整重训练。
+- 实验效果：在COCO数据集上，MGS实现85-95%激活稀疏，保持或提升性能并减少计算。
 
 ## 摘要（原文）
 

@@ -6,14 +6,15 @@ title: StreamingVLM: Real-Time Understanding for Infinite Video Streams
 # StreamingVLM: Real-Time Understanding for Infinite Video Streams
 **arXiv**：[2510.09608v1](https://arxiv.org/abs/2510.09608) · [PDF](https://arxiv.org/pdf/2510.09608.pdf)  
 **作者**：Ruyi Xu, Guangxuan Xiao, Yukang Chen, Liuning He, Kelly Peng, Yao Lu, Song Han  
-**一句话要点**：提出StreamingVLM以解决无限视频流实时理解中的延迟与内存问题
 
-**关键词**：无限视频流理解, 实时视觉语言模型, KV缓存优化, 监督微调, 长视频基准评估
+**一句话要点**：提出StreamingVLM以实时理解无限视频流，解决延迟与内存问题。
+
+**关键词**：流式视觉语言模型, 长视频理解, 实时推理, KV缓存优化, 监督微调, 基准评估
 
 ## 3 点简述
-- 核心问题：处理无限视频流时，全注意力导致计算成本高且长视频性能差。
-- 方法要点：使用KV缓存和监督微调，对齐训练与推理，实现实时稳定理解。
-- 实验或效果：在Inf-Streams-Eval基准上胜率66.18%，实时性能达8 FPS。
+- 核心问题：传统VLM处理长视频时计算成本高、性能差，滑动窗口方法破坏连贯性或延迟高。
+- 方法要点：采用统一框架，通过SFT训练模拟流式推理，维护紧凑KV缓存以重用注意力状态。
+- 实验效果：在Inf-Streams-Eval基准上胜率66.18%，实时性能达8 FPS，并提升通用VQA能力。
 
 ## 摘要（原文）
 

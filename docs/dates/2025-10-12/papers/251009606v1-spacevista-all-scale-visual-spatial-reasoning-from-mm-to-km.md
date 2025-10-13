@@ -6,6 +6,7 @@ title: SpaceVista: All-Scale Visual Spatial Reasoning from mm to km
 # SpaceVista: All-Scale Visual Spatial Reasoning from mm to km
 **arXiv**：[2510.09606v1](https://arxiv.org/abs/2510.09606) · [PDF](https://arxiv.org/pdf/2510.09606.pdf)  
 **作者**：Peiwen Sun, Shiqiang Lang, Dongming Wu, Yi Ding, Kaituo Feng, Huadai Liu, Zhen Ye, Rui Liu, Yun-Hui Liu, Jianan Wang, Xiangyu Yue  
+
 **一句话要点**：提出SpaceVista以解决全尺度视觉空间推理问题，涵盖毫米到千米场景。
 
 **关键词**：全尺度空间推理, 尺度感知建模, 渐进训练, 空间问答数据集, 多模态大语言模型, 视觉基准测试
@@ -13,7 +14,7 @@ title: SpaceVista: All-Scale Visual Spatial Reasoning from mm to km
 ## 3 点简述
 - 核心问题：依赖室内3D扫描和手动标注，缺乏有效全尺度场景建模。
 - 方法要点：集成结构化知识系统、尺度感知建模和渐进训练范式。
-- 实验或效果：在5个基准测试中表现竞争性，展示跨尺度泛化能力。
+- 实验或效果：在5个基准测试中表现竞争性，展示全尺度和场景泛化能力。
 
 ## 摘要（原文）
 

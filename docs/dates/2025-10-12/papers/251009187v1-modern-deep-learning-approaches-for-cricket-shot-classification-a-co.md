@@ -6,14 +6,15 @@ title: Modern Deep Learning Approaches for Cricket Shot Classification: A Compre
 # Modern Deep Learning Approaches for Cricket Shot Classification: A Comprehensive Baseline Study
 **arXiv**：[2510.09187v1](https://arxiv.org/abs/2510.09187) · [PDF](https://arxiv.org/pdf/2510.09187.pdf)  
 **作者**：Sungwoo Kang  
+
 **一句话要点**：提出现代深度学习基线研究，系统比较七种方法以解决板球击球分类问题。
 
 **关键词**：板球击球分类, 深度学习基线, 时空特征建模, 标准化评估, EfficientNet-GRU, 视频分析
 
 ## 3 点简述
 - 核心问题：板球击球视频分类需建模时空特征，现有文献与实际性能存在显著差距。
-- 方法要点：比较CNN-LSTM、注意力模型、视觉Transformer等七种方法，采用EfficientNet-GRU组合。
-- 实验或效果：现代SOTA方法达92.25%准确率，标准化评估揭示性能差异。
+- 方法要点：比较CNN-LSTM、注意力模型、视觉Transformer、迁移学习及EfficientNet-GRU组合。
+- 实验效果：现代SOTA方法达92.25%准确率，强调标准化评估协议的重要性。
 
 ## 摘要（原文）
 

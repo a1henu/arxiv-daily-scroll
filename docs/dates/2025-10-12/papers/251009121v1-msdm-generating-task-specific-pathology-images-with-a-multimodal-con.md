@@ -6,14 +6,15 @@ title: MSDM: Generating Task-Specific Pathology Images with a Multimodal Conditi
 # MSDM: Generating Task-Specific Pathology Images with a Multimodal Conditioned Diffusion Model for Cell and Nuclei Segmentation
 **arXiv**：[2510.09121v1](https://arxiv.org/abs/2510.09121) · [PDF](https://arxiv.org/pdf/2510.09121.pdf)  
 **作者**：Dominik Winter, Mai Bui, Monica Azqueta Gavaldon, Nicolas Triltsch, Marco Rosati, Nicolas Brieu  
+
 **一句话要点**：提出多模态语义扩散模型以生成病理图像-掩码对，提升细胞和核分割性能
 
 **关键词**：计算病理学, 扩散模型, 细胞分割, 合成数据生成, 多模态条件生成
 
 ## 3 点简述
-- 细胞和核分割面临标注数据稀缺问题，尤其对罕见形态
-- 模型融合形态、颜色和元数据，通过多模态条件生成图像-掩码对
-- 合成数据显著改善分割模型准确性，如柱状细胞示例
+- 核心问题：标注数据稀缺，尤其对罕见或非典型形态细胞和核分割构成挑战
+- 方法要点：使用多模态条件扩散模型，整合形态、颜色和元数据生成图像-掩码对
+- 实验或效果：合成图像与真实数据相似，显著提高分割模型在特定细胞上的准确率
 
 ## 摘要（原文）
 

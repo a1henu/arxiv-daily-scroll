@@ -6,13 +6,14 @@ title: Instance-Level Generation for Representation Learning
 # Instance-Level Generation for Representation Learning
 **arXiv**：[2510.09171v1](https://arxiv.org/abs/2510.09171) · [PDF](https://arxiv.org/pdf/2510.09171.pdf)  
 **作者**：Yankun Wu, Zakaria Laskar, Giorgos Kordopatis-Zilos, Noa Garcia, Giorgos Tolias  
+
 **一句话要点**：提出实例级生成方法以解决细粒度识别中数据稀缺问题
 
-**关键词**：实例级识别, 数据合成, 表示学习, 跨领域检索, 细粒度分类
+**关键词**：实例级识别, 数据合成, 表示学习, 跨领域检索, 基础模型微调
 
 ## 3 点简述
 - 核心问题：实例级识别因细粒度特性导致大规模标注数据获取困难，限制跨领域应用。
-- 方法要点：无需真实图像，合成多领域对象实例，构建大规模训练集用于表示学习。
+- 方法要点：无需真实图像，合成多领域、多条件下的对象实例，构建大规模训练集。
 - 实验或效果：在七个ILR基准上微调基础模型，显著提升检索性能。
 
 ## 摘要（原文）

@@ -6,14 +6,15 @@ title: Unleashing Perception-Time Scaling to Multimodal Reasoning Models
 # Unleashing Perception-Time Scaling to Multimodal Reasoning Models
 **arXiv**：[2510.08964v1](https://arxiv.org/abs/2510.08964) · [PDF](https://arxiv.org/pdf/2510.08964.pdf)  
 **作者**：Yifan Li, Zhenghao Chen, Ziheng Wu, Kun Zhou, Ruipu Luo, Can Zhang, Zhentao He, Yufei Zhan, Wayne Xin Zhao, Minghui Qiu  
-**一句话要点**：提出感知时缩放以提升多模态模型的视觉感知精度
 
-**关键词**：感知时缩放, 多模态推理, 视觉估计, 强化学习, 基准评估
+**一句话要点**：提出感知时间缩放以提升多模态模型的视觉感知精度
+
+**关键词**：感知时间缩放, 多模态推理, 视觉估计, 强化学习, 基准评估, 合成数据
 
 ## 3 点简述
-- 当前大视觉语言模型在视觉估计任务中精度有限，推理时缩放效果不佳
-- 引入感知时缩放，分解复杂感知问题为可处理子问题，结合强化学习
-- 在DisTANCE基准上高精度性能从8.0%提升至64.7%，泛化能力强
+- 核心问题：当前大视觉语言模型在视觉感知任务中精度有限，推理时间缩放效果不佳。
+- 方法要点：引入感知时间缩放，分解复杂感知问题为可处理子问题，结合强化学习。
+- 实验或效果：在DisTANCE基准上高精度性能从8.0%提升至64.7%，泛化能力强。
 
 ## 摘要（原文）
 

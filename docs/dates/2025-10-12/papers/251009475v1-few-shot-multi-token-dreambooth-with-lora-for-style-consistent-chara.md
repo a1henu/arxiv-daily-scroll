@@ -6,13 +6,14 @@ title: Few-shot multi-token DreamBooth with LoRa for style-consistent character 
 # Few-shot multi-token DreamBooth with LoRa for style-consistent character generation
 **arXiv**：[2510.09475v1](https://arxiv.org/abs/2510.09475) · [PDF](https://arxiv.org/pdf/2510.09475.pdf)  
 **作者**：Ruben Pascual, Mikel Sesma-Sara, Aranzazu Jurio, Daniel Paternain, Mikel Galar  
+
 **一句话要点**：提出多令牌DreamBooth与LoRA方法，解决少样本风格一致角色生成问题
 
 **关键词**：少样本学习, 角色生成, 风格一致性, DreamBooth, LoRA微调, 多令牌策略
 
 ## 3 点简述
 - 核心问题：从少量参考角色生成无限新角色，需保持艺术风格和共享视觉特征
-- 方法要点：结合多令牌策略和LoRA微调，移除类正则化并使用随机令牌增强生成
+- 方法要点：结合多令牌策略和LoRA微调，移除类特定正则化，引入随机令牌
 - 实验或效果：在五个数据集上评估，定量和人类评估显示高质多样角色生成
 
 ## 摘要（原文）

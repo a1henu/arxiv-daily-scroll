@@ -6,14 +6,15 @@ title: Dyna-Mind: Learning to Simulate from Experience for Better AI Agents
 # Dyna-Mind: Learning to Simulate from Experience for Better AI Agents
 **arXiv**：[2510.09577v1](https://arxiv.org/abs/2510.09577) · [PDF](https://arxiv.org/pdf/2510.09577.pdf)  
 **作者**：Xiao Yu, Baolin Peng, Michel Galley, Hao Cheng, Qianhui Wu, Janardhan Kulkarni, Suman Nath, Zhou Yu, Jianfeng Gao  
+
 **一句话要点**：提出Dyna-Mind框架以提升AI代理在复杂交互任务中的推理与决策能力
 
-**关键词**：AI代理, 模拟推理, 强化学习, 长时程任务, 交互环境, 决策优化
+**关键词**：AI代理, 模拟推理, 强化学习, 长视野任务, 交互环境, 决策优化
 
 ## 3 点简述
-- 核心问题：AI代理在数学和编码领域表现优异，但在长时程交互任务中性能不足。
-- 方法要点：采用两阶段训练，先通过ReSim学习基于经验的模拟推理，再通过Dyna-GRPO强化决策。
-- 实验效果：在Sokoban、ALFWorld和AndroidWorld基准测试中验证了模拟能力的有效性和策略改进。
+- 核心问题：AI代理在数学和编码领域表现优异，但在长视野交互任务中性能不足。
+- 方法要点：采用两阶段训练，先通过ReSim学习模拟推理，再以Dyna-GRPO强化决策。
+- 实验或效果：在合成和真实基准测试中验证了模拟能力提升和策略优化效果。
 
 ## 摘要（原文）
 

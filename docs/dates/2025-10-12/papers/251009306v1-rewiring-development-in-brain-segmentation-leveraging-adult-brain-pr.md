@@ -6,14 +6,15 @@ title: Rewiring Development in Brain Segmentation: Leveraging Adult Brain Priors
 # Rewiring Development in Brain Segmentation: Leveraging Adult Brain Priors for Enhancing Infant MRI Segmentation
 **arXiv**：[2510.09306v1](https://arxiv.org/abs/2510.09306) · [PDF](https://arxiv.org/pdf/2510.09306.pdf)  
 **作者**：Alemu Sisay Nigru, Michele Svanera, Austin Dibble, Connor Dalby, Mattia Savardi, Sergio Benini  
+
 **一句话要点**：提出LODi框架，利用成人脑MRI先验增强婴儿脑MRI分割性能
 
-**关键词**：脑MRI分割, 迁移学习, 弱监督学习, 婴儿神经影像, 领域适应, 成人脑先验
+**关键词**：脑MRI分割, 迁移学习, 弱监督学习, 婴儿神经影像, 领域适应, 特征精炼
 
 ## 3 点简述
-- 婴儿脑MRI分割面临解剖变化、运动伪影和标注数据稀缺的挑战
-- 通过成人模型预训练、迁移学习和弱监督适应，实现年龄自适应分割
-- 在内外数据集上优于传统监督学习和领域特定模型，提升泛化性
+- 婴儿脑MRI分割面临解剖变化、运动伪影和标注数据稀缺等挑战
+- 通过成人脑分割模型预训练，结合迁移学习和弱监督适应婴儿数据
+- 实验显示优于传统监督学习和领域特定模型，提升分割准确性和泛化性
 
 ## 摘要（原文）
 

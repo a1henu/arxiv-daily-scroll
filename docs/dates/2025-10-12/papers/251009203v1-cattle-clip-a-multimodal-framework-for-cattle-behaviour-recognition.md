@@ -6,14 +6,15 @@ title: Cattle-CLIP: A Multimodal Framework for Cattle Behaviour Recognition
 # Cattle-CLIP: A Multimodal Framework for Cattle Behaviour Recognition
 **arXiv**：[2510.09203v1](https://arxiv.org/abs/2510.09203) · [PDF](https://arxiv.org/pdf/2510.09203.pdf)  
 **作者**：Huimin Liu, Jing Gao, Daria Baran, AxelX Montout, Neill W Campbell, Andrew W Dowsey  
-**一句话要点**：提出Cattle-CLIP多模态框架，用于提升牛只行为识别的准确性和泛化能力。
 
-**关键词**：多模态学习, 牛只行为识别, CLIP模型, 时间集成, 少样本学习, 数据增强
+**一句话要点**：提出Cattle-CLIP多模态框架，以提升牛只行为识别的准确性和泛化能力。
+
+**关键词**：多模态学习, 牛只行为识别, CLIP模型, 时间集成, 少样本学习, 农业监控
 
 ## 3 点简述
-- 核心问题：牛只行为识别在数据稀缺场景下准确率不足，影响动物健康监测。
-- 方法要点：基于CLIP模型，添加时间集成模块，并采用数据增强和文本提示优化。
-- 实验或效果：在CattleBehaviours6数据集上，监督学习准确率达96.1%，少样本学习泛化强。
+- 核心问题：牛只行为识别对健康和生产力监测至关重要，但数据稀缺和领域差异是挑战。
+- 方法要点：基于CLIP模型，添加时间集成模块，并采用数据增强和专用文本提示。
+- 实验或效果：在CattleBehaviours6数据集上，监督学习准确率达96.1%，少样本场景泛化强。
 
 ## 摘要（原文）
 

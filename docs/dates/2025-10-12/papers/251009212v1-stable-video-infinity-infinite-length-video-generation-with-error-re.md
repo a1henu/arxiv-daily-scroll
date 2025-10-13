@@ -6,14 +6,15 @@ title: Stable Video Infinity: Infinite-Length Video Generation with Error Recycl
 # Stable Video Infinity: Infinite-Length Video Generation with Error Recycling
 **arXiv**：[2510.09212v1](https://arxiv.org/abs/2510.09212) · [PDF](https://arxiv.org/pdf/2510.09212.pdf)  
 **作者**：Wuyang Li, Wentao Pan, Po-Chien Luan, Yang Gao, Alexandre Alahi  
+
 **一句话要点**：提出Stable Video Infinity，通过错误回收微调实现无限长度视频生成
 
-**关键词**：无限视频生成, 错误回收微调, 扩散变换器, 自回归学习, 流匹配, 条件生成
+**关键词**：无限视频生成, 错误回收微调, 扩散变换器, 自回归学习, 流匹配
 
 ## 3 点简述
-- 核心问题：训练假设与自回归生成间的误差累积和假设差距限制长视频质量
-- 方法要点：引入错误回收微调，将自生成错误作为监督提示，促进模型主动纠错
-- 实验或效果：在多个基准测试中验证其多功能性和先进性能，支持无限时长生成
+- 核心问题：训练假设与自回归生成间的误差累积和场景同质化问题
+- 方法要点：采用错误回收微调，将自生成错误作为监督提示进行训练
+- 实验或效果：在多个基准测试中验证其多功能性和先进性能
 
 ## 摘要（原文）
 

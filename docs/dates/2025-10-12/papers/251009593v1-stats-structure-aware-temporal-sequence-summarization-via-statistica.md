@@ -6,14 +6,15 @@ title: STaTS: Structure-Aware Temporal Sequence Summarization via Statistical Wi
 # STaTS: Structure-Aware Temporal Sequence Summarization via Statistical Window Merging
 **arXiv**：[2510.09593v1](https://arxiv.org/abs/2510.09593) · [PDF](https://arxiv.org/pdf/2510.09593.pdf)  
 **作者**：Disharee Bhowmick, Ranjith Ramanathan, Sathyanarayanan N. Aakur  
-**一句话要点**：提出STaTS框架以高效压缩时间序列并保留结构信息
+
+**一句话要点**：提出STaTS框架以解决时间序列结构感知压缩问题
 
 **关键词**：时间序列压缩, 结构感知建模, 无监督学习, 变点检测, 计算效率优化
 
 ## 3 点简述
-- 时间序列数据常含潜在结构，但现有方法处理效率低且鲁棒性差
-- 使用统计差异检测变点，自适应压缩为紧凑令牌序列
-- 实验显示压缩达30倍，保持85-90%性能，提升噪声鲁棒性
+- 时间序列数据常含潜在结构，但现有方法忽略结构导致效率低和鲁棒性差
+- STaTS使用统计差异准则检测变点，并自适应压缩为信息保留的令牌序列
+- 实验显示STaTS在150+数据集上实现高压缩比，保持85-90%性能并提升鲁棒性
 
 ## 摘要（原文）
 

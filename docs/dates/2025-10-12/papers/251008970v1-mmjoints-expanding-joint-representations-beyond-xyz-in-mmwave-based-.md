@@ -6,14 +6,15 @@ title: mmJoints: Expanding Joint Representations Beyond (x,y,z) in mmWave-Based 
 # mmJoints: Expanding Joint Representations Beyond (x,y,z) in mmWave-Based 3D Pose Estimation
 **arXiv**：[2510.08970v1](https://arxiv.org/abs/2510.08970) · [PDF](https://arxiv.org/pdf/2510.08970.pdf)  
 **作者**：Zhenyu Wang, Mahathir Monjur, Shahriar Nirjon  
+
 **一句话要点**：提出mmJoints框架，通过增强关节描述符提升毫米波3D姿态估计的可靠性和下游任务性能
 
-**关键词**：毫米波3D姿态估计, 关节描述符, 可解释性增强, 活动识别, 可靠性估计
+**关键词**：毫米波3D姿态估计, 关节描述符, 可解释性增强, 下游任务优化, 可靠性估计
 
 ## 3 点简述
-- 毫米波姿态估计中，稀疏信号和弱反射导致模型过度依赖统计先验，影响下游任务性能
-- mmJoints框架估计关节被感知的可能性和位置可靠性，增强输出可解释性
-- 实验显示，mmJoints降低描述符误差至4.2%以下，提升姿态和活动识别准确率
+- 毫米波姿态估计中，稀疏信号导致模型过度依赖先验知识，影响下游任务准确性
+- mmJoints估计关节被感知的可能性和位置可靠性，增强输出可解释性
+- 实验显示，mmJoints降低描述符误差至4.2%以下，提升位置精度和活动识别性能
 
 ## 摘要（原文）
 

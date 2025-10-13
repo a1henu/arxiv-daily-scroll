@@ -6,14 +6,15 @@ title: Denoised Diffusion for Object-Focused Image Augmentation
 # Denoised Diffusion for Object-Focused Image Augmentation
 **arXiv**：[2510.08955v1](https://arxiv.org/abs/2510.08955) · [PDF](https://arxiv.org/pdf/2510.08955.pdf)  
 **作者**：Nisha Pillai, Aditi Virupakshaiah, Harrison W. Smith, Amanda J. Ashworth, Prasanna Gowda, Phillip R. Owens, Adam R. Rivers, Bindu Nanduri, Mahalingam Ramkumar  
+
 **一句话要点**：提出对象聚焦数据增强框架以解决农业动物健康监测中数据稀缺问题
 
-**关键词**：数据增强, 动物健康监测, 扩散模型, 对象分割, 农业无人机, 小样本学习
+**关键词**：数据增强, 动物检测, 扩散模型, 农业监测, 对象分割
 
 ## 3 点简述
-- 核心问题：农业无人机监测中动物数据稀缺，受限于小、遮挡或部分可见动物。
-- 方法要点：分割动物并应用变换和扩散合成，生成真实多样场景增强检测。
-- 实验或效果：初步实验显示增强数据集在动物检测任务上优于基线模型。
+- 核心问题：农业无人机监测中动物数据稀缺，动物小、遮挡或部分可见，迁移学习受限。
+- 方法要点：分割动物与背景，通过变换和扩散合成生成真实多样场景，增强检测性能。
+- 实验或效果：初步实验显示增强数据集在动物检测任务上优于基线模型，提升实用性。
 
 ## 摘要（原文）
 

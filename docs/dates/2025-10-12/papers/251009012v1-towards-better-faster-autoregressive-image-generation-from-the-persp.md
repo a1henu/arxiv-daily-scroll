@@ -6,13 +6,14 @@ title: Towards Better & Faster Autoregressive Image Generation: From the Perspec
 # Towards Better & Faster Autoregressive Image Generation: From the Perspective of Entropy
 **arXiv**：[2510.09012v1](https://arxiv.org/abs/2510.09012) · [PDF](https://arxiv.org/pdf/2510.09012.pdf)  
 **作者**：Xiaoxiao Ma, Feng Zhao, Pengyang Ling, Haibo Qiu, Zhixiang Wei, Hu Yu, Jie Huang, Zhixiong Zeng, Lin Ma  
+
 **一句话要点**：提出熵引导解码策略以提升自回归图像生成的质量与速度
 
 **关键词**：自回归图像生成, 熵引导解码, 动态温度控制, 推测解码, 图像令牌分布, 生成加速
 
 ## 3 点简述
-- 核心问题：图像令牌信息密度低且空间分布不均，影响自回归模型采样质量与速度。
-- 方法要点：动态温度控制与熵感知接受规则，平衡多样性、准确性和结构一致性。
+- 核心问题：图像令牌信息密度低且空间分布不均，影响自回归模型采样效率与质量。
+- 方法要点：动态温度控制与熵感知接受规则，平衡多样性、准确性和结构连贯性。
 - 实验效果：在多个基准测试中，实现高质量生成，推理成本降低约15%。
 
 ## 摘要（原文）

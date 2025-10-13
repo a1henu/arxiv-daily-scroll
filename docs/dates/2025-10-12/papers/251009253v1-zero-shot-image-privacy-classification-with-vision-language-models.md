@@ -6,9 +6,10 @@ title: Zero-shot image privacy classification with Vision-Language Models
 # Zero-shot image privacy classification with Vision-Language Models
 **arXiv**：[2510.09253v1](https://arxiv.org/abs/2510.09253) · [PDF](https://arxiv.org/pdf/2510.09253.pdf)  
 **作者**：Alina Elena Baia, Alessio Xompero, Andrea Cavallaro  
+
 **一句话要点**：建立零样本基准以公平比较视觉语言模型在图像隐私分类中的性能。
 
-**关键词**：图像隐私分类, 视觉语言模型, 零样本基准, 模型鲁棒性, 公平比较
+**关键词**：图像隐私分类, 视觉语言模型, 零样本学习, 基准评估, 鲁棒性分析
 
 ## 3 点简述
 - 核心问题：缺乏系统评估，视觉语言模型在图像隐私预测中可能被高估。

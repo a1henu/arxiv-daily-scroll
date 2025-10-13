@@ -6,14 +6,15 @@ title: PHyCLIP: $\ell_1$-Product of Hyperbolic Factors Unifies Hierarchy and Com
 # PHyCLIP: $\ell_1$-Product of Hyperbolic Factors Unifies Hierarchy and Compositionality in Vision-Language Representation Learning
 **arXiv**：[2510.08919v1](https://arxiv.org/abs/2510.08919) · [PDF](https://arxiv.org/pdf/2510.08919.pdf)  
 **作者**：Daiki Yoshikawa, Takashi Matsubara  
+
 **一句话要点**：提出PHyCLIP以统一视觉语言表示中的层次性和组合性
 
-**关键词**：视觉语言表示学习, 双曲空间, 层次性建模, 组合性建模, 零样本分类, 嵌入可解释性
+**关键词**：视觉语言模型, 双曲空间, 层次表示, 组合表示, 零样本学习, 嵌入学习
 
 ## 3 点简述
-- 核心问题：视觉语言模型难以同时表达概念族内层次和跨族组合性。
-- 方法要点：使用双曲空间ℓ₁-积度量，分别捕获层次和组合结构。
-- 实验效果：在零样本分类等任务中优于单空间方法，嵌入更可解释。
+- 视觉语言模型难以同时表达概念族内层次和跨族组合性
+- 使用双曲空间ℓ₁-积度量，分别捕获层次和组合结构
+- 在零样本分类等任务中优于单空间方法，嵌入空间更可解释
 
 ## 摘要（原文）
 

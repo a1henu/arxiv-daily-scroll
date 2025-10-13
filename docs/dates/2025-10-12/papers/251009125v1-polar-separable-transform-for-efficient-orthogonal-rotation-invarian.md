@@ -6,14 +6,15 @@ title: Polar Separable Transform for Efficient Orthogonal Rotation-Invariant Ima
 # Polar Separable Transform for Efficient Orthogonal Rotation-Invariant Image Representation
 **arXiv**：[2510.09125v1](https://arxiv.org/abs/2510.09125) · [PDF](https://arxiv.org/pdf/2510.09125.pdf)  
 **作者**：Satya P. Singh, Rashmi Chaudhry, Anand Srivastava, Jagath C. Rajapakse  
+
 **一句话要点**：提出PSepT变换以高效实现正交旋转不变图像表示
 
 **关键词**：正交矩, 图像表示, 旋转不变性, 可分离变换, 计算效率, 数值稳定性
 
 ## 3 点简述
-- 经典正交矩方法计算复杂且数值不稳定，如Zernike矩复杂度高
-- PSepT通过DCT径向基和傅里叶角基张量积实现核可分离，降低复杂度
-- 实验显示PSepT数值稳定、计算高效，在结构化数据集分类性能竞争
+- 经典正交矩方法计算复杂且数值不稳定，限制高维分析
+- PSepT通过DCT径向基与傅里叶角基张量积实现核分离
+- 实验显示复杂度降低、稳定性提升，分类性能具竞争力
 
 ## 摘要（原文）
 
