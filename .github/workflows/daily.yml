@@ -1,0 +1,74 @@
+name: Daily arXiv cs.CV fetch & build
+
+on:
+  schedule:
+    # UTC 00:20 = 北京时间 08:20，每天
+    - cron: "20 0 * * *"
+  workflow_dispatch: {}  # 可手动触发
+
+permissions:
+  contents: write  # 允许推送变更
+
+concurrency:
+  group: daily-arxiv-cv
+  cancel-in-progress: false
+
+env:
+  PYTHONUNBUFFERED: "1"
+  TZ: Asia/Shanghai  # 仅影响日志时间显示
+  DATA_DIR: data
+  DOCS_DIR: docs
+  SITE_TITLE: "arXiv·cs.CV 中文要点汇总"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install deps
+        run: |
+          pip install arxiv openai tqdm requests python-dateutil
+
+      - name: Run main.py to fetch & summarize today
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: |
+          # 你的 main.py 内部应：计算最近 arXiv 公告窗口 -> 抓 cs.CV -> 并发 DeepSeek 总结
+          # 输出到 data/<YYYY-MM-DD>/ai_summary.json
+          python main.py
+
+      - name: Build GitHub Pages (multi-date switch)
+        run: |
+          # 生成 docs/ 目录（多日期切换首页 + 每日目录/详情页）
+          python build_page.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            ts=$(date +"%Y-%m-%d %H:%M:%S %Z")
+            git commit -m "chore: daily update & pages build (${ts})"
+            git push
+          fi

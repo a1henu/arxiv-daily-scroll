@@ -47,7 +47,7 @@ def render_paper_md(p: Dict[str, Any]) -> str:
         lines.append(f"**arXiv**：[{arxiv_id}]({abs_url}) · [PDF]({pdf_url})  ")
     lines.append(f"**作者**：{md_escape(authors)}  ")
     if headline:
-        lines.append(f"**一句话要点**：{md_escape(headline)}")
+        lines.append(f"\n**一句话要点**：{md_escape(headline)}")
     if tags:
         lines.append(f"\n**关键词**：{', '.join(tags)}")
     lines.append("")
@@ -195,7 +195,7 @@ def main():
     ap = argparse.ArgumentParser(description="Build multi-date GitHub Pages with date switcher.")
     ap.add_argument("--data", default="data", help="数据根目录（默认 data/）")
     ap.add_argument("--outdir", default="docs", help="输出站点目录（默认 docs/）")
-    ap.add_argument("--title", default="arXiv·cs.CV 中文要点汇总", help="站点标题")
+    ap.add_argument("--title", default="arXiv·cs.CV 中文要点汇总（with DeepSeek）", help="站点标题")
     args = ap.parse_args()
 
     data_root = Path(args.data)

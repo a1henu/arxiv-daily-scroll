@@ -2,7 +2,6 @@ from typing import List, Tuple, Dict
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
-import os
 import json
 import arxiv
 
