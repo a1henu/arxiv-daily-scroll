@@ -1,0 +1,39 @@
+---
+layout: default
+title: Hybrid-grained Feature Aggregation with Coarse-to-fine Language Guidance for Self-supervised Monocular Depth Estimation
+---
+
+# Hybrid-grained Feature Aggregation with Coarse-to-fine Language Guidance for Self-supervised Monocular Depth Estimation
+**arXiv**：[2510.09320v1](https://arxiv.org/abs/2510.09320) · [PDF](https://arxiv.org/pdf/2510.09320.pdf)  
+**作者**：Wenyao Zhang, Hongsi Liu, Bohan Li, Jiawei He, Zekun Qi, Yunnan Wang, Shengyang Zhao, Xinqiang Yu, Wenjun Zeng, Xin Jin  
+**一句话要点**：提出混合粒度特征聚合框架，结合语言指导解决自监督单目深度估计中语义空间知识不足问题
+**关键词**：自监督单目深度估计, 混合粒度特征聚合, 语言指导, CLIP模型, DINO模型, KITTI基准
+
+## 3 点简述
+- 核心问题：自监督单目深度估计中语义和空间知识提取不足，导致性能受限
+- 方法要点：整合CLIP和DINO模型，通过粗到细语言指导聚合多粒度特征，设计代理任务对齐深度感知特征
+- 实验或效果：在KITTI基准上显著超越SOTA方法，并提升下游任务如BEV感知性能
+
+## 摘要（原文）
+
+> Current self-supervised monocular depth estimation (MDE) approaches encounter
+> performance limitations due to insufficient semantic-spatial knowledge
+> extraction. To address this challenge, we propose Hybrid-depth, a novel
+> framework that systematically integrates foundation models (e.g., CLIP and
+> DINO) to extract visual priors and acquire sufficient contextual information
+> for MDE. Our approach introduces a coarse-to-fine progressive learning
+> framework: 1) Firstly, we aggregate multi-grained features from CLIP (global
+> semantics) and DINO (local spatial details) under contrastive language
+> guidance. A proxy task comparing close-distant image patches is designed to
+> enforce depth-aware feature alignment using text prompts; 2) Next, building on
+> the coarse features, we integrate camera pose information and pixel-wise
+> language alignment to refine depth predictions. This module seamlessly
+> integrates with existing self-supervised MDE pipelines (e.g., Monodepth2,
+> ManyDepth) as a plug-and-play depth encoder, enhancing continuous depth
+> estimation. By aggregating CLIP's semantic context and DINO's spatial details
+> through language guidance, our method effectively addresses feature granularity
+> mismatches. Extensive experiments on the KITTI benchmark demonstrate that our
+> method significantly outperforms SOTA methods across all metrics, which also
+> indeed benefits downstream tasks like BEV perception. Code is available at
+> https://github.com/Zhangwenyao1/Hybrid-depth.
+

@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>{{ page.title }}</title>
+<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<main class="container">
+  {{ content }}
+</main>
+<footer class="footer">
+  <p>Powered by GitHub Pages · Generated on {{ site.time | date: "%Y-%m-%d" }}</p>
+</footer>
+</body>
+</html>
