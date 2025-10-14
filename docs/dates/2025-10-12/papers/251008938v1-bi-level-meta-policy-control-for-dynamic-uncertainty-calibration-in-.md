@@ -12,8 +12,8 @@ title: Bi-level Meta-Policy Control for Dynamic Uncertainty Calibration in Evide
 **关键词**：元学习, 不确定性校准, 证据深度学习, 双层优化, Dirichlet先验
 
 ## 3 点简述
-- 传统EDL方法依赖静态超参数，导致动态数据分布下校准和泛化能力差
-- 采用双层优化：内层动态调整损失函数，外层优化KL系数和Dirichlet先验强度
+- 传统EDL依赖静态超参数，在动态数据分布中校准和泛化能力差
+- 采用双层优化：内层动态配置损失函数，外层策略网络优化KL系数和Dirichlet先验
 - 实验显示显著提升不确定性校准、预测准确性和置信度样本拒绝后性能
 
 ## 摘要（原文）

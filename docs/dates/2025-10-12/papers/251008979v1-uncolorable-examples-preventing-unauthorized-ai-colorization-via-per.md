@@ -7,14 +7,14 @@ title: Uncolorable Examples: Preventing Unauthorized AI Colorization via Percept
 **arXiv**：[2510.08979v1](https://arxiv.org/abs/2510.08979) · [PDF](https://arxiv.org/pdf/2510.08979.pdf)  
 **作者**：Yuki Nii, Futa Waseda, Ching-Chun Chang, Isao Echizen  
 
-**一句话要点**：提出PAChroma方法以防止未经授权的AI着色，保护版权内容
+**一句话要点**：提出PAChroma方法以防止未经授权的AI着色，保护灰度图像版权。
 
-**关键词**：AI着色防御, 不可感知扰动, 版权保护, 跨模型迁移性, 鲁棒性优化
+**关键词**：AI着色防御, 不可感知扰动, 版权保护, 图像处理, 鲁棒性优化
 
 ## 3 点简述
-- 核心问题：AI着色技术可能导致版权侵权，如未经授权为黑白漫画和电影着色
-- 方法要点：通过优化不可感知扰动，结合拉普拉斯滤波保持感知质量，增强跨模型迁移性和鲁棒性
-- 实验或效果：在ImageNet和Danbooru数据集上验证，能有效降低着色质量，同时保持视觉外观
+- 核心问题：AI着色技术可能导致版权侵犯，如未经授权为漫画和电影着色。
+- 方法要点：通过优化不可感知扰动，结合拉普拉斯滤波保持视觉质量。
+- 实验或效果：在ImageNet和Danbooru数据集上验证，有效降低着色质量。
 
 ## 摘要（原文）
 

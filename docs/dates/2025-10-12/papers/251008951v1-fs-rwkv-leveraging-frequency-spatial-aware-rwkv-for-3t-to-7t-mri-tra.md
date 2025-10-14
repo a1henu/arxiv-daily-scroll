@@ -13,8 +13,8 @@ title: FS-RWKV: Leveraging Frequency Spatial-Aware RWKV for 3T-to-7T MRI Transla
 
 ## 3 点简述
 - 核心问题：7T MRI稀缺，需从3T图像合成高质量7T图像以提升临床可及性。
-- 方法要点：引入FSO-Shift和SFEB模块，增强全局上下文和解剖结构保真度。
-- 实验效果：在UNC和BNU数据集上优于CNN、Transformer等基线，提升解剖保真度。
+- 方法要点：引入FSO-Shift和SFEB模块，增强全局上下文和结构保真度。
+- 实验或效果：在UNC和BNU数据集上优于多种基线，提升解剖保真度和感知质量。
 
 ## 摘要（原文）
 

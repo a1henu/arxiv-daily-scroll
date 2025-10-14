@@ -7,14 +7,14 @@ title: TC-LoRA: Temporally Modulated Conditional LoRA for Adaptive Diffusion Con
 **arXiv**：[2510.09561v1](https://arxiv.org/abs/2510.09561) · [PDF](https://arxiv.org/pdf/2510.09561.pdf)  
 **作者**：Minkyoung Cho, Ruben Ohana, Christian Jacobsen, Adityan Jothi, Min-Hung Chen, Z. Morley Mao, Ethem Can  
 
-**一句话要点**：提出TC-LoRA以动态适应扩散模型的控制需求
+**一句话要点**：提出TC-LoRA以在扩散模型中实现动态条件控制
 
 **关键词**：可控扩散模型, 动态权重调整, LoRA适配器, 超网络, 生成保真度
 
 ## 3 点简述
-- 静态条件策略限制扩散模型在生成过程中动态调整能力
-- 使用超网络实时生成LoRA适配器，基于时间和条件动态调整权重
-- 实验显示动态控制提升生成保真度和空间条件遵循度
+- 当前可控扩散模型使用静态条件策略，限制生成过程适应性
+- TC-LoRA通过超网络动态生成LoRA适配器，基于时间和条件调整权重
+- 实验显示该方法提升生成保真度和空间条件遵循能力
 
 ## 摘要（原文）
 
