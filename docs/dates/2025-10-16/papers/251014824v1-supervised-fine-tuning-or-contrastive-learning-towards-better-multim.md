@@ -7,14 +7,14 @@ title: Supervised Fine-Tuning or Contrastive Learning? Towards Better Multimodal
 **arXiv**：[2510.14824v1](https://arxiv.org/abs/2510.14824) · [PDF](https://arxiv.org/pdf/2510.14824.pdf)  
 **作者**：Ziqi Dai, Xin Zhang, Mingxin Li, Yanzhao Zhang, Dingkun Long, Pengjun Xie, Meishan Zhang, Wenjie Li, Min Zhang  
 
-**一句话要点**：比较监督微调与对比学习在LLM重排序中的效果，发现SFT更优。
+**一句话要点**：比较监督微调与对比学习在LLM重排序中的效果，发现SFT更优
 
 **关键词**：LLM重排序, 监督微调, 对比学习, 多模态检索, 权重分析
 
 ## 3 点简述
-- 核心问题：LLM重排序中，监督微调与对比学习哪种目标更有效？
-- 方法要点：分解目标为权重和方向，提出统一分析框架。
-- 实验效果：SFT权重更强，在MRB基准上达到新SOTA。
+- 核心问题：LLM重排序中监督微调与对比学习哪种目标更有效
+- 方法要点：分解目标为权重和方向，提出统一分析框架
+- 实验或效果：SFT权重更强，在MRB基准上实现SOTA
 
 ## 摘要（原文）
 

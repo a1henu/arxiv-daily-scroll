@@ -9,12 +9,12 @@ title: Vision Mamba for Permeability Prediction of Porous Media
 
 **一句话要点**：提出基于Vision Mamba的神经网络以预测三维多孔介质渗透率
 
-**关键词**：渗透率预测, Vision Mamba, 多孔介质, 图像分类, 计算效率, 神经网络
+**关键词**：渗透率预测, Vision Mamba, 多孔介质, 计算效率, 神经网络, 图像分类
 
 ## 3 点简述
 - 核心问题：预测三维多孔介质的渗透率，替代传统ViT和CNN方法。
 - 方法要点：使用Vision Mamba作为骨干网络，具有线性计算复杂度和较少参数。
-- 实验或效果：比较Vision Mamba与ViT和CNN，展示其在效率和准确性上的优势。
+- 实验或效果：通过比较和消融研究，验证其在计算效率和内存使用上的优势。
 
 ## 摘要（原文）
 

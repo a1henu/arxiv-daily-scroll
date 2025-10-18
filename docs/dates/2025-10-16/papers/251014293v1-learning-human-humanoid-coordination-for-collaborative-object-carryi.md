@@ -7,14 +7,14 @@ title: Learning Human-Humanoid Coordination for Collaborative Object Carrying
 **arXiv**：[2510.14293v1](https://arxiv.org/abs/2510.14293) · [PDF](https://arxiv.org/pdf/2510.14293.pdf)  
 **作者**：Yushi Du, Yixuan Li, Baoxiong Jia, Yutang Lin, Pei Zhou, Wei Liang, Yanchao Yang, Siyuan Huang  
 
-**一句话要点**：提出COLA方法以解决人形机器人与人协作搬运中的顺应性问题
+**一句话要点**：提出COLA方法实现人形机器人与人类协作搬运，无需外部传感器
 
 **关键词**：人形机器人协作, 强化学习, 本体感知, 轨迹规划, 负载平衡
 
 ## 3 点简述
-- 核心问题：人形机器人全身动力学复杂，难以实现顺应性人机协作搬运。
-- 方法要点：使用仅本体感知的强化学习，结合领导者和跟随者行为于单一策略。
-- 实验或效果：模拟实验减少人类努力24.7%，真实实验验证跨地形和物体的鲁棒性。
+- 核心问题：人形机器人全身动力学复杂，难以实现柔顺人机协作搬运
+- 方法要点：使用仅本体感知的强化学习，单策略结合领导与跟随行为
+- 实验或效果：仿真和真实实验显示减少人类努力24.7%，泛化性强
 
 ## 摘要（原文）
 

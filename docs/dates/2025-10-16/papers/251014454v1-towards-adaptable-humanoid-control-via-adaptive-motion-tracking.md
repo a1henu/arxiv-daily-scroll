@@ -7,14 +7,14 @@ title: Towards Adaptable Humanoid Control via Adaptive Motion Tracking
 **arXiv**：[2510.14454v1](https://arxiv.org/abs/2510.14454) · [PDF](https://arxiv.org/pdf/2510.14454.pdf)  
 **作者**：Tao Huang, Huayi Wang, Junli Ren, Kangning Yin, Zirui Wang, Xiao Chen, Feiyu Jia, Wentao Zhang, Junfeng Long, Jingbo Wang, Jiangmiao Pang  
 
-**一句话要点**：提出AdaMimic算法，实现从单一参考运动进行可适应人形机器人控制
+**一句话要点**：提出AdaMimic算法，实现从单一参考运动进行自适应人形机器人控制
 
-**关键词**：人形机器人控制, 运动跟踪, 自适应算法, 关键帧稀疏化, 时间扭曲
+**关键词**：人形机器人控制, 运动跟踪, 自适应算法, 关键帧增强, 时间扭曲
 
 ## 3 点简述
-- 核心问题：现有方法在运动适应性和模仿精度间存在权衡，难以从单一运动实现高精度适应。
-- 方法要点：通过稀疏化参考运动为关键帧，训练策略生成密集运动，并添加适配器调整速度和动作。
-- 实验或效果：在仿真和真实机器人上验证，在多种适应条件下提升模仿精度和适应性。
+- 核心问题：现有方法在运动适应性和模仿精度间难以平衡，数据依赖高
+- 方法要点：通过稀疏关键帧增强数据集，训练策略和适配器实现灵活时间扭曲
+- 实验或效果：在仿真和真实机器人中验证，适应多种条件，提升精度和适应性
 
 ## 摘要（原文）
 

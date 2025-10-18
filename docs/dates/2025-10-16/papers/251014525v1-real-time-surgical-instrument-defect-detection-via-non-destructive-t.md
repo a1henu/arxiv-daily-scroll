@@ -7,14 +7,14 @@ title: Real-Time Surgical Instrument Defect Detection via Non-Destructive Testin
 **arXiv**：[2510.14525v1](https://arxiv.org/abs/2510.14525) · [PDF](https://arxiv.org/pdf/2510.14525.pdf)  
 **作者**：Qurrat Ul Ain, Atif Aftab Ahmed Jilani, Zunaira Shafqat, Nigar Azhar Butt  
 
-**一句话要点**：提出SurgScan框架以实时检测手术器械缺陷，提升质量控制。
+**一句话要点**：提出SurgScan框架，通过AI实时检测手术器械缺陷以提升质量控制。
 
-**关键词**：手术器械缺陷检测, 实时目标检测, YOLOv8模型, 质量控制自动化, 医疗制造标准
+**关键词**：实时缺陷检测, 手术器械质量控制, YOLOv8模型, 非破坏性测试, 工业AI部署, 图像预处理增强
 
 ## 3 点简述
-- 手术器械缺陷威胁无菌性和患者安全，手动检测易出错。
-- 基于YOLOv8的AI框架，实时分类缺陷，支持工业扩展。
-- 在10万+图像数据集上验证，准确率99.3%，推理速度4.2-5.8毫秒。
+- 手术器械缺陷威胁无菌性和患者安全，手动检测易出错且不一致。
+- 基于YOLOv8构建AI框架，实现高精度实时缺陷分类与工业可扩展性。
+- 在102,876图像数据集上训练，准确率达99.3%，推理速度4.2-5.8毫秒。
 
 ## 摘要（原文）
 

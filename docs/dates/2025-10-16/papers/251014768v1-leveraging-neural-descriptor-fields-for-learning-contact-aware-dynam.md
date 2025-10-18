@@ -7,14 +7,14 @@ title: Leveraging Neural Descriptor Fields for Learning Contact-Aware Dynamic Re
 **arXiv**：[2510.14768v1](https://arxiv.org/abs/2510.14768) · [PDF](https://arxiv.org/pdf/2510.14768.pdf)  
 **作者**：Fan Yang, Zixuan Huang, Abhinav Kumar, Sergio Aguilera Marinovic, Soshi Iba, Rana Soltani Zarrin, Dmitry Berenson  
 
-**一句话要点**：提出CADRE框架以解决灵巧操作中物体掉落恢复问题
+**一句话要点**：提出CADRE强化学习框架，利用神经描述场学习接触感知动态恢复，以应对物体掉落问题。
 
-**关键词**：强化学习, 神经描述符场, 接触感知, 动态恢复, 灵巧操作, 零样本泛化
+**关键词**：强化学习, 神经描述场, 接触感知, 动态恢复, 零样本泛化, 灵巧操作
 
 ## 3 点简述
-- 核心问题：现实灵巧操作易受干扰导致物体掉落，需在抓取范围内恢复
-- 方法要点：结合NDF提取隐式接触特征，提升手指-物体对应推理能力
-- 实验或效果：训练效率与收敛性能改善，零样本泛化至未见物体
+- 核心问题：现实灵巧操作中意外扰动导致物体掉落，需在抓取范围内恢复有利配置。
+- 方法要点：结合神经描述场模块提取隐式接触特征，适应不同物体几何，提升推理能力。
+- 实验或效果：接触特征提高训练效率与收敛性能，实现零样本泛化至未见物体。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: Generative Models From and For Sampling-Based MPC: A Bootstrapped Approac
 **arXiv**：[2510.14643v1](https://arxiv.org/abs/2510.14643) · [PDF](https://arxiv.org/pdf/2510.14643.pdf)  
 **作者**：Lara Brudermüller, Brandon Hung, Xinghao Zhu, Jiuguang Wang, Nick Hawes, Preston Culbertson, Simon Le Cleac'h  
 
-**一句话要点**：提出生成预测控制框架，通过条件流匹配模型摊销采样MPC，用于接触丰富的机器人操作。
+**一句话要点**：提出生成预测控制框架，通过引导采样优化接触丰富的机器人操作
 
 **关键词**：生成预测控制, 采样模型预测控制, 条件流匹配, 机器人操作, 接触丰富任务, 样本效率
 
 ## 3 点简述
-- 核心问题：采样模型预测控制在线规划效率低，难以适应接触丰富的机器人任务。
-- 方法要点：利用模拟数据训练条件流匹配模型，学习有意义的提议分布以指导采样。
-- 实验或效果：在仿真和硬件实验中提高样本效率，减少规划视野，并展示任务泛化能力。
+- 核心问题：采样模型预测控制在接触丰富操作中效率低、规划需求高
+- 方法要点：使用条件流匹配模型从模拟数据学习提议分布，提升在线采样
+- 实验或效果：在仿真和硬件中提高样本效率、减少规划需求，并泛化任务变化
 
 ## 摘要（原文）
 

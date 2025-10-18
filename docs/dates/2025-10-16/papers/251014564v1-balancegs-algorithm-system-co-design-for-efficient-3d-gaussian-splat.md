@@ -7,14 +7,14 @@ title: BalanceGS: Algorithm-System Co-design for Efficient 3D Gaussian Splatting
 **arXiv**：[2510.14564v1](https://arxiv.org/abs/2510.14564) · [PDF](https://arxiv.org/pdf/2510.14564.pdf)  
 **作者**：Junyi Wu, Jiaming Xu, Jinhao Li, Yongkang Zhou, Jiayi Pan, Xingyang Li, Guohao Dai  
 
-**一句话要点**：提出BalanceGS以解决3D高斯泼溅训练中的效率问题
+**一句话要点**：提出BalanceGS以解决3D高斯溅射训练中的效率问题
 
-**关键词**：3D高斯泼溅, 算法系统协同设计, GPU训练优化, 内存访问优化, 计算负载平衡
+**关键词**：3D高斯溅射, 算法-系统协同设计, GPU训练优化, 内存访问优化, 计算负载平衡
 
 ## 3 点简述
-- 核心问题：传统3DGS训练存在密度分配不均、计算负载不平衡和内存访问碎片化
-- 方法要点：算法层启发式密度控制，系统层相似性采样合并，映射层重排序内存访问
-- 实验或效果：在A100 GPU上训练速度提升1.44倍，质量损失可忽略
+- 传统3DGS训练存在密度分配不均、计算负载不平衡和内存访问碎片化问题
+- 通过算法-系统协同设计，包括启发式密度控制、相似性采样合并和内存重映射策略
+- 实验显示在A100 GPU上训练速度提升1.44倍，质量损失可忽略
 
 ## 摘要（原文）
 

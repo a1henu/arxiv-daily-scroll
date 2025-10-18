@@ -7,13 +7,13 @@ title: Morphology-Aware Prognostic model for Five-Year Survival Prediction in Co
 **arXiv**：[2510.14800v1](https://arxiv.org/abs/2510.14800) · [PDF](https://arxiv.org/pdf/2510.14800.pdf)  
 **作者**：Usama Sajjad, Abdul Rehman Akbar, Ziyu Su, Deborah Knight, Wendy L. Frankel, Metin N. Gurcan, Wei Chen, Muhammad Khalid Khan Niazi  
 
-**一句话要点**：提出PRISM模型以预测结直肠癌五年生存率，整合形态学连续变异性
+**一句话要点**：提出PRISM模型，通过整合形态学变异预测结直肠癌五年生存率
 
-**关键词**：结直肠癌预后预测, 形态学整合模型, 全切片图像分析, 生存分析, AI可解释性
+**关键词**：结直肠癌预后预测, 形态学整合模型, 计算病理学, 生存分析, AI可解释性
 
 ## 3 点简述
-- 核心问题：现有基础模型忽视器官特异性形态模式，影响结直肠癌预后预测准确性。
-- 方法要点：开发PRISM模型，通过连续变异性谱表征形态多样性，模拟渐进演化过程。
+- 核心问题：现有AI模型忽视器官特异性形态模式，影响结直肠癌预后预测准确性。
+- 方法要点：开发PRISM模型，利用连续变异谱表征形态多样性，模拟渐进性恶性转化过程。
 - 实验或效果：在424患者数据上训练，AUC达0.70，准确率68.37%，优于现有方法。
 
 ## 摘要（原文）

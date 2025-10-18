@@ -9,12 +9,12 @@ title: Hierarchical Re-Classification: Combining Animal Classification Models wi
 
 **一句话要点**：提出分层重分类系统以提升动物检测平台物种级识别精度
 
-**关键词**：动物分类, 分层重分类, Vision Transformer, 度量学习, 物种识别, CLIP嵌入
+**关键词**：动物分类, 分层重分类, Vision Transformer, 度量学习, 物种识别
 
 ## 3 点简述
-- 现有动物分类模型预测保守，常标记为高级分类而非物种级
-- 结合SpeciesNet预测、CLIP嵌入和度量学习，构建五阶段重分类流程
-- 在LILA BC数据集上验证，重分类准确率96.5%，物种级识别达64.9%
+- 现有动物分类模型保守汇总导致高分类标签而非物种级识别
+- 结合SpeciesNet预测、CLIP嵌入和度量学习优化标签
+- 在LILA数据集上重分类456个检测，准确率96.5%，64.9%达物种级
 
 ## 摘要（原文）
 

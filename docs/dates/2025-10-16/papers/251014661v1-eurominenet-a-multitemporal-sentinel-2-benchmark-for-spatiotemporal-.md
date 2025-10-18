@@ -7,14 +7,14 @@ title: EuroMineNet: A Multitemporal Sentinel-2 Benchmark for Spatiotemporal Mini
 **arXiv**：[2510.14661v1](https://arxiv.org/abs/2510.14661) · [PDF](https://arxiv.org/pdf/2510.14661.pdf)  
 **作者**：Weikang Yu, Vincent Nwazelibe, Xianping Ma, Xiaokang Zhang, Richard Gloaguen, Xiao Xiang Zhu, Pedram Ghamisi  
 
-**一句话要点**：提出EuroMineNet基准以解决欧盟采矿足迹多时相监测问题
+**一句话要点**：提出EuroMineNet基准以解决欧盟采矿足迹长期监测问题
 
-**关键词**：多时相遥感, 采矿足迹监测, GeoAI基准, 环境变化检测, Sentinel-2影像
+**关键词**：多时相遥感, 采矿足迹监测, GeoAI基准, 环境变化检测, Sentinel-2影像, 可持续发展
 
 ## 3 点简述
-- 采矿活动导致环境退化，现有数据集在时间和地理范围上有限
-- 基于Sentinel-2影像，提供133个矿点2015-2024年专家标注数据
-- 评估20个GeoAI模型，揭示长期变化检测有效但短期动态挑战未知
+- 采矿活动导致环境退化，现有数据集时空覆盖不足
+- 基于Sentinel-2影像提供多时相采矿足迹标注，支持GeoAI模型分析
+- 基准20种深度学习模型，揭示长期变化检测有效但短期动态挑战未知
 
 ## 摘要（原文）
 

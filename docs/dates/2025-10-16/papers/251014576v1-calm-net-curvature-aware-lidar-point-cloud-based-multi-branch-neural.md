@@ -7,13 +7,13 @@ title: CALM-Net: Curvature-Aware LiDAR Point Cloud-based Multi-Branch Neural Net
 **arXiv**：[2510.14576v1](https://arxiv.org/abs/2510.14576) · [PDF](https://arxiv.org/pdf/2510.14576.pdf)  
 **作者**：Dongwook Lee, Sol Han, Jinwhan Kim  
 
-**一句话要点**：提出CALM-Net，通过曲率感知多分支网络解决LiDAR点云车辆重识别问题
+**一句话要点**：提出CALM-Net，通过多分支网络结合曲率信息解决LiDAR点云车辆重识别问题
 
-**关键词**：LiDAR点云, 车辆重识别, 曲率感知, 多分支网络, 边缘卷积, 点注意力
+**关键词**：LiDAR点云, 车辆重识别, 多分支神经网络, 曲率嵌入, 边缘卷积, 点注意力
 
 ## 3 点简述
-- 核心问题：从三维LiDAR点云中学习区分性特征以识别不同车辆
-- 方法要点：集成边缘卷积、点注意力和曲率嵌入，提取几何与上下文特征
+- 核心问题：从三维点云中学习区分性特征以识别不同车辆
+- 方法要点：采用多分支架构，集成边缘卷积、点注意力和曲率嵌入
 - 实验或效果：在nuScenes数据集上，平均重识别准确率提升约1.97%
 
 ## 摘要（原文）

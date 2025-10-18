@@ -7,14 +7,14 @@ title: MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical
 **arXiv**：[2510.14958v1](https://arxiv.org/abs/2510.14958) · [PDF](https://arxiv.org/pdf/2510.14958.pdf)  
 **作者**：Weikang Shi, Aldrich Yu, Rongyao Fang, Houxing Ren, Ke Wang, Aojun Zhou, Changyao Tian, Xinyu Fu, Yuxuan Hu, Zimu Lu, Linjiang Huang, Si Liu, Rui Liu, Hongsheng Li  
 
-**一句话要点**：提出MathCanvas框架以增强多模态模型在数学推理中的内在视觉链式思考能力
+**一句话要点**：提出MathCanvas框架以增强多模态模型在数学推理中的视觉链式思考能力
 
-**关键词**：多模态数学推理, 视觉链式思考, 图表生成, 预训练数据集, 基准评估, 统一大模型
+**关键词**：多模态数学推理, 视觉链式思考, 图表生成, 预训练数据集, 基准评估
 
 ## 3 点简述
 - 核心问题：现有视觉链式思考方法在数学领域受限于外部工具，难以生成高保真、适时图表。
-- 方法要点：通过视觉操作预训练和策略视觉辅助推理微调，实现图表生成与编辑。
-- 实验或效果：在MathCanvas-Bench上相对基线提升86%，泛化能力优秀。
+- 方法要点：通过视觉操作预训练和策略性视觉辅助推理微调，实现内在视觉链式思考。
+- 实验或效果：在MathCanvas-Bench上相对基线提升86%，并泛化至其他数学基准。
 
 ## 摘要（原文）
 

@@ -7,13 +7,13 @@ title: ChangingGrounding: 3D Visual Grounding in Changing Scenes
 **arXiv**：[2510.14965v1](https://arxiv.org/abs/2510.14965) · [PDF](https://arxiv.org/pdf/2510.14965.pdf)  
 **作者**：Miao Hu, Zhiwei Huang, Tai Wang, Jiangmiao Pang, Dahua Lin, Nanning Zheng, Runsen Xu  
 
-**一句话要点**：提出ChangingGrounding基准与Mem-ChangingGrounder方法，以解决动态场景中的3D视觉定位问题。
+**一句话要点**：提出ChangingGrounding基准与Mem-ChangingGrounder方法，以解决动态场景中3D视觉定位问题。
 
-**关键词**：3D视觉定位, 动态场景, 记忆驱动, 跨模态检索, 多视图融合, 基准测试
+**关键词**：3D视觉定位, 动态场景, 跨模态检索, 多视图融合, 零样本学习, 基准数据集
 
 ## 3 点简述
 - 核心问题：现有3D视觉定位方法依赖更新点云，难以应对场景变化，阻碍实际部署。
-- 方法要点：结合跨模态检索与轻量多视图融合，利用记忆指导探索，实现高效目标定位。
+- 方法要点：结合跨模态检索与轻量多视图融合，实现零样本目标定位与高效探索。
 - 实验或效果：在ChangingGrounding基准上，Mem-ChangingGrounder实现最高定位精度并降低探索成本。
 
 ## 摘要（原文）

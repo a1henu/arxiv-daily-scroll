@@ -7,14 +7,14 @@ title: Event Interval Modulation: A Novel Scheme for Event-based Optical Camera 
 **arXiv**：[2510.14245v1](https://arxiv.org/abs/2510.14245) · [PDF](https://arxiv.org/pdf/2510.14245.pdf)  
 **作者**：Miu Sumino, Mayu Ishii, Shun Kaizu, Daisuke Hisano, Yu Nakayama  
 
-**一句话要点**：提出事件间隔调制方案以提升事件光学相机通信的传输速度
+**一句话要点**：提出事件间隔调制方案以提升事件式光学相机通信的传输速度
 
-**关键词**：事件间隔调制, 光学相机通信, 事件视觉传感器, 比特率优化, 室内传输实验
+**关键词**：事件式视觉传感器, 光学相机通信, 事件间隔调制, 高比特率传输, 室内通信实验
 
 ## 3 点简述
 - 传统光学相机通信系统存在低比特率和高处理负载问题
-- 新方案利用事件间隔调制信息，优化传感器参数以提升性能
-- 实验实现室内28kbps/10米和8.4kbps/50米传输，创比特率新纪录
+- 新方案利用事件间隔调制信息，优化传感器参数以提升频率响应
+- 实验实现室内28 kbps/10米和8.4 kbps/50米传输，创事件式OCC新纪录
 
 ## 摘要（原文）
 

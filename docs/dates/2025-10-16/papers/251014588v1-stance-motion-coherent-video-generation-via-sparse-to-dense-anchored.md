@@ -7,13 +7,13 @@ title: STANCE: Motion Coherent Video Generation Via Sparse-to-Dense Anchored Enc
 **arXiv**：[2510.14588v1](https://arxiv.org/abs/2510.14588) · [PDF](https://arxiv.org/pdf/2510.14588.pdf)  
 **作者**：Zhifei Chen, Tianshuo Xu, Leyi Wu, Luozhou Wang, Dongyu Yan, Zihan You, Wenting Luo, Guo Zhang, Yingcong Chen  
 
-**一句话要点**：提出STANCE框架，通过实例线索和Dense RoPE解决视频生成中运动一致性问题
+**一句话要点**：提出STANCE框架，通过稀疏到稠密锚定编码解决视频生成中运动一致性问题
 
-**关键词**：视频生成, 运动一致性, 实例线索, Dense RoPE, 2.5D运动场, RGB-辅助预测
+**关键词**：视频生成, 运动一致性, 实例线索, Dense RoPE, 2.5D运动场, RGB辅助预测
 
 ## 3 点简述
-- 核心问题：视频生成中对象运动不连贯，源于运动提示编码后有效令牌过少和外观-运动优化冲突
-- 方法要点：使用实例线索生成密集2.5D运动场，并采用Dense RoPE增强运动令牌的空间可寻址性
+- 核心问题：现有视频生成方法在对象运动一致性和交互上存在困难，运动提示编码后有效令牌过少，且外观与运动优化冲突
+- 方法要点：引入实例线索生成稠密2.5D运动场，并使用Dense RoPE在令牌空间保持运动提示显著性
 - 实验或效果：结合RGB与辅助图预测，提升时间一致性，无需逐帧轨迹脚本
 
 ## 摘要（原文）

@@ -7,14 +7,14 @@ title: Acquisition of interpretable domain information during brain MR image har
 **arXiv**：[2510.14535v1](https://arxiv.org/abs/2510.14535) · [PDF](https://arxiv.org/pdf/2510.14535.pdf)  
 **作者**：Keima Abe, Hayato Muraki, Shuhei Tomoshige, Kenichi Oishi, Hitoshi Iyatomi  
 
-**一句话要点**：提出PL-SE-ADA框架以解决脑MR图像领域偏移和可解释性问题
+**一句话要点**：提出PL-SE-ADA框架以解决脑MR图像领域偏移问题，实现可解释的领域协调。
 
 **关键词**：脑MR图像, 领域协调, 可解释表示学习, 对抗训练, 图像重建, 疾病分类
 
 ## 3 点简述
-- 脑MR图像因扫描设备和协议差异存在领域偏移，影响机器学习性能
-- 使用双编码器分离领域不变和特定特征，通过对抗训练和图像重建实现领域协调
-- 在图像重建、疾病分类和领域识别中性能相当或更优，支持特征可视化
+- 脑MR图像因扫描器和协议差异存在领域偏移，影响机器学习性能。
+- 使用双编码器分离领域不变和特定特征，结合对抗训练和图像重建。
+- 在图像重建、疾病分类和领域识别中表现优异，支持特征可视化。
 
 ## 摘要（原文）
 

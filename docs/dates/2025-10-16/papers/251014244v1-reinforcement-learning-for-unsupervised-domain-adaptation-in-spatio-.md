@@ -7,14 +7,14 @@ title: Reinforcement Learning for Unsupervised Domain Adaptation in Spatio-Tempo
 **arXiv**：[2510.14244v1](https://arxiv.org/abs/2510.14244) · [PDF](https://arxiv.org/pdf/2510.14244.pdf)  
 **作者**：Arnaud Judge, Nicolas Duchateau, Thierry Judge, Roman A. Sandler, Joseph Z. Sokol, Christian Desrosiers, Olivier Bernard, Pierre-Marc Jodoin  
 
-**一句话要点**：提出RL4Seg3D框架，用于无监督领域自适应在超声心动图分割中提升精度与时间一致性
+**一句话要点**：提出RL4Seg3D框架，用于无监督领域自适应的心动图时空分割。
 
-**关键词**：无监督领域自适应, 超声心动图分割, 强化学习, 时空一致性, 不确定性估计
+**关键词**：无监督领域自适应, 心动图分割, 强化学习, 时空一致性, 不确定性估计
 
 ## 3 点简述
-- 核心问题：领域自适应方法在目标域可靠性不足，医学图像分割中精度与解剖有效性要求高，时空数据缺乏时间一致性
-- 方法要点：集成强化学习、新奖励函数和融合方案，处理全尺寸视频，提升关键地标精度与不确定性估计
-- 实验或效果：在超3万超声心动图视频上验证，优于标准方法，无需目标域标签
+- 核心问题：领域自适应方法在目标域可靠性低，心动图分割受噪声和时空不一致影响。
+- 方法要点：集成强化学习、新奖励函数和融合方案，提升分割精度和时空一致性。
+- 实验或效果：在3万+心动图视频上验证，优于标准方法，无需目标域标签。
 
 ## 摘要（原文）
 

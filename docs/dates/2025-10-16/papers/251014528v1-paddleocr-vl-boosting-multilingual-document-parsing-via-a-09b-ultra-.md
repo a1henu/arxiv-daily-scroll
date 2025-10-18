@@ -7,14 +7,14 @@ title: PaddleOCR-VL: Boosting Multilingual Document Parsing via a 0.9B Ultra-Com
 **arXiv**：[2510.14528v1](https://arxiv.org/abs/2510.14528) · [PDF](https://arxiv.org/pdf/2510.14528.pdf)  
 **作者**：Cheng Cui, Ting Sun, Suyin Liang, Tingquan Gao, Zelun Zhang, Jiaxuan Liu, Xueqing Wang, Changda Zhou, Hongen Liu, Manhui Lin, Yue Zhang, Yubo Zhang, Handong Zheng, Jing Zhang, Jun Zhang, Yi Liu, Dianhai Yu, Yanjun Ma  
 
-**一句话要点**：提出PaddleOCR-VL以提升多语言文档解析效率与准确性
+**一句话要点**：提出PaddleOCR-VL以提升多语言文档解析效率，采用0.9B超紧凑视觉语言模型。
 
 **关键词**：文档解析, 视觉语言模型, 多语言支持, 资源效率, 元素识别
 
 ## 3 点简述
-- 核心问题：多语言文档中复杂元素（如文本、表格、公式）的准确识别与解析。
-- 方法要点：集成动态分辨率视觉编码器与语言模型，构建0.9B超紧凑视觉语言模型。
-- 实验或效果：在公共与内部基准测试中实现SOTA性能，支持109种语言，推理速度快。
+- 核心问题：多语言文档解析需高效识别文本、表格、公式等复杂元素。
+- 方法要点：集成NaViT视觉编码器与ERNIE语言模型，支持109种语言。
+- 实验或效果：在公开和内部基准测试中达到SOTA性能，推理速度快。
 
 ## 摘要（原文）
 

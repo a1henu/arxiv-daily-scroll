@@ -9,7 +9,7 @@ title: AI for Service: Proactive Assistance with AI Glasses
 
 **一句话要点**：提出Alpha-Service框架，通过AI眼镜实现主动实时服务辅助。
 
-**关键词**：主动服务, AI眼镜, 多智能体系统, 第一人称视频, 个性化辅助, 实时干预
+**关键词**：主动AI服务, AI眼镜, 多代理系统, 个性化辅助, 实时感知
 
 ## 3 点简述
 - 核心问题：现有AI服务多为被动响应，无法主动预测用户需求。

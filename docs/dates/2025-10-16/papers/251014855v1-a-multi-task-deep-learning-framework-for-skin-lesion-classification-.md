@@ -13,7 +13,7 @@ title: A Multi-Task Deep Learning Framework for Skin Lesion Classification, ABCD
 
 ## 3 点简述
 - 核心问题：皮肤病变自动分析挑战大，ABCDE特征在深度学习中缺乏可解释性。
-- 方法要点：框架同时分类病变并量化ABCD特征，模拟E特征演化轨迹。
+- 方法要点：框架同时分类病变并量化ABCD特征，模拟E特征演化。
 - 实验或效果：在HAM10000数据集上，分类准确率约89%，AUC达0.96。
 
 ## 摘要（原文）

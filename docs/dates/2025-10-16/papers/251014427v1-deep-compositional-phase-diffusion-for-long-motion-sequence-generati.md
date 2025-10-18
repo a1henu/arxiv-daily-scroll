@@ -13,7 +13,7 @@ title: Deep Compositional Phase Diffusion for Long Motion Sequence Generation
 
 ## 3 点简述
 - 核心问题：现有模型生成多语义运动序列时，过渡边界处运动动态不连续，产生突兀伪影。
-- 方法要点：利用SPDM和TPDM在潜在运动频率域中，逐步融合语义指导和相邻运动相位细节。
+- 方法要点：利用SPDM和TPDM在潜在运动频率域中逐步融合语义指导和相邻运动相位细节。
 - 实验或效果：框架在生成语义对齐的组合运动序列中表现竞争性，保持相位过渡连续性。
 
 ## 摘要（原文）

@@ -7,12 +7,12 @@ title: A Density-Informed Multimodal Artificial Intelligence Framework for Impro
 **arXiv**：[2510.14340v1](https://arxiv.org/abs/2510.14340) · [PDF](https://arxiv.org/pdf/2510.14340.pdf)  
 **作者**：Siva Teja Kakileti, Bharath Govindaraju, Sudhakar Sampangi, Geetha Manjunath  
 
-**一句话要点**：提出基于乳腺密度的多模态AI框架，以提升不同密度乳腺的癌症检测性能
+**一句话要点**：提出基于乳腺密度的多模态AI框架，以提升不同密度乳腺癌检测性能
 
-**关键词**：多模态人工智能, 乳腺密度, 癌症检测, 热成像, 深度学习, 放射组学
+**关键词**：乳腺癌检测, 多模态AI, 乳腺密度, 热成像, 深度学习, 放射组学
 
 ## 3 点简述
-- 乳腺X线摄影在致密乳腺中敏感性下降，导致漏诊或延迟诊断
+- 乳腺X线摄影在致密乳腺组织中敏感性降低，导致漏诊或延迟诊断
 - 结合乳腺X线AI和热成像AI，根据乳腺密度动态选择最优模态
 - 多模态框架敏感性达94.55%，优于单模态方法，尤其在致密乳腺中表现稳定
 

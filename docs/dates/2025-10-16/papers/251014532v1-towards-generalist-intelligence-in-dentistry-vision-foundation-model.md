@@ -13,8 +13,8 @@ title: Towards Generalist Intelligence in Dentistry: Vision Foundation Models fo
 
 ## 3 点简述
 - 牙科放射图像解读受限于专业医生短缺和AI系统单模态、任务特定设计
-- 基于ViT架构开发2D和3D模型，使用自监督学习处理160万张多模态图像
-- 在DentBench基准测试中显著优于基线，实现跨模态诊断和高效泛化
+- 基于ViT架构开发2D和3D模型，使用自监督学习在160万张多模态图像上训练
+- 在DentBench基准测试中显著优于基线，实现跨任务和跨模态泛化
 
 ## 摘要（原文）
 

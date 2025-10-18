@@ -7,7 +7,7 @@ title: Restoring Noisy Demonstration for Imitation Learning With Diffusion Model
 **arXiv**：[2510.14467v1](https://arxiv.org/abs/2510.14467) · [PDF](https://arxiv.org/pdf/2510.14467.pdf)  
 **作者**：Shang-Fu Chen, Co Yong, Shao-Hua Sun  
 
-**一句话要点**：提出过滤-恢复框架以解决模仿学习中专家演示含噪声问题
+**一句话要点**：提出过滤-恢复框架以解决模仿学习中噪声专家演示问题
 
 **关键词**：模仿学习, 噪声演示, 扩散模型, 机器人操作, 离线学习
 

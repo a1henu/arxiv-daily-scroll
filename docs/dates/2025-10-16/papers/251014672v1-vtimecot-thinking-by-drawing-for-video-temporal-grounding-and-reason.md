@@ -14,7 +14,7 @@ title: VTimeCoT: Thinking by Drawing for Video Temporal Grounding and Reasoning
 ## 3 点简述
 - 多模态大语言模型在视频时序定位与推理方面存在不足
 - 引入进度条工具和视觉时序链式思维过程，无需训练
-- 在Qwen2VL-7B和GPT4o上性能显著提升，推理过程可解释
+- 在Qwen2VL-7B和GPT4o基准上性能显著提升，推理过程可解释
 
 ## 摘要（原文）
 

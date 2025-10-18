@@ -7,14 +7,14 @@ title: Accelerated Multi-Modal Motion Planning Using Context-Conditioned Diffusi
 **arXiv**：[2510.14615v1](https://arxiv.org/abs/2510.14615) · [PDF](https://arxiv.org/pdf/2510.14615.pdf)  
 **作者**：Edward Sandra, Lander Vanroye, Dries Dirckx, Ruben Cartuyvels, Jan Swevers, Wilm Decré  
 
-**一句话要点**：提出CAMPD方法，利用上下文条件扩散模型实现机器人运动规划在未知环境中的高效泛化
+**一句话要点**：提出上下文感知运动规划扩散模型以解决机器人运动规划在未知环境中的泛化问题
 
-**关键词**：机器人运动规划, 扩散模型, 上下文条件, 多模态轨迹, 泛化能力, U-Net架构
+**关键词**：运动规划, 扩散模型, 上下文条件, 多模态轨迹, 机器人操纵, 泛化能力
 
 ## 3 点简述
 - 传统运动规划方法在高维状态空间和复杂环境中扩展性差
-- CAMPD使用传感器无关上下文条件扩散模型，集成注意力机制于U-Net
-- 在7自由度机械臂上验证，泛化至未见环境，生成多模态轨迹且速度显著提升
+- 使用无分类器去噪扩散模型，通过注意力机制整合传感器无关上下文信息
+- 在7自由度机械臂上验证，泛化至未见环境，生成高质量多模态轨迹，速度远超现有方法
 
 ## 摘要（原文）
 

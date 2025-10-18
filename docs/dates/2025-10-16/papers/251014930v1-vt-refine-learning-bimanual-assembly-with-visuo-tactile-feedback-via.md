@@ -7,14 +7,14 @@ title: VT-Refine: Learning Bimanual Assembly with Visuo-Tactile Feedback via Sim
 **arXiv**：[2510.14930v1](https://arxiv.org/abs/2510.14930) · [PDF](https://arxiv.org/pdf/2510.14930.pdf)  
 **作者**：Binghao Huang, Jie Xu, Iretiayo Akinola, Wei Yang, Balakumar Sundaralingam, Rowland O'Flaherty, Dieter Fox, Xiaolong Wang, Arsalan Mousavian, Yu-Wei Chao, Yunzhu Li  
 
-**一句话要点**：提出VT-Refine框架，结合视觉触觉反馈与仿真微调，解决机器人双手装配任务
+**一句话要点**：提出VT-Refine框架，结合视觉触觉反馈与仿真微调，解决机器人双手精确装配问题。
 
 **关键词**：双手装配, 视觉触觉反馈, 扩散策略, 强化学习, 仿真到真实迁移, 触觉传感器
 
 ## 3 点简述
 - 核心问题：仅靠行为克隆难以复制人类双手装配的触觉适应能力，因演示数据有限且次优。
 - 方法要点：使用扩散策略从真实演示学习，再通过仿真强化学习微调，提升鲁棒性和泛化。
-- 实验效果：在仿真和真实世界中提高装配性能，增加数据多样性和策略微调有效性。
+- 实验效果：在仿真和真实世界中，VT-Refine通过增加数据多样性和有效微调，提高装配性能。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: BoardVision: Deployment-ready and Robust Motherboard Defect Detection wit
 **arXiv**：[2510.14389v1](https://arxiv.org/abs/2510.14389) · [PDF](https://arxiv.org/pdf/2510.14389.pdf)  
 **作者**：Brandon Hill, Kma Solaiman  
 
-**一句话要点**：提出BoardVision框架以解决主板组装缺陷检测问题
+**一句话要点**：提出BoardVision框架以解决主板组装缺陷检测问题，通过YOLO+Faster-RCNN集成提升精度与召回率。
 
-**关键词**：主板缺陷检测, 目标检测集成, 鲁棒性评估, 部署工具, YOLOv7, Faster R-CNN
+**关键词**：主板缺陷检测, 目标检测集成, 鲁棒性评估, 部署工具, YOLOv7, Faster-RCNN
 
 ## 3 点简述
-- 核心问题：主板组装级缺陷检测在电子制造中未充分探索，如螺丝缺失和表面划痕。
-- 方法要点：结合YOLOv7和Faster R-CNN，采用置信度-时间投票集成以平衡精度和召回率。
-- 实验或效果：在MiracleFactory数据集上评估，并测试对亮度、方向等扰动的鲁棒性。
+- 核心问题：主板组装级缺陷检测在电子制造中未充分探索，如缺失螺丝和表面划痕。
+- 方法要点：使用YOLOv7和Faster-RCNN基准测试，并设计轻量级CTV Voter集成方法。
+- 实验或效果：在MiracleFactory数据集评估，增强鲁棒性并发布可部署GUI工具。
 
 ## 摘要（原文）
 

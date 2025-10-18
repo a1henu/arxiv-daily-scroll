@@ -7,14 +7,14 @@ title: Exploring Cross-Modal Flows for Few-Shot Learning
 **arXiv**：[2510.14543v1](https://arxiv.org/abs/2510.14543) · [PDF](https://arxiv.org/pdf/2510.14543.pdf)  
 **作者**：Ziqi Jiang, Yanghao Wang, Long Chen  
 
-**一句话要点**：提出Flow Matching Alignment以解决跨模态少样本学习中的特征对齐问题
+**一句话要点**：提出Flow Matching Alignment以解决复杂数据集中跨模态特征对齐问题
 
 **关键词**：跨模态学习, 少样本学习, 参数高效微调, 特征对齐, Flow Matching Alignment
 
 ## 3 点简述
-- 核心问题：现有参数高效微调方法仅单步调整，难以处理模态特征高度纠缠的复杂数据集
-- 方法要点：学习跨模态速度场实现多步调整，包括固定耦合、噪声增强和早停求解器
-- 实验或效果：在多个基准和骨干网络上显著提升性能，尤其在挑战性数据集上表现突出
+- 现有参数高效微调方法仅单步调整，难以处理高度纠缠的跨模态特征
+- FMA通过多步调整学习跨模态速度场，提升对齐精度和鲁棒性
+- 实验显示FMA在多种基准和骨干网络上显著提升性能，尤其在挑战性数据集
 
 ## 摘要（原文）
 

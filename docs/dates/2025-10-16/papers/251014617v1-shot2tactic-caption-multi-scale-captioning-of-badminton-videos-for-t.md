@@ -7,14 +7,14 @@ title: Shot2Tactic-Caption: Multi-Scale Captioning of Badminton Videos for Tacti
 **arXiv**：[2510.14617v1](https://arxiv.org/abs/2510.14617) · [PDF](https://arxiv.org/pdf/2510.14617.pdf)  
 **作者**：Ning Ding, Keisuke Fujii, Toru Tamaki  
 
-**一句话要点**：提出Shot2Tactic-Caption框架，用于羽毛球视频的多尺度战术理解与描述。
+**一句话要点**：提出Shot2Tactic-Caption框架，用于羽毛球视频的多尺度战术理解与描述
 
-**关键词**：羽毛球视频理解, 多尺度视频描述, 战术检测, Transformer模型, 提示引导机制
+**关键词**：多尺度视频描述, 羽毛球战术理解, Transformer架构, 战术单元检测, 提示引导机制
 
 ## 3 点简述
-- 核心问题：羽毛球战术理解需捕捉个体动作与动态战术执行。
-- 方法要点：采用双分支设计，结合视觉编码器和Transformer，支持射击与战术级描述。
-- 实验或效果：在自建数据集上验证有效性，提示机制提升战术描述连贯性。
+- 核心问题：羽毛球战术理解需描述个体动作和动态战术执行过程。
+- 方法要点：采用双分支设计，结合视觉编码器和Transformer，引入战术单元检测器与提示机制。
+- 实验或效果：在自建数据集上验证有效性，提示机制提升战术描述连贯性和准确性。
 
 ## 摘要（原文）
 

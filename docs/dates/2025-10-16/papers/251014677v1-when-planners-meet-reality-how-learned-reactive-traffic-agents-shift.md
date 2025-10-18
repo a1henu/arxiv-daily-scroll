@@ -7,14 +7,14 @@ title: When Planners Meet Reality: How Learned, Reactive Traffic Agents Shift nu
 **arXiv**：[2510.14677v1](https://arxiv.org/abs/2510.14677) · [PDF](https://arxiv.org/pdf/2510.14677.pdf)  
 **作者**：Steffen Hagedorn, Luka Donkov, Aron Distelzweig, Alexandru P. Condurache  
 
-**一句话要点**：集成SMART智能体于nuPlan，评估规划器在真实交通中的表现
+**一句话要点**：集成SMART智能体以解决nuPlan中基于规则交通代理的评估偏差问题
 
-**关键词**：交通代理模拟, 规划器评估, 仿真与现实差距, 学习型代理, nuPlan基准
+**关键词**：交通代理模拟, 闭环规划评估, 学习型代理, nuPlan基准, 模拟到现实差距
 
 ## 3 点简述
-- 规则交通代理如IDM行为简单，隐藏规划器缺陷并偏差评估
-- 引入学习型SMART代理，模拟真实交互，量化仿真与现实差距
-- 实验显示IDM高估性能，学习型规划器在复杂场景中表现更优
+- 基于规则的交通代理在闭环模拟中行为简单，隐藏规划器缺陷并导致排名偏差
+- 将学习型交通代理模型SMART集成到nuPlan中，实现更真实的模拟环境
+- 实验显示IDM模拟高估性能，SMART下多数规划器得分下降但交互能力提升
 
 ## 摘要（原文）
 

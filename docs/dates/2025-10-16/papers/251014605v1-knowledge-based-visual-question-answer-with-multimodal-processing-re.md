@@ -7,14 +7,14 @@ title: Knowledge-based Visual Question Answer with Multimodal Processing, Retrie
 **arXiv**：[2510.14605v1](https://arxiv.org/abs/2510.14605) · [PDF](https://arxiv.org/pdf/2510.14605.pdf)  
 **作者**：Yuyang Hong, Jiaqi Gu, Qi Yang, Lubin Fan, Yue Wu, Ying Wang, Kun Ding, Shiming Xiang, Jieping Ye  
 
-**一句话要点**：提出Wiki-PRF三阶段方法以解决知识型视觉问答中查询质量和检索结果相关性问题
+**一句话要点**：提出Wiki-PRF三阶段方法以解决知识视觉问答中查询质量和检索结果相关性问题
 
-**关键词**：知识型视觉问答, 多模态检索, 强化学习训练, 检索增强生成, 视觉语言模型
+**关键词**：知识视觉问答, 多模态检索, 强化学习训练, 检索增强生成, 视觉语言模型
 
 ## 3 点简述
-- 核心问题：知识型视觉问答中多模态查询质量差和检索结果相关性低
-- 方法要点：采用处理、检索和过滤三阶段，结合视觉工具和强化学习训练
-- 实验或效果：在E-VQA和InfoSeek数据集上答案质量显著提升，达到先进水平
+- 核心问题：知识视觉问答中多模态查询质量差和检索结果相关性低
+- 方法要点：通过处理、检索和过滤三阶段，结合视觉工具和强化学习训练
+- 实验或效果：在E-VQA和InfoSeek数据集上答案质量显著提升，达到SOTA
 
 ## 摘要（原文）
 

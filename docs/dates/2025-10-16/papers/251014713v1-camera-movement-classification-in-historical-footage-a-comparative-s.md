@@ -7,14 +7,14 @@ title: Camera Movement Classification in Historical Footage: A Comparative Study
 **arXiv**：[2510.14713v1](https://arxiv.org/abs/2510.14713) · [PDF](https://arxiv.org/pdf/2510.14713.pdf)  
 **作者**：Tingyu Lin, Armin Dadras, Florian Kleber, Robert Sablatnig  
 
-**一句话要点**：评估深度视频模型在历史影像中的相机运动分类性能，揭示适应挑战与潜力。
+**一句话要点**：评估深度视频模型在历史影像中的相机运动分类性能
 
-**关键词**：相机运动分类, 历史影像分析, 视频分类模型, HISTORIAN 数据集, Video Swin Transformer
+**关键词**：相机运动分类, 历史影像分析, 视频分类模型, Video Swin Transformer, HISTORIAN数据集
 
 ## 3 点简述
-- 核心问题：现有相机运动分类方法在现代数据集表现良好，但泛化到低质量历史影像未知。
-- 方法要点：系统评估五种标准视频分类模型，使用专家标注的二战历史数据集。
-- 实验或效果：Video Swin Transformer 模型在 HISTORIAN 数据集上达到 80.25% 准确率。
+- 核心问题：现有相机运动分类方法在现代数据集表现良好，但泛化到历史影像未知。
+- 方法要点：系统评估五种标准视频分类模型，使用Video Swin Transformer等。
+- 实验或效果：在HISTORIAN数据集上，最佳模型准确率达80.25%，显示强收敛性。
 
 ## 摘要（原文）
 
