@@ -7,13 +7,13 @@ title: EdgeNavMamba: Mamba Optimized Object Detection for Energy Efficient Edge 
 **arXiv**：[2510.14946v1](https://arxiv.org/abs/2510.14946) · [PDF](https://arxiv.org/pdf/2510.14946.pdf)  
 **作者**：Romina Aalishah, Mozhgan Navardi, Tinoosh Mohsenin  
 
-**一句话要点**：提出EdgeNavMamba框架，结合Mamba目标检测与强化学习，优化边缘设备上的自主导航。
+**一句话要点**：提出EdgeNavMamba框架，结合Mamba目标检测与强化学习，优化边缘设备导航效率。
 
-**关键词**：边缘计算, 目标检测, 强化学习, 模型压缩, 自主导航, Mamba模型
+**关键词**：边缘计算, 目标检测, 强化学习, 模型压缩, 自主导航, 能效优化
 
 ## 3 点简述
-- 边缘设备计算资源受限，需高效深度学习模型支持实时自主导航。
-- 使用强化学习框架，集成Mamba目标检测器提取边界框，驱动导航策略。
+- 边缘设备计算资源有限，需高效深度学习模型支持实时自主导航。
+- 采用强化学习框架，集成高效Mamba目标检测器提取边界框，指导导航策略。
 - 实验显示模型尺寸减少67%，能耗降低73%，导航成功率超90%。
 
 ## 摘要（原文）

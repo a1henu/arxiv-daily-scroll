@@ -7,13 +7,13 @@ title: Expertise need not monopolize: Action-Specialized Mixture of Experts for 
 **arXiv**：[2510.14300v1](https://arxiv.org/abs/2510.14300) · [PDF](https://arxiv.org/pdf/2510.14300.pdf)  
 **作者**：Weijie Shen, Yitian Liu, Yuhao Wu, Zhixuan Liang, Sijia Gu, Dehui Wang, Tian Nian, Lei Xu, Yusen Qin, Jiangmiao Pang, Xinping Guan, Xiaokang Yang, Yao Mu  
 
-**一句话要点**：提出AdaMoE以解决视觉-语言-动作模型扩展中的计算效率与性能平衡问题
+**一句话要点**：提出AdaMoE架构以解决视觉-语言-动作模型扩展中的计算效率与性能平衡问题
 
-**关键词**：视觉-语言-动作模型, 专家混合架构, 机器人操作, 稀疏激活, 实时控制, 模型扩展
+**关键词**：视觉-语言-动作模型, 混合专家架构, 机器人操作, 模型扩展, 计算效率
 
 ## 3 点简述
-- 核心问题：VLA模型扩展需高计算资源与稀缺机器人数据，实时控制需平衡模型容量与效率
-- 方法要点：采用MoE架构继承预训练权重，通过解耦专家选择与权重实现协作专家利用
+- 核心问题：VLA模型扩展需高计算资源与稀缺机器人数据，且需平衡模型容量与实时控制效率
+- 方法要点：采用混合专家架构，继承预训练权重，通过解耦专家选择与权重实现协作利用
 - 实验或效果：在LIBERO和RoboTwin基准上性能提升1.8%和9.3%，真实世界实验提升21.5%
 
 ## 摘要（原文）

@@ -7,14 +7,14 @@ title: Scaling Artificial Intelligence for Multi-Tumor Early Detection with More
 **arXiv**：[2510.14803v1](https://arxiv.org/abs/2510.14803) · [PDF](https://arxiv.org/pdf/2510.14803.pdf)  
 **作者**：Pedro R. A. S. Bassi, Xinze Zhou, Wenxuan Li, Szymon Płotka, Jieneng Chen, Qi Chen, Zheren Zhu, Jakub Prządo, Ibrahim E. Hamacı, Sezgin Er, Yuhan Wang, Ashwin Kumar, Bjoern Menze, Jarosław B. Ćwikła, Yuyin Zhou, Akshay S. Chaudhari, Curtis P. Langlotz, Sergio Decherchi, Andrea Cavalli, Kang Wang, Yang Yang, Alan L. Yuille, Zongwei Zhou  
 
-**一句话要点**：提出R-Super方法，利用医学报告训练AI进行多肿瘤早期检测，减少对肿瘤掩码的依赖。
+**一句话要点**：提出R-Super方法，利用医学报告训练AI进行多肿瘤分割，减少对人工标注的依赖。
 
-**关键词**：肿瘤分割, 医学报告训练, 多肿瘤检测, AI可扩展性, 早期癌症筛查
+**关键词**：肿瘤分割, 医学报告利用, AI训练扩展, 多肿瘤检测, CT扫描分析
 
 ## 3 点简述
-- 核心问题：肿瘤早期检测依赖昂贵的手动肿瘤掩码，限制了AI模型的可扩展性。
-- 方法要点：使用医学报告描述训练AI模型，实现肿瘤分割，无需大量掩码。
-- 实验或效果：在101,654份报告上训练，性能媲美723个掩码，结合掩码提升敏感性和特异性。
+- 核心问题：AI肿瘤分割需大量人工标注，成本高昂且难以扩展。
+- 方法要点：使用医学报告描述训练AI模型，匹配肿瘤特征进行分割。
+- 实验或效果：在101,654份报告上训练，性能媲美723个掩码，组合使用提升敏感性和特异性。
 
 ## 摘要（原文）
 

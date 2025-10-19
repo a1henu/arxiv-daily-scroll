@@ -14,7 +14,7 @@ title: MatchAttention: Matching the Relative Positions for High-Resolution Cross
 ## 3 点简述
 - 核心问题：高分辨率图像跨视图匹配存在二次复杂度和缺乏显式匹配约束的挑战
 - 方法要点：通过BilinearSoftmax实现连续可微滑动窗口注意力采样，迭代更新相对位置
-- 实验或效果：在多个基准数据集上达到SOTA，支持实时高分辨率处理，如4K图像0.1秒内推理
+- 实验或效果：在多个基准数据集上达到SOTA，支持实时高分辨率处理，如4K图像0.1秒推理
 
 ## 摘要（原文）
 

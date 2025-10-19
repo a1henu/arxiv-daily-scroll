@@ -13,8 +13,8 @@ title: EuroMineNet: A Multitemporal Sentinel-2 Benchmark for Spatiotemporal Mini
 
 ## 3 点简述
 - 采矿活动导致环境退化，现有数据集时空覆盖不足
-- 基于Sentinel-2影像提供多时相采矿足迹标注，支持GeoAI模型分析
-- 基准20种深度学习模型，揭示长期变化检测有效但短期动态挑战未知
+- 基于Sentinel-2影像，提供133个矿点2015-2024年多时相标注
+- 评估20个GeoAI模型，揭示长期变化检测有效但短期动态挑战大
 
 ## 摘要（原文）
 

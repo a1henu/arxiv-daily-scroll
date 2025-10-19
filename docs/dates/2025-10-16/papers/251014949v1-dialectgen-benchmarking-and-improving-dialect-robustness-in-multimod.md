@@ -7,14 +7,14 @@ title: DialectGen: Benchmarking and Improving Dialect Robustness in Multimodal G
 **arXiv**：[2510.14949v1](https://arxiv.org/abs/2510.14949) · [PDF](https://arxiv.org/pdf/2510.14949.pdf)  
 **作者**：Yu Zhou, Sohyun An, Haikang Deng, Da Yin, Clark Peng, Cho-Jui Hsieh, Kai-Wei Chang, Nanyun Peng  
 
-**一句话要点**：提出编码器方法提升多模态生成模型在方言输入下的鲁棒性
+**一句话要点**：提出编码器方法以提升多模态生成模型对英语方言的鲁棒性
 
 **关键词**：多模态生成, 方言鲁棒性, 编码器方法, 基准测试, 性能优化
 
 ## 3 点简述
-- 研究多模态生成模型在方言文本输入时的性能下降问题
-- 设计编码器策略，使模型识别方言特征并保持标准英语性能
-- 实验显示方法在多个方言上性能提升34.4%，标准英语性能无损失
+- 核心问题：多模态生成模型在方言文本输入下性能显著下降，降幅达32.26%至48.17%
+- 方法要点：设计编码器策略，使模型识别新方言特征并保持标准英语性能
+- 实验或效果：在Stable Diffusion 1.5等模型上，方言性能提升34.4%，标准英语性能几乎无损
 
 ## 摘要（原文）
 

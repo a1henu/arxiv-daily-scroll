@@ -9,7 +9,7 @@ title: QDepth-VLA: Quantized Depth Prediction as Auxiliary Supervision for Visio
 
 **一句话要点**：提出QDepth-VLA框架，通过量化深度预测增强VLA模型的空间推理能力
 
-**关键词**：视觉语言动作模型, 深度预测, 空间推理, 量化表示, 辅助监督, 操作任务
+**关键词**：视觉-语言-动作模型, 深度预测, 空间推理, 量化表示, 辅助监督
 
 ## 3 点简述
 - 现有VLA模型缺乏对3D结构的理解，影响精细操作任务性能

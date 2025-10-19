@@ -13,7 +13,7 @@ title: Restoring Noisy Demonstration for Imitation Learning With Diffusion Model
 
 ## 3 点简述
 - 核心问题：专家演示常含噪声，影响模仿学习性能
-- 方法要点：先过滤干净样本，再用条件扩散模型恢复噪声样本
+- 方法要点：先过滤干净样本，再用条件扩散模型恢复噪声演示
 - 实验效果：在机器人操作和运动任务中优于现有方法，验证鲁棒性
 
 ## 摘要（原文）

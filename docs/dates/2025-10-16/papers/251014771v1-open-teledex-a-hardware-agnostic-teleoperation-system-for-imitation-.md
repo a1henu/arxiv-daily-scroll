@@ -9,7 +9,7 @@ title: Open TeleDex: A Hardware-Agnostic Teleoperation System for Imitation Lear
 
 **一句话要点**：提出Open TeleDex统一遥操作系统以解决异构机器人平台模仿学习数据采集难题
 
-**关键词**：遥操作系统, 模仿学习, 灵巧操作, 数据采集, 硬件无关, 姿态重定向
+**关键词**：遥操作系统, 模仿学习, 灵巧操作, 数据采集, 硬件无关性, 姿态重定向
 
 ## 3 点简述
 - 核心问题：异构机器人平台难以获取高精度演示数据，阻碍模仿学习部署。

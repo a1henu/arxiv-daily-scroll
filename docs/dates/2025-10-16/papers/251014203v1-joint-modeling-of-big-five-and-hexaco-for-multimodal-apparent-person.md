@@ -7,14 +7,14 @@ title: Joint Modeling of Big Five and HEXACO for Multimodal Apparent Personality
 **arXiv**：[2510.14203v1](https://arxiv.org/abs/2510.14203) · [PDF](https://arxiv.org/pdf/2510.14203.pdf)  
 **作者**：Ryo Masumura, Shota Orihashi, Mana Ihori, Tomohiro Tanaka, Naoki Makishima, Taiga Yamane, Naotaka Kawata, Satoshi Suzuki, Taichi Katayama  
 
-**一句话要点**：提出联合建模Big Five和HEXACO的方法，用于多模态表观人格特质识别。
+**一句话要点**：提出联合建模Big Five和HEXACO的方法，用于多模态人类行为中的外显人格特质识别。
 
 **关键词**：多模态人格识别, Big Five模型, HEXACO模型, 联合建模, 视频行为分析
 
 ## 3 点简述
-- 核心问题：现有研究未关注HEXACO模型中的Honesty-Humility特质及其与Big Five的关系。
-- 方法要点：通过联合优化同时识别Big Five和HEXACO，以改进多模态人类行为建模。
-- 实验或效果：在自我介绍视频数据集上验证，能有效识别Big Five和HEXACO。
+- 核心问题：现有研究未关注HEXACO外显特质及其与Big Five的关系。
+- 方法要点：通过联合优化同时识别Big Five和HEXACO人格特质。
+- 实验或效果：在自我介绍视频数据集上验证方法有效识别两种人格特质。
 
 ## 摘要（原文）
 

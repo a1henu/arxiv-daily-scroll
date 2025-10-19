@@ -7,9 +7,9 @@ title: Stability Criteria and Motor Performance in Delayed Haptic Dyadic Interac
 **arXiv**：[2510.14511v1](https://arxiv.org/abs/2510.14511) · [PDF](https://arxiv.org/pdf/2510.14511.pdf)  
 **作者**：Mingtian Du, Suhas Raghavendra Kulkarni, Simone Kager, Domenico Campolo  
 
-**一句话要点**：提出机器人介导延迟触觉交互的稳定性准则，分析延迟对系统稳定性的影响。
+**一句话要点**：提出机器人介导触觉交互的稳定性准则，分析网络延迟对系统稳定性的影响。
 
-**关键词**：触觉交互, 稳定性分析, 机器人介导, 网络延迟, 频域方法, 运动性能
+**关键词**：触觉交互, 稳定性分析, 网络延迟, 机器人控制, 频域方法
 
 ## 3 点简述
 - 核心问题：网络延迟下机器人介导的人-人触觉交互系统稳定性分析。

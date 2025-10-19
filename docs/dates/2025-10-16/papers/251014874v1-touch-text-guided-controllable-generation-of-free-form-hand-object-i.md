@@ -7,13 +7,13 @@ title: TOUCH: Text-guided Controllable Generation of Free-Form Hand-Object Inter
 **arXiv**：[2510.14874v1](https://arxiv.org/abs/2510.14874) · [PDF](https://arxiv.org/pdf/2510.14874.pdf)  
 **作者**：Guangyi Han, Wei Zhai, Yuhang Yang, Yang Cao, Zheng-Jun Zha  
 
-**一句话要点**：提出TOUCH框架以生成可控、多样且物理合理的手-物体自由交互。
+**一句话要点**：提出TOUCH框架以生成可控、多样且物理合理的手-物体自由交互
 
 **关键词**：手-物体交互生成, 自由形式交互, 多级扩散模型, 细粒度语义控制, 物理约束优化, WildO2数据集
 
 ## 3 点简述
 - 现有手-物体交互生成局限于固定抓取模式，缺乏日常交互多样性。
-- TOUCH使用多级扩散模型，结合细粒度语义控制，生成超越抓取的手势。
+- TOUCH使用多级扩散模型，结合细粒度语义控制，生成超越抓取的手部姿势。
 - 实验验证方法能生成可控、多样且物理合理的手交互，代表日常活动。
 
 ## 摘要（原文）

@@ -13,8 +13,8 @@ title: RealDPO: Real or Not Real, that is the Preference
 
 ## 3 点简述
 - 核心问题：视频生成模型在复杂运动合成中难以产生自然、流畅且上下文一致的运动。
-- 方法要点：采用Direct Preference Optimization，以真实视频为正样本对比模型错误输出进行迭代自校正。
-- 实验或效果：在视频质量、文本对齐和运动真实感方面显著优于现有先进模型和偏好优化技术。
+- 方法要点：采用Direct Preference Optimization，以真实视频为正样本对比模型输出进行迭代自校正。
+- 实验或效果：RealDPO显著提升视频质量、文本对齐和运动真实性，优于现有方法。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: AI for Service: Proactive Assistance with AI Glasses
 **arXiv**：[2510.14359v1](https://arxiv.org/abs/2510.14359) · [PDF](https://arxiv.org/pdf/2510.14359.pdf)  
 **作者**：Zichen Wen, Yiyu Wang, Chenfei Liao, Boxue Yang, Junxian Li, Weifeng Liu, Haocong He, Bolong Feng, Xuyang Liu, Yuanhuiyi Lyu, Xu Zheng, Xuming Hu, Linfeng Zhang  
 
-**一句话要点**：提出Alpha-Service框架，通过AI眼镜实现主动实时服务辅助。
+**一句话要点**：提出Alpha-Service框架，通过AI眼镜实现主动实时服务辅助
 
-**关键词**：主动AI服务, AI眼镜, 多代理系统, 个性化辅助, 实时感知
+**关键词**：主动服务, AI眼镜, 多智能体系统, 第一人称视频, 个性化辅助, 实时干预
 
 ## 3 点简述
-- 核心问题：现有AI服务多为被动响应，无法主动预测用户需求。
-- 方法要点：基于von Neumann架构，构建多组件系统以检测服务机会并提供个性化服务。
-- 实验或效果：案例研究展示在Blackjack、博物馆导览等场景中实现无缝感知与及时辅助。
+- 核心问题：现有AI服务多为被动响应，需转向主动预测用户需求
+- 方法要点：基于冯·诺依曼架构，构建多组件系统感知环境与个性化服务
+- 实验或效果：案例展示如Blackjack顾问，能无提示感知意图并提供帮助
 
 ## 摘要（原文）
 

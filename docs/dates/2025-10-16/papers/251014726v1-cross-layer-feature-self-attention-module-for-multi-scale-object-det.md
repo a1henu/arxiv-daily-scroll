@@ -9,12 +9,12 @@ title: Cross-Layer Feature Self-Attention Module for Multi-Scale Object Detectio
 
 **一句话要点**：提出跨层特征自注意力模块以提升多尺度目标检测性能
 
-**关键词**：多尺度目标检测, 跨层注意力, 特征融合, 自注意力机制, Transformer模型
+**关键词**：多尺度目标检测, 跨层注意力, 特征融合, 自注意力机制, SSD框架
 
 ## 3 点简述
-- 现有方法忽视多尺度特征间的跨层依赖，限制检测大尺度变化物体的能力
-- CFSAM结合卷积局部特征提取、Transformer全局建模和特征融合，增强多尺度特征表示
-- 集成SSD300框架，在PASCAL VOC和COCO数据集上显著提升mAP，并加速训练收敛
+- 现有方法忽视多尺度特征间的层间依赖，限制检测大尺度变化物体的能力
+- 模块结合卷积局部特征提取、Transformer全局建模和特征融合，增强多尺度表示
+- 集成SSD300显著提升PASCAL VOC和COCO数据集mAP，加速收敛且计算开销小
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: DEXTER: Diffusion-Guided EXplanations with TExtual Reasoning for Vision M
 **arXiv**：[2510.14741v1](https://arxiv.org/abs/2510.14741) · [PDF](https://arxiv.org/pdf/2510.14741.pdf)  
 **作者**：Simone Carnemolla, Matteo Pennisi, Sarinda Samarasinghe, Giovanni Bellitto, Simone Palazzo, Daniela Giordano, Mubarak Shah, Concetto Spampinato  
 
-**一句话要点**：提出DEXTER框架，利用扩散模型和语言模型生成视觉分类器的全局文本解释。
+**一句话要点**：提出DEXTER框架，利用扩散模型和大型语言模型生成视觉分类器的全局文本解释。
 
-**关键词**：视觉模型解释, 扩散模型, 语言模型, 全局解释, 数据自由框架, 分类器偏见分析
+**关键词**：视觉模型解释, 扩散模型, 大型语言模型, 数据自由框架, 分类器偏见分析
 
 ## 3 点简述
-- 核心问题：无需训练数据或真实标签，解释视觉分类器的决策过程。
-- 方法要点：优化文本提示合成类条件图像，激活分类器并生成语言报告。
-- 实验或效果：在ImageNet等数据集上优于现有方法，提供准确可解释输出。
+- 核心问题：理解视觉分类器决策过程，无需训练数据或真实标签。
+- 方法要点：优化文本提示合成类条件图像，激活分类器并生成自然语言报告。
+- 实验或效果：在ImageNet等数据集上验证，优于现有方法，输出准确可解释。
 
 ## 摘要（原文）
 
