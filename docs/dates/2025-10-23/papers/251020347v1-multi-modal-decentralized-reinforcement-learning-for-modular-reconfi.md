@@ -7,14 +7,14 @@ title: Multi-Modal Decentralized Reinforcement Learning for Modular Reconfigurab
 **arXiv**：[2510.20347v1](https://arxiv.org/abs/2510.20347) · [PDF](https://arxiv.org/pdf/2510.20347.pdf)  
 **作者**：Ashutosh Mishra, Shreya Santra, Elian Neppel, Edoardo M. Rossi Lombardi, Shamistan Karimov, Kentaro Uno, Kazuya Yoshida  
 
-**一句话要点**：提出去中心化强化学习方案，解决模块化月球机器人形态组合爆炸的控制问题。
+**一句话要点**：提出去中心化强化学习方案以解决模块化月球机器人形态组合爆炸的控制问题
 
 **关键词**：模块化机器人, 去中心化强化学习, 零样本泛化, 月球机器人, 策略学习
 
 ## 3 点简述
-- 核心问题：模块化机器人形态组合爆炸阻碍统一控制。
-- 方法要点：各模块学习独立策略，轮子用SAC，7自由度肢体用PPO。
-- 实验效果：仿真中实现零样本泛化，现场测试验证自主运动与重构。
+- 核心问题：模块化可重构机器人的形态组合爆炸阻碍统一控制
+- 方法要点：各模块学习独立策略，轮模块用SAC，7自由度肢体用PPO
+- 实验效果：仿真中实现零样本泛化，现场测试验证自主运动与重构
 
 ## 摘要（原文）
 

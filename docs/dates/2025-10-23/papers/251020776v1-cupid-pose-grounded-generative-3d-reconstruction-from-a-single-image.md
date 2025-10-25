@@ -7,14 +7,14 @@ title: CUPID: Pose-Grounded Generative 3D Reconstruction from a Single Image
 **arXiv**：[2510.20776v1](https://arxiv.org/abs/2510.20776) · [PDF](https://arxiv.org/pdf/2510.20776.pdf)  
 **作者**：Binbin Huang, Haobin Duan, Yiqun Zhao, Zibo Zhao, Yi Ma, Shenghua Gao  
 
-**一句话要点**：提出CUPID方法，从单张图像生成带姿态的3D重建
+**一句话要点**：提出CUPID方法，从单张图像生成精确相机姿态、3D形状和纹理。
 
 **关键词**：3D重建, 生成模型, 姿态估计, 流匹配, 单图像重建
 
 ## 3 点简述
-- 核心问题：从单张2D图像准确推断相机姿态、3D形状和纹理
-- 方法要点：采用两阶段流匹配，联合生成体素和像素-体素对应关系
-- 实验效果：PSNR提升超3 dB，Chamfer距离降低超10%，姿态精度高
+- 核心问题：从单张2D图像准确推断3D对象的相机姿态、形状和纹理。
+- 方法要点：采用两阶段流匹配，联合生成体素和像素-体素对应关系。
+- 实验效果：PSNR提升超3 dB，Chamfer距离减少超10%，姿态精度媲美单目估计器。
 
 ## 摘要（原文）
 

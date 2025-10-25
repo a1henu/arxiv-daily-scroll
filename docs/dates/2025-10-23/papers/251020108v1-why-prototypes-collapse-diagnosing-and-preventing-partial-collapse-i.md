@@ -7,14 +7,14 @@ title: Why Prototypes Collapse: Diagnosing and Preventing Partial Collapse in Pr
 **arXiv**：[2510.20108v1](https://arxiv.org/abs/2510.20108) · [PDF](https://arxiv.org/pdf/2510.20108.pdf)  
 **作者**：Gabriel Y. Arteaga, Marius Aasan, Rwiddhi Chakraborty, Martine Hjelkrem-Tan, Thalles Silva, Michael Kampffmeyer, Adín Ramírez Rivera  
 
-**一句话要点**：提出原型解耦训练策略以解决原型自监督学习中的部分原型崩溃问题
+**一句话要点**：提出解耦训练策略以解决原型自监督学习中的部分原型坍缩问题
 
-**关键词**：原型自监督学习, 原型崩溃, 解耦训练, 高斯混合模型, 在线EM算法, 表示学习
+**关键词**：原型自监督学习, 原型坍缩, 解耦训练, 高斯混合模型, 在线EM算法, 表示学习
 
 ## 3 点简述
-- 核心问题：原型自监督学习中多个原型收敛到相似表示，削弱表示多样性
-- 方法要点：采用解耦训练，原型通过在线EM更新，独立于编码器优化
-- 实验或效果：消除原型崩溃，提升原型多样性和下游任务性能
+- 核心问题：原型自监督学习中多个原型收敛为相似表示，削弱表示多样性。
+- 方法要点：采用解耦训练，原型通过在线EM更新，独立于编码器优化。
+- 实验或效果：消除原型坍缩，提升原型多样性和下游任务性能。
 
 ## 摘要（原文）
 

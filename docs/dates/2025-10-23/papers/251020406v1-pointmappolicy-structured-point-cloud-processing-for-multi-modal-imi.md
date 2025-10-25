@@ -12,9 +12,9 @@ title: PointMapPolicy: Structured Point Cloud Processing for Multi-Modal Imitati
 **关键词**：点云处理, 多模态模仿学习, 扩散策略, 机器人操作, xLSTM
 
 ## 3 点简述
-- 当前点云方法难以捕捉细粒度细节，RGB方法缺乏几何感知，影响机器人操作精度和泛化。
-- PointMapPolicy基于结构化点网格，无需下采样，使用xLSTM融合点云与RGB数据。
-- 在RoboCasa和CALVIN基准测试及真实机器人评估中，实现最先进性能。
+- 当前点云方法难以捕捉细粒度细节，RGB方法缺乏几何感知，影响机器人操作精度与泛化。
+- 基于结构化点网格，结合扩散策略，使用xLSTM融合点云与RGB数据，提升多模态感知。
+- 在RoboCasa和CALVIN基准及真实机器人评估中，实现最先进性能，验证方法有效性。
 
 ## 摘要（原文）
 

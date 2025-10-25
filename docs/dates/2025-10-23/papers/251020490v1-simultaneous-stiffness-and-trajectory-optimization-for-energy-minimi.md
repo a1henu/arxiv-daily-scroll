@@ -7,12 +7,12 @@ title: Simultaneous Stiffness and Trajectory Optimization for Energy Minimizatio
 **arXiv**：[2510.20490v1](https://arxiv.org/abs/2510.20490) · [PDF](https://arxiv.org/pdf/2510.20490.pdf)  
 **作者**：Thomas Kordik, Hubert Gattringer, Andreas Mueller  
 
-**一句话要点**：提出同时优化刚度和轨迹的方法，以最小化SEA驱动并联机器人在拾放任务中的能耗。
+**一句话要点**：提出同时优化刚度和轨迹的方法，以最小化SEA驱动并联机械臂拾放任务的能耗。
 
-**关键词**：并联机器人, 能量优化, 系列弹性驱动器, 最优控制, 拾放任务, 刚度优化
+**关键词**：并联机械臂, 系列弹性驱动器, 能量优化, 轨迹规划, 刚度优化, 拾放任务
 
 ## 3 点简述
-- 核心问题：拾放任务中并联机器人能耗高，需优化能量效率。
+- 核心问题：并联机械臂在拾放任务中能耗高，需优化能量效率。
 - 方法要点：推导动态模型，同时优化轨迹和SEA刚度以激发本征运动。
 - 实验或效果：在两种机器人应用中验证，证实能耗降低。
 

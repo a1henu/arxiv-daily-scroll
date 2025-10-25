@@ -7,14 +7,14 @@ title: Mixing Importance with Diversity: Joint Optimization for KV Cache Compres
 **arXiv**：[2510.20707v1](https://arxiv.org/abs/2510.20707) · [PDF](https://arxiv.org/pdf/2510.20707.pdf)  
 **作者**：Xuyang Liu, Xiyan Gui, Yuchao Zhang, Linfeng Zhang  
 
-**一句话要点**：提出MixKV方法以解决大视觉语言模型中KV缓存的内存瓶颈问题
+**一句话要点**：提出MixKV方法以解决大型视觉语言模型中KV缓存的内存瓶颈问题
 
-**关键词**：KV缓存压缩, 大视觉语言模型, 多模态冗余, 注意力头优化, 内存效率
+**关键词**：KV缓存压缩, 大型视觉语言模型, 多模态冗余, 重要性多样性平衡, 内存优化
 
 ## 3 点简述
 - 核心问题：KV缓存在多模态序列中扩展导致内存瓶颈，现有方法忽略模态特定冗余
 - 方法要点：MixKV结合重要性和多样性，自适应头级语义冗余进行KV压缩
-- 实验或效果：在极端压缩下平均提升5.1%，GUI任务增益达9.0%，保持推理效率
+- 实验效果：在极端压缩下，平均提升5.1%，GUI任务增益达8.0-9.0%，保持推理效率
 
 ## 摘要（原文）
 

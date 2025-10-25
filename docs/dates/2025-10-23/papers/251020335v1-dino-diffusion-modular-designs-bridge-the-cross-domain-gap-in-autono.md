@@ -9,7 +9,7 @@ title: Dino-Diffusion Modular Designs Bridge the Cross-Domain Gap in Autonomous 
 
 **一句话要点**：提出Dino-Diffusion Parking以解决自动驾驶停车中的跨域鲁棒性问题
 
-**关键词**：自动驾驶停车, 跨域鲁棒性, 视觉基础模型, 扩散规划, 零样本转移, 模拟到真实转移
+**关键词**：自动驾驶停车, 跨域鲁棒性, 扩散规划, 视觉基础模型, 零样本转移, 模拟到真实转移
 
 ## 3 点简述
 - 核心问题：端到端方法在天气和光照等域偏移下鲁棒性不足

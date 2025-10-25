@@ -7,14 +7,14 @@ title: Behavior-Aware Online Prediction of Obstacle Occupancy using Zonotopes
 **arXiv**：[2510.20437v1](https://arxiv.org/abs/2510.20437) · [PDF](https://arxiv.org/pdf/2510.20437.pdf)  
 **作者**：Alvaro Carrizosa-Rendon, Jian Zhou, Erik Frisk, Vicenc Puig, Fatiha Nejjari  
 
-**一句话要点**：提出基于Zonotopes的行为感知在线方法，以预测无结构环境中车辆占用区域。
+**一句话要点**：提出基于Zonotopes的行为感知在线方法，以预测无结构环境中车辆占用。
 
 **关键词**：自动驾驶预测, Zonotopes方法, 在线占用预测, 可达性分析, 扩展卡尔曼滤波, 线性规划
 
 ## 3 点简述
-- 核心问题：在无先验信息的无结构环境中，准确预测周围车辆运动以确保自动驾驶安全。
+- 核心问题：在无先验信息环境中，准确预测周围车辆运动对自动驾驶安全至关重要。
 - 方法要点：使用扩展卡尔曼滤波和线性规划估计控制动作，再通过可达性分析预测未来占用。
-- 实验或效果：城市环境模拟验证方法准确紧凑，无需先验假设或训练数据。
+- 实验或效果：城市环境仿真验证了方法准确且紧凑，无需先验假设或训练数据。
 
 ## 摘要（原文）
 

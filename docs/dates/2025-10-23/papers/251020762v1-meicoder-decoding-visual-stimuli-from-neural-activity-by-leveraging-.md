@@ -7,7 +7,7 @@ title: MEIcoder: Decoding Visual Stimuli from Neural Activity by Leveraging Most
 **arXiv**：[2510.20762v1](https://arxiv.org/abs/2510.20762) · [PDF](https://arxiv.org/pdf/2510.20762.pdf)  
 **作者**：Jan Sobotka, Luca Baroni, Ján Antolík  
 
-**一句话要点**：提出MEIcoder方法，利用最兴奋输入解码视觉刺激，解决小数据集神经活动解码问题。
+**一句话要点**：提出MEIcoder方法，利用最兴奋输入解码视觉刺激，解决小数据集神经活动解码难题。
 
 **关键词**：视觉刺激解码, 神经活动分析, 小数据集学习, 对抗训练, 生物启发方法
 

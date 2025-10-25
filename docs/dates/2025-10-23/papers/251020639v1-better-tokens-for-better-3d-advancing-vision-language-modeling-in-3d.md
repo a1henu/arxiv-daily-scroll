@@ -7,14 +7,14 @@ title: Better Tokens for Better 3D: Advancing Vision-Language Modeling in 3D Med
 **arXiv**：[2510.20639v1](https://arxiv.org/abs/2510.20639) · [PDF](https://arxiv.org/pdf/2510.20639.pdf)  
 **作者**：Ibrahim Ethem Hamamci, Sezgin Er, Suprosanna Shit, Hadrien Reynaud, Dong Yang, Pengfei Guo, Marc Edgar, Daguang Xu, Bernhard Kainz, Bjoern Menze  
 
-**一句话要点**：提出BTB3D方法以解决3D医学影像中高分辨率长序列建模问题
+**一句话要点**：提出BTB3D模型以解决3D医学影像中高分辨率长序列处理难题
 
 **关键词**：3D医学影像, 视觉语言建模, 体积标记化, 因果卷积, 报告生成, 文本到图像合成
 
 ## 3 点简述
 - 核心问题：当前方法在高分辨率长序列3D医学影像中，视觉编码器与临床语言不匹配，切片级标记化模糊精细解剖结构
-- 方法要点：采用因果卷积编码器-解码器，统一2D和3D训练推理，生成紧凑频率感知体积标记
-- 实验或效果：在报告生成和文本到CT合成任务中，显著提升BLEU和临床F1分数，降低FID和FVD指标
+- 方法要点：采用因果卷积编码器-解码器，统一2D和3D训练推理，生成紧凑频率感知体积标记，通过三阶段课程学习提升泛化能力
+- 实验或效果：在报告生成任务中提升BLEU分数和临床F1 40%，在文本到CT合成中降低FID 75%和FVD 50%，生成512*512*241解剖一致体积
 
 ## 摘要（原文）
 

@@ -12,8 +12,8 @@ title: GSWorld: Closed-Loop Photo-Realistic Simulation Suite for Robotic Manipul
 **关键词**：机器人操作仿真, 3D高斯溅射, sim2real策略, 物理引擎集成, GSDF资产格式, 闭环开发
 
 ## 3 点简述
-- 核心问题：机器人操作策略开发依赖真实机器人，成本高且难以复现评估。
-- 方法要点：使用GSDF资产格式，融合高斯-网格表示与URDF，支持逼真渲染。
+- 核心问题：机器人操作策略开发依赖真实机器人，成本高且难以复现。
+- 方法要点：引入GSDF资产格式，融合高斯-网格表示与URDF，支持逼真渲染。
 - 实验或效果：展示零样本sim2real策略学习、自动化数据收集等应用。
 
 ## 摘要（原文）

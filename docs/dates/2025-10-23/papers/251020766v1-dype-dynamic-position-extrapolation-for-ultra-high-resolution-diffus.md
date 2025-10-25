@@ -14,7 +14,7 @@ title: DyPE: Dynamic Position Extrapolation for Ultra High Resolution Diffusion
 ## 3 点简述
 - 扩散变换器在超高分辨率训练中因自注意力二次缩放而成本高昂。
 - DyPE 动态调整位置编码，匹配扩散过程频谱，无需额外训练。
-- 实验显示，DyPE 在多个基准上提升性能，实现16百万像素图像生成。
+- 实验显示，DyPE 在超高分辨率生成中提升性能，达到最先进保真度。
 
 ## 摘要（原文）
 

@@ -13,8 +13,8 @@ title: Revisiting Logit Distributions for Reliable Out-of-Distribution Detection
 
 ## 3 点简述
 - 核心问题：现有后处理方法未充分利用logits空间信息，影响OOD检测效果。
-- 方法要点：利用最大logit与其余logit关系，自动选择信息丰富子集进行评分。
-- 实验或效果：在视觉语言和纯视觉模型中，多场景基准测试达到SOTA性能。
+- 方法要点：利用最大logit与其余logit关系，并自动选择信息丰富子集进行评分。
+- 实验或效果：在视觉语言和纯视觉模型中，LogitGap在多种基准上达到SOTA性能。
 
 ## 摘要（原文）
 

@@ -7,7 +7,7 @@ title: A Contact-Driven Framework for Manipulating in the Blind
 **arXiv**：[2510.20177v1](https://arxiv.org/abs/2510.20177) · [PDF](https://arxiv.org/pdf/2510.20177.pdf)  
 **作者**：Muhammad Suhail Saleem, Lai Yuan, Maxim Likhachev  
 
-**一句话要点**：提出基于接触反馈与结构先验的盲操作框架，以在视觉受限环境中实现稳健机器人操作。
+**一句话要点**：提出基于接触反馈和结构先验的盲操作框架，以在视觉受限环境中实现鲁棒机器人操作。
 
 **关键词**：机器人操作, 接触反馈, 占用估计, 运动规划, 结构先验, 盲操作
 

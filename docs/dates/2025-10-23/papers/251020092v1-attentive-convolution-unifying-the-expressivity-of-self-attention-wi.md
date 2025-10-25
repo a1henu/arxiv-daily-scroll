@@ -7,13 +7,13 @@ title: Attentive Convolution: Unifying the Expressivity of Self-Attention with C
 **arXiv**：[2510.20092v1](https://arxiv.org/abs/2510.20092) · [PDF](https://arxiv.org/pdf/2510.20092.pdf)  
 **作者**：Hao Yu, Haoyu Chen, Yan Jiang, Wei Peng, Zhaodong Sun, Samuel Kaski, Guoying Zhao  
 
-**一句话要点**：提出Attentive Convolution以统一自注意力表达力与卷积效率
+**一句话要点**：提出Attentive Convolution以统一自注意力的表达力与卷积的效率
 
 **关键词**：自注意力机制, 卷积神经网络, 图像分类, 图像生成, 模型效率, 自适应路由
 
 ## 3 点简述
-- 自注意力表达力强但二次复杂度高，卷积效率高但性能差距大
-- 引入自适应路由和侧向抑制，将卷积算子重新设计为ATConv
+- 自注意力表达力强但复杂度高，卷积效率高但性能存在差距
+- 引入自适应路由和侧向抑制原则，设计ATConv卷积算子
 - 在ImageNet分类和扩散生成任务中，ATConv超越自注意力机制
 
 ## 摘要（原文）

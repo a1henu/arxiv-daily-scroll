@@ -7,13 +7,13 @@ title: Real-Time Currency Detection and Voice Feedback for Visually Impaired Ind
 **arXiv**：[2510.20267v1](https://arxiv.org/abs/2510.20267) · [PDF](https://arxiv.org/pdf/2510.20267.pdf)  
 **作者**：Saraf Anzum Shreya, MD. Abu Ismail Siddique, Sharaf Tasnim  
 
-**一句话要点**：提出实时货币检测与语音反馈系统以辅助视障人士独立处理货币
+**一句话要点**：提出实时货币检测与语音反馈系统，以辅助视障人士独立处理货币。
 
-**关键词**：实时货币检测, YOLOv8模型, 语音反馈系统, 视障辅助技术, 深度学习, 目标检测
+**关键词**：实时货币检测, YOLOv8模型, 语音反馈系统, 视障辅助技术, 深度学习应用
 
 ## 3 点简述
-- 核心问题：视障人士在独立处理货币时面临困难，需依赖他人。
-- 方法要点：使用YOLOv8 nano模型，结合自定义检测头和SE块提升特征提取与检测精度。
+- 核心问题：视障人士在独立处理货币时面临识别困难，需依赖他人。
+- 方法要点：使用YOLOv8 nano模型，结合自定义检测头和SE块，提升特征提取与检测精度。
 - 实验或效果：在30类货币数据集上，模型准确率达97.73%，mAP50(B)为97.21%。
 
 ## 摘要（原文）

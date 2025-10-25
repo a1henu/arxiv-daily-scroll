@@ -7,14 +7,14 @@ title: Conan: Progressive Learning to Reason Like a Detective over Multi-Scale V
 **arXiv**：[2510.20470v1](https://arxiv.org/abs/2510.20470) · [PDF](https://arxiv.org/pdf/2510.20470.pdf)  
 **作者**：Kun Ouyang, Yuanxin Liu, Linli Yao, Yishuo Cai, Hao Zhou, Jie Zhou, Fandong Meng, Xu Sun  
 
-**一句话要点**：提出Conan框架以解决多步视频推理中的证据定位与推理问题
+**一句话要点**：提出Conan框架以解决多步视频推理中的证据定位与幻觉问题
 
-**关键词**：多步视频推理, 证据定位, 强化学习训练, 长视频理解, 多模态大语言模型, 数据集构建
+**关键词**：多步视频推理, 证据接地, 强化学习, 长视频理解, 多模态大语言模型, 数据集构建
 
 ## 3 点简述
-- 核心问题：多模态大语言模型在多步视频推理中易产生未接地或幻觉结论
-- 方法要点：构建Conan-91K数据集并设计多阶段渐进训练框架增强视觉推理
-- 实验或效果：在六个基准测试中平均准确率超基线10%，实现SOTA性能
+- 核心问题：多模态大模型在多步视频推理中易产生未接地或幻觉结论
+- 方法要点：构建Conan-91K数据集并采用多阶段渐进冷启动与AIR强化学习框架
+- 实验或效果：在六个基准上平均准确率超基线10%，实现SOTA性能
 
 ## 摘要（原文）
 

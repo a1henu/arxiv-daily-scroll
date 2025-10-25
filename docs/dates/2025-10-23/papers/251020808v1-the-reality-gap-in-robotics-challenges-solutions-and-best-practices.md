@@ -7,14 +7,14 @@ title: The Reality Gap in Robotics: Challenges, Solutions, and Best Practices
 **arXiv**：[2510.20808v1](https://arxiv.org/abs/2510.20808) · [PDF](https://arxiv.org/pdf/2510.20808.pdf)  
 **作者**：Elie Aljalbout, Jiaxu Xing, Angel Romero, Iretiayo Akinola, Caelan Reed Garrett, Eric Heiden, Abhishek Gupta, Tucker Hermans, Yashraj Narang, Dieter Fox, Davide Scaramuzza, Fabio Ramos  
 
-**一句话要点**：综述机器人仿真与现实差距的成因、解决方案与评估指标
+**一句话要点**：综述机器人仿真到现实转移的挑战与解决方案
 
-**关键词**：仿真到现实迁移, 机器人学习, 领域随机化, 仿真-现实协同训练, 现实差距评估
+**关键词**：机器人仿真, 仿真到现实转移, 领域随机化, 现实差距, 机器人学习
 
 ## 3 点简述
-- 核心问题：仿真与现实环境差异阻碍机器人系统从模拟到真实世界的迁移。
-- 方法要点：采用领域随机化、真实到仿真迁移和仿真-现实协同训练等技术。
-- 实验或效果：未知具体实验，但强调在运动、导航和操作等领域取得进展。
+- 核心问题：仿真与现实环境差异阻碍机器人系统转移，称为现实差距。
+- 方法要点：采用领域随机化、真实到仿真转移和仿真-现实协同训练等技术。
+- 实验或效果：在运动、导航和操作等平台展示有前景的转移结果。
 
 ## 摘要（原文）
 

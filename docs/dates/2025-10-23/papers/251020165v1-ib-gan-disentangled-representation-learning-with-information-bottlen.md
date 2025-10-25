@@ -7,13 +7,13 @@ title: IB-GAN: Disentangled Representation Learning with Information Bottleneck 
 **arXiv**：[2510.20165v1](https://arxiv.org/abs/2510.20165) · [PDF](https://arxiv.org/pdf/2510.20165.pdf)  
 **作者**：Insu Jeon, Wonkwang Lee, Myeongjang Pyeon, Gunhee Kim  
 
-**一句话要点**：提出IB-GAN以在无监督学习中实现解耦表示学习
+**一句话要点**：提出IB-GAN，利用信息瓶颈框架优化GAN，实现无监督解耦表示学习。
 
-**关键词**：解耦表示学习, 生成对抗网络, 信息瓶颈, 无监督学习, 互信息约束
+**关键词**：解耦表示学习, 生成对抗网络, 信息瓶颈, 无监督学习, 潜在空间优化
 
 ## 3 点简述
-- 核心问题：无监督解耦表示学习，提升生成模型的解释性和可控性。
-- 方法要点：结合信息瓶颈框架，利用生成器中间层约束输入与输出的互信息。
+- 核心问题：无监督解耦表示学习，提升GAN的潜在空间可解释性。
+- 方法要点：在生成器中引入中间随机层，约束输入与输出间的互信息。
 - 实验效果：在dSprites等数据集上，解耦分数优于InfoGAN，样本质量与多样性提升。
 
 ## 摘要（原文）

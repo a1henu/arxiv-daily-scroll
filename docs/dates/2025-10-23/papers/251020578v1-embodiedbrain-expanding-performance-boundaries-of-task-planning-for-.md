@@ -7,14 +7,14 @@ title: EmbodiedBrain: Expanding Performance Boundaries of Task Planning for Embo
 **arXiv**：[2510.20578v1](https://arxiv.org/abs/2510.20578) · [PDF](https://arxiv.org/pdf/2510.20578.pdf)  
 **作者**：Ding Zou, Feifan Wang, Mengyu Ge, Siyuan Fan, Zongbing Zhang, Wei Chen, Lingfeng Wang, Zhongyou Hu, Wenrui Yan, Zhengwei Gao, Hao Wang, Weizhao Jin, Yu Zhang, Hainan Zhao, Mingliang Zhang, Xianxian Xi, Yaru Zhang, Wenyuan Li, Zhengguang Gao, Yurui Zhu  
 
-**一句话要点**：提出EmbodiedBrain模型以解决具身智能任务规划中的性能与延迟权衡问题
+**一句话要点**：提出EmbodiedBrain以解决具身智能任务规划的性能与延迟权衡问题
 
 **关键词**：具身智能, 任务规划, 多模态大语言模型, 强化学习优化, 模拟环境评估, 开源框架
 
 ## 3 点简述
 - 当前LLMs和MLLMs在具身任务中存在模型设计与代理需求不匹配、实时延迟与性能权衡、评估指标不真实等问题
-- 采用代理对齐数据结构和SFT与Step-GRPO训练方法，集成生成奖励模型以提高长视野任务成功率
-- 实验表明在通用、规划和端到端模拟基准上实现最优性能，并开源数据、模型和评估方法
+- 采用代理对齐数据结构和结合SFT与Step-GRPO的训练方法，提升长视野任务成功率
+- 实验显示在通用、规划和端到端模拟基准上实现最优性能，并开源数据和模型
 
 ## 摘要（原文）
 

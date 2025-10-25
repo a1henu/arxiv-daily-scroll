@@ -14,7 +14,7 @@ title: Blur2seq: Blind Deblurring and Camera Trajectory Estimation from a Single
 ## 3 点简述
 - 核心问题：相机抖动导致的大或旋转运动模糊是图像恢复的主要挑战
 - 方法要点：使用可微分模糊模块和神经网络预测3D旋转轨迹，实现端到端训练
-- 实验或效果：在合成和真实数据集上实现SOTA，尤其在严重或空间变化模糊场景
+- 实验或效果：在合成和真实数据集上达到先进性能，尤其在严重模糊场景
 
 ## 摘要（原文）
 

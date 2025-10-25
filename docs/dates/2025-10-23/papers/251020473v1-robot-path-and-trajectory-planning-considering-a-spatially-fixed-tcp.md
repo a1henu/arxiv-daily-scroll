@@ -14,7 +14,7 @@ title: Robot Path and Trajectory Planning Considering a Spatially Fixed TCP
 ## 3 点简述
 - 核心问题：在工件移动场景中规划机器人轨迹，需考虑加工路径和TCP固定。
 - 方法要点：使用B样条表示路径，确保连续性和平滑轨迹，结合给定TCP速度。
-- 实验或效果：在工业机器人上验证，处理任意定义工件，实现平滑运动。
+- 实验或效果：在工业机器人上验证，移动任意定义工件，实现轨迹规划。
 
 ## 摘要（原文）
 

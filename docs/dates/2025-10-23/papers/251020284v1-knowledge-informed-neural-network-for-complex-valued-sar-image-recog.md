@@ -7,14 +7,14 @@ title: Knowledge-Informed Neural Network for Complex-Valued SAR Image Recognitio
 **arXiv**：[2510.20284v1](https://arxiv.org/abs/2510.20284) · [PDF](https://arxiv.org/pdf/2510.20284.pdf)  
 **作者**：Haodong Yang, Zhongling Huang, Shaojie Guo, Zhe Zhang, Gong Cheng, Junwei Han  
 
-**一句话要点**：提出知识通知神经网络以解决复杂SAR图像识别中的表示三难问题
+**一句话要点**：提出知识通知神经网络以解决复杂值SAR图像识别中的表示三难问题
 
-**关键词**：复杂SAR图像识别, 知识通知神经网络, 表示三难问题, 参数高效模型, 物理先验嵌入
+**关键词**：复杂值SAR图像识别, 知识通知神经网络, 表示三难问题, 参数高效学习, 物理先验嵌入
 
 ## 3 点简述
 - 核心问题：数据有限和领域偏移下，SAR图像识别的泛化、可解释性和效率难以兼顾
-- 方法要点：采用压缩-聚合-压缩架构，嵌入物理先验提取稀疏特征
-- 实验或效果：在五个基准测试中实现参数高效识别，泛化强且可解释
+- 方法要点：采用压缩-聚合-压缩架构，嵌入物理先验以提取稀疏特征
+- 实验或效果：在五个基准测试中实现参数高效识别，泛化强且可解释性高
 
 ## 摘要（原文）
 

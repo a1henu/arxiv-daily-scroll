@@ -7,14 +7,14 @@ title: AlphaFlow: Understanding and Improving MeanFlow Models
 **arXiv**：[2510.20771v1](https://arxiv.org/abs/2510.20771) · [PDF](https://arxiv.org/pdf/2510.20771.pdf)  
 **作者**：Huijie Zhang, Aliaksandr Siarohin, Willi Menapace, Michael Vasilkovsky, Sergey Tulyakov, Qing Qu, Ivan Skorokhodov  
 
-**一句话要点**：提出α-Flow以解决MeanFlow优化冲突并提升收敛性能
+**一句话要点**：提出α-Flow以解决MeanFlow优化冲突并提升生成模型性能
 
 **关键词**：生成建模, 流匹配, 优化冲突, 课程学习, 图像生成
 
 ## 3 点简述
-- MeanFlow目标分解为轨迹流匹配和一致性，梯度分析显示负相关导致优化冲突
-- 引入α-Flow统一多种目标，采用课程策略平滑过渡以解耦冲突目标
-- 在ImageNet-1K 256x256上训练，α-Flow-XL/2+模型取得SOTA FID分数
+- MeanFlow目标分解为轨迹流匹配和一致性，导致负相关和优化冲突
+- 引入α-Flow统一多种目标，采用课程策略平滑过渡以解耦冲突
+- 在ImageNet-1K上使用DiT骨干，α-Flow-XL/2+模型达到SOTA FID分数
 
 ## 摘要（原文）
 

@@ -14,7 +14,7 @@ title: Open-o3 Video: Grounded Video Reasoning with Explicit Spatio-Temporal Evi
 ## 3 点简述
 - 核心问题：视频推理模型缺乏时空证据指示，难以追踪动态场景中的关键证据。
 - 方法要点：构建高质量数据集并采用冷启动强化学习策略，结合多奖励机制提升推理准确性。
-- 实验或效果：在V-STAR基准上实现SOTA，mAM和mLGM显著提升，并在多个视频理解基准中表现一致改进。
+- 实验或效果：在V-STAR基准上实现SOTA，mAM和mLGM显著提升，并在多个视频理解基准上表现一致改进。
 
 ## 摘要（原文）
 

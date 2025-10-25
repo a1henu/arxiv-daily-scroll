@@ -7,14 +7,14 @@ title: VAMOS: A Hierarchical Vision-Language-Action Model for Capability-Modulat
 **arXiv**：[2510.20818v1](https://arxiv.org/abs/2510.20818) · [PDF](https://arxiv.org/pdf/2510.20818.pdf)  
 **作者**：Mateo Guaman Castro, Sidharth Rajagopal, Daniel Gorbatov, Matt Schmittle, Rohan Baijal, Octi Zhang, Rosario Scalise, Sidharth Talia, Emma Romig, Celso de Melo, Byron Boots, Abhishek Gupta  
 
-**一句话要点**：提出VAMOS分层视觉-语言-动作模型，实现能力调制和可引导的机器人导航
+**一句话要点**：提出VAMOS分层模型，通过语义规划与具身接地解耦，实现跨机器人导航。
 
-**关键词**：机器人导航, 分层模型, 视觉-语言-动作, 具身接地, 跨具身泛化, 自然语言引导
+**关键词**：机器人导航, 分层视觉语言动作模型, 具身接地, 跨机器人泛化, 自然语言引导
 
 ## 3 点简述
-- 核心问题：机器人导航需泛化多环境并适应特定物理约束，如四足与轮式机器人能力差异。
-- 方法要点：分层设计分离语义规划与具身接地，高层规划器提出路径，具身模型评估可行性。
-- 实验效果：真实世界测试显示高成功率，支持跨具身导航和自然语言引导，提升可靠性。
+- 核心问题：机器人导航需泛化环境并适应特定物理约束，如四足与轮式机器人能力差异。
+- 方法要点：高层规划器学习开放世界数据，低层具身模型在仿真中学习物理约束与能力。
+- 实验效果：在室内外导航中成功率更高，支持跨机器人部署，提升可靠性3倍。
 
 ## 摘要（原文）
 
