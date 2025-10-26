@@ -7,14 +7,14 @@ title: Deep Learning-Powered Visual SLAM Aimed at Assisting Visually Impaired Na
 **arXiv**：[2510.20549v1](https://arxiv.org/abs/2510.20549) · [PDF](https://arxiv.org/pdf/2510.20549.pdf)  
 **作者**：Marziyeh Bamdad, Hans-Peter Hutter, Alireza Darvishy  
 
-**一句话要点**：提出SELM-SLAM3框架以增强视觉SLAM在挑战性条件下的导航辅助
+**一句话要点**：提出SELM-SLAM3以增强视觉SLAM在挑战性条件下的导航辅助
 
-**关键词**：视觉SLAM, 深度学习, 特征提取, 导航辅助, 鲁棒性, RGB-D SLAM
+**关键词**：视觉SLAM, 深度学习增强, 特征提取, 导航辅助, 鲁棒性优化
 
 ## 3 点简述
-- 核心问题：视觉SLAM在低纹理、运动模糊等挑战条件下定位精度和跟踪稳定性不足
+- 核心问题：SLAM在低纹理、运动模糊等挑战条件下定位精度和跟踪稳定性不足
 - 方法要点：集成SuperPoint和LightGlue进行鲁棒特征提取与匹配
-- 实验或效果：在多个数据集上平均优于ORB-SLAM3 87.84%，优于其他RGB-D SLAM系统36.77%
+- 实验或效果：在多个数据集上平均优于ORB-SLAM3 87.84%，提升导航可靠性
 
 ## 摘要（原文）
 

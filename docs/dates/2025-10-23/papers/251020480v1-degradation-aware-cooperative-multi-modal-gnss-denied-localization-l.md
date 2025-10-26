@@ -7,14 +7,14 @@ title: Degradation-Aware Cooperative Multi-Modal GNSS-Denied Localization Levera
 **arXiv**：[2510.20480v1](https://arxiv.org/abs/2510.20480) · [PDF](https://arxiv.org/pdf/2510.20480.pdf)  
 **作者**：Václav Pritzl, Xianjia Yu, Tomi Westerlund, Petr Štěpán, Martin Saska  
 
-**一句话要点**：提出多机器人协同定位方法以解决GNSS缺失环境中的传感器退化问题
+**一句话要点**：提出自适应多模态多机器人协同定位方法，以应对GNSS缺失环境中的传感器退化问题。
 
-**关键词**：多机器人协同定位, 因子图优化, 传感器融合, GNSS缺失环境, LiDAR检测, 自适应定位
+**关键词**：多机器人协同定位, 多模态传感器融合, 因子图优化, 传感器退化处理, GNSS缺失环境
 
 ## 3 点简述
-- 核心问题：多机器人系统中异步多模态数据融合与传感器退化影响定位精度
-- 方法要点：使用因子图融合VIO、LIO和机器人间检测，自适应处理退化
-- 实验或效果：在真实UGV和UAV数据上验证，显著提升退化条件下的定位精度
+- 核心问题：多机器人系统中异步多模态数据融合困难，传感器退化影响定位精度。
+- 方法要点：使用因子图融合VIO、LIO和机器人间检测，自适应加权以应对退化。
+- 实验或效果：在真实UGV和UAV数据上验证，显著提升退化条件下的定位精度。
 
 ## 摘要（原文）
 

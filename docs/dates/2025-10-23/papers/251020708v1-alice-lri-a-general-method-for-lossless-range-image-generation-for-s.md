@@ -7,14 +7,14 @@ title: ALICE-LRI: A General Method for Lossless Range Image Generation for Spinn
 **arXiv**：[2510.20708v1](https://arxiv.org/abs/2510.20708) · [PDF](https://arxiv.org/pdf/2510.20708.pdf)  
 **作者**：Samuel Soutullo, Miguel Yermo, David L. Vilariño, Óscar G. Lorenzo, José C. Cabaleiro, Francisco F. Rivera  
 
-**一句话要点**：提出ALICE-LRI方法，实现无需校准元数据的旋转LiDAR无损范围图像生成。
+**一句话要点**：提出ALICE-LRI方法，实现无需校准元数据的旋转LiDAR无损范围图像生成
 
-**关键词**：LiDAR传感器, 无损范围图像, 点云投影, 自动校准, 几何精度, 实时处理
+**关键词**：LiDAR传感器, 无损投影, 范围图像生成, 点云处理, 自动校准, 几何精度
 
 ## 3 点简述
-- 核心问题：传统LiDAR投影方法存在几何不一致性，导致不可逆信息损失。
-- 方法要点：自动逆向工程LiDAR传感器内在几何参数，实现无损投影和点云重建。
-- 实验或效果：在KITTI和DurLAR数据集上实现零点损失，几何精度在传感器精度范围内。
+- 核心问题：传统LiDAR投影方法存在几何不一致性，导致不可逆信息损失
+- 方法要点：自动逆向工程LiDAR传感器内在几何参数，实现无损投影
+- 实验或效果：在KITTI和DurLAR数据集上实现零点损失，几何精度在传感器精度内
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: Compress to Impress: Efficient LLM Adaptation Using a Single Gradient Ste
 **arXiv**：[2510.20800v1](https://arxiv.org/abs/2510.20800) · [PDF](https://arxiv.org/pdf/2510.20800.pdf)  
 **作者**：Shiva Sreeram, Alaa Maalouf, Pratyusha Sharma, Daniela Rus  
 
-**一句话要点**：提出高效LLM适应方法，使用单步梯度和100样本避免微调
+**一句话要点**：提出高效LLM适应方法，使用单步梯度和100样本提升下游任务性能
 
-**关键词**：LLM适应, 梯度选择, 矩阵分解, 样本效率, 无微调优化
+**关键词**：LLM适应, 梯度分析, 矩阵分解, 样本效率, 下游任务优化
 
 ## 3 点简述
-- 核心问题：LASER方法层间搜索开销大，阻碍快速部署。
-- 方法要点：基于梯度选择关键矩阵，扩展分解空间提升精度。
-- 实验或效果：在100样本上验证，准确率提升达24.6个百分点。
+- 核心问题：LASER方法层间搜索开销大，难以快速部署LLM适应。
+- 方法要点：通过梯度分析选择关键矩阵，扩展分解空间减少过拟合。
+- 实验或效果：在100样本上实现快速适应，准确率提升高达24.6个百分点。
 
 ## 摘要（原文）
 

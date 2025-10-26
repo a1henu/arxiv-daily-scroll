@@ -7,14 +7,14 @@ title: PPMStereo: Pick-and-Play Memory Construction for Consistent Dynamic Stere
 **arXiv**：[2510.20178v1](https://arxiv.org/abs/2510.20178) · [PDF](https://arxiv.org/pdf/2510.20178.pdf)  
 **作者**：Yun Wang, Junjie Hu, Qiaole Dong, Yongjian Zhang, Yanwei Fu, Tin Lun Lam, Dapeng Wu  
 
-**一句话要点**：提出PPMStereo方法，通过Pick-and-Play内存构建实现高效动态立体匹配，提升时间一致性。
+**一句话要点**：提出PPMStereo方法以解决立体视频中长时深度估计一致性问题
 
-**关键词**：动态立体匹配, 时间一致性, 内存构建, 时空聚合, 高效计算
+**关键词**：立体匹配, 时间一致性, 动态视频, 内存缓冲, 时空聚合, 深度估计
 
 ## 3 点简述
-- 核心问题：立体视频深度估计中，长时时间一致性建模困难，计算效率与精度存在权衡。
-- 方法要点：采用Pick-and-Play内存模块，选择相关帧并自适应加权，实现紧凑时空聚合。
-- 实验或效果：在Sintel数据集上取得先进性能，精度和时间一致性提升，计算成本较低。
+- 立体视频深度估计中，长时时间一致性建模困难且计算成本高
+- 采用Pick-and-Play内存模块，选择相关帧并自适应加权聚合时空信息
+- 实验显示在Sintel数据集上精度和一致性领先，计算成本较低
 
 ## 摘要（原文）
 

@@ -9,7 +9,7 @@ title: Attentive Convolution: Unifying the Expressivity of Self-Attention with C
 
 **一句话要点**：提出Attentive Convolution以统一自注意力的表达力与卷积的效率
 
-**关键词**：自注意力机制, 卷积神经网络, 图像分类, 图像生成, 模型效率, 自适应路由
+**关键词**：自注意力机制, 卷积神经网络, 图像分类, 扩散模型, 计算效率, 自适应路由
 
 ## 3 点简述
 - 自注意力表达力强但复杂度高，卷积效率高但性能存在差距

@@ -7,14 +7,14 @@ title: AccuQuant: Simulating Multiple Denoising Steps for Quantizing Diffusion M
 **arXiv**：[2510.20348v1](https://arxiv.org/abs/2510.20348) · [PDF](https://arxiv.org/pdf/2510.20348.pdf)  
 **作者**：Seunghoon Lee, Jeongwoo Choi, Byunggwan Son, Jaehyeon Moon, Jeimin Jeon, Bumsub Ham  
 
-**一句话要点**：提出AccuQuant以缓解扩散模型量化中的误差累积问题
+**一句话要点**：提出AccuQuant方法以解决扩散模型量化中的误差累积问题
 
 **关键词**：扩散模型, 后训练量化, 误差累积, 去噪步骤模拟, 内存优化
 
 ## 3 点简述
-- 核心问题：扩散模型量化误差在采样去噪步骤中累积，影响性能。
-- 方法要点：模拟多步去噪过程，最小化全精度与量化模型输出差异。
-- 实验或效果：在标准基准上验证了方法的有效性和效率。
+- 核心问题：扩散模型量化误差在采样去噪步骤中累积，影响性能
+- 方法要点：模拟多步去噪过程，最小化全精度与量化模型输出差异
+- 实验或效果：在标准基准上验证了方法的有效性和效率
 
 ## 摘要（原文）
 

@@ -9,12 +9,12 @@ title: Empower Words: DualGround for Structured Phrase and Sentence-Level Tempor
 
 **一句话要点**：提出DualGround以解决视频时序定位中语义角色忽视问题
 
-**关键词**：视频时序定位, 双分支架构, 语义解耦, 短语级对齐, 句子级对齐, 跨模态交互
+**关键词**：视频时序定位, 双分支架构, 语义解耦, 短语级对齐, 句子级对齐
 
 ## 3 点简述
-- 核心问题：现有方法统一处理文本令牌，忽视语义角色差异，导致细粒度对齐不足。
-- 方法要点：采用双分支架构，分离全局句子级和局部短语级语义，实现结构化解耦交互。
-- 实验或效果：在QVHighlights和Charades-STA基准上，实现Moment Retrieval和Highlight Detection的SOTA性能。
+- 核心问题：现有方法统一处理文本令牌，忽略语义角色差异，导致细粒度对齐不足。
+- 方法要点：采用双分支架构，分离全局句子级和局部短语级语义，实现结构化解耦。
+- 实验或效果：在QVHighlights和Charades-STA基准上，实现最先进的时刻检索和高光检测性能。
 
 ## 摘要（原文）
 

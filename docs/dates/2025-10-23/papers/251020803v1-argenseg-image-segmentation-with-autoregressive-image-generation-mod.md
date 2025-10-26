@@ -7,14 +7,14 @@ title: ARGenSeg: Image Segmentation with Autoregressive Image Generation Model
 **arXiv**：[2510.20803v1](https://arxiv.org/abs/2510.20803) · [PDF](https://arxiv.org/pdf/2510.20803.pdf)  
 **作者**：Xiaolong Wang, Lixiang Ru, Ziyuan Huang, Kaixiang Ji, Dandan Zheng, Jingdong Chen, Jun Zhou  
 
-**一句话要点**：提出ARGenSeg，基于自回归图像生成实现图像分割，提升细粒度视觉理解与推理速度。
+**一句话要点**：提出ARGenSeg，基于自回归图像生成模型实现图像分割，提升细粒度视觉理解与推理速度。
 
-**关键词**：图像分割, 自回归生成, 多模态大语言模型, VQ-VAE, 推理加速
+**关键词**：图像分割, 自回归生成, 多模态大语言模型, VQ-VAE, 推理加速, 像素级感知
 
 ## 3 点简述
 - 核心问题：现有MLLM分割方法依赖离散表示或专用头，难以捕捉细粒度视觉细节。
 - 方法要点：利用MLLM输出视觉令牌，通过VQ-VAE解码为图像，生成密集掩码。
-- 实验或效果：在多个数据集上超越SOTA，显著提升推理速度并保持强理解能力。
+- 实验或效果：在多个数据集上超越SOTA，显著提升推理速度，保持强理解能力。
 
 ## 摘要（原文）
 

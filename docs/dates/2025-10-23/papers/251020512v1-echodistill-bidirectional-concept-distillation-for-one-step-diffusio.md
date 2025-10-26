@@ -7,14 +7,14 @@ title: EchoDistill: Bidirectional Concept Distillation for One-Step Diffusion Pe
 **arXiv**：[2510.20512v1](https://arxiv.org/abs/2510.20512) · [PDF](https://arxiv.org/pdf/2510.20512.pdf)  
 **作者**：Yixiong Yang, Tao Wu, Senmao Li, Shiqi Yang, Yaxing Wang, Joost van de Weijer, Kai Wang  
 
-**一句话要点**：提出双向概念蒸馏框架以解决一步扩散模型个性化难题
+**一句话要点**：提出EchoDistill双向概念蒸馏框架以解决一步扩散模型个性化难题
 
-**关键词**：扩散模型, 概念蒸馏, 一步生成, 模型个性化, 对抗训练, 文本到图像
+**关键词**：扩散模型, 概念蒸馏, 一步生成, 模型个性化, 师生学习, 文本到图像生成
 
 ## 3 点简述
 - 核心问题：一步扩散模型难以有效捕捉新概念分布，限制个性化能力。
-- 方法要点：教师与学生模型双向蒸馏，共享文本编码器并优化对抗与对齐损失。
-- 实验效果：在一步扩散个性化设置中显著优于现有方法，提升生成质量。
+- 方法要点：通过师生模型双向蒸馏和共享文本编码器，提升概念学习效率。
+- 实验或效果：在一步扩散个性化设置中，显著优于现有方法，提升生成质量。
 
 ## 摘要（原文）
 

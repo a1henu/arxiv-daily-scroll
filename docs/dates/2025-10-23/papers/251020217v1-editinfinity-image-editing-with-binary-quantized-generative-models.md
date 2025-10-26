@@ -13,7 +13,7 @@ title: EditInfinity: Image Editing with Binary-Quantized Generative Models
 
 ## 3 点简述
 - 核心问题：扩散模型图像反演因缺乏中间步骤精确监督而产生近似误差，限制编辑性能。
-- 方法要点：基于Infinity模型，实现精确图像反演，集成文本提示修正和风格保留机制。
+- 方法要点：基于Infinity模型，实现精确中间量化表示，结合文本提示修正和风格保留机制。
 - 实验或效果：在PIE-Bench基准测试中，优于现有扩散基线，支持添加、更改和删除操作。
 
 ## 摘要（原文）

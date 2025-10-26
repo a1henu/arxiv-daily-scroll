@@ -7,14 +7,14 @@ title: Revisiting Logit Distributions for Reliable Out-of-Distribution Detection
 **arXiv**：[2510.20134v1](https://arxiv.org/abs/2510.20134) · [PDF](https://arxiv.org/pdf/2510.20134.pdf)  
 **作者**：Jiachen Liang, Ruibing Hou, Minyang Hu, Hong Chang, Shiguang Shan, Xilin Chen  
 
-**一句话要点**：提出LogitGap方法以增强开放世界应用中OOD检测的可靠性
+**一句话要点**：提出LogitGap方法以增强分布外检测的可靠性
 
-**关键词**：OOD检测, logits分布, 后处理方法, 视觉语言模型, 开放世界应用
+**关键词**：分布外检测, 后处理方法, logits分析, 视觉语言模型, 视觉模型
 
 ## 3 点简述
-- 核心问题：现有后处理方法未充分利用logits空间信息，影响OOD检测效果。
+- 核心问题：现有后处理方法未充分利用logits空间信息，影响分布外检测效果。
 - 方法要点：利用最大logit与其余logit关系，并自动选择信息丰富子集进行评分。
-- 实验或效果：在视觉语言和纯视觉模型中，LogitGap在多种基准上达到SOTA性能。
+- 实验或效果：在视觉语言和纯视觉模型中，LogitGap在多种基准上达到先进性能。
 
 ## 摘要（原文）
 

@@ -14,7 +14,7 @@ title: IB-GAN: Disentangled Representation Learning with Information Bottleneck 
 ## 3 点简述
 - 核心问题：无监督解耦表示学习，提升GAN的潜在空间可解释性。
 - 方法要点：在生成器中引入中间随机层，约束输入与输出间的互信息。
-- 实验效果：在dSprites等数据集上，解耦分数优于InfoGAN，样本质量与多样性提升。
+- 实验效果：在dSprites等数据集上，解耦分数优于InfoGAN，样本质量与多样性更佳。
 
 ## 摘要（原文）
 

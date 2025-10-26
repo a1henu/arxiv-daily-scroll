@@ -7,13 +7,13 @@ title: Open-o3 Video: Grounded Video Reasoning with Explicit Spatio-Temporal Evi
 **arXiv**：[2510.20579v1](https://arxiv.org/abs/2510.20579) · [PDF](https://arxiv.org/pdf/2510.20579.pdf)  
 **作者**：Jiahao Meng, Xiangtai Li, Haochen Wang, Yue Tan, Tao Zhang, Lingdong Kong, Yunhai Tong, Anran Wang, Zhiyang Teng, Yujing Wang, Zhuochen Wang  
 
-**一句话要点**：提出Open-o3 Video框架，通过显式时空证据解决视频推理中的时空定位挑战。
+**一句话要点**：提出Open-o3 Video框架，通过显式时空证据解决视频推理中的时空定位问题。
 
 **关键词**：视频推理, 时空证据, 强化学习, 数据集构建, 基准测试, 置信度验证
 
 ## 3 点简述
 - 核心问题：视频推理模型缺乏时空证据指示，难以追踪动态场景中的关键证据。
-- 方法要点：构建高质量数据集并采用冷启动强化学习策略，结合多奖励机制提升推理准确性。
+- 方法要点：构建高质量数据集并采用冷启动强化学习策略，结合多奖励函数优化答案准确性和时空对齐。
 - 实验或效果：在V-STAR基准上实现SOTA，mAM和mLGM显著提升，并在多个视频理解基准上表现一致改进。
 
 ## 摘要（原文）

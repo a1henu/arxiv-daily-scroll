@@ -7,13 +7,13 @@ title: UltraHR-100K: Enhancing UHR Image Synthesis with A Large-Scale High-Quali
 **arXiv**：[2510.20661v1](https://arxiv.org/abs/2510.20661) · [PDF](https://arxiv.org/pdf/2510.20661.pdf)  
 **作者**：Chen Zhao, En Ci, Yunzhe Xu, Tiehan Fan, Shanyan Guan, Yanhao Ge, Jian Yang, Ying Tai  
 
-**一句话要点**：提出UltraHR-100K数据集和频率感知后训练方法以增强超高清图像合成细节
+**一句话要点**：提出UltraHR-100K数据集和频率感知后训练方法以增强超高清图像合成
 
 **关键词**：超高清图像合成, 文本到图像生成, 扩散模型, 频率正则化, 数据集构建, 细节增强
 
 ## 3 点简述
 - 核心问题：缺乏大规模高质量超高清文本到图像数据集和针对细节合成的训练策略。
-- 方法要点：构建100K超高清图像数据集，并设计细节导向时间步采样和软加权频率正则化。
+- 方法要点：引入100K超高清图像数据集，并设计细节导向时间步采样和软加权频率正则化。
 - 实验或效果：在UltraHR-eval4K基准上显著提升细节质量和整体保真度。
 
 ## 摘要（原文）

@@ -7,14 +7,14 @@ title: Transferable Black-Box One-Shot Forging of Watermarks via Image Preferenc
 **arXiv**：[2510.20468v1](https://arxiv.org/abs/2510.20468) · [PDF](https://arxiv.org/pdf/2510.20468.pdf)  
 **作者**：Tomáš Souček, Sylvestre-Alvise Rebuffi, Pierre Fernandez, Nikola Jovanović, Hady Elsahar, Valeriu Lacatusu, Tuan Tran, Alexandre Mourachko  
 
-**一句话要点**：提出基于偏好模型的黑盒一次性水印伪造方法，挑战后处理图像水印安全性。
+**一句话要点**：提出基于偏好模型的黑盒一次性水印伪造方法，质疑后处理水印安全性
 
 **关键词**：水印伪造, 偏好模型, 黑盒攻击, 图像优化, 后处理水印
 
 ## 3 点简述
-- 核心问题：后处理图像水印的伪造攻击研究不足，威胁内容真实性与归属。
-- 方法要点：训练偏好模型评估水印存在，通过反向传播优化图像实现水印移除与伪造。
-- 实验或效果：在多种后处理水印模型上验证，有效伪造水印，质疑现有水印安全性。
+- 核心问题：后处理图像水印的伪造攻击研究不足，威胁内容认证
+- 方法要点：训练偏好模型评估水印，通过反向传播优化图像实现伪造
+- 实验或效果：在多种水印模型上验证伪造有效性，无需水印模型知识
 
 ## 摘要（原文）
 

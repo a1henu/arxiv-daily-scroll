@@ -7,14 +7,14 @@ title: A Structured Review and Quantitative Profiling of Public Brain MRI Datase
 **arXiv**：[2510.20196v1](https://arxiv.org/abs/2510.20196) · [PDF](https://arxiv.org/pdf/2510.20196.pdf)  
 **作者**：Minh Sao Khue Luu, Margaret V. Benedichuk, Ekaterina I. Roppert, Roman M. Kenzhin, Bair N. Tuchinov  
 
-**一句话要点**：分析公共脑MRI数据集变异性，支持基础模型开发
+**一句话要点**：系统评估公共脑MRI数据集变异性，强调预处理感知策略对基础模型开发的重要性
 
-**关键词**：脑MRI数据集, 基础模型开发, 预处理变异性, 数据集分析, 特征空间评估
+**关键词**：脑MRI数据集, 基础模型开发, 预处理变异性, 数据集偏差, 领域自适应
 
 ## 3 点简述
-- 核心问题：公共脑MRI数据集在规模、多样性和一致性方面存在系统性评估不足。
-- 方法要点：结构化分析54个数据集，量化模态、疾病覆盖和预处理变异性。
-- 实验或效果：使用3D DenseNet121验证预处理后残留数据集间偏差。
+- 核心问题：公共脑MRI数据集在规模、多样性和一致性方面存在系统性评估不足
+- 方法要点：分析54个数据集，量化模态、疾病覆盖、图像特征和预处理变异性
+- 实验或效果：使用3D DenseNet121验证预处理后残留数据集间偏差，需领域自适应策略
 
 ## 摘要（原文）
 

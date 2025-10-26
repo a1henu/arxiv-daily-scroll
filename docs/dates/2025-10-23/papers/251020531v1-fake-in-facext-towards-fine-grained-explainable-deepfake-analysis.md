@@ -12,8 +12,8 @@ title: Fake-in-Facext: Towards Fine-Grained Explainable DeepFake Analysis
 **关键词**：可解释DeepFake分析, 多模态大语言模型, 细粒度注释, Artifact-Grounding Explanation, 面部图像概念树, 多任务学习
 
 ## 3 点简述
-- 当前方法缺乏细粒度感知，数据注释不可靠且粗粒度，模型无法输出文本解释与视觉证据的连接
-- 定义面部图像概念树，构建FiFa-Annotator数据注释管道，引入Artifact-Grounding Explanation任务
+- 当前方法缺乏细粒度感知，数据注释不可靠且粗粒度，模型无法连接文本解释与视觉证据
+- 定义面部图像概念树，构建FiFa-Annotator数据注释管道，支持Artifact-Grounding Explanation任务
 - FiFa-MLLM多任务学习架构在AGE任务上超越基线，在现有XDFA数据集上达到SOTA性能
 
 ## 摘要（原文）

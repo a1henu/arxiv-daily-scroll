@@ -9,7 +9,7 @@ title: GenColorBench: A Color Evaluation Benchmark for Text-to-Image Generation 
 
 **一句话要点**：提出GenColorBench以评估文本到图像生成模型的颜色精度
 
-**关键词**：文本到图像生成, 颜色评估基准, 颜色可控性, 生成模型评估, 感知评估
+**关键词**：文本到图像生成, 颜色评估基准, 颜色可控性, 感知评估, 自动化评估
 
 ## 3 点简述
 - 现有文本到图像模型在细粒度颜色可控性上表现不佳，缺乏系统评估

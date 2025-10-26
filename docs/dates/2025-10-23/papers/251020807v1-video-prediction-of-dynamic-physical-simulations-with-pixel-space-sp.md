@@ -7,14 +7,14 @@ title: Video Prediction of Dynamic Physical Simulations With Pixel-Space Spatiot
 **arXiv**：[2510.20807v1](https://arxiv.org/abs/2510.20807) · [PDF](https://arxiv.org/pdf/2510.20807.pdf)  
 **作者**：Dean L Slack, G Thomas Hudson, Thomas Winterbottom, Noura Al Moubayed  
 
-**一句话要点**：提出像素空间时空Transformer模型，以提升物理模拟视频预测的长期准确性。
+**一句话要点**：提出像素空间时空Transformer模型，以提升动态物理模拟视频预测的长期准确性。
 
-**关键词**：视频预测, 时空Transformer, 物理模拟, 自注意力机制, 像素空间表示, 模型可解释性
+**关键词**：视频预测, 时空Transformer, 物理模拟, 自注意力机制, 像素空间表示, 可解释性分析
 
 ## 3 点简述
-- 核心问题：现有视频生成方法在物理模拟的因果建模上存在不足，难以长期准确预测。
-- 方法要点：采用简单端到端Transformer，比较不同时空自注意力布局，无需复杂训练策略。
-- 实验或效果：相比潜在空间方法，物理准确预测时间延长达50%，并保持视频质量指标。
+- 核心问题：现有视频生成方法在物理模拟的因果建模上存在不足，难以实现长期准确预测。
+- 方法要点：采用简单端到端Transformer架构，比较不同时空自注意力布局，无需复杂训练策略。
+- 实验或效果：相比潜在空间方法，物理准确预测时间延长达50%，并保持视频质量指标可比性。
 
 ## 摘要（原文）
 

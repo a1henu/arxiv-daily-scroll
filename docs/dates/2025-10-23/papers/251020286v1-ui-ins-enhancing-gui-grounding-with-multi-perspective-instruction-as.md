@@ -7,14 +7,14 @@ title: UI-Ins: Enhancing GUI Grounding with Multi-Perspective Instruction-as-Rea
 **arXiv**：[2510.20286v1](https://arxiv.org/abs/2510.20286) · [PDF](https://arxiv.org/pdf/2510.20286.pdf)  
 **作者**：Liangyu Chen, Hanzhang Zhou, Chenglin Cai, Jianan Zhang, Panrong Tong, Quyu Kong, Xu Zhang, Chen Liu, Yuqi Liu, Wenxuan Wang, Yue Wang, Qin Jin, Steven Hoi  
 
-**一句话要点**：提出UI-Ins方法以增强GUI grounding，通过指令即推理范式提升性能
+**一句话要点**：提出UI-Ins方法以增强GUI grounding，通过多视角指令推理提升性能。
 
-**关键词**：GUI grounding, 指令即推理, 强化学习, 多视角推理, UI代理
+**关键词**：GUI grounding, 指令推理, 强化学习, 多视角学习, UI代理
 
 ## 3 点简述
-- 核心问题：现有GUI grounding方法忽视指令多样性和质量，导致性能受限
-- 方法要点：采用指令即推理范式，结合SFT和RL训练，优化多视角推理路径选择
-- 实验效果：UI-Ins模型在多个基准测试中达到SOTA，准确率最高达87.3%
+- 核心问题：现有GUI grounding方法忽视指令多样性和质量，导致性能受限。
+- 方法要点：采用指令即推理范式，结合SFT和RL训练，优化推理路径选择。
+- 实验效果：在多个基准测试中达到SOTA，UI-Ins-32B在UI-I2E-Bench准确率达87.3%。
 
 ## 摘要（原文）
 

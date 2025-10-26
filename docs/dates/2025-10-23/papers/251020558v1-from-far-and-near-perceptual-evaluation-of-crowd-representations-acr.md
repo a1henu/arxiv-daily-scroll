@@ -9,7 +9,7 @@ title: From Far and Near: Perceptual Evaluation of Crowd Representations Across 
 
 **一句话要点**：评估不同细节级别下人群表示的感知质量，以指导优化渲染策略
 
-**关键词**：人群渲染, 细节级别, 感知评估, 视觉保真度, 计算性能
+**关键词**：人群渲染, 细节级别, 感知评估, 视觉质量, NeRF, 3D高斯
 
 ## 3 点简述
 - 核心问题：用户如何感知不同细节级别和观看距离下人群表示的视觉质量

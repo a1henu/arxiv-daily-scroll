@@ -7,14 +7,14 @@ title: HoloCine: Holistic Generation of Cinematic Multi-Shot Long Video Narrativ
 **arXiv**：[2510.20822v1](https://arxiv.org/abs/2510.20822) · [PDF](https://arxiv.org/pdf/2510.20822.pdf)  
 **作者**：Yihao Meng, Hao Ouyang, Yue Yu, Qiuyu Wang, Wen Wang, Ka Leong Cheng, Hanlin Wang, Yixuan Li, Cheng Chen, Yanhong Zeng, Yujun Shen, Huamin Qu  
 
-**一句话要点**：提出HoloCine模型以解决文本到视频生成中的叙事连贯性问题
+**一句话要点**：提出HoloCine模型以解决文本到视频生成中的叙事一致性问题
 
 **关键词**：文本到视频生成, 多镜头叙事, 注意力机制, 长视频生成, 电影制作自动化
 
 ## 3 点简述
 - 核心问题：现有文本到视频模型难以生成连贯的多镜头长视频叙事
 - 方法要点：采用窗口交叉注意力和稀疏镜头间自注意力机制，确保全局一致性和效率
-- 实验或效果：在叙事连贯性上达到新SOTA，并涌现出持久记忆和电影技术理解能力
+- 实验或效果：在叙事一致性上达到新SOTA，并涌现出持久记忆和电影技术理解能力
 
 ## 摘要（原文）
 

@@ -12,8 +12,8 @@ title: Dynamic Weight Adjustment for Knowledge Distillation: Leveraging Vision T
 **关键词**：知识蒸馏, 肺癌检测, Vision Transformer, 动态权重调整, 图像融合, 遗传算法
 
 ## 3 点简述
-- 核心问题：传统知识蒸馏使用固定权重，难以处理肺癌图像中的不确定性和复杂性。
-- 方法要点：采用模糊逻辑动态调整蒸馏权重，结合ViT-B32教师模型和MobileNet学生模型。
+- 核心问题：传统知识蒸馏权重固定，难以处理肺癌图像中的不确定性和复杂性。
+- 方法要点：使用模糊逻辑动态调整蒸馏权重，结合ViT-B32和MobileNet进行知识转移。
 - 实验或效果：在LC25000和IQOTH/NCCD数据集上分别达到99.16%和99.54%的准确率。
 
 ## 摘要（原文）
