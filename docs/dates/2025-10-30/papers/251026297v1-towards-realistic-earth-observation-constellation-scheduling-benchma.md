@@ -7,14 +7,14 @@ title: Towards Realistic Earth-Observation Constellation Scheduling: Benchmark a
 **arXiv**：[2510.26297v1](https://arxiv.org/abs/2510.26297) · [PDF](https://arxiv.org/pdf/2510.26297.pdf)  
 **作者**：Luting Wang, Yinghao Xiang, Hongliang Huang, Dongjun Li, Chen Gao, Si Liu  
 
-**一句话要点**：提出AEOS-Bench基准和AEOS-Former模型以解决大规模敏捷地球观测卫星星座调度问题
+**一句话要点**：提出AEOS-Bench基准和AEOS-Former模型以解决敏捷地球观测卫星星座调度问题
 
-**关键词**：地球观测卫星调度, 基准套件, Transformer模型, 约束感知机制, 大规模场景模拟
+**关键词**：卫星星座调度, 基准数据集, Transformer模型, 约束感知机制, 仿真学习, 地球观测
 
 ## 3 点简述
-- 核心问题：大规模敏捷地球观测卫星星座调度在动态环境和严格约束下性能受限
-- 方法要点：引入统一框架，包括高保真基准套件和基于Transformer的约束感知调度模型
-- 实验或效果：AEOS-Former在任务完成率和能效上优于基线，并通过消融研究验证组件贡献
+- 核心问题：大规模、动态环境下AEOS星座调度复杂，现有方法简化过多，限制实际性能。
+- 方法要点：引入统一框架，包括标准化基准AEOS-Bench和基于Transformer的约束感知调度模型AEOS-Former。
+- 实验或效果：AEOS-Former在任务完成和能效上优于基线，消融研究验证组件贡献。
 
 ## 摘要（原文）
 

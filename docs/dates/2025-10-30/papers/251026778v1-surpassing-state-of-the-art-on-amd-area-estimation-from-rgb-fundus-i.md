@@ -7,13 +7,13 @@ title: Surpassing state of the art on AMD area estimation from RGB fundus images
 **arXiv**：[2510.26778v1](https://arxiv.org/abs/2510.26778) · [PDF](https://arxiv.org/pdf/2510.26778.pdf)  
 **作者**：Valentyna Starodub, Mantas Lukoševičius  
 
-**一句话要点**：提出优化U-Net架构与损失函数的方法，以提升RGB眼底图像中AMD病变分割精度
+**一句话要点**：提出优化U-Net架构与损失函数的方法，以提升RGB眼底图像中AMD病变分割性能
 
-**关键词**：语义分割, U-Net架构, 类别不平衡, 损失函数, RGB眼底图像, AMD检测
+**关键词**：语义分割, U-Net架构, 类别不平衡, RGB眼底图像, AMD检测, 损失函数优化
 
 ## 3 点简述
-- 核心问题：年龄相关性黄斑变性（AMD）在RGB眼底图像中的语义分割，面临类别不平衡挑战。
-- 方法要点：评估多种U-Net架构、预处理技术和损失函数，以处理图像和像素级不平衡。
+- 核心问题：解决年龄相关性黄斑变性（AMD）在RGB眼底图像中的语义分割，应对类别不平衡问题。
+- 方法要点：评估多种U-Net架构变体、预处理技术和专用损失函数，以优化模型训练。
 - 实验或效果：在ADAM挑战数据集上，最终配置超越所有先前提交，实现多类AMD病变分割。
 
 ## 摘要（原文）

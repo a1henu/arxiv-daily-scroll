@@ -7,14 +7,14 @@ title: Emu3.5: Native Multimodal Models are World Learners
 **arXiv**：[2510.26583v1](https://arxiv.org/abs/2510.26583) · [PDF](https://arxiv.org/pdf/2510.26583.pdf)  
 **作者**：Yufeng Cui, Honghao Chen, Haoge Deng, Xu Huang, Xinghang Li, Jirong Liu, Yang Liu, Zhuoyan Luo, Jinsheng Wang, Wenxuan Wang, Yueze Wang, Chengyuan Wang, Fan Zhang, Yingli Zhao, Ting Pan, Xianduo Li, Zecheng Hao, Wenxuan Ma, Zhuo Chen, Yulong Ao, Tiejun Huang, Zhongyuan Wang, Xinlong Wang  
 
-**一句话要点**：提出Emu3.5原生多模态世界模型，实现跨视觉语言的状态预测与生成。
+**一句话要点**：提出Emu3.5原生多模态世界模型，实现跨视觉语言的统一预测与生成。
 
 **关键词**：多模态世界模型, 视觉语言交织生成, 离散扩散适应, 强化学习后训练, 开源模型
 
 ## 3 点简述
 - 核心问题：构建能原生处理视觉语言交织输入输出的多模态模型。
 - 方法要点：端到端预训练与强化学习后训练，结合DiDA提升推理效率。
-- 实验或效果：在图像生成与编辑任务中媲美Gemini 2.5 Flash，开源支持研究。
+- 实验或效果：在图像生成和编辑任务中性能可比Gemini 2.5 Flash，开源支持研究。
 
 ## 摘要（原文）
 

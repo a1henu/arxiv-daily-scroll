@@ -7,7 +7,7 @@ title: Adaptive Inverse Kinematics Framework for Learning Variable-Length Tool M
 **arXiv**：[2510.26551v1](https://arxiv.org/abs/2510.26551) · [PDF](https://arxiv.org/pdf/2510.26551.pdf)  
 **作者**：Prathamesh Kothavale, Sravani Boddepalli  
 
-**一句话要点**：提出自适应逆运动学框架以解决机器人变长工具操作问题
+**一句话要点**：提出自适应逆运动学框架，用于机器人学习变长工具操作
 
 **关键词**：机器人学, 逆运动学, 工具操作, 仿真学习, 技能迁移
 

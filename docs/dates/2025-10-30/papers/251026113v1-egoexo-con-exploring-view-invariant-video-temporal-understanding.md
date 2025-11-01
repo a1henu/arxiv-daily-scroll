@@ -7,14 +7,14 @@ title: EgoExo-Con: Exploring View-Invariant Video Temporal Understanding
 **arXiv**：[2510.26113v1](https://arxiv.org/abs/2510.26113) · [PDF](https://arxiv.org/pdf/2510.26113.pdf)  
 **作者**：Minjoon Jung, Junbin Xiao, Junghyun Kim, Byoung-Tak Zhang, Angela Yao  
 
-**一句话要点**：提出View-GRPO框架以提升视频-LLMs在多视角下的时间理解一致性
+**一句话要点**：提出EgoExo-Con基准和View-GRPO方法以解决视频-LLMs跨视角时间理解不一致问题
 
-**关键词**：视频-LLMs, 多视角一致性, 时间理解, 强化学习, 基准数据集
+**关键词**：视频-LLMs, 跨视角一致性, 时间理解, 强化学习, 基准数据集
 
 ## 3 点简述
-- 核心问题：视频-LLMs在不同视角下时间理解不一致，性能低于单视角
-- 方法要点：引入EgoExo-Con基准和View-GRPO强化学习框架，强化跨视角一致性
-- 实验或效果：View-GRPO优于简单微调，显著提升跨视角一致性
+- 核心问题：视频-LLMs在不同视角下时间理解不一致，性能远低于单视角
+- 方法要点：引入EgoExo-Con基准和View-GRPO强化学习框架，增强跨视角一致性
+- 实验或效果：View-GRPO优于简单微调和GRPO，显著提升跨视角一致性
 
 ## 摘要（原文）
 

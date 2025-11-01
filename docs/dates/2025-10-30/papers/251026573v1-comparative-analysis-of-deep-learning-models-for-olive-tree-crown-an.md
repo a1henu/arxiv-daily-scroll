@@ -7,14 +7,14 @@ title: Comparative Analysis of Deep Learning Models for Olive Tree Crown and Sha
 **arXiv**：[2510.26573v1](https://arxiv.org/abs/2510.26573) · [PDF](https://arxiv.org/pdf/2510.26573.pdf)  
 **作者**：Wondimagegn Abebe Demissie, Stefano Roccella, Rudy Rossetto, Antonio Minnocci, Andrea Vannini, Luca Sebastiani  
 
-**一句话要点**：比较U-Net、YOLOv11m-seg和Mask R-CNN在橄榄树冠和阴影分割中的性能，以支持生物体积估计。
+**一句话要点**：比较深度学习模型用于橄榄树冠和阴影分割以估计生物体积
 
-**关键词**：深度学习分割, 生物体积估计, UAV图像分析, 精准农业, 模型比较
+**关键词**：深度学习分割, 生物体积估计, 无人机图像, 橄榄树冠, 阴影分割, 精准农业
 
 ## 3 点简述
 - 核心问题：橄榄树生物体积估计对精准农业至关重要，尤其在气候压力下的地中海地区。
-- 方法要点：使用UAV图像，比较三种深度学习模型进行树冠和阴影分割，结合太阳几何估计生物体积。
-- 实验或效果：Mask R-CNN准确率最高，YOLOv11m-seg速度最快，生物体积估计范围4-24立方米。
+- 方法要点：比较U-Net、YOLOv11m-seg和Mask R-CNN模型，结合空间特征提取和太阳几何估计生物体积。
+- 实验或效果：Mask R-CNN准确率最高（F1=0.86），YOLOv11m-seg速度最快，生物体积估计范围4-24立方米。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: Detecting Unauthorized Vehicles using Deep Learning for Smart Cities: A C
 **arXiv**：[2510.26154v1](https://arxiv.org/abs/2510.26154) · [PDF](https://arxiv.org/pdf/2510.26154.pdf)  
 **作者**：Sudipto Das Sukanto, Diponker Roy, Fahim Shakil, Nirjhar Singha, Abdullah Asik, Aniket Joarder, Mridha Md Nafis Fuad, Muhammad Ibrahim  
 
-**一句话要点**：提出基于YOLOv8的自动检测方法以解决孟加拉国城市中机动三轮车监控难题
+**一句话要点**：提出基于YOLOv8的实时检测方法以解决孟加拉国自动人力车监控难题
 
-**关键词**：目标检测, YOLOv8模型, 智能城市监控, 机动三轮车识别, 实时视频分析, 交通管理
+**关键词**：实时目标检测, YOLOv8模型, 自动人力车监控, 智能城市交通, 深度学习应用
 
 ## 3 点简述
-- 核心问题：机动三轮车与非机动三轮车相似，现有监控系统难以区分，手动分析耗时。
-- 方法要点：使用YOLOv8模型进行实时目标检测，训练集包含1,730张标注图像。
-- 实验或效果：模型在密集和稀疏交通场景中表现良好，mAP50达83.447%，精度和召回率超78%。
+- 核心问题：自动人力车与人力车相似，现有系统难以监控其在受限路线的移动
+- 方法要点：使用YOLOv8模型进行实时目标检测，训练集包含1730张标注图像
+- 实验或效果：模型mAP50达83.447%，精确率和召回率均超78%，适应不同交通密度
 
 ## 摘要（原文）
 

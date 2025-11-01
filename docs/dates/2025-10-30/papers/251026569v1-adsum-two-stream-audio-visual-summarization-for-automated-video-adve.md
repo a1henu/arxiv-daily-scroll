@@ -7,14 +7,14 @@ title: AdSum: Two-stream Audio-visual Summarization for Automated Video Advertis
 **arXiv**：[2510.26569v1](https://arxiv.org/abs/2510.26569) · [PDF](https://arxiv.org/pdf/2510.26569.pdf)  
 **作者**：Wen Xie, Yanjun Zhu, Gijs Overgoor, Yakov Bart, Agata Lapedriza Garcia, Sarah Ostadabbas  
 
-**一句话要点**：提出两流音视频融合模型以自动化视频广告剪辑
+**一句话要点**：提出双流音视频摘要框架以自动化视频广告剪辑
 
-**关键词**：视频广告剪辑, 两流融合模型, 镜头选择, 音频视觉融合, AdSum204数据集
+**关键词**：视频摘要, 音视频融合, 广告剪辑, 帧重要性预测, 数据集构建
 
 ## 3 点简述
 - 核心问题：广告需多时长版本，传统手动剪辑耗时费力。
-- 方法要点：将剪辑视为镜头选择，融合音频视觉预测重要性。
-- 实验或效果：在AdSum204数据集上优于现有方法，提升多项指标。
+- 方法要点：双流音视频融合模型预测帧重要性，优化广告剪辑。
+- 实验或效果：在AdSum204数据集上，模型在多项指标超越现有方法。
 
 ## 摘要（原文）
 

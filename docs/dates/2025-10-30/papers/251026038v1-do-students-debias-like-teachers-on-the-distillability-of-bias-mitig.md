@@ -7,14 +7,14 @@ title: Do Students Debias Like Teachers? On the Distillability of Bias Mitigatio
 **arXiv**：[2510.26038v1](https://arxiv.org/abs/2510.26038) · [PDF](https://arxiv.org/pdf/2510.26038.pdf)  
 **作者**：Jiali Cheng, Chirag Agarwal, Hadi Amiri  
 
-**一句话要点**：研究知识蒸馏对去偏能力转移的影响并提出改进方法
+**一句话要点**：研究知识蒸馏对去偏能力可蒸馏性的影响并提出改进方法
 
 **关键词**：知识蒸馏, 去偏方法, 模型鲁棒性, 自然语言推理, 图像分类, 注意力机制
 
 ## 3 点简述
 - 核心问题：知识蒸馏如何影响模型对分布外数据的去偏鲁棒性。
 - 方法要点：通过实验分析去偏能力在蒸馏后的变化及内部机制。
-- 实验或效果：发现去偏能力受损，提出数据增强等三种改进方案。
+- 实验或效果：发现去偏能力下降，提出数据增强等三种改进方案。
 
 ## 摘要（原文）
 

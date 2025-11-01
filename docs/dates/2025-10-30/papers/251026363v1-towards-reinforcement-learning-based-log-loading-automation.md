@@ -7,14 +7,14 @@ title: Towards Reinforcement Learning Based Log Loading Automation
 **arXiv**：[2510.26363v1](https://arxiv.org/abs/2510.26363) · [PDF](https://arxiv.org/pdf/2510.26363.pdf)  
 **作者**：Ilya Kurinov, Miroslav Ivanov, Grzegorz Orzechowski, Aki Mikkola  
 
-**一句话要点**：提出强化学习代理以自动化林业集材机全日志装载过程
+**一句话要点**：提出强化学习代理以自动化林业集材机原木装载过程
 
-**关键词**：强化学习, 林业自动化, 日志装载, 课程学习, 模拟训练, Isaac Gym
+**关键词**：强化学习, 林业自动化, 原木装载, 课程学习, 模拟训练
 
 ## 3 点简述
-- 林业集材机操作员在偏远地区长时间工作，面临身心疲惫的挑战。
+- 林业集材机操作在偏远地区长时间作业，对操作员造成身心负担。
 - 使用强化学习和课程学习在NVIDIA Isaac Gym模拟环境中训练代理。
-- 最佳代理在随机位置抓取并运输日志到床位的成功率达94%。
+- 最佳代理在随机位置抓取并运输原木到车厢的成功率达94%。
 
 ## 摘要（原文）
 

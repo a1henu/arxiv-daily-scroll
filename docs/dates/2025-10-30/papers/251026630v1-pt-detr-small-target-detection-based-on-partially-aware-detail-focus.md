@@ -14,7 +14,7 @@ title: PT-DETR: Small Target Detection Based on Partially-Aware Detail Focus
 ## 3 点简述
 - 核心问题：无人机图像中复杂背景、遮挡、密集小目标和光照变化导致检测困难
 - 方法要点：引入PADF模块增强小目标特征提取，设计MFFF模块融合细节与上下文信息
-- 实验或效果：在VisDrone2019数据集上mAP提升1.6-1.7%，计算复杂度与参数更少
+- 实验或效果：在VisDrone2019数据集上mAP提升1.6-1.7%，计算复杂度和参数减少
 
 ## 摘要（原文）
 

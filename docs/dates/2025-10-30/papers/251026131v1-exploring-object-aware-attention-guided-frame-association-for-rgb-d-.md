@@ -7,13 +7,13 @@ title: Exploring Object-Aware Attention Guided Frame Association for RGB-D SLAM
 **arXiv**：[2510.26131v1](https://arxiv.org/abs/2510.26131) · [PDF](https://arxiv.org/pdf/2510.26131.pdf)  
 **作者**：Ali Caglayan, Nevrez Imamoglu, Oguzhan Guclu, Ali Osman Serhatoglu, Ahmet Burak Can, Ryosuke Nakamura  
 
-**一句话要点**：提出对象感知注意力引导帧关联方法以改进RGB-D室内SLAM性能
+**一句话要点**：提出对象感知注意力引导的帧关联方法以改进RGB-D室内SLAM性能
 
-**关键词**：RGB-D SLAM, 注意力模型, 帧关联, 对象感知, 网络梯度, CNN特征集成
+**关键词**：RGB-D SLAM, 注意力模型, 帧关联, 对象感知, 网络梯度, CNN特征
 
 ## 3 点简述
-- 核心问题：RGB-D SLAM中CNN表示缺乏显式语义对象注意力集成，影响帧关联精度。
-- 方法要点：集成网络梯度注意力与CNN特征，增强对象位置的空间注意力表示。
+- 核心问题：RGB-D SLAM中CNN表示缺乏显式语义对象理解，影响帧关联准确性。
+- 方法要点：集成网络梯度注意力与CNN特征，增强空间对象定位能力。
 - 实验或效果：实验显示在大环境中性能优于基线方法，提升帧关联效果。
 
 ## 摘要（原文）

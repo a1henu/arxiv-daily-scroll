@@ -7,14 +7,14 @@ title: All You Need for Object Detection: From Pixels, Points, and Prompts to Ne
 **arXiv**：[2510.26641v1](https://arxiv.org/abs/2510.26641) · [PDF](https://arxiv.org/pdf/2510.26641.pdf)  
 **作者**：Sayed Pedram Haeri Boroujeni, Niloufar Mehrabi, Hazim Alzorgan, Ahmad Sarlak, Mahlagha Fazeli, Abolfazl Razi  
 
-**一句话要点**：综述自动驾驶中基于多模态融合与LLM/VLM的目标检测方法，以应对复杂环境挑战。
+**一句话要点**：综述自动驾驶中基于多模态融合和LLM/VLM的物体检测方法，以应对复杂环境挑战。
 
-**关键词**：自动驾驶目标检测, 多模态传感器融合, 视觉语言模型, 大型语言模型, transformer方法, 数据集分类
+**关键词**：自动驾驶物体检测, 多模态传感器融合, 视觉语言模型, 大型语言模型, transformer方法, 数据集分类
 
 ## 3 点简述
-- 核心问题：自动驾驶在复杂多模态环境中目标检测知识分散，缺乏统一框架。
+- 核心问题：自动驾驶在复杂多模态环境中物体检测知识分散，缺乏统一框架。
 - 方法要点：系统分析传感器融合、数据集分类及新兴transformer驱动检测方法。
-- 实验或效果：未知具体实验，但提供当前能力、开放挑战和未来机会的路线图。
+- 实验或效果：未知具体实验，但提供当前能力、挑战和未来机会的路线图。
 
 ## 摘要（原文）
 

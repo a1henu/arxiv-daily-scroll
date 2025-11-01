@@ -9,7 +9,7 @@ title: Improving Classification of Occluded Objects through Scene Context
 
 **一句话要点**：提出两种场景信息融合方法以提升遮挡物体分类性能
 
-**关键词**：遮挡物体识别, 场景上下文融合, RPN-DCNN网络, 多训练策略, 物体检测鲁棒性
+**关键词**：遮挡物体识别, 场景上下文融合, RPN-DCNN网络, 多训练方法, 物体检测鲁棒性
 
 ## 3 点简述
 - 核心问题：遮挡导致物体识别算法性能下降，需额外信息增强鲁棒性。

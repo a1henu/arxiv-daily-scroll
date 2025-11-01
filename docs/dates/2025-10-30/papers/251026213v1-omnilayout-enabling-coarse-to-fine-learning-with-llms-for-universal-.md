@@ -7,14 +7,14 @@ title: OmniLayout: Enabling Coarse-to-Fine Learning with LLMs for Universal Docu
 **arXiv**：[2510.26213v1](https://arxiv.org/abs/2510.26213) · [PDF](https://arxiv.org/pdf/2510.26213.pdf)  
 **作者**：Hengrui Kang, Zhuangcheng Gu, Zhiyuan Zhao, Zichen Wen, Bin Wang, Weijia Li, Conghui He  
 
-**一句话要点**：提出OmniLayout-LLM与OmniLayout-1M数据集，以解决通用文档布局生成中的多样性与连贯性问题。
+**一句话要点**：提出OmniLayout-LLM与数据集，通过粗到细学习实现通用文档布局生成
 
-**关键词**：文档布局生成, 粗到细学习, 大型语言模型, 数据集构建, 多领域评估
+**关键词**：文档布局生成, 粗到细学习, 大语言模型, 数据集构建, 多领域适应
 
 ## 3 点简述
-- 核心问题：文档布局生成领域缺乏多样布局数据，现有方法在复杂领域和长序列布局中表现不佳。
-- 方法要点：构建百万级OmniLayout-1M数据集，并设计0.5B参数模型采用粗到细两阶段学习范式。
-- 实验或效果：在M$^{6}$Doc数据集上超越现有布局生成专家和通用LLMs，表现强劲。
+- 文档布局生成领域缺乏多样布局数据，现有方法难以处理复杂和长序列布局
+- 构建百万级数据集OmniLayout-1M，并设计两阶段粗到细学习范式提升模型适应性
+- 在M$^{6}$Doc数据集上表现优异，超越现有布局生成专家和通用大语言模型
 
 ## 摘要（原文）
 

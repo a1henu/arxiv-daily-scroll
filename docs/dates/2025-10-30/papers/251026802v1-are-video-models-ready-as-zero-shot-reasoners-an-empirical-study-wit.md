@@ -7,12 +7,12 @@ title: Are Video Models Ready as Zero-Shot Reasoners? An Empirical Study with th
 **arXiv**：[2510.26802v1](https://arxiv.org/abs/2510.26802) · [PDF](https://arxiv.org/pdf/2510.26802.pdf)  
 **作者**：Ziyu Guo, Xinyan Chen, Renrui Zhang, Ruichuan An, Yu Qi, Dongzhi Jiang, Xiangtai Li, Manyuan Zhang, Hongsheng Li, Pheng-Ann Heng  
 
-**一句话要点**：评估视频模型在MME-CoF基准上的零样本推理能力，揭示其优势与局限
+**一句话要点**：评估视频模型在零样本推理中的能力，揭示其在MME-CoF基准上的表现
 
-**关键词**：视频模型评估, 零样本推理, MME-CoF基准, 链式帧推理, 视觉推理能力
+**关键词**：视频模型, 零样本推理, MME-CoF基准, 视觉推理, 因果推理
 
 ## 3 点简述
-- 核心问题：视频模型是否可作为零样本推理器处理复杂视觉推理场景
+- 核心问题：视频模型是否可作为零样本推理器处理复杂视觉推理任务
 - 方法要点：使用Veo-3模型在12个维度上系统评估推理行为
 - 实验或效果：模型在短时空间一致性表现良好，但长时因果推理能力有限
 

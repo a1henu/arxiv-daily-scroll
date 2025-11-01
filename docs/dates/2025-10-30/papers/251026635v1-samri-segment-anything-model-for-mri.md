@@ -7,12 +7,12 @@ title: SAMRI: Segment Anything Model for MRI
 **arXiv**：[2510.26635v1](https://arxiv.org/abs/2510.26635) · [PDF](https://arxiv.org/pdf/2510.26635.pdf)  
 **作者**：Zhao Wang, Wei Dai, Thuy Thanh Dao, Steffen Bollmann, Hongfu Sun, Craig Engstrom, Shekhar S. Chandra  
 
-**一句话要点**：提出SAMRI以解决MRI分割中的泛化问题，通过微调SAM适应医学影像。
+**一句话要点**：提出SAMRI以解决MRI分割中的泛化问题，通过微调SAM适应MRI模态。
 
-**关键词**：医学影像分割, Segment Anything Model, MRI适应, 微调策略, 泛化性能
+**关键词**：医学图像分割, Segment Anything Model, MRI适应, 微调策略, 泛化性能
 
 ## 3 点简述
-- 核心问题：MRI分割因对比度、强度不均和协议多变，导致CNN方法泛化差。
+- 核心问题：MRI分割因对比度、强度不均和协议差异导致CNN方法泛化差。
 - 方法要点：采用两阶段策略微调SAM的掩码解码器，大幅减少训练时间和参数。
 - 实验或效果：在110万MR切片上验证，平均Dice达0.87，泛化能力强。
 

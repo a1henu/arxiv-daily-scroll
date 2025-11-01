@@ -7,14 +7,14 @@ title: AgriGS-SLAM: Orchard Mapping Across Seasons via Multi-View Gaussian Splat
 **arXiv**：[2510.26358v1](https://arxiv.org/abs/2510.26358) · [PDF](https://arxiv.org/pdf/2510.26358.pdf)  
 **作者**：Mirko Usuelli, David Rapado-Rincon, Gert Kootstra, Matteo Matteucci  
 
-**一句话要点**：提出AgriGS-SLAM以解决果园多季节实时3D建图问题
+**一句话要点**：提出AgriGS-SLAM，结合视觉-LiDAR SLAM与多视角3D高斯泼溅，以解决果园跨季节映射问题。
 
-**关键词**：视觉-LiDAR SLAM, 3D高斯泼溅, 果园建图, 多季节鲁棒性, 实时系统
+**关键词**：视觉-LiDAR SLAM, 3D高斯泼溅, 果园映射, 多模态感知, 实时重建
 
 ## 3 点简述
-- 果园机器人需应对重复几何、季节变化和风动干扰的实时3D感知挑战
-- 结合LiDAR里程计与多视角3D高斯泼溅渲染，优化姿态和地图细节
-- 在苹果和梨园多季节测试中，重建更清晰稳定，保持实时性能
+- 核心问题：果园环境中重复几何、季节外观变化和风驱动叶动，需实时3D场景理解。
+- 方法要点：耦合LiDAR里程计与多相机3D高斯泼溅渲染，通过批量栅格化和梯度驱动地图生命周期优化。
+- 实验或效果：在苹果和梨园跨季节部署，提供更锐利重建和稳定轨迹，优于现有3DGS-SLAM基线。
 
 ## 摘要（原文）
 

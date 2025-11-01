@@ -7,14 +7,14 @@ title: Beyond Imitation: Constraint-Aware Trajectory Generation with Flow Matchi
 **arXiv**：[2510.26292v1](https://arxiv.org/abs/2510.26292) · [PDF](https://arxiv.org/pdf/2510.26292.pdf)  
 **作者**：Lin Liu, Guanyi Yu, Ziying Song, Junqiao Li, Caiyan Jia, Feiyang Jia, Peiliang Wu, Yandan Luo  
 
-**一句话要点**：提出约束感知轨迹生成框架CATG，以解决端到端自动驾驶规划中的模式崩溃和约束整合问题。
+**一句话要点**：提出CATG框架，通过约束流匹配解决端到端自动驾驶规划中的模式崩溃和约束整合问题
 
-**关键词**：自动驾驶规划, 轨迹生成, 流匹配, 约束整合, 模式崩溃缓解
+**关键词**：自动驾驶规划, 流匹配, 约束整合, 轨迹生成, 端到端学习
 
 ## 3 点简述
-- 核心问题：模仿学习方法易模式崩溃，生成方法难直接整合安全与物理约束。
-- 方法要点：利用约束流匹配，在生成过程中直接施加约束，并参数化驾驶攻击性。
-- 实验或效果：在NavSim v2挑战中获第二名，EPDMS得分51.31，获创新奖。
+- 核心问题：模仿学习方法易模式崩溃，生成方法难直接整合安全与物理约束
+- 方法要点：利用约束流匹配，在生成过程中直接施加约束，并参数化驾驶攻击性
+- 实验或效果：在NavSim v2挑战中获第二名，EPDMS得分51.31，获创新奖
 
 ## 摘要（原文）
 

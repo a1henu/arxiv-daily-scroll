@@ -7,14 +7,14 @@ title: The Quest for Generalizable Motion Generation: Data, Model, and Evaluatio
 **arXiv**：[2510.26794v1](https://arxiv.org/abs/2510.26794) · [PDF](https://arxiv.org/pdf/2510.26794.pdf)  
 **作者**：Jing Lin, Ruisi Wang, Junzhe Lu, Ziqi Huang, Guorui Song, Ailing Zeng, Xian Liu, Chen Wei, Wanqi Yin, Qingping Sun, Zhongang Cai, Lei Yang, Ziwei Liu  
 
-**一句话要点**：提出ViMoGen框架，通过视频生成知识迁移提升3D人体运动生成的泛化能力
+**一句话要点**：提出ViMoGen框架，通过视频生成知识迁移提升3D人体运动生成的泛化能力。
 
-**关键词**：3D人体运动生成, 知识迁移, 扩散模型, 数据集构建, 模型蒸馏, 评估基准
+**关键词**：3D人体运动生成, 知识迁移, 扩散模型, 数据集构建, 基准评估, 模型蒸馏
 
 ## 3 点简述
-- 核心问题：现有3D人体运动生成模型泛化能力不足，而视频生成领域已展示强泛化性。
-- 方法要点：构建ViMoGen-228K数据集，设计基于流匹配的扩散Transformer模型，并开发轻量蒸馏版本。
-- 实验或效果：在自动和人工评估中显著优于现有方法，并发布代码、数据和基准。
+- 核心问题：现有3D人体运动生成模型泛化能力不足，难以适应多样语义场景。
+- 方法要点：构建ViMoGen-228K数据集，设计基于流匹配的扩散Transformer模型。
+- 实验或效果：在自动和人工评估中显著优于现有方法，并发布代码与基准。
 
 ## 摘要（原文）
 

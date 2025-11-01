@@ -7,14 +7,14 @@ title: Revisiting Generative Infrared and Visible Image Fusion Based on Human Co
 **arXiv**：[2510.26268v1](https://arxiv.org/abs/2510.26268) · [PDF](https://arxiv.org/pdf/2510.26268.pdf)  
 **作者**：Lin Guo, Xiaoqing Luo, Wei Xie, Zhancheng Zhang, Hui Li, Rui Wang, Zhenhua Feng, Xiaoning Song  
 
-**一句话要点**：提出HCLFuse方法，基于人类认知规律改进红外与可见光图像融合。
+**一句话要点**：提出HCLFuse方法以解决红外与可见光图像融合中的模态平衡与生成能力问题
 
-**关键词**：图像融合, 生成模型, 变分编码器, 扩散模型, 人类认知, 语义分割
+**关键词**：图像融合, 生成模型, 变分编码器, 扩散模型, 语义分割
 
 ## 3 点简述
-- 现有生成融合方法平衡模态信息困难，生成能力和可解释性不足。
-- 设计多尺度掩码调控变分瓶颈编码器，结合扩散模型与物理规律增强生成。
-- 实验显示在多数据集上融合性能领先，显著提升语义分割指标。
+- 现有方法难以平衡模态信息，生成能力有限且缺乏可解释性
+- 设计多尺度掩码调控变分瓶颈编码器，结合扩散模型与物理规律增强生成
+- 实验显示在多个数据集上实现最优融合性能，显著提升语义分割指标
 
 ## 摘要（原文）
 

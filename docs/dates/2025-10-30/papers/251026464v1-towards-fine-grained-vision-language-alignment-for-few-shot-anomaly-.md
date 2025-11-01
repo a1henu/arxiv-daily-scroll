@@ -7,14 +7,14 @@ title: Towards Fine-Grained Vision-Language Alignment for Few-Shot Anomaly Detec
 **arXiv**：[2510.26464v1](https://arxiv.org/abs/2510.26464) · [PDF](https://arxiv.org/pdf/2510.26464.pdf)  
 **作者**：Yuanting Fan, Jun Liu, Xiaochen Chen, Bin-Bin Gao, Jian Li, Yong Liu, Jinlong Peng, Chengjie Wang  
 
-**一句话要点**：提出FineGrainedAD框架以解决少样本异常检测中的语义对齐问题
+**一句话要点**：提出FineGrainedAD框架以提升少样本异常检测的定位性能
 
-**关键词**：少样本异常检测, 视觉语言对齐, 多级语义描述, 异常定位, 可学习提示, 区域聚合
+**关键词**：少样本异常检测, 视觉-语言对齐, 多级语义描述, 异常定位, 可学习提示
 
 ## 3 点简述
-- 核心问题：现有方法因缺乏细粒度文本描述，导致图像描述与补丁级视觉异常语义不匹配。
-- 方法要点：引入多级细粒度语义描述和可学习提示，通过区域聚合和多级对齐提升定位性能。
-- 实验效果：在MVTec-AD和VisA数据集上，少样本设置下实现优越的整体性能。
+- 核心问题：现有方法因文本描述粗粒度导致语义失配，影响异常定位。
+- 方法要点：引入多级细粒度语义描述和可学习提示，优化视觉-语言对齐。
+- 实验或效果：在MVTec-AD和VisA数据集上，少样本设置下性能优越。
 
 ## 摘要（原文）
 

@@ -9,7 +9,7 @@ title: SteerVLM: Robust Model Control through Lightweight Activation Steering fo
 
 **一句话要点**：提出SteerVLM轻量激活引导模块，以增强视觉语言模型的指令遵循能力。
 
-**关键词**：视觉语言模型, 激活引导, 轻量控制, 指令对齐, 幻觉缓解
+**关键词**：视觉语言模型, 激活引导, 轻量控制, 推理时干预, 多模态数据集
 
 ## 3 点简述
 - 核心问题：视觉语言模型输出难以精确遵循复杂指令，需轻量控制方法。

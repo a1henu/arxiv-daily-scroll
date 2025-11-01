@@ -7,14 +7,14 @@ title: Exploring Complementarity and Explainability in CNNs for Periocular Verif
 **arXiv**：[2510.26282v1](https://arxiv.org/abs/2510.26282) · [PDF](https://arxiv.org/pdf/2510.26282.pdf)  
 **作者**：Fernando Alonso-Fernandez, Kevin Hernandez Diaz, Jose M. Buades, Kiran Raja, Josef Bigun  
 
-**一句话要点**：探索CNN互补性与可解释性以提升不同距离下的眼周验证性能
+**一句话要点**：探索CNN互补性与可解释性以提升不同距离下眼周验证性能
 
-**关键词**：眼周验证, CNN互补性, 可解释性分析, 分数级融合, UBIPr数据库
+**关键词**：眼周验证, CNN互补性, 分数级融合, 注意力热图, UBIPr数据库, 可解释性分析
 
 ## 3 点简述
-- 研究不同距离下眼周验证中CNN的互补性问题，使用UBIPr数据库
-- 训练三种复杂度递增的CNN架构，分析性能并应用分数级融合
-- 融合方法显著提升性能，热图显示网络关注不同区域，解释互补性
+- 研究不同距离下眼周验证中CNN模型的互补性问题，使用UBIPr数据库
+- 训练三种复杂度递增的CNN架构，分析性能并应用分数级融合与注意力模式比较
+- 融合方法显著提升性能，热图显示网络关注不同区域，实现新SOTA结果
 
 ## 摘要（原文）
 
