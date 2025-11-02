@@ -7,9 +7,9 @@ title: Hybrid Consistency Policy: Decoupling Multi-Modal Diversity and Real-Time
 **arXiv**：[2510.26670v1](https://arxiv.org/abs/2510.26670) · [PDF](https://arxiv.org/pdf/2510.26670.pdf)  
 **作者**：Qianyou Zhao, Yuliang Shen, Xuanran Zhai, Ce Hao, Duidi Wu, Jin Qi, Jie Hu, Qiaojun Yu  
 
-**一句话要点**：提出混合一致性策略以解决机器人操作中多模态多样性与实时效率的权衡问题
+**一句话要点**：提出混合一致性策略以解决机器人操作中多模态与实时效率的权衡问题
 
-**关键词**：机器人操作, 扩散模型, 一致性蒸馏, 多模态学习, 实时策略, 模仿学习
+**关键词**：机器人操作, 扩散模型, 一致性蒸馏, 多模态学习, 实时策略
 
 ## 3 点简述
 - 扩散模仿学习难以同时实现快速采样与强多模态行为

@@ -7,13 +7,13 @@ title: BasicAVSR: Arbitrary-Scale Video Super-Resolution via Image Priors and En
 **arXiv**：[2510.26149v1](https://arxiv.org/abs/2510.26149) · [PDF](https://arxiv.org/pdf/2510.26149.pdf)  
 **作者**：Wei Shang, Wanying Zhang, Shuhang Gu, Pengfei Zhu, Qinghua Hu, Dongwei Ren  
 
-**一句话要点**：提出BasicAVSR模型，通过图像先验和增强运动补偿实现任意尺度视频超分辨率
+**一句话要点**：提出BasicAVSR以解决任意尺度视频超分辨率的时空一致性和计算效率问题
 
-**关键词**：视频超分辨率, 任意尺度, 运动补偿, 多尺度先验, RNN传播
+**关键词**：视频超分辨率, 任意尺度上采样, 运动补偿, 拉普拉斯金字塔, RNN传播, 超上采样单元
 
 ## 3 点简述
 - 核心问题：任意尺度视频超分辨率在空间细节、时间一致性和计算复杂度方面存在挑战
-- 方法要点：集成多尺度频率先验、流引导传播、二阶运动补偿和超上采样单元
+- 方法要点：集成图像拉普拉斯金字塔先验、流引导传播单元、二阶运动补偿和超上采样单元
 - 实验或效果：在超分辨率质量、泛化能力和推理速度上显著优于现有方法
 
 ## 摘要（原文）

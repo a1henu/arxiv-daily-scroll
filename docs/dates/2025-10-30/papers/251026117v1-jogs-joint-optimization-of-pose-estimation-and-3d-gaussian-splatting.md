@@ -7,9 +7,9 @@ title: JOGS: Joint Optimization of Pose Estimation and 3D Gaussian Splatting
 **arXiv**：[2510.26117v1](https://arxiv.org/abs/2510.26117) · [PDF](https://arxiv.org/pdf/2510.26117.pdf)  
 **作者**：Yuxuan Li, Tao Wang, Xianben Yang  
 
-**一句话要点**：提出联合优化框架以解决新视角合成中相机位姿估计的误差传播问题
+**一句话要点**：提出联合优化框架以解决新视角合成中相机位姿估计的瓶颈与误差传播问题
 
-**关键词**：新视角合成, 相机位姿估计, 3D高斯泼溅, 联合优化, 可微分渲染, 3D光流
+**关键词**：新视角合成, 相机位姿估计, 3D高斯溅射, 联合优化, 可微分渲染, 3D光流
 
 ## 3 点简述
 - 核心问题：传统方法依赖外部相机位姿估计工具，导致计算瓶颈和误差传播

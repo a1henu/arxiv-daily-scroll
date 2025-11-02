@@ -7,14 +7,14 @@ title: OracleAgent: A Multimodal Reasoning Agent for Oracle Bone Script Research
 **arXiv**：[2510.26114v1](https://arxiv.org/abs/2510.26114) · [PDF](https://arxiv.org/pdf/2510.26114.pdf)  
 **作者**：Caoshuo Li, Zengmao Ding, Xiaobin Hu, Bang Li, Donghao Luo, Xu Peng, Taisong Jin, Yongge Liu, Shengwei Han, Jing Yang, Xiaoping He, Feng Gao, AndyPian Wu, SevenShu, Chaoyang Wang, Chengjie Wang  
 
-**一句话要点**：提出OracleAgent以解决甲骨文研究中的信息管理与检索挑战
+**一句话要点**：提出OracleAgent多模态代理系统以解决甲骨文研究中的信息管理与检索挑战
 
-**关键词**：甲骨文脚本研究, 多模态代理系统, 知识库构建, 信息检索, 大语言模型集成
+**关键词**：甲骨文研究, 多模态代理系统, 知识库构建, 信息检索, 大语言模型集成, 多模态推理
 
 ## 3 点简述
-- 甲骨文研究面临复杂多任务流程和低效信息检索瓶颈
-- 集成多工具与LLM，构建大规模多模态知识库，灵活编排组件
-- 实验显示性能优于主流MLLM，案例显著降低研究时间成本
+- 甲骨文研究面临复杂多任务流程与信息检索效率低下的核心问题
+- 集成多工具与LLM，构建大规模多模态知识库，支持灵活任务编排
+- 实验显示性能优于主流MLLM，案例研究显著降低专家研究时间成本
 
 ## 摘要（原文）
 

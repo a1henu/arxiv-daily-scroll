@@ -9,7 +9,7 @@ title: Revisiting Generative Infrared and Visible Image Fusion Based on Human Co
 
 **一句话要点**：提出HCLFuse方法以解决红外与可见光图像融合中的模态平衡与生成能力问题
 
-**关键词**：图像融合, 生成模型, 变分编码器, 扩散模型, 语义分割
+**关键词**：图像融合, 生成模型, 变分编码器, 扩散模型, 认知启发, 多模态信息
 
 ## 3 点简述
 - 现有方法难以平衡模态信息，生成能力有限且缺乏可解释性

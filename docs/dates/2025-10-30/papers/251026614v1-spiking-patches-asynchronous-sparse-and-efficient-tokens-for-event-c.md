@@ -7,14 +7,14 @@ title: Spiking Patches: Asynchronous, Sparse, and Efficient Tokens for Event Cam
 **arXiv**：[2510.26614v1](https://arxiv.org/abs/2510.26614) · [PDF](https://arxiv.org/pdf/2510.26614.pdf)  
 **作者**：Christoffer Koo Øhrstrøm, Ronja Güldenring, Lazaros Nalpantidis  
 
-**一句话要点**：提出Spiking Patches令牌化方法，以保持事件相机异步稀疏特性并提升效率
+**一句话要点**：提出Spiking Patches令牌化方法，以保持事件相机异步稀疏特性并提升效率。
 
-**关键词**：事件相机, 令牌化, 异步处理, 稀疏表示, 高效推理, 手势识别
+**关键词**：事件相机, 令牌化, 异步处理, 稀疏表示, 高效推理, 计算机视觉
 
 ## 3 点简述
-- 核心问题：事件相机数据异步稀疏，现有帧或体素表示降低这些特性
-- 方法要点：设计令牌化器Spiking Patches，生成异步稀疏令牌
-- 实验效果：推理速度最高提升10.4倍，精度相当或略有提升
+- 事件相机输出异步稀疏事件流，现有帧或体素表示牺牲这些特性。
+- Spiking Patches令牌化方法生成异步稀疏令牌，保留事件相机独特属性。
+- 实验显示，在姿态识别和物体检测中，速度提升达10.4倍，精度相当或更高。
 
 ## 摘要（原文）
 

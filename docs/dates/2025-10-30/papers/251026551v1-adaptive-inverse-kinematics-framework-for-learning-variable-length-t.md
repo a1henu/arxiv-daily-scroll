@@ -12,7 +12,7 @@ title: Adaptive Inverse Kinematics Framework for Learning Variable-Length Tool M
 **关键词**：机器人学, 逆运动学, 工具操作, 仿真学习, 技能迁移
 
 ## 3 点简述
-- 传统机器人对自身运动学理解有限，难以高效使用工具
+- 传统机器人对自身运动学理解有限，难以高效利用工具
 - 扩展逆运动学求解器，学习变长工具的动作序列
 - 仿真到现实迁移，误差小于1厘米，性能与工具长度无关
 

@@ -7,14 +7,14 @@ title: REALMS2 -- Resilient Exploration And Lunar Mapping System 2 -- A Comprehe
 **arXiv**：[2510.26638v1](https://arxiv.org/abs/2510.26638) · [PDF](https://arxiv.org/pdf/2510.26638.pdf)  
 **作者**：Dave van der Meer, Loïck P. Chovet, Gabriel M. Garcia, Abhishek Bera, Miguel A. Olivares-Mendez  
 
-**一句话要点**：提出REALMS2多机器人系统框架，用于行星勘探与地图构建。
+**一句话要点**：提出REALMS2多机器人系统框架，用于行星勘探与建图。
 
-**关键词**：多机器人系统, 行星勘探, 视觉SLAM, 网状网络, ROS 2, 月球地图构建
+**关键词**：多机器人系统, 行星勘探, 视觉SLAM, ROS 2, 网状网络, 鲁棒通信
 
 ## 3 点简述
 - 核心问题：解决多机器人系统在行星勘探中的通信延迟和中断挑战。
 - 方法要点：基于ROS 2和vSLAM，采用网状网络实现鲁棒通信。
-- 实验或效果：在ESA-ESRIC挑战中，使用三台漫游车绘制约60%区域。
+- 实验或效果：在ESA-ESRIC挑战中，使用三台漫游车成功绘制约60%区域。
 
 ## 摘要（原文）
 

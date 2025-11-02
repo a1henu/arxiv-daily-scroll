@@ -7,14 +7,14 @@ title: RoboOS-NeXT: A Unified Memory-based Framework for Lifelong, Scalable, and
 **arXiv**：[2510.26536v1](https://arxiv.org/abs/2510.26536) · [PDF](https://arxiv.org/pdf/2510.26536.pdf)  
 **作者**：Huajie Tan, Cheng Chi, Xiansheng Chen, Yuheng Ji, Zhongxia Zhao, Xiaoshuai Hao, Yaoxu Lyu, Mingyu Cao, Junkai Zhao, Huaihai Lyu, Enshen Zhou, Ning Chen, Yankai Fu, Cheng Peng, Wei Guo, Dong Liang, Zhuo Chen, Mengsi Lyu, Chenrui He, Yulong Ao, Yonghua Lin, Pengwei Wang, Zhongyuan Wang, Shanghang Zhang  
 
-**一句话要点**：提出RoboOS-NeXT框架，通过统一内存解决多机器人协作的终身适应、可扩展和鲁棒性问题。
+**一句话要点**：提出RoboOS-NeXT框架以解决多机器人协作中的终身适应、可扩展和鲁棒性问题
 
-**关键词**：多机器人协作, 统一内存框架, 时空体现内存, 终身学习, 鲁棒调度, 异构团队
+**关键词**：多机器人协作, 统一记忆框架, 终身学习, 异构团队, 鲁棒调度, 空间-时间-体现记忆
 
 ## 3 点简述
-- 核心问题：现有方法依赖有限个体记忆，难以实现长期学习、异构团队扩展和故障恢复。
-- 方法要点：引入时空体现内存（STEM），集成空间、时间和体现信息，支持大脑-小脑框架的全局规划与本地执行。
-- 实验或效果：在餐厅、超市和家庭等场景中验证，RoboOS-NeXT在异构体现下表现优越，实现动态任务分配和容错协作。
+- 核心问题：现有方法依赖有限个体记忆，难以实现终身学习、异构团队扩展和故障恢复
+- 方法要点：引入STEM统一记忆，集成空间、时间和体现信息，支持脑-小脑框架的全局规划与本地执行
+- 实验或效果：在餐厅、超市和家庭等场景中验证，RoboOS-NeXT在异构体现下表现优越
 
 ## 摘要（原文）
 

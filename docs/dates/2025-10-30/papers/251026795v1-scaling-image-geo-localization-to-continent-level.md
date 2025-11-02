@@ -7,14 +7,14 @@ title: Scaling Image Geo-Localization to Continent Level
 **arXiv**：[2510.26795v1](https://arxiv.org/abs/2510.26795) · [PDF](https://arxiv.org/pdf/2510.26795.pdf)  
 **作者**：Philipp Lindenberger, Paul-Edouard Sarlin, Jan Hosang, Matteo Balice, Marc Pollefeys, Simon Lynen, Eduard Trulls  
 
-**一句话要点**：提出混合方法实现大陆级精细图像地理定位
+**一句话要点**：提出混合方法实现大陆尺度细粒度图像地理定位
 
 **关键词**：图像地理定位, 特征学习, 跨视图检索, 代理分类, 大规模数据集
 
 ## 3 点简述
-- 全球图像地理定位因数据量大和覆盖不足而难以精确
-- 结合代理分类和航空图像嵌入，学习丰富特征表示
-- 在欧洲数据集上，68%查询定位误差小于200米
+- 核心问题：全球图像地理定位因数据量大和覆盖不足而难以精确。
+- 方法要点：结合代理分类和航空图像嵌入，学习丰富特征表示。
+- 实验效果：在欧洲数据集上，68%以上查询定位误差小于200米。
 
 ## 摘要（原文）
 

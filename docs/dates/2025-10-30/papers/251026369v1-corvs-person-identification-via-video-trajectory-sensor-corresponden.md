@@ -7,14 +7,14 @@ title: CorVS: Person Identification via Video Trajectory-Sensor Correspondence i
 **arXiv**：[2510.26369v1](https://arxiv.org/abs/2510.26369) · [PDF](https://arxiv.org/pdf/2510.26369.pdf)  
 **作者**：Kazuma Kano, Yuki Mori, Shin Katayama, Kenta Urano, Takuro Yonezawa, Nobuo Kawaguchi  
 
-**一句话要点**：提出CorVS方法，基于轨迹-传感器对应关系解决真实仓库中人员识别问题
+**一句话要点**：提出CorVS方法，通过视频轨迹与传感器对应关系解决真实仓库中人员识别问题
 
 **关键词**：人员识别, 视频轨迹, 传感器测量, 深度学习, 仓库监控, 数据对应
 
 ## 3 点简述
-- 核心问题：仅凭视觉数据识别个体不实用，现有方法在真实条件下易失效
-- 方法要点：深度学习模型预测轨迹与传感器测量的对应概率和可靠性，并随时间匹配
-- 实验或效果：在真实仓库数据集上验证，证明方法对实际应用有效
+- 核心问题：仅凭视觉数据在真实仓库中识别个体不实用，现有方法在现实条件下易失效
+- 方法要点：使用深度学习预测轨迹与传感器测量的对应概率和可靠性，并随时间匹配
+- 实验或效果：基于实际仓库操作数据集验证，证明方法在真实应用中的有效性
 
 ## 摘要（原文）
 

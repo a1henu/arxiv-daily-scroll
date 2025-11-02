@@ -9,7 +9,7 @@ title: GLYPH-SR: Can We Achieve Both High-Quality Image Super-Resolution and Hig
 
 **一句话要点**：提出GLYPH-SR，通过VLM引导的潜在扩散模型实现高质量图像超分与高保真文本恢复。
 
-**关键词**：图像超分辨率, 场景文本恢复, 扩散模型, 视觉语言模型, OCR引导, 感知质量
+**关键词**：图像超分辨率, 场景文本恢复, 潜在扩散模型, 视觉语言模型, OCR引导, 融合控制网络
 
 ## 3 点简述
 - 核心问题：现有超分方法对场景文本恢复不敏感，导致OCR失败。

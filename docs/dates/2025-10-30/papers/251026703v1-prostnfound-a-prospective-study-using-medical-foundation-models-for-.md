@@ -7,14 +7,14 @@ title: ProstNFound+: A Prospective Study using Medical Foundation Models for Pro
 **arXiv**：[2510.26703v1](https://arxiv.org/abs/2510.26703) · [PDF](https://arxiv.org/pdf/2510.26703.pdf)  
 **作者**：Paul F. R. Wilson, Mohamed Harmanani, Minh Nguyen Nhat To, Amoon Jamzad, Tarek Elghareb, Zhuoxin Guo, Adam Kinnaird, Brian Wodlinger, Purang Abolmaesumi, Parvin Mousavi  
 
-**一句话要点**：提出ProstNFound+模型，用于前列腺癌微超声检测，并进行了前瞻性验证。
+**一句话要点**：提出ProstNFound+以解决前列腺癌微超声检测的临床验证问题
 
-**关键词**：前列腺癌检测, 医学基础模型, 微超声成像, 前瞻性验证, 可解释热图, 临床评分对齐
+**关键词**：前列腺癌检测, 医学基础模型, 微超声成像, 适配器调优, 前瞻性验证, 癌症热图
 
 ## 3 点简述
-- 核心问题：医学基础模型在前列腺癌微超声检测中的临床应用尚未验证。
-- 方法要点：结合医学基础模型、适配器调优和临床生物标志物提示编码器。
-- 实验或效果：前瞻性数据上表现稳健，与临床评分一致，生成可解释热图。
+- 核心问题：医学基础模型在前列腺癌微超声检测中的临床应用未经验证
+- 方法要点：结合医学基础模型、适配器调优和临床生物标志物提示编码
+- 实验或效果：前瞻性验证显示强泛化能力，与临床评分一致
 
 ## 摘要（原文）
 

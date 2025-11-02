@@ -7,14 +7,14 @@ title: Efficient Collision-Avoidance Constraints for Ellipsoidal Obstacles in Op
 **arXiv**：[2510.26531v1](https://arxiv.org/abs/2510.26531) · [PDF](https://arxiv.org/pdf/2510.26531.pdf)  
 **作者**：David Leprich, Mario Rosenfelder, Markus Herrmann-Wicklmayr, Kathrin Flaßkamp, Peter Eberhard, Henrik Ebel  
 
-**一句话要点**：提出高效椭球障碍物避碰约束，应用于路径跟踪MPC与无人机
+**一句话要点**：提出高效椭球障碍物避碰约束，应用于路径跟踪MPC与无人机。
 
-**关键词**：椭球障碍物避碰, 模型预测控制, 最优控制, 无人机导航, 路径跟踪
+**关键词**：椭球障碍物避碰, 模型预测控制, 最优控制, 无人机导航, 路径跟踪, 硬件实验
 
 ## 3 点简述
-- 核心问题：三维椭球障碍物避碰在最优控制中的计算效率与数值稳定性问题
-- 方法要点：引入可微碰撞检测条件与两阶段优化，提升计算效率与鲁棒性
-- 实验或效果：通过仿真与Crazyflie四旋翼实验验证，实现首个硬件演示
+- 核心问题：三维椭球障碍物避碰在最优控制中的计算效率与可微性需求。
+- 方法要点：引入计算高效且连续可微的碰撞检测条件与两阶段优化方法。
+- 实验或效果：通过仿真和Crazyflie四旋翼实验验证有效性，首次硬件演示。
 
 ## 摘要（原文）
 

@@ -7,12 +7,12 @@ title: CRAG-MM: Multi-modal Multi-turn Comprehensive RAG Benchmark
 **arXiv**：[2510.26160v1](https://arxiv.org/abs/2510.26160) · [PDF](https://arxiv.org/pdf/2510.26160.pdf)  
 **作者**：Jiaqi Wang, Xiao Yang, Kai Sun, Parth Suresh, Sanat Sharma, Adam Czyzewski, Derek Andersen, Surya Appini, Arkav Banerjee, Sajal Choudhary, Shervin Ghasemlou, Ziqiang Guan, Akil Iyer, Haidar Khan, Lingkun Kong, Roy Luo, Tiffany Ma, Zhen Qiao, David Tran, Wenfang Xu, Skyler Yeatman, Chen Zhou, Gunveer Gujral, Yinglong Xia, Shane Moon, Nicolas Scheffer, Nirav Shah, Eun Chang, Yue Liu, Florian Metze, Tammy Stark, Zhaleh Feizollahi, Andrea Jessee, Mangesh Pujari, Ahmed Aly, Babak Damavandi, Rakesh Wanga, Anuj Kumar, Rohit Patel, Wen-tau Yih, Xin Luna Dong  
 
-**一句话要点**：提出CRAG-MM基准以评估可穿戴场景下的多模态多轮检索增强生成
+**一句话要点**：提出CRAG-MM基准以评估可穿戴场景下的多模态多轮RAG系统
 
-**关键词**：多模态检索增强生成, 可穿戴设备基准, 多轮对话评估, 图像知识图谱检索, 网页检索API
+**关键词**：多模态检索增强生成, 可穿戴设备基准, 多轮对话评估, 图像知识图谱检索, 真实世界场景模拟
 
 ## 3 点简述
-- 核心问题：缺乏针对可穿戴设备的多模态多轮RAG综合基准
+- 核心问题：缺乏针对可穿戴设备的多模态多轮检索增强生成综合基准
 - 方法要点：构建包含6.5K三元组和2K多轮对话的数据集，覆盖13个领域
 - 实验或效果：基线方法真实度仅32-43%，显示改进空间，已用于KDD Cup 2025
 

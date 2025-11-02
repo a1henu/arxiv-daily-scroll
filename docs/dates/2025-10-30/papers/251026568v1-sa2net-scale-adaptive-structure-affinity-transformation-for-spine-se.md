@@ -7,14 +7,14 @@ title: SA$^{2}$Net: Scale-Adaptive Structure-Affinity Transformation for Spine S
 **arXiv**：[2510.26568v1](https://arxiv.org/abs/2510.26568) · [PDF](https://arxiv.org/pdf/2510.26568.pdf)  
 **作者**：Hao Xie, Zixun Huang, Yushen Zuo, Yakun Ju, Frank H. F. Leung, N. F. Law, Kin-Man Lam, Yong-Ping Zheng, Sai Ho Ling  
 
-**一句话要点**：提出SA²Net以解决超声脊柱分割中的结构建模挑战
+**一句话要点**：提出SA²Net以解决超声脊柱分割中的上下文和结构建模问题
 
 **关键词**：脊柱分割, 超声体积投影成像, 尺度自适应, 结构亲和变换, Transformer解码器, 特征混合损失
 
 ## 3 点简述
-- 脊柱分割面临全局上下文和结构知识学习不足的问题
-- 采用尺度自适应策略和结构亲和变换增强特征学习
-- 实验显示SA²Net在分割性能上优于现有方法，代码已开源
+- 脊柱分割面临全局上下文学习不足和结构知识编码困难的核心问题
+- 方法包括尺度自适应策略学习长距离相关性和结构亲和变换结合Transformer解码器
+- 实验显示SA²Net在分割性能上优于现有方法，并具有对多种骨干网络的适应性
 
 ## 摘要（原文）
 

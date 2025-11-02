@@ -7,14 +7,14 @@ title: WOD-E2E: Waymo Open Dataset for End-to-End Driving in Challenging Long-ta
 **arXiv**：[2510.26125v1](https://arxiv.org/abs/2510.26125) · [PDF](https://arxiv.org/pdf/2510.26125.pdf)  
 **作者**：Runsheng Xu, Hubert Lin, Wonseok Jeon, Hao Feng, Yuliang Zou, Liting Sun, John Gorman, Kate Tolstaya, Sarah Tang, Brandyn White, Ben Sapp, Mingxing Tan, Jyh-Jing Hwang, Drago Anguelov  
 
-**一句话要点**：提出WOD-E2E数据集和RFS评估指标以解决端到端驾驶在长尾场景中的测试不足问题
+**一句话要点**：提出WOD-E2E数据集和RFS指标以评估端到端驾驶在长尾场景中的性能
 
-**关键词**：端到端驾驶, 长尾场景, 数据集构建, 评估指标, 自动驾驶, 多模态学习
+**关键词**：端到端驾驶, 长尾场景数据集, 开放环评估指标, 多模态驾驶, 自动驾驶挑战
 
 ## 3 点简述
-- 当前端到端驾驶基准主要覆盖常规场景，缺乏对长尾挑战性场景的充分测试
-- 引入包含4021个长尾驾驶片段的WOD-E2E数据集，并设计基于评分者偏好的RFS评估指标
-- 通过开放数据集和挑战赛推动可泛化、鲁棒且安全的端到端自动驾驶研究
+- 当前端到端驾驶基准缺乏对长尾场景的充分测试，且评估指标难以捕捉多模态特性
+- 构建包含4021段长尾场景数据的WOD-E2E数据集，并设计基于评分者偏好的RFS评估指标
+- 通过发布验证集标签和举办挑战赛，推动鲁棒自动驾驶研究，未知具体性能提升
 
 ## 摘要（原文）
 

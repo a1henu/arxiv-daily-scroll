@@ -7,14 +7,14 @@ title: Self-localization on a 3D map by fusing global and local features from a 
 **arXiv**：[2510.26170v1](https://arxiv.org/abs/2510.26170) · [PDF](https://arxiv.org/pdf/2510.26170.pdf)  
 **作者**：Satoshi Kikuch, Masaya Kato, Tsuyoshi Tasaki  
 
-**一句话要点**：提出融合CNN与Vision Transformer的方法，以在动态障碍物下实现单目相机3D地图自定位
+**一句话要点**：提出融合CNN与Vision Transformer的方法，以解决单目相机在动态障碍物下自定位问题。
 
-**关键词**：单目相机自定位, 3D地图定位, CNN与Vision Transformer融合, 动态障碍物鲁棒性, 自动驾驶定位
+**关键词**：自定位, 单目相机, CNN, Vision Transformer, 动态障碍物, 3D地图
 
 ## 3 点简述
 - 核心问题：单目相机自定位在动态障碍物存在时，CNN提取局部特征效果不佳。
 - 方法要点：结合CNN提取局部特征与Vision Transformer提取全局特征，提升鲁棒性。
-- 实验效果：在CG数据集上，动态障碍物下精度提升率是无障碍物的1.5倍；自定位误差比SOTA减少20.1%。
+- 实验效果：在CG数据集上，动态障碍物下精度提升率是无障碍物的1.5倍；公共数据集上误差比SOTA减少20.1%。
 
 ## 摘要（原文）
 
