@@ -1,0 +1,41 @@
+---
+layout: default
+title: V-Thinker: Interactive Thinking with Images
+---
+
+# V-Thinker: Interactive Thinking with Images
+**arXiv**：[2511.04460v1](https://arxiv.org/abs/2511.04460) · [PDF](https://arxiv.org/pdf/2511.04460.pdf)  
+**作者**：Runqi Qiao, Qiuna Tan, Minghan Yang, Guanting Dong, Peiqing Yang, Shiqiang Lang, Enhui Wan, Xiaowan Wang, Yida Xu, Lan Yang, Chong Sun, Chen Li, Honggang Zhang  
+
+**一句话要点**：提出V-Thinker以解决大模型图像交互推理的局限性
+
+**关键词**：大模型推理, 图像交互, 强化学习, 数据合成, 视觉基准, 端到端训练
+
+## 3 点简述
+- 核心问题：大模型在图像交互与长程推理融合方面存在视觉工具和任务设计限制
+- 方法要点：通过数据进化飞轮和视觉渐进训练课程实现端到端强化学习
+- 实验或效果：在VTBench基准上优于基线，提升通用和交互推理性能
+
+## 摘要（原文）
+
+> Empowering Large Multimodal Models (LMMs) to deeply integrate image
+> interaction with long-horizon reasoning capabilities remains a long-standing
+> challenge in this field. Recent advances in vision-centric reasoning explore a
+> promising "Thinking with Images" paradigm for LMMs, marking a shift from
+> image-assisted reasoning to image-interactive thinking. While this milestone
+> enables models to focus on fine-grained image regions, progress remains
+> constrained by limited visual tool spaces and task-specific workflow designs.
+> To bridge this gap, we present V-Thinker, a general-purpose multimodal
+> reasoning assistant that enables interactive, vision-centric thinking through
+> end-to-end reinforcement learning. V-Thinker comprises two key components: (1)
+> a Data Evolution Flywheel that automatically synthesizes, evolves, and verifies
+> interactive reasoning datasets across three dimensions-diversity, quality, and
+> difficulty; and (2) a Visual Progressive Training Curriculum that first aligns
+> perception via point-level supervision, then integrates interactive reasoning
+> through a two-stage reinforcement learning framework. Furthermore, we introduce
+> VTBench, an expert-verified benchmark targeting vision-centric interactive
+> reasoning tasks. Extensive experiments demonstrate that V-Thinker consistently
+> outperforms strong LMM-based baselines in both general and interactive
+> reasoning scenarios, providing valuable insights for advancing
+> image-interactive reasoning applications.
+
