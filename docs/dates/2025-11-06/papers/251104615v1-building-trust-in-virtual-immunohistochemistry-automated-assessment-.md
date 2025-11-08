@@ -7,13 +7,13 @@ title: Building Trust in Virtual Immunohistochemistry: Automated Assessment of I
 **arXiv**：[2511.04615v1](https://arxiv.org/abs/2511.04615) · [PDF](https://arxiv.org/pdf/2511.04615.pdf)  
 **作者**：Tushar Kataria, Shikha Dubey, Mary Bronner, Jolanta Jedrzkiewicz, Ben J. Brintz, Shireen Y. Elhabian, Beatrice S. Knudsen  
 
-**一句话要点**：提出自动化框架评估虚拟免疫组化图像质量，以解决现有指标与染色准确性不匹配问题。
+**一句话要点**：提出自动化框架评估虚拟免疫组化图像质量，以解决现有指标与染色准确性脱节问题。
 
-**关键词**：虚拟免疫组化, 图像质量评估, 染色准确性, 颜色反卷积, 全玻片图像, 配对模型
+**关键词**：虚拟免疫组化, 图像质量评估, 像素级准确性, 颜色反卷积, 全玻片图像, 深度学习模型
 
 ## 3 点简述
-- 核心问题：现有图像保真度指标无法准确评估虚拟IHC染色准确性，影响模型可靠性。
-- 方法要点：使用颜色反卷积生成IHC阳性像素掩码，计算Dice等指标量化染色准确性。
+- 核心问题：现有图像保真度指标无法准确评估虚拟IHC染色准确性，与病理学家评估相关性差。
+- 方法要点：通过颜色反卷积生成IHC阳性像素掩码，计算Dice等指标量化像素级染色准确性。
 - 实验或效果：配对模型如PyramidPix2Pix表现最佳，全玻片图像评估揭示性能下降。
 
 ## 摘要（原文）

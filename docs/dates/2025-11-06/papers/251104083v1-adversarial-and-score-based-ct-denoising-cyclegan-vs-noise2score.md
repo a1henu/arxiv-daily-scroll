@@ -13,8 +13,8 @@ title: Adversarial and Score-Based CT Denoising: CycleGAN vs Noise2Score
 
 ## 3 点简述
 - 核心问题：在无配对和自监督条件下进行CT图像去噪，提升图像质量。
-- 方法要点：评估CycleGAN残差翻译器和Noise2Score分数匹配去噪器。
-- 实验或效果：CycleGAN在PSNR/SSIM上表现最佳，Noise2Score对高噪声输入有效。
+- 方法要点：评估CycleGAN残差翻译器和Noise2Score分数匹配去噪器，优化参数设置。
+- 实验或效果：CycleGAN在PSNR和SSIM上表现最佳，Noise2Score对高噪声输入有优势。
 
 ## 摘要（原文）
 

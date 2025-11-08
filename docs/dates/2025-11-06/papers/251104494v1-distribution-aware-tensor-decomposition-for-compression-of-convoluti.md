@@ -7,14 +7,14 @@ title: Distribution-Aware Tensor Decomposition for Compression of Convolutional 
 **arXiv**：[2511.04494v1](https://arxiv.org/abs/2511.04494) · [PDF](https://arxiv.org/pdf/2511.04494.pdf)  
 **作者**：Alper Kalle, Theo Rudkiewicz, Mohamed-Oumar Ouerfelli, Mohamed Tamaazousti  
 
-**一句话要点**：提出分布感知张量分解方法以压缩卷积神经网络，无需微调保持精度
+**一句话要点**：提出分布感知张量分解方法以压缩卷积神经网络，无需微调保持高精度
 
 **关键词**：神经网络压缩, 张量分解, 分布感知优化, 低秩近似, 卷积神经网络, 数据信息范数
 
 ## 3 点简述
 - 核心问题：神经网络压缩中传统方法在权重空间最小化各向同性范数，忽略函数空间误差影响。
 - 方法要点：使用数据信息范数最小化层输出分布变化，优化Tucker-2和CPD分解算法。
-- 实验效果：在多个CNN和数据集上验证，无需微调即达竞争精度，且可跨数据集迁移。
+- 实验效果：在多种CNN和数据集上验证，无需微调即可达到竞争性精度，且可跨数据集迁移。
 
 ## 摘要（原文）
 

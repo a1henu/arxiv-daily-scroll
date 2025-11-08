@@ -14,7 +14,7 @@ title: Submanifold Sparse Convolutional Networks for Automated 3D Segmentation o
 ## 3 点简述
 - 核心问题：3D CT图像分割计算量大，传统方法需降采样或分块处理
 - 方法要点：采用体素稀疏化和子流形稀疏卷积网络，支持高分辨率输入
-- 实验或效果：在KiTS23数据集上达到高精度，显著降低推理时间和显存使用
+- 实验或效果：在KiTS23挑战中获高精度，显著降低推理时间和显存使用
 
 ## 摘要（原文）
 

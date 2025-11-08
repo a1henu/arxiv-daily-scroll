@@ -7,14 +7,14 @@ title: A MATLAB tutorial on deep feature extraction combined with chemometrics f
 **arXiv**：[2511.04349v1](https://arxiv.org/abs/2511.04349) · [PDF](https://arxiv.org/pdf/2511.04349.pdf)  
 **作者**：Puneet Mishra, Martijntje Vollebregt, Yizhou Ma, Maria Font-i-Furnols  
 
-**一句话要点**：提供MATLAB教程，结合深度学习与化学计量学提取图像空间特征以解决分析化学应用问题
+**一句话要点**：提供MATLAB教程，结合深度学习特征提取与化学计量学用于分析化学应用
 
 **关键词**：深度学习特征提取, 化学计量学, MATLAB教程, 图像处理, 分析化学应用
 
 ## 3 点简述
-- 分析化学中图像空间信息提取效率低，传统方法难以处理多尺度特征
-- 利用开源深度学习模型提取图像深度特征，无需训练模型
-- 教程包含MATLAB代码演示，支持多种成像模态数据处理
+- 分析化学中空间信息提取困难，传统方法效率低
+- 使用开源深度学习模型提取多尺度特征，无需训练模型
+- 教程包含代码演示，支持多种成像模态数据处理
 
 ## 摘要（原文）
 

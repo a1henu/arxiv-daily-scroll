@@ -13,8 +13,8 @@ title: Comparative Study of CNN Architectures for Binary Classification of Horse
 
 ## 3 点简述
 - 核心问题：VOC 2008数据集中马和摩托车二分类存在显著类别不平衡问题。
-- 方法要点：采用少数类数据增强技术缓解不平衡，评估包括ResNet-50等九种架构。
-- 实验或效果：ConvNeXt-Tiny在平均精度上表现最佳，数据增强提升少数类检测效果。
+- 方法要点：采用少数类数据增强技术缓解不平衡，评估ResNet-50等九种架构。
+- 实验或效果：ConvNeXt-Tiny在平均精度上表现最佳，数据增强提升少数类检测。
 
 ## 摘要（原文）
 

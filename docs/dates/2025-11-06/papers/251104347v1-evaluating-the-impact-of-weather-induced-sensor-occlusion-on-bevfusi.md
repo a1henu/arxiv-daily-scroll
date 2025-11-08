@@ -9,12 +9,12 @@ title: Evaluating the Impact of Weather-Induced Sensor Occlusion on BEVFusion fo
 
 **一句话要点**：评估天气致传感器遮挡对BEVFusion在3D物体检测中的影响
 
-**关键词**：3D物体检测, BEV融合, 传感器遮挡, nuScenes数据集, 多模态集成, 环境鲁棒性
+**关键词**：3D物体检测, BEV融合, 传感器遮挡, nuScenes数据集, 多模态感知
 
 ## 3 点简述
-- 核心问题：传感器遮挡（如雾、霾）对BEV融合架构的3D检测精度影响未知。
-- 方法要点：使用BEVFusion架构，分析相机和LiDAR在nuScenes数据集上的遮挡效应。
-- 实验或效果：相机遮挡致mAP降41.3%，LiDAR遮挡降47.3%，融合时更依赖LiDAR。
+- 核心问题：传感器遮挡（如雾、霾）对BEV融合架构3D检测精度的影响未知
+- 方法要点：使用BEVFusion在nuScenes数据集上分析相机和LiDAR遮挡效应
+- 实验或效果：相机遮挡致mAP降41.3%，LiDAR遮挡致mAP降47.3%，融合时更依赖LiDAR
 
 ## 摘要（原文）
 

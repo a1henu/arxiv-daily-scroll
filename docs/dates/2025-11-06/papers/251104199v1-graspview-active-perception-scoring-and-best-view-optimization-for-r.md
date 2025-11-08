@@ -9,7 +9,7 @@ title: GraspView: Active Perception Scoring and Best-View Optimization for Robot
 
 **一句话要点**：提出GraspView以解决杂乱环境中RGB-only机器人抓取问题
 
-**关键词**：机器人抓取, RGB-only感知, 主动视觉, 3D场景重建, 杂乱环境, 多视图融合
+**关键词**：机器人抓取, 主动感知, RGB-only视觉, 3D场景重建, 杂乱环境, 最佳视图优化
 
 ## 3 点简述
 - 核心问题：杂乱环境中遮挡、感知质量差和3D重建不一致导致抓取失败

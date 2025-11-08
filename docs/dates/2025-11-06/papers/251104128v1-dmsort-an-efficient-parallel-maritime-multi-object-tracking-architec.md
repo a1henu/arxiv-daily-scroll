@@ -7,14 +7,14 @@ title: DMSORT: An efficient parallel maritime multi-object tracking architecture
 **arXiv**：[2511.04128v1](https://arxiv.org/abs/2511.04128) · [PDF](https://arxiv.org/pdf/2511.04128.pdf)  
 **作者**：Shengyu Tang, Zeyuan Lu, Jiazhi Dong, Changdong Yu, Xiaoyu Wang, Yaohui Lyu, Weihao Xia  
 
-**一句话要点**：提出DMSORT并行架构以解决海上多目标跟踪中的相机运动和视觉退化问题
+**一句话要点**：提出DMSORT并行多目标跟踪方法，以解决海上复杂环境下的跟踪挑战。
 
-**关键词**：海上多目标跟踪, 相机运动补偿, 并行跟踪架构, 轻量Transformer, 特征融合, 鲁棒检测
+**关键词**：多目标跟踪, 海上环境感知, 相机运动补偿, 重识别, 并行架构, Kalman滤波
 
 ## 3 点简述
-- 核心问题：海上环境复杂，相机运动导致视觉退化，挑战多目标跟踪的鲁棒性。
-- 方法要点：采用并行分支，结合检测-ReID和相机运动补偿，稳定目标轨迹。
-- 实验或效果：在新加坡海事数据集上实现SOTA性能，运行速度最快，身份一致性高。
+- 核心问题：海上环境相机运动和视觉退化导致多目标跟踪困难。
+- 方法要点：采用并行分支，结合检测、重识别和相机运动补偿。
+- 实验效果：在新加坡海事数据集上实现SOTA性能，运行速度最快。
 
 ## 摘要（原文）
 

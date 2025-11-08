@@ -7,14 +7,14 @@ title: V-Thinker: Interactive Thinking with Images
 **arXiv**：[2511.04460v1](https://arxiv.org/abs/2511.04460) · [PDF](https://arxiv.org/pdf/2511.04460.pdf)  
 **作者**：Runqi Qiao, Qiuna Tan, Minghan Yang, Guanting Dong, Peiqing Yang, Shiqiang Lang, Enhui Wan, Xiaowan Wang, Yida Xu, Lan Yang, Chong Sun, Chen Li, Honggang Zhang  
 
-**一句话要点**：提出V-Thinker以解决大模型图像交互推理的局限性
+**一句话要点**：提出V-Thinker以解决大模型图像交互推理的视觉工具限制问题
 
-**关键词**：大模型推理, 图像交互, 强化学习, 数据合成, 视觉基准, 端到端训练
+**关键词**：大模型图像交互推理, 数据进化飞轮, 视觉渐进训练, 强化学习, VTBench基准
 
 ## 3 点简述
-- 核心问题：大模型在图像交互与长程推理融合方面存在视觉工具和任务设计限制
-- 方法要点：通过数据进化飞轮和视觉渐进训练课程实现端到端强化学习
-- 实验或效果：在VTBench基准上优于基线，提升通用和交互推理性能
+- 核心问题：大模型图像交互推理受限于视觉工具空间和任务特定设计
+- 方法要点：结合数据进化飞轮和视觉渐进训练课程，通过强化学习实现交互推理
+- 实验或效果：在VTBench基准上优于基线模型，提升通用和交互推理能力
 
 ## 摘要（原文）
 

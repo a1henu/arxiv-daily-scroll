@@ -12,9 +12,9 @@ title: BoRe-Depth: Self-supervised Monocular Depth Estimation with Boundary Refi
 **关键词**：单目深度估计, 边界优化, 嵌入式系统, 轻量模型, 特征融合, 语义集成
 
 ## 3 点简述
-- 嵌入式系统单目深度估计性能差、边界模糊
-- 设计EFAF模块融合深度特征，集成语义知识提升边界感知
-- 模型参数量8.7M，在NVIDIA Jetson Orin上达50.7 FPS，性能优于轻量模型
+- 核心问题：嵌入式系统单目深度估计性能差、边界模糊
+- 方法要点：设计EFAF模块融合深度特征，集成语义知识增强边界感知
+- 实验或效果：模型参数量8.7M，在NVIDIA Jetson Orin上运行50.7 FPS，性能优于轻量模型
 
 ## 摘要（原文）
 

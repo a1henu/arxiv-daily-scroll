@@ -7,14 +7,14 @@ title: UniSplat: Unified Spatio-Temporal Fusion via 3D Latent Scaffolds for Dyna
 **arXiv**：[2511.04595v1](https://arxiv.org/abs/2511.04595) · [PDF](https://arxiv.org/pdf/2511.04595.pdf)  
 **作者**：Chen Shi, Shaoshuai Shi, Xiaoyang Lyu, Chunyang Liu, Kehua Sheng, Bo Zhang, Li Jiang  
 
-**一句话要点**：提出UniSplat框架，通过3D潜在支架统一时空融合，解决动态驾驶场景重建问题
+**一句话要点**：提出UniSplat框架，通过3D潜在支架统一时空融合，解决动态驾驶场景重建问题。
 
-**关键词**：动态场景重建, 3D潜在支架, 时空融合, 高斯表示, 新视图合成
+**关键词**：动态场景重建, 3D潜在支架, 时空融合, 高斯生成, 新视图合成, 自动驾驶视觉
 
 ## 3 点简述
-- 核心问题：稀疏非重叠相机视图和复杂场景动态导致3D重建困难
-- 方法要点：构建3D潜在支架，结合双分支解码器生成动态感知高斯表示
-- 实验或效果：在真实数据集上实现新视图合成SOTA，支持相机覆盖外渲染
+- 核心问题：稀疏非重叠相机视图和复杂场景动态导致3D重建困难。
+- 方法要点：构建3D潜在支架，结合点锚定精炼与体素生成，实现时空融合。
+- 实验效果：在真实数据集上实现新视图合成SOTA，支持相机覆盖外渲染。
 
 ## 摘要（原文）
 

@@ -9,12 +9,12 @@ title: DINOv2 Driven Gait Representation Learning for Video-Based Visible-Infrar
 
 **一句话要点**：提出DinoGRL框架，利用DINOv2学习步态特征以解决视频可见光-红外行人重识别问题
 
-**关键词**：行人重识别, 步态特征学习, 跨模态检索, 视频序列分析, DINOv2应用
+**关键词**：行人重识别, 跨模态检索, 步态特征学习, DINOv2, 视频序列分析, 多粒度增强
 
 ## 3 点简述
-- 核心问题：现有方法忽视步态特征，难以建模跨模态视频匹配的时空一致性。
-- 方法要点：引入SASGL模型和PBMGE模块，结合DINOv2先验优化步态与外观特征。
-- 实验或效果：在HITSZ-VCM和BUPT数据集上显著优于现有方法，验证了有效性。
+- 现有方法忽视步态特征，难以建模跨模态视频匹配的时空一致性
+- 引入SASGL模型和PBMGE模块，结合DINOv2语义先验优化步态与外观特征
+- 在HITSZ-VCM和BUPT数据集上实验，性能显著优于现有先进方法
 
 ## 摘要（原文）
 

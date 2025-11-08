@@ -7,14 +7,14 @@ title: HideAndSeg: an AI-based tool with automated prompting for octopus segment
 **arXiv**：[2511.04426v1](https://arxiv.org/abs/2511.04426) · [PDF](https://arxiv.org/pdf/2511.04426.pdf)  
 **作者**：Alan de Aguiar, Michaella Pereira Andrade, Charles Morphy D. Santos, João Paulo Gois  
 
-**一句话要点**：提出HideAndSeg工具，用于自然栖息地章鱼视频分割，减少手动干预。
+**一句话要点**：提出HideAndSeg工具，用于自然栖息地章鱼视频分割，减少人工干预。
 
 **关键词**：视频分割, 无监督评估, 目标检测, SAM2集成, 章鱼行为研究
 
 ## 3 点简述
-- 核心问题：章鱼伪装、变形和遮挡导致自然栖息地视频分割困难，缺乏大规模标注数据。
-- 方法要点：集成SAM2和YOLOv11，自动化生成分割掩码，无需持续手动提示。
-- 实验或效果：引入无监督指标评估质量，在遮挡后仍能重识别和分割章鱼。
+- 核心问题：章鱼伪装、变形和遮挡导致自然栖息地视频分割困难。
+- 方法要点：集成SAM2和YOLOv11，自动化生成分割掩码和训练检测器。
+- 实验或效果：引入无监督指标评估，提升分割一致性并处理完全遮挡。
 
 ## 摘要（原文）
 

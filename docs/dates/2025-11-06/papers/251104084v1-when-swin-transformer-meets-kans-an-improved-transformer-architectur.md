@@ -9,12 +9,12 @@ title: When Swin Transformer Meets KANs: An Improved Transformer Architecture fo
 
 **一句话要点**：提出UKAST架构，集成KANs于Swin Transformer，提升医学图像分割的数据效率与性能。
 
-**关键词**：医学图像分割, Swin Transformer, Kolmogorov-Arnold网络, 数据效率, 全局上下文建模, 计算优化
+**关键词**：医学图像分割, Swin Transformer, Kolmogorov-Arnold网络, 数据效率, 全局上下文建模
 
 ## 3 点简述
-- 医学图像分割面临复杂结构和数据稀缺挑战，CNN难建模长程依赖，Transformer计算昂贵。
-- UKAST结合KANs与Swin Transformer，使用有理函数基和GR-KANs，提高表达力并减少计算开销。
-- 在多个2D/3D基准测试中实现SOTA，数据稀缺时表现优异，参数增加少且FLOPs降低。
+- 医学图像分割面临复杂结构和标注数据稀缺的挑战。
+- 在Swin Transformer编码器中引入基于有理函数的KANs，优化计算效率。
+- 在多个2D/3D基准测试中实现SOTA，数据稀缺下表现优异。
 
 ## 摘要（原文）
 

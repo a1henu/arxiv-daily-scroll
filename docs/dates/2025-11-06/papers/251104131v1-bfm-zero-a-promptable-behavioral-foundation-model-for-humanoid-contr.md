@@ -7,14 +7,14 @@ title: BFM-Zero: A Promptable Behavioral Foundation Model for Humanoid Control U
 **arXiv**：[2511.04131v1](https://arxiv.org/abs/2511.04131) · [PDF](https://arxiv.org/pdf/2511.04131.pdf)  
 **作者**：Yitang Li, Zhengyi Luo, Tonghe Zhang, Cunxi Dai, Anssi Kanervisto, Andrea Tirinzoni, Haoyang Weng, Kris Kitani, Mateusz Guzek, Ahmed Touati, Alessandro Lazaric, Matteo Pirotta, Guanya Shi  
 
-**一句话要点**：提出BFM-Zero框架，通过无监督强化学习构建可提示的人形机器人行为基础模型。
+**一句话要点**：提出BFM-Zero框架，通过无监督强化学习实现人形机器人可提示行为基础模型
 
-**关键词**：行为基础模型, 无监督强化学习, 人形机器人控制, 潜在表示学习, 零样本推理, 模拟到真实迁移
+**关键词**：行为基础模型, 无监督强化学习, 人形机器人控制, 潜在表示学习, 零样本推理, 仿真到真实迁移
 
 ## 3 点简述
-- 核心问题：现有方法局限于模拟环境或特定任务，难以统一人形机器人控制。
-- 方法要点：学习共享潜在表示，嵌入动作、目标和奖励，支持零样本和少样本推理。
-- 实验或效果：在真实Unitree G1机器人上实现多任务控制，并通过消融实验验证设计。
+- 核心问题：现有方法局限于模拟环境或特定任务，难以统一人形机器人控制
+- 方法要点：学习共享潜在表示，嵌入动作、目标和奖励，支持零样本和少样本推理
+- 实验或效果：在真实人形机器人上实现多任务控制，并通过消融实验验证设计
 
 ## 摘要（原文）
 

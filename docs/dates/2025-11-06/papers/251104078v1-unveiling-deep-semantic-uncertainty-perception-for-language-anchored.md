@@ -13,7 +13,7 @@ title: Unveiling Deep Semantic Uncertainty Perception for Language-Anchored Mult
 
 ## 3 点简述
 - 核心问题：视觉信号与脑信号对齐受限于语义缺失和噪声，影响解码鲁棒性。
-- 方法要点：将视觉和脑信号投影到共享空间，引入不确定性感知模块增强对齐。
+- 方法要点：将视觉和脑信号投影到共享空间，并引入不确定性感知模块增强对齐。
 - 实验或效果：在EEG、MEG和fMRI基准上，检索和重建性能优于现有方法。
 
 ## 摘要（原文）

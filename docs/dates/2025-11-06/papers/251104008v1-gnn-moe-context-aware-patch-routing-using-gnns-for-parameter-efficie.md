@@ -7,14 +7,14 @@ title: GNN-MoE: Context-Aware Patch Routing using GNNs for Parameter-Efficient D
 **arXiv**：[2511.04008v1](https://arxiv.org/abs/2511.04008) · [PDF](https://arxiv.org/pdf/2511.04008.pdf)  
 **作者**：Mahmoud Soliman, Omar Abdelaziz, Ahmed Radwan, Anand, Mohamed Shehata  
 
-**一句话要点**：提出GNN-MoE以高效适应预训练ViT于领域泛化
+**一句话要点**：提出GNN-MoE框架，利用图神经网络路由实现参数高效的领域泛化
 
-**关键词**：领域泛化, 参数高效微调, 图神经网络, 专家混合, 视觉Transformer, 上下文感知路由
+**关键词**：领域泛化, 图神经网络, 专家混合, 参数高效微调, 视觉Transformer, 补丁路由
 
 ## 3 点简述
-- 核心问题：领域泛化中预训练ViT高效适应难，标准微调成本高且损害泛化。
-- 方法要点：使用GNN路由器和MoE框架，基于图结构动态分配图像块到专家。
-- 实验或效果：在DG基准上实现SOTA或竞争性能，参数效率高。
+- 核心问题：领域泛化中预训练ViT高效适应难，标准微调成本高且泛化差
+- 方法要点：使用GNN路由器基于补丁图动态分配专家，结合Kronecker适配器
+- 实验或效果：在DG基准上达到先进性能，参数效率高，强调图路由的实用性
 
 ## 摘要（原文）
 
