@@ -12,9 +12,9 @@ title: Covariance Descriptors Meet General Vision Encoders: Riemannian Deep Lear
 **关键词**：协方差描述符, 通用视觉编码器, SPDNet, 医学图像分类, Riemannian深度学习
 
 ## 3 点简述
-- 核心问题：协方差描述符在医学图像中应用不足，需评估其分类效果
-- 方法要点：从预训练GVEs提取特征构建协方差描述符，并采用SPDNet进行分类
-- 实验或效果：在MedMNSIT基准测试中，GVE特征优于手工特征，SPDNet结合DINOv2表现最佳
+- 核心问题：协方差描述符在医学图像中应用不足，需验证其有效性。
+- 方法要点：从预训练GVE提取特征构建协方差描述符，并评估SPDNet分类网络。
+- 实验或效果：在MedMNSIT基准测试中，GVE协方差描述符优于手工特征，SPDNet结合DINOv2表现最佳。
 
 ## 摘要（原文）
 

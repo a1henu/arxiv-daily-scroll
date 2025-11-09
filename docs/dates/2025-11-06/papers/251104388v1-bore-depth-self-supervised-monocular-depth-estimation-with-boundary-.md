@@ -7,14 +7,14 @@ title: BoRe-Depth: Self-supervised Monocular Depth Estimation with Boundary Refi
 **arXiv**：[2511.04388v1](https://arxiv.org/abs/2511.04388) · [PDF](https://arxiv.org/pdf/2511.04388.pdf)  
 **作者**：Chang Liu, Juan Li, Sheng Zhang, Chang Liu, Jie Li, Xu Zhang  
 
-**一句话要点**：提出BoRe-Depth以解决嵌入式系统单目深度估计边界模糊问题
+**一句话要点**：提出BoRe-Depth模型以解决嵌入式系统单目深度估计边界模糊问题
 
-**关键词**：单目深度估计, 边界优化, 嵌入式系统, 轻量模型, 特征融合, 语义集成
+**关键词**：单目深度估计, 边界细化, 嵌入式系统, 轻量模型, 特征融合, 语义集成
 
 ## 3 点简述
-- 核心问题：嵌入式系统单目深度估计性能差、边界模糊
-- 方法要点：设计EFAF模块融合深度特征，集成语义知识增强边界感知
-- 实验或效果：模型参数量8.7M，在NVIDIA Jetson Orin上运行50.7 FPS，性能优于轻量模型
+- 核心问题：嵌入式系统单目深度估计性能差、对象边界模糊
+- 方法要点：设计EFAF模块融合深度特征，集成语义知识提升边界感知
+- 实验或效果：模型参数量8.7M，在NVIDIA Jetson Orin上运行50.7 FPS，边界质量显著提升
 
 ## 摘要（原文）
 

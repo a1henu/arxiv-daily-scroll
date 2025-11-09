@@ -7,14 +7,14 @@ title: Unveiling Deep Semantic Uncertainty Perception for Language-Anchored Mult
 **arXiv**：[2511.04078v1](https://arxiv.org/abs/2511.04078) · [PDF](https://arxiv.org/pdf/2511.04078.pdf)  
 **作者**：Zehui Feng, Chenqi Zhang, Mingru Wang, Minuo Wei, Shiwei Cheng, Cuntai Guan, Ting Han  
 
-**一句话要点**：提出Bratrix框架，通过语言锚定多模态对齐解决视觉-脑信号语义解码问题
+**一句话要点**：提出Bratrix框架，通过语言锚定多模态对齐解决视觉-脑信号语义解码挑战
 
-**关键词**：多模态对齐, 脑信号解码, 不确定性感知, 语言锚定, 视觉语义
+**关键词**：多模态对齐, 脑信号解码, 语义不确定性, 语言锚定, 视觉-脑接口, EEG检索
 
 ## 3 点简述
 - 核心问题：视觉信号与脑信号对齐受限于语义缺失和噪声，影响解码鲁棒性。
-- 方法要点：将视觉和脑信号投影到共享空间，并引入不确定性感知模块增强对齐。
-- 实验或效果：在EEG、MEG和fMRI基准上，检索和重建性能优于现有方法。
+- 方法要点：使用语言锚定语义矩阵和不确定性感知模块，实现视觉-语言-脑共享空间对齐。
+- 实验或效果：在EEG、MEG、fMRI基准上提升检索、重建和描述性能，EEG检索任务提升14.3%。
 
 ## 摘要（原文）
 

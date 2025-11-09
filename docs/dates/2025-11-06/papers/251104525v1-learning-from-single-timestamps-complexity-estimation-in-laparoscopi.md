@@ -7,14 +7,14 @@ title: Learning from Single Timestamps: Complexity Estimation in Laparoscopic Ch
 **arXiv**：[2511.04525v1](https://arxiv.org/abs/2511.04525) · [PDF](https://arxiv.org/pdf/2511.04525.pdf)  
 **作者**：Dimitrios Anastasiou, Santiago Barbarisi, Lucy Culshaw, Jayna Patel, Evangelos B. Mazomenos, Imanol Luengo, Danail Stoyanov  
 
-**一句话要点**：提出STC-Net框架，基于单时间戳从完整腹腔镜胆囊切除术视频中估计手术复杂度。
+**一句话要点**：提出STC-Net框架，基于单时间戳从完整腹腔镜胆囊切除术视频中自动评估手术复杂度。
 
-**关键词**：手术视频分析, 弱监督学习, 复杂度估计, 时间定位, 腹腔镜胆囊切除术
+**关键词**：手术视频分析, 弱监督学习, 时间定位, 复杂度评估, 腹腔镜胆囊切除术
 
 ## 3 点简述
-- 核心问题：在腹腔镜胆囊切除术中，自动化评估手术复杂度，尤其针对完整视频，避免手动剪辑。
-- 方法要点：STC-Net结合时间定位与分级模块，使用弱监督损失函数处理视频。
-- 实验或效果：在1859个视频数据集上，准确率达62.11%，F1分数61.42%，优于基线方法。
+- 核心问题：腹腔镜胆囊切除术中炎症严重度评估依赖完整视频，自动化方法需处理弱时间监督。
+- 方法要点：STC-Net联合执行时间定位和分级，引入硬软定位损失和背景感知监督。
+- 实验或效果：在1859个视频数据集上，准确率达62.11%，F1分数61.42%，优于基线10%以上。
 
 ## 摘要（原文）
 

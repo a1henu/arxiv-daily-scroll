@@ -13,8 +13,8 @@ title: RISE-T2V: Rephrasing and Injecting Semantics with LLM for Expansive Text-
 
 ## 3 点简述
 - 核心问题：现有文本到视频模型对简洁提示理解不足，导致视频质量下降。
-- 方法要点：引入Rephrasing Adapter模块，利用LLM隐藏状态作为条件，隐式重述提示。
-- 实验或效果：框架通用性强，显著提升多种视频扩散模型的生成质量和用户意图对齐。
+- 方法要点：引入Rephrasing Adapter，利用LLM隐藏状态作为条件，隐式重述提示。
+- 实验或效果：框架通用，适用于多种视频扩散模型，显著提升视频生成质量。
 
 ## 摘要（原文）
 

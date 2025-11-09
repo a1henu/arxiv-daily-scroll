@@ -7,14 +7,14 @@ title: Near-Lossless 3D Voxel Representation Free from Iso-surface
 **arXiv**：[2511.04029v1](https://arxiv.org/abs/2511.04029) · [PDF](https://arxiv.org/pdf/2511.04029.pdf)  
 **作者**：Yihao Luo, Xianglong He, Chuanyu Pan, Yiwen Chen, Jiaqi Wu, Yangguang Li, Wanli Ouyang, Yuanming Hu, Guang Yang, ChoonHwai Yap  
 
-**一句话要点**：提出Faithful Contouring以解决3D网格表示中几何保真度不足的问题
+**一句话要点**：提出Faithful Contouring以解决3D网格表示中的几何保真度问题
 
 **关键词**：3D体素表示, 几何保真度, 稀疏表示, 形状重建, 等值面自由
 
 ## 3 点简述
 - 现有基于等值面的体素表示依赖水密化或渲染优化，损害几何保真度
 - Faithful Contouring为稀疏体素表示，无需场函数转换或等值面提取，支持高分辨率
-- 实验显示，在表示和重建中，距离误差达10^-5级，Chamfer距离减少93%
+- 实验显示在表示和重建中精度与效率领先，距离误差达10^-5级，Chamfer距离减少93%
 
 ## 摘要（原文）
 

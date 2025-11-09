@@ -7,14 +7,14 @@ title: Jr. AI Scientist and Its Risk Report: Autonomous Scientific Exploration f
 **arXiv**：[2511.04583v1](https://arxiv.org/abs/2511.04583) · [PDF](https://arxiv.org/pdf/2511.04583.pdf)  
 **作者**：Atsuyuki Miyai, Mashiro Toyooka, Takashi Otonari, Zaiying Zhao, Kiyoharu Aizawa  
 
-**一句话要点**：提出Jr. AI Scientist系统以模拟学生研究流程并评估AI科学家的风险
+**一句话要点**：提出Jr. AI Scientist系统以模拟新手研究员工作流程并评估其风险
 
 **关键词**：AI科学家系统, 自主研究, 风险评估, 论文生成, 实验验证
 
 ## 3 点简述
-- 核心问题：评估AI科学家系统的当前能力与风险，确保AI驱动科学进步的可靠性
+- 核心问题：理解AI科学家系统的当前能力与风险，确保可信AI驱动科学进步
 - 方法要点：系统分析基线论文局限，提出假设，实验验证，并撰写论文
-- 实验或效果：通过AI评审和作者评估，生成论文评分高于现有全自动系统
+- 实验或效果：评估显示生成论文评分高于全自动系统，但存在潜在风险
 
 ## 摘要（原文）
 

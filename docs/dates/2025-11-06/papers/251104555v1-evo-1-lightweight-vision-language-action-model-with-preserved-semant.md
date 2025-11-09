@@ -7,14 +7,14 @@ title: Evo-1: Lightweight Vision-Language-Action Model with Preserved Semantic A
 **arXiv**：[2511.04555v1](https://arxiv.org/abs/2511.04555) · [PDF](https://arxiv.org/pdf/2511.04555.pdf)  
 **作者**：Tao Lin, Yilei Zhong, Yuxin Du, Jingjing Zhang, Jiting Liu, Yinxinyu Chen, Encheng Gu, Ziyan Liu, Hongyi Cai, Yanwen Zou, Lixing Zou, Zhaoye Zhou, Gen Li, Bo Zhao  
 
-**一句话要点**：提出轻量级视觉-语言-动作模型Evo-1，以解决计算成本高和泛化差的问题。
+**一句话要点**：提出轻量级视觉-语言-动作模型Evo-1，以降低计算成本并提升部署效率。
 
-**关键词**：视觉-语言-动作模型, 轻量级架构, 跨调制扩散, 两阶段训练, 语义对齐, 机器人控制
+**关键词**：视觉-语言-动作模型, 轻量级架构, 跨调制扩散变换器, 两阶段训练, 机器人控制, 高效推理
 
 ## 3 点简述
-- 当前VLA模型参数庞大、依赖机器人数据预训练，导致计算成本高和部署困难。
-- Evo-1采用跨调制扩散变换器和优化集成模块，通过两阶段训练保持语义对齐。
-- 在多个基准测试中实现SOTA，真实世界评估成功率达78%，推理高效。
+- 当前VLA模型参数庞大、依赖机器人数据预训练，导致高计算成本和部署困难。
+- Evo-1基于原生VLM，采用跨调制扩散变换器和优化集成模块，通过两阶段训练保持语义对齐。
+- 在Meta-World和RoboTwin上超越最佳模型12.4%和6.9%，真实世界成功率78%，推理高效。
 
 ## 摘要（原文）
 

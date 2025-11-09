@@ -9,12 +9,12 @@ title: Thinking with Video: Video Generation as a Promising Multimodal Reasoning
 
 **一句话要点**：提出'视频思维'范式，利用视频生成模型统一多模态推理。
 
-**关键词**：视频生成, 多模态推理, Sora-2模型, VideoThinkBench, 动态过程表示
+**关键词**：视频生成, 多模态推理, Sora-2模型, VideoThinkBench, 自一致性学习
 
 ## 3 点简述
-- 图像和文本分离范式限制动态过程表示和多模态统一理解。
-- 引入视频生成模型如Sora-2，在时间框架中桥接视觉与文本推理。
-- 在VideoThinkBench评估中，Sora-2在多项任务中表现优于或接近SOTA模型。
+- 图像和文本分离范式无法表示动态过程，限制多模态理解与生成。
+- 引入视频生成模型如Sora-2，在统一时序框架中桥接视觉与文本推理。
+- 在VideoThinkBench评估中，Sora-2在视觉和文本任务中表现优异，支持自一致性和上下文学习。
 
 ## 摘要（原文）
 

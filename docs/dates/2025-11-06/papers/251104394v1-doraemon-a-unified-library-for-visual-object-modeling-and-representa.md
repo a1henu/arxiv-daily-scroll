@@ -9,7 +9,7 @@ title: DORAEMON: A Unified Library for Visual Object Modeling and Representation
 
 **一句话要点**：提出DORAEMON统一库以支持大规模视觉对象建模和表示学习
 
-**关键词**：视觉对象建模, 表示学习, PyTorch库, YAML驱动工作流, 预训练模型, ONNX导出
+**关键词**：视觉对象建模, 表示学习, PyTorch库, YAML驱动工作流, 预训练骨干网络, ONNX导出
 
 ## 3 点简述
 - 核心问题：视觉对象建模和表示学习在不同尺度下缺乏统一工具

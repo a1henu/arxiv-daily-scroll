@@ -7,14 +7,14 @@ title: MedSapiens: Taking a Pose to Rethink Medical Imaging Landmark Detection
 **arXiv**：[2511.04255v1](https://arxiv.org/abs/2511.04255) · [PDF](https://arxiv.org/pdf/2511.04255.pdf)  
 **作者**：Marawan Elbatel, Anbang Wang, Keyuan Liu, Kaouther Mouheb, Enrique Almar-Munoz, Lizhuo Lin, Yanqi Yang, Karim Lekadir, Xiaomeng Li  
 
-**一句话要点**：提出MedSapiens，通过适配人体姿态基础模型提升医学影像解剖标志检测性能
+**一句话要点**：提出MedSapiens，将人体姿态基础模型适配于医学影像解剖标志检测
 
-**关键词**：医学影像分析, 解剖标志检测, 基础模型适配, 姿态估计, 少样本学习
+**关键词**：医学影像分析, 解剖标志检测, 基础模型适配, 姿态估计, 多数据集预训练, 少样本学习
 
 ## 3 点简述
-- 核心问题：医学影像解剖标志检测依赖领域特定模型，未充分利用人体中心基础模型潜力
-- 方法要点：适配Sapiens人体姿态模型，通过多数据集预训练优化空间定位
-- 实验或效果：在多个数据集上实现SDR最高21.81%提升，少样本设置下改进2.69%
+- 核心问题：医学影像解剖标志检测依赖领域特定模型，未充分利用人体中心基础模型潜力。
+- 方法要点：通过多数据集预训练，将Sapiens模型适配到医学影像，优化空间定位。
+- 实验或效果：在多个数据集上实现SDR最高21.81%提升，并在少样本设置中表现优异。
 
 ## 摘要（原文）
 

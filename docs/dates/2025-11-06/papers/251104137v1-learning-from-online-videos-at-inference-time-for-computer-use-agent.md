@@ -7,14 +7,14 @@ title: Learning from Online Videos at Inference Time for Computer-Use Agents
 **arXiv**：[2511.04137v1](https://arxiv.org/abs/2511.04137) · [PDF](https://arxiv.org/pdf/2511.04137.pdf)  
 **作者**：Yujian Liu, Ze Wang, Hao Chen, Ximeng Sun, Xiaodong Yu, Jialian Wu, Jiang Liu, Emad Barsoum, Zicheng Liu, Shiyu Chang  
 
-**一句话要点**：提出从在线视频中动态提取轨迹指导的框架，以提升计算机使用代理在推理时的性能。
+**一句话要点**：提出从在线视频中动态学习框架，以提升计算机使用代理在推理时的性能。
 
-**关键词**：计算机使用代理, 在线视频学习, 轨迹选择, 视觉语言模型, 推理时学习
+**关键词**：计算机使用代理, 在线视频学习, 轨迹分割, 动态选择, 视觉语言模型, 推理时学习
 
 ## 3 点简述
-- 核心问题：计算机使用代理在需要领域特定流程知识时落后于人类用户。
+- 核心问题：计算机使用代理缺乏特定领域程序知识，难以处理多步骤工作流。
 - 方法要点：检索视频、转换为结构化轨迹，并动态选择轨迹作为上下文指导。
-- 实验效果：在基准测试中优于仅使用文本教程或转录的变体。
+- 实验效果：在基准测试中优于仅使用文本教程或转录的基线代理。
 
 ## 摘要（原文）
 

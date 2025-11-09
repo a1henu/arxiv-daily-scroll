@@ -7,14 +7,14 @@ title: Vision Foundation Models in Agriculture: Toward Domain-Specific Adaptatio
 **arXiv**：[2511.04288v1](https://arxiv.org/abs/2511.04288) · [PDF](https://arxiv.org/pdf/2511.04288.pdf)  
 **作者**：Leire Benito-Del-Valle, Artzai Picón, Daniel Mugica, Manuel Ramos, Eva Portillo, Javier Romero, Carlos Javier Jimenez, Ramón Navarra-Mestre  
 
-**一句话要点**：提出领域自适应视觉基础模型以解决农业除草剂试验中物种识别与损伤评估问题
+**一句话要点**：提出领域自适应视觉基础模型以解决农业除草剂试验中的物种识别与损伤评估问题
 
-**关键词**：视觉基础模型, 农业视觉, 自监督学习, 领域自适应, 除草剂试验, 图像分类
+**关键词**：视觉基础模型, 农业视觉, 自监督学习, 除草剂试验, 领域自适应, 图像分割
 
 ## 3 点简述
-- 核心问题：通用视觉基础模型在农业领域对物种和损伤类型的细粒度识别性能受限
-- 方法要点：采用自监督学习在农业数据集上训练，优化模型表示以适应除草剂试验图像
-- 实验或效果：在物种识别和损伤分类中F1分数显著提升，并在未见条件下表现更优，减少标注需求
+- 核心问题：通用视觉基础模型在农业中物种和损伤类型细粒度识别性能受限
+- 方法要点：采用自监督学习在农业数据集上训练，优化除草剂试验图像表示
+- 实验或效果：在物种识别和损伤分类中F1分数显著提升，并减少80%标注需求
 
 ## 摘要（原文）
 

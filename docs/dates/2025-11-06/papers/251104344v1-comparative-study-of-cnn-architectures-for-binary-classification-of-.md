@@ -7,14 +7,14 @@ title: Comparative Study of CNN Architectures for Binary Classification of Horse
 **arXiv**：[2511.04344v1](https://arxiv.org/abs/2511.04344) · [PDF](https://arxiv.org/pdf/2511.04344.pdf)  
 **作者**：Muhammad Annas Shaikh, Hamza Zaman, Arbaz Asif  
 
-**一句话要点**：比较九种CNN架构在VOC 2008数据集上对马和摩托车的二分类性能
+**一句话要点**：比较九种CNN架构在VOC 2008数据集上对马和摩托车的二分类性能，并应用数据增强缓解类别不平衡
 
-**关键词**：二分类, 类别不平衡, 数据增强, 卷积神经网络, 平均精度, VOC 2008数据集
+**关键词**：二分类, 类别不平衡, 数据增强, 卷积神经网络, VOC 2008数据集, 平均精度
 
 ## 3 点简述
 - 核心问题：VOC 2008数据集中马和摩托车二分类存在显著类别不平衡问题。
-- 方法要点：采用少数类数据增强技术缓解不平衡，评估ResNet-50等九种架构。
-- 实验或效果：ConvNeXt-Tiny在平均精度上表现最佳，数据增强提升少数类检测。
+- 方法要点：采用少数类数据增强技术，评估ResNet-50、ConvNeXt-Tiny等九种架构。
+- 实验或效果：ConvNeXt-Tiny在平均精度上表现最佳，数据增强提升少数类检测效果。
 
 ## 摘要（原文）
 

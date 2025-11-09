@@ -7,14 +7,14 @@ title: A Hybrid Deep Learning Model for Robust Biometric Authentication from Low
 **arXiv**：[2511.04037v1](https://arxiv.org/abs/2511.04037) · [PDF](https://arxiv.org/pdf/2511.04037.pdf)  
 **作者**：Arfina Rahman, Mahesh Banavar  
 
-**一句话要点**：提出混合深度学习模型以从低帧率PPG信号实现鲁棒生物认证
+**一句话要点**：提出混合深度学习模型CVT-ConvMixer-LSTM，用于低帧率PPG信号的鲁棒生物认证
 
 **关键词**：生物认证, PPG信号处理, 混合深度学习, 时频分析, 运动伪影抑制
 
 ## 3 点简述
-- 核心问题：PPG信号易受运动伪影和生理变异影响，需鲁棒特征提取。
-- 方法要点：结合CVT、ConvMixer和LSTM，从时频标量图提取时空特征。
-- 实验或效果：在46名受试者上达到98%认证准确率，验证模型鲁棒性。
+- 核心问题：PPG信号易受运动伪影和个体差异影响，需鲁棒特征提取
+- 方法要点：将PPG信号转换为时频图，结合CVT、ConvMixer和LSTM提取时空特征
+- 实验或效果：在46名受试者上实现98%认证准确率，验证模型抗噪和泛化能力
 
 ## 摘要（原文）
 

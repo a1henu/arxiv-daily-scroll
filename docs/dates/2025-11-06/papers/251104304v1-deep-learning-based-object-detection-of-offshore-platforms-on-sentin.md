@@ -7,14 +7,14 @@ title: Deep learning-based object detection of offshore platforms on Sentinel-1 
 **arXiv**：[2511.04304v1](https://arxiv.org/abs/2511.04304) · [PDF](https://arxiv.org/pdf/2511.04304.pdf)  
 **作者**：Robin Spanier, Thorsten Hoeser, Claudia Kuenzer  
 
-**一句话要点**：提出合成数据增强YOLOv10模型以提升Sentinel-1图像中海上平台检测性能
+**一句话要点**：提出结合合成与真实数据的YOLOv10模型，提升Sentinel-1图像中海上平台检测性能。
 
-**关键词**：海上平台检测, 合成数据增强, YOLOv10模型, Sentinel-1图像, 地理迁移性
+**关键词**：海上平台检测, 合成数据增强, YOLOv10模型, Sentinel-1图像, 地理可迁移性
 
 ## 3 点简述
-- 核心问题：海上基础设施监测中样本稀缺，尤其对少数类对象检测困难。
-- 方法要点：结合合成与真实Sentinel-1图像训练YOLOv10模型，评估地理迁移性。
-- 实验或效果：模型在未见区域F1分数从0.85提升至0.90，检测3529个平台。
+- 核心问题：海上基础设施监测中，样本稀缺导致模型性能不足，尤其对少数类对象。
+- 方法要点：使用合成与真实Sentinel-1图像训练YOLOv10模型，评估地理可迁移性。
+- 实验或效果：模型在未见区域检测3529个平台，F1分数从0.85提升至0.90。
 
 ## 摘要（原文）
 

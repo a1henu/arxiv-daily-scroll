@@ -12,8 +12,8 @@ title: When Swin Transformer Meets KANs: An Improved Transformer Architecture fo
 **关键词**：医学图像分割, Swin Transformer, Kolmogorov-Arnold网络, 数据效率, 全局上下文建模
 
 ## 3 点简述
-- 医学图像分割面临复杂结构和标注数据稀缺的挑战。
-- 在Swin Transformer编码器中引入基于有理函数的KANs，优化计算效率。
+- 医学图像分割面临长程依赖建模难和数据稀缺问题。
+- 在Swin Transformer编码器中引入有理函数KANs，优化计算效率与表达能力。
 - 在多个2D/3D基准测试中实现SOTA，数据稀缺下表现优异。
 
 ## 摘要（原文）

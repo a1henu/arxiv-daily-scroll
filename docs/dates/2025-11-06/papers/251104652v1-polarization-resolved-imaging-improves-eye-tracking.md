@@ -7,14 +7,14 @@ title: Polarization-resolved imaging improves eye tracking
 **arXiv**：[2511.04652v1](https://arxiv.org/abs/2511.04652) · [PDF](https://arxiv.org/pdf/2511.04652.pdf)  
 **作者**：Mantas Žurauskas, Tom Bu, Sanaz Alali, Beyza Kalkanli, Derek Shi, Fernando Alamos, Gauresh Pandit, Christopher Mei, Ali Behrooz, Ramin Mirjalili, Dave Stronks, Alexander Fix, Dmitri Model  
 
-**一句话要点**：提出偏振分辨成像方法以改进眼动追踪性能
+**一句话要点**：提出偏振分辨近红外成像以改进眼动追踪，提升人机交互鲁棒性。
 
-**关键词**：偏振分辨成像, 眼动追踪, 近红外成像, 卷积神经网络, 人机交互, 可穿戴设备
+**关键词**：偏振分辨成像, 眼动追踪, 近红外成像, 卷积神经网络, 人机交互, 鲁棒传感
 
 ## 3 点简述
-- 眼动追踪中仅依赖光强图像可能缺乏足够特征，影响精度。
-- 使用偏振滤光阵列相机和线偏振近红外光源，增强眼组织反射光的偏振对比。
-- 在346名参与者中，基于PET数据的模型将95%绝对注视误差中位数降低10-16%。
+- 眼动追踪中仅依赖光强图像缺乏足够特征，影响精度和鲁棒性。
+- 使用偏振滤光阵列相机和线偏振光源，测量光偏振状态增强组织对比。
+- 在346名参与者测试中，基于PET的CNN模型降低中位95%绝对注视误差10-16%。
 
 ## 摘要（原文）
 

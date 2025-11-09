@@ -7,14 +7,14 @@ title: Cambrian-S: Towards Spatial Supersensing in Video
 **arXiv**：[2511.04670v1](https://arxiv.org/abs/2511.04670) · [PDF](https://arxiv.org/pdf/2511.04670.pdf)  
 **作者**：Shusheng Yang, Jihan Yang, Pinzhi Huang, Ellis Brown, Zihao Yang, Yue Yu, Shengbang Tong, Zihan Zheng, Yifan Xu, Muhan Wang, Daohan Lu, Rob Fergus, Yann LeCun, Li Fei-Fei, Saining Xie  
 
-**一句话要点**：提出Cambrian-S模型与VSI-SUPER基准以推动视频空间超感知
+**一句话要点**：提出Cambrian-S模型与VSI-SUPER基准以推动视频空间超感知能力
 
-**关键词**：空间超感知, 长视频理解, 预测建模, 视觉基准, 自监督学习, 事件分割
+**关键词**：空间超感知, 视频理解基准, 自监督预测, 长视频记忆, 预测建模
 
 ## 3 点简述
-- 核心问题：当前多模态系统缺乏空间认知和世界建模能力，难以处理长视频输入。
-- 方法要点：引入空间超感知框架，包括语义感知、事件认知、3D推理和预测建模。
-- 实验或效果：在VSI-Bench上提升30%，但VSI-SUPER表现有限，需预测性感知改进。
+- 核心问题：当前多模态系统缺乏空间超感知，包括语义感知、事件认知、3D空间推理和预测建模。
+- 方法要点：引入VSI-SUPER基准和自监督预测器，利用预测误差驱动记忆与事件分割。
+- 实验或效果：在VSI-Bench上提升30%，但VSI-SUPER表现有限，显示规模不足需预测感知。
 
 ## 摘要（原文）
 

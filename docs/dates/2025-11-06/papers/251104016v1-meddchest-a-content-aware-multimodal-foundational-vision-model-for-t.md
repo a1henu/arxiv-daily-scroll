@@ -7,14 +7,14 @@ title: MedDChest: A Content-Aware Multimodal Foundational Vision Model for Thora
 **arXiv**：[2511.04016v1](https://arxiv.org/abs/2511.04016) · [PDF](https://arxiv.org/pdf/2511.04016.pdf)  
 **作者**：Mahmoud Soliman, Islam Osman, Mohamed S. Shehata, Rasika Rajapakshe  
 
-**一句话要点**：提出MedDChest基础视觉模型，针对胸部影像优化，解决自然图像预训练领域差距问题。
+**一句话要点**：提出MedDChest基础视觉模型以解决胸部影像领域差距问题
 
-**关键词**：胸部影像, 基础视觉模型, 引导随机裁剪, 多模态数据集, 医学影像预训练, Vision Transformer
+**关键词**：胸部影像, 基础视觉模型, 引导随机裁剪, 多模态数据集, 领域特定预训练
 
 ## 3 点简述
-- 核心问题：自然图像预训练模型在医学影像中性能受限，存在领域差距。
-- 方法要点：从零预训练ViT于120万胸部影像，引入引导随机裁剪增强数据。
-- 实验或效果：在下游诊断任务中显著优于ImageNet预训练模型，验证有效性。
+- 核心问题：医学影像模型性能受限于自然图像预训练导致的领域差距
+- 方法要点：从零预训练ViT于120万胸部影像，引入引导随机裁剪增强
+- 实验或效果：在下游诊断任务中显著优于ImageNet预训练模型
 
 ## 摘要（原文）
 

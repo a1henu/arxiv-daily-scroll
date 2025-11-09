@@ -7,14 +7,14 @@ title: Enhancing Fault-Tolerant Space Computing: Guidance Navigation and Control
 **arXiv**：[2511.04052v1](https://arxiv.org/abs/2511.04052) · [PDF](https://arxiv.org/pdf/2511.04052.pdf)  
 **作者**：Kyongsik Yun, David Bayard, Gerik Kubiak, Austin Owens, Andrew Johnson, Ryan Johnson, Dan Scharf, Thomas Lu  
 
-**一句话要点**：提出ARBITER机制以增强行星探索任务中多核处理器的容错计算能力
+**一句话要点**：提出ARBITER机制以增强行星探索中GNC和LVS的容错计算性能
 
-**关键词**：容错计算, 多核处理器, GNC算法, LVS系统, 故障检测, 轨迹优化
+**关键词**：容错计算, 多核处理器, GNC算法, LVS图像处理, 故障检测, 轨迹优化
 
 ## 3 点简述
 - 核心问题：行星探索任务需高性能容错计算支持自主GNC和LVS操作
 - 方法要点：部署GNC和LVS算法于多核处理器，并引入ARBITER进行实时故障检测与纠正
-- 实验或效果：LVS图像处理加速15倍，GFOLD轨迹优化加速超250倍，并通过故障注入验证
+- 实验或效果：LVS图像处理加速15倍，GFOLD轨迹优化加速超250倍，验证ARBITER可靠性
 
 ## 摘要（原文）
 

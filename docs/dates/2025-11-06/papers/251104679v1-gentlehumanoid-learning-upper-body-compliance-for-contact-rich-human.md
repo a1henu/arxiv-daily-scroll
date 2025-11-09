@@ -7,14 +7,14 @@ title: GentleHumanoid: Learning Upper-body Compliance for Contact-rich Human and
 **arXiv**：[2511.04679v1](https://arxiv.org/abs/2511.04679) · [PDF](https://arxiv.org/pdf/2511.04679.pdf)  
 **作者**：Qingzhou Lu, Yao Feng, Baiyu Shi, Michael Piseno, Zhenan Bao, C. Karen Liu  
 
-**一句话要点**：提出GentleHumanoid框架，通过集成阻抗控制实现上半身柔顺，以支持人机安全交互。
+**一句话要点**：提出GentleHumanoid框架，集成阻抗控制实现人形机器人上半身柔顺交互
 
-**关键词**：人形机器人, 阻抗控制, 强化学习, 物理交互, 柔顺控制, 运动跟踪
+**关键词**：人形机器人, 阻抗控制, 强化学习, 柔顺交互, 全身运动跟踪
 
 ## 3 点简述
-- 问题：人形机器人交互中，现有强化学习策略强调刚性跟踪，抑制外力，缺乏柔顺性。
-- 方法：统一弹簧模型模拟阻力和引导接触，确保肩、肘、腕运动一致，并调整力阈值保障安全。
-- 效果：在仿真和Unitree G1机器人上测试，减少峰值接触力，任务成功且交互更平滑自然。
+- 问题：现有强化学习策略强调刚性跟踪，抑制外力，缺乏全身柔顺控制。
+- 方法：统一弹簧模型处理阻力和引导接触，确保肩、肘、腕运动学一致力。
+- 效果：在模拟和Unitree G1上测试，降低峰值接触力，保持任务成功。
 
 ## 摘要（原文）
 

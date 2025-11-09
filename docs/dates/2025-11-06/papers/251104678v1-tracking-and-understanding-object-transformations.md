@@ -7,14 +7,14 @@ title: Tracking and Understanding Object Transformations
 **arXiv**：[2511.04678v1](https://arxiv.org/abs/2511.04678) · [PDF](https://arxiv.org/pdf/2511.04678.pdf)  
 **作者**：Yihong Sun, Xinyu Yang, Jennifer J. Sun, Bharath Hariharan  
 
-**一句话要点**：提出TubeletGraph系统以解决物体状态变换下的跟踪丢失问题
+**一句话要点**：提出TubeletGraph系统以解决物体状态变换中的跟踪丢失问题
 
-**关键词**：物体跟踪, 状态变换, 零样本学习, 图结构推理, 视频理解
+**关键词**：物体跟踪, 状态变换, 零样本学习, 语义推理, 视频理解, 基准数据集
 
 ## 3 点简述
-- 核心问题：现有方法在物体外观显著变化时易丢失跟踪目标
-- 方法要点：使用零样本TubeletGraph恢复缺失物体并构建状态演化图
-- 实验或效果：在VOST-TAS基准上实现SOTA跟踪性能，展示语义推理能力
+- 核心问题：物体状态变换导致外观剧变，现有方法难以持续跟踪
+- 方法要点：零样本系统识别遗漏轨迹，基于语义和邻近性整合并生成状态图
+- 实验或效果：在VOST-TAS基准上实现SOTA跟踪，展示语义推理能力
 
 ## 摘要（原文）
 

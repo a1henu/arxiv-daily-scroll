@@ -13,8 +13,8 @@ title: PhysCorr: Dual-Reward DPO for Physics-Constrained Text-to-Video Generatio
 
 ## 3 点简述
 - 核心问题：生成视频常违反物理原理，如物体动态不合理，影响AI和机器人应用。
-- 方法要点：引入PhysicsRM双维度奖励模型和PhyDPO优化管道，提升物理一致性。
-- 实验或效果：在多个基准测试中显著改善物理真实感，同时保持视觉质量和语义对齐。
+- 方法要点：引入PhysicsRM奖励模型和PhyDPO优化管道，提升物理一致性。
+- 实验或效果：在多个基准测试中显著改善物理真实感，保持视觉保真度。
 
 ## 摘要（原文）
 
