@@ -7,14 +7,14 @@ title: Fragile by Design: On the Limits of Adversarial Defenses in Personalized 
 **arXiv**：[2511.10382v1](https://arxiv.org/abs/2511.10382) · [PDF](https://arxiv.org/pdf/2511.10382.pdf)  
 **作者**：Zhen Chen, Yi Zhang, Xiangyu Yin, Chengxuan Qin, Xingyu Zhao, Xiaowei Huang, Wenjie Ruan  
 
-**一句话要点**：揭示个性化生成中对抗防御的脆弱性，提出评估框架AntiDB_Purify
+**一句话要点**：揭示个性化生成中对抗防御的脆弱性，提出评估框架以测试净化威胁。
 
 **关键词**：个性化生成, 对抗防御, 隐私保护, 图像净化, 脆弱性评估
 
 ## 3 点简述
-- 核心问题：个性化AI应用如DreamBooth存在面部身份泄露隐私风险，现有防御机制易被检测和移除
-- 方法要点：提出AntiDB_Purify框架，系统评估防御方法在图像过滤和对抗净化威胁下的有效性
-- 实验或效果：结果显示当前防御方法在净化威胁下均失效，强调需更隐蔽和鲁棒的保护措施
+- 核心问题：个性化AI应用如DreamBooth存在面部身份泄露隐私风险，现有防御方法易被检测和移除。
+- 方法要点：提出AntiDB_Purify框架，系统评估防御在传统图像过滤和对抗净化下的有效性。
+- 实验或效果：结果显示当前防御在净化威胁下均失效，强调需更隐蔽和鲁棒的保护措施。
 
 ## 摘要（原文）
 

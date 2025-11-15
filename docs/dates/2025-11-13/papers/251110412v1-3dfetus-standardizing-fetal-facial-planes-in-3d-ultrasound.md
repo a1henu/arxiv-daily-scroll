@@ -7,14 +7,14 @@ title: 3DFETUS: Standardizing Fetal Facial Planes in 3D Ultrasound
 **arXiv**：[2511.10412v1](https://arxiv.org/abs/2511.10412) · [PDF](https://arxiv.org/pdf/2511.10412.pdf)  
 **作者**：Alomar Antonia, Rubio Ricardo, Albaiges Gerard, Salort-Benejam Laura, Caminal Julia, Prat Maria, Rueda Carolina, Cortes Berta, Piella Gemma, Sukno Federico  
 
-**一句话要点**：提出GT++和3DFETUS以标准化胎儿3D超声面部平面定位
+**一句话要点**：提出GT++和3DFETUS以自动化标准化胎儿3D超声面部平面定位
 
-**关键词**：胎儿超声, 3D图像处理, 深度学习, 平面估计, 医学影像标准化
+**关键词**：胎儿超声, 3D图像处理, 深度学习, 解剖平面定位, 医学影像分析
 
 ## 3 点简述
-- 胎儿超声面部平面获取困难，因胎儿运动、方向变异和操作者依赖
-- GT++基于解剖标志估计平面，3DFETUS用深度学习自动定位
-- 实验显示平均平移误差4.13mm、旋转误差7.93度，临床评估有效
+- 胎儿超声面部平面获取困难，因胎儿运动、方向变异和操作者依赖导致不一致。
+- GT++基于解剖标志估计标准平面；3DFETUS为深度学习模型自动化定位。
+- 实验显示平均平移误差4.13毫米、旋转误差7.93度，临床评估证实有效性。
 
 ## 摘要（原文）
 

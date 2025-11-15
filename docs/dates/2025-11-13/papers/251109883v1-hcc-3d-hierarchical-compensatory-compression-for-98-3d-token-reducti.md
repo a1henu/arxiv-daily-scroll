@@ -7,14 +7,14 @@ title: HCC-3D: Hierarchical Compensatory Compression for 98% 3D Token Reduction 
 **arXiv**：[2511.09883v1](https://arxiv.org/abs/2511.09883) · [PDF](https://arxiv.org/pdf/2511.09883.pdf)  
 **作者**：Liheng Zhang, Jin Wang, Hui Li, Bingfeng Zhang, Weifeng Liu  
 
-**一句话要点**：提出HCC-3D以压缩3D令牌，在视觉语言模型中实现高效3D理解
+**一句话要点**：提出HCC-3D以压缩3D令牌，提升视觉语言模型效率
 
-**关键词**：3D视觉语言模型, 令牌压缩, 全局结构压缩, 自适应细节挖掘, 计算效率优化, 点云理解
+**关键词**：3D视觉语言模型, 令牌压缩, 计算效率优化, 层次补偿压缩, 点云处理
 
 ## 3 点简述
 - 核心问题：3D-VLMs中3D令牌处理计算成本高，限制应用。
 - 方法要点：采用全局结构压缩和自适应细节挖掘，保留关键信息。
-- 实验或效果：实现约98%压缩比，性能达新SOTA，效率与精度提升。
+- 实验或效果：实现约98%压缩比，性能达新SOTA，效率与性能双提升。
 
 ## 摘要（原文）
 

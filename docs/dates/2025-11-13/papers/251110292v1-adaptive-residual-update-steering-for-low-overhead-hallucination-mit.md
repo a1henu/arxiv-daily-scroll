@@ -7,14 +7,14 @@ title: Adaptive Residual-Update Steering for Low-Overhead Hallucination Mitigati
 **arXiv**：[2511.10292v1](https://arxiv.org/abs/2511.10292) · [PDF](https://arxiv.org/pdf/2511.10292.pdf)  
 **作者**：Zhengtao Zou, Ya Gao, Jiarui Guan, Bin Li, Pekka Marttinen  
 
-**一句话要点**：提出RUDDER框架以低开销缓解大型视觉语言模型中的物体幻觉问题
+**一句话要点**：提出RUDDER框架以低开销缓解大视觉语言模型中的物体幻觉问题
 
-**关键词**：物体幻觉缓解, 视觉语言模型, 低开销推理, 自适应门控, 残差更新
+**关键词**：大视觉语言模型, 物体幻觉缓解, 推理时干预, 残差更新, 自适应门控, 低开销优化
 
 ## 3 点简述
-- 核心问题：大型视觉语言模型常产生与视觉输入不一致的物体幻觉，影响可靠性。
-- 方法要点：通过CARD向量和自适应门控，在单次前向传播中注入视觉证据纠正信号。
-- 实验或效果：在POPE和CHAIR基准上性能媲美SOTA，计算延迟可忽略。
+- 大视觉语言模型常产生与视觉输入不一致的物体幻觉，影响可靠性
+- RUDDER使用CARD向量和自适应门控，在单次前向传播中注入视觉证据
+- 实验表明RUDDER在POPE等基准上性能媲美SOTA，延迟可忽略
 
 ## 摘要（原文）
 

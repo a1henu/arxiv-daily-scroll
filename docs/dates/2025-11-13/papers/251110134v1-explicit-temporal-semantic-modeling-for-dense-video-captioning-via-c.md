@@ -12,9 +12,9 @@ title: Explicit Temporal-Semantic Modeling for Dense Video Captioning via Contex
 **关键词**：密集视频描述, 时间语义建模, 跨模态交互, 上下文感知, 事件定位
 
 ## 3 点简述
-- 密集视频描述方法依赖隐式建模，难以捕捉事件序列的时间连贯性和视觉上下文语义
-- CACMI通过跨模态帧聚合和上下文感知特征增强，显式建模时间与语义
-- 在ActivityNet Captions和YouCook2数据集上实现最先进性能
+- 核心问题：现有方法依赖隐式建模，无法捕捉事件序列的时间连贯性和视觉上下文语义
+- 方法要点：通过跨模态帧聚合和上下文感知特征增强，显式建模时间与语义
+- 实验或效果：在ActivityNet Captions和YouCook2数据集上达到最先进性能
 
 ## 摘要（原文）
 

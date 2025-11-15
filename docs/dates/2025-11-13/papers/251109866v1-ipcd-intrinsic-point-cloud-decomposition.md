@@ -7,14 +7,14 @@ title: IPCD: Intrinsic Point-Cloud Decomposition
 **arXiv**：[2511.09866v1](https://arxiv.org/abs/2511.09866) · [PDF](https://arxiv.org/pdf/2511.09866.pdf)  
 **作者**：Shogo Sato, Takuhiro Kaneko, Shoichiro Takeda, Tomoyasu Shimada, Kazuhiko Murasaki, Taiga Yoshida, Ryuichi Tanida, Akisato Kimura  
 
-**一句话要点**：提出IPCD以解决点云中反照率与阴影分离的挑战
+**一句话要点**：提出IPCD方法以解决点云中反照率与阴影分离的挑战
 
-**关键词**：点云分解, 反照率分离, 阴影估计, 多视图投影, 合成数据集, 纹理编辑
+**关键词**：点云分解, 反照率分离, 阴影估计, 多视图投影, 纹理编辑, 重光照
 
 ## 3 点简述
-- 核心问题：点云非网格结构及缺乏全局光照方向导致反照率与阴影分离困难
-- 方法要点：IPCD-Net扩展图像模型，PLD通过多视图投影捕获全局光照
-- 实验或效果：合成数据集验证，减少反照率中投射阴影，提升颜色准确性
+- 核心问题：点云非网格结构和缺乏全局光照方向导致反照率与阴影分离困难
+- 方法要点：IPCD-Net扩展图像模型处理点云，PLD通过多视图投影捕获全局光照
+- 实验或效果：合成数据集验证减少阴影伪影，提升颜色准确性，应用于纹理编辑和重光照
 
 ## 摘要（原文）
 

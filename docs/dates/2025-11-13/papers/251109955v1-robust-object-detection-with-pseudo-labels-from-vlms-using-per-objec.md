@@ -7,14 +7,14 @@ title: Robust Object Detection with Pseudo Labels from VLMs using Per-Object Co-
 **arXiv**：[2511.09955v1](https://arxiv.org/abs/2511.09955) · [PDF](https://arxiv.org/pdf/2511.09955.pdf)  
 **作者**：Uday Bhaskar, Rishabh Bhattacharya, Avinash Patel, Sarthak Khoche, Praveen Anil Kulkarni, Naresh Manwani  
 
-**一句话要点**：提出基于每对象协同教学的伪标签训练方法，以解决自动驾驶中视觉语言模型检测延迟和幻觉问题。
+**一句话要点**：提出基于每对象协同教学的伪标签训练方法，以解决自动驾驶中视觉语言模型检测噪声问题。
 
-**关键词**：伪标签训练, 每对象协同教学, 零样本检测, 自动驾驶, 噪声过滤, YOLO模型
+**关键词**：伪标签训练, 每对象协同教学, 零样本检测, 噪声过滤, 自动驾驶, YOLO模型
 
 ## 3 点简述
-- 核心问题：视觉语言模型在零样本检测中存在高延迟和幻觉预测，不适合实时部署。
-- 方法要点：使用两个YOLO模型通过每对象损失值协作过滤噪声边界框，提升训练鲁棒性。
-- 实验效果：在KITTI数据集上mAP@0.5从31.12%提升至46.61%，并支持少量真实标签进一步优化。
+- 核心问题：视觉语言模型零样本检测存在高延迟和幻觉预测，不适合直接部署。
+- 方法要点：使用两个YOLO模型通过每对象损失值协同过滤噪声边界框进行训练。
+- 实验效果：在KITTI数据集上mAP@0.5从31.12%提升至46.61%，并保持实时检测。
 
 ## 摘要（原文）
 

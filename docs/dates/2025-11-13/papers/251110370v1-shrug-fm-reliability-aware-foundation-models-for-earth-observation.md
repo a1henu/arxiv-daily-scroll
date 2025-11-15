@@ -13,7 +13,7 @@ title: SHRUG-FM: Reliability-Aware Foundation Models for Earth Observation
 
 ## 3 点简述
 - 地球观测基础模型在预训练数据不足的环境中表现不可靠
-- 整合输入空间、嵌入空间OOD检测和任务特定不确定性信号
+- 集成输入空间、嵌入空间OOD检测和任务不确定性信号
 - 应用于烧伤疤痕分割，显示OOD分数与性能下降相关，不确定性标志可过滤错误预测
 
 ## 摘要（原文）

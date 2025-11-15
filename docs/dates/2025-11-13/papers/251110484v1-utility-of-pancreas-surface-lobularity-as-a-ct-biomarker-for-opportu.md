@@ -7,14 +7,14 @@ title: Utility of Pancreas Surface Lobularity as a CT Biomarker for Opportunisti
 **arXiv**：[2511.10484v1](https://arxiv.org/abs/2511.10484) · [PDF](https://arxiv.org/pdf/2511.10484.pdf)  
 **作者**：Tejas Sudharshan Mathai, Anisa V. Prasad, Xinya Wang, Praveen T. S. Balamuralikrishna, Yan Zhuang, Abhinav Suri, Jianfei Liu, Perry J. Pickhardt, Ronald M. Summers  
 
-**一句话要点**：提出胰腺表面分叶性作为CT生物标志物，用于2型糖尿病的机遇性筛查
+**一句话要点**：提出胰腺表面分叶性作为CT生物标志物，用于2型糖尿病的机会性筛查。
 
-**关键词**：胰腺表面分叶性, CT生物标志物, 2型糖尿病筛查, 深度学习分割, 机遇性筛查, 医学影像分析
+**关键词**：胰腺表面分叶性, CT生物标志物, 2型糖尿病筛查, 深度学习分割, 机会性筛查, 多变量预测模型
 
 ## 3 点简述
-- 核心问题：2型糖尿病早期检测中，胰腺表面分叶性的作用未被充分研究。
-- 方法要点：使用深度学习模型自动分割胰腺并检测表面分叶性。
-- 实验或效果：多变量模型预测2型糖尿病AUC达0.90，敏感性66.7%，特异性91.9%。
+- 核心问题：2型糖尿病早期检测不足，胰腺形态变化如表面分叶性未被充分研究。
+- 方法要点：使用深度学习模型自动分割胰腺，并提取CT成像生物标志物。
+- 实验或效果：多变量模型预测糖尿病AUC达0.90，表面分叶性在糖尿病患者中更高。
 
 ## 摘要（原文）
 

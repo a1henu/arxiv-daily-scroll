@@ -14,7 +14,7 @@ title: Facial-R1: Aligning Reasoning and Recognition for Facial Emotion Analysis
 ## 3 点简述
 - 核心问题：视觉语言模型在面部情感分析中产生幻觉推理和识别不对齐
 - 方法要点：采用三阶段对齐框架，包括指令微调、强化训练和数据合成
-- 实验或效果：在八个基准测试中实现最先进性能，并引入FEA-20K数据集
+- 实验或效果：在八个基准测试中实现SOTA性能，并引入FEA-20K数据集
 
 ## 摘要（原文）
 

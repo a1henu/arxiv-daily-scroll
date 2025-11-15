@@ -7,14 +7,14 @@ title: Remember Me: Bridging the Long-Range Gap in LVLMs with Three-Step Inferen
 **arXiv**：[2511.09868v1](https://arxiv.org/abs/2511.09868) · [PDF](https://arxiv.org/pdf/2511.09868.pdf)  
 **作者**：Peng Gao, Yujian Lee, Xiaofeng Zhang, Zailong Chen, Hui Zhang  
 
-**一句话要点**：提出三步骤推理衰减韧性策略以解决LVLM长距离依赖建模问题
+**一句话要点**：提出三步骤推理衰减韧性策略以解决LVLM中长距离依赖建模问题
 
 **关键词**：大型视觉语言模型, 长距离依赖, 推理优化, 注意力机制, 视觉问答
 
 ## 3 点简述
-- 核心问题：LVLM在ROPE下长距离注意力衰减，影响全局上下文记忆
-- 方法要点：通过语义驱动、距离感知控制和再强化策略增强远程依赖
-- 实验或效果：在VQA基准上训练免费提升性能，代码已开源
+- 核心问题：旋转位置编码导致长距离注意力衰减，影响全局上下文记忆
+- 方法要点：通过语义驱动、距离感知控制和再强化三步策略增强长距离信号
+- 实验或效果：在VQA基准上无需训练即可提升性能，代码已开源
 
 ## 摘要（原文）
 

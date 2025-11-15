@@ -7,14 +7,14 @@ title: MIRNet: Integrating Constrained Graph-Based Reasoning with Pre-training f
 **arXiv**：[2511.10013v1](https://arxiv.org/abs/2511.10013) · [PDF](https://arxiv.org/pdf/2511.10013.pdf)  
 **作者**：Shufeng Kong, Zijie Wang, Nuan Cui, Hao Tang, Yihan Meng, Yuanyuan Wei, Feifan Chen, Yingheng Wang, Zhuo Cai, Yaonan Wang, Yulong Zhang, Yuzheng Li, Zibin Zheng, Caihua Liu  
 
-**一句话要点**：提出MIRNet框架，结合自监督预训练与图推理，解决舌诊图像诊断中的标注稀缺和标签不平衡问题。
+**一句话要点**：提出MIRNet框架，结合自监督预训练与图推理，解决医学图像诊断中的标注稀缺和标签不平衡问题。
 
-**关键词**：医学图像诊断, 自监督预训练, 图注意力网络, 约束优化, 舌诊数据集, 标签不平衡处理
+**关键词**：医学图像诊断, 自监督预训练, 图注意力网络, 约束优化, 舌诊数据集, 标签不平衡
 
 ## 3 点简述
-- 核心问题：医学图像标注稀缺、标签不平衡和临床合理性约束，尤其在舌诊领域。
-- 方法要点：使用MAE自监督预训练、GAT建模标签相关性，并引入约束优化和ASL损失。
-- 实验或效果：在TongueAtlas-4K数据集上验证，达到先进性能，可泛化至其他医学图像任务。
+- 核心问题：医学图像标注稀缺、标签不平衡及临床合理性约束，尤其在舌诊领域。
+- 方法要点：集成MAE自监督预训练、GAT图注意力网络和约束优化，提升视觉语义建模。
+- 实验或效果：在TongueAtlas-4K数据集上验证，实现先进性能，可泛化至其他诊断任务。
 
 ## 摘要（原文）
 

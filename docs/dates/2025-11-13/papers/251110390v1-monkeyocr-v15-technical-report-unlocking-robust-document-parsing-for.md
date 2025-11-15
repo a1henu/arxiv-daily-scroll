@@ -7,14 +7,14 @@ title: MonkeyOCR v1.5 Technical Report: Unlocking Robust Document Parsing for Co
 **arXiv**：[2511.10390v1](https://arxiv.org/abs/2511.10390) · [PDF](https://arxiv.org/pdf/2511.10390.pdf)  
 **作者**：Jiarui Zhang, Yuliang Liu, Zijun Wu, Guosheng Pang, Zhili Ye, Yupei Zhong, Junteng Ma, Tao Wei, Haiyang Xu, Weikai Chen, Zeen Wang, Qiangjun Ji, Fanxi Zhou, Qi Zhang, Yuanrui Hu, Jiahao Liu, Zhang Li, Ziyang Zhang, Qiang Liu, Xiang Bai  
 
-**一句话要点**：提出MonkeyOCR v1.5以解决复杂文档解析问题
+**一句话要点**：提出MonkeyOCR v1.5框架以解决复杂文档解析问题
 
-**关键词**：文档解析, 视觉语言框架, 表格结构识别, 强化学习, 多模态模型
+**关键词**：文档解析, 视觉语言框架, 表格结构识别, 多模态模型, 强化学习, 布局理解
 
 ## 3 点简述
-- 核心问题：现实文档复杂布局如多级表格和跨页结构挑战现有OCR系统。
-- 方法要点：采用两阶段解析流程，结合视觉一致性强化学习提升表格结构准确性。
-- 实验效果：在OmniDocBench v1.5上实现SOTA，优于PPOCR-VL和MinerU 2.5。
+- 核心问题：现实文档布局复杂，含多级表格、嵌入图像或公式，现有OCR系统难以处理。
+- 方法要点：采用两阶段解析流程，结合视觉语言模型预测布局与阅读顺序，并局部识别内容。
+- 实验或效果：在OmniDocBench v1.5上实现SOTA性能，优于PPOCR-VL和MinerU 2.5。
 
 ## 摘要（原文）
 

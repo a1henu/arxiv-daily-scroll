@@ -13,8 +13,8 @@ title: PROPA: Toward Process-level Optimization in Visual Reasoning via Reinforc
 
 ## 3 点简述
 - 视觉语言模型在复杂推理中易因多步依赖导致错误传播
-- 结合MCTS与GRPO生成密集过程奖励，并交替SFT优化推理链
-- 在多个基准和骨干模型上优于现有方法，泛化能力显著提升
+- 结合MCTS与GRPO生成密集过程奖励，并交替使用SFT解决冷启动问题
+- 在多个基准和骨干网络上优于现有方法，提升泛化能力
 
 ## 摘要（原文）
 

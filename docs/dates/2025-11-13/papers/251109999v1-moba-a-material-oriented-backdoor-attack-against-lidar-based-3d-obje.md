@@ -7,13 +7,13 @@ title: MOBA: A Material-Oriented Backdoor Attack against LiDAR-based 3D Object D
 **arXiv**：[2511.09999v1](https://arxiv.org/abs/2511.09999) · [PDF](https://arxiv.org/pdf/2511.09999.pdf)  
 **作者**：Saket S. Chaturvedi, Gaurav Bagwe, Lan Zhang, Pan He, Xiaoyong Yuan  
 
-**一句话要点**：提出MOBA框架以解决LiDAR 3D检测中物理后门攻击的材料依赖性问题
+**一句话要点**：提出MOBA以解决LiDAR 3D检测中物理后门攻击的材料依赖性问题
 
 **关键词**：LiDAR 3D物体检测, 后门攻击, 材料建模, 物理可实现性, BRDF模拟, 攻击鲁棒性
 
 ## 3 点简述
 - 现有后门攻击缺乏物理可实现性，因忽略材料依赖的LiDAR反射特性
-- MOBA通过建模材料属性，选择二氧化钛作为触发材料并开发模拟管道
+- MOBA通过建模材料属性，选择TiO₂作为触发材料并开发模拟管道
 - 实验显示攻击成功率93.50%，优于先前方法超41%
 
 ## 摘要（原文）

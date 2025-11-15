@@ -7,14 +7,14 @@ title: OmniVGGT: Omni-Modality Driven Visual Geometry Grounded
 **arXiv**：[2511.10560v1](https://arxiv.org/abs/2511.10560) · [PDF](https://arxiv.org/pdf/2511.10560.pdf)  
 **作者**：Haosong Peng, Hao Li, Yalun Dai, Yushi Lan, Yihang Luo, Tianyu Qi, Zhengshen Zhang, Yufeng Zhan, Junfei Zhang, Wenchao Xu, Ziwei Liu  
 
-**一句话要点**：提出OmniVGGT框架以利用任意几何模态增强视觉任务性能
+**一句话要点**：提出OmniVGGT框架以利用任意几何模态提升3D视觉任务性能
 
-**关键词**：多模态融合, 几何编码, 3D视觉, 基础模型, 机器人视觉
+**关键词**：多模态融合, 3D视觉基础模型, 几何信息编码, 随机模态采样, 视觉语言动作模型
 
 ## 3 点简述
 - 核心问题：现有3D基础模型多依赖RGB输入，忽略几何线索如深度和相机参数。
 - 方法要点：通过GeoAdapter和零初始化卷积注入几何信息，保持模型稳定与高效。
-- 实验效果：在深度估计和相机姿态估计等任务中优于现有方法，并提升VLA模型性能。
+- 实验效果：在深度估计和相机姿态估计等任务中优于现有方法，并增强VLA模型性能。
 
 ## 摘要（原文）
 

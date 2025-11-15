@@ -7,14 +7,14 @@ title: Multitask GLocal OBIA-Mamba for Sentinel-2 Landcover Mapping
 **arXiv**：[2511.10604v1](https://arxiv.org/abs/2511.10604) · [PDF](https://arxiv.org/pdf/2511.10604.pdf)  
 **作者**：Zack Dewis, Yimin Zhu, Zhengsen Xu, Mabel Heffring, Saeid Taleghanidoozdoozan, Kaylee Xiao, Motasem Alkayid, Lincoln Linlin Xu  
 
-**一句话要点**：提出多任务GLocal OBIA-Mamba模型以提升Sentinel-2土地覆盖分类精度
+**一句话要点**：提出多任务全局-局部OBIA-Mamba模型以提升Sentinel-2土地覆盖分类精度
 
-**关键词**：土地覆盖分类, 多任务学习, Mamba模型, 对象图像分析, Sentinel-2影像, 全局局部架构
+**关键词**：土地覆盖分类, 多任务学习, Mamba模型, 对象图像分析, Sentinel-2影像, 全局-局部架构
 
 ## 3 点简述
 - Sentinel-2土地覆盖分类面临空间异质性和上下文信息等数据挑战
-- 结合OBIA-Mamba和GLocal双分支架构，平衡局部细节与全局上下文建模
-- 在加拿大阿尔伯塔实验中，相比先进方法实现更高精度和更精细细节
+- 结合OBIA-Mamba和全局-局部双分支架构，平衡局部细节与全局上下文
+- 在加拿大阿尔伯塔测试，相比先进方法，分类精度更高、细节更精细
 
 ## 摘要（原文）
 

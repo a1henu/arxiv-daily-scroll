@@ -9,12 +9,12 @@ title: RobIA: Robust Instance-aware Continual Test-time Adaptation for Deep Ster
 
 **一句话要点**：提出RobIA框架以解决立体深度估计中的持续域适应问题
 
-**关键词**：立体深度估计, 持续测试时适应, 混合专家, 伪监督, 域偏移, 参数高效微调
+**关键词**：立体深度估计, 持续测试时适应, 实例感知适应, 混合专家模型, 伪监督学习
 
 ## 3 点简述
-- 立体深度估计面临动态域偏移和稀疏监督的挑战
-- 结合AttEx-MoE和Robust AdaptBN Teacher实现输入特定适应
-- 实验显示在动态目标域中性能优越且计算高效
+- 核心问题：立体深度估计面临动态域偏移和稀疏监督挑战
+- 方法要点：集成AttEx-MoE和Robust AdaptBN Teacher实现输入特定适应
+- 实验或效果：在动态目标域中实现优越适应性能并保持计算效率
 
 ## 摘要（原文）
 

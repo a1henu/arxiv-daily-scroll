@@ -9,12 +9,12 @@ title: LampQ: Towards Accurate Layer-wise Mixed Precision Quantization for Visio
 
 **一句话要点**：提出LampQ方法以解决Vision Transformer层间量化精度问题
 
-**关键词**：Vision Transformer量化, 混合精度量化, 层间量化, Fisher度量, 整数线性规划
+**关键词**：Vision Transformer量化, 混合精度量化, 层间量化, Fisher信息度量, 整数线性规划, 零样本量化
 
 ## 3 点简述
-- 核心问题：现有ViT量化方法采用统一精度，忽略组件敏感性差异。
-- 方法要点：使用层间混合精度量化，结合类型感知Fisher度量和整数线性规划。
-- 实验效果：在图像分类等任务中实现最先进的量化性能。
+- 现有ViT量化方法采用统一精度，忽略组件敏感性差异
+- LampQ使用层间混合精度量化，结合类型感知Fisher度量和整数线性规划
+- 实验显示在图像分类等任务中实现先进量化性能
 
 ## 摘要（原文）
 

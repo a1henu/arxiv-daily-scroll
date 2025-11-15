@@ -7,14 +7,14 @@ title: Depth Anything 3: Recovering the Visual Space from Any Views
 **arXiv**：[2511.10647v1](https://arxiv.org/abs/2511.10647) · [PDF](https://arxiv.org/pdf/2511.10647.pdf)  
 **作者**：Haotong Lin, Sili Chen, Junhao Liew, Donny Y. Chen, Zhenyu Li, Guang Shi, Jiashi Feng, Bingyi Kang  
 
-**一句话要点**：提出Depth Anything 3模型，从任意视图预测空间一致几何，无需已知相机姿态。
+**一句话要点**：提出Depth Anything 3模型，从任意视图预测空间一致几何，无需已知相机位姿。
 
-**关键词**：多视图几何, 深度估计, Transformer骨干, 师生训练, 相机姿态估计, 视觉渲染
+**关键词**：多视图几何, 深度估计, Transformer骨干, 师生训练, 相机位姿估计, 视觉渲染
 
 ## 3 点简述
-- 核心问题：从任意数量视觉输入中恢复空间一致几何，可能无已知相机姿态。
-- 方法要点：使用单一Transformer骨干和深度射线预测目标，避免复杂多任务学习。
-- 实验或效果：在视觉几何基准上超越SOTA方法，相机姿态精度平均提升44.3%。
+- 核心问题：从任意数量视觉输入中恢复空间一致几何，无需已知相机位姿。
+- 方法要点：使用单一Transformer骨干和深度射线预测目标，简化模型架构与训练。
+- 实验或效果：在视觉几何基准上超越SOTA，相机位姿精度提升44.3%，几何精度提升25.1%。
 
 ## 摘要（原文）
 

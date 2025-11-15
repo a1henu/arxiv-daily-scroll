@@ -7,14 +7,14 @@ title: Multivariate Gaussian Representation Learning for Medical Action Evaluati
 **arXiv**：[2511.10060v1](https://arxiv.org/abs/2511.10060) · [PDF](https://arxiv.org/pdf/2511.10060.pdf)  
 **作者**：Luming Yang, Haoxian Liu, Siqing Li, Alper Yilmaz  
 
-**一句话要点**：提出GaussMedAct框架以解决医疗动作评估中的精细建模问题
+**一句话要点**：提出GaussMedAct框架以解决医疗动作评估中的精细建模挑战
 
-**关键词**：医疗动作评估, 多元高斯表示, 时空建模, 骨骼特征编码, 实时推理
+**关键词**：多元高斯表示学习, 医疗动作评估, 时空动态建模, 骨骼特征编码, 实时推理
 
 ## 3 点简述
-- 医疗视觉中精细动作评估面临数据集稀缺、精度要求高和快速动作建模不足的挑战
-- 采用多元高斯编码将关节运动投影到时空空间，分解为自适应3D高斯令牌
-- 在CPREval-6k基准上实现92.1% Top-1准确率，比基线高5.9%，仅需10% FLOPs
+- 医疗视觉中精细动作评估面临数据集稀缺、精度要求高和快速动作建模不足问题
+- 方法采用多元高斯编码将关节运动投影为自适应3D高斯令牌，结合双流空间编码
+- 在CPREval-6k基准上达到92.1% Top-1准确率，优于基线且计算效率高
 
 ## 摘要（原文）
 

@@ -14,7 +14,7 @@ title: DecARt Leg: Design and Evaluation of a Novel Humanoid Robot Leg with Deco
 ## 3 点简述
 - 核心问题：设计人形机器人腿以实现敏捷运动，需优化驱动和结构。
 - 方法要点：采用准伸缩运动学结构、解耦驱动和多杆系统传输踝关节扭矩。
-- 实验或效果：提出FAST指标评估，并通过仿真和硬件实验验证性能。
+- 实验或效果：提出FAST指标评估性能，并通过仿真和硬件实验验证设计。
 
 ## 摘要（原文）
 

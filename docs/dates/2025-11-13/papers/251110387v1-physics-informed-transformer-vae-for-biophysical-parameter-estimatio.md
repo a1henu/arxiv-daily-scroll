@@ -12,9 +12,9 @@ title: Physics informed Transformer-VAE for biophysical parameter estimation: PR
 **关键词**：植被参数反演, 物理信息深度学习, PROSAIL模型, Sentinel-2影像, 自监督学习
 
 ## 3 点简述
-- 核心问题：从卫星影像准确反演植被生物物理变量，如叶面积指数和冠层叶绿素含量。
-- 方法要点：结合Transformer-VAE与PROSAIL模型作为可微分物理解码器，确保物理合理性。
-- 实验或效果：在真实数据集上性能媲美使用真实影像的先进方法，无需实地标签。
+- 核心问题：从卫星影像准确反演植被生物物理变量，用于生态系统监测和农业管理。
+- 方法要点：结合Transformer-VAE与PROSAIL模型作为可微分物理解码器，仅用模拟数据训练。
+- 实验或效果：在真实数据集上估计LAI和CCC，性能媲美使用真实影像的先进方法。
 
 ## 摘要（原文）
 

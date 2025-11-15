@@ -12,7 +12,7 @@ title: Regional Attention-Enhanced Swin Transformer for Clinically Relevant Medi
 **关键词**：医学图像描述, 区域注意力, Swin-BART, 编码器-解码器, 语义保真度, ROCO数据集
 
 ## 3 点简述
-- 核心问题：自动化医学图像描述，将复杂放射图像转换为诊断叙述。
+- 核心问题：自动化医学图像描述生成，支持诊断报告工作流。
 - 方法要点：集成Swin-BART编码器-解码器，添加轻量级区域注意力模块。
 - 实验或效果：在ROCO数据集上实现SOTA语义保真度，ROUGE和BERTScore显著提升。
 

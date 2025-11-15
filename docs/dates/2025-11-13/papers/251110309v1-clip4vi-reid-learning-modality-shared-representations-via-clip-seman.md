@@ -7,14 +7,14 @@ title: CLIP4VI-ReID: Learning Modality-shared Representations via CLIP Semantic 
 **arXiv**：[2511.10309v1](https://arxiv.org/abs/2511.10309) · [PDF](https://arxiv.org/pdf/2511.10309.pdf)  
 **作者**：Xiaomei Yang, Xizhan Gao, Sijie Niu, Fa Zhu, Guang Feng, Xiaofeng Qu, David Camacho  
 
-**一句话要点**：提出CLIP4VI-ReID网络，通过CLIP语义桥学习模态共享表示以解决可见光-红外行人重识别问题
+**一句话要点**：提出CLIP4VI-ReID以解决可见光-红外行人重识别中的模态差异问题
 
-**关键词**：可见光-红外行人重识别, 模态共享表示学习, CLIP语义桥, 跨模态对齐, 文本语义生成
+**关键词**：可见光-红外行人重识别, 模态共享表示, CLIP语义桥接, 跨模态对齐, 文本语义生成
 
 ## 3 点简述
 - 核心问题：可见光与红外图像物理特性差异大，导致跨模态对齐困难。
-- 方法要点：设计文本语义生成、红外特征嵌入和高层语义对齐模块，利用文本桥接模态。
-- 实验或效果：在多个VI-ReID数据集上优于现有方法，提升模态共享表示的判别性。
+- 方法要点：通过文本语义桥接，生成可见光文本并修正红外特征，实现模态共享表示。
+- 实验或效果：在多个VI-ReID数据集上优于现有方法，提升识别性能。
 
 ## 摘要（原文）
 

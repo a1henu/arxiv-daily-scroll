@@ -9,12 +9,12 @@ title: Impact of Layer Norm on Memorization and Generalization in Transformers
 
 **一句话要点**：分析LayerNorm对Transformer记忆与泛化的影响，比较Pre-与Post-LayerNorm架构
 
-**关键词**：LayerNorm, Transformer架构, 记忆机制, 泛化性能, 深度学习优化, 视觉与语言数据集
+**关键词**：LayerNorm, Transformer架构, 记忆机制, 泛化能力, 深度学习优化, 视觉语言数据集
 
 ## 3 点简述
-- 核心问题：LayerNorm在Pre-和Post-LayerNorm Transformer中对记忆与学习的影响机制未知
-- 方法要点：通过消除LayerNorm参数，分析其在稳定学习和记忆中的作用
-- 实验或效果：在13个模型和6个数据集上验证，早期层LayerNorm最关键
+- 核心问题：LayerNorm在Pre-和Post-LayerNorm Transformer中对记忆与学习的影响机制不明
+- 方法要点：通过消除LayerNorm参数，分析其对记忆和稳定学习的作用
+- 实验或效果：在6个视觉与语言数据集上验证，早期层LayerNorm最关键
 
 ## 摘要（原文）
 

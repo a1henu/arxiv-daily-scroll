@@ -7,14 +7,14 @@ title: SemanticVLA: Semantic-Aligned Sparsification and Enhancement for Efficien
 **arXiv**：[2511.10518v1](https://arxiv.org/abs/2511.10518) · [PDF](https://arxiv.org/pdf/2511.10518.pdf)  
 **作者**：Wei Li, Renshan Zhang, Rui Shao, Zhijian Fang, Kaiwen Zhou, Zhuotao Tian, Liqiang Nie  
 
-**一句话要点**：提出SemanticVLA框架以解决机器人操作中的感知冗余和语义对齐问题
+**一句话要点**：提出SemanticVLA框架，通过语义对齐稀疏化与增强，提升机器人操作效率与性能。
 
-**关键词**：机器人操作, 视觉-语言-动作模型, 语义对齐, 特征稀疏化, 高效推理
+**关键词**：机器人操作, 视觉-语言-动作模型, 语义对齐, 稀疏化剪枝, 特征融合, 高效推理
 
 ## 3 点简述
-- 核心问题：视觉-语言-动作模型存在感知冗余和指令-视觉对齐不足，影响机器人操作效率
-- 方法要点：通过语义对齐的稀疏化和增强，融合SigLIP与DINOv2特征，优化动作建模
-- 实验或效果：在LIBERO基准上成功率提升21.1%，训练和推理成本分别降低3.0倍和2.7倍
+- 核心问题：视觉-语言-动作模型存在感知冗余和指令-视觉对齐不足，影响机器人操作效率。
+- 方法要点：使用语义引导双视觉剪枝器和分层融合器，稀疏化视觉输入并融合语义与几何特征。
+- 实验或效果：在LIBERO基准上成功率提升21.1%，训练和推理成本分别降低3.0倍和2.7倍。
 
 ## 摘要（原文）
 

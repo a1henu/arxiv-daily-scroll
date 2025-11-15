@@ -7,14 +7,14 @@ title: AdaptViG: Adaptive Vision GNN with Exponential Decay Gating
 **arXiv**：[2511.09942v1](https://arxiv.org/abs/2511.09942) · [PDF](https://arxiv.org/pdf/2511.09942.pdf)  
 **作者**：Mustafa Munir, Md Mostafijur Rahman, Radu Marculescu  
 
-**一句话要点**：提出AdaptViG自适应视觉图神经网络，通过指数衰减门控解决图构建计算效率问题
+**一句话要点**：提出AdaptViG以解决视觉图神经网络计算效率低的问题
 
 **关键词**：视觉图神经网络, 自适应图卷积, 指数衰减门控, 计算效率优化, 混合策略, 下游任务性能
 
 ## 3 点简述
-- 视觉图神经网络图构建阶段计算量大，影响模型效率
-- 引入自适应图卷积，结合静态轴向支架和指数衰减门控动态选择长程连接
-- 在ImageNet达82.6%准确率，参数和计算量大幅减少，下游任务性能领先
+- 视觉图神经网络在图构建阶段面临高计算成本问题
+- 引入自适应图卷积和指数衰减门控机制，选择性加权长程连接
+- 在ImageNet上达到82.6%准确率，参数和计算量大幅减少
 
 ## 摘要（原文）
 
