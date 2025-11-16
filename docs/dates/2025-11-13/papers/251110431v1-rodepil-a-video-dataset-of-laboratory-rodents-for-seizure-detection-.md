@@ -7,14 +7,14 @@ title: RodEpil: A Video Dataset of Laboratory Rodents for Seizure Detection and 
 **arXiv**：[2511.10431v1](https://arxiv.org/abs/2511.10431) · [PDF](https://arxiv.org/pdf/2511.10431.pdf)  
 **作者**：Daniele Perlo, Vladimir Despotovic, Selma Boudissa, Sang-Yoon Kim, Petr Nazarov, Yanrong Zhang, Max Wintermark, Olivier Keunen  
 
-**一句话要点**：提出RodEpil视频数据集，用于实验室啮齿动物癫痫发作检测与基准评估。
+**一句话要点**：提出RodEpil视频数据集以支持实验室啮齿动物癫痫发作自动检测
 
-**关键词**：视频数据集, 癫痫发作检测, 实验室啮齿动物, TimeSformer模型, 基准评估
+**关键词**：视频数据集, 癫痫发作检测, 实验室啮齿动物, TimeSformer, 非侵入监测
 
 ## 3 点简述
-- 核心问题：自动检测实验室啮齿动物的癫痫发作事件，支持非侵入式视频监控研究。
-- 方法要点：构建包含10秒视频片段的数据集，采用TimeSformer变换器模型进行视频分类。
-- 实验或效果：五折交叉验证显示，模型平均F1分数达97%，确保无数据泄露。
+- 核心问题：自动检测实验室啮齿动物的癫痫发作事件，用于临床前癫痫研究。
+- 方法要点：使用基于Transformer的视频分类器TimeSformer，处理顶部和侧视视频片段。
+- 实验或效果：五折交叉验证显示平均F1分数达97%，数据集和代码已公开。
 
 ## 摘要（原文）
 

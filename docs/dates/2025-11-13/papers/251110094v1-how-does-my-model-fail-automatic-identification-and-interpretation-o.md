@@ -7,14 +7,14 @@ title: How does My Model Fail? Automatic Identification and Interpretation of Ph
 **arXiv**：[2511.10094v1](https://arxiv.org/abs/2511.10094) · [PDF](https://arxiv.org/pdf/2511.10094.pdf)  
 **作者**：Yiming Tang, Abhijeet Sinha, Dianbo Liu  
 
-**一句话要点**：提出Matryoshka Transcoders框架，自动识别和解释生成模型的物理合理性失败模式
+**一句话要点**：提出Matryoshka Transcoders框架，自动发现和解释生成模型的物理合理性失败模式
 
-**关键词**：物理合理性, 生成模型, 特征学习, 失败模式识别, 多模态解释
+**关键词**：物理合理性, 特征学习, 生成模型评估, 多模态解释, 失败模式分析
 
 ## 3 点简述
-- 生成模型常出现物理合理性错误，现有方法难以检测和解释
-- 基于Matryoshka表示学习，构建分层稀疏特征学习框架，无需手动特征工程
-- 在八个先进模型上分析，识别多种失败模式，建立评估基准
+- 生成模型常出现物理合理性错误，现有评估方法难以检测，且缺乏自动识别框架
+- 扩展Matryoshka表示学习至transcoder架构，实现多粒度层次稀疏特征学习
+- 在八个先进生成模型上分析，提供失败模式洞察，并建立评估基准
 
 ## 摘要（原文）
 

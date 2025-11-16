@@ -7,14 +7,14 @@ title: A Style is Worth One Code: Unlocking Code-to-Style Image Generation with 
 **arXiv**：[2511.10555v1](https://arxiv.org/abs/2511.10555) · [PDF](https://arxiv.org/pdf/2511.10555.pdf)  
 **作者**：Huijie Liu, Shuhao Cui, Haoxiang Cao, Shuai Ma, Kai Wu, Guoliang Kang  
 
-**一句话要点**：提出CoTyle方法，通过数值代码生成新颖且一致的视觉风格图像。
+**一句话要点**：提出CoTyle方法，通过数值代码生成新颖一致的视觉风格图像。
 
 **关键词**：代码到风格生成, 离散风格空间, 扩散模型, 风格嵌入, 自回归生成
 
 ## 3 点简述
 - 现有方法依赖文本提示或参考图像，难以保证风格一致性和多样性。
-- 训练离散风格码本，结合扩散模型和自回归生成器合成新风格嵌入。
-- 实验验证CoTyle能有效将数值代码转化为风格控制器，实现风格生成。
+- 训练离散风格码本和自回归风格生成器，将数值代码映射为风格嵌入以引导扩散模型。
+- 实验验证CoTyle能有效将数值代码转化为风格控制器，生成多样且一致的风格图像。
 
 ## 摘要（原文）
 

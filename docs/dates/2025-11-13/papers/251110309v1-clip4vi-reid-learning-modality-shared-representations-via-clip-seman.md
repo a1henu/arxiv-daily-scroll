@@ -9,7 +9,7 @@ title: CLIP4VI-ReID: Learning Modality-shared Representations via CLIP Semantic 
 
 **一句话要点**：提出CLIP4VI-ReID以解决可见光-红外行人重识别中的模态差异问题
 
-**关键词**：可见光-红外行人重识别, 模态共享表示, CLIP语义桥接, 跨模态对齐, 文本语义生成
+**关键词**：可见光-红外行人重识别, 模态共享表示, CLIP语义桥接, 跨模态对齐, 文本语义生成, 特征嵌入修正
 
 ## 3 点简述
 - 核心问题：可见光与红外图像物理特性差异大，导致跨模态对齐困难。

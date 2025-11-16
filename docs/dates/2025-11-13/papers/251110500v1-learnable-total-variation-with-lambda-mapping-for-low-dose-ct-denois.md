@@ -14,7 +14,7 @@ title: Learnable Total Variation with Lambda Mapping for Low-Dose CT Denoising
 ## 3 点简述
 - 核心问题：传统全变差方法依赖lambda参数，效率受限且难以有效使用。
 - 方法要点：将展开TV求解器与数据驱动LambdaNet耦合，端到端训练实现空间自适应平滑。
-- 实验效果：在DeepLesion数据集上，PSNR平均提升2.9 dB，SSIM提升6%。
+- 实验或效果：在DeepLesion数据集上，平均PSNR提升2.9 dB，SSIM提升6%。
 
 ## 摘要（原文）
 

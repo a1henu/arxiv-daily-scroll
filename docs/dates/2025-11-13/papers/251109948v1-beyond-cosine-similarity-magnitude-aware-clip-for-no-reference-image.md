@@ -7,14 +7,14 @@ title: Beyond Cosine Similarity Magnitude-Aware CLIP for No-Reference Image Qual
 **arXiv**：[2511.09948v1](https://arxiv.org/abs/2511.09948) · [PDF](https://arxiv.org/pdf/2511.09948.pdf)  
 **作者**：Zhicheng Liao, Dongxu Wu, Zhenshan Shi, Sijie Mai, Hanwei Zhu, Lingyu Zhu, Yuncheng Jiang, Baoliang Chen  
 
-**一句话要点**：提出自适应融合框架，结合余弦相似性与特征幅度，提升无参考图像质量评估性能。
+**一句话要点**：提出自适应融合框架，结合余弦相似度与特征幅度，提升无参考图像质量评估性能。
 
-**关键词**：无参考图像质量评估, CLIP模型, 特征幅度, 自适应融合, Box-Cox变换, 余弦相似性
+**关键词**：无参考图像质量评估, CLIP模型, 特征幅度, 自适应融合, Box-Cox变换, 余弦相似度
 
 ## 3 点简述
-- 核心问题：现有CLIP模型在NR-IQA中仅用余弦相似性，忽略图像特征幅度与感知质量的相关性。
-- 方法要点：提取CLIP图像特征幅度，应用Box-Cox变换归一化，并与余弦相似性自适应融合。
-- 实验或效果：在多个IQA基准数据集上，无需任务特定训练，性能优于标准CLIP方法和先进基线。
+- 核心问题：CLIP模型用于NR-IQA时，仅依赖语义相似度，忽略图像特征幅度与感知质量的相关性。
+- 方法要点：提取CLIP图像特征绝对幅度，应用Box-Cox变换归一化，并与余弦相似度自适应融合。
+- 实验或效果：在多个IQA基准数据集上，无需任务特定训练，性能优于现有方法。
 
 ## 摘要（原文）
 

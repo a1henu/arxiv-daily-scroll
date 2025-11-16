@@ -7,14 +7,14 @@ title: LiNeXt: Revisiting LiDAR Completion with Efficient Non-Diffusion Architec
 **arXiv**：[2511.10209v1](https://arxiv.org/abs/2511.10209) · [PDF](https://arxiv.org/pdf/2511.10209.pdf)  
 **作者**：Wenzhe He, Xiaojun Chen, Ruiqi Wang, Ruihui Li, Huilong Pi, Jiapeng Zhang, Zhuo Tang, Kenli Li  
 
-**一句话要点**：提出LiNeXt非扩散网络以解决LiDAR点云补全的实时性问题
+**一句话要点**：提出LiNeXt非扩散网络以高效解决LiDAR点云补全问题
 
-**关键词**：LiDAR点云补全, 非扩散架构, 实时感知, 距离感知策略, 轻量网络
+**关键词**：LiDAR点云补全, 非扩散架构, 实时感知, 距离感知采样, 轻量网络
 
 ## 3 点简述
-- 核心问题：扩散模型在LiDAR点云补全中计算开销大，难以实时应用
-- 方法要点：使用N2C模块单次去噪和Refine模块精炼，结合距离感知策略优化点云分布
-- 实验或效果：在SemanticKITTI上推理速度提升199.8倍，Chamfer距离降低50.7%
+- 核心问题：扩散模型在LiDAR补全中计算开销大，难以实时应用。
+- 方法要点：使用N2C模块单次去噪和Refine模块精炼，结合距离感知策略。
+- 实验效果：在SemanticKITTI上，推理速度提升199.8倍，Chamfer距离降低50.7%。
 
 ## 摘要（原文）
 

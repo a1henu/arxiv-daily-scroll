@@ -12,9 +12,9 @@ title: Learning to Tell Apart: Weakly Supervised Video Anomaly Detection via Dis
 **关键词**：弱监督视频异常检测, 语义对齐, 对比学习, 多模态基础模型, 特征解耦
 
 ## 3 点简述
-- 核心问题：现有方法易忽略正常模式多样性，导致细粒度分类性能不佳
+- 核心问题：现有方法易忽略正常模式多样性，导致细粒度分类效果不佳
 - 方法要点：通过粗粒度正常原型建模和细粒度对比语义对齐分离异常与正常特征
-- 实验或效果：在XD-Violence和UCF-Crime基准上优于现有先进方法
+- 实验或效果：在XD-Violence和UCF-Crime基准上超越现有最优方法
 
 ## 摘要（原文）
 

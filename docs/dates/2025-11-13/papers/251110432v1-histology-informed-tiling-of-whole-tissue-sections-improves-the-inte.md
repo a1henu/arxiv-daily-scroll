@@ -14,7 +14,7 @@ title: Histology-informed tiling of whole tissue sections improves the interpret
 ## 3 点简述
 - 数字病理学中基于网格的分块忽略组织结构，引入无关信息并限制可解释性。
 - 使用语义分割从全切片图像提取腺体作为多实例学习的生物意义输入补丁。
-- 在多个队列中，该方法提升模型AUC达10%，并识别与癌症复发相关的腺体簇。
+- 在多个队列中验证，提升模型AUC 10%，并识别与癌症复发相关的腺体簇。
 
 ## 摘要（原文）
 

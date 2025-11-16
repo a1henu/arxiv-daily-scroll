@@ -7,14 +7,14 @@ title: FOUND: Fourier-based von Mises Distribution for Robust Single Domain Gene
 **arXiv**：[2511.10352v1](https://arxiv.org/abs/2511.10352) · [PDF](https://arxiv.org/pdf/2511.10352.pdf)  
 **作者**：Mengzhu Wang, Changyuan Deng, Shanshan Wang, Nan Yin, Long Lan, Liang Yang  
 
-**一句话要点**：提出基于傅里叶和冯·米塞斯分布的方法以增强单域泛化目标检测
+**一句话要点**：提出FOUND框架以增强单域泛化目标检测的鲁棒性
 
-**关键词**：单域泛化, 目标检测, 冯·米塞斯分布, 傅里叶变换, 特征鲁棒性, 语义增强
+**关键词**：单域泛化, 目标检测, 傅里叶变换, vMF分布, CLIP引导, 鲁棒特征
 
 ## 3 点简述
-- 单域泛化目标检测旨在从单一源域泛化到未知目标域
-- 使用冯·米塞斯分布建模特征方向，傅里叶变换增强频域鲁棒性
-- 在天气驾驶基准测试中优于现有方法，提升跨域性能
+- 单域泛化目标检测在单一源域训练，需泛化到未知目标域
+- 结合vMF分布和傅里叶变换，建模特征方向并扰动频域模拟域偏移
+- 在天气驾驶基准上实验，性能优于现有最优方法
 
 ## 摘要（原文）
 

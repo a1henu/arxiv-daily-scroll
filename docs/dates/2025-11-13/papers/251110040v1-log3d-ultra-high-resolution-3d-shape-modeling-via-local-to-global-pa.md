@@ -7,14 +7,14 @@ title: LoG3D: Ultra-High-Resolution 3D Shape Modeling via Local-to-Global Partit
 **arXiv**：[2511.10040v1](https://arxiv.org/abs/2511.10040) · [PDF](https://arxiv.org/pdf/2511.10040.pdf)  
 **作者**：Xinran Yang, Shuichang Lai, Jiangjing Lyu, Hongjie Li, Bowen Pan, Yuanqi Li, Jie Guo, Zhou Zhengkang, Yanwen Guo  
 
-**一句话要点**：提出LoG3D框架以解决高保真3D建模中复杂拓扑与高分辨率挑战
+**一句话要点**：提出LoG3D框架以解决高保真3D建模中复杂拓扑和细节保留的挑战
 
-**关键词**：3D形状建模, 无符号距离场, 变分自编码器, 局部到全局架构, 超高分率重建
+**关键词**：3D形状建模, 无符号距离场, 局部到全局架构, 超高分辨率, 变分自编码器, 几何细节保留
 
 ## 3 点简述
-- 核心问题：现有方法难以处理非流形几何和超高分率3D形状建模
-- 方法要点：基于UDF的VAE框架，采用局部到全局架构结合3D卷积与稀疏变换器
-- 实验或效果：在重建精度和生成质量上达到先进水平，支持2048^3分辨率
+- 核心问题：现有方法难以处理非流形几何和开放表面，导致细节丢失和预处理成本高
+- 方法要点：基于无符号距离场，采用局部到全局架构结合3D卷积和稀疏变换器
+- 实验或效果：在重建精度和生成质量上达到先进水平，支持高达2048^3的超高分辨率
 
 ## 摘要（原文）
 

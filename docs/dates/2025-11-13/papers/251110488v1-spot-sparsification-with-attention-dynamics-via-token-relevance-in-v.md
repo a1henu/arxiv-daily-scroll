@@ -7,14 +7,14 @@ title: SPOT: Sparsification with Attention Dynamics via Token Relevance in Visio
 **arXiv**：[2511.10488v1](https://arxiv.org/abs/2511.10488) · [PDF](https://arxiv.org/pdf/2511.10488.pdf)  
 **作者**：Oded Schlesinger, Amirhossein Farzam, J. Matias Di Martino, Guillermo Sapiro  
 
-**一句话要点**：提出SPOT框架以解决视觉变换器计算效率低的问题
+**一句话要点**：提出SPOT框架以解决视觉Transformer计算效率低的问题
 
-**关键词**：视觉变换器, 令牌稀疏化, 注意力机制, 计算效率, 轻量预测器
+**关键词**：视觉Transformer, token稀疏化, 注意力机制, 计算效率, 模型优化
 
 ## 3 点简述
-- 视觉变换器计算需求高，随令牌数二次增长，影响效率
-- 利用令牌嵌入、交互和注意力动态预测重要性，实现早期令牌稀疏化
-- 实验显示效率提升达40%，同时保持或提高准确性
+- 视觉Transformer计算需求随token数二次增长，效率低下
+- SPOT利用token嵌入和注意力动态早期检测冗余token
+- 实验显示效率提升达40%，同时保持或提高准确率
 
 ## 摘要（原文）
 

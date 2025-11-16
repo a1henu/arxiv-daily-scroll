@@ -7,14 +7,14 @@ title: MSGNav: Unleashing the Power of Multi-modal 3D Scene Graph for Zero-Shot 
 **arXiv**：[2511.10376v1](https://arxiv.org/abs/2511.10376) · [PDF](https://arxiv.org/pdf/2511.10376.pdf)  
 **作者**：Xun Huang, Shijia Zhao, Yunxiang Wang, Xin Lu, Wanfa Zhang, Rongsheng Qu, Weixin Li, Yunhong Wang, Chenglu Wen  
 
-**一句话要点**：提出多模态3D场景图MSGNav以解决零样本具身导航中的视觉信息丢失问题
+**一句话要点**：提出多模态3D场景图MSGNav以解决零样本具身导航中的视觉信息损失问题
 
-**关键词**：多模态3D场景图, 零样本具身导航, 开放词汇支持, 视觉推理, 闭环推理, 可见性决策
+**关键词**：多模态3D场景图, 零样本具身导航, 开放词汇支持, 视觉线索保留, 闭环推理
 
 ## 3 点简述
-- 核心问题：现有零样本方法将视觉观察压缩为文本关系，导致高构建成本、视觉证据丢失和词汇受限
-- 方法要点：引入多模态3D场景图，保留视觉线索，并设计模块支持高效推理和开放词汇
-- 实验或效果：在GOAT-Bench和HM3D-OVON数据集上实现最先进性能，代码将开源
+- 核心问题：现有零样本方法将视觉观察压缩为文本关系，导致高成本、视觉证据丢失和词汇受限。
+- 方法要点：引入多模态3D场景图，用动态分配图像替换文本边，保留视觉线索，提升导航精度。
+- 实验效果：在GOAT-Bench和HM3D-OVON数据集上实现最先进性能，支持开放词汇和低训练开销。
 
 ## 摘要（原文）
 

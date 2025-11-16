@@ -7,14 +7,14 @@ title: Audio-VLA: Adding Contact Audio Perception to Vision-Language-Action Mode
 **arXiv**：[2511.09958v1](https://arxiv.org/abs/2511.09958) · [PDF](https://arxiv.org/pdf/2511.09958.pdf)  
 **作者**：Xiangyi Wei, Haotian Zhang, Xinyi Cao, Siyu Xie, Weifeng Ge, Yang Li, Changbo Wang  
 
-**一句话要点**：提出Audio-VLA模型，利用接触音频增强机器人操作中的动态过程感知
+**一句话要点**：提出Audio-VLA模型，利用接触音频增强机器人操作中的动态过程感知。
 
 **关键词**：机器人操作, 多模态学习, 接触音频感知, 动态过程评估, 跨模态对齐, LoRA微调
 
 ## 3 点简述
-- 视觉-语言-动作模型在感知交互和动态过程方面存在局限
-- 融合视觉和音频模态，使用预训练模型和LoRA微调实现跨模态理解
-- 在仿真和真实任务中优于纯视觉方法，并引入TCR指标评估动态过程
+- 视觉-语言-动作模型在感知交互动态过程方面存在局限。
+- 融合视觉与音频模态，采用预训练模型和LoRA微调实现跨模态理解。
+- 在仿真和真实任务中表现优于纯视觉方法，并引入TCR指标评估动态过程。
 
 ## 摘要（原文）
 

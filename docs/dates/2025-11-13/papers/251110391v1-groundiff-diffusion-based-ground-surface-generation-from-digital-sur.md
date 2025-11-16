@@ -7,14 +7,14 @@ title: GrounDiff: Diffusion-Based Ground Surface Generation from Digital Surface
 **arXiv**：[2511.10391v1](https://arxiv.org/abs/2511.10391) · [PDF](https://arxiv.org/pdf/2511.10391.pdf)  
 **作者**：Oussema Dhaouadi, Johannes Meier, Jacques Kaiser, Daniel Cremers  
 
-**一句话要点**：提出GrounDiff扩散模型从数字表面模型生成地面，提升精度与平滑度
+**一句话要点**：提出GrounDiff扩散模型从数字表面模型生成地面表面
 
 **关键词**：数字地形模型生成, 扩散模型, 地面表面重建, 深度学习, 遥感数据处理
 
 ## 3 点简述
-- 核心问题：数字地形模型无法直接测量，需从数字表面模型去除非地面结构
-- 方法要点：基于扩散模型迭代去噪，引入门控设计和先验引导拼接提高可扩展性
-- 实验或效果：在多个基准测试中RMSE降低达93%，道路重建误差减少81%
+- 核心问题：数字地形模型无法直接测量，需从数字表面模型生成，传统方法依赖手动调参。
+- 方法要点：基于扩散模型迭代去除非地面结构，引入门控设计和置信引导生成。
+- 实验效果：在多个数据集上优于深度学习方法，RMSE降低最高达93%。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: RoboBenchMart: Benchmarking Robots in Retail Environment
 **arXiv**：[2511.10276v1](https://arxiv.org/abs/2511.10276) · [PDF](https://arxiv.org/pdf/2511.10276.pdf)  
 **作者**：Konstantin Soshin, Alexander Krapukhin, Andrei Spiridonov, Denis Shepelev, Gregorii Bukhtuev, Andrey Kuznetsov, Vlad Shakhuro  
 
-**一句话要点**：提出RoboBenchMart基准以解决零售环境中机器人操作的挑战
+**一句话要点**：提出RoboBenchMart基准以解决零售环境中机器人复杂操作任务
 
-**关键词**：机器人操作基准, 零售环境, 暗店自动化, 物品密集场景, 轨迹生成
+**关键词**：机器人操作基准, 零售自动化, 暗店环境, 物品杂乱处理, 轨迹生成, 评估工具
 
 ## 3 点简述
-- 现有基准多关注简化桌面场景，缺乏真实零售环境的复杂性
-- 引入针对暗店的基准，包含密集物品和多样空间配置
-- 展示当前先进模型在常见零售任务中表现不佳，并发布工具套件
+- 现有机器人基准局限于简化桌面场景，缺乏真实零售环境挑战
+- 引入针对暗店的基准，包含密集物品杂乱和多样空间配置
+- 发布工具套件，包括布局生成器和基线模型，支持研究评估
 
 ## 摘要（原文）
 

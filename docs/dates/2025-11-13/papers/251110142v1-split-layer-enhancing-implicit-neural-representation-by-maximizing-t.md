@@ -9,12 +9,12 @@ title: Split-Layer: Enhancing Implicit Neural Representation by Maximizing the D
 
 **一句话要点**：提出Split-Layer以增强隐式神经表示，通过扩展特征空间维度提升性能
 
-**关键词**：隐式神经表示, 多层感知机, 特征空间扩展, Hadamard积, 多项式空间, 计算效率
+**关键词**：隐式神经表示, 多层感知机, 特征空间扩展, Hadamard积, 多项式空间, 逆问题优化
 
 ## 3 点简述
 - 隐式神经表示受限于传统MLP低维特征空间，导致表示能力不足
 - Split-Layer将层拆分为并行分支，通过Hadamard积构建高次多项式空间
-- 实验显示在图像拟合、CT重建等任务中性能优于现有方法，计算开销低
+- 实验显示在图像拟合、CT重建等任务中性能优于现有方法，计算成本可控
 
 ## 摘要（原文）
 

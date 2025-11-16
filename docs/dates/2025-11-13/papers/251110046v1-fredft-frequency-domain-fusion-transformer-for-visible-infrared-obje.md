@@ -7,14 +7,14 @@ title: FreDFT: Frequency Domain Fusion Transformer for Visible-Infrared Object D
 **arXiv**：[2511.10046v1](https://arxiv.org/abs/2511.10046) · [PDF](https://arxiv.org/pdf/2511.10046.pdf)  
 **作者**：Wencong Wu, Xiuwei Zhang, Hanlin Yin, Shun Dai, Hongxi Zhang, Yanning Zhang  
 
-**一句话要点**：提出频率域融合Transformer以解决可见光-红外目标检测中的信息不平衡问题
+**一句话要点**：提出FreDFT频率域融合Transformer以解决可见光-红外目标检测中的信息不平衡问题
 
-**关键词**：可见光-红外目标检测, 频率域Transformer, 多模态融合, 注意力机制, 特征增强
+**关键词**：可见光-红外目标检测, 频率域Transformer, 跨模态融合, 多模态注意力, 目标检测算法
 
 ## 3 点简述
-- 核心问题：可见光与红外模态在复杂场景中存在信息不平衡，导致跨模态融合不足。
-- 方法要点：使用多模态频率域注意力和频率域前馈层挖掘互补信息。
-- 实验或效果：在多个公共数据集上验证了优于现有方法的性能。
+- 核心问题：可见光和红外模态在复杂场景中存在信息不平衡，导致跨模态融合不足。
+- 方法要点：使用频率域注意力挖掘互补信息，并设计空间-通道交互模块消除不平衡。
+- 实验或效果：在多个公共数据集上验证了优于现有方法的检测性能。
 
 ## 摘要（原文）
 

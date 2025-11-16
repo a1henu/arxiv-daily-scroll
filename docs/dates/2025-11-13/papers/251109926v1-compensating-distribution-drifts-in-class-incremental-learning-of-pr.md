@@ -7,14 +7,14 @@ title: Compensating Distribution Drifts in Class-incremental Learning of Pre-tra
 **arXiv**：[2511.09926v1](https://arxiv.org/abs/2511.09926) · [PDF](https://arxiv.org/pdf/2511.09926.pdf)  
 **作者**：Xuan Rao, Simian Xu, Zheng Li, Bo Zhao, Derong Liu, Mingming Ha, Cesare Alippi  
 
-**一句话要点**：提出SLDC方法以补偿类增量学习中的分布漂移
+**一句话要点**：提出SLDC方法以补偿类增量学习中预训练ViT的分布漂移
 
-**关键词**：类增量学习, 分布漂移补偿, 知识蒸馏, 序列微调, 特征对齐
+**关键词**：类增量学习, 分布漂移补偿, 知识蒸馏, 预训练视觉Transformer, 特征对齐
 
 ## 3 点简述
-- 核心问题：序列微调导致特征分布漂移，影响分类器性能
-- 方法要点：引入线性与弱非线性算子对齐特征分布，结合知识蒸馏
-- 实验或效果：在标准基准上显著提升性能，接近联合训练效果
+- 核心问题：SeqFT导致特征分布漂移，影响分类器性能
+- 方法要点：引入线性与弱非线性变换算子对齐特征分布
+- 实验或效果：结合知识蒸馏，性能接近联合训练
 
 ## 摘要（原文）
 

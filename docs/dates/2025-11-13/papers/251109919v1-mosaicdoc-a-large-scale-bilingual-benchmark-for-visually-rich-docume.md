@@ -9,7 +9,7 @@ title: MosaicDoc: A Large-Scale Bilingual Benchmark for Visually Rich Document U
 
 **一句话要点**：提出MosaicDoc双语基准以解决视觉丰富文档理解评估不足问题
 
-**关键词**：视觉丰富文档理解, 双语基准, 多任务标注, 自动生成, 复杂布局
+**关键词**：视觉丰富文档理解, 双语基准, 多任务标注, 自动生成, 复杂布局, 视觉语言模型
 
 ## 3 点简述
 - 现有基准多为英语、布局简单，无法评估复杂文档理解能力

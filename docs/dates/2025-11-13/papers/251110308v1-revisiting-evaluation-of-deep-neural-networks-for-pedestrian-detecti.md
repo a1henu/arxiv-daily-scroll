@@ -7,14 +7,14 @@ title: Revisiting Evaluation of Deep Neural Networks for Pedestrian Detection
 **arXiv**：[2511.10308v1](https://arxiv.org/abs/2511.10308) · [PDF](https://arxiv.org/pdf/2511.10308.pdf)  
 **作者**：Patrick Feifel, Benedikt Franke, Frank Bonarens, Frank Köster, Arne Raulf, Friedhelm Schwenker  
 
-**一句话要点**：提出基于图像分割的八类错误指标，以改进行人检测模型的细粒度评估。
+**一句话要点**：提出基于图像分割的错误分类和新指标，以改进行人检测评估
 
-**关键词**：行人检测, 模型评估, 图像分割, 错误分类, 自动驾驶, 性能指标
+**关键词**：行人检测, 评估指标, 图像分割, 错误分类, 深度神经网络, 自动驾驶
 
 ## 3 点简述
-- 当前行人检测评估指标存在缺陷，无法真实反映模型性能。
-- 利用图像分割自动区分错误类型，定义八类新指标进行模型比较。
-- 在CityPersons数据集上实现SOTA，展示更安全关键的性能评估方法。
+- 当前行人检测评估指标存在缺陷，无法真实反映深度神经网络性能
+- 利用图像分割自动区分八种错误类型，并设计新指标进行模型比较
+- 在CityPersons数据集上实现SOTA，展示更细粒度和安全关键性能评估
 
 ## 摘要（原文）
 

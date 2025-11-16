@@ -12,9 +12,9 @@ title: SAM-DAQ: Segment Anything Model with Depth-guided Adaptive Queries for RG
 **关键词**：RGB-D视频显著目标检测, Segment Anything模型, 深度引导适配器, 查询驱动时序内存, 多模态特征融合
 
 ## 3 点简述
-- 核心问题：SAM在RGB-D视频显著目标检测中依赖手动提示、内存消耗高且计算负担重
+- 核心问题：SAM直接用于RGB-D视频显著目标检测时依赖手动提示、内存消耗高且计算负担重
 - 方法要点：使用深度引导并行适配器和查询驱动时序内存模块集成深度与时间线索
-- 实验或效果：在三个数据集上实验显示，SAM-DAQ在各项指标上优于现有方法
+- 实验或效果：在三个RGB-D VSOD数据集上实验，所有评估指标均优于现有方法
 
 ## 摘要（原文）
 

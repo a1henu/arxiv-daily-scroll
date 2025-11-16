@@ -7,14 +7,14 @@ title: From 2D to 3D Without Extra Baggage: Data-Efficient Cancer Detection in D
 **arXiv**：[2511.10597v1](https://arxiv.org/abs/2511.10597) · [PDF](https://arxiv.org/pdf/2511.10597.pdf)  
 **作者**：Yen Nhi Truong Vu, Dan Guo, Sripad Joshi, Harshit Kumar, Jason Su, Thomas Paul Matthews  
 
-**一句话要点**：提出M&M-3D架构，在数据稀缺的DBT中实现高效3D推理。
+**一句话要点**：提出M&M-3D架构，实现数据高效3D推理以改进数字乳腺断层合成癌症检测
 
-**关键词**：数字乳腺断层合成, 3D推理, 数据高效学习, 乳腺癌检测, 模型迁移
+**关键词**：数字乳腺断层合成, 3D推理, 数据高效学习, 癌症检测, 参数迁移
 
 ## 3 点简述
-- DBT数据稀缺限制深度学习模型发展，现有方法丢弃体积信息或需更多数据。
-- M&M-3D通过可学习3D特征混合切片信息，无参数增加，支持FFDM权重迁移。
-- 实验显示M&M-3D在定位和分类任务中优于2D和3D方法，尤其在低数据场景。
+- 核心问题：数字乳腺断层合成中标注数据稀缺，现有方法丢弃体积信息或需大量数据
+- 方法要点：M&M-3D通过混合3D特征与切片信息实现可学习3D推理，无需额外参数
+- 实验或效果：在低数据下优于基线方法，分类和定位性能提升2-54%
 
 ## 摘要（原文）
 
