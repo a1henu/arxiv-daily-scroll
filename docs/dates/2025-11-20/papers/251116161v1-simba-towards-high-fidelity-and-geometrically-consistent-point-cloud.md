@@ -7,14 +7,14 @@ title: Simba: Towards High-Fidelity and Geometrically-Consistent Point Cloud Com
 **arXiv**：[2511.16161v1](https://arxiv.org/abs/2511.16161) · [PDF](https://arxiv.org/pdf/2511.16161.pdf)  
 **作者**：Lirui Zhang, Zhengkai Zhao, Zhi Zuo, Pan Gao, Jie Qin  
 
-**一句话要点**：提出Simba框架，通过变换扩散解决点云补全中细节保留与结构完整性问题
+**一句话要点**：提出Simba框架，通过变换扩散解决点云补全中细节保留与结构一致性问题
 
-**关键词**：点云补全, 扩散模型, 几何一致性, Mamba架构, 对称先验
+**关键词**：点云补全, 变换扩散, 对称先验, Mamba架构, 分布学习
 
 ## 3 点简述
-- 核心问题：回归方法易过拟合和噪声敏感，难以平衡细节与全局结构
-- 方法要点：将点变换回归转为分布学习，结合对称先验与扩散模型
-- 实验效果：在PCN等基准上验证SOTA性能，提升鲁棒性和泛化能力
+- 核心问题：回归方法易过拟合且对输入噪声敏感，影响点云补全的鲁棒性和泛化性
+- 方法要点：将点变换回归重构为分布学习，结合对称先验与扩散模型生成能力
+- 实验或效果：在PCN、ShapeNet和KITTI基准上验证了SOTA性能
 
 ## 摘要（原文）
 

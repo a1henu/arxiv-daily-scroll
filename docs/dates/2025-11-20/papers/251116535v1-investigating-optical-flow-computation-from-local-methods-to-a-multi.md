@@ -12,9 +12,9 @@ title: Investigating Optical Flow Computation: From Local Methods to a Multireso
 **关键词**：光流计算, Horn-Schunck算法, 多分辨率方法, 双线性插值, 运动估计
 
 ## 3 点简述
-- 核心问题：光流计算在变化图像条件下估计帧间运动
-- 方法要点：分析局部与全局方法，实现多分辨率Horn-Schunck算法
-- 实验或效果：使用双线性插值和延长操作改进准确性和收敛性
+- 核心问题：光流计算在图像条件变化下的运动估计准确性
+- 方法要点：比较局部与全局方法，实现多分辨率Horn-Schunck算法
+- 实验或效果：使用双线性插值和延长操作改善收敛与精度
 
 ## 摘要（原文）
 

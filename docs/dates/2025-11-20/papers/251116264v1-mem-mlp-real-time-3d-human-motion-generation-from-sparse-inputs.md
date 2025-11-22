@@ -14,7 +14,7 @@ title: Mem-MLP: Real-Time 3D Human Motion Generation from Sparse Inputs
 ## 3 点简述
 - 核心问题：AR/VR中仅跟踪头手导致3D全身运动重建不完整。
 - 方法要点：使用MLP骨干，结合残差连接和Memory-Block处理缺失数据。
-- 实验效果：预测误差显著降低，在移动HMD上达72 FPS。
+- 实验效果：预测误差显著降低，在移动HMD上达到72 FPS。
 
 ## 摘要（原文）
 

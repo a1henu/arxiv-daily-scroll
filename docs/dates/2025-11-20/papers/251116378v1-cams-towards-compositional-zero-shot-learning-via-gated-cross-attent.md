@@ -7,14 +7,14 @@ title: CAMS: Towards Compositional Zero-Shot Learning via Gated Cross-Attention 
 **arXiv**：[2511.16378v1](https://arxiv.org/abs/2511.16378) · [PDF](https://arxiv.org/pdf/2511.16378.pdf)  
 **作者**：Pan Yang, Cheng Deng, Jing Yang, Han Zhao, Yun Liu, Yuling Chen, Xiaoli Ruan, Yanping Chen  
 
-**一句话要点**：提出CAMS方法以改进组合零样本学习中的语义解缠与泛化能力
+**一句话要点**：提出CAMS方法，通过门控交叉注意力和多空间解耦改进组合零样本学习
 
-**关键词**：组合零样本学习, 语义解缠, 门控交叉注意力, 多空间学习, CLIP模型
+**关键词**：组合零样本学习, 门控交叉注意力, 多空间解耦, 语义特征提取, CLIP模型, 泛化性能
 
 ## 3 点简述
-- 核心问题：CLIP全局语义表示在属性与对象解缠中能力有限，影响未见组合识别。
-- 方法要点：设计门控交叉注意力提取细粒度语义，并在多空间进行语义解缠。
-- 实验效果：在MIT-States等基准上，闭世界和开世界设置均达到最优性能。
+- 组合零样本学习旨在从已知属性-对象组合泛化到未知组合，但现有方法解耦能力有限
+- CAMS使用门控交叉注意力提取细粒度语义特征，并多空间解耦属性与对象语义
+- 在MIT-States等基准测试中，CAMS在封闭和开放世界设置下达到最先进性能
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: Acquisition Time-Informed Breast Tumor Segmentation from Dynamic Contrast
 **arXiv**：[2511.16498v1](https://arxiv.org/abs/2511.16498) · [PDF](https://arxiv.org/pdf/2511.16498.pdf)  
 **作者**：Rui Wang, Yuexi Du, John Lewin, R. Todd Constable, Nicha C. Dvornek  
 
-**一句话要点**：提出基于采集时间调制的乳腺肿瘤分割方法以提升DCE-MRI分割性能与泛化性
+**一句话要点**：提出基于采集时间调制的乳腺肿瘤分割方法以提升DCE-MRI分割性能与泛化能力
 
-**关键词**：乳腺肿瘤分割, 动态对比增强MRI, 特征调制, FiLM层, 多中心数据集, 模型泛化
+**关键词**：乳腺肿瘤分割, 动态对比增强MRI, 特征调制, 采集时间整合, 模型泛化, FiLM层
 
 ## 3 点简述
-- 核心问题：DCE-MRI中采集协议和个体差异导致组织外观变异，使自动肿瘤分割困难
-- 方法要点：利用采集时间通过FiLM层调制模型特征，适应不同序列
-- 实验或效果：在域内和域外数据集上验证，时间调制提升分割性能和泛化能力
+- 核心问题：DCE-MRI中采集协议和个体差异导致组织外观变化大，自动肿瘤分割困难
+- 方法要点：使用FiLM层整合图像采集时间，调制模型特征以适应不同采集序列
+- 实验或效果：在域内和域外数据集上验证，时间信息提升分割性能和模型泛化
 
 ## 摘要（原文）
 

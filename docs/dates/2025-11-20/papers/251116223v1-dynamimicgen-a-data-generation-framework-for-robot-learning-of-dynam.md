@@ -7,14 +7,14 @@ title: DynaMimicGen: A Data Generation Framework for Robot Learning of Dynamic T
 **arXiv**：[2511.16223v1](https://arxiv.org/abs/2511.16223) · [PDF](https://arxiv.org/pdf/2511.16223.pdf)  
 **作者**：Vincenzo Pomponi, Paolo Franceschi, Stefano Baraldo, Loris Roveda, Oliver Avram, Luca Maria Gambardella, Anna Valente  
 
-**一句话要点**：提出DynaMimicGen框架以解决动态环境中机器人学习数据不足问题
+**一句话要点**：提出DynaMimicGen框架以解决动态环境中机器人学习数据稀缺问题
 
-**关键词**：机器人学习, 动态任务, 数据生成, 模仿学习, 轨迹生成
+**关键词**：机器人学习, 数据生成, 动态运动基元, 模仿学习, 动态环境适应
 
 ## 3 点简述
-- 核心问题：动态环境下机器人学习需大量数据，人工收集困难且不切实际
-- 方法要点：基于少量演示，分割任务并使用动态运动基元生成适应动态变化的轨迹
-- 实验或效果：在长时程和接触丰富任务中，训练代理在动态变化下表现优异
+- 核心问题：动态环境下机器人学习需要大量数据，但人工收集困难且不切实际。
+- 方法要点：基于少量人类演示，分割任务并使用动态运动基元生成适应动态变化的轨迹。
+- 实验或效果：在长时程和接触丰富任务中，训练出的机器人代理在环境变化下表现优异。
 
 ## 摘要（原文）
 

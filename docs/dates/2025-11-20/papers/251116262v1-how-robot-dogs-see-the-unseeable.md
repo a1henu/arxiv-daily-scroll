@@ -7,14 +7,14 @@ title: How Robot Dogs See the Unseeable
 **arXiv**：[2511.16262v1](https://arxiv.org/abs/2511.16262) · [PDF](https://arxiv.org/pdf/2511.16262.pdf)  
 **作者**：Oliver Bimber, Karl Dietrich von Ellenrieder, Michael Haller, Rakesh John Amala Arokia Nathan, Gianni Lunardi, Marco Camurri, Mohamed Youssef, Santos Miguel Orozco Soto, Jeremy E. Niven  
 
-**一句话要点**：提出机器人摆动合成孔径感知以解决部分遮挡问题
+**一句话要点**：提出机器人摇摆运动实现合成孔径感知，以解决部分遮挡问题。
 
-**关键词**：合成孔径感知, 机器人视觉, 运动视差, 生物启发, 遮挡处理, 实时感知
+**关键词**：合成孔径感知, 机器人视觉, 运动视差, 部分遮挡, 生物启发方法, 实时感知
 
 ## 3 点简述
-- 核心问题：机器人视觉因小光圈和深景深导致前景遮挡物模糊背景信息
-- 方法要点：机器人模仿动物摆动运动，合成宽孔径图像，计算整合实现浅景深
-- 实验或效果：实时高分辨率感知，增强多模态模型在遮挡场景中的推理能力
+- 核心问题：机器人视觉中部分遮挡导致前景障碍物模糊背景信息。
+- 方法要点：通过机器人摇摆运动模拟宽合成孔径，计算合成浅景深图像。
+- 实验或效果：在实时高分辨率感知中有效模糊遮挡物，提升场景理解。
 
 ## 摘要（原文）
 

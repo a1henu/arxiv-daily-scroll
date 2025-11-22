@@ -7,14 +7,14 @@ title: Mantis: A Versatile Vision-Language-Action Model with Disentangled Visual
 **arXiv**：[2511.16175v1](https://arxiv.org/abs/2511.16175) · [PDF](https://arxiv.org/pdf/2511.16175.pdf)  
 **作者**：Yi Yang, Xueqi Li, Yiyang Chen, Jin Song, Yihan Wang, Zipeng Xiao, Jiadi Su, You Qiaoben, Pengfei Liu, Zhijie Deng  
 
-**一句话要点**：提出Mantis模型，通过解耦视觉预测解决VLA模型训练成本高与能力不足问题。
+**一句话要点**：提出Mantis框架以解决视觉-语言-动作模型中视觉预测与推理能力不足的问题
 
-**关键词**：视觉语言动作模型, 解耦视觉预测, 扩散Transformer, 元查询, 机器人操作, 语言监督
+**关键词**：视觉-语言-动作模型, 解耦视觉预测, 扩散Transformer, 元查询学习, 机器人操作, 指令跟随
 
 ## 3 点简述
-- 核心问题：VLA模型直接预测高维视觉状态导致训练成本高，压缩视觉信号引发信息瓶颈，且忽视语言监督影响理解能力。
-- 方法要点：引入解耦视觉预测，使用元查询和扩散Transformer头，结合残差连接自动捕获潜在动作以增强显式动作学习。
-- 实验或效果：在LIBERO基准上微调后成功率96.7%，超越基线，并在真实世界评估中优于π0.5模型。
+- 核心问题：现有VLA模型视觉状态预测分散模型能力，且语言监督不足导致推理能力弱
+- 方法要点：引入解耦视觉预测，使用元查询和扩散Transformer自动捕获潜在动作
+- 实验或效果：在LIBERO基准上达到96.7%成功率，优于基线模型并展示高泛化能力
 
 ## 摘要（原文）
 

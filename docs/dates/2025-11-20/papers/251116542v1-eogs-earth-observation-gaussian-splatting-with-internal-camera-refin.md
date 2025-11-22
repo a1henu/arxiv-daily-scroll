@@ -7,14 +7,14 @@ title: EOGS++: Earth Observation Gaussian Splatting with Internal Camera Refinem
 **arXiv**：[2511.16542v1](https://arxiv.org/abs/2511.16542) · [PDF](https://arxiv.org/pdf/2511.16542.pdf)  
 **作者**：Pierrick Bournez, Luca Savant Aira, Thibaud Ehret, Gabriele Facciolo  
 
-**一句话要点**：提出EOGS++以改进卫星图像三维重建，通过内部相机优化和直接全色渲染提升精度与效率。
+**一句话要点**：提出EOGS++方法，针对卫星图像实现高效三维重建与相机姿态优化
 
 **关键词**：地球观测, 高斯溅射, 相机姿态优化, 三维重建, 卫星图像处理
 
 ## 3 点简述
-- 核心问题：卫星图像三维重建依赖外部预处理和相机姿态估计，影响精度与效率。
-- 方法要点：引入内部相机优化和直接全色渲染，避免外部工具依赖。
-- 实验效果：在IARPA 2016和DFC2019数据集上，重建质量与效率优于现有方法。
+- 核心问题：卫星图像三维重建依赖外部预处理，相机姿态估计不精确
+- 方法要点：直接处理原始高分辨率全色数据，集成光流技术优化相机姿态
+- 实验效果：在IARPA 2016和DFC2019数据集上，重建质量和效率优于现有方法
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: InternData-A1: Pioneering High-Fidelity Synthetic Data for Pre-training G
 **arXiv**：[2511.16651v1](https://arxiv.org/abs/2511.16651) · [PDF](https://arxiv.org/pdf/2511.16651.pdf)  
 **作者**：Yang Tian, Yuyin Yang, Yiman Xie, Zetao Cai, Xu Shi, Ning Gao, Hangxu Liu, Xuekun Jiang, Zherui Qiu, Feng Yuan, Yaping Li, Ping Wang, Junhao Cai, Jia Zeng, Hao Dong, Jiangmiao Pang  
 
-**一句话要点**：提出InternData-A1合成数据集，用于预训练通用策略模型，匹配真实数据性能
+**一句话要点**：提出InternData-A1合成数据集，用于预训练通用视觉语言动作模型
 
-**关键词**：合成数据预训练, 视觉语言动作模型, 机器人仿真, 零样本迁移, 长时程技能组合, 异构体操作
+**关键词**：合成数据生成, 视觉语言动作模型, 机器人预训练, 零样本迁移, 大规模仿真
 
 ## 3 点简述
-- 核心问题：合成数据在VLA模型预训练中是否可媲美大规模真实数据
-- 方法要点：构建高保真合成数据集，覆盖多技能、任务和场景，采用自主组合仿真流程
-- 实验或效果：模型在仿真和真实任务中表现与π_0相当，实现零样本迁移
+- 核心问题：合成数据在视觉语言动作模型中是否可媲美真实数据预训练效果
+- 方法要点：构建大规模合成数据集，支持多技能、任务和场景的自主生成
+- 实验或效果：模型在仿真和真实任务中匹配最强基线，实现零样本迁移
 
 ## 摘要（原文）
 

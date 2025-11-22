@@ -7,13 +7,13 @@ title: Video2Layout: Recall and Reconstruct Metric-Grounded Cognitive Map for Sp
 **arXiv**：[2511.16160v1](https://arxiv.org/abs/2511.16160) · [PDF](https://arxiv.org/pdf/2511.16160.pdf)  
 **作者**：Yibin Huang, Wang Xu, Wanyue Zhang, Helu Zhi, Jingjing Huang, Yangbin Xu, Yangang Sun, Conghui Zhu, Tiejun Zhao  
 
-**一句话要点**：提出Video2Layout框架，通过连续边界坐标重建空间布局以解决细粒度空间推理问题
+**一句话要点**：提出Video2Layout框架，通过连续边界坐标重建度量空间布局以解决细粒度空间推理问题
 
-**关键词**：空间推理, 认知地图, 视频理解, 强化微调, 边界坐标, 多模态大语言模型
+**关键词**：空间推理, 认知地图, 视频理解, 度量布局, 强化微调, 边界坐标
 
 ## 3 点简述
-- 核心问题：现有网格认知地图依赖离散表示，限制细粒度空间推理能力
-- 方法要点：使用连续对象边界坐标量化物理距离和大小，增强定量空间计算
+- 核心问题：现有网格认知地图依赖离散栅格表示，限制细粒度空间推理能力
+- 方法要点：使用连续对象边界坐标量化物理距离和大小，结合监督和强化微调
 - 实验或效果：在QVS-Bench等基准上，V2LO-7B模型平均提升4.92%，验证方法优越性
 
 ## 摘要（原文）

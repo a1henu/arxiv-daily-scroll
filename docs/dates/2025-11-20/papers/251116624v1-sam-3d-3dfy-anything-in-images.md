@@ -7,14 +7,14 @@ title: SAM 3D: 3Dfy Anything in Images
 **arXiv**：[2511.16624v1](https://arxiv.org/abs/2511.16624) · [PDF](https://arxiv.org/pdf/2511.16624.pdf)  
 **作者**：SAM 3D Team, Xingyu Chen, Fu-Jen Chu, Pierre Gleize, Kevin J Liang, Alexander Sax, Hao Tang, Weiyao Wang, Michelle Guo, Thibaut Hardin, Xiang Li, Aohan Lin, Jiawei Liu, Ziqi Ma, Anushka Sagar, Bowen Song, Xiaodong Wang, Jianing Yang, Bowen Zhang, Piotr Dollár, Georgia Gkioxari, Matt Feiszli, Jitendra Malik  
 
-**一句话要点**：提出SAM 3D模型，从单张图像生成3D对象重建，适用于自然场景。
+**一句话要点**：提出SAM 3D生成模型，从单张图像预测3D几何、纹理和布局，适用于自然图像场景。
 
-**关键词**：3D对象重建, 单图像生成, 视觉基础数据, 多阶段训练, 自然场景处理
+**关键词**：3D物体重建, 生成模型, 单图像重建, 视觉基础数据, 多阶段训练, 自然图像处理
 
 ## 3 点简述
-- 核心问题：从单张图像重建3D对象，处理遮挡和场景杂乱。
-- 方法要点：结合人工和模型标注，大规模数据训练，多阶段框架。
-- 实验或效果：人类偏好测试胜率至少5:1，优于近期工作。
+- 核心问题：从单张图像进行3D物体重建，处理遮挡和场景杂乱问题。
+- 方法要点：采用人机协同标注和合成预训练与真实世界对齐的多阶段训练框架。
+- 实验或效果：在人类偏好测试中胜率至少5:1，并发布代码、模型和基准。
 
 ## 摘要（原文）
 

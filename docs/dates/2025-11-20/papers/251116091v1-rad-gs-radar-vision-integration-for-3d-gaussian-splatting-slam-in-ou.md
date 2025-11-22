@@ -7,14 +7,14 @@ title: Rad-GS: Radar-Vision Integration for 3D Gaussian Splatting SLAM in Outdoo
 **arXiv**：[2511.16091v1](https://arxiv.org/abs/2511.16091) · [PDF](https://arxiv.org/pdf/2511.16091.pdf)  
 **作者**：Renxiang Xiao, Wei Liu, Yuanfan Zhang, Yushuai Chen, Jinming Chen, Zilu Wang, Liang Hu  
 
-**一句话要点**：提出Rad-GS雷达-视觉SLAM系统，用于大规模户外环境3D重建
+**一句话要点**：提出Rad-GS雷达-视觉SLAM系统，用于大规模户外环境3D重建。
 
-**关键词**：雷达-视觉融合, 3D高斯溅射, 户外SLAM, 动态物体掩蔽, 大规模重建
+**关键词**：雷达-视觉融合, 3D高斯溅射, SLAM系统, 动态物体掩码, 大规模重建
 
 ## 3 点简述
-- 核心问题：户外大规模SLAM中动态物体导致渲染伪影和定位精度下降
-- 方法要点：结合雷达点云和多普勒信息，引导动态掩蔽，优化3D高斯表示
-- 实验或效果：在千米级真实环境中验证，性能媲美相机或LiDAR方法
+- 核心问题：户外大规模环境中动态物体导致渲染伪影和定位精度下降。
+- 方法要点：结合雷达点云和多普勒信息，引导动态物体掩码，优化3D高斯表示。
+- 实验或效果：在千米级真实环境中验证，性能媲美相机或LiDAR方法。
 
 ## 摘要（原文）
 

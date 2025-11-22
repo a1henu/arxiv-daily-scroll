@@ -12,9 +12,9 @@ title: Externally Validated Multi-Task Learning via Consistency Regularization U
 **关键词**：多任务学习, 一致性正则化, 乳腺超声分割, BI-RADS特征, 外部验证
 
 ## 3 点简述
-- 多任务学习存在破坏性任务干扰，限制模型泛化性能
+- 多任务学习存在破坏性任务干扰，导致泛化性能下降
 - 使用可微分BI-RADS特征进行一致性正则化，减轻分割与分类干扰
-- 外部验证显示分割性能显著提升，在UDIAT数据集达到先进水平
+- 在外部数据集验证中，分割性能显著优于基线，Dice系数提升明显
 
 ## 摘要（原文）
 

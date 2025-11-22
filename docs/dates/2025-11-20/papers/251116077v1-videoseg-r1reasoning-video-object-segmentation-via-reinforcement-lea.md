@@ -14,7 +14,7 @@ title: VideoSeg-R1:Reasoning Video Object Segmentation via Reinforcement Learnin
 ## 3 点简述
 - 传统方法依赖监督微调，泛化能力差且缺乏显式推理。
 - 采用解耦架构，结合参考图像分割与视频掩码传播，并引入任务难度感知机制。
-- 在多个基准测试中实现最先进性能，代码将公开。
+- 在多个基准测试中实现最先进性能，代码将开源。
 
 ## 摘要（原文）
 

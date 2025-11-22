@@ -7,14 +7,14 @@ title: Robot Metacognition: Decision Making with Confidence for Tool Invention
 **arXiv**：[2511.16390v1](https://arxiv.org/abs/2511.16390) · [PDF](https://arxiv.org/pdf/2511.16390.pdf)  
 **作者**：Ajith Anil Meera, Poppy Collis, Polina Arbuzova, Abián Torres, Paul F Kinghorn, Ricardo Sanz, Pablo Lanillos  
 
-**一句话要点**：提出基于置信度的机器人元认知架构，用于自主工具发明的决策。
+**一句话要点**：提出基于置信度的机器人元认知架构，用于自主工具发明决策。
 
 **关键词**：机器人元认知, 置信度决策, 自主工具发明, 自我监控, 神经科学启发
 
 ## 3 点简述
 - 核心问题：机器人缺乏自我监控能力，影响智能决策与行为调节。
-- 方法要点：借鉴神经科学，将置信度作为元认知度量，集成到决策方案中。
-- 实验或效果：在自主工具发明用例中，提升决策可靠性和部署鲁棒性。
+- 方法要点：从神经科学汲取灵感，将置信度作为元认知度量融入决策方案。
+- 实验或效果：在自主工具发明用例中展示，提升决策可靠性和部署鲁棒性。
 
 ## 摘要（原文）
 

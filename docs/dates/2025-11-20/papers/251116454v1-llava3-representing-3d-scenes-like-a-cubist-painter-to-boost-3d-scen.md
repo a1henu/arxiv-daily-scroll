@@ -14,7 +14,7 @@ title: LLaVA$^3$: Representing 3D Scenes like a Cubist Painter to Boost 3D Scene
 ## 3 点简述
 - 核心问题：3D场景理解因训练数据稀缺而受限，而2D数据丰富。
 - 方法要点：受立体主义启发，使用多视角重建生成全向视觉表示描述3D场景。
-- 实验或效果：在3D VQA和语言接地任务中优于现有2D方法，无需微调。
+- 实验或效果：在3D VQA和语言接地任务中优于现有2D VLM方法。
 
 ## 摘要（原文）
 

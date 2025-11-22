@@ -7,14 +7,14 @@ title: SpectralTrain: A Universal Framework for Hyperspectral Image Classificati
 **arXiv**：[2511.16084v1](https://arxiv.org/abs/2511.16084) · [PDF](https://arxiv.org/pdf/2511.16084.pdf)  
 **作者**：Meihua Zhou, Liping Yu, Jiawei Cai, Wai Kin Fung, Ruiguo Hu, Jiarui Zhao, Wenzhuo Liu, Nan Wan  
 
-**一句话要点**：提出SpectralTrain框架以解决高光谱图像分类中计算成本高的问题
+**一句话要点**：提出SpectralTrain框架以解决高光谱图像分类的计算效率问题
 
-**关键词**：高光谱图像分类, 课程学习, PCA降维, 训练效率优化, 遥感应用
+**关键词**：高光谱图像分类, 课程学习, PCA降维, 训练效率优化, 遥感应用, 架构无关框架
 
 ## 3 点简述
-- 高光谱图像分类面临大规模数据和计算密集型训练挑战，限制实际部署
-- 集成课程学习与PCA降维，逐步引入光谱复杂性，降低计算成本
-- 在多个数据集上验证，训练速度提升2-7倍，精度损失小，泛化性强
+- 高光谱图像分类面临大规模数据和计算密集型训练挑战
+- 集成课程学习与PCA降维，逐步引入光谱复杂性以提升学习效率
+- 在多个数据集上实现2-7倍训练加速，精度损失较小，泛化性强
 
 ## 摘要（原文）
 

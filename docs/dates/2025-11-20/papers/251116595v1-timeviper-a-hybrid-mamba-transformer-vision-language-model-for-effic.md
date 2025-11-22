@@ -7,14 +7,14 @@ title: TimeViper: A Hybrid Mamba-Transformer Vision-Language Model for Efficient
 **arXiv**：[2511.16595v1](https://arxiv.org/abs/2511.16595) · [PDF](https://arxiv.org/pdf/2511.16595.pdf)  
 **作者**：Boshen Xu, Zihan Xiao, Jiaze Li, Jianzhong Ju, Zhenbo Luo, Jian Luan, Qin Jin  
 
-**一句话要点**：提出TimeViper混合模型以高效处理长视频理解
+**一句话要点**：提出TimeViper混合Mamba-Transformer模型以高效处理长视频理解
 
-**关键词**：长视频理解, 混合模型, 令牌压缩, 状态空间模型, 多模态理解, 模型解释性
+**关键词**：长视频理解, 混合模型, 状态空间模型, 注意力机制, 令牌压缩, 多模态理解
 
 ## 3 点简述
 - 核心问题：长视频处理需高效架构与扩展时间上下文机制
-- 方法要点：结合Mamba状态空间模型与Transformer注意力，设计TransV模块压缩视觉令牌
-- 实验或效果：在多个基准测试中与先进模型竞争，可处理超万帧小时级视频
+- 方法要点：采用混合Mamba-Transformer骨干，结合状态空间模型效率与注意力机制表达力
+- 实验或效果：在多个基准测试中与先进模型竞争，支持处理超万帧小时级视频
 
 ## 摘要（原文）
 
