@@ -7,14 +7,14 @@ title: FastSurfer-CC: A robust, accurate, and comprehensive framework for corpus
 **arXiv**：[2511.16471v1](https://arxiv.org/abs/2511.16471) · [PDF](https://arxiv.org/pdf/2511.16471.pdf)  
 **作者**：Clemens Pollak, Kersten Diers, Santiago Estrada, David Kügler, Martin Reuter  
 
-**一句话要点**：提出FastSurfer-CC框架，实现胼胝体形态测量的自动化和全面分析。
+**一句话要点**：提出FastSurfer-CC框架以自动化胼胝体形态测量，用于脑老化和神经疾病研究。
 
 **关键词**：胼胝体分割, 脑形态测量, 自动化框架, 神经影像分析, 亨廷顿病研究
 
 ## 3 点简述
-- 核心问题：现有工具缺乏胼胝体分割和形态测量的自动化综合流程。
-- 方法要点：自动识别中矢状面、分割胼胝体和穹窿，并提取厚度和形状指标。
-- 实验或效果：在亨廷顿病研究中检测出优于现有方法的显著差异。
+- 核心问题：缺乏公开、全面的自动化胼胝体分割与分析工具。
+- 方法要点：自动识别中矢状面、分割胼胝体和穹窿，并提取形状指标。
+- 实验或效果：在亨廷顿病中检测到现有方法未发现的显著差异。
 
 ## 摘要（原文）
 

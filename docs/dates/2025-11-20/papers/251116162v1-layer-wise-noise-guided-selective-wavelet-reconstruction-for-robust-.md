@@ -7,14 +7,14 @@ title: Layer-wise Noise Guided Selective Wavelet Reconstruction for Robust Medic
 **arXiv**：[2511.16162v1](https://arxiv.org/abs/2511.16162) · [PDF](https://arxiv.org/pdf/2511.16162.pdf)  
 **作者**：Yuting Lu, Ziliang Wang, Weixin Xu, Wei Zhang, Yongqiang Zhao, Yang Yu, Xiaohong Zhang  
 
-**一句话要点**：提出层间噪声引导选择性小波重建以提升医学图像分割的鲁棒性
+**一句话要点**：提出层间噪声引导选择性小波重建以增强医学图像分割的鲁棒性
 
 **关键词**：医学图像分割, 鲁棒性增强, 小波重建, 频率适应, 对抗训练, 噪声注入
 
 ## 3 点简述
 - 医学图像分割模型在分布偏移和扰动下稳定性不足，主流对抗训练存在精度-鲁棒性权衡和高成本问题
 - 方法在训练中注入层间噪声学习频率偏置先验，通过选择性小波重建抑制噪声敏感频带并增强结构特征
-- 实验在CT和超声数据集上，结合或不结合对抗训练均提升干净指标并显著减少攻击下性能下降
+- 实验在CT和超声数据集上，结合或不结合对抗训练均提升干净指标并显著降低强攻击下的性能下降
 
 ## 摘要（原文）
 

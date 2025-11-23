@@ -7,14 +7,14 @@ title: Solving Spatial Supersensing Without Spatial Supersensing
 **arXiv**：[2511.16655v1](https://arxiv.org/abs/2511.16655) · [PDF](https://arxiv.org/pdf/2511.16655.pdf)  
 **作者**：Vishaal Udandarao, Shyamgopal Karthik, Surabhi S. Nath, Andreas Hochlehnert, Matthias Bethge, Ameya Prabhu  
 
-**一句话要点**：提出NoSense基线和VSC-Repeat测试，揭示VSI-Super基准未可靠衡量空间超感知
+**一句话要点**：分析Cambrian-S基准与推理方法，揭示其未可靠测量空间超感知
 
-**关键词**：视频世界模型, 空间超感知, 基准测试, 捷径启发式, 预测感知推理
+**关键词**：空间超感知, 视频基准评估, 推理方法分析, 捷径启发式, 长视频理解
 
 ## 3 点简述
-- 核心问题：VSI-Super基准可能无法有效评估空间超感知能力，存在捷径启发式
-- 方法要点：引入NoSense基线，仅用词袋SigLIP模型，无需时空结构；设计VSC-Repeat扰动测试
-- 实验或效果：NoSense在VSR基准达95%准确率；VSC-Repeat使Cambrian-S准确率从42%降至0%
+- 核心问题：当前VSI-Super基准可能无法有效评估空间超感知能力
+- 方法要点：提出NoSense基线，仅用词袋模型解决VSR；设计VSC-Repeat扰动测试
+- 实验或效果：NoSense在VSR达95%准确率；VSC-Repeat使Cambrian-S准确率降至0%
 
 ## 摘要（原文）
 

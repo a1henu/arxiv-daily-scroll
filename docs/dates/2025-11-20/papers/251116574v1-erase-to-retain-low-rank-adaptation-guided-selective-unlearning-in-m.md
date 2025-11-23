@@ -7,14 +7,14 @@ title: Erase to Retain: Low Rank Adaptation Guided Selective Unlearning in Medic
 **arXiv**：[2511.16574v1](https://arxiv.org/abs/2511.16574) · [PDF](https://arxiv.org/pdf/2511.16574.pdf)  
 **作者**：Nirjhor Datta, Md. Golam Rabiul Alam  
 
-**一句话要点**：提出Erase to Retain框架，通过低秩适应实现医学分割网络的选择性遗忘
+**一句话要点**：提出Erase to Retain框架，用于医学分割网络的选择性遗忘以实现隐私合规。
 
-**关键词**：医学图像分割, 选择性遗忘, 低秩适应, 蒸馏训练, 隐私合规
+**关键词**：医学图像分割, 选择性遗忘, 低秩适应, 蒸馏训练, 隐私合规, 子空间更新
 
 ## 3 点简述
-- 核心问题：医学分割网络需选择性移除知识以符合隐私和伦理要求
-- 方法要点：使用教师-学生蒸馏和LoRA约束子空间更新，实现可控遗忘
-- 实验或效果：在ISIC和CHASE数据集上，有效降低遗忘集性能，保持保留集性能
+- 核心问题：医学分割网络需选择性移除知识以符合隐私和伦理要求。
+- 方法要点：使用教师-学生蒸馏与LoRA约束子空间更新，实现可控遗忘。
+- 实验效果：在ISIC和CHASE数据集上，有效降低遗忘集性能，同时保持保留集性能。
 
 ## 摘要（原文）
 

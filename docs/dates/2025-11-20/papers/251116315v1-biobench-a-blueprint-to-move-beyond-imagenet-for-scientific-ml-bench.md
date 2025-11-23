@@ -9,12 +9,12 @@ title: BioBench: A Blueprint to Move Beyond ImageNet for Scientific ML Benchmark
 
 **一句话要点**：提出BioBench基准以解决ImageNet在科学图像评估中的不足
 
-**关键词**：生态视觉基准, 科学机器学习, 图像分类评估, 多模态数据集, 模型转移性能
+**关键词**：生态视觉基准, 图像分类评估, 科学机器学习, 多模态数据集, 模型转移性能
 
 ## 3 点简述
-- ImageNet线性探针精度无法预测科学图像任务性能，方差解释率仅34%
-- BioBench整合9个生态任务、4个生物界、6种采集模态，共310万图像
-- 提供Python API快速评估，ViT-L模型在A6000 GPU上6小时完成测试
+- ImageNet-1K线性探针准确率在科学图像任务中预测性能差，方差解释仅34%
+- BioBench整合9个生态任务、4个分类界和6种采集模态，提供统一评估API
+- 在A6000 GPU上6小时完成ViT-L模型评估，提供类平衡宏F1等指标
 
 ## 摘要（原文）
 

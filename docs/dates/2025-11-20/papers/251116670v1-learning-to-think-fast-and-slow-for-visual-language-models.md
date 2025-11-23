@@ -7,14 +7,14 @@ title: Learning to Think Fast and Slow for Visual Language Models
 **arXiv**：[2511.16670v1](https://arxiv.org/abs/2511.16670) · [PDF](https://arxiv.org/pdf/2511.16670.pdf)  
 **作者**：Chenyu Lin, Cheng Chi, Jinlin Wu, Sharon Li, Kaiyang Zhou  
 
-**一句话要点**：提出双模式思考方法以优化视觉语言模型的推理效率
+**一句话要点**：提出双模式思考方法以提升视觉语言模型的推理效率
 
-**关键词**：视觉语言模型, 强化学习, 双模式思考, 推理效率, GRPO训练
+**关键词**：视觉语言模型, 强化学习, 双模式思考, 推理效率, 令牌优化
 
 ## 3 点简述
 - 现有视觉语言模型推理链冗长，导致计算成本过高
-- 基于输出长度标注数据，使用GRPO训练模型自动切换快慢思考模式
-- 模型性能媲美先进方法，同时显著提升token效率
+- 使用强化学习训练模型根据问题难度自动切换快慢思考模式
+- 模型性能媲美先进方法，同时显著提高令牌效率
 
 ## 摘要（原文）
 

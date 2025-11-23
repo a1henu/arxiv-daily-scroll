@@ -12,9 +12,9 @@ title: InEKFormer: A Hybrid State Estimator for Humanoid Robots
 **关键词**：人形机器人, 状态估计, 混合方法, Transformer网络, 不变扩展卡尔曼滤波
 
 ## 3 点简述
-- 核心问题：人形机器人在不同环境中双足运动稳定性不足，状态估计需快速准确反馈
-- 方法要点：结合不变扩展卡尔曼滤波和Transformer网络，构建混合状态估计器
-- 实验或效果：在RH5机器人数据集上优于InEKF和KalmanNet，显示Transformer潜力但需稳健训练
+- 核心问题：人形机器人在不同环境中双足运动难以实现稳定动态控制
+- 方法要点：结合不变扩展卡尔曼滤波与Transformer网络进行状态估计
+- 实验或效果：在RH5机器人数据集上优于InEKF和KalmanNet，显示Transformer潜力
 
 ## 摘要（原文）
 

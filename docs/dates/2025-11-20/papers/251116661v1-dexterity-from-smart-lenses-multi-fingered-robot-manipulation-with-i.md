@@ -7,14 +7,14 @@ title: Dexterity from Smart Lenses: Multi-Fingered Robot Manipulation with In-th
 **arXiv**：[2511.16661v1](https://arxiv.org/abs/2511.16661) · [PDF](https://arxiv.org/pdf/2511.16661.pdf)  
 **作者**：Irmak Guzey, Haozhi Qi, Julen Urain, Changhao Wang, Jessica Yin, Krishna Bodduluri, Mike Lambeta, Lerrel Pinto, Akshara Rai, Jitendra Malik, Tingfan Wu, Akash Sharma, Homanga Bharadhwaj  
 
-**一句话要点**：提出AINA框架，从智能眼镜采集的人类演示中学习多指机器人操作策略
+**一句话要点**：提出AINA框架，从野外人类演示学习多指机器人操作策略
 
-**关键词**：多指机器人操作, 人类演示学习, 智能眼镜数据采集, 3D点策略, 野外视频学习, 机器人策略泛化
+**关键词**：机器人操作学习, 多指手策略, 野外人类演示, 3D点云策略, Aria眼镜数据收集
 
 ## 3 点简述
-- 核心问题：人类与机器人间的具身差距及从野外视频提取运动线索的困难阻碍了机器人策略学习
-- 方法要点：使用Aria Gen 2眼镜采集数据，学习基于3D点的多指手策略，无需机器人数据
-- 实验或效果：在九个日常操作任务中验证，策略对背景变化鲁棒，可直接部署
+- 核心问题：人类与机器人间的具身差距及野外视频中运动线索提取困难
+- 方法要点：使用Aria Gen 2眼镜收集数据，学习基于3D点的多指策略
+- 实验或效果：在九个日常任务中验证，无需机器人数据直接部署
 
 ## 摘要（原文）
 

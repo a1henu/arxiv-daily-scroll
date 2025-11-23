@@ -7,14 +7,14 @@ title: A Spatial Semantics and Continuity Perception Attention for Remote Sensin
 **arXiv**：[2511.16143v1](https://arxiv.org/abs/2511.16143) · [PDF](https://arxiv.org/pdf/2511.16143.pdf)  
 **作者**：Quanqing Ma, Jiaen Chen, Peng Wang, Yao Zheng, Qingzhan Zhao, Yuchen Zheng  
 
-**一句话要点**：提出SSCP注意力模块和HSRW-CD数据集以解决遥感水体变化检测中空间语义与结构利用不足的问题
+**一句话要点**：提出SSCP注意力模块和HSRW-CD数据集以提升遥感水体变化检测精度
 
-**关键词**：遥感水体变化检测, 空间语义注意力, 结构连续性感知, 高分辨率数据集, 深度学习模块, 变化检测网络
+**关键词**：遥感水体变化检测, 空间语义注意力, 高分辨率数据集, 深度学习模型, 变化检测网络
 
 ## 3 点简述
-- 核心问题：高分辨率数据集稀缺，现有方法未充分利用深度特征的空间语义与结构信息
-- 方法要点：设计SSCP模块，集成多语义空间、结构关系全局和通道自注意力，提升水体特征判别力
-- 实验或效果：在HSRW-CD和Water-CD数据集上验证SSCP的有效性和泛化性，代码与数据集开源
+- 核心问题：高分辨率遥感水体变化检测数据集稀缺，现有方法未充分利用空间语义和结构信息。
+- 方法要点：设计SSCP模块，集成多语义空间、结构关系和通道自注意力，增强特征判别能力。
+- 实验或效果：在HSRW-CD和Water-CD数据集上验证，SSCP模块有效且泛化性强。
 
 ## 摘要（原文）
 

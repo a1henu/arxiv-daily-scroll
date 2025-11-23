@@ -7,9 +7,9 @@ title: T2T-VICL: Unlocking the Boundaries of Cross-Task Visual In-Context Learni
 **arXiv**：[2511.16107v1](https://arxiv.org/abs/2511.16107) · [PDF](https://arxiv.org/pdf/2511.16107.pdf)  
 **作者**：Shao-Jun Xia, Huixin Zhang, Zhengzhong Tu  
 
-**一句话要点**：提出T2T-VICL以探索视觉语言模型在跨任务视觉上下文学习中的潜力
+**一句话要点**：提出T2T-VICL以解决视觉语言模型跨任务视觉上下文学习问题
 
-**关键词**：视觉上下文学习, 跨任务学习, 文本提示生成, 视觉语言模型, 推理框架
+**关键词**：视觉上下文学习, 跨任务学习, 视觉语言模型, 文本提示生成, 推理框架
 
 ## 3 点简述
 - 核心问题：视觉语言模型能否在不同视觉任务间实现上下文学习

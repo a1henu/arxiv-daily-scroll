@@ -13,8 +13,8 @@ title: Weakly Supervised Segmentation and Classification of Alpha-Synuclein Aggr
 
 ## 3 点简述
 - 核心问题：帕金森病中α-突触核蛋白聚集物的自动分割与分类，以理解其空间分布。
-- 方法要点：基于弱监督分割和ResNet50分类器，处理免疫组化全玻片图像。
-- 实验或效果：在区分Lewy体和神经突形态时，平衡准确率达到80%。
+- 方法要点：基于弱监督分割和ResNet50分类器，处理免疫组化标记变异。
+- 实验或效果：在PD和iLBD病例中，区分Lewy体和神经突形态，平衡准确率达80%。
 
 ## 摘要（原文）
 

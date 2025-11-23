@@ -13,7 +13,7 @@ title: Progressive Supernet Training for Efficient Visual Autoregressive Modelin
 
 ## 3 点简述
 - 视觉自回归模型多尺度生成因KV缓存累积导致高内存开销，限制部署
-- 基于尺度-深度不对称依赖，通过权重共享子网实现灵活深度调整
+- 利用尺度-深度非对称依赖，通过权重共享子网实现灵活深度调整
 - 实验显示VARiant在ImageNet上显著降低内存和加速，保持生成质量
 
 ## 摘要（原文）

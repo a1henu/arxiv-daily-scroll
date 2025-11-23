@@ -7,14 +7,14 @@ title: SurvAgent: Hierarchical CoT-Enhanced Case Banking and Dichotomy-Based Mul
 **arXiv**：[2511.16635v1](https://arxiv.org/abs/2511.16635) · [PDF](https://arxiv.org/pdf/2511.16635.pdf)  
 **作者**：Guolin Huang, Wenting Chen, Jiaqi Yang, Xinheng Lyu, Xiaoling Luo, Sen Yang, Xiaohan Xing, Linlin Shen  
 
-**一句话要点**：提出SurvAgent分层CoT增强多智能体系统，用于多模态生存预测以提升可解释性。
+**一句话要点**：提出SurvAgent分层多智能体系统以解决癌症生存预测中可解释性不足问题
 
-**关键词**：生存预测, 多智能体系统, 链式思维, 多模态数据, 可解释AI, 精准肿瘤学
+**关键词**：生存预测, 多智能体系统, 思维链增强, 多模态数据整合, 可解释人工智能, 精准肿瘤学
 
 ## 3 点简述
-- 现有生存分析方法缺乏透明度，难以整合多模态数据和利用历史案例经验。
-- 方法包括WSI-Gene CoT增强案例库构建和二分法多专家智能体推理。
-- 在五个TCGA队列实验中优于传统方法、专有MLLM和医疗智能体。
+- 现有生存分析方法缺乏透明度，难以整合多模态数据和利用历史案例经验
+- 采用分层思维链增强案例库构建和多专家代理推理，提升可解释性
+- 在五个TCGA队列实验中优于传统方法、专有大语言模型和医疗代理
 
 ## 摘要（原文）
 

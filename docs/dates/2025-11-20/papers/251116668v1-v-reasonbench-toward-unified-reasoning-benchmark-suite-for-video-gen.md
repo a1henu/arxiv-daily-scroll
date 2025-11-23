@@ -7,13 +7,13 @@ title: V-ReasonBench: Toward Unified Reasoning Benchmark Suite for Video Generat
 **arXiv**：[2511.16668v1](https://arxiv.org/abs/2511.16668) · [PDF](https://arxiv.org/pdf/2511.16668.pdf)  
 **作者**：Yang Luo, Xuanlei Zhao, Baijiong Lin, Lingting Zhu, Liyao Tang, Yuqi Liu, Ying-Cong Chen, Shengju Qian, Xin Wang, Yang You  
 
-**一句话要点**：提出V-ReasonBench基准以评估视频生成模型的推理能力
+**一句话要点**：提出V-ReasonBench基准以评估视频生成模型的统一推理能力
 
-**关键词**：视频推理基准, 多维度评估, 生成模型, 零样本推理, 幻觉分析
+**关键词**：视频推理基准, 多维度评估, 合成与真实数据, 答案可验证任务, 模型比较分析
 
 ## 3 点简述
 - 核心问题：视频生成模型缺乏系统推理评估，需可靠基准。
-- 方法要点：构建多维度基准，涵盖结构化、空间、模式和物理推理。
+- 方法要点：构建多维度基准，覆盖结构化、空间、模式和物理推理。
 - 实验或效果：评估六种模型，揭示推理维度差异和常见幻觉行为。
 
 ## 摘要（原文）

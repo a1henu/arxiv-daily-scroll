@@ -7,14 +7,14 @@ title: VLA-Pruner: Temporal-Aware Dual-Level Visual Token Pruning for Efficient 
 **arXiv**：[2511.16449v1](https://arxiv.org/abs/2511.16449) · [PDF](https://arxiv.org/pdf/2511.16449.pdf)  
 **作者**：Ziyan Liu, Yeqiu Chen, Hongyi Cai, Tao Lin, Shuo Yang, Zheng Liu, Bo Zhao  
 
-**一句话要点**：提出VLA-Pruner以解决视觉-语言-动作模型推理效率问题
+**一句话要点**：提出VLA-Pruner以解决视觉-语言-动作模型推理效率低的问题
 
 **关键词**：视觉-语言-动作模型, 令牌剪枝, 双级重要性, 机器人操作, 推理加速
 
 ## 3 点简述
 - 核心问题：现有视觉-语言模型剪枝方法忽略VLA模型的双系统特性，导致动作生成信息丢失。
 - 方法要点：采用双级重要性标准，结合语义级和动作级注意力，自适应保留关键视觉令牌。
-- 实验或效果：在多种VLA架构和机器人任务中实现高效推理，性能领先。
+- 实验或效果：在多种VLA架构和机器人任务中实现最优性能，提升推理效率。
 
 ## 摘要（原文）
 

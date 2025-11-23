@@ -7,14 +7,14 @@ title: Mem-MLP: Real-Time 3D Human Motion Generation from Sparse Inputs
 **arXiv**：[2511.16264v1](https://arxiv.org/abs/2511.16264) · [PDF](https://arxiv.org/pdf/2511.16264.pdf)  
 **作者**：Sinan Mutlu, Georgios F. Angelis, Savas Ozkan, Paul Wisbey, Anastasios Drosou, Mete Ozay  
 
-**一句话要点**：提出Mem-MLP方法，从稀疏输入实时生成3D人体运动，提升AR/VR沉浸感。
+**一句话要点**：提出Mem-MLP方法，从稀疏输入实时生成3D人体运动以提升AR/VR沉浸感
 
-**关键词**：3D人体运动生成, 稀疏输入处理, 实时推理, 多任务学习, AR/VR应用
+**关键词**：3D人体运动生成, 稀疏输入处理, 实时MLP模型, AR/VR应用, 多任务学习
 
 ## 3 点简述
-- 核心问题：AR/VR中仅跟踪头手导致3D全身运动重建不完整。
-- 方法要点：使用MLP骨干，结合残差连接和Memory-Block处理缺失数据。
-- 实验效果：预测误差显著降低，在移动HMD上达到72 FPS。
+- AR/VR中仅跟踪头手导致全身运动不完整，需从稀疏传感器数据生成完整运动
+- 方法基于MLP骨干，引入Memory-Block和残差连接，利用可训练码向量补全缺失数据
+- 实验显示预测误差显著降低，在移动HMD上达72 FPS，优化精度与运行时间权衡
 
 ## 摘要（原文）
 

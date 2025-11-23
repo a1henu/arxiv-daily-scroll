@@ -7,14 +7,14 @@ title: Target Refocusing via Attention Redistribution for Open-Vocabulary Semant
 **arXiv**：[2511.16170v1](https://arxiv.org/abs/2511.16170) · [PDF](https://arxiv.org/pdf/2511.16170.pdf)  
 **作者**：Jiahao Li, Yang Lu, Yachao Zhang, Yong Xie, Fangyong Wang, Yuan Xie, Yanyun Qu  
 
-**一句话要点**：提出ReFocusing CLIP以解决开放词汇语义分割中的注意力分散问题
+**一句话要点**：提出RF-CLIP以解决开放词汇语义分割中CLIP注意力分散问题
 
-**关键词**：开放词汇语义分割, 注意力机制, 多模态对齐, CLIP模型, 密集预测, 解释性分析
+**关键词**：开放词汇语义分割, 注意力机制, CLIP模型, 密集预测, 多模态对齐
 
 ## 3 点简述
-- 核心问题：CLIP在密集预测中注意力分散，资源从目标区域转向无关token。
-- 方法要点：通过训练无关方法重定向注意力，模拟人类分心-重聚焦行为。
-- 实验或效果：在八个基准测试中达到SOTA性能，保持高推理效率。
+- 核心问题：CLIP在密集预测中注意力分散，资源浪费于无关token
+- 方法要点：训练无关方法，重定向注意力至目标区域，提升对齐粒度
+- 实验或效果：在八个基准上实现SOTA性能，保持高效推理
 
 ## 摘要（原文）
 

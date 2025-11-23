@@ -7,14 +7,14 @@ title: Graph Neural Networks for Surgical Scene Segmentation
 **arXiv**：[2511.16430v1](https://arxiv.org/abs/2511.16430) · [PDF](https://arxiv.org/pdf/2511.16430.pdf)  
 **作者**：Yihan Li, Nikhil Churamani, Maria Robu, Imanol Luengo, Danail Stoyanov  
 
-**一句话要点**：提出图神经网络分割方法以提升腹腔镜手术场景的解剖结构识别精度
+**一句话要点**：提出图神经网络方法以提升手术场景分割的准确性和解剖一致性
 
-**关键词**：图神经网络, 手术场景分割, Vision Transformer, 长程依赖建模, 解剖结构识别
+**关键词**：图神经网络, 手术场景分割, Vision Transformer, 长程依赖建模, 解剖一致性
 
 ## 3 点简述
-- 核心问题：深度学习模型在遮挡、长程依赖和精细几何结构识别上存在困难
-- 方法要点：结合Vision Transformer编码器与图神经网络，建模空间关系
-- 实验或效果：在基准数据集上mIoU和mDice分别提升7-8%和6%
+- 核心问题：深度学习模型在遮挡、长程依赖和精细几何结构分割中表现不佳
+- 方法要点：结合Vision Transformer编码器和图神经网络，建模解剖区域空间关系
+- 实验或效果：在基准测试中mIoU和mDice分别提升7-8%和6%，改善稀有结构分割
 
 ## 摘要（原文）
 

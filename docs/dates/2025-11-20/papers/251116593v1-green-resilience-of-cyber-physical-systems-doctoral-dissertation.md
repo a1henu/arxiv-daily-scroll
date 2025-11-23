@@ -7,9 +7,9 @@ title: Green Resilience of Cyber-Physical Systems: Doctoral Dissertation
 **arXiv**：[2511.16593v1](https://arxiv.org/abs/2511.16593) · [PDF](https://arxiv.org/pdf/2511.16593.pdf)  
 **作者**：Diaeddin Rimawi  
 
-**一句话要点**：提出GResilience框架以平衡在线协作AI系统的绿色性与韧性
+**一句话要点**：提出GResilience框架以优化在线协作AI系统的绿色性与韧性平衡
 
-**关键词**：网络物理系统, 韧性建模, 绿色计算, 强化学习, 多目标优化, 协作AI
+**关键词**：网络物理系统, 在线协作AI, 绿色韧性, 多目标优化, 强化学习, 灾难性遗忘
 
 ## 3 点简述
 - 核心问题：在线协作AI系统在干扰事件中需平衡韧性恢复与能源影响。

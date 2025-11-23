@@ -13,8 +13,8 @@ title: Explainable AI for Diabetic Retinopathy Detection Using Deep Learning wit
 
 ## 3 点简述
 - 核心问题：杂草检测对精准农业至关重要，需准确识别物种以减少除草剂使用。
-- 方法要点：结合CNN、ViT和GNN，使用GAN增强和自监督预训练提升鲁棒性。
-- 实验效果：在多个数据集上达到99.33%准确率，支持实时边缘设备部署。
+- 方法要点：结合CNN、ViT和GNN，采用GAN增强和自监督预训练提升鲁棒性。
+- 实验或效果：在多个数据集上达到99.33%准确率，支持实时边缘设备部署。
 
 ## 摘要（原文）
 

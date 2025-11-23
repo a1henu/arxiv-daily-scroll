@@ -7,14 +7,14 @@ title: CRISTAL: Real-time Camera Registration in Static LiDAR Scans using Neural
 **arXiv**：[2511.16349v1](https://arxiv.org/abs/2511.16349) · [PDF](https://arxiv.org/pdf/2511.16349.pdf)  
 **作者**：Joni Vanherck, Steven Moonen, Brent Zoomers, Kobe Werner, Jeroen Put, Lode Jorissen, Nick Michiels  
 
-**一句话要点**：提出CRISTAL方法，在静态LiDAR点云中实现实时相机定位，解决漂移和尺度模糊问题。
+**一句话要点**：提出CRISTAL方法，在静态LiDAR扫描中实现实时相机注册，解决视觉定位漂移和尺度模糊问题。
 
-**关键词**：相机定位, 神经渲染, LiDAR点云, 实时跟踪, 2D-3D对应
+**关键词**：相机定位, 神经渲染, LiDAR点云, 实时跟踪, 特征匹配
 
 ## 3 点简述
-- 核心问题：现有视觉定位方法存在漂移、尺度模糊，依赖标记或闭环。
-- 方法要点：使用神经渲染合成视图，建立2D-3D对应，减少合成与真实图像差异。
-- 实验或效果：在ScanNet++数据集上优于现有SLAM，实现无漂移、正确尺度的跟踪。
+- 核心问题：视觉相机定位存在漂移、尺度模糊，依赖标记或闭环，影响机器人学和XR应用。
+- 方法要点：通过神经渲染合成视图，建立2D-3D对应，减少合成与真实图像差异，提升特征匹配。
+- 实验或效果：在ScanNet++数据集上优于现有SLAM，实现无漂移、正确尺度的实时跟踪。
 
 ## 摘要（原文）
 

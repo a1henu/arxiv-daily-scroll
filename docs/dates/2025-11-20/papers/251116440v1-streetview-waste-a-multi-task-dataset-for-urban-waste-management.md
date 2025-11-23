@@ -7,9 +7,9 @@ title: StreetView-Waste: A Multi-Task Dataset for Urban Waste Management
 **arXiv**：[2511.16440v1](https://arxiv.org/abs/2511.16440) · [PDF](https://arxiv.org/pdf/2511.16440.pdf)  
 **作者**：Diogo J. Paulo, João Martins, Hugo Proença, João C. Neves  
 
-**一句话要点**：提出StreetView-Waste数据集以解决城市垃圾管理中的多任务感知问题
+**一句话要点**：提出StreetView-Waste数据集以解决城市垃圾管理中的多任务视觉感知问题
 
-**关键词**：垃圾容器检测, 目标跟踪, 语义分割, 城市感知, 多任务学习, 几何先验
+**关键词**：垃圾容器检测, 目标跟踪, 语义分割, 城市视觉数据集, 几何先验, 启发式方法
 
 ## 3 点简述
 - 核心问题：现有垃圾检测数据集缺乏对溢出容器跟踪和动态场景的标注，限制实际应用。

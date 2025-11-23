@@ -7,14 +7,14 @@ title: Reasoning Guided Embeddings: Leveraging MLLM Reasoning for Improved Multi
 **arXiv**：[2511.16150v1](https://arxiv.org/abs/2511.16150) · [PDF](https://arxiv.org/pdf/2511.16150.pdf)  
 **作者**：Chunxu Liu, Jiyuan Yang, Ruopeng Gao, Yuhan Zhu, Feng Zhu, Rui Zhao, Limin Wang  
 
-**一句话要点**：提出推理引导嵌入方法，利用MLLM推理能力提升多模态检索性能
+**一句话要点**：提出推理引导嵌入方法，利用MLLM推理提升多模态检索性能
 
-**关键词**：多模态检索, 推理引导嵌入, MLLM推理, 对比训练, 嵌入质量提升
+**关键词**：多模态检索, 推理引导嵌入, MLLM应用, 对比训练, 嵌入质量提升
 
 ## 3 点简述
-- 核心问题：现有方法忽视MLLM的推理能力，影响多模态嵌入质量
-- 方法要点：结合结构化推理生成与对比训练，提取推理后表示
-- 实验效果：在MMEB基准上，多模态检索性能提升4.9%
+- 现有方法忽视MLLM的生成推理能力，影响多模态嵌入质量
+- 结合结构化推理生成与对比训练，增强嵌入中的上下文推理信号
+- 在MMEB基准上，多模态检索性能提升4.9%，验证推理有效性
 
 ## 摘要（原文）
 

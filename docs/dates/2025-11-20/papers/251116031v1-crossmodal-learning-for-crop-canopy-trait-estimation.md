@@ -7,14 +7,14 @@ title: Crossmodal learning for Crop Canopy Trait Estimation
 **arXiv**：[2511.16031v1](https://arxiv.org/abs/2511.16031) · [PDF](https://arxiv.org/pdf/2511.16031.pdf)  
 **作者**：Timilehin T. Ayanlade, Anirudha Powadi, Talukder Z. Jubery, Baskar Ganapathysubramanian, Soumik Sarkar  
 
-**一句话要点**：提出跨模态学习策略以增强卫星图像细节，用于作物冠层性状估计
+**一句话要点**：提出跨模态学习策略，利用卫星图像生成无人机级细节以估计作物冠层性状
 
-**关键词**：跨模态学习, 作物冠层性状估计, 卫星图像增强, UAV遥感, 农业监测
+**关键词**：跨模态学习, 作物冠层性状估计, 卫星图像增强, 无人机图像, 农业监测, 光谱空间对应
 
 ## 3 点简述
-- 卫星图像空间分辨率低，限制其在微地块农业管理中的应用
-- 利用配准的卫星-UAV图像对，学习模态间光谱空间对应关系
-- 生成UAV级图像在产量和氮预测任务中优于真实卫星数据
+- 卫星图像空间分辨率低，限制其在微地块管理农业中的应用
+- 方法学习卫星与无人机图像间的精细光谱空间对应关系
+- 生成图像在产量和氮预测任务中优于真实卫星图像
 
 ## 摘要（原文）
 

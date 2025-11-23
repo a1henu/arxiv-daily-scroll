@@ -7,14 +7,14 @@ title: DetailSemNet: Elevating Signature Verification through Detail-Semantic In
 **arXiv**：[2511.16364v1](https://arxiv.org/abs/2511.16364) · [PDF](https://arxiv.org/pdf/2511.16364.pdf)  
 **作者**：Meng-Cheng Shih, Tsai-Ling Huang, Yu-Heng Shih, Hong-Han Shuai, Hsuan-Tung Liu, Yi-Ren Yeh, Ching-Chun Huang  
 
-**一句话要点**：提出DetailSemNet以提升离线签名验证的准确性和可解释性
+**一句话要点**：提出DetailSemNet以提升离线签名验证的准确性和泛化性
 
-**关键词**：离线签名验证, 局部结构匹配, 特征解缠, Transformer架构, 泛化能力, 可解释性
+**关键词**：离线签名验证, 局部结构匹配, 特征解缠, 细节语义集成, 跨数据集泛化
 
 ## 3 点简述
-- 离线签名验证中，传统方法依赖整体特征，忽略细粒度差异影响鲁棒性。
-- 引入Detail Semantics Integrator，通过特征解缠和重缠增强局部细节和语义。
-- 在基准测试中实现SOTA性能，并展示优异的泛化能力和可解释性。
+- 离线签名验证中，传统方法依赖整体特征，忽略细粒度差异影响鲁棒性
+- 引入细节语义集成器，通过特征解缠与重缠增强局部结构匹配
+- 在基准测试中实现SOTA性能，并展示优异的跨数据集泛化能力
 
 ## 摘要（原文）
 

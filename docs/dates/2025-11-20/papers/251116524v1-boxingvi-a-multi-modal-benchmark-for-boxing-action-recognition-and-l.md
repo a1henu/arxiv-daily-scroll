@@ -7,14 +7,14 @@ title: BoxingVI: A Multi-Modal Benchmark for Boxing Action Recognition and Local
 **arXiv**：[2511.16524v1](https://arxiv.org/abs/2511.16524) · [PDF](https://arxiv.org/pdf/2511.16524.pdf)  
 **作者**：Rahul Kumar, Vipul Baghel, Sudhanshu Singh, Bikash Kumar Badatya, Shivam Yadav, Babji Srinivasan, Ravi Hegde  
 
-**一句话要点**：提出BoxingVI数据集以解决拳击动作识别在动态无约束环境中的瓶颈问题
+**一句话要点**：提出BoxingVI数据集以解决拳击动作识别在动态无约束环境中的数据集瓶颈问题
 
-**关键词**：拳击动作识别, 多模态数据集, 视频动作定位, 实时视觉分析, 运动性能评估
+**关键词**：拳击动作识别, 多模态基准, 视频数据集, 动作定位, 计算机视觉, 实时识别
 
 ## 3 点简述
-- 核心问题：动态无约束拳击动作和记录环境变化导致数据集开发困难
-- 方法要点：构建包含6,915个高质量拳击片段的多模态数据集，手动标注六种拳击类型
-- 实验或效果：支持实时视觉动作识别研究，促进拳击运动分析和自动化教练应用
+- 核心问题：动态无约束拳击动作识别缺乏鲁棒数据集，阻碍计算机视觉应用发展
+- 方法要点：构建高质量拳击视频数据集，含6,915个手动标注拳击片段，覆盖六种拳型
+- 实验或效果：数据集支持实时动作识别研究，促进拳击运动分析和自动化教练系统开发
 
 ## 摘要（原文）
 

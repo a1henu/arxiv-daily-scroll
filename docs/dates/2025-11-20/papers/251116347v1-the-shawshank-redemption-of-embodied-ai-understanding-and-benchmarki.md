@@ -7,14 +7,14 @@ title: The Shawshank Redemption of Embodied AI: Understanding and Benchmarking I
 **arXiv**：[2511.16347v1](https://arxiv.org/abs/2511.16347) · [PDF](https://arxiv.org/pdf/2511.16347.pdf)  
 **作者**：Chunyang Li, Zifeng Kang, Junwei Zhang, Zhuo Ma, Anda Cheng, Xinghua Li, Jianfeng Ma  
 
-**一句话要点**：提出间接环境越狱攻击与自动框架，以评估具身AI安全风险
+**一句话要点**：提出间接环境越狱攻击与自动框架，以评估具身AI安全风险。
 
 **关键词**：具身AI安全, 间接越狱攻击, 视觉语言模型, 自动基准生成, 多模态提示注入
 
 ## 3 点简述
-- 核心问题：具身AI对环境的盲目信任易被间接越狱攻击利用，现有研究未涉及
-- 方法要点：设计SHAWSHANK自动攻击生成和SHAWSHANK-FORGE基准生成框架
-- 实验或效果：在3957个任务场景中优于11种方法，攻破所有测试VLM模型
+- 核心问题：具身AI对环境的盲目信任易被利用，导致间接越狱攻击。
+- 方法要点：设计SHAWSHANK自动攻击生成和SHAWSHANK-FORGE基准生成框架。
+- 实验或效果：在3957个任务场景中优于11种方法，攻破所有测试VLM。
 
 ## 摘要（原文）
 
