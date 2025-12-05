@@ -1,0 +1,22 @@
+---
+layout: default
+title: Environment-Aware Channel Inference via Cross-Modal Flow: From Multimodal Sensing to Wireless Channels
+---
+
+# Environment-Aware Channel Inference via Cross-Modal Flow: From Multimodal Sensing to Wireless Channels
+**arXiv**：[2512.04966v1](https://arxiv.org/abs/2512.04966) · [PDF](https://arxiv.org/pdf/2512.04966.pdf)  
+**作者**：Guangming Liang, Mingjie Yang, Dongzhu Liu, Paul Henderson, Lajos Hanzo  
+
+**一句话要点**：提出基于跨模态流匹配的环境感知信道推断方法，从多模态感知数据直接估计无线信道状态信息。
+
+**关键词**：无线通信, 信道状态信息, 多模态感知, 流匹配, 数据驱动框架, 实时推断
+
+## 3 点简述
+- 核心问题：传统导频估计在高多普勒大规模MIMO系统中开销大，需无导频信道推断。
+- 方法要点：数据驱动框架，将感知到信道映射建模为跨模态流匹配问题，融合多模态特征学习速度场。
+- 实验或效果：基于Sionna和Blender构建数据生成器，系统级评估显示在信道估计精度和频谱效率上优于基准。
+
+## 摘要（原文）
+
+> Accurate channel state information (CSI) underpins reliable and efficient wireless communication. However, acquiring CSI via pilot estimation incurs substantial overhead, especially in massive multiple-input multiple-output (MIMO) systems operating in high-Doppler environments. By leveraging the growing availability of environmental sensing data, this treatise investigates pilot-free channel inference that estimates complete CSI directly from multimodal observations, including camera images, LiDAR point clouds, and GPS coordinates. In contrast to prior studies that rely on predefined channel models, we develop a data-driven framework that formulates the sensing-to-channel mapping as a cross-modal flow matching problem. The framework fuses multimodal features into a latent distribution within the channel domain, and learns a velocity field that continuously transforms the latent distribution toward the channel distribution. To make this formulation tractable and efficient, we reformulate the problem as an equivalent conditional flow matching objective and incorporate a modality alignment loss, while adopting low-latency inference mechanisms to enable real-time CSI estimation. In experiments, we build a procedural data generator based on Sionna and Blender to support realistic modeling of sensing scenes and wireless propagation. System-level evaluations demonstrate significant improvements over pilot- and sensing-based benchmarks in both channel estimation accuracy and spectral efficiency for the downstream beamforming task.
+

@@ -1,0 +1,22 @@
+---
+layout: default
+title: BiTAgent: A Task-Aware Modular Framework for Bidirectional Coupling between Multimodal Large Language Models and World Models
+---
+
+# BiTAgent: A Task-Aware Modular Framework for Bidirectional Coupling between Multimodal Large Language Models and World Models
+**arXiv**：[2512.04513v1](https://arxiv.org/abs/2512.04513) · [PDF](https://arxiv.org/pdf/2512.04513.pdf)  
+**作者**：Yu-Wei Zhan, Xin Wang, Pengzhe Mao, Tongtong Feng, Ren Wang, Wenwu Zhu  
+
+**一句话要点**：提出BiTAgent框架，通过双向耦合多模态大语言模型与世界模型，以解决开放世界具身智能中的语义与动态对齐挑战。
+
+**关键词**：具身智能, 多模态大语言模型, 世界模型, 双向耦合, 任务感知学习, 跨环境泛化
+
+## 3 点简述
+- 核心问题：多模态大语言模型与世界模型结合时，语义意图与动态状态表示难以紧密耦合，且缺乏任务感知的适应性。
+- 方法要点：设计前向和反向路径，实现语义引导的想象和反馈驱动的语义优化，通过任务感知动态联合学习等组件协调语义推理与动态预测。
+- 实验或效果：在多任务和跨环境设置中，实验显示优于现有基线，具有更好的稳定性和泛化能力。
+
+## 摘要（原文）
+
+> Building generalist embodied agents requires a unified system that can interpret multimodal goals, model environment dynamics, and execute reliable actions across diverse real-world tasks. Multimodal large language models (MLLMs) offer strong semantic priors and cross-modal generalization, while world models (WMs) provide actionable latent dynamics for prediction and control. Their combination holds promise for open-ended embodied intelligence, yet introduces two key challenges: (1) establishing a tight coupling between the semantic intent from MLLMs and the dynamic state representations within the WM's latent space, and (2) achieving task-aware adaptability that supports multi-task learning and cross-environment generalization. To address these limitations, we propose BiTAgent, a task-aware dynamic joint framework that enables bidirectional coupling between MLLMs and WMs. BiTAgent establishes two complementary pathways: a forward path that injects MLLM representations into the WM's latent space for semantically guided imagination, and a backward path where WM-generated feedback refines the MLLM's semantic space via dense text-conditioned rewards. This bidirectional interaction is realized through three synergistic components: Task-Aware Dynamic Joint Learning, Task-Aware Behavior Learning, and MLLM-WM Joint Optimization, which together harmonize semantic reasoning and dynamic prediction. Extensive experiments across multi-task and cross-environment settings demonstrate superior stability and generalization over state-of-the-art baselines, marking a step toward open-ended embodied learning.
+

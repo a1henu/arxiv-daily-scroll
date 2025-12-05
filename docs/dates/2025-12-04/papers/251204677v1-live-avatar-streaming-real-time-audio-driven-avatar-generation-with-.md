@@ -1,0 +1,22 @@
+---
+layout: default
+title: Live Avatar: Streaming Real-time Audio-Driven Avatar Generation with Infinite Length
+---
+
+# Live Avatar: Streaming Real-time Audio-Driven Avatar Generation with Infinite Length
+**arXiv**：[2512.04677v1](https://arxiv.org/abs/2512.04677) · [PDF](https://arxiv.org/pdf/2512.04677.pdf)  
+**作者**：Yubo Huang, Hailong Guo, Fangtai Wu, Shifeng Zhang, Shijie Huang, Qijun Gan, Lin Liu, Sirui Zhao, Enhong Chen, Jiaming Liu, Steven Hoi  
+
+**一句话要点**：提出Live Avatar框架，通过TPP和RSFM实现实时音频驱动无限长度虚拟人生成
+
+**关键词**：实时虚拟人生成, 扩散模型并行化, 长视频合成, 音频驱动生成, 模型蒸馏
+
+## 3 点简述
+- 现有扩散模型受限于序列计算和长期不一致性，难以实时流式生成虚拟人
+- 引入TPP并行化去噪步骤，结合RSFM动态校准外观，提升一致性和效率
+- 在5个H800 GPU上实现20 FPS端到端生成，达到实时高保真虚拟人生成
+
+## 摘要（原文）
+
+> Existing diffusion-based video generation methods are fundamentally constrained by sequential computation and long-horizon inconsistency, limiting their practical adoption in real-time, streaming audio-driven avatar synthesis. We present Live Avatar, an algorithm-system co-designed framework that enables efficient, high-fidelity, and infinite-length avatar generation using a 14-billion-parameter diffusion model. Our approach introduces Timestep-forcing Pipeline Parallelism (TPP), a distributed inference paradigm that pipelines denoising steps across multiple GPUs, effectively breaking the autoregressive bottleneck and ensuring stable, low-latency real-time streaming. To further enhance temporal consistency and mitigate identity drift and color artifacts, we propose the Rolling Sink Frame Mechanism (RSFM), which maintains sequence fidelity by dynamically recalibrating appearance using a cached reference image. Additionally, we leverage Self-Forcing Distribution Matching Distillation to facilitate causal, streamable adaptation of large-scale models without sacrificing visual quality. Live Avatar demonstrates state-of-the-art performance, reaching 20 FPS end-to-end generation on 5 H800 GPUs, and, to the best of our knowledge, is the first to achieve practical, real-time, high-fidelity avatar generation at this scale. Our work establishes a new paradigm for deploying advanced diffusion models in industrial long-form video synthesis applications.
+
