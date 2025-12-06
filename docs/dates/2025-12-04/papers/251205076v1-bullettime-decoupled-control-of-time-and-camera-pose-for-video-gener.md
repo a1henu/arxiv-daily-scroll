@@ -7,14 +7,14 @@ title: BulletTime: Decoupled Control of Time and Camera Pose for Video Generatio
 **arXiv**：[2512.05076v1](https://arxiv.org/abs/2512.05076) · [PDF](https://arxiv.org/pdf/2512.05076.pdf)  
 **作者**：Yiming Wang, Qihang Zhang, Shengqu Cai, Tong Wu, Jan Ackermann, Zhengfei Kuang, Yang Zheng, Frano Rajič, Siyu Tang, Gordon Wetzstein  
 
-**一句话要点**：提出BulletTime框架以解决视频生成中场景动态与相机运动耦合的问题，实现4D可控视频生成。
+**一句话要点**：提出BulletTime框架以解耦场景动态与相机位姿，实现视频生成的4D可控性。
 
-**关键词**：视频生成, 4D控制, 扩散模型, 相机姿态解耦, 时空可控性
+**关键词**：视频生成, 扩散模型, 4D控制, 相机位姿解耦, 时空可控性
 
 ## 3 点简述
-- 核心问题：现有视频扩散模型将场景动态与相机运动耦合，限制了时空控制的精确性。
-- 方法要点：通过4D位置编码和自适应归一化，将世界时间序列和相机轨迹作为条件输入，解耦场景动态与相机姿态。
-- 实验或效果：在多样时序模式和相机轨迹上实现稳健的4D控制，生成质量高，可控性优于先前工作。
+- 现有视频扩散模型耦合场景动态与相机运动，限制时空控制精度。
+- 通过4D位置编码和自适应归一化，将世界时间序列和相机轨迹作为条件输入。
+- 实验显示模型在多样时序和相机轨迹下实现稳健4D控制，生成质量高且优于先前工作。
 
 ## 摘要（原文）
 

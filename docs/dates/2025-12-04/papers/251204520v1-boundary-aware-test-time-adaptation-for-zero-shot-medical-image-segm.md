@@ -9,7 +9,7 @@ title: Boundary-Aware Test-Time Adaptation for Zero-Shot Medical Image Segmentat
 
 **一句话要点**：提出BA-TTA-SAM框架，通过测试时适应增强SAM在零样本医学图像分割中的性能。
 
-**关键词**：零样本分割, 测试时适应, 医学图像分割, 边界感知, 高斯提示, 注意力对齐
+**关键词**：医学图像分割, 零样本学习, 测试时适应, 边界感知, 视觉Transformer, 高斯提示
 
 ## 3 点简述
 - 核心问题：SAM在医学图像分割中因领域偏移导致零样本性能受限，需高效增强。

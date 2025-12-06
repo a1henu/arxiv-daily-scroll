@@ -13,7 +13,7 @@ title: Identity Clue Refinement and Enhancement for Visible-Infrared Person Re-I
 
 ## 3 点简述
 - 核心问题：现有方法忽视模态特定身份知识，导致跨模态匹配困难
-- 方法要点：通过MPFR模块捕获模态特定属性，SDCE模块蒸馏身份知识指导特征学习
+- 方法要点：设计MPFR模块捕获模态特定属性，SDCE模块蒸馏身份知识指导特征学习
 - 实验或效果：在多个公开数据集上超越现有SOTA方法，验证有效性
 
 ## 摘要（原文）

@@ -7,14 +7,14 @@ title: Visual Reasoning Tracer: Object-Level Grounded Reasoning Benchmark
 **arXiv**：[2512.05091v1](https://arxiv.org/abs/2512.05091) · [PDF](https://arxiv.org/pdf/2512.05091.pdf)  
 **作者**：Haobo Yuan, Yueyi Sun, Yanwei Li, Tao Zhang, Xueqing Deng, Henghui Ding, Lu Qi, Anran Wang, Xiangtai Li, Ming-Hsuan Yang  
 
-**一句话要点**：提出Visual Reasoning Tracer任务与基准，以解决多模态大语言模型推理过程不透明的问题。
+**一句话要点**：提出视觉推理追踪器任务与基准，以解决多模态大语言模型推理过程不透明的问题。
 
-**关键词**：视觉推理, 多模态大语言模型, 基准评测, 数据集构建, 对象级定位
+**关键词**：视觉推理追踪, 多模态大语言模型, 对象级定位, 推理基准, 数据集构建
 
 ## 3 点简述
 - 核心问题：多模态大语言模型推理过程不透明，缺乏中间步骤和细粒度证据。
 - 方法要点：引入VRT任务，要求模型定位目标对象并预测中间推理路径对象。
-- 实验或效果：基于VRT-80k数据集训练的模型在推理路径追踪上显著提升。
+- 实验或效果：基于VRT-80k训练的模型在推理路径追踪上显著提升，而现有模型常失败。
 
 ## 摘要（原文）
 

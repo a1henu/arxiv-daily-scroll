@@ -7,14 +7,14 @@ title: Infrared UAV Target Tracking with Dynamic Feature Refinement and Global C
 **arXiv**：[2512.04581v1](https://arxiv.org/abs/2512.04581) · [PDF](https://arxiv.org/pdf/2512.04581.pdf)  
 **作者**：Houzhang Fang, Chenxing Wu, Kun Bai, Tianqi Chen, Xiaolin Wang, Xiyang Liu, Yi Chang, Luxin Yan  
 
-**一句话要点**：提出SiamDFF网络，通过动态特征融合与全局上下文注意力蒸馏，解决红外无人机目标跟踪中特征弱和背景复杂的问题。
+**一句话要点**：提出SiamDFF网络，通过动态特征融合与全局上下文注意力蒸馏，提升红外无人机目标跟踪性能。
 
-**关键词**：红外目标跟踪, 无人机跟踪, 特征增强, 注意力机制, 知识蒸馏, 实时跟踪
+**关键词**：红外目标跟踪, Siamese网络, 动态特征融合, 注意力机制, 知识蒸馏, 无人机应用
 
 ## 3 点简述
-- 红外无人机目标跟踪面临特征弱、背景复杂的挑战，影响准确性。
-- SiamDFF集成STEN、DSFAM和DCFAM模块，动态增强特征并减少背景干扰。
-- 实验表明，该方法在复杂背景下优于先进跟踪器，并实现实时跟踪速度。
+- 针对红外无人机目标特征弱、背景复杂的问题，设计动态特征融合Siamese网络。
+- 集成选择性目标增强、动态空间与通道特征聚合模块，自适应强化目标区域。
+- 实验表明，在真实红外数据集上优于先进方法，保持实时跟踪速度。
 
 ## 摘要（原文）
 

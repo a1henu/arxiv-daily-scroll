@@ -7,9 +7,9 @@ title: E3AD: An Emotion-Aware Vision-Language-Action Model for Human-Centric End
 **arXiv**：[2512.04733v1](https://arxiv.org/abs/2512.04733) · [PDF](https://arxiv.org/pdf/2512.04733.pdf)  
 **作者**：Yihong Tang, Haicheng Liao, Tong Nie, Junlin He, Ao Qu, Kehua Chen, Wei Ma, Zhenning Li, Lijun Sun, Chengzhong Xu  
 
-**一句话要点**：提出E3AD模型，通过情感感知增强端到端自动驾驶中的人机交互与规划能力。
+**一句话要点**：提出E3AD模型，通过情感感知增强视觉-语言-动作模型，实现以人为本的端到端自动驾驶。
 
-**关键词**：端到端自动驾驶, 情感感知模型, 视觉-语言-动作框架, 空间推理, 一致性训练, 人机交互
+**关键词**：端到端自动驾驶, 视觉-语言-动作模型, 情感感知, 空间推理, 一致性训练
 
 ## 3 点简述
 - 核心问题：现有端到端自动驾驶系统忽视乘客情感状态，影响舒适度和接受度。

@@ -7,14 +7,14 @@ title: Aligned but Stereotypical? The Hidden Influence of System Prompts on Soci
 **arXiv**：[2512.04981v1](https://arxiv.org/abs/2512.04981) · [PDF](https://arxiv.org/pdf/2512.04981.pdf)  
 **作者**：NaHyeon Park, Namin An, Kunhee Kim, Soyeon Yoon, Jiahao Huo, Hyunjung Shim  
 
-**一句话要点**：提出FairPro框架以解决LVLM文本到图像模型中系统提示引发的社会偏见问题
+**一句话要点**：提出FairPro框架以减少基于LVLM的文本到图像模型中的社会偏见，揭示系统提示的关键作用。
 
-**关键词**：大型视觉语言模型, 文本到图像生成, 社会偏见, 系统提示, 公平性框架, 图像合成
+**关键词**：文本到图像模型, 社会偏见, 系统提示, 公平性框架, LVLM模型
 
 ## 3 点简述
-- 核心问题：LVLM模型在图像生成中放大社会偏见，系统提示是主要驱动因素
-- 方法要点：通过解码中间表示和嵌入关联分析揭示偏见传播机制，提出训练无关的元提示框架FairPro
-- 实验或效果：在SANA和Qwen-Image模型上验证，FairPro显著减少偏见并保持文本图像对齐
+- 研究发现基于LVLM的文本到图像模型比非LVLM模型产生更多社会偏见，系统提示是主要驱动因素。
+- 通过解码中间表示和嵌入关联分析，揭示系统提示如何编码人口统计先验并传播到图像合成中。
+- 提出FairPro训练免费元提示框架，在测试时自审计构建公平感知系统提示，显著减少偏见并保持文本图像对齐。
 
 ## 摘要（原文）
 

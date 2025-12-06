@@ -7,14 +7,14 @@ title: STARE-VLA: Progressive Stage-Aware Reinforcement for Fine-Tuning Vision-L
 **arXiv**：[2512.05107v1](https://arxiv.org/abs/2512.05107) · [PDF](https://arxiv.org/pdf/2512.05107.pdf)  
 **作者**：Feng Xu, Guangyao Zhai, Xin Kong, Tingzhong Fu, Daniel F. N. Gordon, Xueli An, Benjamin Busam  
 
-**一句话要点**：提出STARE-VLA，通过阶段感知强化微调提升视觉-语言-动作模型的长时程动作准确性
+**一句话要点**：提出STARE-VLA，通过阶段感知强化微调提升视觉-语言-动作模型的长时程动作准确性。
 
-**关键词**：视觉-语言-动作模型, 强化学习微调, 阶段感知优化, 长时程动作轨迹, 机器人操作, 离线与在线训练
+**关键词**：视觉-语言-动作模型, 强化学习微调, 阶段分解, 长时程动作, 机器人操作
 
 ## 3 点简述
-- 现有VLA模型将长时程动作视为语言序列，导致信用分配粗糙和训练不稳定
-- STARE模块将动作轨迹分解为语义阶段，提供密集、可解释的阶段对齐强化信号
-- 在SimplerEnv和ManiSkill3实验中，达到98.0%和96.4%的成功率，实现SOTA性能
+- 现有方法将长时程动作视为语言序列，导致信用分配粗糙和训练不稳定。
+- STARE模块将动作轨迹分解为语义阶段，提供密集、可解释的阶段对齐强化信号。
+- 在SimplerEnv和ManiSkill3上实现最高成功率，分别达98.0%和96.4%。
 
 ## 摘要（原文）
 

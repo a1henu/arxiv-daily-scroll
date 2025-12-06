@@ -7,14 +7,14 @@ title: Counterfeit Answers: Adversarial Forgery against OCR-Free Document Visual
 **arXiv**：[2512.04554v1](https://arxiv.org/abs/2512.04554) · [PDF](https://arxiv.org/pdf/2512.04554.pdf)  
 **作者**：Marco Pintore, Maura Pintor, Dimosthenis Karatzas, Battista Biggio  
 
-**一句话要点**：提出针对OCR-Free文档视觉问答的对抗伪造攻击，以诱导模型输出错误答案。
+**一句话要点**：提出针对OCR-Free文档视觉问答的对抗伪造攻击，以诱导模型错误答案
 
-**关键词**：文档视觉问答, 对抗攻击, OCR-Free模型, 视觉伪造, 模型安全
+**关键词**：文档视觉问答, 对抗攻击, OCR-Free模型, 视觉伪造, 模型鲁棒性
 
 ## 3 点简述
-- 核心问题：DocVQA模型易受对抗攻击，攻击者能伪造文档内容以误导模型。
-- 方法要点：开发专门攻击算法，生成视觉不可察觉但语义针对性的伪造文档。
-- 实验或效果：在Pix2Struct和Donut等先进模型上验证攻击有效性，揭示系统脆弱性。
+- 核心问题：OCR-Free文档视觉问答模型易受对抗攻击，导致语义误导或系统失效
+- 方法要点：开发专门攻击算法，生成视觉不可察觉但语义针对性的伪造文档
+- 实验或效果：在Pix2Struct和Donut等先进模型上验证攻击有效性，揭示系统脆弱性
 
 ## 摘要（原文）
 

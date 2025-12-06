@@ -7,13 +7,13 @@ title: The AI Consumer Index (ACE)
 **arXiv**：[2512.04921v1](https://arxiv.org/abs/2512.04921) · [PDF](https://arxiv.org/pdf/2512.04921.pdf)  
 **作者**：Julien Benchek, Rohit Shetty, Benjamin Hunsberger, Ajay Arun, Zach Richards, Brendan Foody, Osvald Nitski, Bertie Vidgen  
 
-**一句话要点**：提出AI消费者指数以评估前沿模型在消费任务中的表现
+**一句话要点**：提出AI消费者指数以评估前沿模型在消费任务中的性能
 
 **关键词**：AI基准测试, 消费任务评估, 幻觉检测, 前沿模型比较, 网络检索验证
 
 ## 3 点简述
 - 核心问题：评估前沿AI模型能否执行高价值消费任务，如购物、饮食、游戏和DIY。
-- 方法要点：构建包含隐藏测试集的基准，采用动态检查响应是否基于检索网络源的新评分方法。
+- 方法要点：构建包含400个隐藏测试案例的基准，采用动态检查响应与网络来源一致性的新评分方法。
 - 实验或效果：GPT 5（Thinking = High）以56.1%得分领先，但模型在购物等领域表现不足，存在幻觉问题。
 
 ## 摘要（原文）

@@ -1,20 +1,20 @@
 ---
 layout: default
-title: Dataset creation for supervised deep learning-based analysis of microscopic images - review of important considerations and recommendations
+title: Dataset creation for supervised deep learning-based analysis of microscopic images -- review of important considerations and recommendations
 ---
 
-# Dataset creation for supervised deep learning-based analysis of microscopic images - review of important considerations and recommendations
+# Dataset creation for supervised deep learning-based analysis of microscopic images -- review of important considerations and recommendations
 **arXiv**：[2512.04564v1](https://arxiv.org/abs/2512.04564) · [PDF](https://arxiv.org/pdf/2512.04564.pdf)  
 **作者**：Christof A. Bertram, Viktoria Weiss, Jonas Ammeling, F. Maria Schabel, Taryn A. Donovan, Frauke Wilm, Christian Marzahl, Katharina Breininger, Marc Aubreville  
 
-**一句话要点**：综述显微镜图像监督深度学习数据集创建的关键考虑与推荐，以提升病理学应用模型泛化性
+**一句话要点**：综述显微镜图像监督深度学习数据集创建的关键考虑与推荐
 
-**关键词**：显微镜图像分析, 监督深度学习, 数据集创建, 标注质量, 病理学应用, 领域变异
+**关键词**：监督深度学习, 显微镜图像分析, 数据集创建, 标注质量, 领域偏移, 病理学应用
 
 ## 3 点简述
-- 核心问题：高质量大规模数据集创建面临资源密集、领域变异和标注偏差等挑战
-- 方法要点：涵盖图像采集、标注软件选择和标注创建，强调处理图像变异性和标注质量三C标准
-- 实验或效果：提供标准操作程序作为补充材料，促进开放数据集以增强研究可重复性和创新
+- 核心问题：数据集创建面临资源密集、领域变异和标注偏差等挑战。
+- 方法要点：涵盖图像采集、标注软件选择和标注创建，强调标注质量的三C标准。
+- 实验或效果：提供标准操作程序作为补充材料，促进高质量开放数据集发展。
 
 ## 摘要（原文）
 

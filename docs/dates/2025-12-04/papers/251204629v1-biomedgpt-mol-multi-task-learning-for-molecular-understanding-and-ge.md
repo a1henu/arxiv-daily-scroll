@@ -7,13 +7,13 @@ title: BioMedGPT-Mol: Multi-task Learning for Molecular Understanding and Genera
 **arXiv**：[2512.04629v1](https://arxiv.org/abs/2512.04629) · [PDF](https://arxiv.org/pdf/2512.04629.pdf)  
 **作者**：Chenyang Zuo, Siqi Fan, Zaiqing Nie  
 
-**一句话要点**：提出BioMedGPT-Mol，通过多任务学习实现分子理解与生成，应用于生物医学领域。
+**一句话要点**：提出BioMedGPT-Mol，通过多任务学习框架将通用推理模型高效适配于分子理解与生成任务。
 
 **关键词**：分子语言模型, 多任务学习, 分子理解, 分子生成, 逆合成规划, 生物医学应用
 
 ## 3 点简述
-- 核心问题：探索通用语言模型如何高效适应分子科学应用，支持分子理解与生成任务。
-- 方法要点：基于公共指令数据集构建大规模高质量训练集，通过精心设计的多任务学习框架进行微调。
+- 核心问题：探索如何将通用语言模型高效适配于分子科学应用，以支持分子理解与生成。
+- 方法要点：通过整合公共指令数据集构建大规模高质量训练集，并设计多任务学习框架进行微调。
 - 实验或效果：在LlaSMol、TOMG-Bench和MuMOInstruct基准上表现优异，并展示在逆合成规划任务中的竞争力。
 
 ## 摘要（原文）

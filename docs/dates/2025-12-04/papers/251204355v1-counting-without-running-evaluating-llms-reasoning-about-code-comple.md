@@ -9,12 +9,12 @@ title: Counting Without Running: Evaluating LLMs' Reasoning About Code Complexit
 
 **一句话要点**：提出gpuFLOPBench基准以评估LLMs在GPU代码复杂度推理中的性能
 
-**关键词**：GPU性能推理, LLM评估基准, 代码复杂度分析, CUDA内核, FLOP计数预测, 硬件微码效应
+**关键词**：GPU代码分析, FLOP计数预测, LLM推理评估, 性能基准测试, CUDA内核
 
 ## 3 点简述
-- 核心问题：现有LLMs在预测GPU代码FLOP计数等前瞻性性能推理方面缺乏评估
-- 方法要点：基于HeCBench构建包含577个CUDA内核的基准，标注真实FLOP计数和八种执行属性
-- 实验或效果：最新LLMs在简单内核上表现完美，但在涉及隐式FLOP的复杂场景中误差巨大
+- 核心问题：现有LLMs在预测GPU代码FLOP计数等前瞻性推理任务上缺乏评估。
+- 方法要点：构建包含577个CUDA内核的基准，标注真实FLOP计数和影响分析的执行属性。
+- 实验或效果：最新LLMs在简单内核上表现完美，但在涉及隐式FLOP的复杂场景中误差巨大。
 
 ## 摘要（原文）
 

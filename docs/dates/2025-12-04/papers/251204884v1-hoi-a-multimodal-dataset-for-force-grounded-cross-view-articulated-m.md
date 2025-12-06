@@ -1,20 +1,20 @@
 ---
 layout: default
-title: Hoi! - A Multimodal Dataset for Force-Grounded, Cross-View Articulated Manipulation
+title: Hoi! -- A Multimodal Dataset for Force-Grounded, Cross-View Articulated Manipulation
 ---
 
-# Hoi! - A Multimodal Dataset for Force-Grounded, Cross-View Articulated Manipulation
+# Hoi! -- A Multimodal Dataset for Force-Grounded, Cross-View Articulated Manipulation
 **arXiv**：[2512.04884v1](https://arxiv.org/abs/2512.04884) · [PDF](https://arxiv.org/pdf/2512.04884.pdf)  
 **作者**：Tim Engelbracht, René Zurbrügg, Matteo Wohlrapp, Martin Büchner, Abhinav Valada, Marc Pollefeys, Hermann Blum, Zuria Bauer  
 
-**一句话要点**：提出Hoi!多模态数据集，用于力感知、跨视角关节操作研究，耦合视觉、动作与力觉数据。
+**一句话要点**：提出Hoi!数据集以支持基于力感知的多视角关节操作研究
 
-**关键词**：多模态数据集, 力感知交互, 跨视角操作, 关节对象, 同步传感, 交互理解
+**关键词**：多模态数据集, 关节操作, 力感知, 跨视角学习, 交互理解
 
 ## 3 点简述
-- 核心问题：缺乏耦合视觉、动作与力觉的多模态数据集，限制交互理解研究。
-- 方法要点：收集3048序列，涵盖381关节对象和4种操作方式，提供同步视频、力与触觉数据。
-- 实验或效果：支持跨人类与机器人视角方法评估，探索力感知等未充分研究模态。
+- 核心问题：缺乏耦合视觉、动作与力感知的多模态数据集，限制交互理解方法评估。
+- 方法要点：收集3048个序列，涵盖381个关节物体，提供四种操作视角，包括同步末端力与触觉数据。
+- 实验或效果：支持跨人类与机器人视角的方法迁移评估，并探索力感知等未充分研究模态。
 
 ## 摘要（原文）
 

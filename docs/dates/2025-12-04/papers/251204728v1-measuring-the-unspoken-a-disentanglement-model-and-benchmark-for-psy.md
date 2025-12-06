@@ -7,12 +7,12 @@ title: Measuring the Unspoken: A Disentanglement Model and Benchmark for Psychol
 **arXiv**：[2512.04728v1](https://arxiv.org/abs/2512.04728) · [PDF](https://arxiv.org/pdf/2512.04728.pdf)  
 **作者**：Yigui Feng, Qinglin Wang, Haotian Mo, Yang Liu, Ke Liu, Gencheng Liu, Xinhai Chen, Siqi Shen, Songzhu Mei, Jie Liu  
 
-**一句话要点**：提出MIND模型和PRISM基准以解决野外对话中视觉-语言模型的表达-情感歧义和评估难题。
+**一句话要点**：提出MIND模型与PRISM基准，解决野外对话中视觉-语言模型的表达-情感歧义与评估难题。
 
 **关键词**：视觉-语言模型, 心理分析, 解耦学习, 微表情检测, 评估基准, 野外对话
 
 ## 3 点简述
-- 核心问题：现有视觉-语言模型在野外对话中难以区分言语表达与情感，且缺乏可验证的评估指标。
+- 核心问题：现有视觉-语言模型在野外对话中无法处理表达-情感歧义，且缺乏可验证的评估指标。
 - 方法要点：引入MIND模型，通过状态判断模块抑制歧义唇部特征，实现视觉解耦；构建ConvoInsight-DB数据集和PRISM评估框架。
 - 实验或效果：在PRISM基准上，MIND显著优于基线，微表情检测提升86.95%，消融研究确认状态判断模块是关键。
 

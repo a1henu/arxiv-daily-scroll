@@ -7,14 +7,14 @@ title: You Only Train Once (YOTO): A Retraining-Free Object Detection Framework
 **arXiv**：[2512.04888v1](https://arxiv.org/abs/2512.04888) · [PDF](https://arxiv.org/pdf/2512.04888.pdf)  
 **作者**：Priyanto Hidayatullah, Nurjannah Syakrani, Yudi Widhiyasana, Muhammad Rizqi Sholahuddin, Refdinal Tubagus, Zahri Al Adzani Hidayat, Hanri Fajar Ramadhan, Dafa Alfarizki Pratama, Farhan Muhammad Yasin  
 
-**一句话要点**：提出YOTO框架以解决零售场景中目标检测的灾难性遗忘问题，无需重训练
+**一句话要点**：提出YOTO框架以解决零售场景中目标检测的灾难性遗忘问题，无需重训练即可添加新产品。
 
-**关键词**：目标检测, 灾难性遗忘, 零售应用, YOLO11n, DeIT, 余弦相似度
+**关键词**：目标检测, 灾难性遗忘, 零售应用, YOLO11n, DeIT, 代理锚损失
 
 ## 3 点简述
-- 核心问题：目标检测面临灾难性遗忘，新商品引入需重训练，增加成本和时间。
-- 方法要点：结合YOLO11n定位、DeIT特征提取和代理锚损失，通过余弦相似度分类。
-- 实验或效果：在140商品零售案例中，准确率良好，训练效率提升近3倍，推理时间580ms。
+- 核心问题：目标检测面临灾难性遗忘，添加新产品需重训练全部数据，增加成本和时间。
+- 方法要点：结合YOLO11n定位、DeIT特征提取和代理锚损失度量学习，通过余弦相似度分类。
+- 实验或效果：在140产品零售案例中，准确率良好，训练效率提升近3倍，推理时间580ms/图像。
 
 ## 摘要（原文）
 

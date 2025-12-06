@@ -14,7 +14,7 @@ title: Semi Centralized Training Decentralized Execution Architecture for Multi 
 ## 3 点简述
 - 现有方法存在维度灾难或部分可观测性限制，导致性能次优
 - 基于区域划分，采用集中训练与参数共享，结合局部和区域信息的状态奖励设计
-- 实验表明该架构在多种交通密度下性能优越，且可迁移至不同策略骨干
+- 实验表明该架构在多种交通密度下性能优越，且可迁移到不同策略骨干
 
 ## 摘要（原文）
 

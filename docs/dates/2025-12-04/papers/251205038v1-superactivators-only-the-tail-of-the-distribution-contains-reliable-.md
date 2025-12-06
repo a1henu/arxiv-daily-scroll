@@ -7,14 +7,14 @@ title: SuperActivators: Only the Tail of the Distribution Contains Reliable Conc
 **arXiv**：[2512.05038v1](https://arxiv.org/abs/2512.05038) · [PDF](https://arxiv.org/pdf/2512.05038.pdf)  
 **作者**：Cassandra Goldberg, Chaehyeon Kim, Adam Stein, Eric Wong  
 
-**一句话要点**：提出SuperActivator机制，利用概念分布尾部高激活token提升概念检测可靠性
+**一句话要点**：提出SuperActivator机制，利用概念分布高尾端信号提升概念检测可靠性
 
 **关键词**：概念向量, 模型可解释性, 激活分布, 概念检测, 特征归因
 
 ## 3 点简述
-- 概念向量常因激活噪声和不一致而受限，影响模型可解释性
-- 发现概念分布极端高尾部的token激活提供可靠概念信号，称为SuperActivator机制
-- 在图像和文本模态中，SuperActivator token比标准方法提升高达14% F1分数
+- 概念向量常因激活噪声而效用受限，存在信号重叠问题
+- 发现概念分布高尾端激活提供可靠概念信号，称为SuperActivator机制
+- 实验显示该方法在跨模态和架构中提升F1分数达14%，改善特征归因
 
 ## 摘要（原文）
 

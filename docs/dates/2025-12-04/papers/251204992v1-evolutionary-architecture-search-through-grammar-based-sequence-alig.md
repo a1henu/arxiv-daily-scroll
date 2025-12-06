@@ -7,14 +7,14 @@ title: Evolutionary Architecture Search through Grammar-Based Sequence Alignment
 **arXiv**：[2512.04992v1](https://arxiv.org/abs/2512.04992) · [PDF](https://arxiv.org/pdf/2512.04992.pdf)  
 **作者**：Adri Gómez Martín, Felix Möller, Steven McDonagh, Monica Abella, Manuel Desco, Elliot J. Crowley, Aaron Klein, Linus Ericsson  
 
-**一句话要点**：提出基于语法序列对齐的进化架构搜索方法，以高效计算神经架构距离并生成混合后代。
+**一句话要点**：提出基于语法序列对齐的进化架构搜索方法，以高效计算神经架构距离并生成杂交后代。
 
-**关键词**：神经架构搜索, 进化算法, 序列对齐, 语法表示, 交叉操作, 计算复杂度
+**关键词**：神经架构搜索, 进化算法, 序列对齐, 语法建模, 计算复杂度优化
 
 ## 3 点简述
 - 核心问题：神经架构搜索在表达性搜索空间中计算困难，需有效算法识别和重用强大组件。
-- 方法要点：采用Smith-Waterman算法变体计算编辑距离，基于语法进化搜索实现交叉操作和多样性分析。
-- 实验或效果：方法降低计算复杂度，在进化搜索中取得竞争性结果，优于现有方法。
+- 方法要点：采用Smith-Waterman算法变体计算编辑距离，支持基于语法的进化搜索和杂交生成。
+- 实验或效果：方法降低计算复杂度，实现竞争性结果，并支持架构损失分析和种群多样性追踪。
 
 ## 摘要（原文）
 

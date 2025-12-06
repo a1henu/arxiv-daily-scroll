@@ -7,14 +7,14 @@ title: COOPER: A Unified Model for Cooperative Perception and Reasoning in Spati
 **arXiv**：[2512.04563v1](https://arxiv.org/abs/2512.04563) · [PDF](https://arxiv.org/pdf/2512.04563.pdf)  
 **作者**：Zefeng Zhang, Xiangzhao Hao, Hengzhu Tang, Zhenyu Zhang, Jiawei Sheng, Xiaodong Li, Zhenyang Li, Li Gao, Daiting Shi, Dawei Yin, Tingwen Liu  
 
-**一句话要点**：提出COOPER统一模型，通过深度和分割辅助模态增强空间感知与推理能力。
+**一句话要点**：提出COOPER统一模型，通过深度与分割辅助模态及自适应交错推理增强空间智能。
 
 **关键词**：空间推理, 多模态大语言模型, 辅助模态生成, 自适应推理, 深度感知, 分割增强
 
 ## 3 点简述
-- 核心问题：当前多模态大语言模型在3D感知空间推理方面存在不足，感知与推理常被孤立处理。
-- 方法要点：COOPER利用深度和分割作为辅助模态，分两阶段训练，实现辅助模态生成和自适应交错推理。
-- 实验或效果：在空间推理任务上平均提升6.91%，仅辅助模态生成变体在距离和大小估计上增益7.92%。
+- 核心问题：当前MLLMs在3D感知空间推理方面存在不足，感知与推理常被孤立处理。
+- 方法要点：利用深度和分割作为辅助模态，分两阶段训练以生成辅助模态并实现自适应交错推理。
+- 实验或效果：COOPER在空间推理上平均提升6.91%，仅辅助模态生成变体在距离和大小估计上增益7.92%。
 
 ## 摘要（原文）
 

@@ -7,9 +7,9 @@ title: Order Matters: 3D Shape Generation from Sequential VR Sketches
 **arXiv**：[2512.04761v1](https://arxiv.org/abs/2512.04761) · [PDF](https://arxiv.org/pdf/2512.04761.pdf)  
 **作者**：Yizi Chen, Sidi Wu, Tianyi Xiao, Nina Wiedemann, Loic Landrieu  
 
-**一句话要点**：提出VRSketch2Shape框架，利用时序VR草图生成3D形状以提升几何保真度
+**一句话要点**：提出VRSketch2Shape框架，利用顺序VR草图生成3D形状以提升几何保真度
 
-**关键词**：VR草图生成, 3D形状重建, 时序建模, 扩散模型, 多类别数据集
+**关键词**：VR草图生成, 3D形状重建, 顺序建模, 扩散模型, 多类别数据集
 
 ## 3 点简述
 - 现有草图到形状模型忽略笔画时序，丢失结构信息

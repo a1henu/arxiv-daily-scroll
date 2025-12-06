@@ -7,14 +7,14 @@ title: UltraImage: Rethinking Resolution Extrapolation in Image Diffusion Transf
 **arXiv**：[2512.04504v1](https://arxiv.org/abs/2512.04504) · [PDF](https://arxiv.org/pdf/2512.04504.pdf)  
 **作者**：Min Zhao, Bokai Yan, Xue Yang, Hongzhou Zhu, Jintao Zhang, Shilong Liu, Chongxuan Li, Jun Zhu  
 
-**一句话要点**：提出UltraImage框架以解决图像扩散变换器分辨率外推中的内容重复和质量退化问题。
+**一句话要点**：提出UltraImage框架，通过频率校正和自适应注意力解决图像扩散变换器分辨率外推中的内容重复和质量下降问题。
 
-**关键词**：图像扩散变换器, 分辨率外推, 频率分析, 注意力机制, 高分辨率生成
+**关键词**：图像扩散变换器, 分辨率外推, 位置嵌入分析, 注意力机制优化, 高分辨率图像生成
 
 ## 3 点简述
-- 核心问题：图像扩散变换器在分辨率外推时出现内容重复和质量退化。
-- 方法要点：通过递归主导频率校正和熵引导自适应注意力集中来优化外推性能。
-- 实验或效果：在Qwen-Image和Flux上优于先前方法，支持从1328p训练分辨率生成高达6K*6K图像。
+- 核心问题：图像扩散变换器在分辨率外推时出现内容重复和质量下降，源于位置嵌入的周期性主导频率和注意力稀释。
+- 方法要点：采用递归主导频率校正约束周期，并引入熵引导自适应注意力集中以优化局部和全局注意力。
+- 实验或效果：在Qwen-Image和Flux上优于现有方法，能生成高达6K*6K图像，减少重复并提升视觉保真度。
 
 ## 摘要（原文）
 

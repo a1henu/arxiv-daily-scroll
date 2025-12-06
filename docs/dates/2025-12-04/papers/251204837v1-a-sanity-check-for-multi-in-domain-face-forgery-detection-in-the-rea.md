@@ -13,8 +13,8 @@ title: A Sanity Check for Multi-In-Domain Face Forgery Detection in the Real Wor
 
 ## 3 点简述
 - 定义多域人脸伪造检测新范式，强调训练数据需覆盖多域以模拟真实场景
-- 提出模型无关框架DevDet，通过FFDev和DAFT放大真伪差异，使真伪特征主导
-- 实验显示在MID-FFD场景下提升真伪预测能力，同时保持对未知数据的泛化性
+- 提出模型无关框架DevDet，通过FFDev和DAFT放大真伪差异，使其主导特征空间
+- 实验显示在MID-FFD场景下提升真伪判断准确率，同时保持对未知数据的泛化能力
 
 ## 摘要（原文）
 

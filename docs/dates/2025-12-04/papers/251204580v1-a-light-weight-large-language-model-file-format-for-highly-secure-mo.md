@@ -7,13 +7,13 @@ title: A Light-Weight Large Language Model File Format for Highly-Secure Model D
 **arXiv**：[2512.04580v1](https://arxiv.org/abs/2512.04580) · [PDF](https://arxiv.org/pdf/2512.04580.pdf)  
 **作者**：Huifeng Zhu, Shijie Li, Qinfeng Li, Yier Jin  
 
-**一句话要点**：提出CryptoTensors格式以解决大语言模型在安全分发中的保密性问题
+**一句话要点**：提出CryptoTensors格式以解决大语言模型安全分发中的保密与访问控制问题
 
 **关键词**：大语言模型安全, 模型分发格式, 张量加密, 访问控制, 轻量部署
 
 ## 3 点简述
 - 核心问题：现有模型格式缺乏对模型权重保密和访问控制的内置支持，导致部署成本高
-- 方法要点：基于Safetensors扩展，集成张量级加密和嵌入式访问控制，保持延迟加载特性
+- 方法要点：基于Safetensors扩展，集成张量级加密和嵌入式访问控制策略，保持延迟加载特性
 - 实验或效果：实现原型库，验证与Hugging Face Transformers等框架的兼容性，展示轻量高效性能
 
 ## 摘要（原文）

@@ -7,14 +7,14 @@ title: Neural Policy Composition from Free Energy Minimization
 **arXiv**：[2512.04745v1](https://arxiv.org/abs/2512.04745) · [PDF](https://arxiv.org/pdf/2512.04745.pdf)  
 **作者**：Francesca Rossi, Veronica Centorrino, Francesco Bullo, Giovanni Russo  
 
-**一句话要点**：提出GateMod模型，基于自由能最小化解释神经策略门控机制
+**一句话要点**：提出GateMod模型，基于自由能最小化统一神经策略门控，应用于多智能体系统和人类决策。
 
-**关键词**：神经策略门控, 自由能最小化, 计算模型, 神经环路, 多智能体系统, 决策任务
+**关键词**：自由能最小化, 神经策略门控, 多智能体系统, 多臂赌博机, 可解释模型, 神经电路建模
 
 ## 3 点简述
-- 核心问题：任务结构如何影响神经策略门控及其神经环路实现机制未知
-- 方法要点：建立GateFrame规范框架，将策略门控建模为自由能最小化问题
-- 实验或效果：在集体行为和人类决策任务中，GateMod提供可解释机制并匹配或超越现有模型
+- 核心问题：任务结构如何塑造神经策略门控，缺乏统一的理论和神经电路解释。
+- 方法要点：通过GateFrame框架将门控建模为自由能最小化，并推导GateFlow动力学和GateNet神经电路。
+- 实验或效果：在多智能体系统和多臂赌博机任务中，GateMod提供可解释机制，性能匹配或优于现有模型。
 
 ## 摘要（原文）
 

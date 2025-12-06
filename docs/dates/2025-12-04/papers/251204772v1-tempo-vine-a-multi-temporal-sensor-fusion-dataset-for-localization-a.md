@@ -7,14 +7,14 @@ title: TEMPO-VINE: A Multi-Temporal Sensor Fusion Dataset for Localization and M
 **arXiv**：[2512.04772v1](https://arxiv.org/abs/2512.04772) · [PDF](https://arxiv.org/pdf/2512.04772.pdf)  
 **作者**：Mauro Martini, Marco Ambrosio, Judith Vilella-Cantos, Alessandro Navone, Marcello Chiaberge  
 
-**一句话要点**：提出TEMPO-VINE多时相数据集以解决葡萄园中传感器融合与SLAM的基准缺失问题
+**一句话要点**：提出TEMPO-VINE多时相数据集以解决葡萄园中传感器融合与定位建图的基准缺失问题
 
-**关键词**：多时相数据集, 传感器融合, 同时定位与建图, 葡萄园自动化, 农业机器人, 地点识别
+**关键词**：多时相数据集, 传感器融合, 葡萄园定位建图, SLAM, 地点识别, 农业机器人
 
 ## 3 点简述
-- 核心问题：农业机器人研究缺乏真实复杂葡萄园环境下的公共基准数据集
-- 方法要点：提供多模态传感器数据，包括不同价格LiDAR、AHRS、RTK-GPS和相机，覆盖多季节与生长阶段
-- 实验或效果：数据集包含超过100米长的葡萄园序列，支持传感器融合、定位、建图和地点识别评估
+- 核心问题：农业机器人研究缺乏真实复杂环境下的公共基准，葡萄园动态性带来挑战
+- 方法要点：提供大规模多时相数据集，集成多模态传感器数据，覆盖不同季节与生长阶段
+- 实验或效果：数据集包含长序列路径与多次重访，支持传感器融合、SLAM和地点识别技术评估
 
 ## 摘要（原文）
 

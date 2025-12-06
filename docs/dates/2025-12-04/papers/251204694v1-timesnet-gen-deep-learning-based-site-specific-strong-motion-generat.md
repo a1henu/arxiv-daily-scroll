@@ -14,7 +14,7 @@ title: TimesNet-Gen: Deep Learning-based Site Specific Strong Motion Generation
 ## 3 点简述
 - 核心问题：地震风险评估需准确站点特定评估，需模型捕捉局部场地条件对震动特征的影响
 - 方法要点：引入时域条件生成器TimesNet-Gen，使用站点特定潜在瓶颈从记录中学习场地控制特征
-- 实验或效果：通过比较HVSR曲线和f0分布评估生成，在站点对齐上表现优异，优于基于频谱图的VAE基线
+- 实验或效果：通过比较HVSR曲线和f0分布评估生成效果，在站点对齐方面表现优于基于频谱图的VAE基线
 
 ## 摘要（原文）
 

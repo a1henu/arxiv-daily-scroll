@@ -7,14 +7,14 @@ title: AutoGuard: A Self-Healing Proactive Security Layer for DevSecOps Pipeline
 **arXiv**：[2512.04368v1](https://arxiv.org/abs/2512.04368) · [PDF](https://arxiv.org/pdf/2512.04368.pdf)  
 **作者**：Praveen Anugula, Avdhesh Kumar Bhardwaj, Navin Chhibber, Rohit Tewari, Sunil Khemka, Piyush Ranjan  
 
-**一句话要点**：提出AutoGuard强化学习自愈安全框架以增强DevSecOps管道主动防护
+**一句话要点**：提出AutoGuard，一种基于强化学习的自愈安全框架，以主动保护DevSecOps管道。
 
-**关键词**：DevSecOps安全, 强化学习应用, 自愈安全框架, CI/CD管道防护, 主动威胁缓解
+**关键词**：DevSecOps安全, 强化学习应用, 自愈安全框架, CI/CD管道, 自动化威胁缓解
 
 ## 3 点简述
-- 问题：现有基于规则的入侵检测和静态漏洞扫描方法响应慢，不适应系统变化，导致新兴攻击向量暴露。
-- 方法：采用强化学习构建自愈安全框架，持续观察管道活动并动态学习策略，实时预防、检测和响应安全事件。
-- 效果：在模拟CI/CD环境中测试，威胁检测准确率提升22%，平均恢复时间减少38%，整体抗事件能力增强。
+- 核心问题：现有基于规则的入侵检测和静态漏洞扫描方法响应慢，不适应系统变化，导致安全风险。
+- 方法要点：使用强化学习代理动态学习策略，持续观察管道活动并主动修复异常，实现实时安全防护。
+- 实验或效果：在模拟CI/CD环境中测试，威胁检测准确率提升22%，平均恢复时间减少38%，整体韧性增强。
 
 ## 摘要（原文）
 

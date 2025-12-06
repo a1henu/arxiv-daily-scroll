@@ -7,14 +7,14 @@ title: QKAN-LSTM: Quantum-inspired Kolmogorov-Arnold Long Short-term Memory
 **arXiv**：[2512.05049v1](https://arxiv.org/abs/2512.05049) · [PDF](https://arxiv.org/pdf/2512.05049.pdf)  
 **作者**：Yu-Chao Hsu, Jiun-Cheng Jiang, Chun-Hua Lin, Kuo-Chung Peng, Nan-Yow Chen, Samuel Yen-Chi Chen, En-Jui Kuo, Hsi-Sheng Goan  
 
-**一句话要点**：提出QKAN-LSTM，通过量子启发的激活模块增强LSTM，用于序列建模任务如城市电信预测。
+**一句话要点**：提出QKAN-LSTM，通过量子启发激活模块增强LSTM，用于序列建模任务如城市电信预测。
 
-**关键词**：量子启发神经网络, 长短期记忆网络, 序列建模, 城市电信预测, 参数优化
+**关键词**：量子启发神经网络, 长短期记忆网络, 序列建模, 参数优化, 城市电信预测, 变分激活函数
 
 ## 3 点简述
 - 传统LSTM存在参数冗余和非线性表达能力有限的问题。
 - 集成DARUAN模块作为量子变分激活函数，提升频率适应性和谱表示能力。
-- 在三个数据集上实验，参数减少79%，预测准确性和泛化能力优于传统LSTM。
+- 在三个数据集上实验显示，参数减少79%且预测精度和泛化能力更优。
 
 ## 摘要（原文）
 

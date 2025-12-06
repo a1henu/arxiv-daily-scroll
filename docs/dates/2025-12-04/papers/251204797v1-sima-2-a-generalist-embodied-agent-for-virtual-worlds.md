@@ -7,14 +7,14 @@ title: SIMA 2: A Generalist Embodied Agent for Virtual Worlds
 **arXiv**：[2512.04797v1](https://arxiv.org/abs/2512.04797) · [PDF](https://arxiv.org/pdf/2512.04797.pdf)  
 **作者**：SIMA team, Adrian Bolton, Alexander Lerchner, Alexandra Cordell, Alexandre Moufarek, Andrew Bolt, Andrew Lampinen, Anna Mitenkova, Arne Olav Hallingstad, Bojan Vujatovic, Bonnie Li, Cong Lu, Daan Wierstra, Daniel P. Sawyer, Daniel Slater, David Reichert, Davide Vercelli, Demis Hassabis, Drew A. Hudson, Duncan Williams, Ed Hirst, Fabio Pardo, Felix Hill, Frederic Besse, Hannah Openshaw, Harris Chan, Hubert Soyer, Jane X. Wang, Jeff Clune, John Agapiou, John Reid, Joseph Marino, Junkyung Kim, Karol Gregor, Kaustubh Sridhar, Kay McKinney, Laura Kampis, Lei M. Zhang, Loic Matthey, Luyu Wang, Maria Abi Raad, Maria Loks-Thompson, Martin Engelcke, Matija Kecman, Matthew Jackson, Maxime Gazeau, Ollie Purkiss, Oscar Knagg, Peter Stys, Piermaria Mendolicchio, Raia Hadsell, Rosemary Ke, Ryan Faulkner, Sarah Chakera, Satinder Singh Baveja, Shane Legg, Sheleem Kashem, Tayfun Terzi, Thomas Keck, Tim Harley, Tim Scholtes, Tyson Roberts, Volodymyr Mnih, Yulan Liu, Zhengdong Wang, Zoubin Ghahramani  
 
-**一句话要点**：提出SIMA 2通用具身智能体，基于Gemini模型在3D虚拟世界中实现交互与泛化
+**一句话要点**：提出SIMA 2通用具身智能体，在3D虚拟世界中实现基于语言和图像指令的交互与学习
 
-**关键词**：具身智能体, 3D虚拟世界交互, Gemini基础模型, 多模态指令, 泛化学习, 自主技能获取
+**关键词**：具身智能体, 多模态交互, 虚拟环境, 自主学习, 泛化能力
 
 ## 3 点简述
-- 核心问题：构建能理解和行动于多样3D虚拟世界的通用具身智能体，超越简单语言命令限制。
-- 方法要点：基于Gemini基础模型，支持语言和图像指令，具备推理、对话和复杂任务处理能力。
-- 实验或效果：在多种游戏中接近人类表现，展示未见环境的泛化能力，并实现自主技能学习。
+- 核心问题：构建能理解和执行复杂指令的通用具身智能体，以在多样虚拟环境中进行主动交互。
+- 方法要点：基于Gemini基础模型，支持语言和图像输入，具备推理、对话和自主技能学习能力。
+- 实验或效果：在多种游戏中接近人类表现，展示对未见环境的泛化性和通过自生成任务实现无监督学习。
 
 ## 摘要（原文）
 

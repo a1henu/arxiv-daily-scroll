@@ -14,7 +14,7 @@ title: Not All Birds Look The Same: Identity-Preserving Generation For Birds
 ## 3 点简述
 - 核心问题：现有身份保持生成模型在非刚性或细粒度类别（如鸟类）上表现不佳，缺乏高质量数据用于评估和改进。
 - 方法要点：引入NABirds Look-Alikes数据集，包含专家策划的图像对，并利用物种、年龄和性别作为身份代理进行分组训练。
-- 实验或效果：在NABLA数据集上，现有基线模型失败，而分组训练方法显著提升了在可见和未见物种上的身份保持性能。
+- 实验或效果：在NABirds Look-Alikes数据集上，现有基线模型失败，而分组训练方法显著提升了在可见和未见物种上的性能。
 
 ## 摘要（原文）
 

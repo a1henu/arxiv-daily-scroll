@@ -7,14 +7,14 @@ title: RobustSplat++: Decoupling Densification, Dynamics, and Illumination for I
 **arXiv**：[2512.04815v1](https://arxiv.org/abs/2512.04815) · [PDF](https://arxiv.org/pdf/2512.04815.pdf)  
 **作者**：Chuanyu Fu, Guanying Chen, Yuqi Zhang, Kunbin Yao, Yuan Xiong, Chuan Huang, Shuguang Cui, Yasuyuki Matsushita, Xiaochun Cao  
 
-**一句话要点**：提出RobustSplat++以解决野外场景中3D高斯溅射对瞬态物体和光照建模的鲁棒性问题
+**一句话要点**：提出RobustSplat++以解决野外场景中瞬态物体和光照变化导致的3D高斯溅射渲染伪影问题
 
-**关键词**：3D高斯溅射, 野外场景建模, 瞬态物体处理, 光照鲁棒性, 掩码引导, 延迟优化
+**关键词**：3D高斯溅射, 野外场景建模, 瞬态物体处理, 光照变化建模, 延迟高斯增长, 掩码引导
 
 ## 3 点简述
-- 核心问题：现有3DGS方法在野外场景中因瞬态物体和光照变化导致渲染伪影，高斯致密化过程加剧了这一问题
-- 方法要点：采用延迟高斯增长策略、尺度级联掩码引导和外观建模，以分离静态结构、瞬态物体和光照
-- 实验或效果：在多个挑战性数据集上超越现有方法，验证了鲁棒性和有效性
+- 核心问题：现有3DGS方法在野外场景中因高斯致密化过程无意建模瞬态扰动和光照变化，导致渲染伪影
+- 方法要点：采用延迟高斯增长策略优先优化静态结构，结合尺度级联掩码引导提升瞬态掩码估计精度
+- 实验或效果：在多个挑战性数据集上超越现有方法，验证了方法的鲁棒性和有效性
 
 ## 摘要（原文）
 

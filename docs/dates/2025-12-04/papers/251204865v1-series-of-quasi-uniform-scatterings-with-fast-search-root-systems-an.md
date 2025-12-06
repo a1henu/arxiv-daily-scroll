@@ -7,7 +7,7 @@ title: Series of quasi-uniform scatterings with fast search, root systems and ne
 **arXiv**：[2512.04865v1](https://arxiv.org/abs/2512.04865) · [PDF](https://arxiv.org/pdf/2512.04865.pdf)  
 **作者**：Igor V. Netay  
 
-**一句话要点**：提出基于半单李群不可约表示的向量集合构造方法，用于神经网络分类的潜在空间配置与扩展。
+**一句话要点**：提出基于半单李群表示构造向量集合的方法，用于神经网络分类的潜在空间配置与扩展。
 
 **关键词**：神经网络分类, 潜在空间配置, 向量集合构造, 半单李群表示, 类别扩展, 最近邻搜索
 

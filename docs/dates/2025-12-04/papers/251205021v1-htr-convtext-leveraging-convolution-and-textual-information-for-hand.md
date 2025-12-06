@@ -9,12 +9,12 @@ title: HTR-ConvText: Leveraging Convolution and Textual Information for Handwrit
 
 **一句话要点**：提出HTR-ConvText模型，结合卷积与文本信息以提升手写文本识别的泛化能力。
 
-**关键词**：手写文本识别, 卷积神经网络, MobileViT, 序列建模, 泛化能力
+**关键词**：手写文本识别, 卷积神经网络, MobileViT, 上下文编码, 有限数据泛化, 序列建模
 
 ## 3 点简述
 - 核心问题：手写文本识别面临数据有限、书写风格多样和复杂变音符号的挑战。
-- 方法要点：集成残差CNN与MobileViT，引入ConvText编码器结合全局上下文与局部特征。
-- 实验或效果：在IAM等数据集上验证，在有限样本和高多样性场景中表现优于现有方法。
+- 方法要点：集成残差CNN与MobileViT，并引入ConvText编码器结合全局上下文与局部特征。
+- 实验或效果：在IAM等数据集上验证，在有限样本和高多样性场景中性能优于现有方法。
 
 ## 摘要（原文）
 

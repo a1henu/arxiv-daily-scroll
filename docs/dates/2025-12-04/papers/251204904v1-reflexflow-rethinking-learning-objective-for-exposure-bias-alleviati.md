@@ -13,8 +13,8 @@ title: ReflexFlow: Rethinking Learning Objective for Exposure Bias Alleviation i
 
 ## 3 点简述
 - 核心问题：流匹配方法存在训练与推理差异导致的曝光偏差，包括模型泛化不足和低频内容缺失。
-- 方法要点：引入ReflexFlow，通过抗漂移校正和频率补偿动态调整学习目标，兼容所有流匹配框架。
-- 实验或效果：在CIFAR-10、CelebA-64和ImageNet-256上验证，显著降低FID，如CelebA-64上减少35.65%。
+- 方法要点：通过反漂移校正和频率补偿动态调整学习目标，兼容所有流匹配框架。
+- 实验或效果：在多个数据集上优于先前方法，如在CelebA-64上FID降低35.65%。
 
 ## 摘要（原文）
 

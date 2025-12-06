@@ -9,7 +9,7 @@ title: From Symptoms to Systems: An Expert-Guided Approach to Understanding Risk
 
 **一句话要点**：提出专家引导的风险分类法以评估生成式AI对饮食障碍的潜在风险
 
-**关键词**：生成式AI风险, 饮食障碍, 专家访谈, 风险分类法, 溯因分析
+**关键词**：生成式AI风险, 饮食障碍, 专家访谈, 风险分类法, 定性分析
 
 ## 3 点简述
 - 核心问题：生成式AI可能加剧饮食障碍风险，现有防护措施忽略临床细微线索

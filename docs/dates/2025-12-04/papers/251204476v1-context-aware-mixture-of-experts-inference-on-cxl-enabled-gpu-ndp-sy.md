@@ -7,14 +7,14 @@ title: Context-Aware Mixture-of-Experts Inference on CXL-Enabled GPU-NDP Systems
 **arXiv**：[2512.04476v1](https://arxiv.org/abs/2512.04476) · [PDF](https://arxiv.org/pdf/2512.04476.pdf)  
 **作者**：Zehao Fan, Zhenyu Liu, Yunzhen Liu, Yayue Hou, Hadjer Benmeziane, Kaoutar El Maghraoui, Liu Liu  
 
-**一句话要点**：提出上下文感知的MoE推理系统，利用CXL-NDP解决GPU内存不足问题
+**一句话要点**：提出上下文感知的MoE推理系统，利用CXL-NDP解决GPU内存受限问题
 
-**关键词**：混合专家模型, CXL近数据处理, 上下文感知推理, 混合精度量化, GPU内存优化
+**关键词**：混合专家模型, CXL近数据处理, 上下文感知推理, 动态专家放置, 混合精度量化
 
 ## 3 点简述
 - MoE模型推理在专家权重超出GPU内存时成为内存瓶颈，需频繁卸载权重
-- 系统基于预填充阶段激活统计，动态分配热专家到GPU，冷专家到CXL-NDP执行
-- 结合上下文感知混合精度量化，实验显示解码吞吐量提升8.7倍，精度仅降0.13%
+- 系统基于预填充阶段激活统计动态放置专家，热专家驻留GPU，冷专家映射到CXL-NDP执行
+- 评估显示解码吞吐量提升最高8.7倍，平均精度仅下降0.13%
 
 ## 摘要（原文）
 

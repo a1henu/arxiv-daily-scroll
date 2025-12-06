@@ -7,14 +7,14 @@ title: Executable Governance for AI: Translating Policies into Rules Using LLMs
 **arXiv**：[2512.04408v1](https://arxiv.org/abs/2512.04408) · [PDF](https://arxiv.org/pdf/2512.04408.pdf)  
 **作者**：Gautam Varma Datla, Anudeep Vurity, Tejaswani Dash, Tazeem Ahmad, Mohd Adnan, Saima Rafi  
 
-**一句话要点**：提出Policy-to-Tests框架，利用LLM将自然语言AI政策转换为可执行规则，以解决手动转换的低效问题。
+**一句话要点**：提出Policy-to-Tests框架，利用LLMs将自然语言AI政策转换为可执行规则以解决手动转换的低效问题。
 
-**关键词**：AI政策执行, 自然语言处理, 可执行规则生成, LLM应用, 领域特定语言, 安全评估
+**关键词**：AI政策执行, 自然语言处理, 可执行规则生成, 领域特定语言, LLM应用, 安全评估
 
 ## 3 点简述
 - 核心问题：AI政策指南多为文本，手动转换为可执行规则缓慢、易错且难以扩展。
-- 方法要点：开发包含流水线和领域特定语言的框架，提取政策条款并编码为规范化规则。
-- 实验或效果：在多种政策上应用，AI生成规则与人类基准匹配度高，下游测试显示能有效降低违规率。
+- 方法要点：开发P2T框架，通过管道和领域特定语言将政策文档标准化为机器可读规则。
+- 实验或效果：在多种政策上应用，AI生成规则接近人类基准，并验证了在生成代理中的安全影响。
 
 ## 摘要（原文）
 

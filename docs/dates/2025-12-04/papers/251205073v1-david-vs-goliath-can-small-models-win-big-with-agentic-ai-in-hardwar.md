@@ -7,14 +7,14 @@ title: David vs. Goliath: Can Small Models Win Big with Agentic AI in Hardware D
 **arXiv**：[2512.05073v1](https://arxiv.org/abs/2512.05073) · [PDF](https://arxiv.org/pdf/2512.05073.pdf)  
 **作者**：Shashwat Shankar, Subhranshu Pandey, Innocent Dengkhw Mochahari, Bhabesh Mali, Animesh Basak Chowdhury, Sukanta Bhattacharjee, Chandan Karfa  
 
-**一句话要点**：提出结合代理AI框架的小模型方法，在硬件设计任务中以低成本实现接近大模型的性能。
+**一句话要点**：提出小型模型结合代理AI框架，在硬件设计中实现高效性能
 
-**关键词**：硬件设计, 小语言模型, 代理AI框架, 任务分解, 迭代反馈, 成本效率
+**关键词**：硬件设计, 小型语言模型, 代理AI框架, 任务分解, 迭代反馈, CVDP基准
 
 ## 3 点简述
-- 核心问题：大语言模型推理成本高，硬件设计领域需高效替代方案。
-- 方法要点：使用小模型配合代理AI框架，通过任务分解和迭代反馈优化设计。
-- 实验或效果：在NVIDIA CVDP基准测试中，代理工作流以低成本实现接近大模型性能。
+- 核心问题：大型语言模型推理成本高，硬件设计任务需可持续解决方案
+- 方法要点：使用小型模型与代理AI框架，通过任务分解和迭代反馈优化设计
+- 实验或效果：在CVDP基准测试中，代理工作流以低成本实现接近LLM的性能
 
 ## 摘要（原文）
 

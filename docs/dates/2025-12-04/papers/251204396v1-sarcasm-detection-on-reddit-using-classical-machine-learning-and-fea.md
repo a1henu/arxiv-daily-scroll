@@ -13,8 +13,8 @@ title: Sarcasm Detection on Reddit Using Classical Machine Learning and Feature 
 
 ## 3 点简述
 - 研究在线讨论中讽刺检测的挑战，因字面与意图常矛盾。
-- 采用词级与字符级TF-IDF特征及风格指标，不依赖神经网络或上下文。
-- 评估四种模型，朴素贝叶斯和逻辑回归表现最佳，F1分数约0.57。
+- 采用词级与字符级TF-IDF特征及风格指标，评估四种经典模型。
+- 朴素贝叶斯和逻辑回归表现最佳，讽刺评论F1分数约0.57。
 
 ## 摘要（原文）
 

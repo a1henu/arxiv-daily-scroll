@@ -7,12 +7,12 @@ title: Prompt2Craft: Generating Functional Craft Assemblies with LLMs
 **arXiv**：[2512.04568v1](https://arxiv.org/abs/2512.04568) · [PDF](https://arxiv.org/pdf/2512.04568.pdf)  
 **作者**：Vitor Hideyo Isume, Takuya Kiyokawa, Natsuki Yamanobe, Yukiyasu Domae, Weiwei Wan, Kensuke Harada  
 
-**一句话要点**：提出Prompt2Craft方法，利用LLMs生成功能性手工组装，解决机器人基于可用物体组装目标对象的任务。
+**一句话要点**：提出Prompt2Craft方法，利用LLMs生成功能性手工组装，解决机器人基于可用物体组装目标物体的任务。
 
 **关键词**：机器人组装, 目标表示, 掩码分割, 模板检索, 形状简化, 比例匹配
 
 ## 3 点简述
-- 核心问题：机器人如何从可用物体中选取子集，组装成目标对象的准确表示，物体不直接对应目标部件。
+- 核心问题：机器人如何从可用物体中选取子集，组装成目标物体的准确表示，物体不直接对应目标部件。
 - 方法要点：使用掩码分割网络识别可见部分，检索模板网格，简化形状，设计搜索算法匹配局部和全局比例。
 - 实验或效果：在两种场景中与基线方法结果相当，并在真实场景中展示定性结果。
 

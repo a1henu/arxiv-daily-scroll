@@ -7,14 +7,14 @@ title: OmniScaleSR: Unleashing Scale-Controlled Diffusion Prior for Faithful and
 **arXiv**：[2512.04699v1](https://arxiv.org/abs/2512.04699) · [PDF](https://arxiv.org/pdf/2512.04699.pdf)  
 **作者**：Xinning Chai, Zhengxue Cheng, Yuhong Zhang, Hengsheng Zhang, Yingsheng Qin, Yucai Yang, Rong Xie, Li Song  
 
-**一句话要点**：提出OmniScaleSR以解决任意尺度超分辨率中真实感与保真度平衡问题
+**一句话要点**：提出OmniScaleSR以解决任意尺度超分辨率中保真度与真实感平衡问题
 
-**关键词**：任意尺度超分辨率, 扩散模型, 尺度控制, 真实感图像超分辨率, 多域保真度增强
+**关键词**：任意尺度超分辨率, 扩散模型, 尺度控制, 真实感图像生成, 保真度增强
 
 ## 3 点简述
-- 现有任意尺度超分辨率方法依赖隐式神经表示，细节合成能力有限，导致真实感低。
-- OmniScaleSR引入显式扩散原生尺度控制机制，协同隐式尺度适应，实现尺度感知的扩散过程调制。
-- 在双三次降质基准和真实数据集上，OmniScaleSR在保真度和感知真实感上超越现有方法，尤其在大放大因子下表现强劲。
+- 现有任意尺度超分辨率方法依赖隐式神经表示，细节合成能力有限，导致真实感低
+- OmniScaleSR引入显式扩散原生尺度控制机制，结合隐式尺度适应，实现尺度感知的扩散过程调制
+- 实验表明，在双三次退化和真实数据集上，OmniScaleSR在保真度和感知真实感上超越现有方法
 
 ## 摘要（原文）
 
