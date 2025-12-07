@@ -7,14 +7,14 @@ title: On Disturbance-Aware Minimum-Time Trajectory Planning: Evidence from Test
 **arXiv**：[2512.04917v1](https://arxiv.org/abs/2512.04917) · [PDF](https://arxiv.org/pdf/2512.04917.pdf)  
 **作者**：Matteo Masoni, Vincenzo Palermo, Marco Gabiccini, Martino Gulisano, Giorgio Previati, Massimiliano Gobbi, Francesco Comolli, Gianpiero Mastinu, Massimo Guiggiani  
 
-**一句话要点**：提出扰动感知最小时间轨迹规划框架，在动态驾驶模拟器中评估专业驾驶员执行效果。
+**一句话要点**：提出扰动感知最小时间轨迹规划框架，在动态驾驶模拟器中评估专业驾驶员执行效果
 
-**关键词**：扰动感知规划, 最小时间轨迹, 驾驶模拟器, 鲁棒控制, 轨迹优化, 驾驶性能评估
+**关键词**：扰动感知规划, 最小时间轨迹, 驾驶模拟器, 鲁棒性控制, 轨迹优化, 驾驶性能评估
 
 ## 3 点简述
-- 核心问题：扰动感知轨迹规划如何影响驾驶性能，平衡圈时与转向努力。
-- 方法要点：通过收紧赛道边界和轮胎摩擦约束，生成鲁棒轨迹NOM、TLC和FLC。
-- 实验或效果：FLC在圈时小幅增加下显著降低转向努力，优于其他轨迹和自由驾驶基线。
+- 研究扰动感知轨迹规划对驾驶性能的影响，比较名义最优、轨道限界鲁棒和摩擦限界鲁棒轨迹
+- 采用最小圈时目标与转向平滑正则化，通过专业驾驶员在虚拟赛道上执行轨迹进行实验
+- 结果显示摩擦限界鲁棒轨迹在圈时与转向努力间达到高效平衡，证实参考轨迹提升驾驶效率
 
 ## 摘要（原文）
 

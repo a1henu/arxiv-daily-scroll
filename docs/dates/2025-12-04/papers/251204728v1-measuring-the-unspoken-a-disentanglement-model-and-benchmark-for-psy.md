@@ -7,7 +7,7 @@ title: Measuring the Unspoken: A Disentanglement Model and Benchmark for Psychol
 **arXiv**：[2512.04728v1](https://arxiv.org/abs/2512.04728) · [PDF](https://arxiv.org/pdf/2512.04728.pdf)  
 **作者**：Yigui Feng, Qinglin Wang, Haotian Mo, Yang Liu, Ke Liu, Gencheng Liu, Xinhai Chen, Siqi Shen, Songzhu Mei, Jie Liu  
 
-**一句话要点**：提出MIND模型与PRISM基准，解决野外对话中视觉-语言模型的表达-情感歧义与评估难题。
+**一句话要点**：提出MIND模型和PRISM基准，解决野外对话中视觉-语言模型的表达-情感歧义和评估难题。
 
 **关键词**：视觉-语言模型, 心理分析, 解耦学习, 微表情检测, 评估基准, 野外对话
 

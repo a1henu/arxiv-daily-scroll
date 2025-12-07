@@ -7,14 +7,14 @@ title: STeP-Diff: Spatio-Temporal Physics-Informed Diffusion Models for Mobile F
 **arXiv**：[2512.04385v1](https://arxiv.org/abs/2512.04385) · [PDF](https://arxiv.org/pdf/2512.04385.pdf)  
 **作者**：Nan Zhou, Weijie Hong, Huandong Wang, Jianfeng Zheng, Qiuhua Wang, Yali Song, Xiao-Ping Zhang, Yong Li, Xinlei Chen  
 
-**一句话要点**：提出STeP-Diff以解决移动平台细粒度污染预测中数据不完整和时空不一致问题
+**一句话要点**：提出STeP-Diff以解决移动平台细粒度污染预测中数据不完整与时空不一致问题。
 
-**关键词**：细粒度污染预测, 扩散模型, 物理信息学习, 时空建模, 移动传感器数据, PDE约束
+**关键词**：细粒度污染预测, 扩散模型, 物理信息学习, 时空建模, 移动传感器数据
 
 ## 3 点简述
-- 核心问题：移动传感器数据因平台随机移动导致不完整和时空不一致，影响污染预测精度。
-- 方法要点：结合DeepONet建模空间序列与PDE约束扩散模型，通过反过程训练捕获时空依赖，确保预测符合物理规律。
-- 实验或效果：在两城市部署59个设备收集数据，相比次优算法，MAE提升达89.12%，RMSE提升82.30%，MAPE提升25.00%。
+- 核心问题：移动传感器数据因平台随机移动导致不完整和时空不一致。
+- 方法要点：结合DeepONet和PDE约束扩散模型，通过反过程训练预测时空场。
+- 实验或效果：部署59个设备收集数据，模型在MAE、RMSE和MAPE上显著优于次优算法。
 
 ## 摘要（原文）
 

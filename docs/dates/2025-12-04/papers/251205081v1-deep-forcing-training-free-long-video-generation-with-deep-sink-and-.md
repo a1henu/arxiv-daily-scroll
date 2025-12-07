@@ -7,14 +7,14 @@ title: Deep Forcing: Training-Free Long Video Generation with Deep Sink and Part
 **arXiv**：[2512.05081v1](https://arxiv.org/abs/2512.05081) · [PDF](https://arxiv.org/pdf/2512.05081.pdf)  
 **作者**：Jung Yi, Wooseok Jang, Paul Hyunbin Cho, Jisu Nam, Heeji Yoon, Seungryong Kim  
 
-**一句话要点**：提出Deep Forcing，通过深度汇和参与式压缩实现无需训练的长视频生成，解决自回归视频扩散中的时间重复、漂移和运动减速问题。
+**一句话要点**：提出Deep Forcing，通过深度汇与参与式压缩实现无需训练的长视频生成，解决自回归视频扩散中的时间重复、漂移和运动减速问题。
 
 **关键词**：长视频生成, 自回归视频扩散, 注意力机制, KV缓存管理, 训练免费方法, 实时生成
 
 ## 3 点简述
 - 核心问题：自回归视频扩散在长视频生成中存在时间重复、漂移和运动减速，现有方法如StreamingLLM式注意力汇导致保真度下降和运动停滞。
-- 方法要点：Deep Forcing包含深度汇和参与式压缩，前者分配滑动窗口一半给持久汇令牌并重新对齐时间RoPE相位，后者基于重要性修剪KV缓存以保留活跃令牌，无需微调。
-- 实验或效果：实现超过12倍外推（如5秒训练生成60秒以上视频），在图像质量、美学质量和动态度上优于LongLive和RollingForcing，保持实时生成。
+- 方法要点：Deep Forcing包含深度汇（分配滑动窗口一半给持久汇令牌并重新对齐时间RoPE相位）和参与式压缩（基于重要性修剪KV缓存，保留活跃参与令牌）。
+- 实验或效果：实现超过12倍外推（如5秒训练生成60秒以上视频），图像质量优于LongLive，美学质量优于RollingForcing，保持实时生成，动态程度显著提升。
 
 ## 摘要（原文）
 

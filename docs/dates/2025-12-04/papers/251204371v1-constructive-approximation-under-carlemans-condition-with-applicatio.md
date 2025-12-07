@@ -7,14 +7,14 @@ title: Constructive Approximation under Carleman's Condition, with Applications 
 **arXiv**：[2512.04371v1](https://arxiv.org/abs/2512.04371) · [PDF](https://arxiv.org/pdf/2512.04371.pdf)  
 **作者**：Frederic Koehler, Beining Wu  
 
-**一句话要点**：基于Carleman条件的构造性逼近，应用于平滑分析，提供多项式逼近的非渐近控制。
+**一句话要点**：基于Carleman条件的构造性逼近，应用于平滑分析，改进多项式逼近速率与分布泛化
 
-**关键词**：构造性逼近, Carleman条件, 多项式逼近, 平滑分析, 复分析, L^2逼近
+**关键词**：Carleman条件, 多项式逼近, 平滑分析, 复分析, 分布泛化, L^2逼近
 
 ## 3 点简述
-- 核心问题：Carleman条件下多项式在L^2(μ)中的逼近速率定量分析。
-- 方法要点：通过复分析发展Denjoy-Carleman定理的紧定量类比，控制光滑函数的逼近。
-- 实验或效果：应用于Paley-Wiener类函数和机器学习平滑分析，解决开放问题并改进结果。
+- 核心问题：Carleman条件下多项式在L^2(μ)中的逼近速率定量控制，适用于一般分布类
+- 方法要点：通过复分析发展Denjoy-Carleman定理的紧定量类比，实现非渐近逼近控制
+- 实验或效果：应用于Paley-Wiener类函数和机器学习平滑分析，解决开放问题并改进结果
 
 ## 摘要（原文）
 

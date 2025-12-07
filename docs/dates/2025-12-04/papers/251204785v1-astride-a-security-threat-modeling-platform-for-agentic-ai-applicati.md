@@ -7,14 +7,14 @@ title: ASTRIDE: A Security Threat Modeling Platform for Agentic-AI Applications
 **arXiv**：[2512.04785v1](https://arxiv.org/abs/2512.04785) · [PDF](https://arxiv.org/pdf/2512.04785.pdf)  
 **作者**：Eranga Bandara, Amin Hass, Ross Gore, Sachin Shetty, Ravi Mukkamala, Safdar H. Bouk, Xueping Liang, Ng Wee Keong, Kasun De Zoysa, Aruna Withanage, Nilaan Loganathan  
 
-**一句话要点**：提出ASTRIDE平台以解决AI代理应用中的新型安全威胁建模问题
+**一句话要点**：提出ASTRIDE平台以解决AI代理应用中的安全威胁建模问题
 
-**关键词**：AI代理安全, 威胁建模, 视觉语言模型, 自动化分析, STRIDE扩展
+**关键词**：AI代理安全, 威胁建模自动化, 视觉语言模型, 推理大语言模型, STRIDE扩展
 
 ## 3 点简述
-- AI代理系统面临提示注入等传统框架未覆盖的安全挑战
-- ASTRIDE扩展STRIDE框架，新增AI特定威胁类别，并集成微调视觉语言模型与推理大语言模型
-- 评估显示ASTRIDE能提供准确、可扩展且可解释的威胁建模
+- AI代理系统面临提示注入等新型安全挑战，传统威胁建模框架难以覆盖
+- ASTRIDE扩展STRIDE框架，新增AI代理特定攻击类别，并集成视觉语言模型与推理大语言模型实现自动化
+- 评估显示ASTRIDE能提供准确、可扩展和可解释的威胁建模，适用于下一代智能系统
 
 ## 摘要（原文）
 

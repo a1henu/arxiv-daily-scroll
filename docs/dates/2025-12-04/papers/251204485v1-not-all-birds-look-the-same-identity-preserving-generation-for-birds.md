@@ -7,14 +7,14 @@ title: Not All Birds Look The Same: Identity-Preserving Generation For Birds
 **arXiv**：[2512.04485v1](https://arxiv.org/abs/2512.04485) · [PDF](https://arxiv.org/pdf/2512.04485.pdf)  
 **作者**：Aaron Sun, Oindrila Saha, Subhransu Maji  
 
-**一句话要点**：提出NABirds Look-Alikes数据集以评估鸟类身份保持生成，并基于物种、年龄和性别分组训练提升性能。
+**一句话要点**：提出NABirds Look-Alikes数据集以评估鸟类身份保持生成，并通过物种分组训练提升性能。
 
-**关键词**：身份保持生成, 细粒度视觉识别, 鸟类图像数据集, 可控图像生成, 零样本学习
+**关键词**：身份保持生成, 鸟类图像生成, 细粒度视觉识别, 数据集构建, 零样本控制, 非刚性物体生成
 
 ## 3 点简述
 - 核心问题：现有身份保持生成模型在非刚性或细粒度类别（如鸟类）上表现不佳，缺乏高质量数据用于评估和改进。
-- 方法要点：引入NABirds Look-Alikes数据集，包含专家策划的图像对，并利用物种、年龄和性别作为身份代理进行分组训练。
-- 实验或效果：在NABirds Look-Alikes数据集上，现有基线模型失败，而分组训练方法显著提升了在可见和未见物种上的性能。
+- 方法要点：引入NABirds Look-Alikes数据集，包含专家标注图像对，并基于物种、年龄和性别分组训练作为身份代理。
+- 实验或效果：在NABirds Look-Alikes基准上，现有基线失败，而分组训练方法在可见和未见物种上均显著提升性能。
 
 ## 摘要（原文）
 

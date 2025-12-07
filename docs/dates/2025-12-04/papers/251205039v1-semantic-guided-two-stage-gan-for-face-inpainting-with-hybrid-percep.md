@@ -13,8 +13,8 @@ title: Semantic-Guided Two-Stage GAN for Face Inpainting with Hybrid Perceptual 
 
 ## 3 点简述
 - 核心问题：现有方法在大面积不规则掩码下易产生模糊纹理、语义不一致或结构失真。
-- 方法要点：第一阶段结合CNN和Vision Transformer生成清晰语义布局；第二阶段多模态纹理生成器多尺度细化。
-- 实验或效果：在CelebA-HQ和FFHQ数据集上，LPIPS、PSNR和SSIM指标优于现有方法，视觉结果更优。
+- 方法要点：采用语义引导分层合成，第一阶段结合CNN和Vision Transformer生成清晰语义布局，第二阶段多模态纹理生成器细化纹理。
+- 实验或效果：在CelebA-HQ和FFHQ数据集上优于现有方法，提升LPIPS、PSNR和SSIM指标，视觉结果更优。
 
 ## 摘要（原文）
 

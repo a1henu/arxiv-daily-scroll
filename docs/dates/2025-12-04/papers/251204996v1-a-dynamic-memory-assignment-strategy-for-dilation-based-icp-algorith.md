@@ -12,9 +12,9 @@ title: A dynamic memory assignment strategy for dilation-based ICP algorithm on 
 **关键词**：点云配准, 嵌入式GPU, 内存优化, 膨胀操作, 动态内存分配
 
 ## 3 点简述
-- VANICP算法内存需求大，限制其在资源受限嵌入式系统的部署
-- 基于膨胀操作设计GPU动态内存分配策略，优化内存使用
-- 实验显示内存消耗减少超97%，同时保持原始性能
+- VANICP算法在嵌入式GPU上内存需求高，限制部署
+- 基于膨胀操作设计GPU动态内存分配策略，减少内存占用
+- 实验显示内存消耗降低超97%，性能保持原水平
 
 ## 摘要（原文）
 

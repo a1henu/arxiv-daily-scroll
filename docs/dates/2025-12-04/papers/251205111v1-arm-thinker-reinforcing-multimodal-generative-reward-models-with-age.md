@@ -7,14 +7,14 @@ title: ARM-Thinker: Reinforcing Multimodal Generative Reward Models with Agentic
 **arXiv**：[2512.05111v1](https://arxiv.org/abs/2512.05111) · [PDF](https://arxiv.org/pdf/2512.05111.pdf)  
 **作者**：Shengyuan Ding, Xinyu Fang, Ziyu Liu, Yuhang Zang, Yuhang Cao, Xiangyu Zhao, Haodong Duan, Xiaoyi Dong, Jianze Liang, Bin Wang, Conghui He, Dahua Lin, Jiaqi Wang  
 
-**一句话要点**：提出ARM-Thinker，通过代理工具使用增强多模态奖励模型，解决视觉幻觉和验证不足问题。
+**一句话要点**：提出ARM-Thinker，通过代理工具调用增强多模态奖励模型，解决视觉幻觉与验证不足问题。
 
-**关键词**：多模态奖励模型, 代理工具使用, 视觉推理, 强化学习, 基准评估
+**关键词**：多模态奖励模型, 代理工具调用, 视觉推理, 强化学习, 基准评估
 
 ## 3 点简述
-- 当前奖励模型存在幻觉、视觉基础弱和无法使用工具验证的问题。
-- ARM-Thinker自主调用外部工具进行证据验证，采用多阶段强化学习联合优化。
-- 在ARMBench-VL基准上平均提升16.2%，工具使用任务提升9.6%。
+- 当前奖励模型存在幻觉、视觉基础弱、无法使用工具验证，限制复杂多模态推理可靠性。
+- ARM-Thinker自主调用外部工具（如图像裁剪、文档检索）进行可验证判断，替代静态评分。
+- 在ARMBench-VL基准上，模型在奖励建模、工具使用和多模态推理任务中显著优于基线。
 
 ## 摘要（原文）
 

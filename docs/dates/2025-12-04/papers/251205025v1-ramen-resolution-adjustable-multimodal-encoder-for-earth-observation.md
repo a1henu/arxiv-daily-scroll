@@ -7,14 +7,14 @@ title: RAMEN: Resolution-Adjustable Multimodal Encoder for Earth Observation
 **arXiv**：[2512.05025v1](https://arxiv.org/abs/2512.05025) · [PDF](https://arxiv.org/pdf/2512.05025.pdf)  
 **作者**：Nicolas Houdré, Diego Marcos, Hugo Riffaud de Turckheim, Dino Ienco, Laurent Wendling, Camille Kurtz, Sylvain Lobry  
 
-**一句话要点**：提出RAMEN以解决地球观测数据多模态多分辨率统一编码问题
+**一句话要点**：提出RAMEN以解决地球观测中多模态数据分辨率固定和传感器依赖的表示学习问题。
 
-**关键词**：地球观测, 多模态编码, 分辨率可调, 传感器无关, 统一表示学习, Transformer编码器
+**关键词**：地球观测, 多模态编码器, 分辨率可调, 传感器无关, 表示学习, Transformer
 
 ## 3 点简述
-- 核心问题：现有基础模型对固定输入分辨率或传感器特定编码的依赖，限制了跨异构地球观测模态的泛化能力。
-- 方法要点：RAMEN通过将模态、空间和时间分辨率作为输入特征，在统一潜在空间中学习传感器无关的共享视觉表示，并允许用户控制输出空间分辨率以权衡精度与计算成本。
-- 实验或效果：在PANGAEA基准测试中，RAMEN在已知和未见传感器配置上均表现优异，优于现有大型先进模型。
+- 核心问题：现有基础模型对固定输入分辨率或传感器特定编码器的依赖，限制了跨异构地球观测模态的泛化能力。
+- 方法要点：RAMEN作为分辨率可调的多模态编码器，以传感器无关方式学习共享视觉表示，将空间分辨率定义为可控输出参数。
+- 实验或效果：在PANGAEA基准测试中，RAMEN优于更大规模的最先进模型，有效迁移到已知和未见传感器配置。
 
 ## 摘要（原文）
 

@@ -7,12 +7,12 @@ title: GeoPE:A Unified Geometric Positional Embedding for Structured Tensors
 **arXiv**：[2512.04963v1](https://arxiv.org/abs/2512.04963) · [PDF](https://arxiv.org/pdf/2512.04963.pdf)  
 **作者**：Yupu Yao, Bowen Yang  
 
-**一句话要点**：提出GeoPE以解决视觉Transformer中2D空间拓扑破坏问题，通过四元数扩展旋转到3D欧几里得空间。
+**一句话要点**：提出GeoPE以解决Vision Transformers中2D空间拓扑破坏问题，通过四元数扩展旋转到3D欧几里得空间。
 
-**关键词**：位置编码, 视觉Transformer, 几何结构, 四元数, 空间拓扑, 图像分类
+**关键词**：几何位置嵌入, Vision Transformers, 四元数旋转, 空间拓扑, 图像分类, 3D语义分割
 
 ## 3 点简述
-- 核心问题：标准视觉Transformer将2D图像展平为1D序列，破坏空间拓扑，导致空间距离与序列邻近性混淆。
+- 核心问题：标准Vision Transformers将2D图像展平为1D序列，破坏空间拓扑，导致空间距离与序列邻近性混淆。
 - 方法要点：使用四元数在3D欧几里得空间中扩展旋转，通过李代数几何平均构建统一旋转算子，实现几何耦合编码。
 - 实验或效果：在图像分类、目标检测和3D语义分割实验中，GeoPE优于现有2D RoPE变体，显著增强形状偏差。
 

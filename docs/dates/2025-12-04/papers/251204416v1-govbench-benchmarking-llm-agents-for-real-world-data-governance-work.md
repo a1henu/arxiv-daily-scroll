@@ -7,14 +7,14 @@ title: GovBench: Benchmarking LLM Agents for Real-World Data Governance Workflow
 **arXiv**：[2512.04416v1](https://arxiv.org/abs/2512.04416) · [PDF](https://arxiv.org/pdf/2512.04416.pdf)  
 **作者**：Zhou Liu, Zhaoyang Han, Guochen Yan, Hao Liang, Bohan Zeng, Xing Chen, Yuanfeng Song, Wentao Zhang  
 
-**一句话要点**：提出GovBench基准与DataGovAgent框架以解决LLM在真实数据治理工作流中的自动化挑战
+**一句话要点**：提出GovBench基准与DataGovAgent框架，以评估和提升LLM在真实数据治理工作流中的自动化能力
 
-**关键词**：数据治理基准, LLM代理, 工作流自动化, 反向目标方法, 规划-执行-评估架构, 错误纠正机制
+**关键词**：数据治理基准, LLM智能体, 工作流自动化, 约束规划, 检索增强生成, 沙盒调试
 
 ## 3 点简述
-- 核心问题：现有基准未覆盖数据治理的独特挑战，如确保数据正确性与质量。
-- 方法要点：引入GovBench基准，采用反向目标方法合成噪声，并设计DataGovAgent框架集成规划与调试。
-- 实验或效果：DataGovAgent显著提升复杂任务平均分，并减少调试迭代超过77.9%。
+- 现有基准难以评估数据治理特有的数据正确性与质量保障挑战
+- GovBench基于真实案例数据，采用反向目标方法合成噪声，评估端到端可靠性
+- DataGovAgent采用规划-执行-评估架构，显著提升复杂任务得分并减少调试迭代
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: YingMusic-Singer: Zero-shot Singing Voice Synthesis and Editing with Anno
 **arXiv**：[2512.04779v1](https://arxiv.org/abs/2512.04779) · [PDF](https://arxiv.org/pdf/2512.04779.pdf)  
 **作者**：Junjie Zheng, Chunbo Hao, Guobin Ma, Xiaoyu Zhang, Gongyu Chen, Chaofan Ding, Zihao Chen, Lei Xie  
 
-**一句话要点**：提出基于无标注旋律引导的零样本歌声合成与编辑框架，以解决传统方法依赖对齐和标注的问题。
+**一句话要点**：提出基于扩散Transformer的歌声合成框架，通过无标注旋律指导实现零样本合成与编辑
 
-**关键词**：歌声合成, 零样本学习, 扩散Transformer, 旋律提取, 无标注学习, 强化学习
+**关键词**：歌声合成, 扩散Transformer, 零样本学习, 旋律提取, 无标注学习, 强化学习
 
 ## 3 点简述
-- 核心问题：传统歌声合成依赖音素对齐和手动旋律标注，资源消耗大且可扩展性差。
-- 方法要点：采用扩散Transformer架构，结合旋律提取模块和隐式对齐机制，无需对齐实现旋律驱动合成。
-- 实验或效果：在零样本和歌词适应场景中，客观指标和主观听测均优于现有方法，音频质量高。
+- 核心问题：传统歌声合成依赖音素对齐和人工标注旋律，资源消耗大且难以扩展
+- 方法要点：采用扩散Transformer架构，结合旋律提取模块和隐式对齐机制，无需音素级对齐
+- 实验效果：在零样本和歌词适应场景下，客观指标和主观听感均优于现有方法，音频质量高
 
 ## 摘要（原文）
 

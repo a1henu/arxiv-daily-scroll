@@ -9,12 +9,12 @@ title: Learning to Orchestrate Agents in Natural Language with the Conductor
 
 **一句话要点**：提出Conductor模型，通过强化学习协调多LLM以提升推理性能
 
-**关键词**：大语言模型协调, 强化学习, 提示工程, 多代理系统, 推理基准
+**关键词**：语言模型协调, 强化学习, 多智能体协作, 提示工程, 推理基准
 
 ## 3 点简述
-- 核心问题：不同LLM在领域间存在能力差异，需有效协调以最大化整体性能
-- 方法要点：使用强化学习训练Conductor模型，自动设计通信拓扑和提示工程
-- 实验或效果：在LiveCodeBench和GPQA等基准上达到SOTA，适应任意开源和闭源代理
+- 核心问题：如何自动发现不同LLM间的有效协作策略以最大化整体性能
+- 方法要点：使用强化学习训练Conductor模型，设计通信拓扑和提示工程
+- 实验或效果：在LiveCodeBench和GPQA等基准上达到SOTA，适应任意代理池
 
 ## 摘要（原文）
 

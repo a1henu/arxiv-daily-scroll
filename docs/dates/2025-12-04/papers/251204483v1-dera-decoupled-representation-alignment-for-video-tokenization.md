@@ -13,8 +13,8 @@ title: DeRA: Decoupled Representation Alignment for Video Tokenization
 
 ## 3 点简述
 - 核心问题：视频分词中时空表示学习耦合导致训练效率低和性能受限。
-- 方法要点：分解视频编码为外观和运动流，并与预训练视觉基础模型对齐，使用SACP模块缓解梯度冲突。
-- 实验或效果：在UCF-101上rFVD指标超越LARP 25%，在视频生成任务中达到新SOTA。
+- 方法要点：解耦为外观和运动流，对齐预训练视觉基础模型，并引入SACP模块缓解梯度冲突。
+- 实验或效果：在UCF-101上rFVD指标超越LARP 25%，视频生成任务达到新SOTA。
 
 ## 摘要（原文）
 

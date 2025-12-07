@@ -13,8 +13,8 @@ title: Feature Engineering vs. Deep Learning for Automated Coin Grading: A Compa
 
 ## 3 点简述
 - 核心问题：在数据稀缺且类别不平衡的硬币自动评级中，深度学习是否总是优于传统方法
-- 方法要点：比较基于192个自定义特征的人工神经网络、混合CNN和SVM，特征来自Sobel边缘检测和HSV颜色分析
-- 实验或效果：ANN在1785枚硬币上实现86%精确匹配和98%三等级容差，显著优于CNN和SVM的约30%精确匹配
+- 方法要点：比较基于192个自定义特征（Sobel边缘检测和HSV颜色分析）的ANN、混合CNN（EfficientNetV2）和SVM
+- 实验或效果：ANN在1785枚硬币上实现86%精确匹配和98%3级容差准确率，显著优于CNN和SVM
 
 ## 摘要（原文）
 

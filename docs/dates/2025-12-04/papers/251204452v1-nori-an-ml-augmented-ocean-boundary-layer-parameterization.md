@@ -7,14 +7,14 @@ title: NORi: An ML-Augmented Ocean Boundary Layer Parameterization
 **arXiv**：[2512.04452v1](https://arxiv.org/abs/2512.04452) · [PDF](https://arxiv.org/pdf/2512.04452.pdf)  
 **作者**：Xin Kai Lee, Ali Ramadhan, Andre Souza, Gregory LeClaire Wagner, Simone Silvestri, John Marshall, Raffaele Ferrari  
 
-**一句话要点**：提出NORi以增强海洋边界层湍流参数化，结合物理模型与神经网络提升气候模型性能
+**一句话要点**：提出NORi以增强海洋边界层湍流参数化，结合物理模型与神经网络提升气候模型性能。
 
-**关键词**：海洋边界层参数化, 神经ODE, 气候模型, 湍流模拟, 机器学习增强
+**关键词**：海洋边界层参数化, 神经网络增强, 物理引导机器学习, 气候模型, 数值稳定性, 夹带模拟
 
 ## 3 点简述
-- 核心问题：传统局部扩散闭合无法准确模拟海洋边界层底部的夹带过程，影响气候模型精度
-- 方法要点：基于Richardson数的物理参数化与神经ODE结合，通过后验训练优化时间积分变量
-- 实验或效果：在多种对流强度、海洋背景分层等条件下表现优异，数值稳定可长期模拟
+- 核心问题：传统局部扩散闭合无法准确模拟海洋边界层底部的夹带过程。
+- 方法要点：基于Richardson数的物理参数化，通过NODEs训练捕获夹带，采用后验校准减少噪声影响。
+- 实验或效果：在多种海洋条件下表现优异，数值稳定，可长期模拟，减少数据需求并优化推理性能。
 
 ## 摘要（原文）
 

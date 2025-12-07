@@ -7,14 +7,14 @@ title: MAFNet:Multi-frequency Adaptive Fusion Network for Real-time Stereo Match
 **arXiv**：[2512.04358v1](https://arxiv.org/abs/2512.04358) · [PDF](https://arxiv.org/pdf/2512.04358.pdf)  
 **作者**：Ao Xu, Rujin Zhao, Xiong Xu, Boceng Huang, Yujia Jia, Hongfeng Long, Fuxuan Chen, Zilong Cao, Fangyuan Chen  
 
-**一句话要点**：提出MAFNet以在资源受限设备上实现实时立体匹配，通过多频自适应融合提升精度与效率。
+**一句话要点**：提出MAFNet多频自适应融合网络，以高效2D卷积实现实时立体匹配，平衡精度与速度。
 
-**关键词**：立体匹配, 实时计算, 频域滤波, 注意力机制, 成本体积, 移动设备部署
+**关键词**：立体匹配, 实时计算, 频域滤波, 注意力机制, 2D卷积, 移动设备部署
 
 ## 3 点简述
-- 现有立体匹配网络在计算开销或非局部上下文建模方面存在不足，限制实时部署。
-- MAFNet采用自适应频域滤波注意力模块分解成本体积，并基于Linformer的低秩注意力融合高低频信息。
-- 在Scene Flow和KITTI 2015数据集上，MAFNet在精度与实时性间取得优越平衡。
+- 现有立体匹配网络在移动设备上实时性差，因3D卷积计算开销大或迭代优化缺乏非局部上下文建模。
+- MAFNet设计自适应频域滤波注意力模块，分解成本体积为高低频部分，并基于Linformer低秩注意力融合信息。
+- 在Scene Flow和KITTI 2015数据集上，MAFNet优于现有实时方法，展现精度与实时性能的良好平衡。
 
 ## 摘要（原文）
 

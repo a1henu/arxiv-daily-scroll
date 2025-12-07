@@ -7,14 +7,14 @@ title: Towards Cross-View Point Correspondence in Vision-Language Models
 **arXiv**：[2512.04686v1](https://arxiv.org/abs/2512.04686) · [PDF](https://arxiv.org/pdf/2512.04686.pdf)  
 **作者**：Yipu Wang, Yuheng Ji, Yuyang Liu, Enshen Zhou, Ziqiang Yang, Yuxuan Tian, Ziheng Qin, Yue Liu, Huajie Tan, Cheng Chi, Zhiyuan Ma, Daniel Dajun Zeng, Xiaolong Zheng  
 
-**一句话要点**：提出跨视图点对应任务与基准，以解决视觉语言模型在精细空间对应上的不足。
+**一句话要点**：提出跨视图点对应任务与基准，以提升视觉语言模型在空间理解中的精确对应能力。
 
-**关键词**：跨视图对应, 点级对应, 视觉语言模型, 基准构建, 数据集构建, 空间理解
+**关键词**：跨视图对应, 视觉语言模型, 点级对应, 空间理解, 基准评估, 数据集构建
 
 ## 3 点简述
-- 核心问题：视觉语言模型在跨视图点对应能力上存在显著差距，影响精确交互。
+- 核心问题：视觉语言模型在跨视图点对应任务上表现不佳，影响精确交互。
 - 方法要点：构建分层基准CrossPoint-Bench和数据集CrossPoint-378K，并训练模型CroPond。
-- 实验或效果：CroPond在基准上超越Gemini-2.5-Pro 39.7%，缩小与人类表现的差距。
+- 实验或效果：CroPond在基准上超越Gemini-2.5-Pro 39.7%，缩小与人类差距。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: VideoSSM: Autoregressive Long Video Generation with Hybrid State-Space Me
 **arXiv**：[2512.04519v1](https://arxiv.org/abs/2512.04519) · [PDF](https://arxiv.org/pdf/2512.04519.pdf)  
 **作者**：Yifei Yu, Xiaoshan Wu, Xinting Hu, Tao Hu, Yangtian Sun, Xiaoyang Lyu, Bo Wang, Lin Ma, Yuewen Ma, Zhongrui Wang, Xiaojuan Qi  
 
-**一句话要点**：提出VideoSSM，结合自回归扩散与混合状态空间记忆以解决长视频生成中的一致性问题
+**一句话要点**：提出VideoSSM，结合自回归扩散与混合状态空间记忆，以解决长视频生成中的累积误差和一致性挑战。
 
 **关键词**：长视频生成, 自回归扩散, 状态空间模型, 混合记忆, 时间一致性, 交互控制
 
 ## 3 点简述
-- 核心问题：自回归长视频生成面临累积误差、运动漂移和内容重复，导致分钟级一致性差
-- 方法要点：采用混合状态空间记忆，全局SSM存储场景动态，局部上下文窗口提供运动细节，实现线性时间扩展
-- 实验或效果：在长短范围基准测试中，展示领先的时间一致性和运动稳定性，支持交互式提示控制
+- 核心问题：自回归长视频生成面临累积误差、运动漂移和内容重复，导致分钟级一致性差。
+- 方法要点：采用混合状态空间记忆，全局SSM存储场景动态，局部上下文窗口提供运动细节，确保线性时间扩展。
+- 实验或效果：在长短范围基准测试中，实现最佳时间一致性和运动稳定性，支持交互式提示控制。
 
 ## 摘要（原文）
 

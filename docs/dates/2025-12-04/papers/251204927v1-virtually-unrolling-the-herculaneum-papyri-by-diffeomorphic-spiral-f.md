@@ -9,7 +9,7 @@ title: Virtually Unrolling the Herculaneum Papyri by Diffeomorphic Spiral Fittin
 
 **一句话要点**：提出基于可微螺旋拟合的自动表面建模方法，以虚拟展开赫库兰尼姆古卷
 
-**关键词**：虚拟展开, 螺旋拟合, CT扫描重建, 表面建模, 赫库兰尼姆古卷
+**关键词**：虚拟展开, 螺旋拟合, CT扫描分析, 表面建模, 古卷数字化
 
 ## 3 点简述
 - 核心问题：赫库兰尼姆古卷因碳化无法物理展开，需从CT扫描中自动重建连续表面以访问文本

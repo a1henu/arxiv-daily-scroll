@@ -12,9 +12,9 @@ title: Counterfeit Answers: Adversarial Forgery against OCR-Free Document Visual
 **关键词**：文档视觉问答, 对抗攻击, OCR-Free模型, 视觉伪造, 模型鲁棒性
 
 ## 3 点简述
-- 核心问题：OCR-Free文档视觉问答模型易受对抗攻击，导致语义误导或系统失效
-- 方法要点：开发专门攻击算法，生成视觉不可察觉但语义针对性的伪造文档
-- 实验或效果：在Pix2Struct和Donut等先进模型上验证攻击有效性，揭示系统脆弱性
+- 核心问题：DocVQA模型易受对抗攻击，攻击者能伪造文档内容诱导错误答案
+- 方法要点：开发专门攻击算法，视觉不可察觉地伪造文档，实现目标误导或系统失效
+- 实验或效果：在Pix2Struct和Donut等先进模型上验证攻击有效性，揭示模型脆弱性
 
 ## 摘要（原文）
 

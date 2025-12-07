@@ -7,14 +7,14 @@ title: VideoMem: Enhancing Ultra-Long Video Understanding via Adaptive Memory Ma
 **arXiv**：[2512.04540v1](https://arxiv.org/abs/2512.04540) · [PDF](https://arxiv.org/pdf/2512.04540.pdf)  
 **作者**：Hongbo Jin, Qingyuan Wang, Wenhao Zhang, Yang Liu, Sijie Cheng  
 
-**一句话要点**：提出VideoMem框架，通过自适应内存管理解决超长视频理解任务
+**一句话要点**：提出VideoMem框架，通过自适应内存管理解决超长视频理解任务中的上下文限制问题。
 
 **关键词**：超长视频理解, 自适应内存管理, 视觉语言模型, 强化学习优化, 序列生成任务
 
 ## 3 点简述
-- 核心问题：现有视觉语言模型因上下文长度限制和长期记忆保留不足，难以处理超长视频。
-- 方法要点：VideoMem采用自适应全局内存缓冲，动态更新以保留关键信息并丢弃冗余内容，结合PRPO算法优化训练。
-- 实验或效果：在多个超长视频理解基准测试中，VideoMem显著优于现有开源模型。
+- 核心问题：现有视觉语言模型在超长视频理解中受限于上下文长度和长期记忆保留效率。
+- 方法要点：采用自适应全局内存缓冲动态更新关键信息，集成PRPO算法优化训练过程。
+- 实验或效果：在多个超长视频理解基准测试中显著优于现有开源模型。
 
 ## 摘要（原文）
 

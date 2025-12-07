@@ -7,14 +7,14 @@ title: AgentBay: A Hybrid Interaction Sandbox for Seamless Human-AI Intervention
 **arXiv**：[2512.04367v1](https://arxiv.org/abs/2512.04367) · [PDF](https://arxiv.org/pdf/2512.04367.pdf)  
 **作者**：Yun Piao, Hongbo Min, Hang Su, Leilei Zhang, Lei Wang, Yue Yin, Xiao Wu, Zhejing Xu, Liwei Qu, Hang Li, Xinxin Zeng, Wei Tian, Fei Yu, Xiaowei Li, Jiayi Jiang, Tongxu Liu, Hao Tian, Yufei Que, Xiaobing Tu, Bing Suo, Yuebing Li, Xiangting Chen, Zeen Zhao, Jiaming Tang, Wei Huang, Xuguang Li, Jing Zhao, Jin Li, Jie Shen, Jinkui Ren, Xiantao Zhang  
 
-**一句话要点**：提出AgentBay沙盒服务，通过混合交互界面支持无缝人机干预，以增强自主AI代理的可靠性。
+**一句话要点**：提出AgentBay沙盒服务，通过混合交互界面实现人机无缝干预自主AI系统
 
-**关键词**：人机协同, 沙盒服务, 自适应流协议, AI代理, 混合交互, 低延迟传输
+**关键词**：人机协同系统, 沙盒执行环境, 自适应流协议, AI代理干预, 混合交互界面
 
 ## 3 点简述
-- 核心问题：自主AI代理在现实世界异常中脆弱，需人机协同监督以确保关键任务应用。
-- 方法要点：提供安全隔离执行环境，采用自适应流协议实现AI与人类控制的无缝切换，优化网络适应性。
-- 实验或效果：在复杂任务基准中，AgentBay模型提升成功率超48%，ASP协议带宽消耗降低达50%，延迟减少约5%。
+- 针对自主AI代理在现实异常中脆弱的问题，需人机协同监督
+- 核心提供统一会话的混合控制界面，支持程序化AI交互与随时人工接管
+- 自适应流协议ASP动态混合命令与视频流，提升任务成功率并降低带宽
 
 ## 摘要（原文）
 

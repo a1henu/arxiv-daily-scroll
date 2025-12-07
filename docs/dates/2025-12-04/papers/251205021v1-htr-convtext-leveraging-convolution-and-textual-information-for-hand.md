@@ -13,8 +13,8 @@ title: HTR-ConvText: Leveraging Convolution and Textual Information for Handwrit
 
 ## 3 点简述
 - 核心问题：手写文本识别面临数据有限、书写风格多样和复杂变音符号的挑战。
-- 方法要点：集成残差CNN与MobileViT，并引入ConvText编码器结合全局上下文与局部特征。
-- 实验或效果：在IAM等数据集上验证，在有限样本和高多样性场景中性能优于现有方法。
+- 方法要点：集成残差CNN与MobileViT提取特征，并引入ConvText编码器结合全局上下文与局部特征。
+- 实验或效果：在IAM等数据集上验证，在有限样本和高多样性场景下性能优于现有方法。
 
 ## 摘要（原文）
 

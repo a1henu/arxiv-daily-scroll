@@ -7,14 +7,14 @@ title: WiFi-based Cross-Domain Gesture Recognition Using Attention Mechanism
 **arXiv**：[2512.04521v1](https://arxiv.org/abs/2512.04521) · [PDF](https://arxiv.org/pdf/2512.04521.pdf)  
 **作者**：Ruijing Liu, Cunhua Pan, Jiaming Zeng, Hong Ren, Kezhi Wang, Lei Kong, Jiangzhou Wang  
 
-**一句话要点**：提出基于注意力机制的WiFi跨域手势识别网络，以提升未训练环境下的识别性能。
+**一句话要点**：提出基于注意力机制的WiFi跨域手势识别网络，以解决现有方法在未训练环境中性能下降的问题。
 
-**关键词**：WiFi手势识别, 跨域识别, 注意力机制, 多普勒谱, ResNet18, Widar3数据集
+**关键词**：WiFi手势识别, 跨域识别, 注意力机制, 多普勒频谱, ResNet18, Widar3数据集
 
 ## 3 点简述
-- 核心问题：现有WiFi手势识别方案在跨域（未训练环境）中性能不足。
-- 方法要点：从CSI提取多普勒谱生成融合图像，结合空间与通道注意力机制提取域无关特征。
-- 实验或效果：在Widar3数据集上，域内准确率99.72%，跨域准确率97.61%，优于现有方案。
+- 核心问题：现有WiFi手势识别方法在跨域（未训练环境）中性能不足，缺乏泛化能力。
+- 方法要点：从CSI提取多普勒频谱生成融合图像，结合多语义空间注意力和自注意力通道机制构建网络，提取域无关特征。
+- 实验或效果：在Widar3数据集上，域内准确率达99.72%，跨域识别达97.61%，优于现有最佳方案。
 
 ## 摘要（原文）
 

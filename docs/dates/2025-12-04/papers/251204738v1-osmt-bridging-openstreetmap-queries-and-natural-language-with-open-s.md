@@ -7,14 +7,14 @@ title: OsmT: Bridging OpenStreetMap Queries and Natural Language with Open-sourc
 **arXiv**：[2512.04738v1](https://arxiv.org/abs/2512.04738) · [PDF](https://arxiv.org/pdf/2512.04738.pdf)  
 **作者**：Zhuoyue Wan, Wentao Hu, Chen Jason Zhang, Yuanfeng Song, Shuaimin Li, Ruiqiang Xiao, Xiao-Yong Wei, Raymond Chi-Wing Wong  
 
-**一句话要点**：提出OsmT开源标签感知语言模型，以增强自然语言与OpenStreetMap查询语言的转换能力
+**一句话要点**：提出OsmT开源标签感知语言模型，以增强自然语言与OpenStreetMap查询语言的转换
 
-**关键词**：开源语言模型, 地理空间查询, 标签检索增强, 自然语言转换, OverpassQL
+**关键词**：开源语言模型, 标签检索增强, 自然语言查询转换, 地理空间查询, OverpassQL, 查询解释
 
 ## 3 点简述
-- 核心问题：现有方法依赖闭源大模型，导致高推理成本、透明度低，难以轻量部署于地理空间查询场景。
+- 核心问题：现有方案依赖闭源大模型，导致高推理成本、透明度低，难以轻量部署。
 - 方法要点：引入标签检索增强机制，融入上下文相关标签知识，提升查询准确性和结构有效性。
-- 实验或效果：在公开基准测试中，模型参数更少但达到竞争性准确度，支持双向转换任务。
+- 实验或效果：在公开基准上评估，模型参数较少但达到竞争性准确度，支持查询生成与解释任务。
 
 ## 摘要（原文）
 

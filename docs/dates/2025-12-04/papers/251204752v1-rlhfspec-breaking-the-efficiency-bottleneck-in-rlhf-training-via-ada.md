@@ -7,14 +7,14 @@ title: RLHFSpec: Breaking the Efficiency Bottleneck in RLHF Training via Adaptiv
 **arXiv**：[2512.04752v1](https://arxiv.org/abs/2512.04752) · [PDF](https://arxiv.org/pdf/2512.04752.pdf)  
 **作者**：Siqi Wang, Hailong Yang, Junjie Zhu, Xuezhu Wang, Yufan Xu, Depei Qian  
 
-**一句话要点**：提出RLHFSpec，通过自适应推测解码和样本重分配加速RLHF训练中的生成阶段
+**一句话要点**：提出RLHFSpec系统，通过自适应推测解码加速RLHF训练中的生成阶段瓶颈
 
-**关键词**：强化学习人类反馈, 推测解码, 生成优化, GPU资源利用, 自适应策略, 系统加速
+**关键词**：强化学习人类反馈, 推测解码, 自适应策略, GPU资源优化, 大语言模型微调
 
 ## 3 点简述
-- 核心问题：RLHF训练中生成阶段是效率瓶颈，影响整体执行速度
-- 方法要点：集成推测解码至生成阶段，采用工作量感知的草稿策略选择和样本重分配机制
-- 实验或效果：相比现有工作，RLHFSpec在生成阶段实现更高吞吐量，并显著加速整个RLHF执行
+- RLHF训练中生成阶段是效率瓶颈，需优化以提升整体执行速度
+- 集成推测解码并采用自适应策略选择，结合样本重分配以充分利用GPU资源
+- 实验显示在生成阶段实现更高吞吐量，显著加速整个RLHF执行过程
 
 ## 摘要（原文）
 

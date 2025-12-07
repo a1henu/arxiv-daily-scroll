@@ -7,14 +7,14 @@ title: dVLM-AD: Enhance Diffusion Vision-Language-Model for Driving via Controll
 **arXiv**：[2512.04459v1](https://arxiv.org/abs/2512.04459) · [PDF](https://arxiv.org/pdf/2512.04459.pdf)  
 **作者**：Yingzi Ma, Yulong Cao, Wenhao Ding, Shuibai Zhang, Yan Wang, Boris Ivanovic, Ming Jiang, Marco Pavone, Chaowei Xiao  
 
-**一句话要点**：提出dVLM-AD扩散视觉语言模型，通过可控推理增强端到端驾驶系统
+**一句话要点**：提出dVLM-AD扩散视觉语言模型，通过可控推理增强端到端驾驶系统在分布外场景的泛化能力。
 
-**关键词**：端到端驾驶, 扩散视觉语言模型, 可控推理, 长尾场景, 行为-轨迹一致性
+**关键词**：端到端驾驶, 扩散视觉语言模型, 可控推理, 分布外场景, 行为-轨迹一致性, 迭代去噪
 
 ## 3 点简述
-- 现有基于自回归的视觉语言模型在驾驶中推理与规划一致性不足
-- dVLM-AD采用离散扩散模型，结合双向注意力提升可控性和可靠性
-- 在nuScenes和WOD-E2E上，行为-轨迹一致性提升9%，长尾场景RFS提高6%
+- 核心问题：现有自回归视觉语言模型在驾驶中因因果注意力和顺序生成，导致高层推理与低层规划间一致性和可控性不足。
+- 方法要点：基于离散扩散视觉语言模型，利用双向注意力和迭代去噪，统一感知、结构化推理和低层规划，提升可控性和可靠性。
+- 实验或效果：在nuScenes和WOD-E2E评估中，dVLM-AD在行为-轨迹一致性上优于自回归基线9%，长尾场景RFS提升6%，规划性能可比。
 
 ## 摘要（原文）
 

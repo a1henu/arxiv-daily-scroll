@@ -7,14 +7,14 @@ title: Live Avatar: Streaming Real-time Audio-Driven Avatar Generation with Infi
 **arXiv**：[2512.04677v1](https://arxiv.org/abs/2512.04677) · [PDF](https://arxiv.org/pdf/2512.04677.pdf)  
 **作者**：Yubo Huang, Hailong Guo, Fangtai Wu, Shifeng Zhang, Shijie Huang, Qijun Gan, Lin Liu, Sirui Zhao, Enhong Chen, Jiaming Liu, Steven Hoi  
 
-**一句话要点**：提出Live Avatar框架，通过算法-系统协同设计实现实时音频驱动无限长度虚拟人生成
+**一句话要点**：提出Live Avatar框架，通过算法-系统协同设计实现实时、高保真、无限长度的音频驱动虚拟人生成。
 
-**关键词**：实时虚拟人生成, 扩散模型推理优化, 流水线并行, 时序一致性, 音频驱动合成, 长视频生成
+**关键词**：实时虚拟人生成, 扩散模型推理, 流水线并行, 时序一致性, 音频驱动合成, 长视频生成
 
 ## 3 点简述
-- 现有扩散模型受限于序列计算和长期不一致性，难以实时流式生成音频驱动虚拟人
-- 引入时间步强制流水线并行和滚动汇帧机制，提升分布式推理效率和时序一致性
-- 在5个H800 GPU上实现20 FPS端到端生成，首次达到实用级实时高保真虚拟人生成
+- 核心问题：现有扩散模型受限于顺序计算和长序列不一致性，难以实时生成音频驱动虚拟人。
+- 方法要点：引入时间步强制流水线并行（TPP）和滚动沉帧机制（RSFM），提升分布式推理效率和时序一致性。
+- 实验或效果：在5个H800 GPU上实现20 FPS端到端生成，首次达到大规模实时高保真虚拟人生成。
 
 ## 摘要（原文）
 

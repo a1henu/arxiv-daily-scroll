@@ -7,14 +7,14 @@ title: Generative AI for Self-Adaptive Systems: State of the Art and Research Ro
 **arXiv**：[2512.04680v1](https://arxiv.org/abs/2512.04680) · [PDF](https://arxiv.org/pdf/2512.04680.pdf)  
 **作者**：Jialong Li, Mingyue Zhang, Nianyu Li, Danny Weyns, Zhi Jin, Kenji Tei  
 
-**一句话要点**：综述生成式AI在自适应性系统中的应用潜力与挑战，并提出研究路线图
+**一句话要点**：综述生成式AI在自适应系统中的潜在益处与挑战，并提出研究路线图
 
-**关键词**：自适应性系统, 生成式AI, MAPE-K反馈循环, 人在环交互, 研究路线图
+**关键词**：自适应系统, 生成式人工智能, MAPE-K反馈循环, 人在环交互, 研究路线图
 
 ## 3 点简述
-- 核心问题：生成式AI在自适应性系统中的具体益处与挑战尚不明确
+- 核心问题：生成式AI在自适应系统中的具体益处与挑战尚不明确
 - 方法要点：从四个研究领域收集文献，按MAPE-K循环和人在环交互分类分析
-- 实验或效果：未知，本文为综述性研究，未涉及具体实验
+- 实验或效果：未知
 
 ## 摘要（原文）
 

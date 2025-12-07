@@ -7,14 +7,14 @@ title: StreamEQA: Towards Streaming Video Understanding for Embodied Scenarios
 **arXiv**：[2512.04451v1](https://arxiv.org/abs/2512.04451) · [PDF](https://arxiv.org/pdf/2512.04451.pdf)  
 **作者**：Yifei Wang, Zhenkai Li, Tianwen Qian, Huanran Zheng, Zheng Wang, Yuqian Fu, Xiaoling Wang  
 
-**一句话要点**：提出StreamEQA基准以评估具身场景下的流式视频问答能力
+**一句话要点**：提出StreamEQA基准以评估具身场景下的流式视频理解能力
 
 **关键词**：流式视频理解, 具身智能, 视频问答基准, 长视频分析, 多模态大语言模型
 
 ## 3 点简述
 - 核心问题：具身智能需在流式视频中持续感知与推理，现有模型能力不足
-- 方法要点：构建首个具身流式视频问答基准，包含感知、交互、规划三层次问题
-- 实验或效果：评估13个先进视频-LLM，显示其在流式视频理解上仍面临挑战
+- 方法要点：构建首个具身流式视频问答基准，涵盖感知、交互、规划三个层次
+- 实验或效果：评估13个先进模型，发现其在流式视频理解上仍面临挑战
 
 ## 摘要（原文）
 
