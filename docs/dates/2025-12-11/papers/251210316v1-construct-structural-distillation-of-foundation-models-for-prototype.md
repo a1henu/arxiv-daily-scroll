@@ -1,0 +1,22 @@
+---
+layout: default
+title: ConStruct: Structural Distillation of Foundation Models for Prototype-Based Weakly Supervised Histopathology Segmentation
+---
+
+# ConStruct: Structural Distillation of Foundation Models for Prototype-Based Weakly Supervised Histopathology Segmentation
+**arXiv**：[2512.10316v1](https://arxiv.org/abs/2512.10316) · [PDF](https://arxiv.org/pdf/2512.10316.pdf)  
+**作者**：Khang Le, Ha Thach, Anh M. Vu, Trang T. K. Vo, Han H. Huynh, David Yang, Minh H. N. Le, Thanh-Huy Nguyen, Akash Awasthi, Chandra Mohan, Zhu Han, Hien Van Nguyen  
+
+**一句话要点**：提出原型学习框架，结合结构蒸馏与文本引导，以解决弱监督组织病理分割中定位不完整问题。
+
+**关键词**：弱监督语义分割, 组织病理图像, 原型学习, 结构蒸馏, 文本引导, 基础模型
+
+## 3 点简述
+- 核心问题：弱监督组织病理分割依赖分类模型，常仅定位最显著区域，难以捕获完整组织结构。
+- 方法要点：集成CONCH的形态感知表示和SegFormer的结构线索，通过文本引导原型初始化和结构蒸馏提升伪掩码质量。
+- 实验或效果：在BCSS-WSSS数据集上优于现有方法，无需像素级标注，提高定位完整性和语义一致性。
+
+## 摘要（原文）
+
+> Weakly supervised semantic segmentation (WSSS) in histopathology relies heavily on classification backbones, yet these models often localize only the most discriminative regions and struggle to capture the full spatial extent of tissue structures. Vision-language models such as CONCH offer rich semantic alignment and morphology-aware representations, while modern segmentation backbones like SegFormer preserve fine-grained spatial cues. However, combining these complementary strengths remains challenging, especially under weak supervision and without dense annotations. We propose a prototype learning framework for WSSS in histopathological images that integrates morphology-aware representations from CONCH, multi-scale structural cues from SegFormer, and text-guided semantic alignment to produce prototypes that are simultaneously semantically discriminative and spatially coherent. To effectively leverage these heterogeneous sources, we introduce text-guided prototype initialization that incorporates pathology descriptions to generate more complete and semantically accurate pseudo-masks. A structural distillation mechanism transfers spatial knowledge from SegFormer to preserve fine-grained morphological patterns and local tissue boundaries during prototype learning. Our approach produces high-quality pseudo masks without pixel-level annotations, improves localization completeness, and enhances semantic consistency across tissue types. Experiments on BCSS-WSSS datasets demonstrate that our prototype learning framework outperforms existing WSSS methods while remaining computationally efficient through frozen foundation model backbones and lightweight trainable adapters.
+

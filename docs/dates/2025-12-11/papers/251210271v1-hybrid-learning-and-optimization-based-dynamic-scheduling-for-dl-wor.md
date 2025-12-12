@@ -1,0 +1,22 @@
+---
+layout: default
+title: Hybrid Learning and Optimization-Based Dynamic Scheduling for DL Workloads on Heterogeneous GPU Clusters
+---
+
+# Hybrid Learning and Optimization-Based Dynamic Scheduling for DL Workloads on Heterogeneous GPU Clusters
+**arXiv**：[2512.10271v1](https://arxiv.org/abs/2512.10271) · [PDF](https://arxiv.org/pdf/2512.10271.pdf)  
+**作者**：Shruti Dongare, Redwan Ibne Seraj Khan, Hadeel Albahar, Nannan Zhao, Diego Melendez Maita, Ali R. Butt  
+
+**一句话要点**：提出RLTune框架，基于强化学习与混合整数规划，动态调度异构GPU集群上的深度学习任务。
+
+**关键词**：异构GPU调度, 强化学习, 混合整数规划, 深度学习任务管理, 云平台优化
+
+## 3 点简述
+- 核心问题：异构GPU集群调度中，应用特性不透明和资源异构性导致现有调度器性能受限。
+- 方法要点：结合强化学习进行任务优先级排序，使用混合整数规划优化任务到节点的映射，无需逐任务分析。
+- 实验或效果：在微软和阿里生产数据上验证，提升GPU利用率达20%，减少排队延迟81%，缩短任务完成时间70%。
+
+## 摘要（原文）
+
+> Modern cloud platforms increasingly host large-scale deep learning (DL) workloads, demanding high-throughput, low-latency GPU scheduling. However, the growing heterogeneity of GPU clusters and limited visibility into application characteristics pose major challenges for existing schedulers, which often rely on offline profiling or application-specific assumptions. We present RLTune, an application-agnostic reinforcement learning (RL)-based scheduling framework that dynamically prioritizes and allocates DL jobs on heterogeneous GPU clusters. RLTune integrates RL-driven prioritization with MILP-based job-to-node mapping to optimize system-wide objectives such as job completion time (JCT), queueing delay, and resource utilization. Trained on large-scale production traces from Microsoft Philly, Helios, and Alibaba, RLTune improves GPU utilization by up to 20%, reduces queueing delay by up to 81%, and shortens JCT by as much as 70 percent. Unlike prior approaches, RLTune generalizes across diverse workloads without requiring per-job profiling, making it practical for cloud providers to deploy at scale for more efficient, fair, and sustainable DL workload management.
+
