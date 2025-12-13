@@ -7,14 +7,14 @@ title: Deep sets and event-level maximum-likelihood estimation for fast pile-up 
 **arXiv**：[2512.10819v1](https://arxiv.org/abs/2512.10819) · [PDF](https://arxiv.org/pdf/2512.10819.pdf)  
 **作者**：Mohammed Aboelela  
 
-**一句话要点**：提出基于Deep Sets的DIPz模型和MLPL判别器，以高效处理ATLAS触发器中多喷注事件的堆积背景抑制。
+**一句话要点**：提出基于Deep Sets的DIPz模型与MLPL判别式，以高效处理ATLAS触发器中多喷注事件的堆积背景抑制。
 
-**关键词**：堆积背景抑制, Deep Sets架构, 喷注起源回归, 事件级判别, ATLAS触发器, 实时处理
+**关键词**：堆积抑制, Deep Sets架构, 喷注起源回归, 事件级判别, ATLAS触发器, 实时事件选择
 
 ## 3 点简述
-- 核心问题：LHC高亮度运行导致堆积碰撞增多，多喷注事件背景抑制需求迫切，尤其在实时触发层面。
+- 核心问题：LHC高亮度运行下，堆积碰撞导致多喷注事件率增加，需高效分组喷注以抑制背景。
 - 方法要点：使用Deep Sets架构的DIPz模型，基于带电粒子轨迹回归喷注起源位置，结合MLPL进行事件级判别。
-- 实验或效果：该方法提供鲁棒且计算高效的堆积抑制方案，适用于ATLAS高级触发器的实时事件选择。
+- 实验或效果：提供鲁棒且计算高效的方法，适用于ATLAS高级触发器的实时事件选择，提升堆积抑制性能。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: DOCR-Inspector: Fine-Grained and Automated Evaluation of Document Parsing
 **arXiv**：[2512.10619v1](https://arxiv.org/abs/2512.10619) · [PDF](https://arxiv.org/pdf/2512.10619.pdf)  
 **作者**：Qintong Zhang, Junyuan Zhang, Zhifei Ren, Linke Ouyang, Zichen Wen, Junbo Niu, Yuan Qu, Bin Wang, Ka-Ho Chow, Conghui He, Wentao Zhang  
 
-**一句话要点**：提出DOCR-Inspector，基于VLM实现细粒度自动化文档解析评估以解决真实场景质量评估难题。
+**一句话要点**：提出DOCR-Inspector以解决文档解析评估中的细粒度错误检测问题
 
-**关键词**：文档解析评估, 视觉语言模型, 细粒度错误检测, 自动化质量分析, 真实场景基准
+**关键词**：文档解析评估, 视觉语言模型, 细粒度错误检测, 自动化评估, 链式检查表推理
 
 ## 3 点简述
-- 核心问题：标准基准存在偏差，整体评分掩盖错误模式，难以可靠评估真实文档解析质量。
-- 方法要点：将评估形式化为细粒度错误检测，利用VLM-as-a-Judge识别28类错误，采用Chain-of-Checklist推理范式。
-- 实验或效果：在DOCRcaseBench上超越商业和开源模型，评估结果可指导解析结果优化，提升系统性能。
+- 核心问题：标准基准测试存在偏差，难以全面评估文档解析质量
+- 方法要点：利用VLM作为评判器，定义28种错误类型进行细粒度分析
+- 实验或效果：在DOCRcaseBench上超越商业和开源模型，支持结果优化
 
 ## 摘要（原文）
 

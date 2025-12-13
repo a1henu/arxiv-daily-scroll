@@ -7,13 +7,13 @@ title: TransLocNet: Cross-Modal Attention for Aerial-Ground Vehicle Localization
 **arXiv**：[2512.10419v1](https://arxiv.org/abs/2512.10419) · [PDF](https://arxiv.org/pdf/2512.10419.pdf)  
 **作者**：Phu Pham, Damon Conover, Aniket Bera  
 
-**一句话要点**：提出TransLocNet，通过跨模态注意力与对比学习解决空中-地面车辆定位问题。
+**一句话要点**：提出TransLocNet，通过跨模态注意力与对比学习解决地面LiDAR与空中图像间的定位难题。
 
-**关键词**：跨模态定位, 注意力机制, 对比学习, LiDAR处理, 空中-地面对齐, 车辆定位
+**关键词**：空中-地面定位, 跨模态注意力, 对比学习, LiDAR投影, 语义融合, 概率解码
 
 ## 3 点简述
-- 核心问题：地面LiDAR与空中图像间存在大视角和模态差异，导致定位困难。
-- 方法要点：使用跨模态注意力融合LiDAR几何与空中语义，结合对比学习优化嵌入空间对齐。
+- 核心问题：地面LiDAR与空中图像间存在大视角和模态差异，导致空中-地面定位困难。
+- 方法要点：使用跨模态注意力融合LiDAR几何与空中语义，结合对比学习优化共享嵌入空间。
 - 实验或效果：在CARLA和KITTI上优于现有方法，定位误差降低达63%，实现亚米级、亚度级精度。
 
 ## 摘要（原文）

@@ -7,14 +7,14 @@ title: Agile Deliberation: Concept Deliberation for Subjective Visual Classifica
 **arXiv**：[2512.10821v1](https://arxiv.org/abs/2512.10821) · [PDF](https://arxiv.org/pdf/2512.10821.pdf)  
 **作者**：Leijie Wang, Otilia Stretcu, Wei Qiao, Thomas Denby, Krishnamurthy Viswanathan, Enming Luo, Chun-Ta Lu, Tushar Dogra, Ranjay Krishna, Ariel Fuxman  
 
-**一句话要点**：提出Agile Deliberation框架，通过概念界定与迭代支持主观视觉分类中用户概念演化
+**一句话要点**：提出Agile Deliberation框架，通过概念审议支持主观视觉分类中用户概念的迭代精炼。
 
-**关键词**：主观视觉分类, 概念审议, 人机交互框架, 内容审核, 迭代学习, 用户概念演化
+**关键词**：主观视觉分类, 概念审议, 人机交互框架, 内容审核, 迭代精炼, 边界案例
 
 ## 3 点简述
-- 核心问题：用户初始概念模糊，现有方法假设清晰稳定，难以支持主观视觉分类任务。
-- 方法要点：基于内容审核专家实践，设计两阶段概念审议框架，包括概念分解和边界案例迭代反馈。
-- 实验或效果：通过18次用户会话评估，F1分数比自动化基线高7.5%，用户认知负担降低。
+- 核心问题：用户常从模糊概念出发，需迭代精炼以定义主观视觉概念，现有方法假设清晰概念导致监督质量低。
+- 方法要点：基于内容审核专家实践，设计两阶段审议框架，包括概念范围分解和边界案例迭代反馈。
+- 实验或效果：通过18次用户会话评估，相比自动分解基线提升7.5% F1分数，用户报告概念理解更清晰且认知负担降低。
 
 ## 摘要（原文）
 

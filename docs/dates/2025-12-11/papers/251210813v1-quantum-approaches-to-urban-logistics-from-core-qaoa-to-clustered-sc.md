@@ -7,14 +7,14 @@ title: Quantum Approaches to Urban Logistics: From Core QAOA to Clustered Scalab
 **arXiv**：[2512.10813v1](https://arxiv.org/abs/2512.10813) · [PDF](https://arxiv.org/pdf/2512.10813.pdf)  
 **作者**：F. Picariello, G. Turati, R. Antonelli, I. Bailo, S. Bonura, G. Ciarfaglia, S. Cipolla, P. Cremonesi, M. Ferrari Dacrema, M. Gabusi, I. Gentile, V. Morreale, A. Noto  
 
-**一句话要点**：提出聚类QAOA以解决带约束旅行商问题的量子优化可扩展性挑战
+**一句话要点**：提出聚类QAOA以解决带约束旅行商问题，提升量子优化可扩展性。
 
-**关键词**：量子近似优化算法, 旅行商问题, 物流优化, 量子计算, 约束优化, 可扩展性
+**关键词**：量子近似优化算法, 旅行商问题, 约束优化, 可扩展性, 聚类方法, 混合量子经典计算
 
 ## 3 点简述
-- 研究量子近似优化算法在带现实约束旅行商问题中的应用潜力
-- 采用QUBO建模整合车辆容量、道路可达性和时间窗口等物流约束
-- 提出聚类QAOA方法，通过分解大实例提升量子硬件有限下的可扩展性
+- 研究核心为带约束旅行商问题，传统算法在大规模实例中求解困难。
+- 采用基于QUBO的QAOA方法，并引入聚类QAOA结合机器学习分解问题。
+- 实验在高性能计算模拟环境中评估性能，分析不同规模和电路深度下的结果。
 
 ## 摘要（原文）
 

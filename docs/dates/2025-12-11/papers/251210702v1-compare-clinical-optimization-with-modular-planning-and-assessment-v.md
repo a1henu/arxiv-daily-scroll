@@ -7,14 +7,14 @@ title: COMPARE: Clinical Optimization with Modular Planning and Assessment via R
 **arXiv**：[2512.10702v1](https://arxiv.org/abs/2512.10702) · [PDF](https://arxiv.org/pdf/2512.10702.pdf)  
 **作者**：Wei Fang, Chiyao Wang, Wenshuai Ma, Hui Liu, Jianqiang Hu, Xiaona Niu, Yi Chu, Mingming Zhang, Jingxiao Yang, Dongwei Zhang, Zelin Li, Pengyun Liu, Jiawei Zheng, Pengke Zhang, Chaoshi Qin, Wangang Guo, Bin Wang, Yugang Xue, Wei Zhang, Zikuan Wang, Rui Zhu, Yihui Cao, Quanmao Lu, Rui Meng, Yan Li  
 
-**一句话要点**：提出基于CA-GPT的AI-OCT系统，在OCT引导的PCI中提供优于ChatGPT-5和初级医师的决策支持。
+**一句话要点**：提出基于CA-GPT的AI-OCT系统，在OCT引导的PCI规划和评估中优于ChatGPT-5和初级医生。
 
 **关键词**：光学相干断层扫描, 经皮冠状动脉介入治疗, 大型语言模型, 临床决策支持, 人工智能辅助诊断
 
 ## 3 点简述
-- 核心问题：OCT图像解读依赖操作者经验，通用AI缺乏领域可靠性。
-- 方法要点：开发CA-GPT模型，集成于AI-OCT系统，用于PCI规划和评估。
-- 实验或效果：在96例患者中，CA-GPT在多项指标上显著优于ChatGPT-5和初级医师。
+- 核心问题：OCT解释依赖操作者，通用AI缺乏领域可靠性。
+- 方法要点：开发CA-GPT模型，集成于AI-OCT系统，用于PCI决策支持。
+- 实验或效果：在96例患者中，CA-GPT在多项指标上显著优于ChatGPT-5和初级医生。
 
 ## 摘要（原文）
 

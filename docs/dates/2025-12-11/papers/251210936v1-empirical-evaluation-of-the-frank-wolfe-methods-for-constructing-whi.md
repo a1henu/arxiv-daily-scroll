@@ -7,14 +7,14 @@ title: Empirical evaluation of the Frank-Wolfe methods for constructing white-bo
 **arXiv**：[2512.10936v1](https://arxiv.org/abs/2512.10936) · [PDF](https://arxiv.org/pdf/2512.10936.pdf)  
 **作者**：Kristina Korotkova, Aleksandr Katrutsa  
 
-**一句话要点**：提出改进Frank-Wolfe方法以构建高效白盒对抗攻击，用于评估神经网络对抗鲁棒性。
+**一句话要点**：提出改进Frank-Wolfe方法以构建高效白盒对抗攻击
 
-**关键词**：对抗攻击, Frank-Wolfe方法, 白盒攻击, 神经网络鲁棒性, 优化算法, 计算机视觉
+**关键词**：对抗攻击, Frank-Wolfe方法, 白盒攻击, 神经网络鲁棒性, 数值优化
 
 ## 3 点简述
-- 核心问题：神经网络对抗攻击构建需快速有效方法以评估其鲁棒性，涉及特定优化问题求解。
-- 方法要点：采用改进Frank-Wolfe方法作为无投影优化策略，构建白盒对抗攻击，理论分析与数值评估结合。
-- 实验或效果：在MNIST和CIFAR-10数据集上测试，使用逻辑回归、CNN和ViT模型，与标准投影方法对比。
+- 核心问题：对抗攻击构建需解决优化问题，需快速方法评估神经网络鲁棒性。
+- 方法要点：采用无投影的改进Frank-Wolfe方法，从数值优化角度构建白盒对抗攻击。
+- 实验或效果：在MNIST和CIFAR-10数据集上测试，比较标准方法，评估效率和效果。
 
 ## 摘要（原文）
 

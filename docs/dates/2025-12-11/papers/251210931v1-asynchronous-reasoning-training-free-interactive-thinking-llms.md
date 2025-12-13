@@ -7,14 +7,14 @@ title: Asynchronous Reasoning: Training-Free Interactive Thinking LLMs
 **arXiv**：[2512.10931v1](https://arxiv.org/abs/2512.10931) · [PDF](https://arxiv.org/pdf/2512.10931.pdf)  
 **作者**：George Yakushev, Nataliia Babina, Masoud Vahid Dastgerdi, Vyacheslav Zhdanovskiy, Alina Shutova, Denis Kuznedelev  
 
-**一句话要点**：提出异步推理方法，使LLM无需训练即可实时交互思考，适用于语音助手等场景。
+**一句话要点**：提出异步推理方法，使LLM无需训练即可实时交互思考与响应。
 
-**关键词**：异步推理, 实时交互, 旋转嵌入, LLM增强, 训练免费, 推理优化
+**关键词**：异步推理, 旋转嵌入, 实时交互, LLM增强, 训练免费
 
 ## 3 点简述
-- 核心问题：LLM推理需顺序交互，无法实时响应，限制在语音助手等应用中的实用性。
-- 方法要点：利用旋转嵌入特性，使LLM能同时思考、监听和生成输出，无需额外训练。
-- 实验或效果：在数学、常识和安全推理任务中，实时生成准确答案，首次非思考令牌时间降至≤5秒，延迟减少6-11倍。
+- 核心问题：LLM推理需顺序交互，不适用于实时响应场景如语音助手。
+- 方法要点：利用旋转嵌入特性，让LLM同时思考、监听和生成输出。
+- 实验或效果：在数学、常识和安全推理上，实时延迟降低6-11倍，首非思考令牌时间≤5秒。
 
 ## 摘要（原文）
 

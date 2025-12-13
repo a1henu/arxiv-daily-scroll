@@ -7,14 +7,14 @@ title: Galaxy Phase-Space and Field-Level Cosmology: The Strength of Semi-Analyt
 **arXiv**：[2512.10222v1](https://arxiv.org/abs/2512.10222) · [PDF](https://arxiv.org/pdf/2512.10222.pdf)  
 **作者**：Natalí S. M. de Santi, Francisco Villaescusa-Navarro, Pablo Araya-Araya, Gabriella De Lucia, Fabio Fontanot, Lucia A. Perez, Manuel Arnés-Curto, Violeta Gonzalez-Perez, Ángel Chandro-Gómez, Rachel S. Somerville, Tiago Castro  
 
-**一句话要点**：提出基于图神经网络与矩神经网络的模型，利用星系相空间数据估计宇宙物质密度参数。
+**一句话要点**：提出基于图神经网络与矩神经网络的模型，利用星系相空间数据估计宇宙学参数Ω_m。
 
 **关键词**：星系相空间, 图神经网络, 矩神经网络, 宇宙学参数估计, 半解析模型, 机器学习
 
 ## 3 点简述
-- 核心问题：如何从星系三维位置和径向速度高效估计宇宙物质密度参数Ω_m。
+- 核心问题：如何从星系3D位置和径向速度高效估计宇宙学参数Ω_m。
 - 方法要点：结合图神经网络和矩神经网络，训练于半解析模型生成的星系目录。
-- 实验或效果：模型在多种半解析模型和流体动力学模拟中泛化良好，精度约10%。
+- 实验或效果：模型在多种模拟中泛化良好，精度约10%，对物理变化鲁棒。
 
 ## 摘要（原文）
 

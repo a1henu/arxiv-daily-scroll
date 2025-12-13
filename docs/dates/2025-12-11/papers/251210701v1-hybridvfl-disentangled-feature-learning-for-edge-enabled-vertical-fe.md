@@ -14,7 +14,7 @@ title: HybridVFL: Disentangled Feature Learning for Edge-Enabled Vertical Federa
 ## 3 点简述
 - 核心问题：标准垂直联邦学习在边缘AI场景中因简单特征融合导致性能受限。
 - 方法要点：采用客户端特征解耦与服务器端跨模态Transformer进行上下文感知融合。
-- 实验或效果：在HAM10000皮肤病变数据集上显著优于基线，验证了高级融合机制的重要性。
+- 实验或效果：在HAM10000皮肤病变数据集上显著优于基线，验证了先进融合机制的重要性。
 
 ## 摘要（原文）
 

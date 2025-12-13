@@ -7,14 +7,14 @@ title: LabelFusion: Learning to Fuse LLMs and Transformer Classifiers for Robust
 **arXiv**：[2512.10793v1](https://arxiv.org/abs/2512.10793) · [PDF](https://arxiv.org/pdf/2512.10793.pdf)  
 **作者**：Michael Schlee, Christoph Weisser, Timo Kivimäki, Melchizedek Mashiku, Benjamin Saefken  
 
-**一句话要点**：提出LabelFusion融合方法，结合传统Transformer分类器与LLMs，实现鲁棒文本分类
+**一句话要点**：提出LabelFusion融合方法，结合传统Transformer分类器与LLMs，实现鲁棒且成本感知的文本分类。
 
-**关键词**：文本分类, 融合集成, 大语言模型, Transformer分类器, 端到端训练
+**关键词**：文本分类, 融合集成, 大语言模型, Transformer分类器, 成本感知预测
 
 ## 3 点简述
-- 核心问题：如何融合传统Transformer分类器与LLMs以提升文本分类的准确性和成本效率
-- 方法要点：通过拼接ML骨干嵌入与LLM类分数，输入FusionMLP进行端到端学习融合
-- 实验或效果：在AG News和Reuters 21578数据集上分别达到92.4%和92.3%的准确率
+- 核心问题：如何有效融合传统Transformer分类器与LLMs，以提升文本分类的准确性和鲁棒性。
+- 方法要点：通过拼接ML骨干网络嵌入与LLM生成的每类分数，输入FusionMLP进行端到端训练。
+- 实验或效果：在AG News和Reuters 21578数据集上分别达到92.4%和92.3%的准确率，支持精度、延迟和成本的权衡。
 
 ## 摘要（原文）
 

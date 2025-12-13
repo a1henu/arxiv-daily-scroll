@@ -12,9 +12,9 @@ title: Bidirectional Normalizing Flow: From Data to Noise and Back
 **关键词**：归一化流, 生成模型, 双向学习, 采样加速, ImageNet生成
 
 ## 3 点简述
-- 标准归一化流需精确解析逆变换，导致因果解码成为瓶颈
-- BiFlow学习近似逆映射，无需精确逆，支持更灵活的损失函数与架构
-- 在ImageNet上，BiFlow提高生成质量，采样加速达两个数量级
+- 标准归一化流需精确解析逆变换，限制了架构与损失函数灵活性
+- BiFlow学习近似逆映射，无需精确逆，支持更灵活模型设计
+- 在ImageNet上，BiFlow加速采样达两个数量级，生成质量达NF方法领先水平
 
 ## 摘要（原文）
 

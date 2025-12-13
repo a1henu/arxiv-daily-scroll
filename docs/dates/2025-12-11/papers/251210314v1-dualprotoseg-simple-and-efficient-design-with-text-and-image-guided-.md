@@ -7,14 +7,14 @@ title: DualProtoSeg: Simple and Efficient Design with Text- and Image-Guided Pro
 **arXiv**：[2512.10314v1](https://arxiv.org/abs/2512.10314) · [PDF](https://arxiv.org/pdf/2512.10314.pdf)  
 **作者**：Anh M. Vu, Khang P. Le, Trang T. K. Vo, Ha Thach, Huy Hung Nguyen, David Yang, Han H. Huynh, Quynh Nguyen, Tuan M. Pham, Tuan-Anh Le, Minh H. N. Le, Thanh-Huy Nguyen, Akash Awasthi, Chandra Mohan, Zhu Han, Hien Van Nguyen  
 
-**一句话要点**：提出DualProtoSeg框架，通过文本和图像引导的原型学习改进弱监督组织病理图像分割
+**一句话要点**：提出DualProtoSeg，通过文本和图像引导的原型学习改进弱监督组织病理图像分割
 
 **关键词**：弱监督语义分割, 组织病理图像, 原型学习, 视觉语言对齐, 多尺度金字塔, 数字病理学
 
 ## 3 点简述
 - 核心问题：弱监督组织病理图像分割面临类间同质、类内异质和CAM监督区域收缩效应。
-- 方法要点：结合可学习提示调优生成文本原型，并与图像原型形成双模态原型库，增强语义和外观线索。
-- 实验或效果：在BCSS-WSSS基准测试中超越现有方法，验证了文本描述多样性和多模态原型的互补性。
+- 方法要点：结合可学习提示调优生成文本原型，与图像原型形成双模态原型库，增强语义和外观线索。
+- 实验或效果：在BCSS-WSSS基准上超越现有方法，验证文本描述多样性和多模态原型的互补性。
 
 ## 摘要（原文）
 

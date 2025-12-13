@@ -7,14 +7,14 @@ title: Breaking the Vicious Cycle: Coherent 3D Gaussian Splatting from Sparse an
 **arXiv**：[2512.10369v1](https://arxiv.org/abs/2512.10369) · [PDF](https://arxiv.org/pdf/2512.10369.pdf)  
 **作者**：Zhankuo Xu, Chaoran Feng, Yingtao Li, Jianbin Zhao, Jiashu Yang, Wangbo Yu, Li Yuan, Yonghong Tian  
 
-**一句话要点**：提出CoherentGS框架，通过双先验策略从稀疏和运动模糊图像实现高保真3D重建。
+**一句话要点**：提出CoherentGS框架，利用双先验策略从稀疏和运动模糊图像中实现高保真3D重建。
 
-**关键词**：3D高斯泼溅, 稀疏视图重建, 运动模糊处理, 双先验策略, 扩散模型, 去模糊网络
+**关键词**：3D高斯泼溅, 稀疏视图重建, 运动模糊处理, 双先验策略, 生成模型, 新视角合成
 
 ## 3 点简述
-- 核心问题：稀疏和运动模糊图像导致3D高斯泼溅重建失败，形成恶性循环。
+- 核心问题：3D高斯泼溅在稀疏和运动模糊视图下性能严重下降，形成恶性循环。
 - 方法要点：结合去模糊网络和扩散模型的双先验策略，辅以一致性引导相机探索和深度正则化。
-- 实验或效果：在合成和真实场景中，使用少至3、6、9个输入视图，显著优于现有方法。
+- 实验或效果：在合成和真实场景上，使用少至3、6、9个输入视图，显著优于现有方法。
 
 ## 摘要（原文）
 

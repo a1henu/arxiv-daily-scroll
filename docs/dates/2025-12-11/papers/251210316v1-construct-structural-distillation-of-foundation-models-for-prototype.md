@@ -7,14 +7,14 @@ title: ConStruct: Structural Distillation of Foundation Models for Prototype-Bas
 **arXiv**：[2512.10316v1](https://arxiv.org/abs/2512.10316) · [PDF](https://arxiv.org/pdf/2512.10316.pdf)  
 **作者**：Khang Le, Ha Thach, Anh M. Vu, Trang T. K. Vo, Han H. Huynh, David Yang, Minh H. N. Le, Thanh-Huy Nguyen, Akash Awasthi, Chandra Mohan, Zhu Han, Hien Van Nguyen  
 
-**一句话要点**：提出原型学习框架，结合结构蒸馏与文本引导，以解决弱监督组织病理分割中定位不完整问题。
+**一句话要点**：提出原型学习框架以解决弱监督组织病理学分割中结构完整性和语义一致性问题
 
-**关键词**：弱监督语义分割, 组织病理图像, 原型学习, 结构蒸馏, 文本引导, 基础模型
+**关键词**：弱监督语义分割, 组织病理学图像, 原型学习, 结构蒸馏, 文本引导对齐, 计算高效
 
 ## 3 点简述
-- 核心问题：弱监督组织病理分割依赖分类模型，常仅定位最显著区域，难以捕获完整组织结构。
-- 方法要点：集成CONCH的形态感知表示和SegFormer的结构线索，通过文本引导原型初始化和结构蒸馏提升伪掩码质量。
-- 实验或效果：在BCSS-WSSS数据集上优于现有方法，无需像素级标注，提高定位完整性和语义一致性。
+- 核心问题：弱监督组织病理学分割依赖分类模型，但常仅定位最具判别性区域，难以捕获组织结构的完整空间范围。
+- 方法要点：集成CONCH的形态感知表示、SegFormer的多尺度结构线索和文本引导语义对齐，通过文本引导原型初始化和结构蒸馏机制生成高质量伪掩码。
+- 实验或效果：在BCSS-WSSS数据集上优于现有方法，无需像素级标注，提升定位完整性和语义一致性，计算高效。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: User-Feedback-Driven Continual Adaptation for Vision-and-Language Navigat
 **arXiv**：[2512.10322v1](https://arxiv.org/abs/2512.10322) · [PDF](https://arxiv.org/pdf/2512.10322.pdf)  
 **作者**：Yongqiang Yu, Xuhui Li, Hazza Mahmood, Jinxing Zhou, Haodong Hong, Longtao Jiang, Zhiqiang Xu, Qi Wu, Xiaojun Chang  
 
-**一句话要点**：提出用户反馈驱动的持续适应框架，以增强视觉语言导航在真实部署中的性能。
+**一句话要点**：提出用户反馈驱动的持续适应框架，以提升视觉语言导航在真实部署中的性能
 
 **关键词**：视觉语言导航, 持续适应, 用户反馈, 记忆库热启动, 通用场景适应
 
 ## 3 点简述
-- 核心问题：现有通用场景适应方法忽略用户反馈，依赖无监督适应，导致与现实部署存在差距。
-- 方法要点：集成用户反馈（导航指令和纠正信号）生成高质量训练数据，结合记忆库热启动机制重用环境知识。
-- 实验或效果：在GSA-R2R基准上超越基线，提升导航成功率和路径效率，稳定早期导航并减少更新后性能下降。
+- 针对视觉语言导航中通用场景适应框架缺乏用户监督的问题
+- 通过将用户反馈转化为高质量训练数据，并引入记忆库热启动机制
+- 在GSA-R2R基准上超越基线方法，提升导航成功率和路径效率
 
 ## 摘要（原文）
 

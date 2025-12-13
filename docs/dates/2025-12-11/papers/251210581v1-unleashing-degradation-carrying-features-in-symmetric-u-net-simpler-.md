@@ -7,14 +7,14 @@ title: Unleashing Degradation-Carrying Features in Symmetric U-Net: Simpler and 
 **arXiv**：[2512.10581v1](https://arxiv.org/abs/2512.10581) · [PDF](https://arxiv.org/pdf/2512.10581.pdf)  
 **作者**：Wenlong Jiao, Heyang Lee, Ping Wang, Pengfei Zhu, Qinghua Hu, Dongwei Ren  
 
-**一句话要点**：提出对称U-Net以简化全场景图像修复，通过释放退化携带特征实现高性能
+**一句话要点**：提出对称U-Net以简化全场景图像修复，通过释放特征中的退化信息实现高性能
 
-**关键词**：全场景图像修复, 对称U-Net, 退化携带特征, 跨尺度传播, 语义增强, CLIP特征
+**关键词**：全场景图像修复, 对称U-Net, 退化信息释放, 特征对齐, 语义增强, 计算效率
 
 ## 3 点简述
-- 全场景图像修复现有方法依赖复杂架构，导致计算成本高且效率低
-- 对称U-Net通过对齐特征尺度和跨尺度传播，有效提取并利用退化信息
-- 实验表明SymUNet和SE-SymUNet在多个基准数据集上优于现有方法，计算成本更低
+- 核心问题：现有全场景图像修复方法依赖复杂架构和退化提示策略，导致计算成本高。
+- 方法要点：采用对称U-Net设计，对齐编码器-解码器特征尺度，通过简单跳跃连接融合释放退化信息。
+- 实验或效果：SymUNet在基准数据集上优于现有方法，计算成本更低；SE-SymUNet集成CLIP特征增强语义。
 
 ## 摘要（原文）
 

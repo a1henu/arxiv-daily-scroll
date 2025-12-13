@@ -12,9 +12,9 @@ title: Stronger Normalization-Free Transformers
 **关键词**：归一化替代, Transformer架构, 点函数设计, 泛化性能, 多领域应用
 
 ## 3 点简述
-- 研究点函数内在属性对训练和性能的影响，探索替代归一化层的设计
-- 通过大规模搜索，引入Derf函数，基于高斯累积分布函数，提升泛化能力
-- 在视觉、语音和DNA建模等任务中，Derf超越LayerNorm、RMSNorm和DyT
+- 研究点函数内在属性对训练和性能的影响，探索归一化替代方案
+- 通过大规模搜索，引入Derf函数作为最有效设计，基于高斯累积分布函数
+- 在视觉、语音和DNA建模等任务中，Derf超越LayerNorm、RMSNorm和DyT，提升泛化能力
 
 ## 摘要（原文）
 

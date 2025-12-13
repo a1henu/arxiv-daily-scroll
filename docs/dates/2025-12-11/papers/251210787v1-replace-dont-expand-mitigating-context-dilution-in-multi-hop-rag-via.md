@@ -9,12 +9,12 @@ title: Replace, Don't Expand: Mitigating Context Dilution in Multi-Hop RAG via F
 
 **一句话要点**：提出SEAL-RAG以解决多跳RAG中上下文稀释问题，通过固定预算替换策略优化证据组装。
 
-**关键词**：检索增强生成, 多跳问答, 上下文稀释, 证据组装, 固定预算检索, 实体锚定提取
+**关键词**：检索增强生成, 多跳问答, 上下文稀释, 证据组装, 实体排名, 固定预算检索
 
 ## 3 点简述
 - 多跳查询中，初始检索遗漏桥接事实导致RAG失败，现有方法扩展上下文易引发上下文稀释。
-- SEAL-RAG采用“替换而非扩展”策略，执行搜索-提取-评估-循环，动态构建缺口规范并替换干扰项。
-- 在HotpotQA和2WikiMultiHopQA上，SEAL显著提升答案正确性和证据精度，优于Self-RAG和Adaptive-k。
+- SEAL-RAG采用训练无关控制器，执行搜索-提取-评估-循环，基于实体锚定提取和微查询主动替换干扰项。
+- 在HotpotQA和2WikiMultiHopQA上，SEAL-RAG显著提升答案正确性和证据精度，优于Self-RAG和Adaptive-k。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: FoundationMotion: Auto-Labeling and Reasoning about Spatial Movement in V
 **arXiv**：[2512.10927v1](https://arxiv.org/abs/2512.10927) · [PDF](https://arxiv.org/pdf/2512.10927.pdf)  
 **作者**：Yulu Gan, Ligeng Zhu, Dandan Shan, Baifeng Shi, Hongxu Yin, Boris Ivanovic, Song Han, Trevor Darrell, Jitendra Malik, Marco Pavone, Boyi Li  
 
-**一句话要点**：提出FoundationMotion以自动构建大规模细粒度运动数据集，提升视频运动理解能力
+**一句话要点**：提出FoundationMotion自动标注流水线以解决视频运动理解数据稀缺问题
 
-**关键词**：视频运动理解, 自动数据标注, 轨迹分析, 大语言模型应用, 细粒度数据集
+**关键词**：视频运动理解, 自动数据标注, 轨迹提取, 大语言模型应用, 细粒度数据集构建, 模型微调
 
 ## 3 点简述
-- 核心问题：现有运动数据集依赖昂贵人工标注，缺乏大规模细粒度数据，限制模型性能提升。
-- 方法要点：通过检测跟踪视频中物体轨迹，结合大语言模型自动生成细粒度描述和问答对。
-- 实验或效果：微调开源模型在多个运动理解基准上超越闭源和大型开源基线，性能显著提升。
+- 核心问题：现有运动数据集依赖昂贵人工标注，限制模型在细粒度运动理解上的性能提升
+- 方法要点：通过目标检测跟踪提取轨迹，结合LLM自动生成细粒度字幕和问答对，构建大规模数据集
+- 实验或效果：微调开源模型在多个运动基准上超越闭源和大型开源基线，不损害其他任务性能
 
 ## 摘要（原文）
 

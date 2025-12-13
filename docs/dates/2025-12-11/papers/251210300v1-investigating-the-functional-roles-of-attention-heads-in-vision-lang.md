@@ -7,14 +7,14 @@ title: Investigating The Functional Roles of Attention Heads in Vision Language 
 **arXiv**：[2512.10300v1](https://arxiv.org/abs/2512.10300) · [PDF](https://arxiv.org/pdf/2512.10300.pdf)  
 **作者**：Yanbei Jiang, Xueqi Ma, Shu Liu, Sarah Monazam Erfani, Tongliang Liu, James Bailey, Jey Han Lau, Krista A. Ehinger  
 
-**一句话要点**：提出CogVision数据集与探测方法，分析视觉语言模型中注意力头的功能角色，揭示其在多模态推理中的模块化组织。
+**一句话要点**：提出CogVision数据集与探测框架，分析视觉语言模型中注意力头的功能角色，揭示其在多模态推理中的模块化组织。
 
-**关键词**：视觉语言模型, 注意力头分析, 多模态推理, 可解释性框架, CogVision数据集, 功能头探测
+**关键词**：视觉语言模型, 注意力头分析, 多模态推理, 可解释性框架, CogVision数据集, 功能模块化
 
 ## 3 点简述
-- 核心问题：视觉语言模型在多模态推理中的内部机制不透明，缺乏对注意力头功能角色的系统理解。
+- 核心问题：视觉语言模型内部机制不透明，缺乏对注意力头在多模态推理中功能角色的系统理解。
 - 方法要点：引入CogVision数据集，将复杂问题分解为子问题，通过探测方法识别与特定认知功能相关的功能头。
-- 实验或效果：发现功能头稀疏且分布不均，干预实验显示其移除导致性能下降，强调则提升准确性。
+- 实验或效果：发现功能头稀疏且分布不均，干预实验证明其对推理性能至关重要，移除导致退化，强调则提升准确性。
 
 ## 摘要（原文）
 

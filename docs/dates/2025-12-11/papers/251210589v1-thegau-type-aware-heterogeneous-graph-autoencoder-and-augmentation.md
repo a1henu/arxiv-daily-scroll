@@ -14,7 +14,7 @@ title: THeGAU: Type-Aware Heterogeneous Graph Autoencoder and Augmentation
 ## 3 点简述
 - 核心问题：异质图神经网络常面临类型信息丢失和结构噪声，影响表示保真度和泛化能力。
 - 方法要点：结合类型感知图自编码器重建模式有效边以保留节点类型语义，并引入解码器驱动的增强机制选择性优化噪声结构。
-- 实验或效果：在IMDB、ACM和DBLP基准数据集上验证，THeGAU优于现有方法，实现多骨干网络下的最优性能。
+- 实验或效果：在IMDB、ACM和DBLP基准数据集上验证，THeGAU优于现有方法，实现最优性能并降低计算开销。
 
 ## 摘要（原文）
 

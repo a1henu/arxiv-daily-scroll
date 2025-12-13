@@ -12,9 +12,9 @@ title: Seamless Outdoor-Indoor Pedestrian Positioning System with GNSS/UWB/IMU F
 **关键词**：行人定位, 传感器融合, 室外-室内无缝定位, 概率滤波, 实时系统, 地图约束
 
 ## 3 点简述
-- 核心问题：室外-室内行人定位因GNSS信号遮挡、UWB多径和IMU漂移而难以连续准确。
-- 方法要点：融合GNSS、UWB和IMU，引入基于OpenStreetMap的轻量级地图约束以增强过渡鲁棒性。
-- 实验或效果：在ROS 2实时平台上评估三种场景，ESKF在实现中表现最一致。
+- 核心问题：室外-室内行人定位因GNSS/UWB/IMU信号脆弱而难以连续准确。
+- 方法要点：融合GNSS/UWB/IMU，引入地图约束，实时实现于ROS 2平台。
+- 实验或效果：评估三种场景，ESKF在实现中表现最一致。
 
 ## 摘要（原文）
 

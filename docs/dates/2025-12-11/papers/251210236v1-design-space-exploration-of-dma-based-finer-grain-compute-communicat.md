@@ -7,14 +7,14 @@ title: Design Space Exploration of DMA based Finer-Grain Compute Communication O
 **arXiv**：[2512.10236v1](https://arxiv.org/abs/2512.10236) · [PDF](https://arxiv.org/pdf/2512.10236.pdf)  
 **作者**：Shagnik Pal, Shaizeen Aga, Suchita Pati, Mahzabeen Islam, Lizy K. John  
 
-**一句话要点**：提出FiCCO细粒度计算通信重叠方法，利用GPU DMA优化分布式ML性能
+**一句话要点**：提出FiCCO细粒度计算通信重叠方法，利用DMA卸载通信以提升分布式ML性能
 
-**关键词**：分布式机器学习, 计算通信重叠, GPU DMA, 细粒度调度, 性能优化
+**关键词**：分布式机器学习, 计算通信重叠, 细粒度调度, DMA卸载, 性能优化, 设计空间探索
 
 ## 3 点简述
 - 分布式ML中数据依赖通信与计算重叠不足，导致性能损失高达1.7倍理想值
-- FiCCO实现比分片级更细粒度的重叠，扩展设计空间并分析操作分解效率损失
-- 基于启发式选择定制调度，结合DMA卸载通信，实验显示最高1.6倍加速
+- FiCCO实现比分片级更细粒度的重叠，扩展设计空间并平衡操作分解效率损失
+- 基于DMA卸载通信减少争用，定制调度在真实场景中最高加速1.6倍，启发式准确率81%
 
 ## 摘要（原文）
 

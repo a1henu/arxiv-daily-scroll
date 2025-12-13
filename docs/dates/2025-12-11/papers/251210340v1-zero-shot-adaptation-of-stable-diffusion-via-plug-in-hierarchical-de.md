@@ -7,9 +7,9 @@ title: Zero-shot Adaptation of Stable Diffusion via Plug-in Hierarchical Degrada
 **arXiv**：[2512.10340v1](https://arxiv.org/abs/2512.10340) · [PDF](https://arxiv.org/pdf/2512.10340.pdf)  
 **作者**：Yi-Cheng Liao, Shyang-En Weng, Yu-Syuan Xu, Chi-Wei Hsiao, Wei-Chen Chiu, Ching-Chun Huang  
 
-**一句话要点**：提出HD-CLIP插件模块，通过分层退化表示实现稳定扩散的零样本适应，以解决真实世界超分辨率问题。
+**一句话要点**：提出HD-CLIP插件模块，通过层次化退化表示实现稳定扩散的零样本适应，以解决真实世界超分辨率问题。
 
-**关键词**：真实世界超分辨率, 稳定扩散, 零样本适应, 分层退化表示, 即插即用模块, 分类器自由投影引导
+**关键词**：真实世界超分辨率, 稳定扩散, 零样本适应, 层次化退化表示, 即插即用模块, 分类器自由投影引导
 
 ## 3 点简述
 - 核心问题：真实世界超分辨率中未知复杂退化导致现有方法泛化能力受限，CLIP文本编码器无法捕捉数值退化程度。

@@ -7,13 +7,13 @@ title: WorldLens: Full-Spectrum Evaluations of Driving World Models in Real Worl
 **arXiv**：[2512.10958v1](https://arxiv.org/abs/2512.10958) · [PDF](https://arxiv.org/pdf/2512.10958.pdf)  
 **作者**：Ao Liang, Lingdong Kong, Tianyi Yan, Hongsi Liu, Wesley Yang, Ziqi Huang, Wei Yin, Jialong Zuo, Yixuan Hu, Dekai Zhu, Dongyue Lu, Youquan Liu, Guangfeng Jiang, Linfeng Li, Xiangtai Li, Long Zhuo, Lai Xing Ng, Benoit R. Cottereau, Changxin Gao, Liang Pan, Wei Tsang Ooi, Ziwei Liu  
 
-**一句话要点**：提出WorldLens基准以评估生成驾驶世界模型的真实性与功能性
+**一句话要点**：提出WorldLens基准以全面评估驾驶世界模型的真实性与功能性
 
-**关键词**：世界模型评估, 驾驶场景生成, 几何一致性, 物理合理性, 人类偏好标注, 蒸馏评估模型
+**关键词**：驾驶世界模型, 全谱评估, 几何一致性, 物理合理性, 人类偏好标注, 蒸馏评估模型
 
 ## 3 点简述
-- 核心问题：生成世界模型缺乏统一评估标准，难以衡量几何、物理和行为一致性
-- 方法要点：构建全谱评估框架，涵盖生成、重建、动作跟随、下游任务和人类偏好五个维度
+- 核心问题：生成世界模型缺乏统一评估标准，难以衡量几何、物理和行为可靠性
+- 方法要点：构建五维度评估框架，涵盖生成、重建、动作跟随、下游任务和人类偏好
 - 实验或效果：创建WorldLens-26K数据集和WorldLens-Agent模型，实现可扩展、可解释的评分
 
 ## 摘要（原文）

@@ -12,9 +12,9 @@ title: GPG: Generalized Policy Gradient Theorem for Transformer-based Policies
 **关键词**：策略梯度定理, Transformer策略, 大语言模型训练, 策略优化, 强化学习
 
 ## 3 点简述
-- 核心问题：针对Transformer策略的策略梯度优化缺乏统一理论框架。
-- 方法要点：提出广义策略梯度定理，涵盖标准策略梯度和GRPO作为特例。
-- 实验或效果：探索在大语言模型训练中的应用，提供高效策略优化的新见解。
+- 针对Transformer策略设计广义策略梯度定理，统一标准策略梯度和GRPO。
+- 证明标准策略梯度和GRPO是广义策略梯度定理的特例，提供理论框架。
+- 探索在大语言模型训练中的应用，为高效策略优化提供新见解。
 
 ## 摘要（原文）
 

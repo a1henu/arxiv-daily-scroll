@@ -7,14 +7,14 @@ title: High-Dimensional Data Processing: Benchmarking Machine Learning and Deep 
 **arXiv**：[2512.10312v1](https://arxiv.org/abs/2512.10312) · [PDF](https://arxiv.org/pdf/2512.10312.pdf)  
 **作者**：Julian Rodriguez, Piotr Lopez, Emiliano Lerma, Rafael Medrano, Jacobo Hernandez  
 
-**一句话要点**：报告大数据课程实践，涵盖高维数据处理、文本分类与分布式集群实现。
+**一句话要点**：报告大数据课程实践，涵盖高维数据处理、文本分类和分布式集群实现。
 
-**关键词**：高维数据处理, 机器学习架构, 深度学习架构, 分布式计算, Apache Spark, 文本分类
+**关键词**：高维数据处理, 机器学习架构, 分布式计算, Apache Spark, 文本分类, 大数据课程实践
 
 ## 3 点简述
-- 核心问题：处理高维数据，评估机器学习和深度学习架构在本地与分布式环境中的性能。
-- 方法要点：使用Epsilon数据集进行分组与个体策略处理，结合RestMex进行文本分析分类和IMDb电影特征分析。
-- 实验或效果：技术实现基于Apache Spark在Linux上用Scala构建的分布式计算集群，详细描述工作流程。
+- 核心问题：处理高维数据，如Epsilon数据集，并评估机器学习和深度学习架构。
+- 方法要点：采用分组和个体策略处理数据，结合文本分析（RestMex）和电影特征分析（IMDb）。
+- 实验或效果：在本地和分布式环境中实现Apache Spark集群，使用Scala进行技术实施。
 
 ## 摘要（原文）
 

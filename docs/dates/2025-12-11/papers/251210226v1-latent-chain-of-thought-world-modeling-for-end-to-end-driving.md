@@ -7,14 +7,14 @@ title: Latent Chain-of-Thought World Modeling for End-to-End Driving
 **arXiv**：[2512.10226v1](https://arxiv.org/abs/2512.10226) · [PDF](https://arxiv.org/pdf/2512.10226.pdf)  
 **作者**：Shuhan Tan, Kashyap Chitta, Yuxiao Chen, Ran Tian, Yurong You, Yan Wang, Wenjie Luo, Yulong Cao, Philipp Krahenbuhl, Marco Pavone, Boris Ivanovic  
 
-**一句话要点**：提出Latent-CoT-Drive模型，通过潜在语言链式思考提升端到端自动驾驶性能
+**一句话要点**：提出Latent-CoT-Drive模型，通过潜在语言链式思维推理提升端到端驾驶性能
 
-**关键词**：自动驾驶, 潜在语言推理, 端到端驾驶, 链式思考, 世界建模, 强化学习
+**关键词**：端到端驾驶, 潜在语言推理, 链式思维, 世界建模, 强化学习
 
 ## 3 点简述
-- 核心问题：传统文本链式思考在自动驾驶中可能效率不足，影响推理和决策统一性
-- 方法要点：使用动作对齐潜在空间，结合动作提议和世界模型令牌进行推理，通过监督学习和强化学习训练
-- 实验或效果：在大规模基准测试中实现更快推理、更好轨迹质量，强化学习改进效果优于基线
+- 核心问题：现有视觉-语言-动作模型使用自然语言进行链式思维推理，但文本可能不是最高效的表示方式。
+- 方法要点：在动作对齐的潜在空间中统一推理与决策，使用动作提议令牌和世界模型令牌表达未来结果。
+- 实验或效果：在大规模端到端驾驶基准上，实现更快推理、更好轨迹质量，并通过强化学习增强推理能力。
 
 ## 摘要（原文）
 

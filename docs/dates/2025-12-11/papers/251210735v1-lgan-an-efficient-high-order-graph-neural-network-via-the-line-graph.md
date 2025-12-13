@@ -7,14 +7,14 @@ title: LGAN: An Efficient High-Order Graph Neural Network via the Line Graph Agg
 **arXiv**：[2512.10735v1](https://arxiv.org/abs/2512.10735) · [PDF](https://arxiv.org/pdf/2512.10735.pdf)  
 **作者**：Lin Du, Lu Bai, Jincheng Li, Lixin Cui, Hangyuan Du, Lichi Zhang, Yuting Chen, Zhao Li  
 
-**一句话要点**：提出LGAN通过线图聚合实现高效高阶图神经网络，提升表达力与可解释性
+**一句话要点**：提出LGAN通过线图聚合实现高效高阶图神经网络，以解决k-WL模型计算成本高和可解释性差的问题。
 
-**关键词**：图神经网络, 高阶表达力, 线图聚合, 可解释性, 图分类
+**关键词**：图神经网络, 高阶表达, 线图聚合, 可解释性, 图分类
 
 ## 3 点简述
-- 现有GNN表达力受限于1-WL测试，高阶方法计算成本高且可解释性差
-- LGAN基于节点诱导子图构建线图进行高阶聚合，理论证明优于2-WL且复杂度低
-- 实验显示LGAN在基准测试中优于现有高阶GNN，并提供更好可解释性
+- 核心问题：现有GNN表达能力受限于1-WL，k-WL模型计算成本高且缺乏节点或边级语义，导致可解释性不足。
+- 方法要点：LGAN为每个节点构建诱导子图的线图进行高阶聚合，理论上表达能力超过2-WL且时间复杂度更低。
+- 实验或效果：在基准测试中，LGAN优于当前最优k-WL基GNN，并提供更好的可解释性。
 
 ## 摘要（原文）
 

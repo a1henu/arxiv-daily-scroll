@@ -7,14 +7,14 @@ title: E-RayZer: Self-supervised 3D Reconstruction as Spatial Visual Pre-trainin
 **arXiv**：[2512.10950v1](https://arxiv.org/abs/2512.10950) · [PDF](https://arxiv.org/pdf/2512.10950.pdf)  
 **作者**：Qitao Zhao, Hao Tan, Qianqian Wang, Sai Bi, Kai Zhang, Kalyan Sunkavalli, Shubham Tulsiani, Hanwen Jiang  
 
-**一句话要点**：提出E-RayZer，通过显式几何的自监督三维重建实现三维感知视觉预训练
+**一句话要点**：提出E-RayZer，通过显式几何自监督3D重建实现空间视觉预训练
 
-**关键词**：三维重建, 自监督学习, 视觉预训练, 多视图图像, 显式几何, 下游任务迁移
+**关键词**：自监督学习, 3D重建, 视觉预训练, 多视图图像, 几何表示, 课程学习
 
 ## 3 点简述
-- 核心问题：自监督预训练在三维感知表示学习上未充分探索，现有方法如RayZer依赖隐式视图合成。
-- 方法要点：E-RayZer直接在三维空间进行自监督重建，引入细粒度学习课程以优化训练收敛和可扩展性。
-- 实验或效果：在姿态估计上显著优于RayZer，下游任务中超越DINOv3等模型，确立三维预训练新范式。
+- 核心问题：自监督预训练在3D感知表示学习上未充分探索，现有方法如RayZer依赖隐式视图合成。
+- 方法要点：E-RayZer直接在3D空间进行自监督重建，引入细粒度学习课程以优化训练收敛和可扩展性。
+- 实验或效果：在姿态估计上显著优于RayZer，下游3D任务中超越DINOv3等领先模型，确立新范式。
 
 ## 摘要（原文）
 

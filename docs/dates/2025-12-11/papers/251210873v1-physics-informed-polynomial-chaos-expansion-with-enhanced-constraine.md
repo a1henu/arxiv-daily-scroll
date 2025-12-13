@@ -14,7 +14,7 @@ title: Physics-informed Polynomial Chaos Expansion with Enhanced Constrained Opt
 ## 3 点简述
 - 核心问题：PC²框架在高维参数空间、数据有限或训练数据不具代表性时性能下降
 - 方法要点：采用SULM求解器降低计算成本，结合D-最优采样选择虚拟点提升稳定性
-- 实验或效果：通过微分方程数值示例验证，增强PC²在准确性与效率平衡上优于标准PC²
+- 实验或效果：通过微分方程数值示例验证，增强PC²在准确性与效率上优于标准PC²
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: NaviHydra: Controllable Navigation-guided End-to-end Autonomous Driving w
 **arXiv**：[2512.10660v1](https://arxiv.org/abs/2512.10660) · [PDF](https://arxiv.org/pdf/2512.10660.pdf)  
 **作者**：Hanfeng Wu, Marlon Steiner, Michael Schmidt, Alvaro Marcos-Ramiro, Christoph Stiller  
 
-**一句话要点**：提出NaviHydra以解决自动驾驶中导航指令可控性问题，通过蒸馏方法实现端到端控制。
+**一句话要点**：提出NaviHydra可控导航引导端到端自动驾驶模型，通过Hydra蒸馏解决导航命令遵从问题
 
-**关键词**：自动驾驶, 端到端学习, 蒸馏训练, 导航控制, 鸟瞰图, 轨迹生成
+**关键词**：自动驾驶, 端到端学习, 导航引导, 蒸馏训练, 轨迹生成, 可控性评估
 
 ## 3 点简述
-- 核心问题：传统规则系统在动态环境中适应性差，端到端方法难以遵循显式导航指令。
-- 方法要点：基于鸟瞰图的轨迹特征提取，引入导航合规性指标提升可控性和安全性。
-- 实验或效果：在NAVSIM基准测试中显著优于基线模型，达到先进水平。
+- 核心问题：端到端自动驾驶模型难以遵从显式导航命令，在动态环境中表现受限
+- 方法要点：基于规则模拟器蒸馏，引入BEV轨迹特征提取和导航遵从度量提升可控性
+- 实验或效果：在NAVSIM基准测试中显著优于基线模型，实现先进性能
 
 ## 摘要（原文）
 

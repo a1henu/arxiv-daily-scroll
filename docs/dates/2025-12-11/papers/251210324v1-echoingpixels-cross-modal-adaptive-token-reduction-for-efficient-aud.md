@@ -7,14 +7,14 @@ title: EchoingPixels: Cross-Modal Adaptive Token Reduction for Efficient Audio-V
 **arXiv**：[2512.10324v1](https://arxiv.org/abs/2512.10324) · [PDF](https://arxiv.org/pdf/2512.10324.pdf)  
 **作者**：Chao Gong, Depeng Wang, Zhipeng Wei, Ya Guo, Huijia Zhu, Jingjing Chen  
 
-**一句话要点**：提出EchoingPixels框架，通过跨模态自适应令牌减少解决音频-视觉大语言模型计算开销问题
+**一句话要点**：提出EchoingPixels框架，通过跨模态自适应令牌减少解决音频-视觉大语言模型的计算效率瓶颈。
 
-**关键词**：音频-视觉大语言模型, 令牌减少, 跨模态交互, 自适应预算分配, 时间建模, 计算效率
+**关键词**：音频-视觉大语言模型, 令牌减少, 跨模态交互, 自适应预算分配, 时间建模, 计算效率优化
 
 ## 3 点简述
-- 音频-视觉大语言模型面临大量音频和视频令牌导致的计算开销瓶颈，现有单模态令牌减少方法无法利用跨模态协同
-- 核心模块Cross-Modal Semantic Sieve在早期实现音频-视觉交互，从联合令牌池中自适应减少令牌，并设计Sync-RoPE保持时间关系
-- 实验显示仅用5-20%原始令牌即可达到基线性能，实现2-3倍加速和内存减少
+- 音频-视觉大语言模型面临大量令牌导致的计算开销问题，现有单模态令牌减少方法无法利用跨模态协同。
+- 核心模块Cross-Modal Semantic Sieve在早期实现音频-视觉交互，从联合令牌池中自适应减少令牌，并设计Sync-RoPE保持时间关系。
+- 实验显示，仅用5-20%原始令牌即可达到基线性能，实现2-3倍加速和内存减少。
 
 ## 摘要（原文）
 

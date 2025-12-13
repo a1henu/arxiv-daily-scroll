@@ -9,7 +9,7 @@ title: Is the Information Bottleneck Robust Enough? Towards Label-Noise Resistan
 
 **一句话要点**：提出LaT-IB方法以解决信息瓶颈在标签噪声下的脆弱性问题
 
-**关键词**：信息瓶颈, 标签噪声鲁棒性, 潜在解耦, 互信息正则化, 表示学习, 噪声感知训练
+**关键词**：信息瓶颈, 标签噪声鲁棒性, 潜在解耦, 互信息正则化, 表示学习
 
 ## 3 点简述
 - 信息瓶颈依赖准确标签，易受标签噪声影响导致性能下降

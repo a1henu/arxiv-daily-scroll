@@ -7,14 +7,14 @@ title: Authority Backdoor: A Certifiable Backdoor Mechanism for Authoring DNNs
 **arXiv**：[2512.10600v1](https://arxiv.org/abs/2512.10600) · [PDF](https://arxiv.org/pdf/2512.10600.pdf)  
 **作者**：Han Yang, Shaofeng Li, Tian Dong, Xiangyu Xu, Guangchi Liu, Zhen Ling  
 
-**一句话要点**：提出Authority Backdoor机制，通过嵌入访问约束主动保护DNN模型免受未授权使用。
+**一句话要点**：提出Authority Backdoor机制，通过后门学习主动保护DNN模型免受未授权使用。
 
-**关键词**：深度神经网络保护, 主动访问控制, 后门学习, 可认证鲁棒性, 模型安全
+**关键词**：深度神经网络保护, 后门学习, 可认证鲁棒性, 访问控制, 模型安全
 
 ## 3 点简述
-- 核心问题：现有DNN保护方法如数字水印被动，无法主动防止模型被盗用。
-- 方法要点：利用后门学习框架，模型仅在特定触发下正常，否则性能退化，结合可认证鲁棒性防移除。
-- 实验或效果：在多种架构和数据集上验证了有效性和可认证鲁棒性。
+- 核心问题：DNN作为知识产权面临被动保护不足，无法主动防止模型被盗用。
+- 方法要点：嵌入基于触发器的后门，模型仅在特定条件下正常运作，结合可认证鲁棒性增强安全性。
+- 实验或效果：在多种架构和数据集上验证了框架的有效性和可认证鲁棒性。
 
 ## 摘要（原文）
 

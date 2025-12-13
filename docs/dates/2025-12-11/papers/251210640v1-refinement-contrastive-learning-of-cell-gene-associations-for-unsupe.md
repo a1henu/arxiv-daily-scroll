@@ -7,14 +7,14 @@ title: Refinement Contrastive Learning of Cell-Gene Associations for Unsupervise
 **arXiv**：[2512.10640v1](https://arxiv.org/abs/2512.10640) · [PDF](https://arxiv.org/pdf/2512.10640.pdf)  
 **作者**：Liang Peng, Haopeng Liu, Yixuan Ye, Cheng Liu, Wenjun Shen, Si Wu, Hau-San Wong  
 
-**一句话要点**：提出scRCL框架，通过细胞-基因关联对比学习解决无监督细胞类型识别中紧密相关类型区分难题
+**一句话要点**：提出scRCL框架，通过细胞-基因关联对比学习解决无监督细胞类型识别中紧密相关类型区分难题。
 
 **关键词**：无监督细胞类型识别, 对比学习, 细胞-基因关联, 单细胞RNA-seq, 空间转录组学, 表示学习
 
 ## 3 点简述
-- 核心问题：现有聚类方法忽略细胞-基因关联，难以区分紧密相关细胞类型
-- 方法要点：结合细胞-细胞结构关系和基因相关性学习，增强细胞嵌入表示
-- 实验或效果：在单细胞RNA-seq和空间转录组数据集上优于基线，验证生物相关性
+- 核心问题：现有聚类方法忽略细胞-基因关联，难以区分紧密相关细胞类型。
+- 方法要点：结合细胞-细胞结构关系和基因相关性学习，增强细胞嵌入表示。
+- 实验或效果：在单细胞RNA-seq和空间转录组数据集上优于基线，验证生物相关性。
 
 ## 摘要（原文）
 

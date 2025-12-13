@@ -13,8 +13,8 @@ title: What matters for Representation Alignment: Global Information or Spatial 
 
 ## 3 点简述
 - 研究表示对齐中全局语义信息与空间结构对生成性能的影响
-- 发现空间结构而非全局性能是驱动生成的关键因素
-- 通过卷积层和空间归一化简单修改，提升收敛速度并跨模型验证
+- 发现空间结构而非全局性能驱动生成，引入卷积层和空间归一化层
+- iREPA在多种编码器和训练变体中提升收敛速度，代码简洁
 
 ## 摘要（原文）
 

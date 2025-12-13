@@ -1,5 +1,5 @@
 {
-  "count": 266,
+  "count": 267,
   "papers": [
     {
       "title": "StereoSpace: Depth-Free Synthesis of Stereo Geometry via End-to-End Diffusion in a Canonical Space",
@@ -1609,6 +1609,15 @@
       ],
       "arxiv_id": "2512.10633v1",
       "summary": "This paper presents a mixed-methodology to forecast illegal border crossings in Europe across five key migratory routes, with a one-year time horizon. The methodology integrates machine learning techniques with qualitative insights from migration experts. This approach aims at improving the predictive capacity of data-driven models through the inclusion of a human-assessed covariate, an innovation that addresses challenges posed by sudden shifts in migration patterns and limitations in traditional datasets. The proposed methodology responds directly to the forecasting needs outlined in the EU Pact on Migration and Asylum, supporting the Asylum and Migration Management Regulation (AMMR). It is designed to provide policy-relevant forecasts that inform strategic decisions, early warning systems, and solidarity mechanisms among EU Member States. By joining data-driven modeling with expert judgment, this work aligns with existing academic recommendations and introduces a novel operational tool tailored for EU migration governance. The methodology is tested and validated with known data to demonstrate its applicability and reliability in migration-related policy context."
+    },
+    {
+      "title": "Unified Smart Factory Model: A model-based Approach for Integrating Industry 4.0 and Sustainability for Manufacturing Systems",
+      "authors": [
+        "Ishaan Kaushal",
+        "Amaresh Chakrabarti"
+      ],
+      "arxiv_id": "2512.10631v1",
+      "summary": "This paper presents the Unified Smart Factory Model (USFM), a comprehensive framework designed to translate high-level sustainability goals into measurable factory-level indicators with a systematic information map of manufacturing activities. The manufacturing activities were modelled as set of manufacturing, assembly and auxiliary processes using Object Process Methodology, a Model Based Systems Engineering (MBSE) language. USFM integrates Manufacturing Process and System, Data Process, and Key Performance Indicator (KPI) Selection and Assessment in a single framework. Through a detailed case study of Printed Circuit Board (PCB) assembly factory, the paper demonstrates how environmental sustainability KPIs can be selected, modelled, and mapped to the necessary data, highlighting energy consumption and environmental impact metrics. The model's systematic approach can reduce redundancy, minimize the risk of missing critical information, and enhance data collection. The paper concluded that the USFM bridges the gap between sustainability goals and practical implementation, providing significant benefits for industries specifically SMEs aiming to achieve sustainability targets."
     },
     {
       "title": "K-Track: Kalman-Enhanced Tracking for Accelerating Deep Point Trackers on Edge Devices",

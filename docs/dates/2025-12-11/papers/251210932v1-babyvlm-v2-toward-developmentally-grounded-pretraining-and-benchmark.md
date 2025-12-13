@@ -7,14 +7,14 @@ title: BabyVLM-V2: Toward Developmentally Grounded Pretraining and Benchmarking 
 **arXiv**：[2512.10932v1](https://arxiv.org/abs/2512.10932) · [PDF](https://arxiv.org/pdf/2512.10932.pdf)  
 **作者**：Shengao Wang, Wenqi Wang, Zecheng Wang, Max Whitton, Michael Wakeham, Arjun Chandra, Joey Huang, Pengyue Zhu, Helen Chen, David Li, Jeffrey Li, Shawn Li, Andrew Zagula, Amy Zhao, Andrew Zhu, Sayaka Nakamura, Yuki Yamamoto, Jerry Jun Yokono, Aaron Mueller, Bryan A. Plummer, Kate Saenko, Venkatesh Saligrama, Boqing Gong  
 
-**一句话要点**：提出BabyVLM-V2框架，基于儿童发展轨迹进行视觉基础模型预训练与评估
+**一句话要点**：提出BabyVLM-V2框架，基于儿童发展轨迹进行视觉基础模型预训练与评估。
 
-**关键词**：视觉语言模型, 发展性预训练, 认知评估, 婴儿中心数据, 多模态任务, 样本效率
+**关键词**：视觉语言模型, 儿童发展预训练, 认知评估基准, 纵向视听数据, 样本高效学习
 
 ## 3 点简述
-- 核心问题：早期儿童发展轨迹为视觉基础模型的样本高效预训练提供自然目标
-- 方法要点：通过纵向多模态预训练集和DevCV工具箱，模拟婴儿经验并评估认知能力
-- 实验或效果：紧凑模型在DevCV工具箱上表现竞争性，部分任务超越GPT-4o
+- 核心问题：早期儿童发展轨迹为样本高效预训练视觉基础模型提供自然目标。
+- 方法要点：使用纵向婴儿中心视听语料库预训练，并开发DevCV Toolbox进行认知评估。
+- 实验或效果：紧凑模型在DevCV Toolbox上表现竞争性，部分任务超越GPT-4o。
 
 ## 摘要（原文）
 

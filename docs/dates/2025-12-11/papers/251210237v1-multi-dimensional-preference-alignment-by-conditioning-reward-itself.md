@@ -9,11 +9,11 @@ title: Multi-dimensional Preference Alignment by Conditioning Reward Itself
 
 **一句话要点**：提出多奖励条件DPO以解决扩散模型对齐中的奖励冲突问题
 
-**关键词**：扩散模型对齐, 奖励冲突, 多维度偏好, 条件化训练, 强化学习
+**关键词**：扩散模型对齐, 奖励冲突, 多维度偏好, 条件训练, 强化学习
 
 ## 3 点简述
 - 标准DPO因Bradley-Terry模型聚合多维度奖励导致冲突，迫使模型遗忘特定维度的有益特征
-- MCDPO引入解耦Bradley-Terry目标，通过偏好结果向量条件化训练，独立优化各奖励维度
+- MCDPO引入解耦Bradley-Terry目标，通过偏好结果向量作为条件，独立优化各奖励维度
 - 在Stable Diffusion 1.5和SDXL上实验显示，MCDPO性能优越，支持推理时动态多轴控制
 
 ## 摘要（原文）

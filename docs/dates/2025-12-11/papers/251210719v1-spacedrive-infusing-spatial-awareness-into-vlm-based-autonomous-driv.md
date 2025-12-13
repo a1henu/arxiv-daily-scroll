@@ -13,8 +13,8 @@ title: SpaceDrive: Infusing Spatial Awareness into VLM-based Autonomous Driving
 
 ## 3 点简述
 - 当前VLM在自动驾驶中难以理解细粒度3D空间关系，影响物理世界交互。
-- SpaceDrive将3D坐标作为位置编码，替代文本数字令牌，实现语义与空间联合推理。
-- 在nuScenes数据集上达到最优开环性能，Bench2Drive闭环基准得分78.02，优于现有VLM方法。
+- SpaceDrive将空间信息作为显式位置编码，结合语义与空间表示进行联合推理。
+- 在nuScenes数据集上实现最优开环性能，Bench2Drive闭环基准得分达78.02。
 
 ## 摘要（原文）
 

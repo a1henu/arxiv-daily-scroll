@@ -7,14 +7,14 @@ title: Physically Aware 360$^\circ$ View Generation from a Single Image using Di
 **arXiv**：[2512.10293v1](https://arxiv.org/abs/2512.10293) · [PDF](https://arxiv.org/pdf/2512.10293.pdf)  
 **作者**：Karthikeya KV, Narendra Bandaru  
 
-**一句话要点**：提出Disentangled360，通过解耦场景嵌入从单图像生成物理感知的360度视图，用于医学成像和自然场景重建。
+**一句话要点**：提出Disentangled360，通过解耦场景嵌入从单图像生成物理感知的360°视图，用于医学成像和自然场景重建。
 
-**关键词**：单图像视图合成, 解耦渲染, Gaussian Splatting, 医学成像, 360度渲染, 物理感知生成
+**关键词**：单图像视图合成, 360度渲染, 解耦表示, 医学成像, Gaussian Splatting, 物理感知渲染
 
 ## 3 点简述
-- 核心问题：现有方法简化各向异性光行为或缺乏跨场景泛化能力，难以从单图像生成物理准确的360度视图。
+- 核心问题：现有方法简化各向异性光行为或缺乏跨场景泛化能力，难以从单图像生成物理准确的360°视图。
 - 方法要点：在Gaussian Splatting骨干中区分各向同性和各向异性贡献，采用双分支条件框架和混合姿态无关锚定方法。
-- 实验或效果：在Mip-NeRF 360等数据集上实现优越的SSIM和LPIPS性能，支持交互式应用，无需场景特定微调。
+- 实验或效果：在Mip-NeRF 360等数据集上SSIM和LPIPS表现优越，支持交互式应用，无需场景特定微调或昂贵光子模拟。
 
 ## 摘要（原文）
 

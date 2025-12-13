@@ -7,14 +7,14 @@ title: An Elementary Proof of the Near Optimality of LogSumExp Smoothing
 **arXiv**：[2512.10825v1](https://arxiv.org/abs/2512.10825) · [PDF](https://arxiv.org/pdf/2512.10825.pdf)  
 **作者**：Thabo Samakhoana, Benjamin Grimmer  
 
-**一句话要点**：提出LogSumExp平滑在无穷范数下接近最优的初等证明与精确最优平滑构造
+**一句话要点**：提出LogSumExp平滑在无穷范数下近似最优性的初等证明与精确最优平滑构造
 
-**关键词**：LogSumExp平滑, 无穷范数优化, 函数平滑理论, 初等证明, 下界构造, 精确最优平滑
+**关键词**：函数平滑, LogSumExp, 无穷范数, 近似最优性, 初等证明, 下界构造
 
 ## 3 点简述
 - 研究在ℝ^d无穷范数下坐标最大函数的平滑设计问题
-- 通过初等构造证明LogSumExp平滑与最大函数差值至多为ln(d)，且任何过估计平滑至少差约0.8145ln(d)
-- 在小维度中构造精确最优平滑，显示LogSumExp方法非精确最优
+- 通过初等方法证明LogSumExp平滑与最大函数差值上界为ln(d)，下界约0.8145ln(d)，确立其近似最优性
+- 在小维度构造精确最优平滑，显示LogSumExp方法非精确最优
 
 ## 摘要（原文）
 

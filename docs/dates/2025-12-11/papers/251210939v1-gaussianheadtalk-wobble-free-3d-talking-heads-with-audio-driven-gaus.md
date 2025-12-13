@@ -7,14 +7,14 @@ title: GaussianHeadTalk: Wobble-Free 3D Talking Heads with Audio Driven Gaussian
 **arXiv**：[2512.10939v1](https://arxiv.org/abs/2512.10939) · [PDF](https://arxiv.org/pdf/2512.10939.pdf)  
 **作者**：Madhav Agarwal, Mingtian Zhang, Laura Sevilla-Lara, Steven McDonagh  
 
-**一句话要点**：提出基于3D Morphable Models和Transformer的Gaussian Splatting方法，以生成实时稳定的音频驱动3D说话头
+**一句话要点**：提出GaussianHeadTalk，通过音频驱动高斯溅射和3D形变模型，生成实时稳定的3D说话头像。
 
-**关键词**：音频驱动说话头, Gaussian Splatting, 3D Morphable Models, Transformer预测, 实时视频生成, 时间稳定性
+**关键词**：3D说话头像, 高斯溅射, 音频驱动, 时间一致性, 实时生成
 
 ## 3 点简述
-- 核心问题：现有方法在实时性和时间稳定性上存在不足，导致视频伪影和不稳定输出
-- 方法要点：使用3D Morphable Models映射Gaussian Splatting，结合Transformer从音频直接预测参数
-- 实验或效果：从单目视频和音频输入生成实时说话头视频，在定量和定性评估中表现竞争性
+- 核心问题：现有说话头像方法在实时性和时间稳定性上存在不足，高斯溅射方法因面部跟踪不准确导致输出不稳定。
+- 方法要点：结合3D形变模型映射高斯溅射，使用基于Transformer的音频直接预测模型参数，确保时间一致性。
+- 实验或效果：从单目视频和独立音频输入生成实时说话头像视频，在定量和定性评估中表现竞争性。
 
 ## 摘要（原文）
 

@@ -9,7 +9,7 @@ title: CAPTAIN: Semantic Feature Injection for Memorization Mitigation in Text-t
 
 **一句话要点**：提出CAPTAIN框架，通过语义特征注入缓解文本到图像扩散模型的记忆化问题
 
-**关键词**：文本到图像生成, 扩散模型, 记忆化缓解, 语义特征注入, 隐私保护
+**关键词**：文本到图像扩散模型, 记忆化缓解, 语义特征注入, 训练免费框架, 隐私保护
 
 ## 3 点简述
 - 扩散模型可能无意中复制训练数据，引发隐私和版权担忧

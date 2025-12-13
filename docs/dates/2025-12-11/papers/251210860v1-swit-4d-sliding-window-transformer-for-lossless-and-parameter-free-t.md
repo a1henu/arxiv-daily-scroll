@@ -7,14 +7,14 @@ title: SWiT-4D: Sliding-Window Transformer for Lossless and Parameter-Free Tempo
 **arXiv**：[2512.10860v1](https://arxiv.org/abs/2512.10860) · [PDF](https://arxiv.org/pdf/2512.10860.pdf)  
 **作者**：Kehong Gong, Zhengyu Wen, Mingxi Xu, Weixia He, Qi Wang, Ning Zhang, Zhengyu Li, Chenbin Li, Dongze Lian, Wei Zhao, Xiaoyu He, Mingyuan Zhang  
 
-**一句话要点**：提出SWiT-4D滑动窗口Transformer，实现无损失、无参数的单目视频到4D网格生成。
+**一句话要点**：提出SWiT-4D滑动窗口Transformer，用于从单目视频生成无损、无参数的时序4D网格
 
-**关键词**：4D内容生成, 单目视频重建, 扩散Transformer, 时空建模, 无参数微调, 滑动窗口机制
+**关键词**：4D内容生成, 单目视频重建, 扩散Transformer, 时序一致性, 滑动窗口建模, 参数自由优化
 
 ## 3 点简述
-- 核心问题：单目视频转高质量4D网格困难，缺乏大规模4D数据集限制数据驱动训练。
-- 方法要点：基于扩散Transformer图像到3D生成器，添加时空建模，支持任意长度视频，无需额外参数。
-- 实验或效果：仅需单个短视频微调，在多个基准测试中展现高保真几何和稳定时间一致性。
+- 核心问题：单目视频转高质量4D网格面临数据稀缺和模型泛化挑战，依赖4D监督有限。
+- 方法要点：基于扩散Transformer图像到3D生成器，通过滑动窗口添加时空建模，支持任意长度视频，并引入轨迹模块恢复全局平移。
+- 实验或效果：仅需单个短视频微调，在几何保真和时序一致性上优于基线，验证数据效率和实际部署性。
 
 ## 摘要（原文）
 

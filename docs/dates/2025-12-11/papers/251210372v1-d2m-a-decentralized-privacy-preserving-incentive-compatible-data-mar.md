@@ -7,14 +7,14 @@ title: D2M: A Decentralized, Privacy-Preserving, Incentive-Compatible Data Marke
 **arXiv**：[2512.10372v1](https://arxiv.org/abs/2512.10372) · [PDF](https://arxiv.org/pdf/2512.10372.pdf)  
 **作者**：Yash Srivastava, Shalin Jain, Sneha Awathare, Nitin Awathare  
 
-**一句话要点**：提出D2M去中心化数据市场，结合联邦学习与区块链，实现隐私保护与激励兼容的协作学习。
+**一句话要点**：提出D2M去中心化数据市场，结合联邦学习与区块链，解决隐私保护与激励兼容问题。
 
-**关键词**：去中心化数据市场, 联邦学习, 区块链仲裁, 隐私保护, 激励兼容, 拜占庭鲁棒性
+**关键词**：去中心化数据市场, 隐私保护联邦学习, 区块链仲裁, 激励兼容机制, 拜占庭鲁棒性
 
 ## 3 点简述
-- 核心问题：现有联邦学习依赖可信聚合器，区块链数据市场难以整合计算密集型训练与激励。
-- 方法要点：通过智能合约管理拍卖与托管，使用YODA协议增强共识，引入Corrected OSMD处理恶意贡献。
-- 实验或效果：在MNIST和Fashion-MNIST上达高精度，30%拜占庭节点下性能下降小于3%，CIFAR-10上56%准确率。
+- 核心问题：现有联邦学习依赖可信聚合器，区块链框架难以整合计算密集型训练与激励。
+- 方法要点：集成联邦学习、区块链仲裁和经济激励，使用YODA协议和Corrected OSMD增强鲁棒性。
+- 实验或效果：在MNIST和Fashion-MNIST上达高精度，30%拜占庭节点下性能下降小于3%。
 
 ## 摘要（原文）
 

@@ -7,7 +7,7 @@ title: Blood Pressure Prediction for Coronary Artery Disease Diagnosis using Cor
 **arXiv**：[2512.10765v1](https://arxiv.org/abs/2512.10765) · [PDF](https://arxiv.org/pdf/2512.10765.pdf)  
 **作者**：Rene Lisasi, Michele Esposito, Chen Zhao  
 
-**一句话要点**：提出基于扩散回归的冠状动脉血压预测框架，以支持非侵入性CAD诊断
+**一句话要点**：提出基于扩散回归的冠状动脉血压预测框架，以支持非侵入性CAD诊断。
 
 **关键词**：冠状动脉疾病诊断, 血压预测, 扩散回归模型, 计算流体动力学, 冠状动脉CT血管造影
 

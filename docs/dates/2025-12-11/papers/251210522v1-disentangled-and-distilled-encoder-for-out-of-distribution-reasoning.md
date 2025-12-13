@@ -7,7 +7,7 @@ title: Disentangled and Distilled Encoder for Out-of-Distribution Reasoning with
 **arXiv**：[2512.10522v1](https://arxiv.org/abs/2512.10522) · [PDF](https://arxiv.org/pdf/2512.10522.pdf)  
 **作者**：Zahra Rahiminasab, Michael Yuhas, Arvind Easwaran  
 
-**一句话要点**：提出解耦蒸馏编码器框架，以压缩模型用于资源受限设备上的分布外推理。
+**一句话要点**：提出解耦蒸馏编码器框架，以压缩模型用于资源受限设备上的分布外推理
 
 **关键词**：解耦潜在空间, 模型压缩, 分布外推理, 师生蒸馏, Rademacher复杂度, 资源受限设备
 
