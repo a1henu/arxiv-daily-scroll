@@ -9,12 +9,12 @@ title: Template-Free Retrosynthesis with Graph-Prior Augmented Transformers
 
 **一句话要点**：提出基于图先验增强Transformer的无模板逆合成方法，以提升有机合成预测的准确性和鲁棒性。
 
-**关键词**：逆合成预测, 无模板方法, Transformer模型, 图神经网络, 数据增强, 有机合成
+**关键词**：逆合成预测, 无模板方法, Transformer模型, 图增强注意力, 数据增强, 有机合成
 
 ## 3 点简述
 - 核心问题：逆合成反应预测旨在推断给定产物的可能反应物，是计算机辅助有机合成的关键挑战。
-- 方法要点：采用无模板Transformer框架，通过注意力机制注入分子图信息，结合SMILES序列和结构线索，并应用配对数据增强策略。
-- 实验或效果：在USPTO-50K基准测试中，该方法在无模板方法中达到最佳性能，显著优于基础Transformer模型。
+- 方法要点：采用无模板Transformer框架，通过注入分子图信息到注意力机制，结合SMILES序列和结构线索。
+- 实验或效果：在USPTO-50K基准上，该方法在无模板方法中达到最优性能，显著优于基础Transformer基线。
 
 ## 摘要（原文）
 

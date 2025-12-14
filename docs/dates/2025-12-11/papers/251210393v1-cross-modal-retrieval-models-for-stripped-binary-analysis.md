@@ -7,14 +7,14 @@ title: Cross-modal Retrieval Models for Stripped Binary Analysis
 **arXiv**：[2512.10393v1](https://arxiv.org/abs/2512.10393) · [PDF](https://arxiv.org/pdf/2512.10393.pdf)  
 **作者**：Guoqiang Chen, Lingyun Ying, Ziyang Song, Daguang Liu, Qiang Wang, Zhiqi Wang, Li Hu, Shaoyin Cheng, Weiming Zhang, Nenghai Yu  
 
-**一句话要点**：提出BinSeek两阶段跨模态检索框架以解决剥离二进制代码分析中的查询检索挑战
+**一句话要点**：提出BinSeek两阶段跨模态检索框架以解决剥离二进制代码分析中的查询检索难题
 
-**关键词**：跨模态检索, 二进制代码分析, LLM数据合成, 两阶段框架, 语义嵌入, 重排序模型
+**关键词**：二进制代码分析, 跨模态检索, 两阶段框架, LLM数据合成, 软件安全, 语义嵌入
 
 ## 3 点简述
-- 核心问题：剥离二进制函数缺乏符号信息，难以基于自然语言查询进行高效检索
-- 方法要点：结合BinSeekEmbedding学习语义相关性和BinSeek-Reranker上下文增强重排序
-- 实验或效果：在Rec@3和MRR@3指标上超越同规模模型31.42%和27.17%，优于参数大16倍的通用模型
+- 核心问题：剥离二进制代码缺乏符号信息，难以基于自然语言查询从大量函数中检索相关代码
+- 方法要点：采用两阶段框架，包括BinSeekEmbedding学习语义相关性和BinSeek-Reranker增强上下文判断
+- 实验或效果：在Rec@3和MRR@3指标上超越同规模模型31.42%和27.17%，领先参数大16倍的通用模型
 
 ## 摘要（原文）
 

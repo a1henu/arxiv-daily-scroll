@@ -7,14 +7,14 @@ title: MeViS: A Multi-Modal Dataset for Referring Motion Expression Video Segmen
 **arXiv**：[2512.10945v1](https://arxiv.org/abs/2512.10945) · [PDF](https://arxiv.org/pdf/2512.10945.pdf)  
 **作者**：Henghui Ding, Chang Liu, Shuting He, Kaining Ying, Xudong Jiang, Chen Change Loy, Yu-Gang Jiang  
 
-**一句话要点**：提出MeViS多模态数据集以解决基于运动表达的视频分割与跟踪问题
+**一句话要点**：提出MeViS多模态数据集以支持基于运动表达的视频分割与理解
 
-**关键词**：多模态数据集, 运动表达视频分割, 视频对象跟踪, 音频引导分割, 复杂场景视频理解, 基准测试
+**关键词**：多模态数据集, 运动表达视频分割, 视频对象跟踪, 音频引导分割, 复杂场景理解
 
 ## 3 点简述
 - 现有数据集强调静态属性，忽视运动在视频和语言中的作用
-- MeViS包含33,072条运动表达标注，支持4个任务基准测试
-- 提出LMPM++方法在RVOS/AVOS/RMOT任务中达到新最优结果
+- MeViS包含33,072条文本和音频运动表达，覆盖复杂场景中的8,171个对象
+- 基准测试显示现有方法在运动表达引导的视频理解方面存在局限，LMPM++方法取得新SOTA
 
 ## 摘要（原文）
 

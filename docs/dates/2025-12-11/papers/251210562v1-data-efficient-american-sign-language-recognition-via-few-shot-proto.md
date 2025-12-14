@@ -14,7 +14,7 @@ title: Data-Efficient American Sign Language Recognition via Few-Shot Prototypic
 ## 3 点简述
 - 核心问题：孤立手语识别受限于数据稀缺和词汇长尾分布，传统分类方法易过拟合且泛化差。
 - 方法要点：采用少样本原型网络，结合ST-GCN和多尺度时间聚合模块，学习语义度量空间进行动态分类。
-- 实验或效果：在WLASL数据集上Top-1准确率43.75%，优于基线超13%，并在SignASL上实现近30%的零样本泛化。
+- 实验或效果：在WLASL数据集上Top-1准确率43.75%，优于基线超13%，并在SignASL上实现近30%零样本泛化。
 
 ## 摘要（原文）
 

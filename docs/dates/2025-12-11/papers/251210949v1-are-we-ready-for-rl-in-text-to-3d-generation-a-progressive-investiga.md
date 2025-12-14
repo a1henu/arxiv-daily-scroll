@@ -7,13 +7,13 @@ title: Are We Ready for RL in Text-to-3D Generation? A Progressive Investigation
 **arXiv**：[2512.10949v1](https://arxiv.org/abs/2512.10949) · [PDF](https://arxiv.org/pdf/2512.10949.pdf)  
 **作者**：Yiwen Tang, Zoey Guo, Kaixin Zhu, Ray Zhang, Qizhi Chen, Dongzhi Jiang, Junli Liu, Bohan Zeng, Haoming Song, Delin Qu, Tianyi Bai, Dan Xu, Wentao Zhang, Bin Zhao  
 
-**一句话要点**：提出Hi-GRPO和AR3D-R1以解决RL在文本到3D生成中的奖励设计和算法挑战。
+**一句话要点**：提出Hi-GRPO和AR3D-R1以解决RL在文本到3D生成中的奖励设计和算法挑战
 
-**关键词**：文本到3D生成, 强化学习, 奖励设计, 层次优化, 3D基准评估, 自回归生成
+**关键词**：文本到3D生成, 强化学习, 奖励设计, 层次化优化, 3D基准评估, 自回归生成
 
 ## 3 点简述
 - 核心问题：3D生成因空间复杂度高，对奖励设计和RL算法敏感，RL应用未充分探索。
-- 方法要点：系统研究奖励设计、RL算法，并引入Hi-GRPO优化全局到局部层次生成。
+- 方法要点：系统研究奖励设计、GRPO算法变体，并引入层次化Hi-GRPO优化全局到局部生成。
 - 实验或效果：开发AR3D-R1模型，从粗形状到纹理细化，并发布MME-3DR基准评估推理能力。
 
 ## 摘要（原文）

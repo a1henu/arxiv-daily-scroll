@@ -7,14 +7,14 @@ title: T-SKM-Net: Trainable Neural Network Framework for Linear Constraint Satis
 **arXiv**：[2512.10461v1](https://arxiv.org/abs/2512.10461) · [PDF](https://arxiv.org/pdf/2512.10461.pdf)  
 **作者**：Haoyu Zhu, Yao Zhang, Jiashen Ren, Qingchun Hou  
 
-**一句话要点**：提出可训练的T-SKM-Net框架，首次将采样Kaczmarz-Motzkin方法系统集成到神经网络约束满足中
+**一句话要点**：提出T-SKM-Net框架，首次将采样Kaczmarz-Motzkin方法系统集成到神经网络中，以高效解决线性约束满足问题。
 
-**关键词**：约束满足神经网络, 采样Kaczmarz-Motzkin方法, 线性不等式系统, 可微优化, 电力系统优化, 安全关键应用
+**关键词**：线性约束满足, 采样Kaczmarz-Motzkin方法, 神经网络框架, 端到端训练, 电力系统优化, 随机迭代算法
 
 ## 3 点简述
-- 现有约束满足方法面临效率与适用性权衡，SKM方法虽收敛性好但非可微操作阻碍神经网络应用
-- 通过零空间变换将混合约束转为纯不等式问题，利用SKM迭代求解并映射回原空间，支持标准反向传播
-- 在DCOPF基准测试中实现25倍加速且保持零约束违反，提供后处理与联合训练两种模式
+- 核心问题：现有约束满足方法在效率与适用性间存在权衡，且SKM方法因非可微操作难以应用于神经网络。
+- 方法要点：通过零空间变换将混合约束问题转化为纯不等式问题，利用SKM迭代求解，并基于无偏梯度估计器保证端到端可训练性。
+- 实验或效果：在DCOPF case118基准上，实现毫秒级推理速度，相比pandapower求解器加速超过25倍，且约束违反为零。
 
 ## 摘要（原文）
 

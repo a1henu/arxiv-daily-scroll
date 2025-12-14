@@ -13,8 +13,8 @@ title: RoboNeuron: A Modular Framework Linking Foundation Models and ROS for Emb
 
 ## 3 点简述
 - 当前具身AI系统存在跨场景适应性差、模块耦合度高和推理加速碎片化问题。
-- RoboNeuron利用MCP作为语义桥接，实现LLM动态编排机器人工具，并基于ROS建立模块化架构。
-- 框架引入自动化工具转换ROS消息为MCP函数，提升开发效率，增强适应性和灵活性。
+- 利用MCP作为语义桥梁，实现LLM动态编排机器人工具，并基于ROS建立模块化架构。
+- 框架提升跨场景适应性和组件灵活性，为可扩展应用奠定基础。
 
 ## 摘要（原文）
 

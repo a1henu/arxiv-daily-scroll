@@ -7,14 +7,14 @@ title: OPV: Outcome-based Process Verifier for Efficient Long Chain-of-Thought V
 **arXiv**：[2512.10756v1](https://arxiv.org/abs/2512.10756) · [PDF](https://arxiv.org/pdf/2512.10756.pdf)  
 **作者**：Zijian Wu, Lingkai Kong, Wenwei Zhang, Songyang Gao, Yuzhe Gu, Zhongrui Cai, Tianyou Ma, Yuhong Liu, Zhi Wang, Runyuan Ma, Guangyu Wang, Wei Li, Conghui He, Dahua Lin, Kai Chen  
 
-**一句话要点**：提出OPV以通过总结长推理链结果来高效验证过程，解决现有验证器在长链思维中准确性与可扩展性不足的问题。
+**一句话要点**：提出基于结果的流程验证器OPV，通过总结长思维链结果来高效验证推理过程
 
-**关键词**：长链思维验证, 迭代主动学习, 拒绝微调, 强化学习可验证奖励, 过程验证, 结果验证
+**关键词**：思维链验证, 结果导向验证, 主动学习, 拒绝微调, 强化学习验证奖励, 大规模标注
 
 ## 3 点简述
-- 核心问题：现有结果验证器无法检查长推理链中的不可靠中间步骤，过程验证器因标注成本高而难以可靠检测复杂长链中的错误。
-- 方法要点：采用迭代主动学习框架，结合专家标注和拒绝微调与RLVR，逐步提升OPV的验证能力，降低标注成本。
-- 实验或效果：在OPV-Bench上达到83.1 F1分数，优于大型开源模型，并在AIME2025等任务中显著提升策略模型性能。
+- 当前基于结果的验证器无法检查长思维链中的不可靠中间步骤，而基于流程的验证器受限于标注成本难以可靠检测复杂长链错误
+- OPV通过验证长思维链总结结果的推理过程，结合迭代主动学习框架和专家标注，以较低成本提升验证能力
+- 在OPV-Bench上取得83.1的F1分数，优于Qwen3-Max-Preview的76.3，并能有效提升策略模型性能
 
 ## 摘要（原文）
 

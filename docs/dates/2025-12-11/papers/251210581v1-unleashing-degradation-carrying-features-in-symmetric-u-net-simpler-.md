@@ -9,7 +9,7 @@ title: Unleashing Degradation-Carrying Features in Symmetric U-Net: Simpler and 
 
 **一句话要点**：提出对称U-Net以简化全场景图像修复，通过释放特征中的退化信息实现高性能
 
-**关键词**：全场景图像修复, 对称U-Net, 退化信息释放, 特征对齐, 语义增强, 计算效率
+**关键词**：全场景图像修复, 对称U-Net, 退化信息, 特征融合, CLIP语义增强
 
 ## 3 点简述
 - 核心问题：现有全场景图像修复方法依赖复杂架构和退化提示策略，导致计算成本高。

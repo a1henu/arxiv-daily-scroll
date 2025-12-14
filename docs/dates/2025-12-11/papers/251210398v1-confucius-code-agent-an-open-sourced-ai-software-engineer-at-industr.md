@@ -7,14 +7,14 @@ title: Confucius Code Agent: An Open-sourced AI Software Engineer at Industrial 
 **arXiv**：[2512.10398v1](https://arxiv.org/abs/2512.10398) · [PDF](https://arxiv.org/pdf/2512.10398.pdf)  
 **作者**：Zhaodong Wang, Zhenting Qi, Sherman Wong, Nathan Hu, Samuel Lin, Jun Ge, Erwin Gao, Yining Yang, Ben Maurer, Wenlin Chen, David Recordon, Yilun Du, Minlan Yu, Ying Zhang  
 
-**一句话要点**：提出Confucius Code Agent，一个开源AI软件工程师，以解决工业规模软件工程任务中的推理、记忆和工具协调问题。
+**一句话要点**：提出Confucius Code Agent开源AI软件工程师，解决工业级代码生成任务中的规模化挑战
 
-**关键词**：AI软件工程师, 开源编码代理, 工业规模推理, 分层工作内存, 跨会话学习, 工具协调
+**关键词**：代码智能体, 工业级软件工程, 长上下文推理, 持续学习, 工具链协调, 开源AI平台
 
 ## 3 点简述
-- 核心问题：现有开源编码代理在工业规模任务中表现不足，而专有代理可扩展性和可控性有限。
-- 方法要点：基于Confucius SDK，引入分层工作内存、持久笔记系统和模块化扩展，支持长上下文推理和跨会话学习。
-- 实验或效果：在SWE-Bench-Pro上实现54.3%的Resolve@1性能，优于先前编码代理。
+- 现有开源代码智能体在工业级工作负载下表现不足，而专有智能体可扩展性和可控性有限
+- 基于Confucius SDK构建，采用分层工作记忆、持久笔记系统和模块化工具扩展机制
+- 在SWE-Bench-Pro上达到54.3%的Resolve@1性能，显著超越先前代码智能体
 
 ## 摘要（原文）
 

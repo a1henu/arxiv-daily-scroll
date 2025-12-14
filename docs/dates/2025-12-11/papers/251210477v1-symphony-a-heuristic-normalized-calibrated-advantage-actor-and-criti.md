@@ -7,14 +7,14 @@ title: Symphony: A Heuristic Normalized Calibrated Advantage Actor and Critic Al
 **arXiv**：[2512.10477v1](https://arxiv.org/abs/2512.10477) · [PDF](https://arxiv.org/pdf/2512.10477.pdf)  
 **作者**：Timur Ishuov, Michele Folgheraiter, Madi Nurmanov, Goncalo Gordo, Richárd Farkas, József Dombi  
 
-**一句话要点**：提出Symphony算法，结合归一化校准优势与确定性策略，用于人形机器人从零开始的安全高效训练。
+**一句话要点**：提出Symphony算法，通过归一化校准优势与确定性策略，实现人形机器人安全高效训练。
 
 **关键词**：人形机器人控制, 强化学习算法, 样本效率优化, 动作安全性, 确定性策略梯度, 经验回放缓冲
 
 ## 3 点简述
-- 核心问题：人形机器人从零训练时，样本效率低、动作安全性差，传统方法易导致硬件损坏。
-- 方法要点：采用'襁褓'正则化限制动作强度，结合确定性策略与有限参数噪声，提升训练稳定性与安全性。
-- 实验或效果：引入Fading Replay Buffer和Temporal Advantage，实现单次更新Actor与Critic，提高样本利用率和训练效率。
+- 核心问题：机器人从零训练需高样本效率与安全性，避免机械损伤。
+- 方法要点：结合Swaddling正则化限制动作强度，使用Fading Replay Buffer优化样本采样。
+- 实验或效果：相比随机算法，减少噪声并提升动作安全性，实现单次更新Actor与Critic。
 
 ## 摘要（原文）
 

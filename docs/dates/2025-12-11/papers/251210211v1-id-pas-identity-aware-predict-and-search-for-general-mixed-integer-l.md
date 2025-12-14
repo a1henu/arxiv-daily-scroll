@@ -7,14 +7,14 @@ title: ID-PaS : Identity-Aware Predict-and-Search for General Mixed-Integer Line
 **arXiv**：[2512.10211v1](https://arxiv.org/abs/2512.10211) · [PDF](https://arxiv.org/pdf/2512.10211.pdf)  
 **作者**：Junyang Cai, El Mehdi Er Raqabi, Pascal Van Hentenryck, Bistra Dilkina  
 
-**一句话要点**：提出ID-PaS框架以解决混合整数线性规划中变量异质性问题
+**一句话要点**：提出ID-PaS身份感知学习框架，以扩展预测-搜索方法至参数化混合整数线性规划问题。
 
 **关键词**：混合整数线性规划, 预测-搜索方法, 机器学习集成, 参数化优化, 身份感知学习
 
 ## 3 点简述
-- 核心问题：现有预测-搜索方法局限于二元问题，忽略实际中常见的固定变量。
-- 方法要点：扩展预测-搜索框架至参数化MIP，引入身份感知学习处理异质变量。
-- 实验或效果：在多个大规模现实问题上，ID-PaS性能优于Gurobi和PaS。
+- 核心问题：现有预测-搜索方法局限于二元问题，且忽略实际中常见的固定变量。
+- 方法要点：引入身份感知学习框架，使机器学习模型能更有效处理异构变量。
+- 实验或效果：在多个现实世界大规模问题上，ID-PaS性能优于Gurobi和PaS。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: MultiHateLoc: Towards Temporal Localisation of Multimodal Hate Content in
 **arXiv**：[2512.10408v1](https://arxiv.org/abs/2512.10408) · [PDF](https://arxiv.org/pdf/2512.10408.pdf)  
 **作者**：Qiyue Sun, Tailin Chen, Yinghui Zhang, Yuchen Zhang, Jiangbei Yue, Jianbo Jiao, Zeyu Fu  
 
-**一句话要点**：提出MultiHateLoc框架，用于弱监督下在线视频中多模态仇恨内容的时间定位。
+**一句话要点**：提出MultiHateLoc框架以解决弱监督下在线视频中多模态仇恨内容的时间定位问题
 
-**关键词**：多模态仇恨检测, 弱监督学习, 时间定位, 跨模态融合, 视频理解
+**关键词**：多模态仇恨检测, 弱监督时间定位, 跨模态融合, 时序建模, 视频内容分析
 
 ## 3 点简述
-- 核心问题：在线视频中多模态仇恨内容传播加剧，现有方法缺乏时间定位能力，尤其在弱监督下。
-- 方法要点：采用模态感知时序编码器、动态跨模态融合和模态感知MIL目标，实现帧级预测。
-- 实验或效果：在HateMM和MultiHateClip数据集上达到最先进性能，提供细粒度可解释结果。
+- 核心问题：现有研究多关注视频级分类，缺乏对多模态仇恨内容时间定位的弱监督方法，难以捕捉跨模态和时序动态。
+- 方法要点：设计模态感知时序编码器、动态跨模态融合与对比对齐策略，以及模态感知MIL目标，实现细粒度帧级预测。
+- 实验或效果：在HateMM和MultiHateClip数据集上验证，在定位任务中达到最先进性能，仅依赖粗标签生成可解释预测。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: Beyond Endpoints: Path-Centric Reasoning for Vectorized Off-Road Network 
 **arXiv**：[2512.10416v1](https://arxiv.org/abs/2512.10416) · [PDF](https://arxiv.org/pdf/2512.10416.pdf)  
 **作者**：Wenfei Guan, Jilin Mei, Tong Shen, Xumin Wu, Shuo Wang, Cheng Min, Yu Hu  
 
-**一句话要点**：提出路径中心框架MaGRoad和数据集WildRoad，以解决越野环境矢量路网提取的挑战。
+**一句话要点**：提出路径中心框架MaGRoad和数据集WildRoad以解决越野环境矢量路网提取的挑战
 
-**关键词**：矢量路网提取, 越野环境, 路径中心推理, 多尺度聚合, 数据集构建, 快速推理
+**关键词**：矢量路网提取, 越野环境, 路径中心推理, 多尺度视觉聚合, 数据集构建, 拓扑鲁棒性
 
 ## 3 点简述
-- 核心问题：现有模型在越野场景中因稀疏端点推理和拓扑错误而表现不佳。
-- 方法要点：引入路径中心框架，沿候选路径聚合多尺度视觉证据以稳健推断连通性。
-- 实验或效果：在WildRoad基准上达到先进性能，推理速度提升约2.5倍。
+- 核心问题：越野环境缺乏大规模矢量数据集，现有节点中心方法易受遮挡和模糊路口影响导致拓扑错误
+- 方法要点：发布WildRoad越野路网数据集，并设计MaGRoad路径中心框架，沿候选路径聚合多尺度视觉证据以鲁棒推断连通性
+- 实验或效果：MaGRoad在WildRoad基准上达到最先进性能，泛化至城市数据集，推理速度提升约2.5倍
 
 ## 摘要（原文）
 

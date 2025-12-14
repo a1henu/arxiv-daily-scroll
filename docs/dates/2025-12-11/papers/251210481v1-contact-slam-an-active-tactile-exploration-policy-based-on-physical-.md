@@ -9,7 +9,7 @@ title: Contact SLAM: An Active Tactile Exploration Policy Based on Physical Reas
 
 **一句话要点**：提出Contact SLAM方法，基于物理推理实现机器人盲操作中的主动触觉探索
 
-**关键词**：触觉感知, 盲操作, 物理推理, 主动探索, 接触SLAM, 机器人精细操作
+**关键词**：触觉感知, 盲操作, 物理推理, 主动探索, 接触SLAM, 精细操作
 
 ## 3 点简述
 - 核心问题：视觉遮挡下机器人难以执行接触丰富的精细操作任务，需依赖触觉感知环境状态

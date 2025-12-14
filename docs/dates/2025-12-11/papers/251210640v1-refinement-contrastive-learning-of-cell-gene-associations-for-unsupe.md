@@ -13,7 +13,7 @@ title: Refinement Contrastive Learning of Cell-Gene Associations for Unsupervise
 
 ## 3 点简述
 - 核心问题：现有聚类方法忽略细胞-基因关联，难以区分紧密相关细胞类型。
-- 方法要点：结合细胞-细胞结构关系和基因相关性学习，增强细胞嵌入表示。
+- 方法要点：结合细胞-细胞结构对比分布对齐和基因相关性学习模块，增强细胞表示。
 - 实验或效果：在单细胞RNA-seq和空间转录组数据集上优于基线，验证生物相关性。
 
 ## 摘要（原文）

@@ -7,14 +7,14 @@ title: LLM-Auction: Generative Auction towards LLM-Native Advertising
 **arXiv**：[2512.10551v1](https://arxiv.org/abs/2512.10551) · [PDF](https://arxiv.org/pdf/2512.10551.pdf)  
 **作者**：Chujie Zhao, Qun Hu, Shiping Song, Dagui Chen, Han Zhu, Jian Xu, Bo Zheng  
 
-**一句话要点**：提出LLM-Auction生成式拍卖机制，以解决LLM原生广告中拍卖与生成分离的挑战。
+**一句话要点**：提出LLM-Auction以解决LLM原生广告中拍卖机制与生成分离的问题
 
-**关键词**：LLM原生广告, 生成式拍卖, 学习型机制, 外部性建模, IRPO算法, 激励兼容
+**关键词**：LLM原生广告, 生成拍卖机制, IRPO算法, 分配外部性, 激励兼容性, 模拟评估
 
 ## 3 点简述
-- 核心问题：LLM原生广告将拍卖对象从离散广告位转向LLM输出分布，现有机制忽略外部性或需多次推理，不实用。
-- 方法要点：基于学习的生成式拍卖，通过IRPO算法对齐LLM输出与机制目标，无需额外推理成本建模外部性。
-- 实验或效果：在模拟环境中评估，LLM-Auction在分配效率上显著优于基线，并实现良好激励属性。
+- 核心问题：LLM原生广告将拍卖对象从离散广告位转向LLM输出分布，现有机制忽略外部性或需多次推理，不实用
+- 方法要点：基于学习的生成拍卖机制，通过IRPO算法对齐LLM输出与机制目标，无额外推理成本建模外部性
+- 实验或效果：在模拟环境中评估，LLM-Auction在分配效率上显著优于基线，并实现激励属性
 
 ## 摘要（原文）
 

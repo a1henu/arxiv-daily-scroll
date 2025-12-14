@@ -7,14 +7,14 @@ title: Neuronal Attention Circuit (NAC) for Representation Learning
 **arXiv**：[2512.10282v1](https://arxiv.org/abs/2512.10282) · [PDF](https://arxiv.org/pdf/2512.10282.pdf)  
 **作者**：Waleed Razzaq, Izis Kankaraway, Yun-Bo Zhao  
 
-**一句话要点**：提出Neuronal Attention Circuit以解决连续时间建模中注意力离散性的限制
+**一句话要点**：提出Neuronal Attention Circuit以解决连续时间建模中注意力机制离散性的限制
 
-**关键词**：连续时间注意力, 稀疏门控, ODE建模, 表示学习, 生物启发机制
+**关键词**：连续时间注意力, 生物启发模型, 稀疏门控网络, ODE求解, 表示学习, 时间序列分类
 
 ## 3 点简述
-- 注意力机制提升表示学习，但离散性阻碍连续时间建模。
-- NAC将注意力对数计算重构为线性一阶ODE，采用稀疏门控和网络实现高效自适应动态。
-- 在多个领域实验中，NAC在准确性上匹配或优于基线，并在运行时和内存效率上处于中间位置。
+- 核心问题：注意力机制在表示学习中优于RNN，但其离散特性限制了连续时间建模能力。
+- 方法要点：引入生物启发的连续时间注意力机制，通过线性一阶ODE和稀疏门控网络计算注意力对数。
+- 实验或效果：在多个领域验证，NAC在精度上匹配或优于基线，在运行时和内存效率上处于中等水平。
 
 ## 摘要（原文）
 

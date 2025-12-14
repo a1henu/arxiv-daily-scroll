@@ -7,14 +7,14 @@ title: IRG-MotionLLM: Interleaving Motion Generation, Assessment and Refinement 
 **arXiv**：[2512.10730v1](https://arxiv.org/abs/2512.10730) · [PDF](https://arxiv.org/pdf/2512.10730.pdf)  
 **作者**：Yuan-Ming Li, Qize Yang, Nan Lei, Shenghao Fu, Ling-An Zeng, Jian-Fang Hu, Xihan Wei, Wei-Shi Zheng  
 
-**一句话要点**：提出IRG-MotionLLM模型，通过交错运动生成、评估与精炼提升文本到运动生成性能。
+**一句话要点**：提出IRG-MotionLLM模型，通过交织运动生成、评估与精炼提升文本到运动生成性能。
 
-**关键词**：文本到运动生成, 交错推理, 运动评估, 运动精炼, 大语言模型, 自动化数据引擎
+**关键词**：文本到运动生成, 运动评估, 运动精炼, 大语言模型, 迭代对话, 数据合成
 
 ## 3 点简述
 - 核心问题：现有运动感知大语言模型将理解与生成分离，缺乏任务间交互反馈。
-- 方法要点：引入交错推理范式IRMoGen，通过迭代文本-运动对话耦合生成、评估与精炼。
-- 实验或效果：在标准基准测试中超越基线模型，评估与精炼任务显著改善文本-运动对齐。
+- 方法要点：引入IRMoGen范式，通过迭代文本-运动对话紧密耦合生成、评估与精炼。
+- 实验或效果：模型在标准基准上优于基线，评估与精炼任务显著改善文本-运动对齐。
 
 ## 摘要（原文）
 

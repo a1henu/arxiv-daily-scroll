@@ -9,7 +9,7 @@ title: REMISVFU: Vertical Federated Unlearning via Representation Misdirection f
 
 **一句话要点**：提出REMISVFU框架，通过表示误导实现垂直联邦学习中的快速客户端级遗忘
 
-**关键词**：垂直联邦学习, 联邦遗忘, 表示误导, 客户端级遗忘, 后门攻击防御, 模型效用保持
+**关键词**：垂直联邦学习, 联邦遗忘, 表示误导, 客户端级遗忘, 隐私保护, 模型效用
 
 ## 3 点简述
 - 针对垂直联邦学习（VFL）中数据按特征划分，现有遗忘方法无效的问题

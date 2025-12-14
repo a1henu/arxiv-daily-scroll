@@ -12,7 +12,7 @@ title: D2M: A Decentralized, Privacy-Preserving, Incentive-Compatible Data Marke
 **关键词**：去中心化数据市场, 隐私保护联邦学习, 区块链仲裁, 激励兼容机制, 拜占庭鲁棒性
 
 ## 3 点简述
-- 核心问题：现有联邦学习依赖可信聚合器，区块链框架难以整合计算密集型训练与激励。
+- 核心问题：现有联邦学习依赖可信聚合器，区块链数据市场计算密集且激励不足。
 - 方法要点：集成联邦学习、区块链仲裁和经济激励，使用YODA协议和Corrected OSMD增强鲁棒性。
 - 实验或效果：在MNIST和Fashion-MNIST上达高精度，30%拜占庭节点下性能下降小于3%。
 

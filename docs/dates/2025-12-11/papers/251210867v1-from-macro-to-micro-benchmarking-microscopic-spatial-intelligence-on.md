@@ -7,14 +7,14 @@ title: From Macro to Micro: Benchmarking Microscopic Spatial Intelligence on Mol
 **arXiv**：[2512.10867v1](https://arxiv.org/abs/2512.10867) · [PDF](https://arxiv.org/pdf/2512.10867.pdf)  
 **作者**：Zongzhao Li, Xiangzhe Kong, Jiahui Su, Zongyang Ma, Mingze Li, Songyou Li, Yuelin Zhang, Yu Rong, Tingyang Xu, Deli Zhao, Wenbing Huang  
 
-**一句话要点**：提出MiSI-Bench基准框架，评估视觉语言模型在分子微观空间智能上的表现
+**一句话要点**：提出MiSI-Bench基准框架，评估视觉语言模型在分子微观空间智能上的能力。
 
-**关键词**：微观空间智能, 视觉语言模型, 分子结构基准, 科学发现, 空间关系推理
+**关键词**：微观空间智能, 视觉语言模型, 分子结构, 基准评估, 空间变换, 氢键识别
 
 ## 3 点简述
-- 核心问题：评估视觉语言模型对微观实体空间关系的感知与推理能力
-- 方法要点：构建包含16.3万问答对和58.7万图像的分子结构基准数据集
-- 实验效果：当前最优模型显著低于人类水平，但微调模型在空间转换任务中超越人类
+- 核心问题：评估视觉语言模型在微观实体空间感知与推理（MiSI）上的潜力，这对科学发现至关重要。
+- 方法要点：构建包含超16.3万问答对和58.7万图像的基准，覆盖九项互补任务，从基础空间变换到复杂关系识别。
+- 实验或效果：当前先进模型表现显著低于人类，但微调7B模型在空间变换任务中超越人类，氢键识别等科学任务表现差，需整合领域知识。
 
 ## 摘要（原文）
 

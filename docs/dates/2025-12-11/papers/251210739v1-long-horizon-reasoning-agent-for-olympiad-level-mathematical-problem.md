@@ -7,14 +7,14 @@ title: Long-horizon Reasoning Agent for Olympiad-Level Mathematical Problem Solv
 **arXiv**：[2512.10739v1](https://arxiv.org/abs/2512.10739) · [PDF](https://arxiv.org/pdf/2512.10739.pdf)  
 **作者**：Songyang Gao, Yuzhe Gu, Zijian Wu, Lingkai Kong, Wenwei Zhang, Zhongrui Cai, Fan Zheng, Tianyou Ma, Junhao Shen, Haiteng Zhao, Duanyang Zhang, Huilun Zhang, Kuikun Liu, Chengqi Lyu, Yanhui Duan, Chiyu Chen, Ningsheng Ma, Jianfei Gao, Han Lyu, Dahua Lin, Kai Chen  
 
-**一句话要点**：提出基于结果的流程验证器以解决长推理链验证难题
+**一句话要点**：提出基于结果的流程验证器，以解决长推理链中不可靠中间步骤的验证难题。
 
-**关键词**：推理验证, 长链推理, 主动学习, 拒绝微调, 数学问题求解
+**关键词**：推理验证, 主动学习, 拒绝微调, 数学问题求解, 长链推理
 
 ## 3 点简述
-- 当前验证器难以可靠检测长推理链中的错误，受限于高质量标注稀缺
-- 提出OPV验证器，通过总结长推理链结果来验证推理过程，实现准确高效验证
-- 实验显示OPV在多个基准上达到新SOTA，与策略模型协作显著提升性能
+- 当前基于结果的验证器无法检查长推理链中的中间步骤，而基于流程的验证器受限于高质量标注稀缺。
+- 提出OPV验证器，通过总结长推理链的结果来验证其推理过程，实现准确高效的验证和大规模标注。
+- 采用迭代主动学习框架，结合专家标注和拒绝微调，在多个基准测试中取得最先进性能。
 
 ## 摘要（原文）
 

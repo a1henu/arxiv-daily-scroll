@@ -7,14 +7,14 @@ title: SparseSwaps: Tractable LLM Pruning Mask Refinement at Scale
 **arXiv**：[2512.10922v1](https://arxiv.org/abs/2512.10922) · [PDF](https://arxiv.org/pdf/2512.10922.pdf)  
 **作者**：Max Zimmer, Christophe Roux, Moritz Wagner, Deborah Hendrych, Sebastian Pokutta  
 
-**一句话要点**：提出SparseSwaps方法，通过高效1-swap算法在大规模LLM上优化剪枝掩码。
+**一句话要点**：提出SparseSwaps方法，通过高效1-swap算法在大规模LLM上优化剪枝掩码选择。
 
-**关键词**：大语言模型剪枝, 掩码优化, 1-swap算法, Gram矩阵, 稀疏度控制, GPU加速
+**关键词**：大语言模型剪枝, 掩码优化, 1-swap算法, Gram矩阵, GPU加速, 零样本性能
 
 ## 3 点简述
-- 核心问题：LLM剪枝中，层间掩码选择问题因组合爆炸和搜索空间大，整数规划求解不可行。
-- 方法要点：通过强制每行稀疏度相等解耦行，利用Gram矩阵高效计算最优1-swap，实现GPU上快速优化。
-- 实验或效果：相比Wanda方法，减少每层剪枝误差达60%，提升困惑度和零样本准确率。
+- 核心问题：LLM剪枝中掩码选择问题组合复杂，传统方法计算不可行或近似效果差。
+- 方法要点：强制每行等稀疏度，基于Gram矩阵高效计算最优1-swap，实现GPU加速和超参数自由。
+- 实验或效果：相比Wanda减少60%每层剪枝误差，提升GPT架构的困惑度和零样本准确率。
 
 ## 摘要（原文）
 

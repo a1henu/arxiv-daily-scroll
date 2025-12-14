@@ -9,12 +9,12 @@ title: MotionEdit: Benchmarking and Learning Motion-Centric Image Editing
 
 **一句话要点**：提出MotionEdit数据集与MotionNFT框架以解决运动中心图像编辑任务中的挑战
 
-**关键词**：运动中心图像编辑, 数据集构建, 后训练框架, 运动对齐奖励, 扩散模型优化
+**关键词**：运动中心图像编辑, 数据集构建, 扩散模型微调, 运动对齐奖励, 视频合成, 图像编辑基准
 
 ## 3 点简述
 - 核心问题：现有图像编辑数据集缺乏高质量运动变换，导致模型在修改主体动作时性能不足
-- 方法要点：基于连续视频构建高保真运动编辑数据集，并设计MotionNFT框架通过运动对齐奖励优化模型
-- 实验或效果：在FLUX.1 Kontext和Qwen-Image-Edit模型上验证，MotionNFT提升编辑质量和运动保真度
+- 方法要点：基于视频提取高保真图像对构建MotionEdit数据集，并设计MotionNFT框架通过运动对齐奖励微调模型
+- 实验或效果：在FLUX.1 Kontext和Qwen-Image-Edit上验证，MotionNFT提升编辑质量和运动保真度，不损害通用编辑能力
 
 ## 摘要（原文）
 

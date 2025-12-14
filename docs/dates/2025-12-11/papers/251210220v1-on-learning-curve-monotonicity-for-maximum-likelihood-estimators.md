@@ -7,14 +7,14 @@ title: On Learning-Curve Monotonicity for Maximum Likelihood Estimators
 **arXiv**：[2512.10220v1](https://arxiv.org/abs/2512.10220) · [PDF](https://arxiv.org/pdf/2512.10220.pdf)  
 **作者**：Mark Sellke, Steven Yin  
 
-**一句话要点**：证明最大似然估计器在多种参数设置下具有学习曲线单调性
+**一句话要点**：证明最大似然估计器在多种参数设置下的学习曲线单调性，包括高斯和Gamma分布
 
-**关键词**：学习曲线单调性, 最大似然估计, KL散度, 参数估计, 高斯分布, Gamma分布
+**关键词**：学习曲线单调性, 最大似然估计, KL散度, 高斯分布, Gamma分布, 参数估计
 
 ## 3 点简述
 - 研究学习曲线单调性，即算法随数据增加平均性能提升的性质
-- 针对高斯向量和Gamma变量等参数模型，证明前向KL散度的单调性
-- 利用GPT-5.2 Pro生成所有证明，人类仅进行验证和转录
+- 针对高斯向量和Gamma变量，证明前向KL散度的单调性，解决开放问题
+- 使用GPT-5.2 Pro生成所有结果，人类仅验证和转录证明
 
 ## 摘要（原文）
 

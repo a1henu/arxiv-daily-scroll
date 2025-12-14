@@ -7,14 +7,14 @@ title: Hybrid Transformer-Mamba Architecture for Weakly Supervised Volumetric Me
 **arXiv**：[2512.10353v1](https://arxiv.org/abs/2512.10353) · [PDF](https://arxiv.org/pdf/2512.10353.pdf)  
 **作者**：Yiheng Lyu, Lian Xu, Mohammed Bennamoun, Farid Boussaid, Coen Arrow, Girish Dwivedi  
 
-**一句话要点**：提出TranSamba混合Transformer-Mamba架构，用于弱监督体医学分割，以高效捕获3D上下文。
+**一句话要点**：提出TranSamba混合Transformer-Mamba架构，用于弱监督体医学分割以捕获3D上下文。
 
-**关键词**：弱监督分割, 体医学影像, Transformer, Mamba模型, 3D上下文建模, 线性复杂度
+**关键词**：弱监督分割, 体医学图像, Transformer, Mamba, 3D上下文建模, 线性复杂度
 
 ## 3 点简述
-- 核心问题：现有弱监督体医学分割方法常依赖2D编码器，忽略数据的体素本质。
-- 方法要点：结合Transformer与Mamba块，通过线性复杂度状态空间模型跨切片交换信息，增强自注意力。
-- 实验或效果：在三个数据集上实现新SOTA，复杂度线性于深度，内存使用恒定，代码开源。
+- 核心问题：现有弱监督体医学分割方法常依赖2D编码器，忽略数据体积特性。
+- 方法要点：结合Transformer与Mamba块，通过线性复杂度跨切片交换信息增强注意力。
+- 实验或效果：在三个数据集上实现新SOTA，复杂度线性于深度且内存恒定。
 
 ## 摘要（原文）
 

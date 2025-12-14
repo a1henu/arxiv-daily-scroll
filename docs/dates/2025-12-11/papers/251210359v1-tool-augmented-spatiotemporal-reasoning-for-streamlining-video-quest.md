@@ -7,14 +7,14 @@ title: Tool-Augmented Spatiotemporal Reasoning for Streamlining Video Question A
 **arXiv**：[2512.10359v1](https://arxiv.org/abs/2512.10359) · [PDF](https://arxiv.org/pdf/2512.10359.pdf)  
 **作者**：Sunqi Fan, Jiashuo Cui, Meng-Hao Guo, Shuojin Yang  
 
-**一句话要点**：提出工具增强的时空推理框架以提升视频问答任务性能
+**一句话要点**：提出STAR框架与视频工具包以增强多模态大语言模型在视频问答中的时空推理能力
 
 **关键词**：视频问答, 时空推理, 多模态大语言模型, 工具增强, 视频分析
 
 ## 3 点简述
-- 核心问题：现有多模态大语言模型在视频问答中难以同时建模空间关系和时序动态。
-- 方法要点：引入可扩展视频工具包和时空推理框架，策略性调度工具以定位关键区域。
-- 实验或效果：在VideoMME和LongVideoBench基准上分别实现8.2%和4.6%的性能提升。
+- 现有MLLMs在复杂视频问答中难以同时建模空间关系与时间动态因果推理
+- 引入可扩展视频工具包，通过STAR框架策略调度时空工具逐步定位关键区域
+- 在VideoMME和LongVideoBench基准上分别实现8.2%和4.6%的性能提升
 
 ## 摘要（原文）
 

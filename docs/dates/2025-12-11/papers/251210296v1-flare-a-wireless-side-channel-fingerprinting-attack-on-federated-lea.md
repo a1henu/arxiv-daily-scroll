@@ -13,7 +13,7 @@ title: FLARE: A Wireless Side-Channel Fingerprinting Attack on Federated Learnin
 
 ## 3 点简述
 - 核心问题：联邦学习中模型架构信息可能通过加密无线流量泄露，威胁隐私安全
-- 方法要点：利用流量统计特征（如流级和包级）对CNN和RNN模型进行指纹识别
+- 方法要点：利用流量统计特征对CNN和RNN模型进行指纹识别，无需解密数据
 - 实验或效果：在闭集和开集场景下分别达到98%和91%的F1分数，验证攻击有效性
 
 ## 摘要（原文）

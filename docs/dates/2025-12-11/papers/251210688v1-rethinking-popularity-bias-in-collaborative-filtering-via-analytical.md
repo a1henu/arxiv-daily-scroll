@@ -7,7 +7,7 @@ title: Rethinking Popularity Bias in Collaborative Filtering via Analytical Vect
 **arXiv**：[2512.10688v1](https://arxiv.org/abs/2512.10688) · [PDF](https://arxiv.org/pdf/2512.10688.pdf)  
 **作者**：Lingfeng Liu, Yixin Song, Dazhong Shen, Bing Yin, Hao Li, Yanyong Zhang, Chao Wang  
 
-**一句话要点**：提出方向性分解与校正框架以解决协同过滤中流行度偏差的几何根源问题
+**一句话要点**：提出方向性分解与校正框架以解决协同过滤中的流行度偏差几何问题
 
 **关键词**：协同过滤, 流行度偏差, 嵌入几何, 贝叶斯成对排序, 方向性校正, 推荐系统
 

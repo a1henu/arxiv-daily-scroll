@@ -7,14 +7,14 @@ title: MoCapAnything: Unified 3D Motion Capture for Arbitrary Skeletons from Mon
 **arXiv**：[2512.10881v1](https://arxiv.org/abs/2512.10881) · [PDF](https://arxiv.org/pdf/2512.10881.pdf)  
 **作者**：Kehong Gong, Zhengyu Wen, Weixia He, Mingxi Xu, Qi Wang, Ning Zhang, Zhengyu Li, Dongze Lian, Wei Zhao, Xiaoyu He, Mingyuan Zhang  
 
-**一句话要点**：提出MoCapAnything框架，实现从单目视频到任意骨骼的类别无关运动捕捉
+**一句话要点**：提出MoCapAnything框架，通过单目视频和任意骨骼资产实现类别无关的3D运动捕捉。
 
-**关键词**：类别无关运动捕捉, 单目视频, 逆运动学, 骨骼动画, 跨物种重定向, 参考引导框架
+**关键词**：3D运动捕捉, 单目视频, 类别无关, 逆运动学, 骨骼动画, 跨物种重定向
 
 ## 3 点简述
-- 核心问题：现有运动捕捉方法通常针对特定物种或模板，缺乏通用性，难以处理任意骨骼资产
-- 方法要点：采用参考引导的分解框架，通过预测3D关节轨迹和约束感知逆运动学恢复资产特定旋转
-- 实验或效果：在基准测试和野外视频中展示高质量骨骼动画，支持跨物种重定向，提升可扩展性
+- 核心问题：现有运动捕捉流程通常针对特定物种或模板，缺乏通用性。
+- 方法要点：采用参考引导的分解框架，预测3D关节轨迹并通过约束感知逆运动学恢复资产特定旋转。
+- 实验或效果：在基准测试和野外视频中生成高质量骨骼动画，支持跨物种重定向。
 
 ## 摘要（原文）
 

@@ -7,13 +7,13 @@ title: Sharp Monocular View Synthesis in Less Than a Second
 **arXiv**：[2512.10685v1](https://arxiv.org/abs/2512.10685) · [PDF](https://arxiv.org/pdf/2512.10685.pdf)  
 **作者**：Lars Mescheder, Wei Dong, Shiwei Li, Xuyang Bai, Marcel Santos, Peiyun Hu, Bruno Lecouat, Mingmin Zhen, Amaël Delaunoy, Tian Fang, Yanghai Tsin, Stephan R. Richter, Vladlen Koltun  
 
-**一句话要点**：提出SHARP方法，通过单张图像实现快速逼真的单目视图合成。
+**一句话要点**：提出SHARP方法，通过单张图像实现快速逼真视图合成
 
-**关键词**：单目视图合成, 3D高斯表示, 实时渲染, 零样本泛化, 度量相机移动
+**关键词**：单图像视图合成, 3D高斯表示, 快速渲染, 零样本泛化, 度量相机移动
 
 ## 3 点简述
 - 核心问题：从单张图像生成高质量、逼真的新视图，需兼顾速度与精度。
-- 方法要点：使用神经网络前馈预测3D高斯表示参数，支持度量相机移动和实时渲染。
+- 方法要点：使用神经网络前馈预测3D高斯表示参数，支持度量相机移动。
 - 实验或效果：在多个数据集上实现零样本泛化，显著降低LPIPS和DISTS指标，合成时间减少三个数量级。
 
 ## 摘要（原文）

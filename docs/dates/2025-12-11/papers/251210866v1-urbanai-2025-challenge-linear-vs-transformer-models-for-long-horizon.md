@@ -9,12 +9,12 @@ title: UrbanAI 2025 Challenge: Linear vs Transformer Models for Long-Horizon Exo
 
 **一句话要点**：在线性模型与Transformer模型对比中，DLinear在仅外生长时温度预测中表现最佳。
 
-**关键词**：时间序列预测, 外生预测, 线性模型, Transformer模型, 长时预测, 温度预测
+**关键词**：时间序列预测, 长时预测, 线性模型, Transformer模型, 外生变量预测, 温度预测
 
 ## 3 点简述
 - 研究仅使用历史室内温度进行长时预测的挑战性单变量设置。
-- 对比线性模型（Linear、NLinear、DLinear）与Transformer家族模型（Transformer、Informer、Autoformer）。
-- 实验显示线性基线模型在所有数据分割中均优于复杂Transformer架构，DLinear精度最高。
+- 评估线性模型（Linear、NLinear、DLinear）和Transformer模型（Transformer、Informer、Autoformer）在标准化数据集上的性能。
+- 结果显示线性基线模型普遍优于复杂Transformer架构，DLinear在所有分割中达到最高准确度。
 
 ## 摘要（原文）
 

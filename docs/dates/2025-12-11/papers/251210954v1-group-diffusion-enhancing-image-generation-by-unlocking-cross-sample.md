@@ -7,14 +7,14 @@ title: Group Diffusion: Enhancing Image Generation by Unlocking Cross-Sample Col
 **arXiv**：[2512.10954v1](https://arxiv.org/abs/2512.10954) · [PDF](https://arxiv.org/pdf/2512.10954.pdf)  
 **作者**：Sicheng Mo, Thao Nguyen, Richard Zhang, Nick Kolkin, Siddharth Srinivasan Iyer, Eli Shechtman, Krishna Kumar Singh, Yong Jae Lee, Bolei Zhou, Yuheng Li  
 
-**一句话要点**：提出Group Diffusion，通过跨样本协作增强扩散模型图像生成质量。
+**一句话要点**：提出Group Diffusion以通过跨样本协作增强扩散模型图像生成质量
 
-**关键词**：扩散模型, 注意力机制, 图像生成, 跨样本协作, 联合去噪, FID改进
+**关键词**：扩散模型, 跨样本注意力, 图像生成, 联合去噪, 生成质量提升
 
 ## 3 点简述
-- 核心问题：扩散模型推理时样本独立生成，未利用跨样本协作信号。
-- 方法要点：解锁注意力机制，使其在图像间共享，实现联合去噪。
-- 实验或效果：在ImageNet-256x256上FID提升达32.2%，组大小与质量正相关。
+- 核心问题：传统扩散模型在推理时独立生成图像，未利用跨样本协作信号
+- 方法要点：解锁注意力机制，使其在图像间共享，实现联合去噪和跨样本对应学习
+- 实验或效果：在ImageNet-256x256上实现最高32.2%的FID提升，显示组大小与质量正相关
 
 ## 摘要（原文）
 
