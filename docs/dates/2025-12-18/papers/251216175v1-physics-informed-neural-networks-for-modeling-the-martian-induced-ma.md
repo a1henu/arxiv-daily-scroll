@@ -1,0 +1,22 @@
+---
+layout: default
+title: Physics-Informed Neural Networks for Modeling the Martian Induced Magnetosphere
+---
+
+# Physics-Informed Neural Networks for Modeling the Martian Induced Magnetosphere
+**arXiv**：[2512.16175v1](https://arxiv.org/abs/2512.16175) · [PDF](https://arxiv.org/pdf/2512.16175.pdf)  
+**作者**：Jiawei Gao, Chuanfei Dong, Chi Zhang, Yilan Qin, Simin Shekarpaz, Xinmin Li, Liang Wang, Hongyang Zhou, Abigail Tadlock  
+
+**一句话要点**：提出物理信息神经网络模型以重建火星感应磁层三维磁场结构
+
+**关键词**：物理信息神经网络, 火星感应磁层, 磁场建模, 数据驱动模型, 太阳风-火星相互作用
+
+## 3 点简述
+- 核心问题：传统物理模型计算密集，需数据驱动方法高效模拟火星感应磁层磁场。
+- 方法要点：结合MAVEN观测数据和物理定律，使用PINN训练可变太阳风条件下的磁场模型。
+- 实验或效果：模型准确重建磁场配置，识别磁场对太阳风参数的依赖性和半球不对称性。
+
+## 摘要（原文）
+
+> Understanding the magnetic field environment around Mars and its response to upstream solar wind conditions provide key insights into the processes driving atmospheric ion escape. To date, global models of Martian induced magnetosphere have been exclusively physics-based, relying on computationally intensive simulations. For the first time, we develop a data-driven model of the Martian induced magnetospheric magnetic field using Physics-Informed Neural Network (PINN) combined with MAVEN observations and physical laws. Trained under varying solar wind conditions, including B_IMF, P_SW, and θ_cone, the data-driven model accurately reconstructs the three-dimensional magnetic field configuration and its variability in response to upstream solar wind drivers. Based on the PINN results, we identify key dependencies of magnetic field configuration on solar wind parameters, including the hemispheric asymmetries of the draped field line strength in the Mars-Solar-Electric coordinates. These findings demonstrate the capability of PINNs to reconstruct complex magnetic field structures in the Martian induced magnetosphere, thereby offering a promising tool for advancing studies of solar wind-Mars interactions.
+
