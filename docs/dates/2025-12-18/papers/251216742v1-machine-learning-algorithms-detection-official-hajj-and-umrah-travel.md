@@ -7,14 +7,14 @@ title: Machine Learning Algorithms: Detection Official Hajj and Umrah Travel Age
 **arXiv**：[2512.16742v1](https://arxiv.org/abs/2512.16742) · [PDF](https://arxiv.org/pdf/2512.16742.pdf)  
 **作者**：Wisnu Uriawan, Muhamad Veva Ramadhan, Firman Adi Nugraha, Hasbi Nur Wahid, M Dantha Arianvasya, Muhammad Zaki Alghifari  
 
-**一句话要点**：提出基于文本与元数据分析的机器学习算法，以检测印尼朝觐与副朝旅行机构的官方应用真实性。
+**一句话要点**：提出基于文本与元数据分析的机器学习算法，以检测印尼朝觐和副朝官方旅行社应用，应对数字欺诈问题。
 
-**关键词**：文本分析, 元数据分析, 机器学习分类, 应用验证, 数字欺诈检测, 宗教旅游安全
+**关键词**：文本分析, 元数据分析, 机器学习分类, 数字欺诈检测, 应用验证, 宗教旅游安全
 
 ## 3 点简述
-- 核心问题：印尼朝觐与副朝服务数字化中，假冒移动应用导致财务损失和隐私风险。
+- 核心问题：印尼朝觐和副朝服务数字化中，假冒移动应用导致财务损失和隐私风险。
 - 方法要点：结合应用描述的TF-IDF文本分析和敏感权限元数据，使用SVM、随机森林和朴素贝叶斯分类器。
-- 实验或效果：SVM算法表现最佳，准确率达92.3%，关键词和权限如READ PHONE STATE为关键特征。
+- 实验或效果：SVM算法表现最佳，准确率达92.3%，关键词和权限如READ PHONE STATE是关键判别特征。
 
 ## 摘要（原文）
 

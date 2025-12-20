@@ -14,7 +14,7 @@ title: Decoding Fake Narratives in Spreading Hateful Stories: A Dual-Head RoBERT
 ## 3 点简述
 - 核心问题：社交媒体中虚假叙事驱动的仇恨言论检测，针对印英混合文本。
 - 方法要点：采用双头RoBERTa模型，结合多任务学习处理二元分类与目标严重性预测。
-- 实验或效果：在Faux-Hate共享任务中取得竞争性结果，验证了方法的有效性。
+- 实验或效果：系统在Faux-Hate共享任务中取得竞争性结果，验证了多任务学习的有效性。
 
 ## 摘要（原文）
 

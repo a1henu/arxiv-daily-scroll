@@ -7,14 +7,14 @@ title: A multi-centre, multi-device benchmark dataset for landmark-based compreh
 **arXiv**：[2512.16710v1](https://arxiv.org/abs/2512.16710) · [PDF](https://arxiv.org/pdf/2512.16710.pdf)  
 **作者**：Chiara Di Vece, Zhehua Mao, Netanell Avisdris, Brian Dromey, Raffaele Napolitano, Dafna Ben Bashat, Francisco Vasconcelos, Danail Stoyanov, Leo Joskowicz, Sophia Bano  
 
-**一句话要点**：提出首个公开多中心多设备胎儿超声基准数据集，以解决AI辅助胎儿生长评估中的领域适应问题。
+**一句话要点**：提出首个公开多中心多设备胎儿超声基准数据集，以解决胎儿生物测量中领域适应与泛化问题。
 
-**关键词**：胎儿超声生物测量, 多中心数据集, 领域适应, 基准评估, AI辅助医疗
+**关键词**：胎儿生物测量, 多中心数据集, 超声图像, 领域适应, 基准测试, 解剖标志标注
 
 ## 3 点简述
-- 核心问题：手动超声生物测量耗时且依赖操作者，跨设备和中心的变异性限制自动化方法的可重复性。
-- 方法要点：提供包含4,513张图像、1,904名受试者的多中心多设备数据集，覆盖所有主要胎儿生物测量指标。
-- 实验或效果：通过自动生物测量模型量化领域偏移，显示单中心训练会高估性能，强调多中心测试的重要性。
+- 核心问题：手动标注胎儿超声解剖标志耗时且依赖操作者，限制了自动化方法的可重复性。
+- 方法要点：提供包含4,513张图像的多中心多设备数据集，覆盖所有主要胎儿生物测量指标。
+- 实验或效果：通过自动模型量化领域偏移，显示单中心评估会高估性能，强调多中心测试的重要性。
 
 ## 摘要（原文）
 

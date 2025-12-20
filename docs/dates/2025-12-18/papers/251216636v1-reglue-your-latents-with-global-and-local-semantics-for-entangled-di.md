@@ -7,14 +7,14 @@ title: REGLUE Your Latents with Global and Local Semantics for Entangled Diffusi
 **arXiv**：[2512.16636v1](https://arxiv.org/abs/2512.16636) · [PDF](https://arxiv.org/pdf/2512.16636.pdf)  
 **作者**：Giorgos Petsangourakis, Christos Sgouropoulos, Bill Psomas, Theodoros Giannakopoulos, Giorgos Sfikas, Ioannis Kakogeorgiou  
 
-**一句话要点**：提出REGLUE框架，通过全局-局部语义与潜在编码的联合建模，提升潜在扩散模型的图像合成质量与训练效率。
+**一句话要点**：提出REGLUE框架，通过全局-局部语义纠缠提升潜在扩散模型的图像合成质量与训练效率
 
-**关键词**：潜在扩散模型, 语义注入, 全局-局部建模, 非线性压缩, 图像合成, 训练加速
+**关键词**：潜在扩散模型, 语义纠缠, 全局-局部编码, 图像合成, 视觉基础模型, 非线性压缩
 
 ## 3 点简述
-- 潜在扩散模型因重建式去噪目标仅间接监督语义，导致高级语义学习缓慢，影响样本质量与训练时长。
-- REGLUE统一建模VAE潜在编码、局部（补丁级）VFM语义和全局（图像级）[CLS]标记，利用轻量卷积语义压缩器非线性聚合多层VFM特征。
-- 在ImageNet 256x256上，REGLUE持续改进FID并加速收敛，实验验证空间语义、非线性压缩及全局标记与外部对齐的重要性。
+- 潜在扩散模型因重建式去噪目标仅间接监督语义，导致高级语义学习慢、训练长、样本质量受限
+- REGLUE联合建模VAE潜在、局部VFM语义和全局[CLS]标记，使用卷积语义压缩器非线性聚合多层特征
+- 在ImageNet 256x256上，REGLUE改善FID并加速收敛，实验验证空间语义、非线性压缩和全局对齐的重要性
 
 ## 摘要（原文）
 

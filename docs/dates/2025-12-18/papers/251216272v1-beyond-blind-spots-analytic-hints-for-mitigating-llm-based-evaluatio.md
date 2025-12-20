@@ -7,14 +7,14 @@ title: Beyond Blind Spots: Analytic Hints for Mitigating LLM-Based Evaluation Pi
 **arXiv**：[2512.16272v1](https://arxiv.org/abs/2512.16272) · [PDF](https://arxiv.org/pdf/2512.16272.pdf)  
 **作者**：Ora Nova Fandina, Eitan Farchi, Shmulik Froimovich, Raviv Gal, Wesam Ibraheem, Rami Katan, Alice Podolsky  
 
-**一句话要点**：提出基于分析提示的混合方法，以提升LLM在COBOL代码生成评估中的可靠性
+**一句话要点**：提出基于分析提示的混合方法，以缓解LLM在COBOL代码生成评估中的盲点问题
 
-**关键词**：LLM评估, 代码生成, COBOL现代化, 分析提示, 混合系统, 错误检测
+**关键词**：LLM评估, 代码生成, COBOL现代化, 混合系统, 错误检测, 提示工程
 
 ## 3 点简述
-- 核心问题：LLM作为评估器在代码生成中易忽略领域特定错误，存在盲点
-- 方法要点：构建错误分类法并开发分析检查器，动态注入提示以引导LLM重新评估
-- 实验或效果：结合分析提示后，LLM错误检测覆盖率从45%提升至94%，解释更丰富准确
+- 核心问题：LLM作为评估器在代码生成中易忽略领域特定错误，存在可靠性风险
+- 方法要点：构建错误分类法并开发轻量分析检查器，动态注入提示以引导LLM重新评估
+- 实验效果：混合方法将错误检测覆盖率从45%提升至94%，并提高解释质量
 
 ## 摘要（原文）
 

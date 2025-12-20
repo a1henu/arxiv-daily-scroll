@@ -14,7 +14,7 @@ title: Generative Adversarial Reasoner: Enhancing LLM Reasoning with Adversarial
 ## 3 点简述
 - 核心问题：大语言模型在数学推理中仍存在计算错误、逻辑脆弱等过程性错误。
 - 方法要点：采用同策略联合训练，让推理器和判别器通过对抗强化学习共同进化，生成密集的步骤级奖励。
-- 实验或效果：在多个数学基准上提升性能，如在AIME24上显著改进DeepSeek模型的得分。
+- 实验或效果：在多个数学基准测试中提升性能，如在AIME24上显著改进DeepSeek模型得分。
 
 ## 摘要（原文）
 

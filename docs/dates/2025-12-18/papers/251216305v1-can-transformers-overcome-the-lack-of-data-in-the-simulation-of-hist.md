@@ -7,14 +7,14 @@ title: Can Transformers overcome the lack of data in the simulation of history-d
 **arXiv**：[2512.16305v1](https://arxiv.org/abs/2512.16305) · [PDF](https://arxiv.org/pdf/2512.16305.pdf)  
 **作者**：P. Urdeitx, I. Alfaro, D. Gonzalez, F. Chinesta, E. Cueto  
 
-**一句话要点**：评估Transformer在历史依赖流模拟中处理数据缺失的能力
+**一句话要点**：评估Transformer在历史依赖流模拟中处理数据缺失的能力，优于结构保持网络
 
-**关键词**：Transformer架构, 历史依赖流模拟, 数据缺失处理, 粘弹性流体, 非马尔可夫模型, 基准评估
+**关键词**：Transformer架构, 历史依赖流, 数据缺失, 流体模拟, 结构保持网络, 基准评估
 
 ## 3 点简述
-- 核心问题：历史依赖流模拟中，关键变量数据缺失导致模型非马尔可夫性和噪声。
-- 方法要点：使用Transformer架构，在三个基准问题（无历史依赖流、Oldroyd-B粘弹性流、FENE非线性流）上评估。
-- 实验效果：Transformer在数据缺失时优于热力学一致网络，但在状态变量全知时后者更优。
+- 研究Transformer能否应对历史依赖流中实验数据缺失的问题
+- 方法在无历史依赖、Oldroyd-B和FENE模型三个基准问题上评估
+- 结果显示Transformer在数据缺失时优于结构保持网络，但后者在数据完整时更优
 
 ## 摘要（原文）
 

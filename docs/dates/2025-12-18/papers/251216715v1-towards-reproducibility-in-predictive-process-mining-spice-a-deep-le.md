@@ -13,8 +13,8 @@ title: Towards Reproducibility in Predictive Process Mining: SPICE - A Deep Lear
 
 ## 3 点简述
 - 核心问题：预测过程挖掘方法常缺乏可复现性、透明度和统一基准，导致比较困难。
-- 方法要点：SPICE在PyTorch中重新实现三种基线深度学习方法，提供可配置基础框架。
-- 实验或效果：在11个数据集上比较SPICE与原方法，评估其复现性和公平性。
+- 方法要点：SPICE是一个Python框架，用PyTorch重新实现三种流行基线方法，提供可配置基础框架。
+- 实验或效果：在11个数据集上比较SPICE与原报告指标，使用公平指标进行评估。
 
 ## 摘要（原文）
 

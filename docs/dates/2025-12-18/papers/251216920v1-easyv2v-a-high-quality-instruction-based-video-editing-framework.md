@@ -7,14 +7,14 @@ title: EasyV2V: A High-quality Instruction-based Video Editing Framework
 **arXiv**：[2512.16920v1](https://arxiv.org/abs/2512.16920) · [PDF](https://arxiv.org/pdf/2512.16920.pdf)  
 **作者**：Jinjie Mai, Chaoyang Wang, Guocheng Gordon Qian, Willi Menapace, Sergey Tulyakov, Bernard Ghanem, Peter Wonka, Ashkan Mirzaei  
 
-**一句话要点**：提出EasyV2V框架，通过数据、架构和控制设计实现高质量指令视频编辑
+**一句话要点**：提出EasyV2V框架以解决基于指令的视频编辑在一致性、控制和泛化方面的挑战。
 
-**关键词**：指令视频编辑, 数据增强, 轻量微调, 时空控制, 参考图像
+**关键词**：视频编辑, 指令驱动, 数据增强, 轻量微调, 时空控制, 参考图像
 
 ## 3 点简述
-- 视频编辑面临一致性、控制和泛化挑战，研究数据、架构和控制设计空间
-- 数据方面组合专家、提升图像对、挖掘密集标注剪辑并添加过渡监督
-- 架构方面利用预训练文本到视频模型，通过序列拼接和轻量LoRA微调简化设计
+- 核心问题：视频编辑面临一致性、控制和泛化不足的挑战，相比图像编辑进展缓慢。
+- 方法要点：通过数据构建、简化架构和统一控制机制，实现高质量指令视频编辑。
+- 实验或效果：在灵活输入下达到先进水平，超越同期和商业系统。
 
 ## 摘要（原文）
 

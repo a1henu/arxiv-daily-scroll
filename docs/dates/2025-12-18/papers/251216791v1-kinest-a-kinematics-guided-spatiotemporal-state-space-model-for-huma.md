@@ -9,7 +9,7 @@ title: KineST: A Kinematics-guided Spatiotemporal State Space Model for Human Mo
 
 **一句话要点**：提出KineST模型，基于稀疏信号实现AR/VR中全身运动跟踪，提升准确性与时间一致性。
 
-**关键词**：全身运动跟踪, 稀疏信号重建, 状态空间模型, 时空依赖, AR/VR应用, 轻量级框架
+**关键词**：全身运动跟踪, 稀疏信号重建, 状态空间模型, 时空依赖, AR/VR应用, 运动学引导
 
 ## 3 点简述
 - 问题：AR/VR中基于头戴设备稀疏信号重建全身姿态时，现有方法难以平衡准确性、时间连贯性和效率。

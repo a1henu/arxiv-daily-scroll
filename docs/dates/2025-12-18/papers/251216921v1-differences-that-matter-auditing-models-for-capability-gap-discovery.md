@@ -7,7 +7,7 @@ title: Differences That Matter: Auditing Models for Capability Gap Discovery and
 **arXiv**：[2512.16921v1](https://arxiv.org/abs/2512.16921) · [PDF](https://arxiv.org/pdf/2512.16921.pdf)  
 **作者**：Qihao Liu, Chengzhi Mao, Yaojie Liu, Alan Yuille, Wen-Sheng Chu  
 
-**一句话要点**：提出AuditDM框架以自动发现并修正多模态大语言模型的能力差距
+**一句话要点**：提出AuditDM框架以自动发现和修正多模态大语言模型的能力差距
 
 **关键词**：多模态大语言模型, 能力差距审计, 强化学习微调, 反事实图像生成, 模型诊断与改进
 

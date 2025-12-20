@@ -7,14 +7,14 @@ title: TurboDiffusion: Accelerating Video Diffusion Models by 100-200 Times
 **arXiv**：[2512.16093v1](https://arxiv.org/abs/2512.16093) · [PDF](https://arxiv.org/pdf/2512.16093.pdf)  
 **作者**：Jintao Zhang, Kaiwen Zheng, Kai Jiang, Haoxu Wang, Ion Stoica, Joseph E. Gonzalez, Jianfei Chen, Jun Zhu  
 
-**一句话要点**：提出TurboDiffusion框架，加速视频扩散模型100-200倍，保持视频质量。
+**一句话要点**：提出TurboDiffusion框架，加速视频扩散模型100-200倍并保持质量。
 
-**关键词**：视频生成加速, 注意力优化, 模型量化, 步数蒸馏, 扩散模型
+**关键词**：视频生成加速, 注意力机制优化, 模型量化, 步数蒸馏, 工程优化
 
 ## 3 点简述
-- 核心问题：视频扩散模型生成速度慢，需加速以提升实用性。
-- 方法要点：采用注意力加速、步数蒸馏和量化技术优化计算效率。
-- 实验效果：在多个模型上实现100-200倍加速，单GPU运行，质量可比。
+- 核心问题：视频扩散模型生成速度慢，需高效加速方法。
+- 方法要点：结合注意力加速、步数蒸馏和量化技术优化计算。
+- 实验效果：在多个模型上实现100-200倍加速，单GPU运行保持视频质量。
 
 ## 摘要（原文）
 

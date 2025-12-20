@@ -7,14 +7,14 @@ title: N3D-VLM: Native 3D Grounding Enables Accurate Spatial Reasoning in Vision
 **arXiv**：[2512.16561v1](https://arxiv.org/abs/2512.16561) · [PDF](https://arxiv.org/pdf/2512.16561.pdf)  
 **作者**：Yuxin Wang, Lei Ke, Boqiang Zhang, Tianyuan Qu, Hanxun Yu, Zhenpeng Huang, Meng Yu, Dan Xu, Dong Yu  
 
-**一句话要点**：提出N3D-VLM框架，通过原生3D物体感知解决视觉语言模型在3D空间推理中的不足。
+**一句话要点**：提出N3D-VLM框架，通过原生3D物体感知提升视觉语言模型的空间推理能力
 
-**关键词**：3D物体感知, 视觉语言模型, 空间推理, 3D定位, 数据构造
+**关键词**：3D物体感知, 空间推理, 视觉语言模型, 3D定位, 数据构造
 
 ## 3 点简述
-- 当前多模态模型缺乏内在3D物体感知，限制了对3D场景空间关系的理解。
-- N3D-VLM集成原生3D物体感知与3D感知视觉推理，实现精确3D定位和可解释空间理解。
-- 实验显示该框架在3D定位和空间推理任务上超越现有方法，性能领先。
+- 当前多模态模型缺乏内在3D感知，限制其在3D场景中的空间关系理解能力
+- N3D-VLM集成原生3D物体感知与3D感知视觉推理，支持精确3D定位和可解释空间理解
+- 实验表明该框架在3D定位和空间推理任务上达到最先进性能，超越现有方法
 
 ## 摘要（原文）
 

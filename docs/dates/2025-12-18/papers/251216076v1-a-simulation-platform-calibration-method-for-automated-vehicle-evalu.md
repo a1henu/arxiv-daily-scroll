@@ -7,9 +7,9 @@ title: A simulation platform calibration method for automated vehicle evaluation
 **arXiv**：[2512.16076v1](https://arxiv.org/abs/2512.16076) · [PDF](https://arxiv.org/pdf/2512.16076.pdf)  
 **作者**：Jia Hu, Junqi Li, Xuerun Yan, Jintao Lai, Lianhua An  
 
-**一句话要点**：提出一种仿真平台校准方法，以在车辆和交通流层面准确评估自动驾驶车辆。
+**一句话要点**：提出一种仿真平台校准方法，以在车辆和交通流层面提升自动驾驶评估的准确性。
 
-**关键词**：自动驾驶车辆评估, 仿真平台校准, 交通流模拟, 车辆交互, 自动化校准
+**关键词**：自动驾驶评估, 仿真平台校准, 车辆交互, 交通流建模, 自动化校准
 
 ## 3 点简述
 - 核心问题：现有校准方法难以准确复现自动驾驶车辆与背景交通的交互。

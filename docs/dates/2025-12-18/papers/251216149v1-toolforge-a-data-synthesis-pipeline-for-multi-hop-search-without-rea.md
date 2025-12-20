@@ -14,7 +14,7 @@ title: ToolForge: A Data Synthesis Pipeline for Multi-Hop Search without Real-Wo
 ## 3 点简述
 - 核心问题：现有合成数据生成依赖大量真实API调用，成本高且缺乏多跳推理。
 - 方法要点：基于（问题、黄金上下文、答案）三元组，结合多跳推理和自反思机制合成数据。
-- 实验或效果：8B参数模型在合成数据上训练后，在多个基准上超越GPT-4o。
+- 实验或效果：8B参数模型在合成数据上训练后，在多个基准测试中超越GPT-4o。
 
 ## 摘要（原文）
 

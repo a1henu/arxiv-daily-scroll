@@ -7,14 +7,14 @@ title: Open Ad-hoc Categorization with Contextualized Feature Learning
 **arXiv**：[2512.16202v1](https://arxiv.org/abs/2512.16202) · [PDF](https://arxiv.org/pdf/2512.16202.pdf)  
 **作者**：Zilin Wang, Sangwoo Mo, Stella X. Yu, Sima Behpour, Liu Ren  
 
-**一句话要点**：提出OAK模型，通过上下文特征学习解决开放临时分类问题，提升自适应视觉场景分类性能。
+**一句话要点**：提出OAK模型，通过上下文特征学习解决开放临时分类问题，实现自适应视觉场景分类。
 
 **关键词**：开放临时分类, 上下文特征学习, 视觉聚类, 图像-文本对齐, 可解释显著图
 
 ## 3 点简述
 - 核心问题：研究开放临时分类，基于少量标注样本和大量未标注数据动态发现和扩展临时类别。
-- 方法要点：在冻结CLIP输入引入可学习上下文令牌，结合图像-文本对齐和视觉聚类目标优化。
-- 实验或效果：在Stanford和Clevr-4数据集上实现SOTA，如Stanford Mood新颖类别准确率达87.4%，并生成可解释显著图。
+- 方法要点：在冻结CLIP输入端引入可学习上下文令牌，结合图像-文本对齐和视觉聚类目标优化。
+- 实验或效果：在Stanford和Clevr-4数据集上达到SOTA，如Stanford Mood新颖类准确率87.4%，并生成可解释显著图。
 
 ## 摘要（原文）
 

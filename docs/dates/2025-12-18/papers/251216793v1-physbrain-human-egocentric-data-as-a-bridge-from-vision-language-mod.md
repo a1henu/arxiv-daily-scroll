@@ -9,12 +9,12 @@ title: PhysBrain: Human Egocentric Data as a Bridge from Vision Language Models 
 
 **一句话要点**：提出PhysBrain，利用人类第一人称视频作为桥梁，从视觉语言模型迁移到物理智能。
 
-**关键词**：第一人称视频理解, 物理智能, 视觉语言模型, 机器人控制, 数据集构建
+**关键词**：第一人称视频理解, 物理智能, 视觉语言模型, 机器人控制, 数据集构建, 迁移学习
 
 ## 3 点简述
 - 核心问题：视觉语言模型基于第三人称数据训练，与人形机器人的第一人称视角不匹配，阻碍物理智能发展。
-- 方法要点：设计Egocentric2Embodiment翻译管道，将第一人称视频转换为结构化多级VQA监督，构建E2E-3M数据集。
-- 实验或效果：PhysBrain在EgoThink上规划能力提升，作为初始化使VLA微调更高效，SimperEnv成功率53.9%。
+- 方法要点：设计Egocentric2Embodiment翻译管道，将第一人称视频转换为结构化、多层次的VQA监督数据，构建E2E-3M数据集。
+- 实验或效果：PhysBrain在EgoThink上规划能力提升，作为初始化使VLA微调更高效，SimperEnv成功率提高至53.9%。
 
 ## 摘要（原文）
 

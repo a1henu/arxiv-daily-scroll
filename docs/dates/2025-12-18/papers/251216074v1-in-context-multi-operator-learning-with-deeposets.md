@@ -13,7 +13,7 @@ title: In-Context Multi-Operator Learning with DeepOSets
 
 ## 3 点简述
 - 核心问题：探索非自回归、非注意力架构在上下文学习中的能力，特别是针对PDE求解算子的泛化。
-- 方法要点：结合DeepSets和DeepONets，通过修改实现多算子上下文学习，无需权重更新即可从提示中恢复新算子。
+- 方法要点：结合DeepSets和DeepONets，通过修改DeepOSets实现多算子上下文学习，无需权重更新。
 - 实验或效果：在Poisson和反应-扩散正反边值问题上验证，能准确预测未见PDE的参数对应解。
 
 ## 摘要（原文）

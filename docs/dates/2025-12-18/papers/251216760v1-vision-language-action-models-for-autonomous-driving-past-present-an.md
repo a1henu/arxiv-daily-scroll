@@ -7,14 +7,14 @@ title: Vision-Language-Action Models for Autonomous Driving: Past, Present, and 
 **arXiv**：[2512.16760v1](https://arxiv.org/abs/2512.16760) · [PDF](https://arxiv.org/pdf/2512.16760.pdf)  
 **作者**：Tianshuai Hu, Xiaolu Liu, Song Wang, Yiyao Zhu, Ao Liang, Lingdong Kong, Guoyang Zhao, Zeying Gong, Jun Cen, Zhiyu Huang, Xiaoshuai Hao, Linfeng Li, Hang Song, Xiangtai Li, Jun Ma, Shaojie Shen, Jianke Zhu, Dacheng Tao, Ziwei Liu, Junwei Liang  
 
-**一句话要点**：综述自动驾驶中视觉-语言-动作模型的发展，提出分类框架以促进人机兼容系统。
+**一句话要点**：综述自动驾驶中视觉-语言-动作模型的演进、范式与挑战，以提升可解释性和泛化性。
 
-**关键词**：自动驾驶, 视觉-语言-动作模型, 端到端学习, 双系统架构, 可解释性, 基准评估
+**关键词**：自动驾驶, 视觉-语言-动作模型, 端到端学习, 多模态推理, 可解释性, 泛化性
 
 ## 3 点简述
-- 核心问题：传统模块化驾驶系统在复杂场景中易失效，感知错误会级联影响规划与控制。
-- 方法要点：将现有方法分为端到端VLA和双系统VLA，并细分为文本/数值动作生成和显式/隐式指导机制。
-- 实验或效果：总结代表性数据集与基准，强调鲁棒性、可解释性和指令忠实度等关键挑战。
+- 核心问题：传统模块化自动驾驶系统在复杂场景中易失效，感知错误会级联影响规划与控制。
+- 方法要点：提出视觉-语言-动作框架，整合视觉理解、语言推理和动作输出，分为端到端和双系统两种范式。
+- 实验或效果：总结代表性数据集与基准，强调鲁棒性、可解释性和指令保真度等关键挑战。
 
 ## 摘要（原文）
 

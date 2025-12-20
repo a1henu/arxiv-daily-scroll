@@ -12,9 +12,9 @@ title: Phishing Detection System: An Ensemble Approach Using Character-Level CNN
 **关键词**：钓鱼检测, 集成学习, 字符级CNN, URL分析, 网络安全, 机器学习
 
 ## 3 点简述
-- 钓鱼攻击是主要网络安全风险，需应对不断演变的欺骗策略。
-- 集成字符级CNN和LightGBM，结合36个URL特征，提升检测性能。
-- 在19,873个URL测试集上，准确率达99.819%，假阳性率极低。
+- 钓鱼攻击是主要网络安全风险，需应对不断演变的策略。
+- 集成字符级CNN提取序列特征与LightGBM处理工程特征，提升检测性能。
+- 在19,873个URL测试集上，模型准确率达99.819%，假阳性率极低。
 
 ## 摘要（原文）
 

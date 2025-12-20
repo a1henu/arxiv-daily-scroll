@@ -14,7 +14,7 @@ title: Sceniris: A Fast Procedural Scene Generation Framework
 ## 3 点简述
 - 现有程序化生成方法输出吞吐量低，阻碍数据集规模化创建
 - Sceniris通过批量采样和cuRobo快速碰撞检查，实现至少234倍加速
-- 支持对象级空间关系扩展和可选机器人可达性检查，提升场景多样性
+- 框架支持多样空间关系，可选机器人可达性检查以增强实用性
 
 ## 摘要（原文）
 

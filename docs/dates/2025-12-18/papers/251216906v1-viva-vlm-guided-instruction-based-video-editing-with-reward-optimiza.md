@@ -7,13 +7,13 @@ title: VIVA: VLM-Guided Instruction-Based Video Editing with Reward Optimization
 **arXiv**：[2512.16906v1](https://arxiv.org/abs/2512.16906) · [PDF](https://arxiv.org/pdf/2512.16906.pdf)  
 **作者**：Xiaoyan Cong, Haotian Yang, Angtian Wang, Yizhi Wang, Yiding Yang, Canyu Zhang, Chongyang Ma  
 
-**一句话要点**：提出VIVA框架，通过VLM引导编码和奖励优化解决指令视频编辑的泛化问题。
+**一句话要点**：提出VIVA框架，利用VLM引导编码和奖励优化解决指令视频编辑的泛化问题。
 
 **关键词**：指令视频编辑, 视觉语言模型, 奖励优化, 扩散变换器, 数据生成
 
 ## 3 点简述
-- 现有扩散方法基于简单编辑数据训练，难以泛化到复杂真实指令。
-- VIVA使用VLM编码指令和视觉信息，结合Edit-GRPO奖励优化提升编辑质量。
+- 现有扩散方法基于简单编辑配对数据训练，难以泛化到复杂真实指令。
+- 引入VLM编码器提供细粒度视觉表示，结合Edit-GRPO奖励优化提升编辑质量。
 - 实验显示VIVA在指令遵循、泛化和编辑质量上优于现有方法。
 
 ## 摘要（原文）

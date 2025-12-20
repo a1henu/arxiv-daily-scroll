@@ -7,14 +7,14 @@ title: Stackelberg Learning from Human Feedback: Preference Optimization as a Se
 **arXiv**：[2512.16626v1](https://arxiv.org/abs/2512.16626) · [PDF](https://arxiv.org/pdf/2512.16626.pdf)  
 **作者**：Barna Pásztor, Thomas Kleine Buening, Andreas Krause  
 
-**一句话要点**：提出Stackelberg Learning from Human Feedback，将偏好优化建模为顺序博弈以增强对齐能力。
+**一句话要点**：提出Stackelberg Learning from Human Feedback框架，将偏好优化建模为顺序博弈以增强对齐能力。
 
-**关键词**：偏好优化, 顺序博弈, 对齐学习, 推理时精炼, 大语言模型
+**关键词**：偏好优化, 顺序博弈, 人类反馈学习, 模型对齐, 推理时精炼, 非传递性偏好
 
 ## 3 点简述
 - 核心问题：传统RLHF和NLHF在捕捉复杂偏好结构方面存在局限，如非传递性偏好。
-- 方法要点：将策略分为领导者和跟随者，通过顺序博弈分解优化问题，支持推理时精炼。
-- 实验或效果：在大语言模型上验证，实现强对齐、参数可扩展性及跨模型精炼迁移。
+- 方法要点：将偏好优化分解为Leader策略优化和Follower策略精炼的序列博弈，支持推理时迭代改进。
+- 实验或效果：在大型语言模型上验证，实现强对齐、参数可扩展性及跨模型推理精炼迁移。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: MEPIC: Memory Efficient Position Independent Caching for LLM Serving
 **arXiv**：[2512.16822v1](https://arxiv.org/abs/2512.16822) · [PDF](https://arxiv.org/pdf/2512.16822.pdf)  
 **作者**：Qian Wang, Zahra Yousefijamarani, Morgan Lindsay Heisler, Rongzhi Gu, Bai Xiaolong, Shan Yizhou, Wei Zhang, Wang Lan, Ying Xiong, Yong Zhang, Zhenan Fan  
 
-**一句话要点**：提出MEPIC系统以解决LLM服务中KV缓存内存效率低的问题，实现跨位置和请求的块级重用。
+**一句话要点**：提出MEPIC系统以解决LLM服务中KV缓存内存效率低的问题，通过位置无关缓存优化长提示处理。
 
-**关键词**：KV缓存优化, 位置无关缓存, 内存效率, LLM服务, RoPE融合, 块级重用
+**关键词**：LLM服务优化, KV缓存管理, 位置无关缓存, 内存效率, 长提示处理, RoPE融合
 
 ## 3 点简述
-- 核心问题：LLM应用中长提示历史导致KV缓存内存压力大，现有位置无关缓存因查询差异和内存布局不齐而重用有限。
-- 方法要点：通过页对齐存储、块级重计算和RoPE融合，使块KV在内存中可跨请求共享，消除重复。
-- 实验或效果：在可比延迟和精度下，HBM使用减少达2倍，长提示场景下可达5倍，无需模型修改。
+- 核心问题：LLM应用中长提示重复处理导致KV缓存内存压力大，现有位置无关缓存因查询差异和内存布局不齐而节省有限。
+- 方法要点：MEPIC对齐KV到分页存储，块级重计算，融合RoPE去除位置编码，实现跨请求共享。
+- 实验或效果：在可比延迟和精度下，HBM使用减少达2倍，长提示场景达5倍，无需模型修改。
 
 ## 摘要（原文）
 

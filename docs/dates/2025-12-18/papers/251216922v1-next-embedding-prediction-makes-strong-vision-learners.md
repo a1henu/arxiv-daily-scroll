@@ -14,7 +14,7 @@ title: Next-Embedding Prediction Makes Strong Vision Learners
 ## 3 点简述
 - 核心问题：探索生成式预训练能否替代传统视觉自监督学习方法
 - 方法要点：使用因果掩码和停止梯度训练模型预测未来补丁嵌入
-- 实验或效果：在ImageNet-1K微调后ViT-B和ViT-L分别达到83.8%和85.3%准确率
+- 实验或效果：在ImageNet-1K上ViT-B和ViT-L微调后分别达到83.8%和85.3%准确率
 
 ## 摘要（原文）
 

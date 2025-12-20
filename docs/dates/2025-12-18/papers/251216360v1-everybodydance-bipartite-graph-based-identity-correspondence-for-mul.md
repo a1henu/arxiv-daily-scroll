@@ -13,8 +13,8 @@ title: EverybodyDance: Bipartite Graph-Based Identity Correspondence for Multi-C
 
 ## 3 点简述
 - 核心问题：多角色动画中，角色位置交换时身份对应（IC）难以保持，影响动画一致性。
-- 方法要点：构建身份匹配图（IMG），通过掩码查询注意力（MQA）计算亲和度，将IC正确性形式化为图结构度量进行优化。
-- 实验或效果：在身份对应评估基准上，EverybodyDance在IC和视觉保真度上显著优于现有基线方法。
+- 方法要点：构建身份匹配图（IMG），通过掩码查询注意力（MQA）计算亲和度，优化图结构指标以强制IC正确性。
+- 实验或效果：在身份对应评估基准上，EverybodyDance在IC和视觉保真度上显著优于现有基线。
 
 ## 摘要（原文）
 

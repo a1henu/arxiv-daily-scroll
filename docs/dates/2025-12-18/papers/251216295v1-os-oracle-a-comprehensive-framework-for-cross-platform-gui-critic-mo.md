@@ -14,7 +14,7 @@ title: OS-Oracle: A Comprehensive Framework for Cross-Platform GUI Critic Models
 ## 3 点简述
 - 核心问题：GUI批评模型缺乏高质量数据和公共基准，影响计算机使用代理的可靠决策。
 - 方法要点：构建可扩展数据管道、两阶段训练范式（SFT与CP-GRPO）及OS-Critic Bench基准。
-- 实验或效果：OS-Oracle-7B在OS-Critic Bench上达到开源VLM最佳性能，并提升GUI代理表现。
+- 实验或效果：OS-Oracle-7B在OS-Critic Bench上达到开源VLM最优，提升GUI代理性能。
 
 ## 摘要（原文）
 

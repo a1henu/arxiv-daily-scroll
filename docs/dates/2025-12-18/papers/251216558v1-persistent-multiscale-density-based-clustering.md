@@ -12,7 +12,7 @@ title: Persistent Multiscale Density-based Clustering
 **关键词**：密度聚类, 参数选择, 尺度空间聚类, HDBSCAN*, 聚类稳定性, 计算效率
 
 ## 3 点简述
-- 核心问题：密度聚类算法如DBSCAN和HDBSCAN*需预设参数，缺乏先验知识时难以选择
+- 核心问题：密度聚类算法如DBSCAN和HDBSCAN*需预设参数，缺乏先验知识时选择困难
 - 方法要点：PLSCAN基于尺度空间聚类原理，高效识别HDBSCAN*稳定簇的最小尺寸
 - 实验或效果：在真实数据集上，PLSCAN平均ARI更高，对参数变化更不敏感，计算成本与k-Means和HDBSCAN*竞争
 

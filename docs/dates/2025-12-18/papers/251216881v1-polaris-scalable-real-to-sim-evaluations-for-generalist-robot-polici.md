@@ -7,14 +7,14 @@ title: PolaRiS: Scalable Real-to-Sim Evaluations for Generalist Robot Policies
 **arXiv**：[2512.16881v1](https://arxiv.org/abs/2512.16881) · [PDF](https://arxiv.org/pdf/2512.16881.pdf)  
 **作者**：Arhan Jain, Mingtong Zhang, Kanav Arora, William Chen, Marcel Torne, Muhammad Zubair Irshad, Sergey Zakharov, Yue Wang, Sergey Levine, Chelsea Finn, Wei-Chiu Ma, Dhruv Shah, Abhishek Gupta, Karl Pertsch  
 
-**一句话要点**：提出PolaRiS框架，通过神经重建和模拟数据协同训练，实现机器人通用策略的高保真仿真评估。
+**一句话要点**：提出PolaRiS框架，通过神经重建与协同训练实现机器人策略的高保真仿真评估。
 
-**关键词**：机器人策略评估, 真实到仿真, 神经重建, 模拟数据协同训练, 通用机器人策略, 高保真仿真
+**关键词**：机器人策略评估, 神经重建, 仿真环境, 协同训练, 域差距, 可扩展评估
 
 ## 3 点简述
-- 核心问题：机器人通用策略评估在真实世界中成本高、可重复性差，现有仿真基准存在视觉和物理域差距。
-- 方法要点：利用神经重建将真实场景视频转换为交互式仿真环境，并开发模拟数据协同训练方法以缩小域差距。
-- 实验或效果：通过仿真与真实世界配对评估，PolaRiS评估结果与真实性能相关性更强，且能快速创建多样化仿真环境。
+- 核心问题：机器人策略评估在真实世界中存在随机性、可重复性差和耗时问题，仿真评估因视觉物理域差距而不可靠。
+- 方法要点：利用神经重建将真实场景视频转换为交互式仿真环境，并开发协同训练方法以弥合域差距。
+- 实验或效果：通过仿真与真实世界配对评估，PolaRiS比现有仿真基准更相关于真实性能，且能快速创建多样环境。
 
 ## 摘要（原文）
 

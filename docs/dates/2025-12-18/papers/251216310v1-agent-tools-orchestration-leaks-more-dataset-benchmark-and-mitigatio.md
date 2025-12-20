@@ -7,14 +7,14 @@ title: Agent Tools Orchestration Leaks More: Dataset, Benchmark, and Mitigation
 **arXiv**：[2512.16310v1](https://arxiv.org/abs/2512.16310) · [PDF](https://arxiv.org/pdf/2512.16310.pdf)  
 **作者**：Yuxuan Qiao, Dongqin Liu, Hongchang Yang, Wei Zhou, Songlin Hu  
 
-**一句话要点**：提出工具编排隐私风险（TOP-R）框架与缓解方法，以应对智能代理隐私泄露问题
+**一句话要点**：提出工具编排隐私风险（TOP-R）框架与缓解方法，以应对智能代理隐私泄露问题。
 
-**关键词**：工具编排隐私风险, 智能代理安全, 隐私增强原则, TOP-Bench数据集, H-Score评估
+**关键词**：智能代理隐私风险, 工具编排泄露, 隐私增强原则, 基准评估, 大语言模型安全
 
 ## 3 点简述
-- 核心问题：单代理多工具架构因目标函数错位，导致工具编排隐私风险（TOP-R），即代理聚合信息片段推理出敏感信息
-- 方法要点：建立TOP-R形式化框架，构建TOP-Bench数据集，并提出隐私增强原则（PEP）方法进行缓解
-- 实验或效果：评估显示TOP-R风险严重，PEP方法将风险泄露率降至46.58%，H-Score提升至0.624
+- 核心问题：智能代理在多工具编排中因目标函数错位，自主聚合信息导致敏感隐私泄露。
+- 方法要点：建立TOP-R形式化框架，开发TOP-Bench基准和H-Score指标评估风险。
+- 实验或效果：提出隐私增强原则（PEP）方法，将风险泄露率降至46.58%，H-Score提升至0.624。
 
 ## 摘要（原文）
 

@@ -14,7 +14,7 @@ title: Code-in-the-Loop Forensics: Agentic Tool Use for Image Forgery Detection
 ## 3 点简述
 - 核心问题：现有方法难以统一低级别伪影与高级别语义知识，导致检测效果受限。
 - 方法要点：设计动态推理循环，结合冷启动与强化微调训练，使MLLM自主生成和执行Python工具。
-- 实验或效果：在FABench数据集上验证，ForenAgent展现工具使用能力和反思推理，提升检测性能。
+- 实验或效果：在FABench数据集上验证，ForenAgent展现出工具使用能力和反思推理，提升检测性能。
 
 ## 摘要（原文）
 

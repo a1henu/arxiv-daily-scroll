@@ -13,7 +13,7 @@ title: Multivariate Uncertainty Quantification with Tomographic Quantile Forests
 
 ## 3 点简述
 - 核心问题：多变量目标的条件分布非参数估计在不确定性量化中具有挑战性
-- 方法要点：通过单模型学习方向投影的条件分位数，并聚合重建分布，避免凸性限制
+- 方法要点：通过单模型学习方向投影的条件分位数，并聚合重构分布，避免凸性限制
 - 实验或效果：在合成和真实数据集上评估，并开源代码
 
 ## 摘要（原文）

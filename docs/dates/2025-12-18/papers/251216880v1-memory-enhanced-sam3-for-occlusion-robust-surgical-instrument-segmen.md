@@ -13,8 +13,8 @@ title: Memory-Enhanced SAM3 for Occlusion-Robust Surgical Instrument Segmentatio
 
 ## 3 点简述
 - 核心问题：SAM3在手术场景中因内存更新不区分、容量固定和遮挡后身份恢复弱而性能受限
-- 方法要点：通过相关性感知内存过滤、分段插值方案和基于特征的再识别模块增强内存
-- 实验或效果：在EndoVis17和EndoVis18上零样本设置下，相比原始SAM3分别提升约7%和16%的mcIoU
+- 方法要点：通过相关性感知内存过滤、分段插值扩展内存容量和基于特征的再识别模块增强SAM3
+- 实验或效果：在EndoVis17和EndoVis18上零样本评估，mcIoU分别提升约7%和16%，优于基于训练的方法
 
 ## 摘要（原文）
 

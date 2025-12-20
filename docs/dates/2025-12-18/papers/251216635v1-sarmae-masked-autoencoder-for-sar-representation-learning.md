@@ -14,7 +14,7 @@ title: SARMAE: Masked Autoencoder for SAR Representation Learning
 ## 3 点简述
 - 核心问题：SAR图像数据稀缺和斑点噪声阻碍深度学习语义表示学习。
 - 方法要点：构建SAR-1M数据集，设计SARE注入斑点噪声和SARC利用光学先验对齐特征。
-- 实验或效果：在分类、检测和分割任务上达到最先进性能，代码模型开源。
+- 实验或效果：在分类、检测和分割任务上达到先进性能，代码模型开源。
 
 ## 摘要（原文）
 

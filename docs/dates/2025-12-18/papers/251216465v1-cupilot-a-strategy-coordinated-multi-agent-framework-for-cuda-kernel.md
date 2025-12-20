@@ -7,14 +7,14 @@ title: cuPilot: A Strategy-Coordinated Multi-agent Framework for CUDA Kernel Evo
 **arXiv**：[2512.16465v1](https://arxiv.org/abs/2512.16465) · [PDF](https://arxiv.org/pdf/2512.16465.pdf)  
 **作者**：Jinwu Chen, Qidie Wu, Bin Li, Lin Ma, Xin Si, Yang Hu, Shouyi Yin, Jun Yang  
 
-**一句话要点**：提出cuPilot多智能体框架，通过策略协调优化CUDA内核，提升自动演化性能。
+**一句话要点**：提出cuPilot多智能体框架，通过策略协调优化CUDA内核，提升性能。
 
-**关键词**：CUDA内核优化, 多智能体框架, 演化算法, 策略协调, 硬件软件协同设计, 自动代码生成
+**关键词**：CUDA内核优化, 多智能体框架, 进化算法, 策略协调, 硬件软件协同设计, 大语言模型
 
 ## 3 点简述
-- 核心问题：现有方法因智能体设计不佳和演化表示不匹配，导致CUDA内核优化性能不足。
-- 方法要点：引入策略作为中间语义表示，结合策略协调演化算法和屋顶线引导提示。
-- 实验或效果：在100个内核基准测试中，平均加速比PyTorch快3.09倍，GEMM任务实现硬件单元高利用率。
+- 核心问题：现有方法因智能体设计和进化表示不匹配，导致CUDA内核优化性能不足。
+- 方法要点：引入策略作为中间语义表示，采用策略协调进化算法和屋顶线引导提示。
+- 实验或效果：在100个内核基准测试中，平均加速比PyTorch达3.09倍，GEMM任务实现高硬件利用率。
 
 ## 摘要（原文）
 

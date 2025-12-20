@@ -7,14 +7,14 @@ title: SDFoam: Signed-Distance Foam for explicit surface reconstruction
 **arXiv**：[2512.16706v1](https://arxiv.org/abs/2512.16706) · [PDF](https://arxiv.org/pdf/2512.16706.pdf)  
 **作者**：Antonella Rech, Nicola Conci, Nicola Garau  
 
-**一句话要点**：提出SDFoam，结合显式Voronoi图和隐式符号距离场以改进表面重建精度
+**一句话要点**：提出SDFoam，通过联合学习显式Voronoi图和隐式符号距离场，改进神经渲染中的精确网格重建。
 
-**关键词**：表面重建, 符号距离场, Voronoi图, 光线追踪, 隐式-显式混合模型, 网格优化
+**关键词**：神经渲染, 网格重建, 符号距离场, Voronoi图, 光线追踪, 隐式-显式混合
 
 ## 3 点简述
-- 核心问题：现有方法如NeRF和3DGS在精确网格重建方面仍存在不足，导致表面模糊和拓扑错误
-- 方法要点：通过联合学习显式Voronoi图和隐式SDF，利用光线追踪优化和Eikonal正则化，使Voronoi单元面与零水平集对齐
-- 实验或效果：在多种场景中，SDFoam显著提升网格重建准确性（Chamfer距离），保持外观质量（PSNR、SSIM），且训练速度与RadiantFoam相当
+- 核心问题：现有神经渲染方法如NeRF和3DGS在精确网格重建方面仍存在不足，导致表面模糊或拓扑错误。
+- 方法要点：结合显式Voronoi图和隐式SDF，通过光线追踪优化和Eikonal正则化，使Voronoi单元面与零水平集对齐。
+- 实验或效果：在多种场景中，SDFoam显著提升网格重建精度（Chamfer距离），保持光度和训练速度，减少漂浮物并改善拓扑。
 
 ## 摘要（原文）
 

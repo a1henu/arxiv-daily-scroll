@@ -7,14 +7,14 @@ title: Implementing a Sharia Chatbot as a Consultation Medium for Questions Abou
 **arXiv**：[2512.16644v1](https://arxiv.org/abs/2512.16644) · [PDF](https://arxiv.org/pdf/2512.16644.pdf)  
 **作者**：Wisnu Uriawan, Aria Octavian Hamza, Ade Ripaldi Nuralim, Adi Purnama, Ahmad Juaeni Yunus, Anissya Auliani Supriadi Putri  
 
-**一句话要点**：提出基于强化学习与语义嵌入的伊斯兰教法咨询聊天机器人，以提升宗教知识获取与数字宣教。
+**一句话要点**：提出基于强化学习与语义嵌入的伊斯兰教法咨询聊天机器人，以增强宗教知识获取与数字宣教。
 
-**关键词**：伊斯兰教法聊天机器人, 强化学习, 语义嵌入, CRISP-DM方法论, 宗教咨询系统, 数字宣教
+**关键词**：伊斯兰教法聊天机器人, 强化学习, 语义嵌入, CRISP-DM方法, 宗教问答系统, 数字宣教
 
 ## 3 点简述
-- 核心问题：开发一个符合伊斯兰教法的聊天机器人，用于咨询宗教问题，解决传统咨询方式的可及性与准确性限制。
-- 方法要点：采用CRISP-DM方法论，集成Q-Learning强化学习和Sentence-Transformers语义嵌入，处理25,000个来自古兰经、圣训和教法裁决的问答对数据集。
-- 实验或效果：原型系统在功能测试中达到87%的语义准确率，覆盖教法、信仰、礼拜和交易等主题，但存在静态学习和数据集依赖等局限性。
+- 核心问题：开发一个符合伊斯兰教法的聊天机器人，用于回答宗教问题，提升宗教素养和数字宣教效率。
+- 方法要点：结合Q-Learning和Sentence-Transformers进行语义嵌入，使用CRISP-DM方法处理25,000个问答对数据集。
+- 实验或效果：在功能测试中达到87%语义准确率，覆盖教法、信仰、崇拜和交易等主题，但存在静态学习和数据集依赖的局限性。
 
 ## 摘要（原文）
 

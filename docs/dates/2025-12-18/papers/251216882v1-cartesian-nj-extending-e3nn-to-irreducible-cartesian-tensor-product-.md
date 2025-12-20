@@ -9,12 +9,12 @@ title: Cartesian-nj: Extending e3nn to Irreducible Cartesian Tensor Product and 
 
 **一句话要点**：提出Cartesian-nj符号以扩展e3nn支持不可约笛卡尔张量积与收缩，并发布cartnn包进行系统比较。
 
-**关键词**：等变机器学习, 不可约笛卡尔张量, 张量耦合, 原子模拟, e3nn扩展, 模型比较
+**关键词**：等变机器学习, 不可约笛卡尔张量, 张量积, 原子模拟, e3nn扩展, 模型比较
 
 ## 3 点简述
-- 核心问题：不可约笛卡尔张量（ICT）在等变原子机器学习中缺乏系统构建方法，与球张量（ST）相比优势未知。
-- 方法要点：引入Cartesian-3j和Cartesian-nj符号作为Wigner符号的笛卡尔类比，支持ICT的耦合与扩展e3nn框架。
-- 实验或效果：实现MACE、NequIP和Allegro的笛卡尔版本，首次系统比较笛卡尔与球模型，评估ICT架构的潜力。
+- 核心问题：不可约笛卡尔张量在等变原子机器学习中是否优于球形张量，设计原理是否完备。
+- 方法要点：定义Cartesian-3j和Cartesian-nj符号，作为张量耦合系数，支持不可约笛卡尔张量组合。
+- 实验或效果：实现Cartesian版MACE、NequIP和Allegro，首次系统比较笛卡尔与球形模型，评估优势条件。
 
 ## 摘要（原文）
 

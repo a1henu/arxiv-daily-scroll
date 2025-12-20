@@ -7,9 +7,9 @@ title: Hypernetworks That Evolve Themselves
 **arXiv**：[2512.16406v1](https://arxiv.org/abs/2512.16406) · [PDF](https://arxiv.org/pdf/2512.16406.pdf)  
 **作者**：Joachim Winther Pedersen, Erwan Plantec, Eleni Nisioti, Marcello Barylli, Milton Montero, Kathrin Korte, Sebastian Risi  
 
-**一句话要点**：提出自指图超网络，使神经网络自主进化以应对环境变化。
+**一句话要点**：提出自指图超网络，使神经网络能自主进化，无需外部优化器。
 
-**关键词**：自指超网络, 神经网络进化, 强化学习基准, 自主适应, 图表示, 变异率自适应
+**关键词**：自指超网络, 自主进化, 图神经网络, 强化学习, 种群动态, 变异率适应
 
 ## 3 点简述
 - 核心问题：神经网络如何不依赖外部优化器实现自主进化。

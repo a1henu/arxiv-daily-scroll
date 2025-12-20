@@ -9,10 +9,10 @@ title: Yuan-TecSwin: A text conditioned Diffusion model with Swin-transformer bl
 
 **一句话要点**：提出Yuan-TecSwin，一种基于Swin-transformer的文本条件扩散模型，以提升图像生成中的长程语义理解能力。
 
-**关键词**：文本条件扩散模型, Swin-transformer, 长程语义建模, 图像生成, FID分数, 非局部建模
+**关键词**：文本条件扩散模型, Swin-transformer, 长程语义建模, 图像生成, FID分数, 非局部特征提取
 
 ## 3 点简述
-- 核心问题：CNN的局部性限制了扩散模型在图像生成中对长程语义信息的理解能力。
+- 核心问题：CNN的局部性限制扩散模型在图像生成中理解长程语义信息的能力。
 - 方法要点：用Swin-transformer块替换U形架构中的CNN块，增强特征提取和图像恢复的非局部建模能力。
 - 实验或效果：在ImageNet生成基准上达到1.37的FID分数，推理性能提升10%，生成图像难以与人类绘画区分。
 

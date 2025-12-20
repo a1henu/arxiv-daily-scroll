@@ -7,14 +7,14 @@ title: Topic Modelling Black Box Optimization
 **arXiv**：[2512.16445v1](https://arxiv.org/abs/2512.16445) · [PDF](https://arxiv.org/pdf/2512.16445.pdf)  
 **作者**：Roman Akramov, Artem Khamatullin, Svetlana Glazyrina, Maksim Kryzhanovskiy, Roman Ischenko  
 
-**一句话要点**：提出黑盒优化方法以高效选择LDA主题数，提升模型性能与效率。
+**一句话要点**：提出基于黑盒优化的主题数选择方法，提升LDA模型效率与性能
 
-**关键词**：主题建模, 黑盒优化, LDA主题数选择, 摊销优化, 进化算法, 验证困惑度
+**关键词**：主题建模, 黑盒优化, LDA模型, 摊销优化, 进化算法, 验证困惑度
 
 ## 3 点简述
-- 核心问题：LDA主题数选择影响模型统计拟合与可解释性，需高效优化。
-- 方法要点：将主题数选择建模为离散黑盒优化问题，比较进化算法与摊销优化器。
-- 实验效果：摊销优化器SABBO和PABBO在样本和时间效率上显著优于传统进化方法。
+- 核心问题：LDA主题数选择影响模型统计拟合与可解释性，需高效优化
+- 方法要点：将主题数选择建模为离散黑盒优化，比较进化算法与摊销优化器
+- 实验或效果：摊销优化器SABBO和PABBO在样本和时间效率上显著优于GA和ES
 
 ## 摘要（原文）
 
