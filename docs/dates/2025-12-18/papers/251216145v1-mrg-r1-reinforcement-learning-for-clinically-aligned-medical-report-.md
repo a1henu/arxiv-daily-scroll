@@ -7,14 +7,14 @@ title: MRG-R1: Reinforcement Learning for Clinically Aligned Medical Report Gene
 **arXiv**：[2512.16145v1](https://arxiv.org/abs/2512.16145) · [PDF](https://arxiv.org/pdf/2512.16145.pdf)  
 **作者**：Pengyu Wang, Shuchang Ye, Usman Naseem, Jinman Kim  
 
-**一句话要点**：提出语义驱动强化学习方法MRG-R1，以提升医学报告生成的临床正确性。
+**一句话要点**：提出语义驱动强化学习方法，以提升医学报告生成的临床正确性。
 
 **关键词**：医学报告生成, 强化学习, 临床正确性, 大型视觉语言模型, 语义驱动优化
 
 ## 3 点简述
-- 现有医学报告生成方法依赖词级目标，导致临床准确性不足。
-- 采用组相对策略优化和基于边缘余弦相似度的报告级奖励，直接对齐临床标签。
-- 在IU X-Ray和MIMIC-CXR数据集上实现最优临床效能指标，验证语义强化优于词级监督。
+- 现有方法依赖词级目标，生成文本临床正确性不足。
+- 采用组相对策略优化，基于关键放射学发现计算报告级奖励。
+- 在IU X-Ray和MIMIC-CXR数据集上实现最优临床效能指标。
 
 ## 摘要（原文）
 

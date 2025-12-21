@@ -9,7 +9,7 @@ title: 4D Primitive-Mâché: Glueing Primitives for Persistent 4D Scene Reconstr
 
 **一句话要点**：提出4D Primitive-Mâché方法，通过粘合刚性基元实现持久4D场景重建
 
-**关键词**：4D场景重建, 刚性基元分解, 运动外推, 单目视频处理, 持久重建, 多物体扫描
+**关键词**：4D场景重建, 刚性基元分解, 运动外推, 单目视频处理, 持久重建
 
 ## 3 点简述
 - 核心问题：从单目RGB视频重建完整且持久的4D场景，包括可见和不可见部分

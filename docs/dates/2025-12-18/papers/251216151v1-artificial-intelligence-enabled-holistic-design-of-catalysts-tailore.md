@@ -7,7 +7,7 @@ title: Artificial Intelligence-Enabled Holistic Design of Catalysts Tailored for
 **arXiv**：[2512.16151v1](https://arxiv.org/abs/2512.16151) · [PDF](https://arxiv.org/pdf/2512.16151.pdf)  
 **作者**：Liu Qian, Yue Li, Ying Xie, Jian Zhang, Pai Li, Yue Yu, Zhe Liu, Feng Ding, Jin Zhang  
 
-**一句话要点**：提出集成机器学习的催化剂整体设计框架，以解决半导体碳纳米管合成中的选择性挑战。
+**一句话要点**：提出集成机器学习的整体催化剂设计框架，以解决半导体碳纳米管合成中的选择性挑战。
 
 **关键词**：催化剂设计, 机器学习集成, 半导体碳纳米管, 选择性合成, 高通量实验, 材料科学
 

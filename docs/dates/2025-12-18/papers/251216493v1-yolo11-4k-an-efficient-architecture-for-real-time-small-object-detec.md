@@ -7,14 +7,14 @@ title: YOLO11-4K: An Efficient Architecture for Real-Time Small Object Detection
 **arXiv**：[2512.16493v1](https://arxiv.org/abs/2512.16493) · [PDF](https://arxiv.org/pdf/2512.16493.pdf)  
 **作者**：Huma Hafeez, Matthew Garratt, Jo Plested, Sankaran Iyer, Arcot Sowmya  
 
-**一句话要点**：提出YOLO11-4K框架，用于4K全景图像中的实时小目标检测。
+**一句话要点**：提出YOLO11-4K以高效实时检测4K全景图像中的小物体
 
-**关键词**：全景图像检测, 小目标检测, 实时检测, 4K分辨率, YOLO架构
+**关键词**：全景图像检测, 小物体检测, 实时检测, 4K分辨率, YOLO架构, GhostConv
 
 ## 3 点简述
-- 核心问题：4K全景图像因空间扭曲、宽视场和高分辨率，导致传统检测器计算负担重且小目标检测困难。
-- 方法要点：采用多尺度检测头（含P2层）增强小目标敏感性，以及GhostConv骨干网络降低计算复杂度。
-- 实验或效果：在CVIP360数据集上达到0.95 mAP，每帧推理28.3毫秒，相比YOLO11延迟减少75%，精度提升。
+- 核心问题：全景图像因空间扭曲、宽视场和高分辨率，传统检测器如YOLO在4K图像上计算效率低且易漏检小物体。
+- 方法要点：采用多尺度检测头（含P2层）增强小物体敏感度，以及GhostConv骨干网络降低计算复杂度。
+- 实验或效果：在CVIP360数据集上达到0.95 mAP（IoU 0.50），每帧推理时间28.3毫秒，比YOLO11快75%且精度更高。
 
 ## 摘要（原文）
 

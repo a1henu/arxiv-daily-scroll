@@ -7,14 +7,14 @@ title: DataFlow: An LLM-Driven Framework for Unified Data Preparation and Workfl
 **arXiv**：[2512.16676v1](https://arxiv.org/abs/2512.16676) · [PDF](https://arxiv.org/pdf/2512.16676.pdf)  
 **作者**：Hao Liang, Xiaochen Ma, Zhou Liu, Zhen Hao Wong, Zhengyang Zhao, Zimo Meng, Runming He, Chengyu Shen, Qifeng Cai, Zhaoyang Han, Meiyi Qiang, Yalin Feng, Tianyi Bai, Zewei Pan, Ziyi Guo, Yizhen Jiang, Jingwen Deng, Qijie You, Peichao Lai, Tianyu Guo, Chi Hsu Tsai, Hengyi Feng, Rui Hu, Wenkai Yu, Junbo Niu, Bohan Zeng, Ruichuan An, Lu Ma, Jihao Huang, Yaowei Zheng, Conghui He, Linpeng Tang, Bin Cui, Weinan E, Wentao Zhang  
 
-**一句话要点**：提出DataFlow框架以解决LLM数据准备中缺乏系统抽象和可扩展性的问题
+**一句话要点**：提出DataFlow框架，以解决LLM数据准备中缺乏统一、可扩展和可复现工作流的问题。
 
-**关键词**：数据准备框架, 工作流自动化, LLM驱动, 可复用算子, 模型在环数据生成
+**关键词**：数据准备框架, 工作流自动化, LLM驱动, 可复现性, 模块化操作符, 数据为中心AI
 
 ## 3 点简述
-- 核心问题：当前LLM数据准备依赖临时脚本，缺乏模块化、可复现性和模型在环支持
-- 方法要点：基于系统级抽象设计统一框架，提供PyTorch风格API和近200个可重用算子
-- 实验或效果：在数学、代码等六个用例中提升LLM性能，如Text-to-SQL准确率提高3%
+- 核心问题：当前LLM数据准备依赖临时脚本，缺乏系统抽象，影响可复现性和模型在环生成。
+- 方法要点：DataFlow提供模块化数据转换抽象和PyTorch风格API，支持可调试和优化的数据流构建。
+- 实验或效果：在数学、代码和文本等用例中，DataFlow提升下游LLM性能，优于人工数据集和合成基线。
 
 ## 摘要（原文）
 

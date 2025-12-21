@@ -7,14 +7,14 @@ title: Refusal Steering: Fine-grained Control over LLM Refusal Behaviour for Sen
 **arXiv**：[2512.16602v1](https://arxiv.org/abs/2512.16602) · [PDF](https://arxiv.org/pdf/2512.16602.pdf)  
 **作者**：Iker García-Ferrero, David Montero, Roman Orus  
 
-**一句话要点**：提出Refusal Steering方法，在推理时精细控制大语言模型对政治敏感话题的拒绝行为。
+**一句话要点**：提出Refusal Steering方法，在推理时精细控制大语言模型对政治敏感话题的拒绝行为
 
-**关键词**：激活引导, 拒绝行为控制, 推理时干预, 政治敏感话题, 大语言模型安全
+**关键词**：激活引导, 拒绝行为控制, 推理时干预, 政治敏感话题, 岭正则化
 
 ## 3 点简述
 - 核心问题：大语言模型对政治敏感话题的拒绝行为难以精细控制，现有方法依赖脆弱模式检测。
-- 方法要点：使用LLM作为评判器分配拒绝置信度，并引入岭正则化变体计算更优的引导向量。
-- 实验或效果：在Qwen3-Next-80B-A3B-Thinking上移除政治拒绝行为，同时保持安全性和通用性能。
+- 方法要点：使用LLM作为评判器分配拒绝置信度，提出岭正则化变体计算引导向量以隔离拒绝-顺从方向。
+- 实验或效果：在Qwen3-Next-80B-A3B-Thinking上移除政治拒绝行为，保持安全对齐和基准性能，方法可泛化至不同规模模型。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: Radiology Report Generation with Layer-Wise Anatomical Attention
 **arXiv**：[2512.16841v1](https://arxiv.org/abs/2512.16841) · [PDF](https://arxiv.org/pdf/2512.16841.pdf)  
 **作者**：Emmanuel D. Muñiz-De-León, Jorge A. Rosales-de-Golferichs, Ana S. Muñoz-Rodríguez, Alejandro I. Trejo-Castro, Eduardo de Avila-Armenta, Antonio Martínez-Torteya  
 
-**一句话要点**：提出基于分层解剖注意力的紧凑架构，从单张胸部X光图像生成放射学报告发现部分。
+**一句话要点**：提出基于分层解剖注意力的紧凑架构，从单张胸部X光片生成放射学报告发现部分。
 
-**关键词**：放射学报告生成, 分层解剖注意力, 胸部X光图像, 紧凑架构, 图像到文本, 临床相关性
+**关键词**：放射学报告生成, 分层解剖注意力, 胸部X光分析, 图像到文本模型, 紧凑架构
 
 ## 3 点简述
 - 当前SOTA系统依赖大规模多模态训练和临床元数据，资源密集且难以普及。
 - 模型结合冻结DINOv3 ViT编码器和GPT-2解码器，通过分层高斯平滑集成肺和心脏分割掩码。
-- 在MIMIC-CXR数据集上评估，关键病理学CheXpert Macro-F1提升168%，RadGraph F1提升9.7%。
+- 在MIMIC-CXR数据集上评估，关键病理检测性能显著提升，结构连贯性改善。
 
 ## 摘要（原文）
 

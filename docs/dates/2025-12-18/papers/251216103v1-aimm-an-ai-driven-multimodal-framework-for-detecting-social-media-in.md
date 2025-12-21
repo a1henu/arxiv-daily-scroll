@@ -14,7 +14,7 @@ title: AIMM: An AI-Driven Multimodal Framework for Detecting Social-Media-Influe
 ## 3 点简述
 - 核心问题：社交媒体协调活动导致股市操纵，需工具连接在线叙事与市场行为。
 - 方法要点：融合Reddit活动、机器人指标和OHLCV市场特征，构建AIMM风险评分系统。
-- 实验或效果：在GME事件中提前22天预警，初步展示判别能力，但标注数据集较小。
+- 实验或效果：在GME事件中提前22天预警，初步展示判别能力，但标注数据规模较小。
 
 ## 摘要（原文）
 

@@ -7,13 +7,13 @@ title: ResDynUNet++: A nested U-Net with residual dynamic convolution blocks for
 **arXiv**：[2512.16140v1](https://arxiv.org/abs/2512.16140) · [PDF](https://arxiv.org/pdf/2512.16140.pdf)  
 **作者**：Ze Yuan, Wenbin Li, Shusen Zhao  
 
-**一句话要点**：提出ResDynUNet++，一种结合知识驱动与数据驱动的混合框架，用于双能CT重建以解决通道不平衡和伪影问题。
+**一句话要点**：提出ResDynUNet++，结合知识驱动与数据驱动模块，用于双能CT重建以解决通道不平衡和界面附近大伪影问题。
 
-**关键词**：双能CT重建, 混合框架, 残差动态卷积, UNet++, 知识驱动, 数据驱动
+**关键词**：双能CT重建, 残差动态卷积, 知识驱动模块, 数据驱动模块, UNet++, 伪影抑制
 
 ## 3 点简述
-- 核心问题：双能CT重建中通道不平衡和近界面大伪影的挑战。
-- 方法要点：采用OPMT快速生成中间解，再通过ResDynUNet++网络进行精炼，该网络基于UNet++并引入残差动态卷积块。
+- 核心问题：双能CT重建中通道不平衡和界面附近大伪影的挑战。
+- 方法要点：采用OPMT快速生成中间解，再用ResDynUNet++（基于UNet++的残差动态卷积块）进行精炼。
 - 实验或效果：在合成体模和真实临床数据集上验证了方法的有效性和优越性能。
 
 ## 摘要（原文）

@@ -7,9 +7,9 @@ title: Coordinated Anti-Jamming Resilience in Swarm Networks via Multi-Agent Rei
 **arXiv**：[2512.16813v1](https://arxiv.org/abs/2512.16813) · [PDF](https://arxiv.org/pdf/2512.16813.pdf)  
 **作者**：Bahman Abolhassani, Tugba Erpek, Kemal Davaslioglu, Yalin E. Sagduyu, Sastry Kompella  
 
-**一句话要点**：提出基于QMIX的多智能体强化学习框架，以增强机器人集群网络在反应式干扰下的通信韧性。
+**一句话要点**：提出基于QMIX的多智能体强化学习框架，以提升机器人集群网络在反应式干扰下的通信韧性。
 
-**关键词**：多智能体强化学习, 反应式干扰, 集群网络, 通信韧性, QMIX算法, 协调抗干扰
+**关键词**：多智能体强化学习, 集群网络, 抗干扰通信, QMIX算法, 反应式干扰
 
 ## 3 点简述
 - 核心问题：反应式干扰器选择性破坏集群通信，威胁编队完整性和任务成功。

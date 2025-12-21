@@ -9,7 +9,7 @@ title: Design and Evaluation of Cost-Aware PoQ for Decentralized LLM Inference
 
 **一句话要点**：提出成本感知PoQ框架以解决去中心化LLM推理中异构计算成本忽略的问题
 
-**关键词**：去中心化推理, 成本感知PoQ, 异构计算成本, 奖励机制, 语义文本相似性, 蒙特卡洛模拟
+**关键词**：去中心化LLM推理, 成本感知PoQ, 异构计算成本, 评估器架构, 线性奖励函数, 质量成本分析
 
 ## 3 点简述
 - 核心问题：现有PoQ忽略推理和评估节点的异构计算成本，影响去中心化LLM推理的可扩展性

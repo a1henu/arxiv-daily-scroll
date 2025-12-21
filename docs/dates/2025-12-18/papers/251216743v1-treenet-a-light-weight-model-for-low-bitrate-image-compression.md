@@ -7,14 +7,14 @@ title: TreeNet: A Light Weight Model for Low Bitrate Image Compression
 **arXiv**：[2512.16743v1](https://arxiv.org/abs/2512.16743) · [PDF](https://arxiv.org/pdf/2512.16743.pdf)  
 **作者**：Mahadev Prasad Panda, Purnachandra Rao Makkena, Srivatsa Prativadibhayankaram, Siegfried Fößel, André Kaup  
 
-**一句话要点**：提出TreeNet以解决基于学习的图像压缩模型计算复杂度高的问题
+**一句话要点**：提出TreeNet以解决学习型图像压缩的计算复杂度高问题，适用于低比特率场景。
 
-**关键词**：图像压缩, 低复杂度模型, 二叉树结构, 注意力机制, 低比特率压缩, BD-rate评估
+**关键词**：图像压缩, 低复杂度模型, 二叉树结构, 注意力机制, 低比特率, BD-rate评估
 
 ## 3 点简述
-- 核心问题：基于学习的图像压缩模型计算复杂度高，阻碍广泛应用
-- 方法要点：采用二叉树结构编码器-解码器架构，结合注意力特征融合机制
-- 实验或效果：在低比特率下，BD-rate比JPEG AI平均提升4.83%，模型复杂度降低87.82%
+- 核心问题：学习型图像压缩的计算复杂度高，阻碍广泛应用。
+- 方法要点：采用二叉树结构编码器-解码器架构和注意力特征融合机制。
+- 实验或效果：在低比特率下，BD-rate比JPEG AI平均提升4.83%，模型复杂度降低87.82%。
 
 ## 摘要（原文）
 

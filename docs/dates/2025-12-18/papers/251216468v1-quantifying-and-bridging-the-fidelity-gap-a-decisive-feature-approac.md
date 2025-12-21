@@ -7,14 +7,14 @@ title: Quantifying and Bridging the Fidelity Gap: A Decisive-Feature Approach to
 **arXiv**：[2512.16468v1](https://arxiv.org/abs/2512.16468) · [PDF](https://arxiv.org/pdf/2512.16468.pdf)  
 **作者**：Danial Safaei, Siddartha Khastgir, Mohsen Alirezaei, Jeroen Ploeg, Son Tong, Xingyu Zhao  
 
-**一句话要点**：提出决定性特征保真度以解决合成数据在自动驾驶安全测试中的行为一致性差距
+**一句话要点**：提出决定性特征保真度以解决合成数据在自动驾驶安全测试中的行为保真度不足问题
 
 **关键词**：合成数据保真度, 自动驾驶安全测试, 可解释AI, 决定性特征, 仿真校准, 行为一致性
 
 ## 3 点简述
-- 核心问题：像素级保真度不足确保自动驾驶系统在仿真与真实环境中的决策机制一致
-- 方法要点：利用可解释AI识别并比较系统决策的决定性特征，提出基于反事实解释的估计器
-- 实验或效果：在KITTI-VirtualKITTI2数据集上验证，揭示传统保真度忽略的差异，并指导校准提升保真度
+- 核心问题：像素级保真度不足以保证系统在仿真与真实环境中的决策一致性，缺乏行为基础的保真度度量
+- 方法要点：引入决定性特征保真度，利用可解释AI方法比较系统决策的因果证据，并提出基于反事实解释的估计器
+- 实验或效果：在2126对KITTI-VirtualKITTI2数据上验证，揭示传统保真度忽略的差异，引导校准提升保真度
 
 ## 摘要（原文）
 

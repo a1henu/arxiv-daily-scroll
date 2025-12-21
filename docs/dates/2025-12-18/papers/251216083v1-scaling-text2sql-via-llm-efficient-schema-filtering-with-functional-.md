@@ -9,7 +9,7 @@ title: Scaling Text2SQL via LLM-efficient Schema Filtering with Functional Depen
 
 **一句话要点**：提出基于功能依赖图重排的LLM高效模式过滤框架，以解决大规模数据库Text2SQL提示过长问题。
 
-**关键词**：Text2SQL, 模式过滤, 功能依赖图, 大语言模型, 提示工程, 数据库查询
+**关键词**：Text2SQL, 模式过滤, 功能依赖图, 大语言模型, 提示压缩, 图神经网络
 
 ## 3 点简述
 - 核心问题：现有Text2SQL系统在大型数据库上因模式信息超出LLM上下文限制而失效。

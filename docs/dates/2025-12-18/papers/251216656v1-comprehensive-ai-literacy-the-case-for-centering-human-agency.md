@@ -7,9 +7,9 @@ title: Comprehensive AI Literacy: The Case for Centering Human Agency
 **arXiv**：[2512.16656v1](https://arxiv.org/abs/2512.16656) · [PDF](https://arxiv.org/pdf/2512.16656.pdf)  
 **作者**：Sri Yash Tadimalla, Justin Cary, Gordon Hull, Jordan Register, Daniel Maxwell, David Pugalee, Tina Heafner  
 
-**一句话要点**：提出以人类能动性为中心的全面AI素养框架，以解决教育中AI工具使用与批判伦理思维脱节的问题。
+**一句话要点**：提出以人类能动性为中心的全面AI素养框架，以解决教育中AI工具使用与批判伦理思考的脱节问题。
 
-**关键词**：AI素养, 人类能动性, 批判思维, 教育框架, 伦理推理
+**关键词**：AI素养, 人类能动性, 批判性思维, 教育框架, 伦理推理
 
 ## 3 点简述
 - 核心问题：当前AI教育框架过度强调工具操作技能，忽视批判与伦理推理，导致危险的素养差距。

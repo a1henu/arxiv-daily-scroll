@@ -7,14 +7,14 @@ title: Multimodal RewardBench 2: Evaluating Omni Reward Models for Interleaved T
 **arXiv**：[2512.16899v1](https://arxiv.org/abs/2512.16899) · [PDF](https://arxiv.org/pdf/2512.16899.pdf)  
 **作者**：Yushi Hu, Reyhane Askari-Hemmat, Melissa Hall, Emily Dinan, Luke Zettlemoyer, Marjan Ghazvininejad  
 
-**一句话要点**：提出多模态奖励基准MMRB2以评估处理交错图文序列的全能奖励模型
+**一句话要点**：提出Multimodal RewardBench 2以评估处理交错图文序列的全能奖励模型
 
-**关键词**：多模态奖励模型, 交错图文序列, 基准评估, 专家标注, 模型性能分析, 下游任务关联
+**关键词**：多模态奖励模型, 交错图文序列, 基准评估, 专家标注, 全能模型, 下游任务相关性
 
 ## 3 点简述
-- 核心问题：全能奖励模型在交错图文序列上的评估缺乏全面基准，影响模型训练与优化。
-- 方法要点：构建MMRB2基准，涵盖四个任务，提供专家标注偏好对，采用集成过滤策略确保数据质量。
-- 实验或效果：评估现有模型，Gemini 3 Pro准确率达75-80%，开源模型Qwen3-VL-32B表现接近Gemini 2.5 Flash。
+- 核心问题：全能模型处理交错图文序列的奖励模型评估缺乏基准。
+- 方法要点：构建首个全面基准MMRB2，涵盖四个任务，提供专家标注偏好对。
+- 实验或效果：评估现有模型，Gemini 3 Pro准确率达75-80%，性能与下游任务强相关。
 
 ## 摘要（原文）
 

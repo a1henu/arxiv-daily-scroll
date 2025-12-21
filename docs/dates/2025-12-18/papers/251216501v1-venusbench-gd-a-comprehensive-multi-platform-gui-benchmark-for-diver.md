@@ -9,7 +9,7 @@ title: VenusBench-GD: A Comprehensive Multi-Platform GUI Benchmark for Diverse G
 
 **一句话要点**：提出VenusBench-GD多平台GUI基准，以解决现有基准数据不足、覆盖窄和平台单一的问题。
 
-**关键词**：GUI基准, 跨平台评估, 分层任务分类, 多模态模型, UI元素标注
+**关键词**：GUI基准, 跨平台评估, 分层任务分类, 多模态模型, UI元素定位
 
 ## 3 点简述
 - 核心问题：现有GUI基准数据量小、领域覆盖窄或平台单一，限制GUI代理能力评估。

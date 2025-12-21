@@ -9,7 +9,7 @@ title: ReinforceGen: Hybrid Skill Policies with Automated Data Generation and Re
 
 **一句话要点**：提出ReinforceGen系统，结合任务分解与强化学习微调，以解决机器人长时程操作挑战。
 
-**关键词**：长时程操作, 任务分解, 模仿学习, 强化学习微调, 机器人控制, 运动规划
+**关键词**：长时程操作, 任务分解, 模仿学习, 强化学习微调, 运动规划, 机器人控制
 
 ## 3 点简述
 - 核心问题：机器人长时程操作是长期挑战，需处理复杂任务分解与技能协调。

@@ -7,14 +7,14 @@ title: TIB AIssistant: a Platform for AI-Supported Research Across Research Life
 **arXiv**：[2512.16442v1](https://arxiv.org/abs/2512.16442) · [PDF](https://arxiv.org/pdf/2512.16442.pdf)  
 **作者**：Allard Oelen, Sören Auer  
 
-**一句话要点**：提出TIB AIssistant平台，以AI支持全研究生命周期任务
+**一句话要点**：提出TIB AIssistant平台，通过AI助手支持全研究生命周期任务
 
 **关键词**：AI支持研究, 研究生命周期, 学术平台, RO-Crate, 可重复性
 
 ## 3 点简述
-- 核心问题：AI在学术研究中应用广泛，但缺乏集成平台支持全生命周期任务。
-- 方法要点：平台由多个助手组成，每个负责特定研究任务，并提供工具访问外部学术服务。
-- 实验或效果：通过助手交互生成研究论文草稿部分，数据可导出为RO-Crate包以增强可重复性。
+- 核心问题：AI在学术研究中应用广泛，但缺乏集成平台支持全生命周期任务
+- 方法要点：平台包含多个助手，每个负责特定研究任务，并集成外部学术服务工具
+- 实验或效果：通过助手交互生成研究论文草稿部分，数据可导出为RO-Crate以增强可重复性
 
 ## 摘要（原文）
 

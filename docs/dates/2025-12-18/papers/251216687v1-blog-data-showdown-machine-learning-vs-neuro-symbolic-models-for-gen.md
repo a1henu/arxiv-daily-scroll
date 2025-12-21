@@ -7,14 +7,14 @@ title: Blog Data Showdown: Machine Learning vs Neuro-Symbolic Models for Gender 
 **arXiv**：[2512.16687v1](https://arxiv.org/abs/2512.16687) · [PDF](https://arxiv.org/pdf/2512.16687.pdf)  
 **作者**：Natnael Tilahun Sinshaw, Mengmei He, Tadesse K. Bahiru, Sudhir Kumar Mohapatra  
 
-**一句话要点**：比较机器学习与神经符号模型在博客性别分类中的性能，发现神经符号方法匹配MLP结果。
+**一句话要点**：比较机器学习与神经符号模型在博客性别分类中的性能，发现神经符号方法在小数据集上匹配MLP效果。
 
-**关键词**：性别分类, 神经符号AI, 机器学习比较, 文本表示, 特征提取, 博客数据分析
+**关键词**：性别分类, 机器学习, 神经符号AI, 文本表示, 特征提取, 比较分析
 
 ## 3 点简述
 - 核心问题：博客文本的性别分类，应用于市场分析和推荐系统。
-- 方法要点：对比SVM、NB、LR、AdaBoost、XGBoost、SVM_R与神经符号AI，探索TF-IDF、USE、RoBERTa等文本表示和特征提取技术。
-- 实验或效果：神经符号方法在有限数据集上匹配MLP结果，未来将扩展知识库和超参数配置。
+- 方法要点：对比SVM、NB、LR、AdaBoost、XGBoost、SVM_R与神经符号AI，并探索TF-IDF、USE、RoBERTa等文本表示。
+- 实验或效果：神经符号方法在有限数据集上达到与MLP相当的结果，未来将扩展知识库和超参数配置。
 
 ## 摘要（原文）
 

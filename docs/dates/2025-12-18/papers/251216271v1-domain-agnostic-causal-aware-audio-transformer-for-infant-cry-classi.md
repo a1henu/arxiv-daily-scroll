@@ -7,14 +7,14 @@ title: Domain-Agnostic Causal-Aware Audio Transformer for Infant Cry Classificat
 **arXiv**：[2512.16271v1](https://arxiv.org/abs/2512.16271) · [PDF](https://arxiv.org/pdf/2512.16271.pdf)  
 **作者**：Geofrey Owino, Bernard Shibwabo Kasamani, Ahmed M. Abdelmoniem, Edem Wornyo  
 
-**一句话要点**：提出DACH-TIC模型以解决婴儿哭声分类中的噪声和领域偏移问题。
+**一句话要点**：提出DACH-TIC模型以解决婴儿哭声分类中的噪声、伪线索和域偏移问题。
 
-**关键词**：婴儿哭声分类, 因果注意力, 对抗领域泛化, 多任务学习, 音频Transformer
+**关键词**：婴儿哭声分类, 因果注意力, 对抗域泛化, 多任务学习, 音频Transformer
 
 ## 3 点简述
-- 核心问题：现有方法依赖相关性驱动表示，易受噪声和领域变化影响。
-- 方法要点：集成因果注意力、分层表示学习、多任务监督和对抗领域泛化。
-- 实验或效果：在Baby Chillanto和Donate-a-Cry数据集上优于基线，准确率提升2.6%。
+- 核心问题：现有深度学习方法依赖相关性驱动的声学表示，易受噪声和域偏移影响。
+- 方法要点：集成因果注意力、分层表示学习、多任务监督和对抗域泛化于统一框架。
+- 实验或效果：在Baby Chillanto和Donate-a-Cry数据集上优于基线，准确率提升2.6%，域性能差距仅2.4%。
 
 ## 摘要（原文）
 

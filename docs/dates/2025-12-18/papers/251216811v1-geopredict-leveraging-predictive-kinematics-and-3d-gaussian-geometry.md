@@ -7,14 +7,14 @@ title: GeoPredict: Leveraging Predictive Kinematics and 3D Gaussian Geometry for
 **arXiv**：[2512.16811v1](https://arxiv.org/abs/2512.16811) · [PDF](https://arxiv.org/pdf/2512.16811.pdf)  
 **作者**：Jingjing Qian, Boyao Han, Chen Shi, Lei Xiao, Long Yang, Shaoshuai Shi, Li Jiang  
 
-**一句话要点**：提出GeoPredict框架，通过预测运动学和3D几何先验增强VLA模型，以解决精确3D操作任务中的不可靠性问题。
+**一句话要点**：提出GeoPredict框架，通过预测运动学和3D几何先验增强VLA模型，以解决机器人操作中精确3D推理的不可靠问题。
 
-**关键词**：视觉-语言-动作模型, 3D几何预测, 机器人操作, 运动学先验, 高斯几何, 轨迹预测
+**关键词**：视觉-语言-动作模型, 3D几何预测, 机器人操作, 预测运动学, 高斯几何, 训练监督
 
 ## 3 点简述
-- 核心问题：现有VLA模型在机器人操作中多为反应式和2D中心化，在需要精确3D推理的任务中不可靠。
-- 方法要点：引入轨迹级模块预测机器人手臂的3D关键点轨迹，以及预测性3D高斯几何模块沿轨迹预测工作空间几何。
-- 实验或效果：在RoboCasa Human-50、LIBERO和真实世界任务中，GeoPredict优于基线，尤其在几何密集和空间要求高的场景。
+- 核心问题：VLA模型在机器人操作中多为反应式和2D中心，缺乏精确3D推理能力，导致在几何密集和空间要求高的任务中不可靠。
+- 方法要点：引入轨迹级模块预测机器人手臂多步3D关键点轨迹，以及预测性3D高斯几何模块沿轨迹预测工作空间几何，仅用于训练监督，推理时仅需轻量查询令牌。
+- 实验或效果：在RoboCasa Human-50、LIBERO和真实世界任务中，GeoPredict持续超越强VLA基线，尤其在几何密集和空间要求高的场景中表现优异。
 
 ## 摘要（原文）
 

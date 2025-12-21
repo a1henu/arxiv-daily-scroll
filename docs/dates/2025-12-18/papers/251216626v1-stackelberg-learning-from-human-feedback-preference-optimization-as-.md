@@ -14,7 +14,7 @@ title: Stackelberg Learning from Human Feedback: Preference Optimization as a Se
 ## 3 点简述
 - 核心问题：传统RLHF和NLHF在捕捉复杂偏好结构方面存在局限，如非传递性偏好。
 - 方法要点：将偏好优化分解为Leader策略优化和Follower策略精炼的序列博弈，支持推理时迭代改进。
-- 实验或效果：在大型语言模型上验证，实现强对齐、参数可扩展性及跨模型推理精炼迁移。
+- 实验效果：在大型语言模型上验证了SLHF的强对齐性、可扩展性和跨模型迁移能力。
 
 ## 摘要（原文）
 

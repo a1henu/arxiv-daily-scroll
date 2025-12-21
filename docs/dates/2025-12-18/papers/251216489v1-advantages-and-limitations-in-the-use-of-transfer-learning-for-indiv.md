@@ -7,14 +7,14 @@ title: Advantages and limitations in the use of transfer learning for individual
 **arXiv**：[2512.16489v1](https://arxiv.org/abs/2512.16489) · [PDF](https://arxiv.org/pdf/2512.16489.pdf)  
 **作者**：Seyda Betul Aydin, Holger Brandt  
 
-**一句话要点**：提出TL-TARNet，通过迁移学习改进小样本个体治疗效果估计
+**一句话要点**：提出TL-TARNet，通过迁移学习改进小样本中个体处理效应的估计
 
-**关键词**：个体治疗效果, 迁移学习, 因果机器学习, 小样本估计, TARNet
+**关键词**：个体处理效应, 迁移学习, 因果机器学习, 小样本估计, TARNet
 
 ## 3 点简述
-- 核心问题：小样本下个体治疗效果估计偏差大，外部有效性受限
-- 方法要点：基于TARNet，利用源数据集知识迁移至目标环境
-- 实验或效果：模拟和实证显示迁移学习减少误差和偏差，提升估计准确性
+- 核心问题：小样本下个体处理效应估计受限，外部有效性挑战大
+- 方法要点：基于TARNet，利用迁移学习从源数据集迁移知识到目标设置
+- 实验或效果：模拟和实证显示TL-TARNet减少误差和偏差，提升估计准确性
 
 ## 摘要（原文）
 

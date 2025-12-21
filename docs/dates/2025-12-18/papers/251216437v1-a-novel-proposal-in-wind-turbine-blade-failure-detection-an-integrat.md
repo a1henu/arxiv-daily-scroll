@@ -7,14 +7,14 @@ title: A Novel Proposal in Wind Turbine Blade Failure Detection: An Integrated A
 **arXiv**：[2512.16437v1](https://arxiv.org/abs/2512.16437) · [PDF](https://arxiv.org/pdf/2512.16437.pdf)  
 **作者**：Jordan Abarca-Albores, Danna Cristina Gutiérrez Cabrera, Luis Antonio Salazar-Licea, Dante Ruiz-Robles, Jesus Alejandro Franco, Alberto-Jesus Perea-Moreno, David Muñoz-Rodríguez, Quetzalcoatl Hernandez-Escobedo  
 
-**一句话要点**：提出集成计算学习方法的故障检测新方案，以提升风力涡轮机叶片早期故障识别能力。
+**一句话要点**：提出集成计算学习方法的故障检测方案，以提升风力涡轮机叶片早期故障识别的可靠性与能效。
 
-**关键词**：风力涡轮机叶片故障检测, 计算学习方法, 逻辑回归, 聚类分析, 能源效率, Orange Data Mining
+**关键词**：风力涡轮机叶片故障检测, 计算学习方法, 逻辑回归, 聚类分析, 能源效率, 可持续性
 
 ## 3 点简述
-- 核心问题：风力涡轮机叶片故障检测，旨在提高系统可靠性和能源效率。
-- 方法要点：评估逻辑回归和聚类两种模型，逻辑回归在监督学习中表现最佳，聚类在数据分割上更优。
-- 实验或效果：逻辑回归优于神经网络、决策树和朴素贝叶斯，聚类方法可能更好地捕捉数据特征，使用Orange Data Mining工具实现。
+- 核心问题：风力涡轮机叶片故障检测，需提高早期识别准确性和系统可靠性。
+- 方法要点：评估逻辑回归和聚类模型，逻辑回归优于神经网络等方法，聚类在精度和数据分割上表现更优。
+- 实验或效果：聚类可能比监督方法更好地捕捉数据特征，使用Orange Data Mining工具实现实际应用。
 
 ## 摘要（原文）
 

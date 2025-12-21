@@ -7,13 +7,13 @@ title: Instant Expressive Gaussian Head Avatar via 3D-Aware Expression Distillat
 **arXiv**：[2512.16893v1](https://arxiv.org/abs/2512.16893) · [PDF](https://arxiv.org/pdf/2512.16893.pdf)  
 **作者**：Kaiwen Jiang, Xueting Li, Seonwook Park, Ravi Ramamoorthi, Shalini De Mello, Koki Nagano  
 
-**一句话要点**：提出基于3D感知表达蒸馏的即时高斯头像，以结合2D扩散模型细节与3D一致性及速度优势。
+**一句话要点**：提出基于3D感知表达蒸馏的即时高斯头像，以结合2D扩散模型与3D表示的优势。
 
 **关键词**：肖像动画, 3D感知蒸馏, 高斯头像, 前馈编码器, 局部融合策略
 
 ## 3 点简述
-- 核心问题：2D肖像动画方法牺牲3D一致性和速度，而3D方法表达细节不足。
-- 方法要点：从2D扩散模型蒸馏知识到前馈编码器，实现单图到3D一致、快速且表达丰富的动画表示。
+- 核心问题：2D肖像动画方法牺牲3D一致性与速度，而3D方法表达细节不足。
+- 方法要点：从2D扩散模型蒸馏知识到前馈编码器，实现单图像到3D一致、快速且表达丰富的动画表示。
 - 实验或效果：运行速度达107.31 FPS，动画质量与最先进方法相当，超越速度与质量的权衡设计。
 
 ## 摘要（原文）

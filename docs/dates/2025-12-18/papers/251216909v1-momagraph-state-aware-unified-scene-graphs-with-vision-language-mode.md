@@ -9,12 +9,12 @@ title: MomaGraph: State-Aware Unified Scene Graphs with Vision-Language Model fo
 
 **一句话要点**：提出MomaGraph统一场景图表示，集成空间功能关系与部件交互，用于具身任务规划。
 
-**关键词**：具身任务规划, 场景图表示, 视觉语言模型, 强化学习, 家庭环境, 零样本规划
+**关键词**：具身任务规划, 场景图表示, 视觉语言模型, 强化学习, 家庭环境数据集, 零样本规划
 
 ## 3 点简述
 - 核心问题：现有场景图分离空间功能关系，忽略对象状态、时间更新和任务相关信息。
-- 方法要点：引入MomaGraph统一表示，并开发数据集MomaGraph-Scenes、评估套件MomaGraph-Bench和模型MomaGraph-R1。
-- 实验或效果：MomaGraph-R1在基准测试中达到71.6%准确率，优于开源模型，并泛化到真实机器人实验。
+- 方法要点：引入MomaGraph统一表示，并贡献数据集MomaGraph-Scenes和评估套件MomaGraph-Bench。
+- 实验或效果：训练模型MomaGraph-R1，在基准测试中达到71.6%准确率，优于基线并泛化到真实机器人实验。
 
 ## 摘要（原文）
 

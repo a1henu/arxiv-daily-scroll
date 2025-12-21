@@ -7,14 +7,14 @@ title: Plausibility as Failure: How LLMs and Humans Co-Construct Epistemic Error
 **arXiv**：[2512.16750v1](https://arxiv.org/abs/2512.16750) · [PDF](https://arxiv.org/pdf/2512.16750.pdf)  
 **作者**：Claudia Vale Oliveira, Nelson Zagalo, Filipe Silva, Anabela Brandao, Syeda Faryal Hussain Khurrum, Joaquim Santos  
 
-**一句话要点**：揭示LLM与人类在交互中共同构建认知错误，通过关系性解释过程评估AI认知失败。
+**一句话要点**：揭示LLM与人类在交互中共同构建认知错误，强调评估作为关系性解释过程。
 
-**关键词**：大语言模型, 认知错误, 人机交互, 评估框架, 解释性分析, 可信度判断
+**关键词**：大语言模型评估, 认知错误, 人机交互, 解释性分析, 可信度判断
 
 ## 3 点简述
 - 核心问题：LLM错误从预测性转向解释性，语言流畅性和表面合理性掩盖深层意义扭曲。
-- 方法要点：采用三轮多LLM评估，结合跨学科任务和渐进评估框架，分析人类对模型响应的解释。
-- 实验或效果：发现评估者混淆标准，依赖表面线索，导致错误答案被误认为可信，验证负担和认知漂移增加。
+- 方法要点：采用三轮多LLM评估，通过跨学科任务和渐进评估框架观察人类对模型响应的解释。
+- 实验或效果：发现评估者混淆标准，依赖表面线索，导致错误答案被误认为可信，显示错误是共同构建的结果。
 
 ## 摘要（原文）
 

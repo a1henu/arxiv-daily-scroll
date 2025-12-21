@@ -7,13 +7,13 @@ title: Sketch-in-Latents: Eliciting Unified Reasoning in MLLMs
 **arXiv**：[2512.16584v1](https://arxiv.org/abs/2512.16584) · [PDF](https://arxiv.org/pdf/2512.16584.pdf)  
 **作者**：Jintao Tong, Jiaqi Gu, Yujing Lou, Lubin Fan, Yixiong Zou, Yue Wu, Jieping Ye, Ruixuan Li  
 
-**一句话要点**：提出Sketch-in-Latents以统一多模态推理，通过生成潜在视觉嵌入作为视觉思维
+**一句话要点**：提出Sketch-in-Latents以在统一特征空间中实现多模态推理的视觉想象
 
-**关键词**：多模态大语言模型, 视觉想象, 潜在空间推理, 草图生成, 统一特征空间
+**关键词**：多模态大语言模型, 视觉想象, 统一推理空间, 连续视觉嵌入, 自回归生成
 
 ## 3 点简述
 - 核心问题：MLLMs在需要视觉想象的场景中表现不足，缺乏统一的视觉-文本推理空间
-- 方法要点：扩展MLLMs的自回归能力，动态生成潜在草图令牌作为视觉思维，结合文本推理模式
+- 方法要点：扩展MLLMs的自回归能力，动态生成连续视觉嵌入作为视觉思维，无需外部工具
 - 实验或效果：在视觉中心任务上表现优异，并泛化到多种多模态基准测试
 
 ## 摘要（原文）

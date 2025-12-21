@@ -13,7 +13,7 @@ title: ParamExplorer: A framework for exploring parameters in generative art
 
 ## 3 点简述
 - 生成艺术系统常涉及高维复杂参数空间，美学输出仅占小区域，导致探索困难
-- ParamExplorer为交互式模块化框架，受强化学习启发，支持人机协作或自动反馈引导探索
+- ParamExplorer为交互式模块化框架，受强化学习启发，支持人机协同或自动反馈引导探索
 - 框架集成p5.js，实现并评估多种探索策略（称为代理）
 
 ## 摘要（原文）

@@ -7,14 +7,14 @@ title: WeMusic-Agent: Efficient Conversational Music Recommendation via Knowledg
 **arXiv**：[2512.16108v1](https://arxiv.org/abs/2512.16108) · [PDF](https://arxiv.org/pdf/2512.16108.pdf)  
 **作者**：Wendong Bi, Yirong Mao, Xianglong Liu, Kai Tian, Jian Zhang, Hanjie Wang, Wenhui Que  
 
-**一句话要点**：提出WeMusic-Agent框架，通过知识内化与代理边界学习优化对话式音乐推荐效率
+**一句话要点**：提出WeMusic-Agent框架以解决对话式音乐推荐中知识内化与工具调用的平衡问题
 
-**关键词**：对话式音乐推荐, 知识内化, 代理边界学习, LLM训练框架, 音乐推荐基准
+**关键词**：对话式音乐推荐, 知识内化, 代理边界学习, 大语言模型训练, 音乐推荐基准
 
 ## 3 点简述
-- 核心问题：对话式音乐推荐需平衡领域知识与工具调用，现有方法效率不足
-- 方法要点：结合知识内化（50B语料预训练）与代理边界学习，智能决策知识使用与工具调用
-- 实验或效果：在真实数据上显著超越现有模型，并构建开源基准用于多维度评估
+- 核心问题：对话式音乐推荐需平衡专业音乐知识与灵活工具集成，现有方法常难以兼顾
+- 方法要点：通过知识内化与代理边界学习，训练模型智能决策何时使用内部知识或调用外部工具
+- 实验或效果：在真实数据上实验显示，WeMusic-Agent显著优于现有模型，并构建了开源基准
 
 ## 摘要（原文）
 

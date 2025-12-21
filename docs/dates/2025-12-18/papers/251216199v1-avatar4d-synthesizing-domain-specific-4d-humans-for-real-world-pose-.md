@@ -7,14 +7,14 @@ title: Avatar4D: Synthesizing Domain-Specific 4D Humans for Real-World Pose Esti
 **arXiv**：[2512.16199v1](https://arxiv.org/abs/2512.16199) · [PDF](https://arxiv.org/pdf/2512.16199.pdf)  
 **作者**：Jerrin Bright, Zhibo Wang, Dmytro Klepachevskyi, Yuhao Chen, Sirisha Rambhatla, David Clausi, John Zelek  
 
-**一句话要点**：提出Avatar4D以生成领域特定4D人体运动数据集，用于真实世界姿态估计
+**一句话要点**：提出Avatar4D以生成领域特定4D人体运动数据，用于真实世界姿态估计
 
-**关键词**：4D人体合成, 姿态估计, 合成数据集, 领域自适应, 体育动作分析, 零样本迁移
+**关键词**：4D人体合成, 姿态估计, 合成数据生成, 领域适应, 体育动作分析
 
 ## 3 点简述
-- 核心问题：现有合成数据集缺乏对领域特定动作的精细控制和灵活性，难以适应如体育等复杂场景。
-- 方法要点：Avatar4D提供对姿态、外观、视角和环境的可控生成，无需人工标注，支持高保真4D序列。
-- 实验或效果：在Syn2Sport数据集上验证了模型在监督学习、零样本迁移和跨体育泛化中的有效性，并评估了合成与真实数据的特征对齐。
+- 核心问题：现有合成数据缺乏领域特定运动控制，难以适应如体育等应用场景。
+- 方法要点：提供细粒度控制，包括姿态、外观、视角和环境，无需手动标注。
+- 实验或效果：在Syn2Sport数据集上验证，支持监督学习、零样本迁移和跨体育泛化。
 
 ## 摘要（原文）
 

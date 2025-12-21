@@ -7,14 +7,14 @@ title: CLARiTy: A Vision Transformer for Multi-Label Classification and Weakly-S
 **arXiv**：[2512.16700v1](https://arxiv.org/abs/2512.16700) · [PDF](https://arxiv.org/pdf/2512.16700.pdf)  
 **作者**：John M. Statheros, Hairong Wang, Richard Klein  
 
-**一句话要点**：提出CLARiTy视觉Transformer，用于胸部X光多标签分类和弱监督定位。
+**一句话要点**：提出CLARiTy视觉Transformer，用于胸部X光多标签分类与弱监督定位，解决标注稀缺问题。
 
 **关键词**：胸部X光分析, 多标签分类, 弱监督定位, 视觉Transformer, 注意力机制, 背景抑制
 
 ## 3 点简述
-- 核心问题：胸部X光多标签分类和空间定位面临区域级标注稀缺的挑战。
-- 方法要点：采用类特定令牌和SegmentCAM模块，结合解剖先验进行前景分割和背景抑制。
-- 实验或效果：在NIH ChestX-ray14数据集上，分类性能竞争性强，弱监督定位性能领先，对小病灶提升显著。
+- 核心问题：胸部X光多标签分类与定位任务受限于区域级标注稀缺，需不同粒度标注。
+- 方法要点：采用类特定令牌生成注意力图，SegmentCAM模块结合解剖先验进行前景分割与背景抑制。
+- 实验或效果：在NIH ChestX-ray14数据集上，分类性能竞争，弱监督定位在8种病理上领先50.7%，小病理如结节提升显著。
 
 ## 摘要（原文）
 

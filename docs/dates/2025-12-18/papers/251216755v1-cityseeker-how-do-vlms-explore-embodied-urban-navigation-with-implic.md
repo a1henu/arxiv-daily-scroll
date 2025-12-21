@@ -9,7 +9,7 @@ title: CitySeeker: How Do VLMS Explore Embodied Urban Navigation With Implicit H
 
 **一句话要点**：提出CitySeeker基准以评估VLM在隐含需求下的城市导航能力
 
-**关键词**：视觉语言模型, 城市导航, 隐含需求, 空间推理, 基准评估, 认知映射
+**关键词**：隐含需求导航, 城市环境探索, 空间推理评估, 长视野决策, 视觉语言模型基准, 认知映射策略
 
 ## 3 点简述
 - 核心问题：VLM在动态城市环境中处理隐含人类需求（如“我渴了”）的能力不足

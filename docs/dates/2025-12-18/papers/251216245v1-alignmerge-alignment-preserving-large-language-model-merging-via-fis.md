@@ -9,7 +9,7 @@ title: AlignMerge - Alignment-Preserving Large Language Model Merging via Fisher
 
 **一句话要点**：提出AlignMerge框架，通过Fisher引导的几何约束实现对齐保持的大语言模型合并。
 
-**关键词**：大语言模型合并, 对齐保持, Fisher几何, 几何约束优化, 安全模型融合
+**关键词**：大语言模型合并, 对齐保持, Fisher几何, 安全约束, 模型融合, 几何优化
 
 ## 3 点简述
 - 核心问题：标准模型合并方法可能破坏对齐性，导致安全风险。
