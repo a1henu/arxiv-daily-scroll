@@ -13,7 +13,7 @@ title: ThinkDrive: Chain-of-Thought Guided Progressive Reinforcement Learning Fi
 
 ## 3 点简述
 - 现有方法存在推理无结构、泛化差和与人类驾驶意图不对齐的问题。
-- 采用两阶段训练：先基于思维链进行监督微调，再结合难度感知自适应策略优化进行渐进强化学习。
+- 采用两阶段训练：先用思维链进行监督微调，再结合难度感知自适应策略优化进行渐进强化学习。
 - 在公开数据集上，ThinkDrive在多项指标上超越强基线，且小模型性能优于大模型GPT-4o。
 
 ## 摘要（原文）

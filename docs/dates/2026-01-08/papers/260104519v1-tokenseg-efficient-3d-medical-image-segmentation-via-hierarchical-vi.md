@@ -14,7 +14,7 @@ title: TokenSeg: Efficient 3D Medical Image Segmentation via Hierarchical Visual
 ## 3 点简述
 - 核心问题：3D医学图像分割计算量大，冗余处理多，需提升效率。
 - 方法要点：设计多尺度分层编码器、边界感知令牌化器和稀疏到密集解码器。
-- 实验效果：在乳腺癌DCE-MRI数据集上达到94.49% Dice，降低GPU内存和推理延迟64%和68%。
+- 实验效果：在乳腺癌DCE-MRI数据集上达到94.49% Dice，降低内存和延迟64%和68%。
 
 ## 摘要（原文）
 

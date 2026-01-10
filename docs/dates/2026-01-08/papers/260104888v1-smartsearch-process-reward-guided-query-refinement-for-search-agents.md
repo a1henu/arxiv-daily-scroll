@@ -9,7 +9,7 @@ title: SmartSearch: Process Reward-Guided Query Refinement for Search Agents
 
 **一句话要点**：提出SmartSearch框架，通过过程奖励和查询优化提升基于大语言模型的搜索代理性能。
 
-**关键词**：搜索代理, 查询优化, 过程奖励, 课程学习, 大语言模型
+**关键词**：搜索代理, 过程奖励, 查询优化, 课程学习, 大语言模型
 
 ## 3 点简述
 - 核心问题：现有搜索代理在推理过程中生成的中间搜索查询质量不佳，影响检索效果和整体性能。

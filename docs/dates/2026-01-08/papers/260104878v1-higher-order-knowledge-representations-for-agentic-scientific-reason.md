@@ -7,7 +7,7 @@ title: Higher-Order Knowledge Representations for Agentic Scientific Reasoning
 **arXiv**：[2601.04878v1](https://arxiv.org/abs/2601.04878) · [PDF](https://arxiv.org/pdf/2601.04878.pdf)  
 **作者**：Isabella A. Stewart, Markus J. Buehler  
 
-**一句话要点**：提出超图知识表示方法，解决科学推理中高阶交互建模问题
+**一句话要点**：提出超图知识表示方法，解决科学推理中高阶关系建模问题
 
 **关键词**：超图表示, 科学推理, 知识图谱, 智能体系统, 生物复合材料
 

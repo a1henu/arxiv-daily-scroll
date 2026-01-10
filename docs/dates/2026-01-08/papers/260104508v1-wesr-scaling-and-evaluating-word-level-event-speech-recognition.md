@@ -7,14 +7,14 @@ title: WESR: Scaling and Evaluating Word-level Event-Speech Recognition
 **arXiv**：[2601.04508v1](https://arxiv.org/abs/2601.04508) · [PDF](https://arxiv.org/pdf/2601.04508.pdf)  
 **作者**：Chenchen Yang, Kexin Huang, Liwei Fan, Qian Tu, Botian Jiang, Dong Zhang, Linqi Yin, Shimin Li, Zhaoye Fei, Qinyuan Cheng, Xipeng Qiu  
 
-**一句话要点**：提出WESR以解决非语言声音事件识别中的分类与定位挑战，并建立标准化评估基准。
+**一句话要点**：提出WESR以解决非语言声音事件识别中的分类与评估挑战
 
-**关键词**：声音事件识别, 非语言声音分类, 评估基准构建, 语音处理, 时间定位
+**关键词**：声音事件识别, 评估基准, 语音处理, 非语言事件检测, 多模态学习
 
 ## 3 点简述
-- 核心问题：现有方法在非语言声音事件识别中分类覆盖不足、时间粒度模糊，且缺乏标准化评估框架。
-- 方法要点：基于21类声音事件的新分类法，构建WESR-Bench评估集，并训练专用模型以提升检测精度。
-- 实验或效果：在1,700+小时语料上训练模型，超越开源和商业API，同时保持语音识别质量。
+- 核心问题：现有方法在非语言声音事件识别中分类覆盖不足、时间粒度模糊且缺乏标准化评估框架。
+- 方法要点：构建包含21类声音事件的精细分类法，区分离散与连续事件，并开发WESR-Bench评估集以分离ASR错误。
+- 实验或效果：基于1700+小时语料训练模型，在事件检测上超越开源模型和商业API，同时保持ASR质量。
 
 ## 摘要（原文）
 

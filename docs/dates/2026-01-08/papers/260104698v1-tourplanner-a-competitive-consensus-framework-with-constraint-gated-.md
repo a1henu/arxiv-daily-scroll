@@ -7,14 +7,14 @@ title: TourPlanner: A Competitive Consensus Framework with Constraint-Gated Rein
 **arXiv**：[2601.04698v1](https://arxiv.org/abs/2601.04698) · [PDF](https://arxiv.org/pdf/2601.04698.pdf)  
 **作者**：Yinuo Wang, Mining Tan, Wenxiang Jiao, Xiaoxi Li, Hao Wang, Xuanyu Zhang, Yuan Lu, Weiming Dong  
 
-**一句话要点**：提出TourPlanner框架，结合多路径推理与约束门控强化学习以解决旅行规划中的决策挑战
+**一句话要点**：提出TourPlanner框架，结合多路径推理与约束门控强化学习以解决旅行规划中的候选点筛选、解空间探索和约束优化难题。
 
-**关键词**：旅行规划, 多路径推理, 约束门控强化学习, 空间优化, 竞争共识, 个性化召回
+**关键词**：旅行规划, 多路径推理, 约束优化, 强化学习, 候选点筛选, 解空间探索
 
 ## 3 点简述
-- 核心问题：旅行规划需平衡候选POI剪枝与高召回率、单一路径限制解空间探索、硬约束与软约束同时优化。
-- 方法要点：采用PReSO工作流构建空间感知候选集，CCoT多路径推理增强解空间探索，集成sigmoid门控机制于强化学习阶段。
-- 实验或效果：在旅行规划基准测试中实现最优性能，显著提升可行性与用户偏好对齐。
+- 核心问题：旅行规划面临候选点兴趣筛选、单一路径限制解空间探索及硬软约束同时优化的挑战。
+- 方法要点：采用PReSO工作流构建空间感知候选集，CCoT多路径推理增强探索能力，并集成sigmoid门控机制于强化学习阶段。
+- 实验或效果：在旅行规划基准测试中实现最优性能，显著提升可行性与用户偏好对齐度。
 
 ## 摘要（原文）
 

@@ -7,13 +7,13 @@ title: HyperAlign: Hyperbolic Entailment Cones for Adaptive Text-to-Image Alignm
 **arXiv**：[2601.04614v1](https://arxiv.org/abs/2601.04614) · [PDF](https://arxiv.org/pdf/2601.04614.pdf)  
 **作者**：Wenzhi Chen, Bo Hu, Leida Li, Lihuo He, Wen Lu, Xinbo Gao  
 
-**一句话要点**：提出HyperAlign框架，基于双曲几何自适应评估文本到图像生成的对齐质量
+**一句话要点**：提出HyperAlign框架，基于双曲蕴含几何自适应评估文本到图像生成的对齐度
 
-**关键词**：文本到图像对齐评估, 双曲几何, 自适应调制, 蕴含建模, CLIP特征映射
+**关键词**：文本到图像对齐评估, 双曲几何, 自适应调制, 蕴含建模, CLIP特征
 
 ## 3 点简述
 - 核心问题：现有方法依赖欧氏空间度量，忽略语义对齐的结构性，且缺乏对不同样本的自适应能力
-- 方法要点：将CLIP特征映射到双曲空间，设计动态监督蕴含建模机制，并引入自适应调制回归器校准相似度
+- 方法要点：提取CLIP特征映射到双曲空间，设计动态监督蕴含建模机制，并引入自适应调制回归器校准相似度
 - 实验或效果：在单数据库评估和跨数据库泛化任务中表现优异，验证双曲几何建模的有效性
 
 ## 摘要（原文）

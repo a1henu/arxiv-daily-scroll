@@ -7,14 +7,14 @@ title: Design and Development of Modular Limbs for Reconfigurable Robots on the 
 **arXiv**：[2601.04541v1](https://arxiv.org/abs/2601.04541) · [PDF](https://arxiv.org/pdf/2601.04541.pdf)  
 **作者**：Gustavo H. Diaz, A. Sejal Jain, Matteo Brugnera, Elian Neppel, Shreya Santra, Kentaro Uno, Kazuya Yoshida  
 
-**一句话要点**：提出4自由度模块化机器人肢体，用于月球探索中的可重构机器人系统。
+**一句话要点**：提出4自由度模块化机器人肢体Moonbots，用于月球探索中的可重构机器人系统。
 
 **关键词**：模块化机器人, 月球探索, 可重构系统, 执行器设计, 机器人控制
 
 ## 3 点简述
 - 核心问题：在资源受限的月球任务中，机器人需要灵活适应不同环境和任务。
 - 方法要点：设计统一高扭矩比执行器，支持模块化连接和多种配置组装。
-- 实验或效果：评估执行器控制性能，展示九种功能配置以验证系统适应性。
+- 实验或效果：评估执行器控制性能，展示九种功能配置如四足和车辆形态。
 
 ## 摘要（原文）
 

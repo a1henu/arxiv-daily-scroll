@@ -9,7 +9,7 @@ title: SampoNLP: A Self-Referential Toolkit for Morphological Analysis of Subwor
 
 **一句话要点**：提出SampoNLP工具包，通过自参考原子性评分创建形态学词典，以评估乌拉尔语系子词分词器。
 
-**关键词**：子词分词, 形态学分析, 自参考评分, 低资源语言, BPE评估, 词汇量优化
+**关键词**：子词分词, 形态学分析, 自参考评分, 乌拉尔语系, BPE评估, 低资源语言
 
 ## 3 点简述
 - 核心问题：乌拉尔语系等形态丰富语言缺乏干净形态学词典，阻碍子词分词器评估。

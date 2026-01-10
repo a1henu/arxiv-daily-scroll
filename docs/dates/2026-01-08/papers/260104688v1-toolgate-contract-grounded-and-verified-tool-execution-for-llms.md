@@ -7,14 +7,14 @@ title: ToolGate: Contract-Grounded and Verified Tool Execution for LLMs
 **arXiv**：[2601.04688v1](https://arxiv.org/abs/2601.04688) · [PDF](https://arxiv.org/pdf/2601.04688.pdf)  
 **作者**：Yanming Liu, Xinyue Peng, Jiannan Cao, Xinyi Wang, Songhang Deng, Jintao Chen, Jianwei Yin, Xuhong Zhang  
 
-**一句话要点**：提出ToolGate框架，通过合约式工具执行保障LLM工具调用的逻辑安全与可验证性
+**一句话要点**：提出ToolGate框架，通过合约式验证保障LLM工具调用的逻辑安全与状态可验证性
 
-**关键词**：大语言模型工具调用, 形式化验证, 逻辑安全, 符号状态空间, Hoare合约, 可验证执行
+**关键词**：大语言模型工具调用, 形式化验证, 符号状态管理, Hoare合约, 可验证推理, 逻辑安全
 
 ## 3 点简述
-- 现有LLM工具调用框架依赖自然语言推理，缺乏逻辑安全的形式化保证
-- ToolGate采用Hoare式合约形式化工具，通过前置条件门控调用、后置条件验证结果
-- 实验表明该框架显著提升工具增强LLM系统的可靠性与可验证性，保持多步推理性能
+- 现有LLM工具调用框架依赖自然语言推理，缺乏形式化逻辑安全保证
+- ToolGate采用Hoare式合约（前置/后置条件）验证工具执行，维护显式符号状态空间
+- 实验表明该框架显著提升工具增强LLM系统的可靠性与可验证性
 
 ## 摘要（原文）
 

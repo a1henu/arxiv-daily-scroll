@@ -7,13 +7,13 @@ title: Succeeding at Scale: Automated Multi-Retriever Fusion and Query-Side Adap
 **arXiv**：[2601.04646v1](https://arxiv.org/abs/2601.04646) · [PDF](https://arxiv.org/pdf/2601.04646.pdf)  
 **作者**：Prateek Jain, Shabari S Nair, Ritesh Goru, Prakhar Agarwal, Ajay Yadav, Yoga Sri Varshan Varadharajan, Constantine Caramanis  
 
-**一句话要点**：提出融合检索与查询端适应策略，以解决多租户搜索中标签缺失和模型更新成本高的问题。
+**一句话要点**：提出融合检索与查询端适应方法，以解决多租户搜索中数据标注缺失和模型更新成本高的问题。
 
 **关键词**：多租户搜索, 检索融合, 查询端适应, 低秩适应, 自动标注, 企业搜索
 
 ## 3 点简述
-- 核心问题：多租户检索系统缺乏标注数据，且联合微调编码器需重索引，成本高昂。
-- 方法要点：采用融合候选生成和LLM一致性过滤，仅微调查询编码器以保持索引不变。
+- 核心问题：多租户检索系统缺乏标注数据，且联合微调编码器需重新索引，成本高昂。
+- 方法要点：采用融合检索策略和LLM评估，并仅微调查询编码器以保持文档索引不变。
 - 实验或效果：在DevRev Search和SciFact基准上验证，实现性能提升与效率平衡。
 
 ## 摘要（原文）

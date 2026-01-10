@@ -14,7 +14,7 @@ title: Forge-and-Quench: Enhancing Image Generation for Higher Fidelity in Unifi
 ## 3 点简述
 - 核心问题：统一多模态模型中理解如何有效辅助图像生成保真度与细节丰富性
 - 方法要点：利用MLLM推理生成增强文本指令，通过Bridge Adapter映射为Bridge Feature视觉引导信号
-- 实验或效果：在多个模型上显著提升图像保真度和细节，保持指令跟随准确性，节省训练开销
+- 实验或效果：在多个模型上显著提升图像保真度和细节，保持指令跟随准确性并增强世界知识应用
 
 ## 摘要（原文）
 

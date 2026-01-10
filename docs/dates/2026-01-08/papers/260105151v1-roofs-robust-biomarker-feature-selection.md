@@ -7,14 +7,14 @@ title: ROOFS: RObust biOmarker Feature Selection
 **arXiv**：[2601.05151v1](https://arxiv.org/abs/2601.05151) · [PDF](https://arxiv.org/pdf/2601.05151.pdf)  
 **作者**：Anastasiia Bakhmach, Paul Dufossé, Andrea Vaglio, Florence Monville, Laurent Greillier, Fabrice Barlési, Sébastien Benzekry  
 
-**一句话要点**：提出ROOFS软件包以解决生物医学数据中特征选择方法的适配性问题
+**一句话要点**：提出ROOFS软件包以解决生物医学数据中特征选择方法的适配问题
 
 **关键词**：特征选择, 生物医学数据分析, 软件包, 基准测试, 临床模型, 鲁棒性
 
 ## 3 点简述
 - 核心问题：生物医学数据集特征选择面临高维、小样本、多重共线性和缺失值等挑战，方法性能因数据集和任务而异。
-- 方法要点：ROOFS通过基准测试多种特征选择方法，生成包含预测性能、稳定性、特征可靠性等综合评估指标的报告。
-- 实验或效果：在PIONeeR临床试验数据中，评估23种特征选择方法和11种分类器，发现基于t检验和逻辑回归p值联合的过滤方法优于LASSO等常用方法。
+- 方法要点：ROOFS通过基准测试多种特征选择方法，生成包含预测性能、稳定性、特征可靠性等综合评估报告。
+- 实验或效果：在PIONeeR临床试验数据中，评估23种方法结合11个分类器，识别出基于t检验和逻辑回归p值联合的过滤器为最优方法。
 
 ## 摘要（原文）
 

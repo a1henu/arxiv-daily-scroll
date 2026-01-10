@@ -7,14 +7,14 @@ title: Measuring and Fostering Peace through Machine Learning and Artificial Int
 **arXiv**：[2601.05232v1](https://arxiv.org/abs/2601.05232) · [PDF](https://arxiv.org/pdf/2601.05232.pdf)  
 **作者**：P. Gilda, P. Dungarwal, A. Thongkham, E. T. Ajayi, S. Choudhary, T. M. Terol, C. Lam, J. P. Araujo, M. McFadyen-Mungalln, L. S. Liebovitch, P. T. Coleman, H. West, K. Sieck, S. Carter  
 
-**一句话要点**：提出基于机器学习的和平测量工具与Chrome扩展，以分析新闻和社交媒体并促进和平沟通。
+**一句话要点**：提出基于机器学习的和平测量与促进工具，应用于新闻和社交媒体分析
 
-**关键词**：和平测量, 机器学习, 社交媒体分析, 神经网络, 实时反馈工具, 内容偏见
+**关键词**：和平测量, 社交媒体分析, 神经网络, 实时反馈工具, 文本嵌入, 内容偏见
 
 ## 3 点简述
-- 核心问题：如何从新闻和社交媒体中测量和平水平，并应对内容创作者偏向情感激活以增加点击的问题。
-- 方法要点：使用神经网络分析新闻文本嵌入，结合词级和上下文级方法测量社交媒体中的社会维度。
-- 实验或效果：开发MirrorMirror扩展提供实时反馈，模型在不同新闻数据集上表现高准确度，长期目标为开源工具。
+- 核心问题：如何从新闻和社交媒体中测量和平水平，并减少情绪化内容对用户的影响
+- 方法要点：使用神经网络和大型语言模型分析文本嵌入，开发Chrome扩展提供实时反馈
+- 实验或效果：模型在不同新闻数据集上表现高准确度，工具旨在促进更尊重和信息的沟通
 
 ## 摘要（原文）
 

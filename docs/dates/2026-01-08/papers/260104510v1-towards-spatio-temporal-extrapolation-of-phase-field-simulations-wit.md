@@ -7,14 +7,14 @@ title: Towards Spatio-Temporal Extrapolation of Phase-Field Simulations with Con
 **arXiv**：[2601.04510v1](https://arxiv.org/abs/2601.04510) · [PDF](https://arxiv.org/pdf/2601.04510.pdf)  
 **作者**：Christophe Bonneville, Nathan Bieberdorf, Pieterjan Robbe, Mark Asta, Habib Najm, Laurent Capolungo, Cosmin Safta  
 
-**一句话要点**：提出条件参数化U-Net代理模型，用于液态金属脱合金相场模拟的时空外推
+**一句话要点**：提出全卷积条件参数化U-Net代理模型，用于液态金属脱合金相场模拟的时空外推。
 
 **关键词**：相场模拟, 时空外推, 卷积神经网络, 条件扩散模型, 液态金属脱合金
 
 ## 3 点简述
-- 相场模拟计算成本高，难以处理大域长时问题
-- 采用卷积自注意力与条件扩散模型，实现时空外推与物理一致性
-- 在训练域内误差低于5%，外推时误差低于15%，加速达36,000倍
+- 液态金属脱合金相场模拟计算成本高，难以处理大域长时问题。
+- 采用卷积自注意力、物理引导填充和洪水填充校正器，结合条件扩散模型生成初始条件。
+- 在训练域内误差低于5%，外推时低于15%，加速比高达36,000倍。
 
 ## 摘要（原文）
 

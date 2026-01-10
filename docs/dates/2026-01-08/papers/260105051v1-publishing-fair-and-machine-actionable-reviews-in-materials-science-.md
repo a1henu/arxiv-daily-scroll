@@ -14,7 +14,7 @@ title: Publishing FAIR and Machine-actionable Reviews in Materials Science: The 
 ## 3 点简述
 - 核心问题：材料科学综述的关键见解被锁定在叙述文本和静态PDF中，限制人类和机器的重用。
 - 方法要点：在原子层沉积和蚀刻领域，将综述表发布为Open Research Knowledge Graph中的结构化、可查询知识。
-- 实验或效果：对比符号查询与基于大语言模型的查询，主张符号层作为神经符号AI的骨干，LLMs作为补充接口。
+- 实验或效果：对比符号查询与基于大语言模型的查询，论证符号层应作为神经符号AI的骨干，LLMs作为补充接口。
 
 ## 摘要（原文）
 

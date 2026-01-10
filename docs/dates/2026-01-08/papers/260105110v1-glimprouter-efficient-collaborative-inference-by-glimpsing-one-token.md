@@ -7,14 +7,14 @@ title: GlimpRouter: Efficient Collaborative Inference by Glimpsing One Token of 
 **arXiv**：[2601.05110v1](https://arxiv.org/abs/2601.05110) · [PDF](https://arxiv.org/pdf/2601.05110.pdf)  
 **作者**：Wenhao Zeng, Xuteng Zhang, Yuling Shi, Chao Hu, Yuting Chen, Beijun Shen, Xiaodong Gu  
 
-**一句话要点**：提出GlimpRouter框架，通过首个令牌熵预测推理难度，实现高效协作推理。
+**一句话要点**：提出GlimpRouter，通过首个令牌熵预测推理难度，实现高效协作推理
 
-**关键词**：协作推理, 推理路由, 令牌熵预测, 训练免费框架, 推理效率优化
+**关键词**：协作推理, 推理效率, 令牌熵预测, 训练免费框架, 大型推理模型
 
 ## 3 点简述
-- 核心问题：协作推理中难以动态分配大模型与小模型任务，现有路由策略开销大。
-- 方法要点：基于首个令牌熵作为难度预测器，训练免费地路由推理步骤至大模型。
-- 实验或效果：在多个基准上显著降低推理延迟并保持准确性，如AIME25上延迟减少25.9%。
+- 核心问题：协作推理中如何动态分配轻量与大模型任务，减少延迟与开销
+- 方法要点：基于初始令牌熵作为难度指标，训练免费地路由推理步骤
+- 实验或效果：在AIME25等基准上，降低延迟25.9%并提升准确率10.7%
 
 ## 摘要（原文）
 

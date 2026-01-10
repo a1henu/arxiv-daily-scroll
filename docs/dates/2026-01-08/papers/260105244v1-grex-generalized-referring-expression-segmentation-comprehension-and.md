@@ -12,9 +12,9 @@ title: GREx: Generalized Referring Expression Segmentation, Comprehension, and G
 **关键词**：指代表达分割, 指代表达理解, 指代表达生成, 多目标表达, 关系建模, 基准数据集
 
 ## 3 点简述
-- 核心问题：现有指代表达任务仅支持单目标表达，限制实际应用。
-- 方法要点：构建gRefCOCO数据集，提出ReLA基线，建模区域间与区域-语言依赖关系。
-- 实验或效果：ReLA在GRES和GREC任务上达到最优性能，数据集与方法开源。
+- 核心问题：现有指代表达任务仅支持单目标表达，限制了实际应用。
+- 方法要点：构建gRefCOCO数据集，并提出ReLA基线方法建模区域间与区域-语言依赖关系。
+- 实验或效果：ReLA在GRES和GREC任务上达到最先进结果，数据集与方法开源。
 
 ## 摘要（原文）
 

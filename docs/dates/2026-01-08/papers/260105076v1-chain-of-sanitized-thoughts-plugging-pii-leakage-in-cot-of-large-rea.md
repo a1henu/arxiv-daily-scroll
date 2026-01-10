@@ -7,14 +7,14 @@ title: Chain-of-Sanitized-Thoughts: Plugging PII Leakage in CoT of Large Reasoni
 **arXiv**：[2601.05076v1](https://arxiv.org/abs/2601.05076) · [PDF](https://arxiv.org/pdf/2601.05076.pdf)  
 **作者**：Arghyadeep Das, Sai Sreenivas Chintha, Rishiraj Girmal, Kinjal Pandey, Sharvi Endait  
 
-**一句话要点**：提出Chain-of-Sanitized-Thoughts方法，通过提示控制和微调减少大型推理模型链式思维中的个人身份信息泄露。
+**一句话要点**：提出Chain-of-Sanitized-Thoughts方法，以解决大型推理模型在链式思维中泄露个人身份信息的隐私风险。
 
-**关键词**：隐私保护推理, 链式思维, 个人身份信息泄露, 提示控制, 微调干预, 基准评估
+**关键词**：隐私保护推理, 链式思维, 个人身份信息泄露, 提示工程, 微调优化, 评估基准
 
 ## 3 点简述
-- 核心问题：大型推理模型的链式思维推理过程易泄露个人身份信息，即使最终答案已脱敏。
-- 方法要点：引入PII-CoT-Bench数据集和基准，采用提示控制或微调干预，诱导模型进行隐私优先推理。
-- 实验或效果：在多种模型和场景下，显著减少信息泄露，同时保持推理性能，为隐私保护推理系统提供实用指导。
+- 核心问题：大型推理模型的链式思维推理透明性导致中间步骤泄露个人身份信息，即使最终答案已脱敏。
+- 方法要点：通过提示控制或微调诱导隐私优先推理，避免后处理脱敏，并引入PII-CoT-Bench数据集和评估基准。
+- 实验或效果：在多种模型和场景下，方法显著减少信息泄露，同时保持性能损失最小，为隐私保护推理系统提供实用指导。
 
 ## 摘要（原文）
 

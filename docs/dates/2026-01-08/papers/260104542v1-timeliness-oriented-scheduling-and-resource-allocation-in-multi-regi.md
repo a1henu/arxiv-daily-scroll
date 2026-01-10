@@ -9,7 +9,7 @@ title: Timeliness-Oriented Scheduling and Resource Allocation in Multi-Region Co
 
 **一句话要点**：提出TAMP调度算法以优化多区域协同感知中的时效性与资源分配
 
-**关键词**：协同感知, 时效性调度, 资源分配, 多区域协作, Lyapunov优化, 感知性能优化
+**关键词**：协同感知, 信息时效性, 资源调度, 多区域协作, Lyapunov优化, 自动驾驶
 
 ## 3 点简述
 - 核心问题：协同感知中信息时效性差与通信资源有限影响感知性能

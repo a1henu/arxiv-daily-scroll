@@ -9,7 +9,7 @@ title: SimuAgent: An LLM-Based Simulink Modeling Assistant Enhanced with Reinfor
 
 **一句话要点**：提出SimuAgent，一种基于LLM的Simulink建模助手，通过强化学习增强以解决图形化工程工作流自动化问题。
 
-**关键词**：Simulink建模, 大语言模型应用, 强化学习优化, 工程自动化, 隐私保护部署, 数据增强
+**关键词**：Simulink建模, 大型语言模型, 强化学习, 工程自动化, 隐私保护, 数据增强
 
 ## 3 点简述
 - 核心问题：LLM在图形化工程工作流（如Simulink建模）中的应用潜力未充分探索，传统XML表示冗长且效率低。

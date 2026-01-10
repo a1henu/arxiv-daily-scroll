@@ -14,7 +14,7 @@ title: GUITester: Enabling GUI Agents for Exploratory Defect Discovery
 ## 3 点简述
 - 核心问题：多模态大语言模型代理在GUI测试中因目标导向掩蔽和执行偏差归因而无法自主发现缺陷
 - 方法要点：通过规划执行模块主动探测缺陷，结合分层反思模块分析交互历史以解决归因模糊性
-- 实验或效果：在GUITestBench基准上达到48.90% F1分数，优于现有基线33.35%
+- 实验或效果：在GUITestBench基准上实现48.90%的F1分数，优于现有基线方法
 
 ## 摘要（原文）
 

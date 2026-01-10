@@ -13,7 +13,7 @@ title: ArcAligner: Adaptive Recursive Aligner for Compressed Context Embeddings 
 
 ## 3 点简述
 - 核心问题：RAG中上下文压缩导致LLM理解困难，影响生成准确性。
-- 方法要点：集成轻量级自适应门控模块，动态处理复杂信息，保持系统高效。
+- 方法要点：集成轻量级自适应门控模块，动态处理复杂信息，保持系统速度。
 - 实验或效果：在知识密集型QA基准上优于压缩基线，尤其在多跳和长尾场景。
 
 ## 摘要（原文）

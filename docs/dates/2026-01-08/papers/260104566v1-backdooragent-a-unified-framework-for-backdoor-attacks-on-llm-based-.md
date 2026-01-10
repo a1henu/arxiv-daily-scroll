@@ -7,14 +7,14 @@ title: BackdoorAgent: A Unified Framework for Backdoor Attacks on LLM-based Agen
 **arXiv**：[2601.04566v1](https://arxiv.org/abs/2601.04566) · [PDF](https://arxiv.org/pdf/2601.04566.pdf)  
 **作者**：Yunhao Feng, Yige Li, Yutao Wu, Yingshui Tan, Yanming Guo, Yifan Ding, Kun Zhai, Xingjun Ma, Yugang Jiang  
 
-**一句话要点**：提出BackdoorAgent框架以统一分析LLM智能体工作流中的后门攻击威胁
+**一句话要点**：提出BackdoorAgent框架，统一分析LLM智能体工作流中的后门攻击威胁。
 
-**关键词**：LLM智能体, 后门攻击, 工作流安全, 跨阶段传播, 基准构建
+**关键词**：后门攻击, LLM智能体, 工作流安全, 触发传播, 基准测试, 多模态代理
 
 ## 3 点简述
-- 核心问题：现有研究对LLM智能体工作流中后门触发器的跨阶段交互与传播缺乏统一视角
-- 方法要点：构建模块化框架，将攻击面划分为规划、记忆和工具使用三阶段，支持系统性分析
-- 实验或效果：在四个代表性应用基准上验证，单阶段触发器可跨步持久传播，如GPT骨干中记忆攻击触发率达77.97%
+- 核心问题：现有研究孤立分析后门攻击，缺乏从智能体视角理解跨阶段触发传播。
+- 方法要点：构建模块化框架，将攻击面分为规划、记忆和工具使用三阶段进行系统分析。
+- 实验或效果：在标准化基准上验证单阶段触发器可跨步持久传播，如GPT骨干中记忆攻击触发率达77.97%。
 
 ## 摘要（原文）
 

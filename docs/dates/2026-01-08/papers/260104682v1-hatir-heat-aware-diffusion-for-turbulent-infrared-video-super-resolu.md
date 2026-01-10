@@ -14,7 +14,7 @@ title: HATIR: Heat-Aware Diffusion for Turbulent Infrared Video Super-Resolution
 ## 3 点简述
 - 核心问题：红外视频受大气湍流和压缩退化影响，现有方法忽略模态差异或无法恢复湍流失真。
 - 方法要点：注入热感知变形先验，使用相量引导流估计器和湍流感知解码器，联合逆建模退化过程。
-- 实验或效果：构建首个湍流红外VSR数据集FLIR-IVSR，包含640个场景，促进未来研究。
+- 实验或效果：构建FLIR-IVSR数据集，包含640个场景的LR-HR序列，促进红外视频超分辨率研究。
 
 ## 摘要（原文）
 

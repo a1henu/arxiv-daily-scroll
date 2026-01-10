@@ -14,7 +14,7 @@ title: SRU-Pix2Pix: A Fusion-Driven Generator Network for Medical Image Translat
 ## 3 点简述
 - 核心问题：MRI图像获取时间长、成本高、分辨率受限，需高效图像翻译方法。
 - 方法要点：集成SEResNet增强特征表示，U-Net++改进多尺度融合，简化PatchGAN稳定训练。
-- 实验或效果：在少于500张图像的少样本条件下，实现多模态MRI翻译任务中一致的结构保真与优质图像生成。
+- 实验或效果：在少于500张图像的少样本条件下，多任务中实现高结构保真度和图像质量，泛化能力强。
 
 ## 摘要（原文）
 
