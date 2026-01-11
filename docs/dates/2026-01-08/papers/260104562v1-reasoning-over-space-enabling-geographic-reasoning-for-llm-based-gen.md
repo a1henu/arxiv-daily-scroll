@@ -9,7 +9,7 @@ title: Reasoning Over Space: Enabling Geographic Reasoning for LLM-Based Generat
 
 **一句话要点**：提出ROS框架，通过地理推理增强LLM在移动和本地服务场景中的下一个POI推荐能力。
 
-**关键词**：地理推理, 生成式推荐, 大语言模型, 移动链式思维, 空间强化学习, POI推荐
+**关键词**：地理推理, 生成推荐, 大语言模型, POI推荐, 强化学习, 空间语义ID
 
 ## 3 点简述
 - 现有LLM推荐器在利用地理信号方面受限，影响移动和本地服务场景的准确性。

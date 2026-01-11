@@ -7,14 +7,14 @@ title: DeepWeightFlow: Re-Basined Flow Matching for Generating Neural Network We
 **arXiv**：[2601.05052v1](https://arxiv.org/abs/2601.05052) · [PDF](https://arxiv.org/pdf/2601.05052.pdf)  
 **作者**：Saumya Gupta, Scott Biggs, Moritz Laber, Zohair Shafi, Robin Walters, Ayan Paul  
 
-**一句话要点**：提出DeepWeightFlow以直接生成高精度神经网络权重，无需微调且可扩展至大型模型。
+**一句话要点**：提出DeepWeightFlow以直接生成无需微调的高精度神经网络权重
 
-**关键词**：权重生成, Flow Matching, 神经网络对称性, 迁移学习, 生成模型
+**关键词**：权重生成, 流匹配, 神经网络规范化, 迁移学习, 生成模型
 
 ## 3 点简述
-- 核心问题：高维权重空间和对称性挑战现有生成模型，难以生成完整权重或效率低下。
-- 方法要点：结合Flow Matching、Git Re-Basin和TransFusion进行权重规范化和高效生成。
-- 实验或效果：生成网络在迁移学习中表现优异，可快速生成数百个网络，效率远超扩散方法。
+- 核心问题：高维权重空间和对称性挑战完整权重生成
+- 方法要点：结合Git Re-Basin和TransFusion进行规范化，提升生成效率
+- 实验或效果：生成网络在迁移学习中表现优异，支持大规模快速生成
 
 ## 摘要（原文）
 

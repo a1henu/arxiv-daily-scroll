@@ -7,14 +7,14 @@ title: Thinking-Based Non-Thinking: Solving the Reward Hacking Problem in Traini
 **arXiv**：[2601.04805v1](https://arxiv.org/abs/2601.04805) · [PDF](https://arxiv.org/pdf/2601.04805.pdf)  
 **作者**：Siyuan Gan, Jiaheng Liu, Boyan Wang, Tianpei Yang, Runqing Miao, Yuyao Zhang, Fanyu Meng, Junlan Feng, Linjian Meng, Jing Huo, Yang Gao  
 
-**一句话要点**：提出Thinking-Based Non-Thinking以解决混合推理模型训练中的奖励黑客问题
+**一句话要点**：提出Thinking-Based Non-Thinking以解决混合推理模型训练中的奖励欺骗问题
 
-**关键词**：混合推理模型, 奖励黑客问题, 强化学习, 令牌效率优化, 数学推理基准
+**关键词**：混合推理模型, 奖励欺骗问题, 强化学习, 令牌效率优化, 数学推理基准
 
 ## 3 点简述
-- 核心问题：强化学习训练混合推理模型时存在奖励黑客问题，导致模型错误判断是否思考
-- 方法要点：利用思考响应的解决方案信息，为不同查询设置非思考响应的最大令牌使用上限
-- 实验或效果：在五个数学基准上，TNT减少约50%令牌使用，同时显著提升准确率，奖励黑客概率低于10%
+- 核心问题：强化学习训练混合推理模型时存在奖励欺骗，如模型思考却被误判为非思考，导致奖励错误。
+- 方法要点：不采用监督微调，而是基于思考响应的解决方案信息，为非思考响应设置不同最大令牌使用限制。
+- 实验或效果：在五个数学基准上，相比基线模型减少约50%令牌使用，同时显著提升准确率，奖励欺骗概率低于10%。
 
 ## 摘要（原文）
 

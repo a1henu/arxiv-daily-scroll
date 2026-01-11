@@ -7,14 +7,14 @@ title: DR-LoRA: Dynamic Rank LoRA for Mixture-of-Experts Adaptation
 **arXiv**：[2601.04823v1](https://arxiv.org/abs/2601.04823) · [PDF](https://arxiv.org/pdf/2601.04823.pdf)  
 **作者**：Guanzhi Deng, Bo Li, Ronghao Chen, Huacan Wang, Linqi Song, Lijie Wen  
 
-**一句话要点**：提出动态秩LoRA框架以解决MoE LLMs微调中专家资源分配不均问题
+**一句话要点**：提出动态秩LoRA框架以解决MoE模型微调中专家资源分配不均问题
 
-**关键词**：混合专家模型, 参数高效微调, LoRA, 动态秩分配, 专家显著性评分
+**关键词**：混合专家模型, 参数高效微调, 动态秩分配, LoRA, 专家路由, 任务适应
 
 ## 3 点简述
-- 核心问题：现有LoRA方法为MoE LLMs所有专家分配相同秩，忽略功能专业化，导致资源错配
-- 方法要点：基于专家路由频率和LoRA秩重要性动态扩展专家秩，形成异质秩分布
-- 实验或效果：在相同参数预算下，优于标准LoRA和静态策略，提升任务性能和参数利用率
+- 核心问题：现有LoRA方法为MoE模型所有专家分配相同秩，忽略功能差异，导致资源错配。
+- 方法要点：基于专家路由频率和LoRA秩重要性动态调整专家秩，形成异构分布以适应任务需求。
+- 实验或效果：在相同参数预算下，优于标准LoRA和静态策略，提升任务性能与参数利用率。
 
 ## 摘要（原文）
 

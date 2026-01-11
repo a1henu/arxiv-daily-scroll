@@ -7,13 +7,13 @@ title: How to Set the Batch Size for Large-Scale Pre-training?
 **arXiv**：[2601.05034v1](https://arxiv.org/abs/2601.05034) · [PDF](https://arxiv.org/pdf/2601.05034.pdf)  
 **作者**：Yunhua Zhou, Junhao Huang, Shuhao Xin, Yechen Zhang, Runyu Peng, Qiping Guo, Xipeng Qiu  
 
-**一句话要点**：提出动态批大小调度器以优化WSD调度下的大规模预训练效率
+**一句话要点**：提出动态批大小调度器以优化WSD调度器下的大规模预训练效率
 
-**关键词**：大规模预训练, 批大小调度, 学习率调度, 训练效率, 理论分析
+**关键词**：大规模预训练, 批大小调度, 学习率调度器, 训练效率, 数据效率
 
 ## 3 点简述
-- 核心问题：传统临界批大小理论在WSD学习率调度下失效，需新理论指导批大小设置
-- 方法要点：推导WSD调度下的E(S)关系，定义最小批大小B_min和最优批大小B_opt，提出动态调度策略
+- 核心问题：传统临界批大小理论在WSD学习率调度器下失效，需新理论指导批大小设置
+- 方法要点：推导WSD调度器的E(S)关系，定义最小批大小B_min和最优批大小B_opt，提出动态调度策略
 - 实验或效果：实验验证新公式准确捕捉训练动态，调度策略提升训练效率和模型质量
 
 ## 摘要（原文）

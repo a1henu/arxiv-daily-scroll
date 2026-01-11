@@ -7,14 +7,14 @@ title: Flexible Manufacturing Systems Intralogistics: Dynamic Optimization of AG
 **arXiv**：[2601.04887v1](https://arxiv.org/abs/2601.04887) · [PDF](https://arxiv.org/pdf/2601.04887.pdf)  
 **作者**：Sofiene Lassoued, Laxmikant Shrikant Bahetic, Nathalie Weiß-Borkowskib, Stefan Lierc, Andreas Schwunga  
 
-**一句话要点**：提出结合着色时间Petri网与演员-评论家强化学习的方法，以优化柔性制造系统中AGV和工具共享的动态调度问题。
+**一句话要点**：提出结合着色时间Petri网与演员-评论家强化学习的方法，以优化柔性制造系统中AGV和工具共享的动态调度。
 
 **关键词**：柔性制造系统, AGV调度, 工具共享, 着色时间Petri网, 演员-评论家强化学习, 动态优化
 
 ## 3 点简述
-- 核心问题：扩展传统作业车间调度，整合AGV和工具共享系统，处理柔性制造中的复杂动态优化。
-- 方法要点：使用着色时间Petri网建模和动作掩码减少搜索空间，结合演员-评论家模型强化学习提升环境适应性。
-- 实验或效果：在大小规模基准测试中，匹配或超越传统方法，缩短完工时间并大幅减少计算时间。
+- 核心问题：扩展传统作业车间调度，整合AGV和工具共享系统，处理柔性制造系统的复杂动态优化。
+- 方法要点：使用着色时间Petri网建模和动作掩码减少搜索空间，结合演员-评论家模型强化学习提升适应性，并采用前瞻策略优化AGV定位。
+- 实验或效果：在小型和大型基准测试中，匹配或超越传统方法，缩短完工时间并显著减少计算时间，提供可复现环境和消融分析。
 
 ## 摘要（原文）
 

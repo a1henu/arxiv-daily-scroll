@@ -7,14 +7,14 @@ title: Character Detection using YOLO for Writer Identification in multiple Medi
 **arXiv**：[2601.04834v1](https://arxiv.org/abs/2601.04834) · [PDF](https://arxiv.org/pdf/2601.04834.pdf)  
 **作者**：Alessandra Scotto di Freca, Tiziana D Alessandro, Francesco Fontanella, Filippo Sarria, Claudio De Stefano  
 
-**一句话要点**：提出基于YOLO的字符检测方法以提升中世纪手稿的书写者识别准确率
+**一句话要点**：提出基于YOLO的字符检测方法，用于中世纪多本书籍的书写者识别
 
-**关键词**：字符检测, YOLO, 书写者识别, 中世纪手稿, 古文书学, 目标检测
+**关键词**：字符检测, YOLO, 书写者识别, 古文书学, 中世纪手稿, 对象检测
 
 ## 3 点简述
-- 核心问题：中世纪手稿中书写者识别依赖字符检测，传统模板匹配方法存在阈值依赖和检测数量不足的局限性。
-- 方法要点：采用YOLOv5替代模板匹配和CNN，自动检测字符'a'，利用置信度分数支持拒绝阈值，提升检测效率和鲁棒性。
-- 实验或效果：YOLO检测更多字符实例，提高后续分类准确性，为未见手稿的可靠书写者识别奠定基础。
+- 核心问题：古文书学中通过识别特定字符（如字母'a'）来区分中世纪手稿的不同书写者，传统模板匹配方法存在阈值依赖等局限。
+- 方法要点：采用YOLOv5对象检测模型替代模板匹配和CNN，自动检测页面中的字符实例，并利用置信度分数支持拒绝阈值设置。
+- 实验或效果：YOLO能提取更多字符，提升第二阶段分类准确性，为未见手稿的可靠书写者识别提供基础。
 
 ## 摘要（原文）
 

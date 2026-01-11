@@ -7,14 +7,14 @@ title: SRU-Pix2Pix: A Fusion-Driven Generator Network for Medical Image Translat
 **arXiv**：[2601.04785v1](https://arxiv.org/abs/2601.04785) · [PDF](https://arxiv.org/pdf/2601.04785.pdf)  
 **作者**：Xihe Qiu, Yang Dai, Xiaoyu Tan, Sijia Li, Fenghao Sun, Lu Gan, Liang Liu  
 
-**一句话要点**：提出SRU-Pix2Pix，融合SEResNet与U-Net++以提升少样本医学图像翻译的质量与结构保真度。
+**一句话要点**：提出SRU-Pix2Pix，融合SEResNet和U-Net++以提升少样本医学图像翻译的质量与结构保真度。
 
-**关键词**：医学图像翻译, 少样本学习, Pix2Pix, SEResNet, U-Net++, MRI
+**关键词**：医学图像翻译, 少样本学习, Pix2Pix增强, SEResNet, U-Net++, MRI
 
 ## 3 点简述
 - 核心问题：MRI图像获取时间长、成本高、分辨率受限，需高效图像翻译方法。
 - 方法要点：集成SEResNet增强特征表示，U-Net++改进多尺度融合，简化PatchGAN稳定训练。
-- 实验或效果：在少于500张图像的少样本条件下，多任务中实现高结构保真度和图像质量，泛化能力强。
+- 实验或效果：在少于500张图像的少样本条件下，实现多模态MRI翻译任务中一致的结构保真和优质图像生成。
 
 ## 摘要（原文）
 

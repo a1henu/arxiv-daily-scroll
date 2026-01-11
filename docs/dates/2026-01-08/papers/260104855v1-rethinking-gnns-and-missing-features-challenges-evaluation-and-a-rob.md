@@ -7,14 +7,14 @@ title: Rethinking GNNs and Missing Features: Challenges, Evaluation and a Robust
 **arXiv**：[2601.04855v1](https://arxiv.org/abs/2601.04855) · [PDF](https://arxiv.org/pdf/2601.04855.pdf)  
 **作者**：Francesco Ferrini, Veronica Lachi, Antonio Longa, Bruno Lepri, Matono Akiyoshi, Andrea Passerini, Xin Liu, Manfred Jaeger  
 
-**一句话要点**：提出GNNmim以解决图神经网络在节点特征缺失场景下的鲁棒性问题
+**一句话要点**：提出GNNmim以解决图神经网络在现实场景中处理缺失节点特征的挑战
 
-**关键词**：图神经网络, 缺失特征处理, 节点分类, 鲁棒性评估, 缺失机制
+**关键词**：图神经网络, 缺失特征处理, 节点分类, 鲁棒性评估, 现实场景数据集
 
 ## 3 点简述
-- 核心问题：现有研究在稀疏特征和随机缺失机制下评估不足，难以反映真实挑战
-- 方法要点：引入密集特征数据集和更真实缺失机制，提出GNNmim作为简单有效基线
-- 实验或效果：GNNmim在多样化数据集和缺失机制下与专用架构竞争
+- 核心问题：现有研究多基于高稀疏特征和MCAR缺失机制，限制了模型鲁棒性评估
+- 方法要点：引入密集特征数据集和更现实的缺失机制，提出GNNmim作为有效基线方法
+- 实验或效果：GNNmim在多样数据集和缺失机制下与专用架构竞争，验证其有效性
 
 ## 摘要（原文）
 

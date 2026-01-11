@@ -7,14 +7,14 @@ title: Memory Matters More: Event-Centric Memory as a Logic Map for Agent Search
 **arXiv**：[2601.04726v1](https://arxiv.org/abs/2601.04726) · [PDF](https://arxiv.org/pdf/2601.04726.pdf)  
 **作者**：Yuyang Hu, Jiongnan Liu, Jiejun Tan, Yutao Zhu, Zhicheng Dou  
 
-**一句话要点**：提出事件中心记忆框架CompassMem，以事件图组织记忆支持智能代理的长时程推理
+**一句话要点**：提出事件中心记忆框架CompassMem，以事件图组织记忆支持智能代理的长时推理
 
-**关键词**：智能代理, 记忆机制, 事件图, 长时程推理, 逻辑检索
+**关键词**：智能代理, 记忆机制, 事件图, 长时推理, 逻辑关系
 
 ## 3 点简述
-- 现有记忆机制多为扁平存储，依赖浅层语义检索，难以捕获逻辑关系
-- CompassMem基于事件分割理论，将经验分段为事件并构建逻辑关系图
-- 在LoCoMo和NarrativeQA实验中，CompassMem提升了检索和推理性能
+- 核心问题：现有记忆机制难以捕获经验间逻辑关系，依赖浅层检索阻碍长时依赖推理
+- 方法要点：基于事件分割理论，将经验分段为事件并构建逻辑关系图，实现结构化导航
+- 实验或效果：在LoCoMo和NarrativeQA上验证，提升多骨干模型的检索与推理性能
 
 ## 摘要（原文）
 

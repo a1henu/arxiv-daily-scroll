@@ -7,14 +7,14 @@ title: A Data-Driven Predictive Framework for Inventory Optimization Using Conte
 **arXiv**：[2601.05033v1](https://arxiv.org/abs/2601.05033) · [PDF](https://arxiv.org/pdf/2601.05033.pdf)  
 **作者**：Anees Fatima, Mohammad Abdus Salam  
 
-**一句话要点**：提出基于上下文增强机器学习模型的库存优化预测框架，应用于零售和自动售货机系统。
+**一句话要点**：提出基于上下文增强机器学习的数据驱动预测框架，以优化零售和自动售货机库存管理
 
-**关键词**：需求预测, 库存优化, 机器学习, 供应链管理, 外部变量集成
+**关键词**：需求预测, 库存优化, 机器学习, 供应链管理, 上下文增强
 
 ## 3 点简述
-- 核心问题：传统需求预测方法忽略天气、节假日等外部因素，导致供应链管理效率低下。
-- 方法要点：集成XGBoost、ARIMA、Fb Prophet和SVR算法，并系统纳入星期、节假日等外部变量以提升预测精度。
-- 实验或效果：XGBoost在加入外部变量后表现最佳，MAE最低为22.7，外部因素显著改善模型性能。
+- 核心问题：传统需求预测方法忽略天气、节假日等外部因素，导致供应链效率低下。
+- 方法要点：系统整合外部变量，比较XGBoost、ARIMA、Facebook Prophet和SVR四种机器学习算法。
+- 实验或效果：XGBoost表现最佳，MAE降至22.7；外部因素显著提升预测精度。
 
 ## 摘要（原文）
 

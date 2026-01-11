@@ -7,14 +7,14 @@ title: PyramidalWan: On Making Pretrained Video Model Pyramidal for Efficient In
 **arXiv**：[2601.04792v1](https://arxiv.org/abs/2601.04792) · [PDF](https://arxiv.org/pdf/2601.04792.pdf)  
 **作者**：Denis Korzhenkov, Adil Karjauv, Animesh Karnewar, Mohsen Ghafoorian, Amirhossein Habibian  
 
-**一句话要点**：提出PyramidalWan，通过微调将预训练视频扩散模型转换为金字塔模型以提升推理效率
+**一句话要点**：提出PyramidalWan，通过微调将预训练视频扩散模型转换为金字塔结构以提升推理效率
 
 **关键词**：视频扩散模型, 金字塔模型, 推理效率, 微调, 步数蒸馏, 多分辨率处理
 
 ## 3 点简述
 - 现有金字塔视频模型从头训练，视觉质量低于先进系统
 - 提出低成本微调流程，将预训练模型转换为金字塔模型，保持输出质量
-- 研究并比较金字塔模型中的步数蒸馏策略，进一步提高推理效率
+- 研究并比较金字塔模型中的步数蒸馏策略，进一步优化推理效率
 
 ## 摘要（原文）
 

@@ -9,11 +9,11 @@ title: Publishing FAIR and Machine-actionable Reviews in Materials Science: The 
 
 **一句话要点**：提出在材料科学中发布FAIR且机器可操作的综述，以符号知识作为神经符号AI的可靠基础。
 
-**关键词**：材料科学综述, FAIR数据, 机器可操作知识, 神经符号人工智能, Open Research Knowledge Graph, 原子层沉积蚀刻
+**关键词**：材料科学综述, FAIR数据, 神经符号人工智能, Open Research Knowledge Graph, 原子层沉积, 机器可操作知识
 
 ## 3 点简述
 - 核心问题：材料科学综述的关键见解被锁定在叙述文本和静态PDF中，限制人类和机器的重用。
-- 方法要点：在原子层沉积和蚀刻领域，将综述表发布为Open Research Knowledge Graph中的结构化、可查询知识。
+- 方法要点：以原子层沉积和蚀刻为例，将综述表发布为Open Research Knowledge Graph中的结构化、可查询知识。
 - 实验或效果：对比符号查询与基于大语言模型的查询，论证符号层应作为神经符号AI的骨干，LLMs作为补充接口。
 
 ## 摘要（原文）

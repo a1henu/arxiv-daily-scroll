@@ -7,14 +7,14 @@ title: Token-Level LLM Collaboration via FusionRoute
 **arXiv**：[2601.05106v1](https://arxiv.org/abs/2601.05106) · [PDF](https://arxiv.org/pdf/2601.05106.pdf)  
 **作者**：Nuoya Xiong, Yuhang Zhou, Hanqing Zeng, Zhaorun Chen, Furong Huang, Shuchao Bi, Lizhu Zhang, Zhuokai Zhao  
 
-**一句话要点**：提出FusionRoute框架，通过令牌级多LLM协作解决通用性与效率的权衡问题。
+**一句话要点**：提出FusionRoute框架，通过令牌级多LLM协作解决通用模型成本高与专用模型泛化差的问题。
 
 **关键词**：令牌级协作, 多LLM路由, logit融合, 解码优化, 模型泛化
 
 ## 3 点简述
-- 核心问题：单一通用LLM需大规模扩展成本高，而小型领域专家模型泛化能力有限。
-- 方法要点：轻量级路由器在解码时选择专家并贡献互补logit，优化令牌分布。
-- 实验或效果：在Llama-3和Gemma-2模型及多基准测试中优于现有协作方法，保持领域专家竞争力。
+- 核心问题：单一通用LLM成本高，专用模型泛化差，现有令牌级协作方法受限于纯专家路由。
+- 方法要点：轻量路由器动态选择专家并贡献互补logit，通过理论分析扩展策略类以实现最优解码。
+- 实验或效果：在Llama-3和Gemma-2模型及多领域基准上优于现有协作方法，保持与领域专家竞争性。
 
 ## 摘要（原文）
 

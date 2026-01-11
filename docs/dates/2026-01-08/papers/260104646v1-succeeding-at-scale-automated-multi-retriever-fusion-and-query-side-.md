@@ -13,8 +13,8 @@ title: Succeeding at Scale: Automated Multi-Retriever Fusion and Query-Side Adap
 
 ## 3 点简述
 - 核心问题：多租户检索系统缺乏标注数据，且联合微调编码器需重新索引，成本高昂。
-- 方法要点：采用融合检索策略和LLM评估，并仅微调查询编码器以保持文档索引不变。
-- 实验或效果：在DevRev Search和SciFact基准上验证，实现性能提升与效率平衡。
+- 方法要点：采用融合检索生成候选，LLM过滤标注，并通过LoRA仅微调查询编码器实现索引保留适应。
+- 实验或效果：在DevRev Search和SciFact基准上验证，针对查询编码器特定层微调获得质量效率平衡。
 
 ## 摘要（原文）
 

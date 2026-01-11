@@ -7,13 +7,13 @@ title: TCAndon-Router: Adaptive Reasoning Router for Multi-Agent Collaboration
 **arXiv**：[2601.04544v1](https://arxiv.org/abs/2601.04544) · [PDF](https://arxiv.org/pdf/2601.04544.pdf)  
 **作者**：Jiuzhou Zhao, Chunrong Chen, Chenqi Qiao, Lebin Zheng, Minqi Han, Yanchi Liu Yongzhou Xu Xiaochuan Xu Min Zhang  
 
-**一句话要点**：提出TCAndon-Router以解决多智能体系统中动态集成与路由冲突问题
+**一句话要点**：提出TCAndon-Router以解决多智能体系统中任务路由的动态适应与冲突问题
 
-**关键词**：多智能体系统, 自适应路由, 协作推理, 动态集成, 任务路由
+**关键词**：多智能体系统, 任务路由, 自适应推理, 协作执行, 企业应用
 
 ## 3 点简述
-- 核心问题：现有任务路由依赖静态单标签决策，难以集成新智能体且易因能力重叠引发冲突
-- 方法要点：支持动态智能体集成，通过自然语言推理链预测候选智能体集，并设计协作执行流程
+- 核心问题：现有任务路由依赖静态单标签决策，难以整合新智能体且易因能力重叠引发冲突
+- 方法要点：支持动态智能体接入，通过自然语言推理链预测候选智能体集，并设计协作执行流程
 - 实验或效果：在公共数据集和企业数据上显著提升路由准确性、减少冲突，并在模糊场景中保持鲁棒性
 
 ## 摘要（原文）

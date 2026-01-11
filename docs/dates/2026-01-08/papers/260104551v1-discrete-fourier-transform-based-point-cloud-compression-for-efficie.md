@@ -7,13 +7,13 @@ title: Discrete Fourier Transform-based Point Cloud Compression for Efficient SL
 **arXiv**：[2601.04551v1](https://arxiv.org/abs/2601.04551) · [PDF](https://arxiv.org/pdf/2601.04551.pdf)  
 **作者**：Riku Suzuki, Ayumi Umemura, Shreya Santra, Kentaro Uno, Kazuya Yoshida  
 
-**一句话要点**：提出基于离散傅里叶变换的点云压缩方法，以提升特征贫瘠地形中SLAM的效率。
+**一句话要点**：提出基于离散傅里叶变换的点云压缩方法，以提升特征贫乏地形中SLAM的效率。
 
-**关键词**：点云压缩, 离散傅里叶变换, SLAM, 数字高程模型, 特征贫瘠地形
+**关键词**：点云压缩, 离散傅里叶变换, SLAM, 数字高程模型, 特征贫乏地形
 
 ## 3 点简述
-- SLAM在机器人探索中面临点云数据量大与计算资源有限的矛盾。
-- 方法将数字高程模型转换为频域图像，通过去除高频分量压缩数据。
+- SLAM在机器人探索中面临点云数据量大与计算资源受限的矛盾。
+- 方法将数字高程模型转换为频域图像，通过去除高频分量实现压缩。
 - 实验评估了不同地形下的压缩率和精度，验证了在平缓地形中的有效性。
 
 ## 摘要（原文）

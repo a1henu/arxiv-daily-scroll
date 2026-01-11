@@ -7,14 +7,14 @@ title: GEnSHIN: Graphical Enhanced Spatio-temporal Hierarchical Inference Networ
 **arXiv**：[2601.04550v1](https://arxiv.org/abs/2601.04550) · [PDF](https://arxiv.org/pdf/2601.04550.pdf)  
 **作者**：Zhiyan Zhou, Junjie Liao, Manho Zhang, Yingyi Liao, Ziai Wang  
 
-**一句话要点**：提出GEnSHIN以解决交通流预测中的复杂时空依赖问题
+**一句话要点**：提出GEnSHIN模型以解决交通流预测中的复杂时空依赖问题
 
-**关键词**：交通流预测, 图神经网络, 时空依赖建模, 注意力机制, 动态图更新
+**关键词**：交通流预测, 图卷积网络, 时空依赖建模, 注意力机制, 动态图更新
 
 ## 3 点简述
-- 核心问题：交通流预测需处理复杂时空依赖，传统方法可能不足。
-- 方法要点：集成注意力增强GCRU、非对称双嵌入图生成和动态记忆库模块。
-- 实验或效果：在METR-LA数据集上性能优越，尤其在早晚高峰表现稳定。
+- 核心问题：交通流预测需处理复杂时空依赖，现有方法可能不足
+- 方法要点：集成注意力增强GCRU、非对称双嵌入图生成和动态记忆库模块
+- 实验或效果：在METR-LA数据集上性能优越，尤其在早晚高峰表现稳定
 
 ## 摘要（原文）
 

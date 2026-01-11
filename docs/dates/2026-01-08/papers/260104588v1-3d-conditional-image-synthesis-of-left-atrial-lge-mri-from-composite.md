@@ -9,7 +9,7 @@ title: 3D Conditional Image Synthesis of Left Atrial LGE MRI from Composite Sema
 
 **一句话要点**：提出基于复合语义掩码的3D条件生成模型，以增强左心房LGE MRI数据并提升分割性能
 
-**关键词**：3D图像合成, 条件生成模型, 左心房分割, LGE MRI, 数据增强, 医学图像分析
+**关键词**：3D图像合成, 条件生成模型, 左心房分割, LGE MRI, 数据增强, 医学影像分析
 
 ## 3 点简述
 - 核心问题：左心房LGE MRI分割数据稀缺，影响心房纤维化量化准确性。

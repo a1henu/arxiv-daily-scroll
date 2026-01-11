@@ -7,14 +7,14 @@ title: FaceRefiner: High-Fidelity Facial Texture Refinement with Differentiable 
 **arXiv**：[2601.04520v1](https://arxiv.org/abs/2601.04520) · [PDF](https://arxiv.org/pdf/2601.04520.pdf)  
 **作者**：Chengyang Li, Baoping Cheng, Yao Cheng, Haocheng Zhang, Renshuai Liu, Yinglin Zheng, Jing Liao, Xuan Cheng  
 
-**一句话要点**：提出FaceRefiner，基于可微分渲染的风格迁移方法，以提升单图像生成面部纹理的保真度与身份一致性。
+**一句话要点**：提出FaceRefiner，基于可微分渲染的风格迁移方法，以提升单图像面部纹理生成的质量和身份一致性。
 
-**关键词**：面部纹理生成, 风格迁移, 可微分渲染, 身份保持, 纹理细化
+**关键词**：面部纹理生成, 风格迁移, 可微分渲染, 身份一致性, 纹理细化
 
 ## 3 点简述
-- 核心问题：现有方法从单图像生成面部纹理时，因训练数据或2D生成器限制，导致细节、结构和身份与输入不一致。
-- 方法要点：将3D采样纹理作为风格，生成纹理作为内容，通过可微分渲染实现多级信息迁移，包括像素级细节。
-- 实验或效果：在Multi-PIE、CelebA和FFHQ数据集上验证，能提升纹理质量和身份保持能力，优于现有技术。
+- 核心问题：现有面部纹理生成方法因训练数据或生成器限制，导致纹理细节、结构和身份与输入图像不一致。
+- 方法要点：将3D采样纹理作为风格，生成纹理作为内容，通过可微分渲染实现多级信息迁移，保留输入细节和语义。
+- 实验或效果：在Multi-PIE、CelebA和FFHQ数据集上验证，相比先进方法，能提升纹理质量和身份保持能力。
 
 ## 摘要（原文）
 

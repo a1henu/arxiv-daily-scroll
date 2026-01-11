@@ -7,14 +7,14 @@ title: How to Set the Learning Rate for Large-Scale Pre-training?
 **arXiv**：[2601.05049v1](https://arxiv.org/abs/2601.05049) · [PDF](https://arxiv.org/pdf/2601.05049.pdf)  
 **作者**：Yunhua Zhou, Shuhao Xing, Junhao Huang, Xipeng Qiu, Qipeng Guo  
 
-**一句话要点**：提出学习率缩放定律与扩展μTransfer，以优化大规模预训练中的学习率配置。
+**一句话要点**：提出学习率缩放定律与扩展μTransfer至MoE架构，以优化大规模预训练中的学习率配置。
 
-**关键词**：大规模预训练, 学习率优化, 缩放定律, μTransfer, 混合专家架构, 超参数搜索
+**关键词**：大规模预训练, 学习率优化, 缩放定律, μTransfer, 混合专家模型, 超参数调优
 
 ## 3 点简述
 - 核心问题：大规模预训练中学习率配置成本高，需从低成本实验外推最优值。
-- 方法要点：引入拟合范式的缩放定律降低搜索复杂度，扩展迁移范式至MoE架构。
-- 实验或效果：比较两种范式，挑战μTransfer在大规模场景的可扩展性，提供稳定性与特征学习分析。
+- 方法要点：引入搜索因子缩放定律降低复杂度，扩展μTransfer至MoE架构以覆盖更多超参数。
+- 实验或效果：比较拟合与迁移范式，挑战μTransfer在大规模场景的可扩展性，分析模块级调参不足原因。
 
 ## 摘要（原文）
 

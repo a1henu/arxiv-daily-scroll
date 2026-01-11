@@ -12,7 +12,7 @@ title: PILOT-Bench: A Benchmark for Legal Reasoning in the Patent Domain with IR
 **关键词**：专利法律推理, 基准评估, IRAC分类, 大语言模型, PTAB决策
 
 ## 3 点简述
-- 核心问题：缺乏系统评估LLMs在专利领域结构化法律推理能力的基准。
+- 核心问题：缺乏系统评估LLMs在专利领域结构化法律推理能力的方法。
 - 方法要点：构建首个PTAB中心基准，对齐案例级数据并定义IRAC分类任务。
 - 实验或效果：评估闭源与开源模型，闭源模型在Issue Type任务上表现优异，开源模型存在差距。
 

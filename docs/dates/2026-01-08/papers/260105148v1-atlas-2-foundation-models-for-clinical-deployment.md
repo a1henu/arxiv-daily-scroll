@@ -7,14 +7,14 @@ title: Atlas 2 -- Foundation models for clinical deployment
 **arXiv**：[2601.05148v1](https://arxiv.org/abs/2601.05148) · [PDF](https://arxiv.org/pdf/2601.05148.pdf)  
 **作者**：Maximilian Alber, Timo Milbich, Alexandra Carpen-Amarie, Stephan Tietz, Jonas Dippel, Lukas Muttenthaler, Beatriz Perez Cancer, Alessandro Benetti, Panos Korfiatis, Elias Eulig, Jérôme Lüscher, Jiasen Wu, Sayed Abid Hashimi, Gabriel Dernbach, Simon Schallenberg, Neelay Shah, Moritz Krügener, Aniruddh Jammoria, Jake Matras, Patrick Duffy, Matt Redlon, Philipp Jurmeister, David Horst, Lukas Ruff, Klaus-Robert Müller, Frederick Klauschen, Andrew Norgan  
 
-**一句话要点**：提出Atlas 2系列病理学视觉基础模型，以解决临床部署中的性能、鲁棒性和计算效率问题。
+**一句话要点**：提出Atlas 2系列病理学视觉基础模型，以解决临床部署中性能、鲁棒性和计算效率的权衡问题。
 
-**关键词**：病理学基础模型, 全切片图像分析, 临床部署优化, 多机构数据集, 性能鲁棒性评估, 资源效率模型
+**关键词**：病理学基础模型, 全切片图像, 临床部署, 鲁棒性评估, 资源效率, 大规模训练
 
 ## 3 点简述
-- 核心问题：现有病理学基础模型在性能、鲁棒性和计算需求方面存在权衡，限制了临床部署。
-- 方法要点：基于550万张组织病理学全切片图像训练，构建Atlas 2、Atlas 2-B和Atlas 2-S三个模型。
-- 实验或效果：在80个公共基准测试中展示出最先进的预测性能、鲁棒性和资源效率。
+- 核心问题：现有病理学基础模型在性能、鲁棒性和计算需求间存在权衡，限制临床部署。
+- 方法要点：基于550万张组织病理学全切片图像训练，来自三家医疗机构，是最大规模数据集。
+- 实验或效果：在80个公共基准测试中展示最先进的预测性能、鲁棒性和资源效率。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: An interpretable data-driven approach to optimizing clinical fall risk as
 **arXiv**：[2601.05194v1](https://arxiv.org/abs/2601.05194) · [PDF](https://arxiv.org/pdf/2601.05194.pdf)  
 **作者**：Fardin Ganjkhanloo, Emmett Springer, Erik H. Hoyer, Daniel L. Young, Holley Farley, Kimia Ghobadi  
 
-**一句话要点**：提出约束评分优化方法以提升住院患者跌倒风险评估工具的预测性能与可解释性
+**一句话要点**：提出约束评分优化方法以提升住院患者跌倒风险评估的预测性能与可解释性
 
-**关键词**：跌倒风险评估, 约束评分优化, 临床可解释性, 数据驱动建模, 住院患者安全, 预测性能提升
+**关键词**：跌倒风险评估, 约束评分优化, 临床可解释性, 数据驱动建模, 住院患者安全
 
 ## 3 点简述
 - 核心问题：约翰霍普金斯跌倒风险评估工具（JHFRAT）的预测性能有待改进，需与临床风险标签更好对齐。
 - 方法要点：采用约束评分优化模型重新加权JHFRAT评分权重，保持其可加结构和临床阈值，确保可解释性。
-- 实验或效果：模型AUC-ROC从0.86提升至0.91，每周可额外保护35名高风险患者，性能稳健且优于基准黑盒模型。
+- 实验或效果：模型AUC-ROC从0.86提升至0.91，每周可额外保护35名高风险患者，性能优于基准黑盒模型。
 
 ## 摘要（原文）
 

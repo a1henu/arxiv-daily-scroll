@@ -7,14 +7,14 @@ title: Quantitative mapping from conventional MRI using self-supervised physics-
 **arXiv**：[2601.05063v1](https://arxiv.org/abs/2601.05063) · [PDF](https://arxiv.org/pdf/2601.05063.pdf)  
 **作者**：Jelmer van Lune, Stefano Mandija, Oscar van der Heide, Matteo Maspero, Martin B. Schilder, Jan Willem Dankbaar, Cornelis A. T. van den Berg, Alessandro Sbrizzi  
 
-**一句话要点**：提出自监督物理引导深度学习框架，从临床常规MRI推断定量T1、T2和质子密度图
+**一句话要点**：提出自监督物理引导深度学习框架，从常规MRI推断定量图谱以支持大规模生物标志物研究
 
-**关键词**：定量MRI, 自监督学习, 物理引导深度学习, 临床常规MRI, 生物标志物研究, 大规模数据集
+**关键词**：定量磁共振成像, 自监督学习, 物理引导深度学习, 生物标志物研究, 临床异质数据集, 图谱推断
 
 ## 3 点简述
-- 核心问题：常规MRI提供定性信息，依赖硬件和设置，定量MRI受限，阻碍大规模生物标志物研究。
-- 方法要点：集成基于Bloch的信号模型到训练目标，自监督学习直接从T1加权、T2加权和FLAIR图像生成定量图。
-- 实验或效果：在4,121个临床异质扫描上训练和测试，生成图值符合文献范围，对硬件和协议不变，重现性高。
+- 常规MRI提供定性信息，依赖硬件和设置，定量MRI受限；
+- 框架基于自监督物理引导深度学习，从T1、T2和FLAIR图像推断T1、T2和质子密度图谱；
+- 在大规模临床异质数据集上验证，图谱值与文献一致，对硬件和协议具有不变性，重现性高。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: FlowLet: Conditional 3D Brain MRI Synthesis using Wavelet Flow Matching
 **arXiv**：[2601.05212v1](https://arxiv.org/abs/2601.05212) · [PDF](https://arxiv.org/pdf/2601.05212.pdf)  
 **作者**：Danilo Danese, Angela Lombardi, Matteo Attimonelli, Giuseppe Fasano, Tommaso Di Noia  
 
-**一句话要点**：提出FlowLet框架，利用可逆3D小波域流匹配合成年龄条件3D脑MRI，以解决脑年龄预测数据不平衡问题。
+**一句话要点**：提出FlowLet框架，通过可逆3D小波域流匹配合成年龄条件3D脑MRI，以解决脑年龄预测数据不平衡问题。
 
 **关键词**：脑MRI合成, 流匹配, 小波变换, 脑年龄预测, 数据增强, 条件生成
 
 ## 3 点简述
 - 核心问题：现有3D脑MRI数据集存在年龄分布偏差，影响脑年龄预测模型的公平性和泛化能力。
-- 方法要点：在可逆3D小波域应用流匹配，条件生成年龄指定MRI，减少计算需求并避免重建伪影。
-- 实验或效果：FlowLet生成高保真体积，少量采样步骤；增强数据提升脑年龄预测性能，尤其对少数年龄组。
+- 方法要点：在可逆3D小波域应用流匹配，实现快速、高保真、年龄条件的3D MRI合成，减少计算需求和伪影。
+- 实验或效果：FlowLet生成数据提升脑年龄预测模型在少数年龄组的性能，区域分析确认解剖结构保持。
 
 ## 摘要（原文）
 

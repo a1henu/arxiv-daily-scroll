@@ -7,13 +7,13 @@ title: GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-
 **arXiv**：[2601.05242v1](https://arxiv.org/abs/2601.05242) · [PDF](https://arxiv.org/pdf/2601.05242.pdf)  
 **作者**：Shih-Yang Liu, Xin Dong, Ximing Lu, Shizhe Diao, Peter Belcak, Mingjie Liu, Min-Hung Chen, Hongxu Yin, Yu-Chiang Frank Wang, Kwang-Ting Cheng, Yejin Choi, Jan Kautz, Pavlo Molchanov  
 
-**一句话要点**：提出GDPO以解决多奖励强化学习中归一化导致训练信号退化的问题
+**一句话要点**：提出GDPO以解决多奖励强化学习中归一化导致训练信号模糊的问题
 
-**关键词**：多奖励强化学习, 策略优化, 归一化方法, 训练稳定性, 语言模型对齐
+**关键词**：多奖励强化学习, 策略优化, 归一化解耦, 训练稳定性, 语言模型对齐
 
 ## 3 点简述
-- 核心问题：GRPO在多奖励设置下归一化不同奖励组合，导致优势值趋同，降低训练信号分辨率，影响收敛。
-- 方法要点：GDPO通过解耦个体奖励的归一化，保留相对差异，提升多奖励优化准确性和训练稳定性。
+- 核心问题：GRPO在多奖励设置下归一化不同奖励组合，导致优势值相同，降低训练信号分辨率。
+- 方法要点：GDPO通过解耦个体奖励的归一化，保留相对差异，提升多奖励优化准确性。
 - 实验或效果：在工具调用、数学推理和编码推理任务中，GDPO在正确性和约束遵循指标上均优于GRPO。
 
 ## 摘要（原文）

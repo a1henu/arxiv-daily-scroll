@@ -7,14 +7,14 @@ title: Belief in Authority: Impact of Authority in Multi-Agent Evaluation Framew
 **arXiv**：[2601.04790v1](https://arxiv.org/abs/2601.04790) · [PDF](https://arxiv.org/pdf/2601.04790.pdf)  
 **作者**：Junhyuk Choi, Jeongyoun Kwon, Heeju Kim, Haeun Cho, Hayeong Jung, Sehee Min, Bugeun Kim  
 
-**一句话要点**：分析权威角色在多智能体评估框架中的影响，揭示专家和参照权力作用更强
+**一句话要点**：分析权威角色在多智能体评估框架中的影响，揭示专家和参照权力比合法权力更具影响力。
 
-**关键词**：多智能体系统, 权威偏见, 角色分类, ChatEval评估, 权力理论, 非对称交互
+**关键词**：多智能体系统, 权威偏见, 角色分类, 对话评估, 权力理论, 不对称交互
 
 ## 3 点简述
-- 核心问题：权威偏见在多智能体交互中的影响未充分探索，需系统分析角色型权威偏差
-- 方法要点：基于French和Raven权力理论，将权威角色分类为合法、参照和专家类型，使用ChatEval进行自由形式多智能体评估
-- 实验或效果：GPT-4o和DeepSeek R1实验显示，专家和参照权力角色影响力大于合法权力角色，权威偏见源于权威角色坚持立场而非普通智能体主动顺从
+- 核心问题：多智能体系统中权威偏见对交互的影响未充分探索，需系统分析角色型权威偏见。
+- 方法要点：基于French和Raven权力理论，将权威角色分类为合法、参照和专家类型，在12轮对话中分析其影响。
+- 实验或效果：使用GPT-4o和DeepSeek R1实验，发现权威偏见源于权威角色坚持立场，而非普通智能体主动顺从。
 
 ## 摘要（原文）
 

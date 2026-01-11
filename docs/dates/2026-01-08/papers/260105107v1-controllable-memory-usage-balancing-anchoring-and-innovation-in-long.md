@@ -7,14 +7,14 @@ title: Controllable Memory Usage: Balancing Anchoring and Innovation in Long-Ter
 **arXiv**：[2601.05107v1](https://arxiv.org/abs/2601.05107) · [PDF](https://arxiv.org/pdf/2601.05107.pdf)  
 **作者**：Muzhao Tian, Zisu Huang, Xiaohua Wang, Jingwen Xu, Zhengkang Guo, Qi Qian, Yuanzhe Shen, Kaitao Song, Jiakang Yuan, Changze Lv, Xiaoqing Zheng  
 
-**一句话要点**：提出SteeM框架以解决长时人机交互中记忆锚定与创新平衡问题
+**一句话要点**：提出SteeM框架以解决长程人机交互中记忆依赖的平衡问题
 
-**关键词**：长时人机交互, 记忆管理, 个性化代理, 可控记忆, 行为度量
+**关键词**：长程人机交互, 记忆管理, 个性化代理, 可控记忆, 交互历史, 记忆锚定
 
 ## 3 点简述
-- 核心问题：现有系统采用全有或全无的记忆使用方式，导致记忆锚定或历史利用不足。
-- 方法要点：引入记忆依赖行为度量，并设计用户可动态调节记忆依赖的SteeM框架。
-- 实验或效果：在多种场景中优于传统提示和固定记忆掩码策略，实现更精细控制。
+- 核心问题：现有系统在长程交互中采用全有或全无的记忆策略，导致记忆锚定或历史利用不足。
+- 方法要点：引入可量化的记忆依赖度量，并设计用户可动态调控记忆依赖的SteeM框架。
+- 实验或效果：在多种场景下优于传统提示和固定记忆掩码策略，实现更精细的个性化控制。
 
 ## 摘要（原文）
 

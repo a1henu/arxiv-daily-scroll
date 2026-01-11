@@ -7,14 +7,14 @@ title: Distilling the Thought, Watermarking the Answer: A Principle Semantic Gui
 **arXiv**：[2601.05144v1](https://arxiv.org/abs/2601.05144) · [PDF](https://arxiv.org/pdf/2601.05144.pdf)  
 **作者**：Shuliang Liu, Xingyu Li, Hongyi Liu, Yibo Yan, Bingchen Duan, Qi Zheng, Dong Fang, Lingfeng Su, Xuming Hu  
 
-**一句话要点**：提出ReasonMark框架，通过解耦思维与回答阶段，为推理大模型设计语义引导水印以解决逻辑破坏与高延迟问题。
+**一句话要点**：提出ReasonMark框架以解决推理大模型水印破坏逻辑或高延迟的问题
 
-**关键词**：推理大模型水印, 语义引导水印, 逻辑完整性保护, 低延迟水印, 鲁棒水印检测
+**关键词**：推理大模型水印, 语义自适应水印, 主语义向量, 逻辑完整性保护, 低延迟水印
 
 ## 3 点简述
-- 核心问题：现有水印方法易破坏推理大模型的逻辑连贯性或引入高计算成本。
-- 方法要点：基于关键性分数提取主语义向量，指导语义自适应水印机制，确保鲁棒性。
-- 实验或效果：在降低困惑度、提升翻译BLEU和数学准确率方面优于现有方法，检测AUC更高。
+- 核心问题：现有水印方法易破坏推理逻辑或引入高计算成本
+- 方法要点：分思考与回答阶段，基于关键性分数提取主语义向量指导自适应水印
+- 实验或效果：在困惑度、BLEU分数和数学准确率上优于现有方法，检测AUC更高且延迟可忽略
 
 ## 摘要（原文）
 

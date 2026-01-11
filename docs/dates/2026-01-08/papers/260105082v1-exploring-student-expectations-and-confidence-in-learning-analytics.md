@@ -9,12 +9,12 @@ title: Exploring Student Expectations and Confidence in Learning Analytics
 
 **一句话要点**：使用SELAQ问卷分析学生对学习分析的数据处理期望与信心，识别四类学生集群
 
-**关键词**：学习分析, 学生期望, 数据隐私, 聚类分析, 教育技术
+**关键词**：学习分析, 学生期望, 数据隐私, 聚类算法, 教育技术, 问卷调查
 
 ## 3 点简述
-- 核心问题：学生在学习分析中对其数据处理的期望与信心差异，涉及隐私法规遵从
-- 方法要点：应用学生期望学习分析问卷（SELAQ）进行数据收集与分析
-- 实验或效果：通过聚类算法识别出Enthusiasts、Realists、Cautious和Indifferents四类学生集群
+- 核心问题：学生隐私法规下，学习分析的数据收集需平衡学生期望与信心
+- 方法要点：应用SELAQ问卷，通过聚类算法将学生分为Enthusiasts、Realists、Cautious和Indifferents四类
+- 实验或效果：结构化分析揭示学生对学习分析的接受度与批评，提供教育系统优化见解
 
 ## 摘要（原文）
 

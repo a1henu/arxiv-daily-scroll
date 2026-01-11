@@ -7,7 +7,7 @@ title: Analyzing Message-Code Inconsistency in AI Coding Agent-Authored Pull Req
 **arXiv**：[2601.04886v1](https://arxiv.org/abs/2601.04886) · [PDF](https://arxiv.org/pdf/2601.04886.pdf)  
 **作者**：Jingzhi Gong, Giovanni Pinna, Yixin Bian, Jie M. Zhang  
 
-**一句话要点**：提出PR消息-代码不一致性分析以评估AI编码代理PR的可信度
+**一句话要点**：提出PR消息-代码不一致性分析以评估AI编码代理在Pull Request中的可信度
 
 **关键词**：AI编码代理, Pull Request分析, 消息-代码不一致性, 可信度评估, 人机协作
 

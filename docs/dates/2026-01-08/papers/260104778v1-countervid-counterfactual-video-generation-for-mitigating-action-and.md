@@ -7,14 +7,14 @@ title: CounterVid: Counterfactual Video Generation for Mitigating Action and Tem
 **arXiv**：[2601.04778v1](https://arxiv.org/abs/2601.04778) · [PDF](https://arxiv.org/pdf/2601.04778.pdf)  
 **作者**：Tobia Poppi, Burak Uzkent, Amanmeet Garg, Lucas Porto, Garin Kessler, Yezhou Yang, Marcella Cornia, Lorenzo Baraldi, Rita Cucchiara, Florian Schiffers  
 
-**一句话要点**：提出CounterVid框架以缓解视频语言模型中的动作与时间幻觉问题
+**一句话要点**：提出CounterVid框架以缓解视频语言模型中的动作和时序幻觉问题
 
-**关键词**：视频语言模型, 反事实生成, 幻觉缓解, 直接偏好优化, 多模态学习, 合成数据集
+**关键词**：视频语言模型, 反事实生成, 动作幻觉, 时序推理, 偏好优化, 合成数据集
 
 ## 3 点简述
-- 视频语言模型易因过度依赖语言先验而产生动作和时间幻觉
-- 通过多模态LLM和扩散模型生成反事实视频，构建合成数据集CounterVid
-- 引入MixDPO方法微调模型，在时间排序等任务上提升性能
+- 核心问题：视频语言模型在动作和时序推理中易产生幻觉，现有方法未能解决对语言先验的过度依赖。
+- 方法要点：结合多模态LLM和扩散模型生成反事实视频，构建合成数据集CounterVid，并引入MixDPO进行联合偏好优化。
+- 实验或效果：在Qwen2.5-VL上微调后，时序排序能力提升，并在标准视频幻觉基准上有效迁移。
 
 ## 摘要（原文）
 

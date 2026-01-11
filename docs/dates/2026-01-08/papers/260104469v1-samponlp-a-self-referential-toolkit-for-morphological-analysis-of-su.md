@@ -7,14 +7,14 @@ title: SampoNLP: A Self-Referential Toolkit for Morphological Analysis of Subwor
 **arXiv**：[2601.04469v1](https://arxiv.org/abs/2601.04469) · [PDF](https://arxiv.org/pdf/2601.04469.pdf)  
 **作者**：Iaroslav Chelombitko, Ekaterina Chelombitko, Aleksey Komissarov  
 
-**一句话要点**：提出SampoNLP工具包，通过自参考原子性评分创建形态学词典，以评估乌拉尔语系子词分词器。
+**一句话要点**：提出SampoNLP工具包，通过自参考原子性评分在低资源环境下为乌拉尔语系创建形态学词典，以评估子词分词器性能。
 
-**关键词**：子词分词, 形态学分析, 自参考评分, 乌拉尔语系, BPE评估, 低资源语言
+**关键词**：子词分词, 形态学分析, 低资源语言处理, BPE评估, 自参考评分, 乌拉尔语系
 
 ## 3 点简述
 - 核心问题：乌拉尔语系等形态丰富语言缺乏干净形态学词典，阻碍子词分词器评估。
 - 方法要点：基于MDL启发的自参考原子性评分，从内部结构线索过滤复合形式，无需语料库。
-- 实验或效果：生成芬兰语、匈牙利语和爱沙尼亚语高纯度词典，系统评估BPE分词器，提出统一指标IPS推荐最优词汇量。
+- 实验或效果：为芬兰语、匈牙利语和爱沙尼亚语生成高纯度词典，系统评估BPE分词器，提出统一指标IPS并推荐最优词汇量。
 
 ## 摘要（原文）
 

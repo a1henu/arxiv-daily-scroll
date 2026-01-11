@@ -9,7 +9,7 @@ title: ObjectForesight: Predicting Future 3D Object Trajectories from Human Vide
 
 **一句话要点**：提出ObjectForesight以从人类视频预测未来3D物体轨迹
 
-**关键词**：3D物体轨迹预测, 第一人称视频, 物体中心动力学模型, 6自由度位姿估计, 几何一致性预测
+**关键词**：3D物体轨迹预测, 第一人称视频分析, 刚体动力学模型, 几何一致性预测, 大规模数据集训练, 物体中心表示
 
 ## 3 点简述
 - 核心问题：从被动视觉观察预测物体未来运动，模拟人类对物体交互的预见能力。

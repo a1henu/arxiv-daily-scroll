@@ -7,14 +7,14 @@ title: ThinkDrive: Chain-of-Thought Guided Progressive Reinforcement Learning Fi
 **arXiv**：[2601.04714v1](https://arxiv.org/abs/2601.04714) · [PDF](https://arxiv.org/pdf/2601.04714.pdf)  
 **作者**：Chang Zhao, Zheming Yang, Yunqing Hu, Qi Guo, Zijian Wang, Pengcheng Li, Wen Ji  
 
-**一句话要点**：提出ThinkDrive框架，通过思维链引导的渐进强化学习微调解决自动驾驶中的推理泛化与对齐问题。
+**一句话要点**：提出ThinkDrive框架，通过思维链引导的渐进强化学习微调解决自动驾驶决策问题。
 
 **关键词**：自动驾驶, 思维链推理, 强化学习微调, 渐进训练, 难度感知优化
 
 ## 3 点简述
-- 现有方法存在推理无结构、泛化差和与人类驾驶意图不对齐的问题。
-- 采用两阶段训练：先用思维链进行监督微调，再结合难度感知自适应策略优化进行渐进强化学习。
-- 在公开数据集上，ThinkDrive在多项指标上超越强基线，且小模型性能优于大模型GPT-4o。
+- 现有方法存在推理无结构、泛化差和与人类意图不对齐的问题。
+- 采用两阶段训练：先用思维链进行监督微调，再用难度感知自适应策略优化进行渐进强化学习。
+- 在公开数据集上，ThinkDrive在多项指标上优于基线，小模型超越GPT-4o。
 
 ## 摘要（原文）
 

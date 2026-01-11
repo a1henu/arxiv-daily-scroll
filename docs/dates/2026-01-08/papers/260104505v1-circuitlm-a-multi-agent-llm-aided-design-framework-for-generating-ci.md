@@ -7,14 +7,14 @@ title: CircuitLM: A Multi-Agent LLM-Aided Design Framework for Generating Circui
 **arXiv**：[2601.04505v1](https://arxiv.org/abs/2601.04505) · [PDF](https://arxiv.org/pdf/2601.04505.pdf)  
 **作者**：Khandakar Shakib Al Hasan, Syed Rifat Raiyan, Hasin Mahtab Alvee, Wahid Sadik  
 
-**一句话要点**：提出CircuitLM多智能体框架，通过自然语言生成结构化电路图以解决LLM幻觉问题
+**一句话要点**：提出CircuitLM多智能体框架，通过结构化流程从自然语言生成电路图以解决LLM幻觉问题。
 
-**关键词**：电路图生成, 多智能体系统, 自然语言处理, 电气约束验证, 嵌入式系统设计
+**关键词**：电路图生成, 多智能体系统, 自然语言处理, 电气约束验证, 嵌入式系统设计, 知识库增强
 
 ## 3 点简述
-- 核心问题：LLM从自然语言生成电路图时易产生幻觉、违反电气约束且输出非机器可读
-- 方法要点：采用五阶段流水线，结合知识库和专家智能体进行推理与验证
-- 实验或效果：在100个嵌入式系统提示上评估，引入DMCV框架确保结构电气有效性
+- 核心问题：LLM生成电路图时易产生细节幻觉、违反电气约束且输出非机器可读。
+- 方法要点：采用五阶段多智能体流程，结合知识库和验证机制生成结构化CircuitJSON。
+- 实验或效果：在100个嵌入式系统提示上评估，引入DMCV框架验证结构电气有效性，实现高保真度。
 
 ## 摘要（原文）
 

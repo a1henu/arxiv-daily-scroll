@@ -7,14 +7,14 @@ title: QNeRF: Neural Radiance Fields on a Simulated Gate-Based Quantum Computer
 **arXiv**：[2601.05250v1](https://arxiv.org/abs/2601.05250) · [PDF](https://arxiv.org/pdf/2601.05250.pdf)  
 **作者**：Daniele Lizzio Bosco, Shuteng Wang, Giuseppe Serra, Vladislav Golyanik  
 
-**一句话要点**：提出QNeRF，首个用于2D图像新视角合成的混合量子-经典模型，提升模型紧凑性。
+**一句话要点**：提出QNeRF，首个用于2D图像新视角合成的混合量子-经典模型。
 
 **关键词**：量子机器学习, 神经辐射场, 新视角合成, 混合量子-经典模型, 参数化量子电路
 
 ## 3 点简述
-- 核心问题：NeRF模型大且训练密集，量子视觉场在紧凑性和收敛速度上显示潜力。
-- 方法要点：利用参数化量子电路通过量子叠加和纠缠编码空间与视角信息，设计全QNeRF和双分支QNeRF变体。
-- 实验或效果：在中等分辨率图像上训练，QNeRF匹配或超越经典NeRF基线，参数减少超一半。
+- 核心问题：NeRF模型大、训练密集，量子视觉场在紧凑性和收敛速度上具潜力。
+- 方法要点：利用参数化量子电路编码空间和视角信息，通过量子叠加和纠缠实现模型紧凑。
+- 实验或效果：在中等分辨率图像上，QNeRF参数减半，性能匹配或超越经典NeRF基线。
 
 ## 摘要（原文）
 

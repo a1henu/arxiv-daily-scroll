@@ -7,14 +7,14 @@ title: Reinforced Efficient Reasoning via Semantically Diverse Exploration
 **arXiv**：[2601.05053v1](https://arxiv.org/abs/2601.05053) · [PDF](https://arxiv.org/pdf/2601.05053.pdf)  
 **作者**：Ziqi Zhao, Zhaochun Ren, Jiahong Zou, Liu Yang, Zhiwei Xu, Xuri Ge, Zhumin Chen, Xinyu Ma, Daiting Shi, Shuaiqiang Wang, Dawei Yin, Xin Xin  
 
-**一句话要点**：提出ROSE方法，通过语义多样性探索增强大语言模型的推理效率与多样性。
+**一句话要点**：提出ROSE方法以增强大语言模型推理的探索多样性和效率
 
-**关键词**：强化学习, 大语言模型推理, 蒙特卡洛树搜索, 语义多样性, 数学推理
+**关键词**：强化学习, 大语言模型推理, 蒙特卡洛树搜索, 语义多样性探索, 数学推理
 
 ## 3 点简述
-- 现有基于MCTS的强化学习方法在推理探索多样性和效率方面存在不足。
-- ROSE引入语义熵分支策略和ε探索机制，提升推理路径的语义多样性。
-- 在数学推理基准测试中验证了ROSE的有效性和效率，代码已开源。
+- 现有基于MCTS的强化学习方法存在探索多样性不足和推理效率低的问题
+- ROSE引入语义熵分支策略和ε探索机制以促进多样化探索，并设计长度感知优势估计器提升效率
+- 在数学推理基准测试中验证了ROSE的有效性和效率，代码已开源
 
 ## 摘要（原文）
 

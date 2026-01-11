@@ -7,14 +7,14 @@ title: SparseLaneSTP: Leveraging Spatio-Temporal Priors with Sparse Transformers
 **arXiv**：[2601.04968v1](https://arxiv.org/abs/2601.04968) · [PDF](https://arxiv.org/pdf/2601.04968.pdf)  
 **作者**：Maximilian Pittner, Joel Janai, Mario Faigle, Alexandru Paul Condurache  
 
-**一句话要点**：提出SparseLaneSTP，利用稀疏变换器整合时空先验以解决3D车道检测中的特征对齐与模糊性问题。
+**一句话要点**：提出SparseLaneSTP，利用稀疏Transformer整合时空先验以解决3D车道检测中的特征对齐与模糊性问题。
 
-**关键词**：3D车道检测, 稀疏变换器, 时空注意力, 自动驾驶, 车道先验, 时序正则化
+**关键词**：3D车道检测, 稀疏Transformer, 时空注意力, 自动驾驶, 车道先验, 数据集构建
 
 ## 3 点简述
-- 核心问题：现有稀疏车道检测器忽略车道几何先验和时序信息，导致特征表示不佳和模糊情况处理困难。
-- 方法要点：引入车道特定时空注意力机制、连续车道表示和时序正则化，集成到稀疏变换器中。
-- 实验或效果：在现有基准和新数据集上实现最先进性能，并贡献精确一致的3D车道数据集。
+- 核心问题：现有方法忽视车道几何先验和历史观测，导致特征对齐差和可见性差时模糊。
+- 方法要点：引入车道特定时空注意力机制、连续车道表示和时间正则化，集成到稀疏Transformer中。
+- 实验或效果：在现有基准和新数据集上实现最先进性能，验证了贡献的有效性。
 
 ## 摘要（原文）
 

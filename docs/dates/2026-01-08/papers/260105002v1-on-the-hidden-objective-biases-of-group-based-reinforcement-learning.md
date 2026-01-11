@@ -7,14 +7,14 @@ title: On the Hidden Objective Biases of Group-based Reinforcement Learning
 **arXiv**：[2601.05002v1](https://arxiv.org/abs/2601.05002) · [PDF](https://arxiv.org/pdf/2601.05002.pdf)  
 **作者**：Aleksandar Fontana, Marco Simoni, Giulio Rossolini, Andrea Saracino, Paolo Mori  
 
-**一句话要点**：分析GRPO类方法揭示梯度偏差、优化器交互和动量超限等隐藏目标偏差
+**一句话要点**：分析GRPO类方法揭示梯度偏差与优化器交互问题
 
-**关键词**：强化学习, 大语言模型, 梯度偏差, 优化器分析, 训练动态
+**关键词**：强化学习, 梯度偏差, 优化器交互, 理论分析, 大语言模型
 
 ## 3 点简述
 - 核心问题：组强化学习方法存在奖励优化与训练目标的结构性不匹配
-- 方法要点：通过统一代理公式理论分析GRPO类方法，揭示系统性偏差
-- 实验或效果：发现非均匀组加权、AdamW交互和动量效应影响训练动态
+- 方法要点：通过统一代理公式理论分析，揭示非均匀组权重导致梯度偏差
+- 实验或效果：发现AdamW优化器使训练对奖励缩放不敏感，动量可能超出裁剪区域
 
 ## 摘要（原文）
 

@@ -7,13 +7,13 @@ title: Beyond the "Truth": Investigating Election Rumors on Truth Social During 
 **arXiv**：[2601.04631v1](https://arxiv.org/abs/2601.04631) · [PDF](https://arxiv.org/pdf/2601.04631.pdf)  
 **作者**：Etienne Casanova, R. Michael Alvarez  
 
-**一句话要点**：提出多阶段谣言检测代理，利用LLMs分析2024年选举期间Truth Social平台上的谣言传播心理动态。
+**一句话要点**：提出多阶段谣言检测代理，利用大语言模型分析2024年选举期间Truth Social平台上的谣言传播心理动态。
 
 **关键词**：谣言检测, 大语言模型应用, 心理测量, 错觉真相效应, 社交媒体分析, 选举谣言
 
 ## 3 点简述
 - 核心问题：研究小众替代技术平台上的选举谣言传播，量化自然环境中错觉真相效应的心理动态。
-- 方法要点：开发结合微调RoBERTa、关键词过滤和GPT-4o mini两阶段验证的多阶段谣言检测代理。
+- 方法要点：开发结合微调RoBERTa分类器、关键词过滤和GPT-4o mini两阶段验证的多阶段谣言检测代理。
 - 实验或效果：发现分享概率随曝光次数增加而上升，模拟显示四轮传播后近四分之一用户被感染。
 
 ## 摘要（原文）
