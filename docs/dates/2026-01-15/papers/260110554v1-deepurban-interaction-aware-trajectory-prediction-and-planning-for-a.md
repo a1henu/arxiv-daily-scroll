@@ -12,9 +12,9 @@ title: DeepUrban: Interaction-Aware Trajectory Prediction and Planning for Autom
 **关键词**：轨迹预测, 自动驾驶规划, 无人机数据集, 密集交通场景, 交互建模
 
 ## 3 点简述
-- 核心问题：现有自动驾驶基准缺乏密集交通场景，影响交互建模与系统鲁棒性。
+- 核心问题：现有自动驾驶基准缺乏密集交通场景，难以建模复杂交互。
 - 方法要点：与工业伙伴合作，基于高分辨率航拍图像构建包含3D交通对象和地图信息的无人机数据集。
-- 实验或效果：在nuScenes上评估SOTA方法，加入DeepUrban可提升ADE/FDE指标达44.1%/44.3%。
+- 实验或效果：在nuScenes上评估SOTA方法，提升车辆预测和规划精度，ADE/FDE指标改进达44.1%/44.3%。
 
 ## 摘要（原文）
 

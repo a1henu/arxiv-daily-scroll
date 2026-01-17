@@ -13,8 +13,8 @@ title: Comparative Evaluation of Deep Learning-Based and WHO-Informed Approaches
 
 ## 3 点简述
 - 核心问题：精子形态评估主观性强，存在观察者间变异和资源限制。
-- 方法要点：比较深度学习模型HuSHeM与基于WHO标准增强的基线方法WHO(+SIRI)。
-- 实验或效果：HuSHeM在区分性能、校准和临床净收益方面表现更优。
+- 方法要点：比较深度学习模型HuSHeM与基于WHO标准加炎症指标的基线方法。
+- 实验或效果：HuSHeM在区分性能、校准和临床净获益方面表现更优。
 
 ## 摘要（原文）
 

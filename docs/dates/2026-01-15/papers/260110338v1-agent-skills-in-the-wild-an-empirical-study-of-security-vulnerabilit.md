@@ -7,13 +7,13 @@ title: Agent Skills in the Wild: An Empirical Study of Security Vulnerabilities 
 **arXiv**：[2601.10338v1](https://arxiv.org/abs/2601.10338) · [PDF](https://arxiv.org/pdf/2601.10338.pdf)  
 **作者**：Yi Liu, Weizhe Wang, Ruitao Feng, Yao Zhang, Guangquan Xu, Gelei Deng, Yuekang Li, Leo Zhang  
 
-**一句话要点**：提出SkillScan检测框架，首次大规模实证分析AI代理技能的安全漏洞
+**一句话要点**：提出SkillScan框架，首次大规模实证分析AI代理技能的安全漏洞
 
 **关键词**：AI代理安全, 漏洞检测, 静态分析, LLM语义分类, 技能市场, 实证研究
 
 ## 3 点简述
 - 核心问题：AI代理技能因隐式信任和低审查，存在未表征的安全攻击面。
-- 方法要点：使用SkillScan多阶段检测框架，结合静态分析和LLM语义分类。
+- 方法要点：开发SkillScan多阶段检测框架，结合静态分析和LLM语义分类。
 - 实验或效果：分析31,132个技能，发现26.1%含漏洞，数据外泄和权限提升最普遍。
 
 ## 摘要（原文）

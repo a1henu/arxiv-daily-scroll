@@ -14,7 +14,7 @@ title: FaTRQ: Tiered Residual Quantization for LLM Vector Search in Far-Memory-A
 ## 3 点简述
 - 现代ANNS系统依赖慢速存储读取全精度向量，导致查询延迟主导
 - FaTRQ使用分层残差量化，以三元值编码残差，结合渐进距离估计器实现早期停止
-- 实验显示存储效率提升2.4倍，吞吐量最高提升9倍于SOTA GPU系统
+- 实验显示存储效率提升2.4倍，吞吐量最高提升9倍
 
 ## 摘要（原文）
 

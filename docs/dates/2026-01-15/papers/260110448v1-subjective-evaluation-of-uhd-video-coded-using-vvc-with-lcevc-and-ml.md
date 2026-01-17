@@ -7,14 +7,14 @@ title: Subjective evaluation of UHD video coded using VVC with LCEVC and ML-VVC
 **arXiv**：[2601.10448v1](https://arxiv.org/abs/2601.10448) · [PDF](https://arxiv.org/pdf/2601.10448.pdf)  
 **作者**：Naeem Ramzan, Muhammad Tufail Khan  
 
-**一句话要点**：评估VVC结合LCEVC和ML-VVC在UHD视频编码中的主观质量，比较多层配置性能。
+**一句话要点**：评估VVC与LCEVC及ML-VVC多层编码在UHD视频中的主观质量
 
 **关键词**：主观质量评估, 多层视频编码, VVC, LCEVC, UHD视频, DCR方法
 
 ## 3 点简述
-- 核心问题：评估多层视频编码配置中，VVC基础层结合LCEVC增强层的主观质量，对比ML-VVC和上采样VVC。
-- 方法要点：采用DCR主观评估方法，测试HD VVC基础层加LCEVC增强层，考虑10%和50%总比特率的操作点。
-- 实验或效果：基于15个SDR和HDR序列，25名参与者，报告MOS及置信区间，比较不同编码方法和操作点的感知质量。
+- 核心问题：评估多层视频编码配置中，VVC基层与LCEVC增强层结合的主观质量表现。
+- 方法要点：采用DCR方法，比较HD VVC基层加LCEVC增强与上采样VVC解码及ML-VVC的参考案例。
+- 实验或效果：基于15个SDR和HDR序列，报告MOS及置信区间，分析不同比特率操作点的感知质量差异。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: Repository Intelligence Graph: Deterministic Architectural Map for LLM Co
 **arXiv**：[2601.10112v1](https://arxiv.org/abs/2601.10112) · [PDF](https://arxiv.org/pdf/2601.10112.pdf)  
 **作者**：Tsvi Cherny-Shahar, Amiram Yehudai  
 
-**一句话要点**：提出Repository Intelligence Graph以解决多语言项目中LLM代码助手构建和测试结构恢复难题
+**一句话要点**：提出Repository Intelligence Graph以解决多语言项目中LLM代码助手构建结构恢复难题
 
-**关键词**：代码仓库智能图, 构建系统分析, 多语言项目依赖, LLM代码助手, 确定性提取器, 测试结构恢复
+**关键词**：代码仓库智能图, 构建结构恢复, 多语言项目, LLM代码助手, 确定性提取器, 架构映射
 
 ## 3 点简述
-- 核心问题：多语言项目中，跨语言依赖和异构构建系统导致代码助手难以准确恢复构建和测试结构。
-- 方法要点：引入RIG作为确定性架构图，通过SPADE提取器从构建和测试工件自动生成LLM友好的JSON视图。
-- 实验或效果：在八个仓库中评估，RIG将平均准确率提升12.2%，完成时间减少53.9%，多语言仓库效果更显著。
+- 问题：多语言项目中，构建和测试结构恢复困难，跨语言依赖分散在异构构建系统中。
+- 方法：引入RIG，一种确定性架构图，表示可构建组件、测试等，通过依赖和覆盖边连接，并开发SPADE提取器从构建工件生成RIG。
+- 效果：在多个仓库和商业代理上，RIG提升平均准确率12.2%，减少完成时间53.9%，多语言仓库增益更大。
 
 ## 摘要（原文）
 

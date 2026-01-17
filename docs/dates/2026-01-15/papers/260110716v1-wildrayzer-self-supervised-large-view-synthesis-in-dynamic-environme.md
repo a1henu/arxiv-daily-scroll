@@ -9,7 +9,7 @@ title: WildRayZer: Self-supervised Large View Synthesis in Dynamic Environments
 
 **一句话要点**：提出WildRayZer自监督框架以解决动态环境中新视角合成的多视图一致性问题。
 
-**关键词**：新视角合成, 动态环境, 自监督学习, 运动估计, 数据集构建
+**关键词**：新视角合成, 动态环境, 自监督学习, 运动估计, 数据集构建, 瞬态区域移除
 
 ## 3 点简述
 - 核心问题：动态内容破坏多视图一致性，导致鬼影、几何幻觉和姿态估计不稳定。

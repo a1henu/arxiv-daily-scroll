@@ -13,8 +13,8 @@ title: From Single to Multi-Agent Reasoning: Advancing GeneGPT for Genomics QA
 
 ## 3 点简述
 - 基因组信息提取面临复杂分布式数据库挑战，现有LLMs受限领域数据库访问
-- GenomAgent通过协调专业智能体处理复杂查询，超越GeneGPT的API依赖限制
-- 在GeneTuring基准九项任务中平均提升12%，框架可扩展至其他科学领域
+- GenomAgent通过协调专业智能体处理复杂查询，超越GeneGPT的API依赖
+- 在GeneTuring基准九项任务中平均提升12%，架构可扩展至其他科学领域
 
 ## 摘要（原文）
 

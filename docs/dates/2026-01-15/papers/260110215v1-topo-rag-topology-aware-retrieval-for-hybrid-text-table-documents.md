@@ -9,12 +9,12 @@ title: Topo-RAG: Topology-aware retrieval for hybrid text-table documents
 
 **一句话要点**：提出Topo-RAG框架以解决企业混合文档检索中线性化方法不足的问题。
 
-**关键词**：混合文档检索, 拓扑感知检索, Cell-Aware Late Interaction, RAG框架, 企业数据集
+**关键词**：混合文档检索, 拓扑感知检索, Cell-Aware Late Interaction, 企业数据集, RAG系统, 表格处理
 
 ## 3 点简述
-- 核心问题：现有RAG系统将多维表格线性化为文本，无法充分捕捉数据结构，导致检索效果受限。
+- 核心问题：现有RAG系统将多维表格线性化为文本，无法有效捕捉数据结构，导致检索性能受限。
 - 方法要点：采用双架构，文本部分用稠密检索器，表格部分用Cell-Aware Late Interaction机制保留空间关系。
-- 实验或效果：在SEC-25数据集上，Topo-RAG相比标准线性化方法，nDCG@10提升18.4%。
+- 实验或效果：在SEC-25合成企业语料上，Topo-RAG在混合查询的nDCG@10指标上比标准线性化方法提升18.4%。
 
 ## 摘要（原文）
 

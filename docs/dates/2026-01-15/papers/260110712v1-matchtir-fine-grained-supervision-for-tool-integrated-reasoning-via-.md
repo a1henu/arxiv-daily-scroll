@@ -7,14 +7,14 @@ title: MatchTIR: Fine-Grained Supervision for Tool-Integrated Reasoning via Bipa
 **arXiv**：[2601.10712v1](https://arxiv.org/abs/2601.10712) · [PDF](https://arxiv.org/pdf/2601.10712.pdf)  
 **作者**：Changle Qu, Sunhao Dai, Hengyi Cai, Jun Xu, Shuaiqiang Wang, Dawei Yin  
 
-**一句话要点**：提出MatchTIR框架，通过二分匹配和双重优势估计解决工具集成推理中的细粒度监督问题。
+**一句话要点**：提出MatchTIR框架，通过二分图匹配和双级优势估计解决工具集成推理中的细粒度监督问题。
 
-**关键词**：工具集成推理, 细粒度监督, 二分匹配, 强化学习, 长视野任务, 多回合交互
+**关键词**：工具集成推理, 二分图匹配, 细粒度监督, 强化学习, 信用分配, 多回合任务
 
 ## 3 点简述
 - 现有强化学习方法在工具集成推理中依赖粗粒度奖励，难以区分有效与冗余工具调用。
-- MatchTIR利用二分匹配分配回合级奖励，并引入双重优势估计平衡局部精度与全局任务成功。
-- 实验表明，MatchTIR在长视野和多回合任务中表现优异，4B模型超越多数8B竞争对手。
+- MatchTIR将信用分配建模为二分图匹配问题，生成密集的回合级奖励，并集成双级优势估计。
+- 实验表明，MatchTIR在长视野和多回合任务中优于现有方法，4B模型超越多数8B竞争对手。
 
 ## 摘要（原文）
 

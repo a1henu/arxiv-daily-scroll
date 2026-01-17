@@ -14,7 +14,7 @@ title: Multi-Objective Pareto-Front Optimization for Efficient Adaptive VVC Stre
 ## 3 点简述
 - 核心问题：自适应视频流媒体需平衡比特率、视频质量和解码复杂度以实现高效传输。
 - 方法要点：引入JRQT-PF和JQT-PF策略，在质量单调性约束下联合优化质量、比特率和解码时间。
-- 实验或效果：在UHD数据集上验证，JQT-PF节省比特率11.76%，解码时间减少0.29%，优于现有方法。
+- 实验效果：JQT-PF方法相比固定阶梯平均节省11.76%比特率，解码时间减少0.29%，保持相同XPSNR。
 
 ## 摘要（原文）
 
