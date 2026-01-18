@@ -7,14 +7,14 @@ title: Toward Ultra-Long-Horizon Agentic Science: Cognitive Accumulation for Mac
 **arXiv**：[2601.10402v1](https://arxiv.org/abs/2601.10402) · [PDF](https://arxiv.org/pdf/2601.10402.pdf)  
 **作者**：Xinyu Zhu, Yuzhu Cai, Zexi Liu, Bingyang Zheng, Cheng Wang, Rui Ye, Jiaao Chen, Hanrui Wang, Wei-Chen Wang, Yuzhi Zhang, Linfeng Zhang, Weinan E, Di Jin, Siheng Chen  
 
-**一句话要点**：提出分层认知缓存以解决超长时域自主智能在机器学习工程中的瓶颈
+**一句话要点**：提出分层认知缓存以解决超长时域自主性在机器学习工程中的瓶颈
 
-**关键词**：超长时域自主智能, 分层认知缓存, 机器学习工程, 认知积累, 延迟反馈环境
+**关键词**：超长时域自主性, 分层认知缓存, 机器学习工程, 认知积累, 自主代理
 
 ## 3 点简述
-- 核心问题：LLMs在超长时域、延迟反馈环境中难以维持战略连贯性，易被执行细节淹没。
-- 方法要点：引入分层认知缓存，通过动态提炼执行痕迹为稳定知识，解耦即时执行与长期策略。
-- 实验或效果：在OpenAI MLE-Bench上，ML-Master 2.0在24小时预算内达到56.44%的奖牌率，表现先进。
+- 核心问题：LLMs在现实研究的高维延迟反馈环境中难以维持超长时域的战略一致性和迭代修正
+- 方法要点：通过分层认知缓存动态提炼执行痕迹为稳定知识和跨任务智慧，解耦即时执行与长期策略
+- 实验或效果：在OpenAI的MLE-Bench上以24小时预算实现56.44%的奖牌率，达到最先进水平
 
 ## 摘要（原文）
 

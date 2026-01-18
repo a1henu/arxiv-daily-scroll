@@ -7,14 +7,14 @@ title: Chinese Labor Law Large Language Model Benchmark
 **arXiv**：[2601.09972v1](https://arxiv.org/abs/2601.09972) · [PDF](https://arxiv.org/pdf/2601.09972.pdf)  
 **作者**：Zixun Lan, Maochun Xu, Yifan Ren, Rui Wu, Jianghui Zhou, Xueyang Cheng, Jianan Ding Ding, Xinheng Wang, Mingmin Chi, Fei Ma  
 
-**一句话要点**：提出LabourLawLLM和LabourLawBench以解决大语言模型在中文劳动法领域的专业应用难题。
+**一句话要点**：提出LabourLawLLM和LabourLawBench以解决大语言模型在中文劳动法领域的专业应用难题
 
-**关键词**：中文劳动法, 大语言模型, 专业领域基准, 法律AI应用, 模型评估, 任务多样性
+**关键词**：中文劳动法, 大语言模型, 法律基准, 专业模型, 法律人工智能
 
 ## 3 点简述
-- 核心问题：通用大语言模型在劳动法等专业领域存在知识不精确、推理复杂和上下文敏感度不足的局限。
-- 方法要点：开发LabourLawLLM专门针对中文劳动法，并构建LabourLawBench涵盖多种任务以评估模型性能。
-- 实验或效果：LabourLawLLM在综合评估中优于通用和现有法律专用模型，方法可扩展至其他法律子领域。
+- 核心问题：通用大语言模型在劳动法等专业法律子域中表现不佳，需精确知识、复杂推理和上下文敏感性
+- 方法要点：开发专门针对中文劳动法的LabourLawLLM，并构建涵盖多种任务的LabourLawBench基准
+- 实验或效果：LabourLawLLM在客观指标和GPT-4主观评估中均优于通用及现有法律专用模型
 
 ## 摘要（原文）
 

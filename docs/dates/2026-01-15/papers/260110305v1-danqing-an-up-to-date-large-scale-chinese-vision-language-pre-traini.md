@@ -7,14 +7,14 @@ title: DanQing: An Up-to-Date Large-Scale Chinese Vision-Language Pre-training D
 **arXiv**：[2601.10305v1](https://arxiv.org/abs/2601.10305) · [PDF](https://arxiv.org/pdf/2601.10305.pdf)  
 **作者**：Hengyu Shen, Tiancheng Gu, Bin Qin, Lan Wu, Yuling Wu, Shuo Tan, Zelong Sun, Jun Wang, Nan Wu, Xiang An, Weidong Cai, Ziyong Feng, Kaicheng Yang  
 
-**一句话要点**：提出DanQing大规模中文视觉-语言预训练数据集以解决高质量中文图像-文本数据稀缺问题。
+**一句话要点**：提出DanQing大规模中文视觉-语言预训练数据集以解决高质量数据稀缺问题
 
 **关键词**：视觉-语言预训练, 中文数据集, 跨模态检索, 零样本学习, 图像-文本对, 数据质量筛选
 
 ## 3 点简述
-- 核心问题：中文视觉-语言预训练因高质量图像-文本数据稀缺而落后于英文领域。
-- 方法要点：通过严格筛选流程从Common Crawl收集1亿对图像-文本，数据主要来自2024-2025年网络。
-- 实验或效果：基于SigLIP2模型持续预训练，在零样本分类、跨模态检索等任务中表现优于现有数据集。
+- 核心问题：中文视觉-语言预训练因高质量图像-文本对数据稀缺而发展滞后
+- 方法要点：通过严格筛选流程从Common Crawl构建1亿对高质量中文图像-文本数据，数据主要来自2024-2025年
+- 实验或效果：基于SigLIP2模型持续预训练，在零样本分类、跨模态检索等任务中表现优异
 
 ## 摘要（原文）
 

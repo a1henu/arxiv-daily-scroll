@@ -7,7 +7,7 @@ title: PLGC: Pseudo-Labeled Graph Condensation
 **arXiv**：[2601.10358v1](https://arxiv.org/abs/2601.10358) · [PDF](https://arxiv.org/pdf/2601.10358.pdf)  
 **作者**：Jay Nandy, Arnab Kumar Mondal, Anuj Rathore, Mahesh Chandran  
 
-**一句话要点**：提出伪标签图压缩以解决标签稀缺或噪声下的大图训练成本问题
+**一句话要点**：提出伪标签图压缩以解决标签稀缺或噪声下的大图训练问题
 
 **关键词**：图神经网络, 图压缩, 自监督学习, 伪标签, 节点分类, 链接预测
 

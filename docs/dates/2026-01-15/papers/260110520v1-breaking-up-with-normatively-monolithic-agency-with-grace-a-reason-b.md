@@ -7,14 +7,14 @@ title: Breaking Up with Normatively Monolithic Agency with GRACE: A Reason-Based
 **arXiv**：[2601.10520v1](https://arxiv.org/abs/2601.10520) · [PDF](https://arxiv.org/pdf/2601.10520.pdf)  
 **作者**：Felix Jahn, Yannic Muskalla, Lisa Dargasz, Patrick Schramowski, Kevin Baum  
 
-**一句话要点**：提出GRACE神经符号架构，通过解耦规范推理与决策实现AI安全伦理对齐。
+**一句话要点**：提出GRACE神经符号架构，通过解耦规范推理与决策制定，确保AI代理的安全与伦理对齐。
 
-**关键词**：神经符号架构, AI伦理对齐, 规范推理, 可解释AI, 安全AI
+**关键词**：神经符号架构, 伦理对齐, 可解释AI, 规范推理, 安全AI
 
 ## 3 点简述
-- 核心问题：AI自主性增强需确保决策符合规范，而不仅是工具性有效。
-- 方法要点：GRACE包含道德模块、决策模块和守卫，基于理由形式化实现可解释性。
-- 实验或效果：以LLM治疗助手为例，展示可理解、可争议和可精炼的行为。
+- 核心问题：AI代理自主性增强，需确保决策不仅有效且符合规范，避免伦理风险。
+- 方法要点：GRACE架构包含道德模块、决策模块和守卫，基于理由的形式主义实现可解释性和可验证性。
+- 实验或效果：以LLM治疗助手为例，展示GRACE如何支持利益相关者理解、质疑和优化代理行为。
 
 ## 摘要（原文）
 

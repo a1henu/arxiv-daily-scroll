@@ -7,14 +7,14 @@ title: LIBERTy: A Causal Framework for Benchmarking Concept-Based Explanations o
 **arXiv**：[2601.10700v1](https://arxiv.org/abs/2601.10700) · [PDF](https://arxiv.org/pdf/2601.10700.pdf)  
 **作者**：Gilat Toker, Nitay Calderon, Ohad Amosy, Roi Reichart  
 
-**一句话要点**：提出LIBERTy框架，基于结构因果模型构建数据集，以评估LLM概念解释的忠实性。
+**一句话要点**：提出LIBERTy框架，基于结构因果模型生成反事实对，以评估LLM概念解释的忠实性。
 
-**关键词**：概念解释评估, 结构反事实, LLM忠实性, 因果框架, 数据集构建
+**关键词**：概念解释评估, 结构反事实, LLM基准, 忠实性度量, 因果框架
 
 ## 3 点简述
 - 核心问题：现有基准依赖人工反事实，成本高且不完美，难以评估概念解释的忠实性。
-- 方法要点：通过定义结构化因果模型，干预概念并生成反事实对，构建LIBERTy数据集和order-faithfulness评估指标。
-- 实验或效果：在三个数据集上评估多种方法，发现概念解释有改进空间，专有LLM对人口统计概念敏感性降低。
+- 方法要点：通过定义结构化因果模型，干预概念并传播至LLM生成反事实对，构建数据集和评估指标。
+- 实验或效果：评估多种方法，发现概念解释有改进空间，专有LLM对人口统计概念敏感性降低。
 
 ## 摘要（原文）
 

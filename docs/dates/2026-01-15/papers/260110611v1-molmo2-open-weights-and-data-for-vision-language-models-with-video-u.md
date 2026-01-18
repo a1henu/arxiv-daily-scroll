@@ -7,14 +7,14 @@ title: Molmo2: Open Weights and Data for Vision-Language Models with Video Under
 **arXiv**：[2601.10611v1](https://arxiv.org/abs/2601.10611) · [PDF](https://arxiv.org/pdf/2601.10611.pdf)  
 **作者**：Christopher Clark, Jieyu Zhang, Zixian Ma, Jae Sung Park, Mohammadreza Salehi, Rohun Tripathi, Sangho Lee, Zhongzheng Ren, Chris Dongjoo Kim, Yinuo Yang, Vincent Shao, Yue Yang, Weikai Huang, Ziqi Gao, Taira Anderson, Jianrui Zhang, Jitesh Jain, George Stoica, Winson Han, Ali Farhadi, Ranjay Krishna  
 
-**一句话要点**：提出Molmo2视觉语言模型及开源数据集，解决视频理解与像素级定位问题
+**一句话要点**：提出Molmo2视觉语言模型及开源数据集，解决视频理解与像素级定位问题。
 
-**关键词**：视频语言模型, 像素级定位, 开源数据集, 视频理解, 对象跟踪, 多模态训练
+**关键词**：视频语言模型, 像素级定位, 开源数据集, 视频理解, 多模态训练
 
 ## 3 点简述
-- 当前开源视频语言模型依赖闭源模型蒸馏或数据不透明，缺乏改进基础
-- 贡献7个视频和2个多图像开源数据集，包含详细标注、问答、跟踪和指向任务
-- 8B模型在短视频、计数、描述任务上领先开源模型，视频定位能力显著提升
+- 当前开源视频语言模型依赖闭源模型蒸馏或数据不透明，缺乏改进基础。
+- 贡献7个视频和2个多图像开源数据集，采用高效训练方案提升性能。
+- 在视频计数、描述和定位任务上超越开源模型，部分任务优于闭源模型。
 
 ## 摘要（原文）
 

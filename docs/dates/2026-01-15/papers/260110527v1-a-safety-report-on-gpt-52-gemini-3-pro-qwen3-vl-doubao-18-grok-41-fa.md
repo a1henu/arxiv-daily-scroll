@@ -7,14 +7,14 @@ title: A Safety Report on GPT-5.2, Gemini 3 Pro, Qwen3-VL, Doubao 1.8, Grok 4.1 
 **arXiv**：[2601.10527v1](https://arxiv.org/abs/2601.10527) · [PDF](https://arxiv.org/pdf/2601.10527.pdf)  
 **作者**：Xingjun Ma, Yixu Wang, Hengyuan Xu, Yutao Wu, Yifan Ding, Yunhan Zhao, Zilong Wang, Jiabin Hua, Ming Wen, Jianan Liu, Ranjie Duan, Yifeng Gao, Yingshui Tan, Yunhao Chen, Hui Xue, Xin Wang, Wei Cheng, Jingjing Chen, Zuxuan Wu, Bo Li, Yu-Gang Jiang  
 
-**一句话要点**：提出统一安全评估协议，评估7个前沿模型在语言、视觉语言和图像生成中的安全性能。
+**一句话要点**：提出集成安全评估协议，评估7个前沿模型在语言、视觉语言和图像生成中的安全性能。
 
-**关键词**：大语言模型安全评估, 多模态安全, 对抗评估, 合规评估, 模型安全异质性
+**关键词**：大语言模型安全评估, 多模态安全, 对抗评估, 合规评估, 安全性能异质性
 
 ## 3 点简述
-- 核心问题：前沿模型在多模态和威胁模型下的安全改进是否与能力提升同步，现有评估碎片化。
-- 方法要点：采用统一协议，整合基准评估、对抗评估、多语言评估和合规评估。
-- 实验或效果：模型安全性能异质性强，GPT-5.2表现均衡，其他模型存在权衡，对抗评估下脆弱性显著。
+- 核心问题：前沿模型在多模态和威胁模型下的安全改进是否与能力提升同步，评估实践碎片化。
+- 方法要点：采用统一协议，集成基准评估、对抗评估、多语言评估和合规评估。
+- 实验或效果：模型安全性能异质性强，GPT-5.2表现均衡，其他模型在安全、对抗、多语言和合规间存在权衡。
 
 ## 摘要（原文）
 

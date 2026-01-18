@@ -7,14 +7,14 @@ title: Handling Missing Modalities in Multimodal Survival Prediction for Non-Sma
 **arXiv**：[2601.10386v1](https://arxiv.org/abs/2601.10386) · [PDF](https://arxiv.org/pdf/2601.10386.pdf)  
 **作者**：Filippo Ruffini, Camillo Maria Caruso, Claudia Tacconi, Lorenzo Nibid, Francesca Miccolis, Marta Lovino, Carlo Greco, Edy Ippolito, Michele Fiore, Alessio Cortellini, Bruno Beomonte Zobel, Giuseppe Perrone, Bruno Vincenzi, Claudio Marrocco, Alessandro Bria, Elisa Ficarra, Sara Ramella, Valerio Guarrasi, Paolo Soda  
 
-**一句话要点**：提出缺失感知多模态生存框架，以解决非小细胞肺癌中模态缺失问题，提升生存预测性能。
+**一句话要点**：提出缺失感知多模态生存框架以解决非小细胞肺癌生存预测中模态缺失问题
 
-**关键词**：多模态生存预测, 缺失模态处理, 非小细胞肺癌, 中间融合, 基础模型, 临床影像融合
+**关键词**：多模态生存预测, 模态缺失处理, 非小细胞肺癌, 中间融合, 基础模型
 
 ## 3 点简述
-- 核心问题：多模态生存预测中模态缺失限制临床适用性，常需丢弃数据或插补。
-- 方法要点：利用基础模型提取特征，设计缺失感知编码，实现中间融合处理不完整模态。
-- 实验或效果：中间融合优于单模态及早期/晚期融合，WSI与临床模态融合C-index达73.30。
+- 核心问题：多模态生存预测因小样本和模态缺失而受限，需避免数据丢弃或激进填补
+- 方法要点：利用基础模型提取特征，设计缺失感知编码策略，实现中间融合以处理不完整模态
+- 实验或效果：中间融合优于单模态及早期/晚期融合，WSI与临床模态融合效果最佳（C-index 73.30）
 
 ## 摘要（原文）
 

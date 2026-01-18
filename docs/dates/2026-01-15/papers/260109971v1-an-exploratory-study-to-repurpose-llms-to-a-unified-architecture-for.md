@@ -7,14 +7,14 @@ title: An Exploratory Study to Repurpose LLMs to a Unified Architecture for Time
 **arXiv**：[2601.09971v1](https://arxiv.org/abs/2601.09971) · [PDF](https://arxiv.org/pdf/2601.09971.pdf)  
 **作者**：Hansen He, Shuheng Li  
 
-**一句话要点**：探索将LLMs与Inception编码器结合的统一架构以提升时间序列分类性能
+**一句话要点**：探索将LLMs与时间序列编码器结合的统一架构，用于时间序列分类
 
-**关键词**：时间序列分类, 大型语言模型, 混合架构, Inception编码器, 编码器评估
+**关键词**：时间序列分类, 大型语言模型, 混合架构, 编码器选择, Inception模型, 探索性研究
 
 ## 3 点简述
-- 核心问题：时间序列分类中LLMs的编码器架构选择未充分探索，影响性能提升
-- 方法要点：研究混合架构，结合多种时间序列编码器与冻结LLM主干，评估不同编码器家族
-- 实验或效果：Inception编码器在集成LLM时表现最佳，为未来LLM驱动的时间序列学习提供方向
+- 研究核心问题：时间序列分类中LLMs与编码器架构的集成选择
+- 方法要点：评估多种编码器家族，发现Inception模型与冻结LLM结合效果最佳
+- 实验效果：Inception编码器在混合架构中持续提升性能，为未来研究提供方向
 
 ## 摘要（原文）
 

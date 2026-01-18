@@ -7,14 +7,14 @@ title: AgentGuardian: Learning Access Control Policies to Govern AI Agent Behavi
 **arXiv**：[2601.10440v1](https://arxiv.org/abs/2601.10440) · [PDF](https://arxiv.org/pdf/2601.10440.pdf)  
 **作者**：Nadya Abaev, Denis Klimov, Gerard Levinov, David Mimran, Yuval Elovici, Asaf Shabtai  
 
-**一句话要点**：提出AgentGuardian框架，通过上下文感知访问控制策略保护AI代理行为安全。
+**一句话要点**：提出AgentGuardian框架，通过上下文感知访问控制策略保护AI代理行为安全
 
-**关键词**：AI代理安全, 访问控制策略, 上下文感知, 行为监控, 恶意输入检测
+**关键词**：AI代理安全, 访问控制策略, 上下文感知, 控制流治理, 恶意输入检测
 
 ## 3 点简述
-- 核心问题：AI代理在自动化任务中可能执行未授权操作或处理不当输入，威胁系统完整性。
-- 方法要点：在受控阶段监控执行轨迹，学习合法行为模式，生成自适应策略以调控工具调用。
-- 实验或效果：在真实AI应用中有效检测恶意输入，保持正常功能，减少幻觉驱动错误。
+- 核心问题：AI代理在自动化任务中可能执行未授权操作或处理不当输入，威胁系统完整性
+- 方法要点：在受控阶段监控执行轨迹，学习合法行为并生成自适应策略，基于实时输入上下文和控制流依赖
+- 实验或效果：在两个真实AI代理应用中有效检测恶意输入，保持正常功能，减轻幻觉驱动错误
 
 ## 摘要（原文）
 

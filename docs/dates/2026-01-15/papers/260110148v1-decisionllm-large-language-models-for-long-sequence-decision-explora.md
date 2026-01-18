@@ -7,14 +7,14 @@ title: DecisionLLM: Large Language Models for Long Sequence Decision Exploration
 **arXiv**：[2601.10148v1](https://arxiv.org/abs/2601.10148) · [PDF](https://arxiv.org/pdf/2601.10148.pdf)  
 **作者**：Xiaowei Lv, Zhilin Zhang, Yijun Li, Yusen Huo, Siyuan Ju, Xuyan Li, Chunxiang Hong, Tianyu Wang, Yongcai Wang, Peng Sun, Chuan Yu, Jian Xu, Bo Zheng  
 
-**一句话要点**：提出DecisionLLM，将轨迹作为模态对齐语言，以解决大语言模型在离线长序列决策中处理连续值的挑战。
+**一句话要点**：提出DecisionLLM，将轨迹作为模态对齐语言，以解决LLMs在长序列离线决策中处理连续值的挑战。
 
-**关键词**：长序列决策, 大语言模型, 轨迹模态对齐, 离线决策, 自回归预测, 竞价优化
+**关键词**：长序列决策, 离线强化学习, 轨迹模态对齐, 大语言模型应用, 缩放定律, 实时竞价
 
 ## 3 点简述
-- 核心问题：大语言模型无法直接理解连续数值，限制了其在长序列决策任务中的应用。
+- 核心问题：LLMs无法原生理解连续数值，阻碍其在长序列决策任务中的应用。
 - 方法要点：将轨迹数据视为独立模态，通过对齐自然语言描述实现自回归决策预测。
-- 实验或效果：在离线基准和竞价场景中，DecisionLLM-3B优于传统决策Transformer，性能随模型规模、数据量和质量提升。
+- 实验或效果：在离线基准和竞价场景中，DecisionLLM-3B优于传统Decision Transformer，并建立了缩放定律。
 
 ## 摘要（原文）
 

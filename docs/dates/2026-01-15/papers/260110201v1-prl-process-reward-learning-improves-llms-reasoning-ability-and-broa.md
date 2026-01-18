@@ -7,7 +7,7 @@ title: PRL: Process Reward Learning Improves LLMs' Reasoning Ability and Broaden
 **arXiv**：[2601.10201v1](https://arxiv.org/abs/2601.10201) · [PDF](https://arxiv.org/pdf/2601.10201.pdf)  
 **作者**：Jiarui Yao, Ruida Wang, Tong Zhang  
 
-**一句话要点**：提出过程奖励学习以改进大语言模型的推理能力并拓宽推理边界
+**一句话要点**：提出过程奖励学习以改进大语言模型推理能力并拓宽推理边界
 
 **关键词**：过程奖励学习, 大语言模型推理, 强化学习优化, 熵正则化, 过程监督
 

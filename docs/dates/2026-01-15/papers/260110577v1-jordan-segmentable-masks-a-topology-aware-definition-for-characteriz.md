@@ -7,14 +7,14 @@ title: Jordan-Segmentable Masks: A Topology-Aware definition for characterizing 
 **arXiv**：[2601.10577v1](https://arxiv.org/abs/2601.10577) · [PDF](https://arxiv.org/pdf/2601.10577.pdf)  
 **作者**：Serena Grazia De Benedictis, Amedeo Altavilla, Nicoletta Del Buono  
 
-**一句话要点**：提出Jordan可分割掩码，基于数字拓扑理论评估分割的结构连贯性。
+**一句话要点**：提出Jordan可分割掩码定义，基于数字拓扑评估分割结构连贯性
 
 **关键词**：图像分割评估, 数字拓扑, Jordan曲线定理, Betti数, 结构连贯性, 无监督准则
 
 ## 3 点简述
-- 核心问题：传统分割评估指标难以捕捉结构拓扑连贯性，导致高分数但形状或连通性差。
-- 方法要点：基于Jordan曲线定理定义Jordan可分割掩码，利用Betti数验证拓扑分离为两个连通分量。
-- 实验或效果：提供无监督数学准则，适用于需保持拓扑正确性的应用如医学影像。
+- 核心问题：传统分割评估指标难以捕捉结构连贯性，导致拓扑错误被忽略
+- 方法要点：基于Jordan曲线定理定义Jordan可分割掩码，利用Betti数验证拓扑分离
+- 实验或效果：提供无监督数学准则，适用于医学成像等需拓扑正确性的场景
 
 ## 摘要（原文）
 

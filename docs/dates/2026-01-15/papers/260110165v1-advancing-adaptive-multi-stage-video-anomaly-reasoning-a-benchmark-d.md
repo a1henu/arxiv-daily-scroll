@@ -7,14 +7,14 @@ title: Advancing Adaptive Multi-Stage Video Anomaly Reasoning: A Benchmark Datas
 **arXiv**：[2601.10165v1](https://arxiv.org/abs/2601.10165) · [PDF](https://arxiv.org/pdf/2601.10165.pdf)  
 **作者**：Chao Huang, Benfeng Wang, Wei Wang, Jie Wen, Li Shen, Wenqi Ren, Yong Xu, Xiaochun Cao  
 
-**一句话要点**：提出视频异常推理任务与数据集，以增强多模态大语言模型在视频异常分析中的结构化推理能力。
+**一句话要点**：提出视频异常推理任务与数据集，结合自适应多阶段推理方法以提升MLLM在视频异常分析中的能力。
 
-**关键词**：视频异常推理, 多模态大语言模型, 结构化推理, 弱监督学习, 数据集构建, 风险感知决策
+**关键词**：视频异常推理, 多模态大语言模型, 自适应多阶段推理, 风险感知决策, 弱监督学习, 基准数据集
 
 ## 3 点简述
-- 现有方法在视频异常检测与理解中缺乏显式推理过程，本文定义视频异常推理任务，要求模型进行多阶段推理。
-- 构建包含8,641个视频和50,000+样本的数据集，基于PerCoAct-CoT链式思维标注，支持系统评估。
-- 提出Vad-R1-Plus模型和优化方法，实验显示在视频异常推理任务上优于基线模型。
+- 核心问题：现有MLLM方法在视频异常检测与理解中缺乏显式推理过程、风险感知和决策导向解释。
+- 方法要点：定义视频异常推理任务，构建基于PerCoAct-CoT标注的大规模数据集，并提出Anomaly-Aware Group Relative Policy Optimization增强推理可靠性。
+- 实验或效果：Vad-R1-Plus模型在VAR任务上优于开源和专有基线，验证了基准和方法的有效性。
 
 ## 摘要（原文）
 

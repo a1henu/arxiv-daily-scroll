@@ -9,7 +9,7 @@ title: LeMoF: Level-guided Multimodal Fusion for Heterogeneous Clinical Data
 
 **一句话要点**：提出LeMoF框架，通过层级引导融合解决临床多模态数据集成中的表示利用不足问题。
 
-**关键词**：多模态融合, 临床预测, 层级表示, 异构数据, ICU数据分析
+**关键词**：多模态融合, 临床预测, 层级表示, 电子健康记录, 重症监护数据
 
 ## 3 点简述
 - 现有方法依赖静态模态集成，未能充分利用模态特定表示。

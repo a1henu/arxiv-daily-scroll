@@ -13,7 +13,7 @@ title: Reinforcement Learning to Discover a NorthEast Monsoon Index for Monthly 
 
 ## 3 点简述
 - 问题：泰国缺乏本地气候指数，影响长期降雨预测准确性。
-- 方法：使用深度Q网络强化学习优化海温计算区域，构建东北季风指数。
+- 方法：使用深度Q网络强化学习优化海温区域，构建东北季风指数。
 - 效果：优化指数结合LSTM模型，显著降低12个月预测的均方根误差。
 
 ## 摘要（原文）

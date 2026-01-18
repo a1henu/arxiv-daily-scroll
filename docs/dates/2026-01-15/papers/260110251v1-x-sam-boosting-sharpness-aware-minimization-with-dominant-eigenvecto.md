@@ -13,7 +13,7 @@ title: X-SAM: Boosting Sharpness-Aware Minimization with Dominant-Eigenvector Gr
 
 ## 3 点简述
 - 核心问题：SAM优化行为可能偏离理论预期，梯度仍指向尖锐区域，削弱正则化效果。
-- 方法要点：从谱和几何角度分析，提出X-SAM，通过沿主导特征向量正交分解校正梯度，直接正则化Hessian最大特征值。
+- 方法要点：从谱和几何角度分析，提出X-SAM，通过沿顶部特征向量正交分解校正梯度，直接正则化Hessian最大特征值。
 - 实验或效果：理论证明收敛性和泛化优势，实验验证X-SAM在理论和实践上的改进。
 
 ## 摘要（原文）

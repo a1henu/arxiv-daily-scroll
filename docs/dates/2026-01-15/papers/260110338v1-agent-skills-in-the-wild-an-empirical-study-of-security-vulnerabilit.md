@@ -13,7 +13,7 @@ title: Agent Skills in the Wild: An Empirical Study of Security Vulnerabilities 
 
 ## 3 点简述
 - 核心问题：AI代理技能因隐式信任和低审查，存在未表征的安全攻击面。
-- 方法要点：开发SkillScan多阶段检测框架，结合静态分析和LLM语义分类。
+- 方法要点：集成静态分析与LLM语义分类的多阶段检测框架SkillScan。
 - 实验或效果：分析31,132个技能，发现26.1%含漏洞，数据外泄和权限提升最普遍。
 
 ## 摘要（原文）

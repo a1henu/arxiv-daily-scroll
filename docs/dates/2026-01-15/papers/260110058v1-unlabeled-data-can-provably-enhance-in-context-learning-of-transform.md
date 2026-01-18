@@ -13,7 +13,7 @@ title: Unlabeled Data Can Provably Enhance In-Context Learning of Transformers
 
 ## 3 点简述
 - 研究未标记数据如何理论增强Transformer上下文学习性能
-- 结合思维链提示，Transformer模拟期望最大化算法处理标记和未标记数据
+- 结合标签示例与未标记输入，通过思维链提示模拟期望最大化算法
 - 实验显示框架优于传统少样本学习，支持理论发现
 
 ## 摘要（原文）

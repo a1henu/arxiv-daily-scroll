@@ -7,14 +7,14 @@ title: Kolmogorov Arnold Networks and Multi-Layer Perceptrons: A Paradigm Shift 
 **arXiv**：[2601.10563v1](https://arxiv.org/abs/2601.10563) · [PDF](https://arxiv.org/pdf/2601.10563.pdf)  
 **作者**：Aradhya Gaonkar, Nihal Jain, Vignesh Chougule, Nikhil Deshpande, Sneha Varur, Channabasappa Muttal  
 
-**一句话要点**：提出Kolmogorov-Arnold网络以提升非线性函数近似和分类任务的效率与准确性
+**一句话要点**：提出Kolmogorov-Arnold网络，在非线性函数逼近等任务中超越多层感知机，实现计算效率与精度的平衡。
 
-**关键词**：Kolmogorov-Arnold网络, 多层感知机, 非线性函数近似, 计算效率, 自适应激活函数, 资源受限环境
+**关键词**：Kolmogorov-Arnold网络, 多层感知机, 非线性函数逼近, 计算效率, 自适应激活函数, 资源受限环境
 
 ## 3 点简述
-- 核心问题：比较KAN与MLP在非线性函数近似、时间序列预测和多变量分类中的性能差异
-- 方法要点：KAN基于Kolmogorov表示定理，采用自适应样条激活函数和网格结构
-- 实验或效果：KAN在多个基准测试中超越MLP，准确率更高且计算成本显著降低
+- 核心问题：比较KAN与MLP在非线性函数逼近、时间序列预测和多变量分类中的性能差异。
+- 方法要点：KAN基于Kolmogorov表示定理，采用自适应样条激活函数和网格结构，提升模型表达能力。
+- 实验或效果：在多个数据集上，KAN在预测精度和计算成本（如MSE和FLOPs）上均优于MLP，适用于资源受限场景。
 
 ## 摘要（原文）
 

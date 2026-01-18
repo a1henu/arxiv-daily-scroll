@@ -7,14 +7,14 @@ title: Transformer-Based Cognitive Radio: Adaptive Modulation Strategies Using T
 **arXiv**：[2601.10519v1](https://arxiv.org/abs/2601.10519) · [PDF](https://arxiv.org/pdf/2601.10519.pdf)  
 **作者**：Andrea Melis, Andrea Piroddi, Roberto Girau  
 
-**一句话要点**：提出基于Transformer的自适应调制策略以增强认知无线电系统性能
+**一句话要点**：提出基于Transformer的认知无线电自适应调制策略，利用GPT-2生成新调制方案以提升无线通信性能。
 
-**关键词**：认知无线电, Transformer模型, 自适应调制, GPT-2, 频谱效率, 无线通信
+**关键词**：认知无线电, Transformer模型, 自适应调制, GPT-2, 无线通信, 性能评估
 
 ## 3 点简述
-- 核心问题：认知无线电系统需动态适应频谱环境，提升频谱效率、鲁棒性和安全性。
-- 方法要点：使用GPT-2架构的Transformer模型，基于现有调制公式数据集生成新型调制方案。
-- 实验或效果：通过SNR和PSD等指标比较，生成方案性能与传统方法相当或更优。
+- 核心问题：认知无线电系统需动态适应频谱环境，传统调制方法在效率、鲁棒性和安全性方面有提升空间。
+- 方法要点：使用GPT-2 Transformer模型，基于现有调制公式数据集训练，生成新型调制方案。
+- 实验或效果：通过SNR和PSD等指标比较，Transformer生成方案性能与传统方法相当或更优，验证了其在认知无线电中的潜力。
 
 ## 摘要（原文）
 

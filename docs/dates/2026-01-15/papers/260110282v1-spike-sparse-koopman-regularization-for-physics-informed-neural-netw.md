@@ -9,7 +9,7 @@ title: SPIKE: Sparse Koopman Regularization for Physics-Informed Neural Networks
 
 **一句话要点**：提出SPIKE框架，通过稀疏Koopman正则化增强PINNs，以解决物理信息神经网络在时空外推中的泛化问题。
 
-**关键词**：物理信息神经网络, Koopman算子, 稀疏正则化, 微分方程求解, 时空泛化, 连续时间模型
+**关键词**：物理信息神经网络, Koopman算子, 稀疏正则化, 微分方程求解, 泛化能力, 连续时间模型
 
 ## 3 点简述
 - PINNs在训练域内易过拟合，导致时空外推时泛化能力差。

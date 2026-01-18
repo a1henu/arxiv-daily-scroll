@@ -9,7 +9,7 @@ title: VERHallu: Evaluating and Mitigating Event Relation Hallucination in Video
 
 **一句话要点**：提出VERHallu基准与KFP策略，以评估和缓解视频大语言模型中的事件关系幻觉问题
 
-**关键词**：视频大语言模型, 事件关系幻觉, 基准评估, 注意力机制, 多事件理解
+**关键词**：视频大语言模型, 事件关系幻觉, 基准评估, 注意力机制, 多事件推理
 
 ## 3 点简述
 - 核心问题：现有研究忽视视频事件关系幻觉，模型依赖先验知识而忽略帧级线索

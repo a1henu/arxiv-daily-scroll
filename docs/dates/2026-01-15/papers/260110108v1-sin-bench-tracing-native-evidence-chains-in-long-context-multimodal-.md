@@ -13,8 +13,8 @@ title: SIN-Bench: Tracing Native Evidence Chains in Long-Context Multimodal Scie
 
 ## 3 点简述
 - 核心问题：现有评估方法难以衡量多模态大模型对长科学文献的因果证据链理解
-- 方法要点：基于FITO范式构建SIN-Data语料和SIN-Bench基准，包含四个渐进任务
-- 实验或效果：在八个模型上测试，发现证据锚定是主要瓶颈，模型在正确性与可追溯支持间存在差距
+- 方法要点：基于FITO范式构建SIN-Data语料和SIN-Bench基准，包含四项渐进任务
+- 实验或效果：实验显示证据定位是主要瓶颈，模型在答案正确性和可追溯支持间存在差距
 
 ## 摘要（原文）
 

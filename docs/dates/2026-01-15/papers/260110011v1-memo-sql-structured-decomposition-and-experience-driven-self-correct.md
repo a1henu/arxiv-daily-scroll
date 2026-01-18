@@ -14,7 +14,7 @@ title: Memo-SQL: Structured Decomposition and Experience-Driven Self-Correction 
 ## 3 点简述
 - 现有NL2SQL系统依赖正确示例的上下文学习，忽略错误修复对的历史信号，导致自校正能力不足。
 - Memo-SQL采用实体、层次和原子序列三种策略进行结构化分解，以促进推理多样性，避免候选SQL重复。
-- 在BIRD数据集上，Memo-SQL达到68.5%执行准确率，资源消耗比先前方法减少10倍以上，无需微调或外部API。
+- 在BIRD基准上，Memo-SQL以68.5%执行准确率创零微调方法新高，资源消耗比先前方法减少超10倍。
 
 ## 摘要（原文）
 

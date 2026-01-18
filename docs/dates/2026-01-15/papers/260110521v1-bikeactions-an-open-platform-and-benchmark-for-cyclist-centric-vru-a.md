@@ -7,9 +7,9 @@ title: BikeActions: An Open Platform and Benchmark for Cyclist-Centric VRU Actio
 **arXiv**：[2601.10521v1](https://arxiv.org/abs/2601.10521) · [PDF](https://arxiv.org/pdf/2601.10521.pdf)  
 **作者**：Max A. Buettner, Kanak Mazumder, Luca Koecher, Mario Finkbeiner, Sebastian Niebler, Fabian B. Flohr  
 
-**一句话要点**：提出FUSE-Bike平台和BikeActions数据集，以解决密集共享空间中骑行者视角的VRU行为识别问题。
+**一句话要点**：提出FUSE-Bike平台与BikeActions数据集，以解决密集共享空间中骑行者视角的VRU行为识别问题。
 
-**关键词**：VRU行为识别, 多模态数据集, 骑行者视角, 图卷积网络, Transformer模型, 开源平台
+**关键词**：VRU行为识别, 多模态数据集, 骑行者视角, 图卷积网络, Transformer模型, 自动驾驶感知
 
 ## 3 点简述
 - 核心问题：现有研究多关注车辆视角的行人行为，密集共享空间中的VRU交互行为识别不足。

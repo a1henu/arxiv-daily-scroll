@@ -7,14 +7,14 @@ title: Contextual StereoSet: Stress-Testing Bias Alignment Robustness in Large L
 **arXiv**：[2601.10460v1](https://arxiv.org/abs/2601.10460) · [PDF](https://arxiv.org/pdf/2601.10460.pdf)  
 **作者**：Abhinaba Basu, Pavan Chakraborty  
 
-**一句话要点**：提出Contextual StereoSet基准，通过系统变化上下文框架来压力测试大语言模型的偏见对齐鲁棒性。
+**一句话要点**：提出Contextual StereoSet基准测试，以评估大语言模型在不同上下文下的偏见稳健性。
 
-**关键词**：偏见评估, 上下文敏感性, 大语言模型基准, 鲁棒性测试, 刻板印象分析
+**关键词**：偏见评估, 大语言模型, 上下文敏感性, 基准测试, 稳健性分析
 
 ## 3 点简述
-- 核心问题：实验室基准中避免刻板印象的模型在部署时可能失效，因偏见测量随上下文（如地点、时间、受众）变化而显著偏移。
-- 方法要点：引入Contextual StereoSet基准，固定刻板印象内容，系统变化上下文框架，并开发Context Sensitivity Fingerprints（CSF）进行紧凑分析。
-- 实验或效果：测试13个模型，发现上下文变化（如锚定1990年、八卦框架）显著影响刻板印象选择，效应在多个场景中可复制。
+- 核心问题：固定条件偏见测试可能无法泛化，模型偏见随上下文变化显著。
+- 方法要点：通过系统变化上下文框架，引入Context Sensitivity Fingerprints进行紧凑分析。
+- 实验或效果：测试13个模型，发现时间、受众等上下文因素显著影响偏见选择。
 
 ## 摘要（原文）
 

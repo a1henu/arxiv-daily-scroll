@@ -7,14 +7,14 @@ title: PADER: Paillier-based Secure Decentralized Social Recommendation
 **arXiv**：[2601.10212v1](https://arxiv.org/abs/2601.10212) · [PDF](https://arxiv.org/pdf/2601.10212.pdf)  
 **作者**：Chaochao Chen, Jiaming Qian, Fei Zheng, Yachuan Liu  
 
-**一句话要点**：提出基于Paillier的PADER系统，实现去中心化社交推荐以保护用户和商家隐私。
+**一句话要点**：提出基于Paillier的安全去中心化社交推荐系统PADER，以保护用户和商家隐私。
 
-**关键词**：隐私保护, 去中心化推荐, Paillier加密, 社交正则化, 安全计算
+**关键词**：安全推荐系统, 去中心化计算, Paillier密码系统, 社交正则化模型, 隐私保护
 
 ## 3 点简述
 - 核心问题：集中式推荐系统收集用户和商家数据引发隐私担忧。
-- 方法要点：应用Paillier加密到SoReg模型，设计安全协议支持去中心化训练和推理。
-- 实验或效果：实验显示单用户迭代约1秒，50万评分训练<3小时，具有实用性。
+- 方法要点：应用Paillier密码系统于SoReg模型，设计安全协议支持去中心化计算。
+- 实验或效果：实验显示方法高效，单用户迭代约1秒，50万评分训练<3小时。
 
 ## 摘要（原文）
 
