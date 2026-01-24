@@ -7,14 +7,14 @@ title: Tabular Incremental Inference
 **arXiv**：[2601.15751v1](https://arxiv.org/abs/2601.15751) · [PDF](https://arxiv.org/pdf/2601.15751.pdf)  
 **作者**：Xinda Chen, Xing Zhen, Hanyu Zhang, Weimin Tan, Bo Yan  
 
-**一句话要点**：提出Tabular Incremental Inference方法，以解决动态表格列变化下的AI模型推理问题
+**一句话要点**：提出Tabular Incremental Inference方法，以解决动态表格列变化下的AI模型推理问题。
 
 **关键词**：表格数据推理, 增量学习, 信息瓶颈理论, 无监督学习, 动态表格处理
 
 ## 3 点简述
-- 核心问题：传统固定列训练模型无法处理表格列动态变化，需无监督高效方法
-- 方法要点：基于信息瓶颈理论优化，结合LLM占位符、预训练TabAdapter和增量样本压缩块
-- 实验或效果：在八个公共数据集上验证，有效利用增量属性，达到最先进性能
+- 核心问题：传统AI模型在固定列表格上训练，难以处理动态变化的表格列，需无监督高效方法。
+- 方法要点：基于信息瓶颈理论，设计包含LLM占位符、预训练TabAdapter和增量样本压缩块的TabII方法。
+- 实验或效果：在八个公共数据集上验证，TabII有效利用增量属性，达到最先进性能。
 
 ## 摘要（原文）
 

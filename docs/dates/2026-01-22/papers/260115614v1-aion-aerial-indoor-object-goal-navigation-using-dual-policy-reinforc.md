@@ -14,7 +14,7 @@ title: AION: Aerial Indoor Object-Goal Navigation Using Dual-Policy Reinforcemen
 ## 3 点简述
 - 核心问题：扩展物体目标导航至空中平台，面临3D运动、感知与控制挑战。
 - 方法要点：采用端到端双策略强化学习，分离探索与目标到达行为。
-- 实验或效果：在AI2-THOR和IsaacSim评估中，展现优越的探索、导航效率与安全性。
+- 实验或效果：在AI2-THOR和IsaacSim评估中，在探索、导航效率与安全方面表现优异。
 
 ## 摘要（原文）
 

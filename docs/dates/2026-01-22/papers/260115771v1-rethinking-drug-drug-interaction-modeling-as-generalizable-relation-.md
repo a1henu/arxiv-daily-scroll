@@ -7,14 +7,14 @@ title: Rethinking Drug-Drug Interaction Modeling as Generalizable Relation Learn
 **arXiv**：[2601.15771v1](https://arxiv.org/abs/2601.15771) · [PDF](https://arxiv.org/pdf/2601.15771.pdf)  
 **作者**：Dong Xu, Jiantao Wu, Qihua Pan, Sisi Yuan, Zexuan Zhu, Junkai Ji  
 
-**一句话要点**：提出GenRel-DDI框架，通过关系中心学习解决药物相互作用预测泛化难题。
+**一句话要点**：提出GenRel-DDI框架，通过关系中心学习解决药物相互作用预测的泛化问题。
 
 **关键词**：药物相互作用预测, 关系学习, 泛化能力, 深度学习, 药物发现, 临床开发
 
 ## 3 点简述
 - 现有药物相互作用模型泛化能力差，难以处理未见药物和稀缺验证数据。
-- 将预测重构为关系中心学习，独立于药物身份学习交互表示以捕获可迁移模式。
-- 在严格实体分离评估中显著优于现有方法，突显关系学习对稳健预测的有效性。
+- 将预测重构为关系中心学习，独立于药物身份学习交互表示以捕获可转移模式。
+- 在严格实体分离评估中显著优于现有方法，突显关系学习的有效性和实用性。
 
 ## 摘要（原文）
 

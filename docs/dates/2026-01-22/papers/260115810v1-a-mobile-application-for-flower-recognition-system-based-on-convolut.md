@@ -7,14 +7,14 @@ title: A Mobile Application for Flower Recognition System Based on Convolutional
 **arXiv**：[2601.15810v1](https://arxiv.org/abs/2601.15810) · [PDF](https://arxiv.org/pdf/2601.15810.pdf)  
 **作者**：Mustafa Yurdakul, Enes Ayan, Fahrettin Horasan, Sakir Tasdemir  
 
-**一句话要点**：提出基于卷积神经网络的移动应用以解决花卉识别问题
+**一句话要点**：提出基于卷积神经网络的移动应用，以解决非专家实时识别花卉类型的需求。
 
-**关键词**：花卉识别, 卷积神经网络, 移动应用, 优化算法, 深度学习
+**关键词**：花卉识别, 卷积神经网络, 移动应用, 深度学习, 优化算法, 图像分类
 
 ## 3 点简述
-- 核心问题：花卉识别需要专家知识，但实时访问专家不便，需自动化解决方案。
+- 核心问题：花卉识别依赖专家知识，但实时访问专家不便，需自动化解决方案。
 - 方法要点：开发移动应用，比较MobileNet、DenseNet121和Xception三种CNN模型，结合七种优化算法。
-- 实验或效果：DenseNet121结合SGD优化算法表现最佳，准确率达95.84%，精度、召回率和F1分数均为96.00%。
+- 实验或效果：DenseNet121使用SGD优化算法表现最佳，准确率达95.84%，精度、召回率和F1分数均为96.00%。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: Performance-guided Reinforced Active Learning for Object Detection
 **arXiv**：[2601.15688v1](https://arxiv.org/abs/2601.15688) · [PDF](https://arxiv.org/pdf/2601.15688.pdf)  
 **作者**：Zhixuan Liang, Xingyu Zeng, Rui Zhao, Ping Luo  
 
-**一句话要点**：提出MGRAL以通过强化学习优化目标检测中的主动学习样本选择
+**一句话要点**：提出MGRAL方法，以mAP引导强化学习解决目标检测中主动学习样本选择问题。
 
-**关键词**：主动学习, 目标检测, 强化学习, 性能引导, 样本选择, mAP优化
+**关键词**：主动学习, 目标检测, 强化学习, mAP引导, 批量选择, 模型性能优化
 
 ## 3 点简述
 - 核心问题：现有主动学习方法评估数据信息性时未直接关联下游任务性能如mAP。
-- 方法要点：利用期望模型输出变化作为信息性，采用基于强化学习的采样代理以mAP提升为奖励优化选择。
-- 实验或效果：在PASCAL VOC和COCO基准上展示最高主动学习曲线，建立强化学习驱动主动目标检测新范式。
+- 方法要点：利用期望模型输出变化作为信息性，通过强化学习代理优化批量样本选择。
+- 实验或效果：在PASCAL VOC和COCO基准上展示最高主动学习曲线，验证有效性。
 
 ## 摘要（原文）
 

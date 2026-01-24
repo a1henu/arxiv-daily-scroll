@@ -13,7 +13,7 @@ title: The Latency Wall: Benchmarking Off-the-Shelf Emotion Recognition for Real
 
 ## 3 点简述
 - 核心问题：实时VR治疗需严格延迟-精度权衡，但现成DL模型常忽视硬件约束。
-- 方法要点：在UIBVFED数据集上评估YOLO变体和通用ViT模型，包括CLIP、SigLIP和ViT-FER。
+- 方法要点：在UIBVFED数据集上评估YOLO变体和通用ViT，包括CLIP、SigLIP和ViT-FER。
 - 实验或效果：YOLOv11n检测最优，但通用Transformer在分类阶段存在延迟墙，精度和速度不足。
 
 ## 摘要（原文）

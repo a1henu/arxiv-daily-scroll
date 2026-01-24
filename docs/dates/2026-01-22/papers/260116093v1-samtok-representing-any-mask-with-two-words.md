@@ -7,14 +7,14 @@ title: SAMTok: Representing Any Mask with Two Words
 **arXiv**：[2601.16093v1](https://arxiv.org/abs/2601.16093) · [PDF](https://arxiv.org/pdf/2601.16093.pdf)  
 **作者**：Yikang Zhou, Tao Zhang, Dengxian Gong, Yuanzheng Wu, Ye Tian, Haochen Wang, Haobo Yuan, Jiacong Wang, Lu Qi, Hao Fei, Anran Wang, Zhuochen Wang, Yujing Wang, Cheng Chen, Shunping Ji, Xiangtai Li  
 
-**一句话要点**：提出SAMTok将任意区域掩码编码为两个离散令牌，使多模态大语言模型无需修改架构即可学习像素级能力。
+**一句话要点**：提出SAMTok将任意区域掩码编码为两个离散令牌，使多模态大语言模型通过标准训练获得像素级能力。
 
-**关键词**：掩码令牌化, 像素级多模态大语言模型, 区域理解, 强化学习, 离散表示
+**关键词**：掩码令牌化, 像素级多模态大语言模型, 区域理解, 强化学习, SAM2
 
 ## 3 点简述
 - 核心问题：像素级多模态大语言模型因复杂编码器、专用解码器和训练目标不兼容而难以扩展。
-- 方法要点：基于SAM2训练掩码编码器和残差向量量化器，将掩码转换为两个信息丰富的离散令牌，通过标准下一个令牌预测和强化学习训练。
-- 实验或效果：在区域描述、区域视觉问答、指代分割等任务上达到先进或可比结果，强化学习显著提升掩码生成性能。
+- 方法要点：基于SAM2训练掩码编码器和残差向量量化器，将掩码转换为两个信息丰富的离散令牌，无需修改模型架构。
+- 实验或效果：在区域描述、视觉问答、指代分割等任务上达到先进或可比性能，并通过强化学习提升掩码生成效果。
 
 ## 摘要（原文）
 

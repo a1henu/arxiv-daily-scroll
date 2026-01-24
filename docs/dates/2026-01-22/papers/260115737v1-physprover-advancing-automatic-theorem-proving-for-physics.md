@@ -7,14 +7,14 @@ title: PhysProver: Advancing Automatic Theorem Proving for Physics
 **arXiv**：[2601.15737v1](https://arxiv.org/abs/2601.15737) · [PDF](https://arxiv.org/pdf/2601.15737.pdf)  
 **作者**：Hanning Zhang, Ruida Wang, Rui Pan, Wenyuan Wang, Bingxu Meng, Tong Zhang  
 
-**一句话要点**：提出PhysProver以增强物理领域的自动定理证明，通过数据集和强化学习训练实现性能提升。
+**一句话要点**：提出PhysProver以增强物理领域的自动定理证明能力
 
-**关键词**：物理定理证明, 强化学习, 形式化推理, 数据集构建, 跨领域泛化
+**关键词**：自动定理证明, 物理推理, 强化学习, 数据集构建, 形式化验证, 跨领域泛化
 
 ## 3 点简述
-- 核心问题：现有自动定理证明研究较少关注物理领域，缺乏针对性的方法。
-- 方法要点：构建PhysLeanData数据集，基于DeepSeek-Prover-V2-7B模型，应用RLVR进行训练。
-- 实验或效果：使用约5K样本训练，在物理子领域提升2.4%，并在MiniF2F-Test基准上获得1.3%增益。
+- 核心问题：现有自动定理证明研究较少关注物理领域，缺乏针对性的数据集和方法。
+- 方法要点：构建PhysLeanData数据集，基于DeepSeek-Prover-V2-7B模型，采用强化学习与可验证奖励进行训练。
+- 实验或效果：使用约5K训练样本，在物理子领域提升2.4%，并在MiniF2F-Test基准上获得1.3%增益，显示跨领域泛化能力。
 
 ## 摘要（原文）
 

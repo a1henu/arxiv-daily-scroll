@@ -14,7 +14,7 @@ title: FlexLLM: Composable HLS Library for Flexible Hybrid LLM Accelerator Desig
 ## 3 点简述
 - 核心问题：LLM推理加速器设计复杂，需灵活支持预填充和解码阶段的不同优化。
 - 方法要点：提供可组合HLS库，支持阶段定制化推理、混合数据流和量化套件。
-- 实验或效果：在FPGA上实现优于GPU的加速、能效和长上下文处理能力。
+- 实验效果：在FPGA上实现优于GPU的加速、能效和长上下文处理能力。
 
 ## 摘要（原文）
 

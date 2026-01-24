@@ -7,14 +7,14 @@ title: A Multi-View Pipeline and Benchmark Dataset for 3D Hand Pose Estimation i
 **arXiv**：[2601.15918v1](https://arxiv.org/abs/2601.15918) · [PDF](https://arxiv.org/pdf/2601.15918.pdf)  
 **作者**：Valery Fischer, Alan Magdaleno, Anna-Katharina Calek, Nicola Cavalcanti, Nathan Hoffman, Christoph Germann, Joschua Wüthrich, Max Krähenmann, Mazda Farshad, Philipp Fürnstahl, Lilian Calvet  
 
-**一句话要点**：提出无需微调的多视图管道与手术数据集，用于手术中3D手部姿态估计。
+**一句话要点**：提出无需微调的多视角3D手部姿态估计流程与手术数据集，以应对手术环境挑战。
 
-**关键词**：3D手部姿态估计, 手术计算机视觉, 多视图管道, 基准数据集, 无监督优化
+**关键词**：3D手部姿态估计, 手术计算机视觉, 多视角管道, 基准数据集, 无微调方法, 约束优化
 
 ## 3 点简述
-- 核心问题：手术环境光照强、遮挡多、手套导致外观单一，且缺乏标注数据集。
-- 方法要点：集成人员检测、全身姿态估计和2D手部关键点预测，通过约束优化实现3D估计。
-- 实验或效果：在2D和3D误差上分别减少31%和76%，优于基线方法。
+- 核心问题：手术环境因强光、遮挡和手套导致手部外观单一，缺乏标注数据，影响3D手部姿态估计准确性。
+- 方法要点：集成现成预训练模型，通过人物检测、全身姿态估计和2D手部关键点预测，结合约束3D优化，无需领域特定微调。
+- 实验或效果：在手术数据集上，2D平均关节误差降低31%，3D平均关节位置误差降低76%，优于基线方法。
 
 ## 摘要（原文）
 

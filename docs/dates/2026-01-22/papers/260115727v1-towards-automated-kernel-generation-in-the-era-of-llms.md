@@ -7,14 +7,14 @@ title: Towards Automated Kernel Generation in the Era of LLMs
 **arXiv**：[2601.15727v1](https://arxiv.org/abs/2601.15727) · [PDF](https://arxiv.org/pdf/2601.15727.pdf)  
 **作者**：Yang Yu, Peiyu Zang, Chi Hsu Tsai, Haiming Wu, Yixin Shen, Jialing Zhang, Haoyu Wang, Zhiyou Xiao, Jingze Shi, Yuyu Luo, Wentao Zhang, Chunlei Men, Guang Liu, Yonghua Lin  
 
-**一句话要点**：综述LLM驱动的内核生成方法，以自动化优化AI系统性能
+**一句话要点**：综述LLM驱动的自动化内核生成方法，以解决内核工程耗时且不可扩展的问题。
 
-**关键词**：内核生成, 大语言模型, 自动化优化, 代理系统, AI系统性能, 硬件架构
+**关键词**：内核生成, 大语言模型, 自动化优化, 代理系统, 硬件加速, AI系统性能
 
 ## 3 点简述
-- 核心问题：内核工程依赖专家知识，耗时且难以扩展，制约AI系统性能
-- 方法要点：利用LLM压缩专家知识，结合代理系统实现迭代优化流程
-- 实验或效果：系统整理现有方法、数据集和基准，为领域提供结构化参考
+- 核心问题：内核工程依赖专家知识，耗时且不可扩展，制约AI系统性能。
+- 方法要点：利用LLM压缩专家知识，结合代理系统实现迭代优化，自动化内核生成。
+- 实验或效果：系统梳理现有方法、数据集和基准，为领域提供结构化参考和开源资源。
 
 ## 摘要（原文）
 

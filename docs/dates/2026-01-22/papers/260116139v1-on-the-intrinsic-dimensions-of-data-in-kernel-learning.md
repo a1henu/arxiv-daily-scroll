@@ -7,14 +7,14 @@ title: On the Intrinsic Dimensions of Data in Kernel Learning
 **arXiv**：[2601.16139v1](https://arxiv.org/abs/2601.16139) · [PDF](https://arxiv.org/pdf/2601.16139.pdf)  
 **作者**：Rustem Takhanov  
 
-**一句话要点**：提出基于核函数内在维度的KRR泛化误差分析，并设计算法估计n-宽度上界。
+**一句话要点**：提出核学习数据内在维度的两种定义，分析其关系并推导核岭回归泛化误差界
 
-**关键词**：核回归, 内在维度, 泛化误差, Kolmogorov n-宽度, 分形集, 样本复杂度
+**关键词**：核岭回归, 内在维度, 泛化误差, Kolmogorov n-宽度, 分形集, 核学习
 
 ## 3 点简述
-- 研究核回归中两种内在维度：Minkowski维度和有效维度，分析其与Kolmogorov n-宽度的关系。
-- 推导出约束KRR的泛化误差界，并设计算法从有限样本估计n-宽度上界，样本复杂度与维度相关。
-- 计算分形集的有效维度，数值实验显示Laplace核的有效维度可显著低于Minkowski维度。
+- 研究核岭回归中数据内在维度的两种定义：Minkowski维度和有效维度，分析其与Kolmogorov n-宽度的关系
+- 推导出基于有效维度的核岭回归泛化误差界，并设计算法从有限样本估计n-宽度的上界
+- 计算分形集的有效维度，通过数值实验验证有效维度可显著低于Minkowski维度
 
 ## 摘要（原文）
 

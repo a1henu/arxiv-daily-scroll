@@ -7,13 +7,13 @@ title: Dualformer: Time-Frequency Dual Domain Learning for Long-term Time Series
 **arXiv**：[2601.15669v1](https://arxiv.org/abs/2601.15669) · [PDF](https://arxiv.org/pdf/2601.15669.pdf)  
 **作者**：Jingjing Bai, Yoshinobu Kawahara  
 
-**一句话要点**：提出Dualformer，通过时频双域学习解决Transformer在长时序预测中的低通滤波问题。
+**一句话要点**：提出Dualformer以解决Transformer在长时序预测中高频信息衰减问题
 
-**关键词**：长时序预测, Transformer模型, 时频双域学习, 频率建模, 自适应融合, 周期性感知
+**关键词**：长时序预测, Transformer模型, 频率建模, 双域学习, 自适应权重
 
 ## 3 点简述
-- 核心问题：Transformer在长时序预测中因频率分量无差别传播导致高频信息衰减，限制模型性能。
-- 方法要点：设计双分支架构、分层频率采样模块和周期性感知加权机制，实现结构化频率建模与时频特征自适应融合。
+- 核心问题：Transformer在长时序预测中因层间频率传播无差异导致高频信息衰减，影响细粒度变化捕捉。
+- 方法要点：设计双分支架构，结合时域和频域建模，通过分层频率采样和周期性感知权重机制自适应整合特征。
 - 实验或效果：在八个基准测试中验证了鲁棒性和优越性能，尤其在异构或弱周期性数据上表现突出。
 
 ## 摘要（原文）

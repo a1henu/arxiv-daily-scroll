@@ -14,7 +14,7 @@ title: An Empirical Study on Ensemble-Based Transfer Learning Bayesian Optimisat
 ## 3 点简述
 - 核心问题：如何利用历史数据集改进混合变量贝叶斯优化的样本效率
 - 方法要点：引入正权重约束的集成代理模型和暖启动初始化组件
-- 实验或效果：通过新基准测试验证，正权重和暖启动能提升迁移学习效果
+- 实验或效果：通过新基准测试验证组件对迁移学习性能的积极影响
 
 ## 摘要（原文）
 

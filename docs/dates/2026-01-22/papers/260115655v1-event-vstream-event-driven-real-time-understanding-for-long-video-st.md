@@ -13,8 +13,8 @@ title: Event-VStream: Event-Driven Real-Time Understanding for Long Video Stream
 
 ## 3 点简述
 - 核心问题：多模态大语言模型处理长视频流时存在冗余帧处理和上下文遗忘问题
-- 方法要点：将连续视频表示为离散语义事件序列，基于运动、语义和预测线索触发语言生成
-- 实验或效果：在OVOBench-Realtime上提升10.4分，在Ego4D上保持约70% GPT-5胜率
+- 方法要点：将连续视频表示为离散语义事件序列，基于运动、语义和预测线索触发生成
+- 实验或效果：在OVOBench-Realtime和Ego4D评估中表现优异，提升基准性能并保持低延迟
 
 ## 摘要（原文）
 

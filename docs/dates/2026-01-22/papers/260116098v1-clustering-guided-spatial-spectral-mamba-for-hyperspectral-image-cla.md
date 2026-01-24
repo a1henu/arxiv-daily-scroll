@@ -7,14 +7,14 @@ title: Clustering-Guided Spatial-Spectral Mamba for Hyperspectral Image Classifi
 **arXiv**：[2601.16098v1](https://arxiv.org/abs/2601.16098) · [PDF](https://arxiv.org/pdf/2601.16098.pdf)  
 **作者**：Zack Dewis, Yimin Zhu, Zhengsen Xu, Mabel Heffring, Saeid Taleghanidoozdoozan, Quinn Ledingham, Lincoln Linlin Xu  
 
-**一句话要点**：提出CSSMamba框架以解决高光谱图像分类中Mamba模型序列效率与自适应性问题
+**一句话要点**：提出聚类引导的空间-光谱Mamba框架以提升高光谱图像分类性能
 
-**关键词**：高光谱图像分类, Mamba模型, 聚类引导, 空间-光谱融合, 注意力机制, 自适应学习
+**关键词**：高光谱图像分类, Mamba模型, 聚类引导, 空间-光谱融合, 注意力机制
 
 ## 3 点简述
-- 核心问题：Mamba模型在高光谱图像分类中面临序列定义效率低和自适应差，影响性能提升。
-- 方法要点：集成聚类机制到空间Mamba，结合光谱Mamba，引入注意力驱动令牌选择和可学习聚类模块。
-- 实验或效果：在多个数据集上优于现有CNN、Transformer和Mamba方法，实现更高精度和边界保持。
+- 核心问题：Mamba模型在高光谱图像分类中面临序列定义效率低和适应性差的挑战。
+- 方法要点：集成聚类机制到空间Mamba架构，结合光谱Mamba模块，并引入注意力驱动令牌选择机制。
+- 实验或效果：在多个数据集上验证，相比现有方法实现更高准确率和更好边界保持。
 
 ## 摘要（原文）
 

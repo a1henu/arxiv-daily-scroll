@@ -7,14 +7,14 @@ title: MapViT: A Two-Stage ViT-Based Framework for Real-Time Radio Quality Map P
 **arXiv**：[2601.15578v1](https://arxiv.org/abs/2601.15578) · [PDF](https://arxiv.org/pdf/2601.15578.pdf)  
 **作者**：Cyril Shih-Huan Hsu, Xi Li, Lanfranco Zanzi, Zhiheng Yang, Chrysa Papagianni, Xavier Costa Pérez  
 
-**一句话要点**：提出MapViT两阶段ViT框架，用于动态环境中实时无线电质量地图预测
+**一句话要点**：提出MapViT两阶段ViT框架，用于动态环境中实时无线电质量地图预测。
 
-**关键词**：无线电质量地图预测, Vision Transformer, 两阶段框架, 动态环境, 实时预测, 自监督预训练
+**关键词**：无线电质量地图预测, Vision Transformer, 两阶段框架, 动态环境, 实时预测, 数字孪生
 
 ## 3 点简述
-- 核心问题：动态环境中机器人需准确理解环境和无线电信号质量，但此问题尚未解决
-- 方法要点：采用两阶段Vision Transformer框架，受LLM预训练微调范式启发，预测环境变化和信号质量
-- 实验或效果：ViT实现实现精度与计算效率平衡，支持实时预测，适用于资源受限平台
+- 核心问题：动态环境中机器人需准确理解环境与无线电信号质量，但此问题尚未解决。
+- 方法要点：采用两阶段Vision Transformer框架，受LLM预训练与微调范式启发，预测环境变化与信号质量。
+- 实验或效果：ViT实现精度与计算效率平衡，支持实时预测，适用于资源受限平台如移动机器人。
 
 ## 摘要（原文）
 

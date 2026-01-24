@@ -7,14 +7,14 @@ title: ErrorMap and ErrorAtlas: Charting the Failure Landscape of Large Language
 **arXiv**：[2601.15812v1](https://arxiv.org/abs/2601.15812) · [PDF](https://arxiv.org/pdf/2601.15812.pdf)  
 **作者**：Shir Ashury-Tahan, Yifan Mai, Elron Bandel, Michal Shmueli-Scheuer, Leshem Choshen  
 
-**一句话要点**：提出ErrorMap和ErrorAtlas以分析大语言模型失败原因，提升评估深度。
+**一句话要点**：提出ErrorMap和ErrorAtlas以分析大语言模型失败原因，提升评估深度
 
-**关键词**：大语言模型评估, 错误分析, 失败签名, 错误分类学, 基准测试改进
+**关键词**：大语言模型评估, 失败原因分析, 错误分类学, 模型调试, 基准对齐
 
 ## 3 点简述
-- 核心问题：现有基准仅揭示模型失败位置，未解析失败原因如格式错误或计算误差。
-- 方法要点：ErrorMap提取模型失败签名，ErrorAtlas构建错误分类学，识别重复失败模式。
-- 实验或效果：应用于35个数据集和83个模型，揭示未充分探索的错误类型如细节遗漏。
+- 核心问题：现有基准仅揭示模型失败位置，未解析失败原因如格式错误或计算误差
+- 方法要点：ErrorMap提取模型失败签名，ErrorAtlas构建错误分类学，识别重复失败模式
+- 实验或效果：应用于35个数据集和83个模型，揭示未充分探索的错误类型如细节遗漏
 
 ## 摘要（原文）
 

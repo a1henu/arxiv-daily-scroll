@@ -7,9 +7,9 @@ title: CoNRec: Context-Discerning Negative Recommendation with LLMs
 **arXiv**：[2601.15721v1](https://arxiv.org/abs/2601.15721) · [PDF](https://arxiv.org/pdf/2601.15721.pdf)  
 **作者**：Xinda Chen, Jiawei Wu, Yishuang Liu, Jialin Zhu, Shuwen Xiao, Junjun Zheng, Xiangheng Kong, Yuning Jiang  
 
-**一句话要点**：提出CoNRec框架，利用LLMs建模用户负面偏好以解决推荐系统中负面反馈稀疏和上下文理解偏差问题。
+**一句话要点**：提出CoNRec框架，利用LLMs建模用户负面偏好以解决推荐系统中负面反馈稀疏与上下文理解偏差问题。
 
-**关键词**：负面推荐, 大型语言模型, 上下文理解, 语义ID表示, 渐进式训练, 奖励函数设计
+**关键词**：负面推荐, 大语言模型, 上下文理解, 语义ID表示, 渐进式训练, 奖励函数设计
 
 ## 3 点简述
 - 核心问题：现有推荐系统忽视直接建模用户负面兴趣，且负面反馈稀疏导致模型受正面反馈主导的上下文理解偏差。

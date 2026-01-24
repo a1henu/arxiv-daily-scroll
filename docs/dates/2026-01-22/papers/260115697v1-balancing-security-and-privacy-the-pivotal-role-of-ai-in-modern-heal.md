@@ -13,7 +13,7 @@ title: Balancing Security and Privacy: The Pivotal Role of AI in Modern Healthca
 
 ## 3 点简述
 - 核心问题：数字威胁增长下，如何在增强安全的同时保护用户隐私。
-- 方法要点：利用AI技术检测威胁、监控系统、自动化响应，并考虑隐私问题。
+- 方法要点：利用AI技术检测威胁、监控系统和自动化响应，并考虑隐私问题。
 - 实验或效果：基于医疗领域实例，展示AI如何在不损害患者隐私下强化安全。
 
 ## 摘要（原文）

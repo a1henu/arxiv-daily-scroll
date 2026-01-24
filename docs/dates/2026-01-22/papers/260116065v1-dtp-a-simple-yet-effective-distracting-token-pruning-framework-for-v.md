@@ -7,14 +7,14 @@ title: DTP: A Simple yet Effective Distracting Token Pruning Framework for Visio
 **arXiv**：[2601.16065v1](https://arxiv.org/abs/2601.16065) · [PDF](https://arxiv.org/pdf/2601.16065.pdf)  
 **作者**：Chenyang Li, Jieyuan Liu, Bin Li, Bo Gao, Yilin Yuan, Yangfan He, Yuchen Li, Jingqun Tang  
 
-**一句话要点**：提出DTP框架以解决视觉语言动作模型中任务无关区域图像令牌的干扰问题。
+**一句话要点**：提出DTP框架以解决视觉语言动作模型中任务无关区域注意力分散问题
 
-**关键词**：视觉语言动作模型, 令牌剪枝, 注意力机制, 机器人操作, 任务成功率
+**关键词**：视觉语言动作模型, 注意力机制, 令牌剪枝, 机器人操作, 任务无关区域, 模型泛化
 
 ## 3 点简述
-- 核心问题：VLA模型可能过度关注任务无关区域的图像令牌，干扰动作生成。
-- 方法要点：动态检测并剪枝干扰令牌，无需改变模型架构或额外输入。
-- 实验或效果：在SIMPLER基准测试中，任务成功率相对提升，具有泛化性。
+- 核心问题：VLA模型过度关注任务无关图像区域，影响动作生成成功率
+- 方法要点：动态检测并剪枝分散注意力的图像令牌，无需修改模型架构
+- 实验或效果：在SIMPLER基准测试中提升任务成功率，揭示注意力与成功率负相关
 
 ## 摘要（原文）
 

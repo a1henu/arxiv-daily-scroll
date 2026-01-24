@@ -7,7 +7,7 @@ title: Evolving Without Ending: Unifying Multimodal Incremental Learning for Con
 **arXiv**：[2601.15643v1](https://arxiv.org/abs/2601.15643) · [PDF](https://arxiv.org/pdf/2601.15643.pdf)  
 **作者**：Bo Yuan, Danpei Zhao, Wentao Li, Tian Li, Zhiguo Jiang  
 
-**一句话要点**：提出持续全景感知模型以解决多模态多任务持续学习中的语义混淆与灾难性遗忘问题
+**一句话要点**：提出持续全景感知模型以解决多模态多任务持续学习中的语义混淆和灾难性遗忘问题
 
 **关键词**：持续全景感知, 多模态持续学习, 知识蒸馏, 跨模态对齐, 灾难性遗忘, 端到端模型
 

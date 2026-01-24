@@ -14,7 +14,7 @@ title: Neural Nonlinear Shrinkage of Covariance Matrices for Minimum Variance Po
 ## 3 点简述
 - 核心问题：传统协方差矩阵估计在最小方差投资组合优化中可能不准确，影响风险控制。
 - 方法要点：结合Ledoit-Wolf收缩估计与轻量级Transformer网络，学习非线性特征值收缩函数。
-- 实验或效果：在S&P500股票日收益数据上，该方法实现更低样本外风险，优于基准方法。
+- 实验或效果：在S&P500股票日收益数据上，该方法比基准方法实现更低样本外风险。
 
 ## 摘要（原文）
 
