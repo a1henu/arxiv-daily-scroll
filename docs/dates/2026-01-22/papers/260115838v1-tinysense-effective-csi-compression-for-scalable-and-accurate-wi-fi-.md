@@ -7,14 +7,14 @@ title: TinySense: Effective CSI Compression for Scalable and Accurate Wi-Fi Sens
 **arXiv**：[2601.15838v1](https://arxiv.org/abs/2601.15838) · [PDF](https://arxiv.org/pdf/2601.15838.pdf)  
 **作者**：Toan Gian, Dung T. Tran, Viet Quoc Pham, Francesco Restuccia, Van-Dinh Nguyen  
 
-**一句话要点**：提出TinySense压缩框架，基于VQGAN提升Wi-Fi人体姿态估计的可扩展性。
+**一句话要点**：提出TinySense压缩框架以提升Wi-Fi人体姿态估计的可扩展性
 
-**关键词**：Wi-Fi感知, CSI压缩, VQGAN, 人体姿态估计, 可扩展性, Transformer
+**关键词**：Wi-Fi感知, CSI压缩, VQGAN, 人体姿态估计, 可扩展性, 网络资源优化
 
 ## 3 点简述
-- 核心问题：现有Wi-Fi感知方法处理大量CSI数据，占用网络资源，影响可扩展性。
-- 方法要点：采用VQGAN学习码本压缩CSI，结合K-means动态调整比特率，集成Transformer增强鲁棒性。
-- 实验或效果：原型测试显示，在相同压缩率下，HPE准确率提升1.5倍，延迟和网络开销分别降低5倍和2.5倍。
+- 核心问题：现有Wi-Fi感知方法处理大量CSI数据，导致网络资源紧张。
+- 方法要点：基于VQGAN学习码本，结合K-means动态调整压缩比特率，并集成Transformer增强鲁棒性。
+- 实验或效果：在相同压缩率下，HPE准确率提升1.5倍，延迟和网络开销分别降低5倍和2.5倍。
 
 ## 摘要（原文）
 

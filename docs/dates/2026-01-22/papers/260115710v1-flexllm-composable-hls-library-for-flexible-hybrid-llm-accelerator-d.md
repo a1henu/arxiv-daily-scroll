@@ -7,14 +7,14 @@ title: FlexLLM: Composable HLS Library for Flexible Hybrid LLM Accelerator Desig
 **arXiv**：[2601.15710v1](https://arxiv.org/abs/2601.15710) · [PDF](https://arxiv.org/pdf/2601.15710.pdf)  
 **作者**：Jiahao Zhang, Zifan He, Nicholas Fraser, Michaela Blott, Yizhou Sun, Jason Cong  
 
-**一句话要点**：提出FlexLLM可组合HLS库，用于快速开发面向LLM推理的混合加速器设计。
+**一句话要点**：提出FlexLLM可组合HLS库，用于快速开发定制化LLM推理加速器
 
-**关键词**：LLM加速器, 可组合HLS库, 阶段定制化推理, 混合数据流, 硬件高效量化, 长上下文处理
+**关键词**：LLM推理加速, 可组合HLS库, 阶段定制化架构, 硬件高效量化, 长上下文处理, FPGA加速器
 
 ## 3 点简述
-- 核心问题：LLM推理加速器设计复杂，需灵活支持预填充和解码阶段的不同优化。
-- 方法要点：提供可组合HLS库，支持阶段定制化推理、混合数据流和量化套件。
-- 实验效果：在FPGA上实现优于GPU的加速、能效和长上下文处理能力。
+- 核心问题：LLM推理加速器设计复杂，需灵活支持预填充和解码阶段的不同优化
+- 方法要点：提供可组合HLS库，支持阶段定制化架构、混合数据流和全面量化套件
+- 实验或效果：在FPGA上实现优于GPU的加速、能效和长上下文处理能力
 
 ## 摘要（原文）
 

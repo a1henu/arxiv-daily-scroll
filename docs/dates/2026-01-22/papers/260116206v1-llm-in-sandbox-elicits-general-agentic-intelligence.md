@@ -7,14 +7,14 @@ title: LLM-in-Sandbox Elicits General Agentic Intelligence
 **arXiv**：[2601.16206v1](https://arxiv.org/abs/2601.16206) · [PDF](https://arxiv.org/pdf/2601.16206.pdf)  
 **作者**：Daixuan Cheng, Shaohan Huang, Yuxian Gu, Huatong Song, Guoxin Chen, Li Dong, Wayne Xin Zhao, Ji-Rong Wen, Furu Wei  
 
-**一句话要点**：提出LLM-in-Sandbox，使LLM在代码沙盒中探索以激发非代码领域的通用智能。
+**一句话要点**：提出LLM-in-Sandbox方法，利用代码沙箱激发大语言模型在非代码领域的通用智能。
 
-**关键词**：代码沙盒, 通用智能, 强化学习, 长上下文处理, 非代码任务, 开源工具
+**关键词**：代码沙箱, 通用智能, 强化学习, 长上下文处理, 非代码任务, 开源工具
 
 ## 3 点简述
-- 核心问题：如何让LLM在非代码任务中展现通用智能，无需额外训练。
-- 方法要点：利用代码沙盒作为虚拟计算机，通过LLM-in-Sandbox-RL增强代理能力。
-- 实验或效果：在数学、物理、化学、生物医学等领域实现稳健泛化，开源为Python包。
+- 核心问题：大语言模型在非代码任务中缺乏直接执行能力，需探索如何利用代码沙箱实现通用智能。
+- 方法要点：通过代码沙箱让大语言模型自主探索，如访问外部资源、处理长上下文，并引入强化学习增强代理能力。
+- 实验或效果：在数学、物理、化学等多个领域实现稳健泛化，并开源为Python包便于部署。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: PhysicsMind: Sim and Real Mechanics Benchmarking for Physical Reasoning a
 **arXiv**：[2601.16007v1](https://arxiv.org/abs/2601.16007) · [PDF](https://arxiv.org/pdf/2601.16007.pdf)  
 **作者**：Chak-Wing Mak, Guanyu Zhu, Boyi Zhang, Hongji Li, Xiaowei Chi, Kevin Zhang, Yichen Wu, Yangfan He, Chun-Kai Fan, Wentao Lu, Kuangzhi Ge, Xinyu Fang, Hongyang He, Kuan Lu, Tianxiang Xu, Li Zhang, Yongxin Ni, Youhua Li, Shanghang Zhang  
 
-**一句话要点**：提出PhysicsMind基准，结合仿真与真实环境评估多模态大模型和世界模型的物理推理与预测能力。
+**一句话要点**：提出PhysicsMind基准，通过仿真与真实环境评估多模态大模型和世界模型的物理推理与预测能力
 
-**关键词**：物理推理基准, 多模态大模型评估, 视频生成任务, 力学原理, 仿真环境, 视觉问答
+**关键词**：物理推理基准, 多模态大模型评估, 视频生成任务, 力学原理, 仿真与真实环境, 视觉问答
 
 ## 3 点简述
-- 核心问题：现有基准在评估多模态大模型和世界模型的物理理解方面存在碎片化，依赖合成数据或与物理定律无关的感知质量。
-- 方法要点：引入统一基准，包含真实和仿真环境，基于质心、杠杆平衡和牛顿第一定律设计视觉问答和视频生成任务。
-- 实验或效果：评估多种模型，发现其依赖外观启发式并常违反基本力学，表明当前训练不足，PhysicsMind可作为物理感知模型的测试平台。
+- 现有基准在物理理解评估上存在碎片化，依赖合成数据或与物理定律无关的感知质量
+- PhysicsMind统一评估质心、杠杆平衡和牛顿第一定律，包含视觉问答和视频生成任务
+- 实验显示当前模型依赖外观启发式，常违反基本力学，表明训练不足，PhysicsMind可作为物理感知模型的测试平台
 
 ## 摘要（原文）
 

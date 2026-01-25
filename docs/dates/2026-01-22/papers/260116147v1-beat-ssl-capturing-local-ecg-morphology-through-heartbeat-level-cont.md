@@ -7,14 +7,14 @@ title: Beat-ssl: Capturing Local ECG Morphology through Heartbeat-level Contrast
 **arXiv**：[2601.16147v1](https://arxiv.org/abs/2601.16147) · [PDF](https://arxiv.org/pdf/2601.16147.pdf)  
 **作者**：Muhammad Ilham Rizqyawan, Peter Macfarlane, Stathis Hadjidemetriou, Fani Deligianni  
 
-**一句话要点**：提出Beat-SSL通过心跳级对比学习与软目标捕获ECG局部形态，以解决标注数据稀缺问题。
+**一句话要点**：提出Beat-SSL，通过心跳级对比学习与软目标捕获ECG局部形态，以解决标注数据稀缺问题。
 
 **关键词**：心电图分析, 对比学习, 软目标, 双上下文学习, 迁移学习
 
 ## 3 点简述
-- 核心问题：ECG标注数据获取困难，现有对比学习框架忽略ECG特异性或依赖硬目标。
-- 方法要点：采用双上下文学习，结合节律级和心跳级对比，使用软目标捕捉特征相似性。
-- 实验或效果：在分类任务中达到基础模型93%性能，分割任务超越其他方法4%。
+- 核心问题：ECG标注数据获取困难，现有对比学习框架未充分利用ECG特性或依赖硬目标。
+- 方法要点：采用双上下文学习，结合节律级和心跳级对比，并引入软目标以捕捉特征相似性。
+- 实验或效果：在节律分类任务中达到基础模型93%性能，分割任务超越其他方法4%。
 
 ## 摘要（原文）
 

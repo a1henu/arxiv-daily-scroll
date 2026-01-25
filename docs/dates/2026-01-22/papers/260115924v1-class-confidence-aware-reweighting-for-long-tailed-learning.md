@@ -7,14 +7,14 @@ title: Class Confidence Aware Reweighting for Long Tailed Learning
 **arXiv**：[2601.15924v1](https://arxiv.org/abs/2601.15924) · [PDF](https://arxiv.org/pdf/2601.15924.pdf)  
 **作者**：Brainard Philemon Jagati, Jitendra Tembhurne, Harsh Goud, Rudra Pratap Singh, Chandrashekhar Meshram  
 
-**一句话要点**：提出基于类别置信度的重加权方案以解决长尾学习中的类别不平衡问题
+**一句话要点**：提出类别置信度感知重加权方案以解决长尾学习中的类别不平衡问题
 
 **关键词**：长尾学习, 类别不平衡, 置信度感知, 重加权方案, 损失调制
 
 ## 3 点简述
-- 核心问题：长尾数据分布导致深度神经网络性能下降，尾部类别训练样本不足
-- 方法要点：设计类别和置信度感知的重加权方案，通过Ω函数基于预测置信度和类别频率调制损失贡献
-- 实验或效果：在CIFAR-100-LT、ImageNet-LT和iNaturalist2018数据集上验证，不同不平衡因子下效果显著
+- 核心问题：长尾数据分布导致深度神经网络性能下降，尾部类别训练样本少。
+- 方法要点：基于损失级别设计重加权方案，通过Ω函数根据预测置信度和类别频率调制训练贡献。
+- 实验或效果：在CIFAR-100-LT、ImageNet-LT和iNaturalist2018数据集上验证，不同不平衡因子下效果显著。
 
 ## 摘要（原文）
 

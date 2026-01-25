@@ -7,14 +7,14 @@ title: DualShield: Safe Model Predictive Diffusion via Reachability Analysis for
 **arXiv**：[2601.15729v1](https://arxiv.org/abs/2601.15729) · [PDF](https://arxiv.org/pdf/2601.15729.pdf)  
 **作者**：Rui Yang, Lei Zheng, Ruoyu Yao, Jun Ma  
 
-**一句话要点**：提出DualShield框架，通过可达性分析保障交互式自动驾驶中扩散模型的安全与动态可行性。
+**一句话要点**：提出DualShield框架，通过可达性分析确保交互式自动驾驶中扩散模型的安全与动态可行性。
 
 **关键词**：自动驾驶规划, 扩散模型, 可达性分析, 安全屏障, 交互不确定性, 模型预测控制
 
 ## 3 点简述
 - 核心问题：扩散模型在自动驾驶运动规划中难以强制执行车辆动力学，且依赖其他智能体准确预测，导致不确定交互下存在安全隐患。
-- 方法要点：利用Hamilton-Jacobi可达性值函数，既引导扩散去噪过程朝向安全区域，又作为反应式安全屏障修改执行动作。
-- 实验或效果：在无保护U-turn场景模拟中，相比领先方法，显著提升安全性和任务效率。
+- 方法要点：利用Hamilton-Jacobi可达性值函数，既引导扩散去噪过程朝向安全区域，又作为反应式安全屏障修改执行动作以确保安全。
+- 实验或效果：在无保护U-turn场景模拟中，相比领先方法，DualShield显著提升了安全性和任务效率。
 
 ## 摘要（原文）
 

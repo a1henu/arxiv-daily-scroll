@@ -7,14 +7,14 @@ title: AgentSM: Semantic Memory for Agentic Text-to-SQL
 **arXiv**：[2601.15709v1](https://arxiv.org/abs/2601.15709) · [PDF](https://arxiv.org/pdf/2601.15709.pdf)  
 **作者**：Asim Biswal, Chuan Lei, Xiao Qin, Aodong Li, Balakrishnan Narayanaswamy, Tim Kraska  
 
-**一句话要点**：提出AgentSM框架，利用语义记忆解决企业环境中Text-to-SQL的扩展与效率问题。
+**一句话要点**：提出AgentSM语义记忆框架，以解决企业环境中Text-to-SQL的扩展与效率问题。
 
 **关键词**：Text-to-SQL, 语义记忆, 代理框架, 执行轨迹, 推理效率
 
 ## 3 点简述
 - 核心问题：现有LLM-based Text-to-SQL系统在企业大规模复杂场景下扩展困难，效率低且不稳定。
-- 方法要点：构建可解释的语义记忆，通过结构化程序捕获或合成执行轨迹，指导未来推理。
-- 实验或效果：在Spider 2.0基准上，平均token使用和轨迹长度分别减少25%和35%，执行准确率提升。
+- 方法要点：构建可解释语义记忆，通过结构化程序捕获或合成执行轨迹，指导未来推理。
+- 实验或效果：在Spider 2.0基准上，平均令牌使用和轨迹长度分别减少25%和35%，执行准确率提升。
 
 ## 摘要（原文）
 

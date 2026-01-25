@@ -7,14 +7,14 @@ title: EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic
 **arXiv**：[2601.15876v1](https://arxiv.org/abs/2601.15876) · [PDF](https://arxiv.org/pdf/2601.15876.pdf)  
 **作者**：Taofeng Xue, Chong Peng, Mianqiu Huang, Linsen Guo, Tiancheng Han, Haozhe Wang, Jianing Wang, Xiaocheng Zhang, Xin Yang, Dengchang Zhao, Jinrui Ding, Xiandi Ma, Yuchen Xie, Peng Pei, Xunliang Cai, Xipeng Qiu  
 
-**一句话要点**：提出EvoCUA，通过可扩展合成经验学习进化计算机使用代理，解决静态数据瓶颈问题。
+**一句话要点**：提出EvoCUA，通过从可扩展合成经验中学习，以进化循环解决计算机使用代理在长时任务中的动态瓶颈。
 
-**关键词**：计算机使用代理, 合成经验学习, 进化学习策略, 可扩展基础设施, OSWorld基准
+**关键词**：计算机使用代理, 进化学习, 合成数据生成, 大规模经验获取, 策略优化, 多模态AI
 
 ## 3 点简述
-- 核心问题：静态数据限制计算机使用代理在长时程任务中的因果动态捕捉能力。
-- 方法要点：结合数据生成与策略优化，构建自持进化循环，包括可验证合成引擎和可扩展基础设施。
-- 实验或效果：在OSWorld基准测试中达到56.7%成功率，超越开源和闭源模型，展示方法泛化性。
+- 核心问题：静态数据缩放限制计算机使用代理捕捉长时任务中的复杂因果动态。
+- 方法要点：集成数据生成与策略优化，通过可验证合成引擎和异步沙盒大规模获取经验。
+- 实验或效果：在OSWorld基准上达到56.7%成功率，超越开源和闭源模型，展示方法的可扩展性。
 
 ## 摘要（原文）
 

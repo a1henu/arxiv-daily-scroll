@@ -7,14 +7,14 @@ title: DeepASMR: LLM-Based Zero-Shot ASMR Speech Generation for Anyone of Any Vo
 **arXiv**：[2601.15596v1](https://arxiv.org/abs/2601.15596) · [PDF](https://arxiv.org/pdf/2601.15596.pdf)  
 **作者**：Leying Zhang, Tingxiao Zhou, Haiyang Sun, Mengxiao Bi, Yanmin Qian  
 
-**一句话要点**：提出DeepASMR框架，实现零样本ASMR语音生成，适用于任意说话人
+**一句话要点**：提出DeepASMR框架，实现基于LLM的零样本ASMR语音生成，适用于任意说话者声音。
 
-**关键词**：ASMR语音生成, 零样本合成, 离散语音令牌, 流匹配解码, 多说话人语料库, LLM编码
+**关键词**：零样本语音生成, ASMR语音合成, LLM编码, 流匹配解码, 多说话者语料库, 风格分离
 
 ## 3 点简述
-- 核心问题：现有TTS系统难以生成低强度、未发声的ASMR语音，且需零样本说话人适应
-- 方法要点：利用离散语音令牌分离ASMR风格与音色，结合LLM编码和流匹配解码器
-- 实验或效果：构建DeepASMR-DB语料库，实验显示在自然度和风格保真度上达到先进水平
+- 核心问题：现有TTS系统难以生成低强度、非浊音的ASMR语音，且需零样本说话者适应。
+- 方法要点：利用离散语音令牌分离ASMR风格与说话者音色，采用LLM编码内容风格和流匹配声学解码器重建音色。
+- 实验或效果：在DeepASMR-DB数据集上验证，实现高自然度和风格保真度，支持零样本ASMR生成。
 
 ## 摘要（原文）
 

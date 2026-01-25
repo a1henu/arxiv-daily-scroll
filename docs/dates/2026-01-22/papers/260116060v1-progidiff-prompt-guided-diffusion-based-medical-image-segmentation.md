@@ -7,14 +7,14 @@ title: ProGiDiff: Prompt-Guided Diffusion-Based Medical Image Segmentation
 **arXiv**：[2601.16060v1](https://arxiv.org/abs/2601.16060) · [PDF](https://arxiv.org/pdf/2601.16060.pdf)  
 **作者**：Yuan Lin, Murong Xu, Marc Hölle, Chinmay Prabhakar, Andreas Maier, Vasileios Belagiannis, Bjoern Menze, Suprosanna Shit  
 
-**一句话要点**：提出ProGiDiff框架，利用预训练扩散模型实现基于自然语言提示的医学图像分割
+**一句话要点**：提出ProGiDiff框架，利用预训练扩散模型实现基于自然语言提示的医学图像分割。
 
 **关键词**：医学图像分割, 扩散模型, 自然语言提示, 多模态适应, 少样本学习
 
 ## 3 点简述
-- 现有医学图像分割方法多为确定性，难以处理自然语言提示和多模态适应
-- 采用ControlNet风格条件机制，结合定制编码器引导扩散模型输出分割掩码
-- 在CT器官分割实验中表现优异，支持多类别分割和少样本跨模态迁移
+- 现有医学图像分割方法多为确定性，难以支持自然语言提示和多模态适应。
+- 采用ControlNet风格条件机制，结合自定义编码器，引导扩散模型输出分割掩码。
+- 在CT器官分割实验中表现优异，支持多类别分割，并可少样本迁移至MR图像。
 
 ## 摘要（原文）
 

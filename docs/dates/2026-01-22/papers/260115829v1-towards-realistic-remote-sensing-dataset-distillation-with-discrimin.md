@@ -7,9 +7,9 @@ title: Towards Realistic Remote Sensing Dataset Distillation with Discriminative
 **arXiv**：[2601.15829v1](https://arxiv.org/abs/2601.15829) · [PDF](https://arxiv.org/pdf/2601.15829.pdf)  
 **作者**：Yonghao Xu, Pedram Ghamisi, Qihao Weng  
 
-**一句话要点**：提出基于判别原型引导扩散的遥感数据集蒸馏方法，以解决大规模数据存储、计算成本高和数据泄露风险问题。
+**一句话要点**：提出基于判别原型引导扩散的遥感数据集蒸馏方法，以解决大规模数据存储、计算成本与泄露风险问题。
 
-**关键词**：遥感图像解释, 数据集蒸馏, 扩散模型, 判别原型引导, 场景分类, 数据压缩
+**关键词**：遥感图像解释, 数据集蒸馏, 扩散模型, 原型引导, 分类一致性, 场景分类
 
 ## 3 点简述
 - 核心问题：遥感图像解释依赖大规模数据集，导致高存储计算成本和数据泄露风险。

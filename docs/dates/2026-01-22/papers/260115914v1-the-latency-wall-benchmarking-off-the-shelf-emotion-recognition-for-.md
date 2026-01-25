@@ -9,12 +9,12 @@ title: The Latency Wall: Benchmarking Off-the-Shelf Emotion Recognition for Real
 
 **一句话要点**：基准测试现成模型在虚拟角色上的零样本表情识别，揭示实时VR治疗中的延迟瓶颈
 
-**关键词**：实时表情识别, 虚拟现实治疗, 延迟-精度权衡, 零样本学习, 基准测试, 轻量级架构
+**关键词**：实时表情识别, 虚拟现实治疗, 延迟-准确率权衡, 零样本学习, 基准测试, 轻量级架构
 
 ## 3 点简述
-- 核心问题：实时VR治疗需严格延迟-精度权衡，但现成DL模型常忽视硬件约束。
-- 方法要点：在UIBVFED数据集上评估YOLO变体和通用ViT，包括CLIP、SigLIP和ViT-FER。
-- 实验或效果：YOLOv11n检测最优，但通用Transformer在分类阶段存在延迟墙，精度和速度不足。
+- 核心问题：实时VR治疗需表情识别模型在140毫秒内运行，但现成模型常忽视硬件延迟约束
+- 方法要点：在UIBVFED数据集上评估YOLO变体和通用Vision Transformer的零样本表情识别性能
+- 实验或效果：YOLOv11n检测最优，但通用Transformer在分类阶段存在延迟墙，准确率低且速度慢
 
 ## 摘要（原文）
 

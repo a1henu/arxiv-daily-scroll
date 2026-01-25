@@ -7,14 +7,14 @@ title: Inference-Time Scaling of Verification: Self-Evolving Deep Research Agent
 **arXiv**：[2601.15808v1](https://arxiv.org/abs/2601.15808) · [PDF](https://arxiv.org/pdf/2601.15808.pdf)  
 **作者**：Yuxuan Wan, Tianqing Fang, Zaitang Li, Yintong Huo, Wenxuan Wang, Haitao Mi, Dong Yu, Michael R. Lyu  
 
-**一句话要点**：提出基于验证的推理时自进化方法，通过测试时准则引导验证提升深度研究代理性能
+**一句话要点**：提出基于验证的推理时缩放方法，通过测试时准则引导验证实现深度研究代理的自进化
 
-**关键词**：深度研究代理, 推理时验证, 自进化学习, 准则引导验证, 测试时优化, 开源数据集
+**关键词**：深度研究代理, 推理时缩放, 准则引导验证, 自进化, 测试时精炼, 开源数据集
 
 ## 3 点简述
-- 现有深度研究代理多关注训练后策略增强，本文转向推理时自进化，通过准则验证迭代改进
-- 基于自动构建的失败分类法设计DeepVerifier验证器，利用验证不对称性，在元评估中优于基线12%-48%
-- 作为即插即用模块，在GAIA和XBench-DeepResearch挑战子集上实现8%-11%准确率提升，并发布开源数据集
+- 核心问题：现有深度研究代理依赖训练后增强，缺乏推理时自我改进能力。
+- 方法要点：基于自动构建的失败分类法设计准则，开发DeepVerifier验证器进行迭代反馈与精炼。
+- 实验或效果：在GAIA和XBench-DeepResearch挑战子集上实现8%-11%准确率提升，并发布开源数据集DeepVerifier-4K。
 
 ## 摘要（原文）
 

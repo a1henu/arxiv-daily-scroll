@@ -12,7 +12,7 @@ title: Pay (Cross) Attention to the Melody: Curriculum Masking for Single-Encode
 **关键词**：旋律和声化, 单编码器Transformer, 训练课程, 掩码序列建模, 旋律-和声交互, 域外评估
 
 ## 3 点简述
-- 核心问题：现有单编码器Transformer方法在旋律和声化中旋律-和声注意力弱，导致旋律线索利用不足。
+- 核心问题：现有单编码器Transformer方法在旋律和声化中旋律与和声的注意力交互弱，导致旋律线索利用不足。
 - 方法要点：引入FF训练课程，先全掩码和声令牌再逐步全解掩，以强化旋律-和声交互。
 - 实验或效果：在HookTheory数据集和爵士标准曲上评估，FF课程在多数指标上优于基线，尤其在域外评估中表现突出。
 

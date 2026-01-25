@@ -7,14 +7,14 @@ title: Event-VStream: Event-Driven Real-Time Understanding for Long Video Stream
 **arXiv**：[2601.15655v1](https://arxiv.org/abs/2601.15655) · [PDF](https://arxiv.org/pdf/2601.15655.pdf)  
 **作者**：Zhenghui Guo, Yuanbin Man, Junyuan Sheng, Bowen Lin, Ahmed Ahmed, Bo Jiang, Boyuan Zhang, Miao Yin, Sian Jin, Omprakash Gnawal, Chengming Zhang  
 
-**一句话要点**：提出Event-VStream框架，通过事件驱动实现长视频流的实时理解
+**一句话要点**：提出Event-VStream框架，通过事件驱动方法解决长视频流实时理解中的冗余处理和遗忘问题。
 
-**关键词**：事件驱动视频理解, 长视频流处理, 实时多模态模型, 语义事件检测, 持久记忆库
+**关键词**：事件驱动视频理解, 长视频流处理, 实时多模态模型, 语义事件检测, 持久记忆库, 低延迟推理
 
 ## 3 点简述
-- 核心问题：多模态大语言模型处理长视频流时存在冗余帧处理和上下文遗忘问题
-- 方法要点：将连续视频表示为离散语义事件序列，基于运动、语义和预测线索触发生成
-- 实验或效果：在OVOBench-Realtime和Ego4D评估中表现优异，提升基准性能并保持低延迟
+- 核心问题：多模态大语言模型处理长视频流时存在帧冗余和上下文遗忘，现有方法输出重复或丢失关键时序信息。
+- 方法要点：将连续视频表示为离散语义事件序列，基于运动、语义和预测线索检测状态转换，仅在事件边界触发语言生成，并利用持久记忆库进行长时推理。
+- 实验或效果：在OVOBench-Realtime和Ego4D评估中表现优异，相比基线提升10.4点，使用通用文本骨干接近专用模型性能，在2小时视频流上保持约70% GPT-5胜率。
 
 ## 摘要（原文）
 

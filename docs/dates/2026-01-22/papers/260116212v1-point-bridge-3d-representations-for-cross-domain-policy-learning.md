@@ -7,14 +7,14 @@ title: Point Bridge: 3D Representations for Cross Domain Policy Learning
 **arXiv**：[2601.16212v1](https://arxiv.org/abs/2601.16212) · [PDF](https://arxiv.org/pdf/2601.16212.pdf)  
 **作者**：Siddhant Haldar, Lars Johannsmeier, Lerrel Pinto, Abhishek Gupta, Dieter Fox, Yashraj Narang, Ajay Mandlekar  
 
-**一句话要点**：提出Point Bridge框架，利用点云表示实现零样本仿真到真实策略迁移
+**一句话要点**：提出Point Bridge框架，利用点云表示实现零样本仿真到现实的策略迁移
 
-**关键词**：点云表示, 仿真到真实迁移, 机器人策略学习, 视觉语言模型, 零样本学习
+**关键词**：点云表示, 仿真到现实迁移, 机器人策略学习, 视觉语言模型, 零样本学习
 
 ## 3 点简述
-- 核心问题：仿真与真实视觉域差距限制机器人基础模型发展，缺乏大规模真实数据。
-- 方法要点：结合视觉语言模型提取点云表示、基于Transformer的策略学习和高效推理管道。
-- 实验或效果：零样本迁移提升达44%，加入少量真实演示后提升达66%，优于现有方法。
+- 核心问题：仿真与现实的视觉域差距限制了机器人基础模型利用合成数据的有效性
+- 方法要点：结合视觉语言模型自动提取点云表示、基于Transformer的策略学习和高效推理管道
+- 实验或效果：在零样本仿真到现实迁移中提升达44%，结合少量真实演示后提升达66%
 
 ## 摘要（原文）
 

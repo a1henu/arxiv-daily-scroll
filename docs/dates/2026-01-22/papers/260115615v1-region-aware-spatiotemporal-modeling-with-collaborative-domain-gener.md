@@ -7,14 +7,14 @@ title: Region-aware Spatiotemporal Modeling with Collaborative Domain Generaliza
 **arXiv**：[2601.15615v1](https://arxiv.org/abs/2601.15615) · [PDF](https://arxiv.org/pdf/2601.15615.pdf)  
 **作者**：Weiwei Wu, Yueyang Li, Yuhu Shi, Weiming Zeng, Lang Qin, Yang Yang, Ke Zhou, Zhiguo Zhang, Wai Ting Siok, Nizhuan Wang  
 
-**一句话要点**：提出RSM-CoDG框架，结合脑区先验与多尺度建模，提升跨被试EEG情绪识别的泛化能力。
+**一句话要点**：提出RSM-CoDG框架，结合区域感知时空建模与协同域泛化，以解决跨被试EEG情绪识别中的分布偏移问题。
 
-**关键词**：跨被试EEG情绪识别, 时空建模, 域泛化, 脑区先验, 多尺度时间分析
+**关键词**：跨被试EEG情绪识别, 区域感知时空建模, 协同域泛化, 脑功能分区, 多尺度时间建模, 分布偏移
 
 ## 3 点简述
-- 核心问题：跨被试EEG情绪识别受个体差异和时空复杂性影响，现有方法难以统一处理。
-- 方法要点：基于脑功能分区构建区域级空间表示，并采用多尺度时间建模与协作域泛化策略。
-- 实验或效果：在SEED数据集上优于现有方法，代码开源，验证了鲁棒性提升。
+- 核心问题：跨被试EEG情绪识别因被试间变异性强，导致信号分布偏移，且时空表征复杂。
+- 方法要点：利用脑功能分区先验构建区域级空间表征，结合多尺度时间建模和协同域泛化策略。
+- 实验或效果：在SEED系列数据集上验证，RSM-CoDG优于现有方法，提升泛化能力。
 
 ## 摘要（原文）
 

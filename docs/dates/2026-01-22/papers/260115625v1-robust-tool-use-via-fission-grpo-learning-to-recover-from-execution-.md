@@ -7,14 +7,14 @@ title: Robust Tool Use via Fission-GRPO: Learning to Recover from Execution Erro
 **arXiv**：[2601.15625v1](https://arxiv.org/abs/2601.15625) · [PDF](https://arxiv.org/pdf/2601.15625.pdf)  
 **作者**：Zhiwei Zhang, Fei Zhao, Rui Wang, Zezhong Wang, Bin Liang, Jiakang Wang, Yao Hu, Shaosheng Cao, Kam-Fai Wong  
 
-**一句话要点**：提出Fission-GRPO框架，通过将执行错误转化为纠正监督，提升大语言模型在工具调用中的错误恢复能力。
+**一句话要点**：提出Fission-GRPO框架，通过将执行错误转化为纠正监督，提升大语言模型在多轮工具调用中的错误恢复能力。
 
-**关键词**：工具调用, 错误恢复, 强化学习, 大语言模型, 多轮执行
+**关键词**：大语言模型, 工具调用, 错误恢复, 强化学习, 多轮执行, 自我纠正
 
 ## 3 点简述
-- 核心问题：大语言模型在多轮工具调用中，面对执行错误时易退化，无法有效自我纠正，阻碍实际部署。
-- 方法要点：在强化学习训练循环中，利用错误模拟器诊断失败轨迹，生成新训练实例，使模型从自身探索错误中学习恢复。
-- 实验或效果：在BFCL v4 Multi-Turn基准上，Fission-GRPO显著提升Qwen3-8B的错误恢复率和整体准确率，优于现有方法。
+- 核心问题：大语言模型在多轮工具调用中，面对执行错误时易陷入无效重复调用，缺乏自我纠正能力，阻碍实际部署。
+- 方法要点：Fission-GRPO在强化学习训练循环中，利用错误模拟器诊断反馈，将失败轨迹分裂为新训练实例，实现从探索中错误学习恢复。
+- 实验或效果：在BFCL v4 Multi-Turn上，Fission-GRPO将Qwen3-8B的错误恢复率提升5.7%，整体准确率提高4%，优于GRPO和专用工具使用代理。
 
 ## 摘要（原文）
 

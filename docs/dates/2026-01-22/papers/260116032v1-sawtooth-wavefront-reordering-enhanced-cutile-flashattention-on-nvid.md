@@ -9,12 +9,12 @@ title: Sawtooth Wavefront Reordering: Enhanced CuTile FlashAttention on NVIDIA G
 
 **一句话要点**：提出锯齿波前重排序技术以提升NVIDIA GB10上CuTile FlashAttention的缓存性能
 
-**关键词**：FlashAttention, 缓存优化, NVIDIA GB10, CuTile, 大语言模型, 高性能计算
+**关键词**：FlashAttention, 缓存优化, NVIDIA GB10, CuTile, 锯齿波前重排序
 
 ## 3 点简述
 - 分析NVIDIA GB10上CuTile FlashAttention的L2缓存未命中问题
-- 引入锯齿波前重排序编程技术以减少L2缓存未命中
-- 实验验证L2未命中减少50%以上，吞吐量提升最高达60%
+- 引入锯齿波前重排序编程技术以减少L2未命中
+- 实验显示L2未命中减少50%以上，吞吐量提升最高60%
 
 ## 摘要（原文）
 

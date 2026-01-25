@@ -14,7 +14,7 @@ title: Designing faster mixed integer linear programming algorithm via learning 
 ## 3 点简述
 - 核心问题：传统分支定界算法依赖人工启发式策略，性能不稳定且不可预测。
 - 方法要点：采用深度学习自动学习节点优先级，通过多级特征融合和成对训练处理节点不平衡。
-- 实验效果：在三个NP难基准测试中，DeepBound显著减少计算时间，优于传统和现有学习方法。
+- 实验或效果：在三个NP难基准测试中，DeepBound显著减少计算时间，展现强泛化能力。
 
 ## 摘要（原文）
 

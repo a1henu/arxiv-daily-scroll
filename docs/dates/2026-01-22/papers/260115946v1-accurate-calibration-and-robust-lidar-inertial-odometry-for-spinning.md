@@ -7,14 +7,14 @@ title: Accurate Calibration and Robust LiDAR-Inertial Odometry for Spinning Actu
 **arXiv**：[2601.15946v1](https://arxiv.org/abs/2601.15946) · [PDF](https://arxiv.org/pdf/2601.15946.pdf)  
 **作者**：Zijie Chen, Xiaowei Liu, Yong Xu, Shenghai Yuan, Jianping Li, Lihua Xie  
 
-**一句话要点**：提出无目标LiDAR-电机标定与自适应LiDAR-惯性里程计，以解决旋转驱动LiDAR系统的标定泛化与定位鲁棒性问题。
+**一句话要点**：提出无目标标定与自适应里程计以解决旋转驱动LiDAR系统的标定泛化与鲁棒定位问题
 
-**关键词**：LiDAR-电机标定, LiDAR-惯性里程计, 旋转驱动LiDAR, 无目标标定, 自适应定位, Denavit-Hartenberg约定
+**关键词**：LiDAR-惯性里程计, 无目标标定, 自适应定位, 旋转驱动LiDAR, DH约定, 环境适应性
 
 ## 3 点简述
-- 核心问题：现有方法依赖安装配置参数化，限制泛化性；旋转驱动LiDAR扫描无特征区域，影响定位鲁棒性。
-- 方法要点：基于Denavit-Hartenberg约定实现无目标LiDAR-电机标定；自适应选择下采样率和地图分辨率以优化扫描覆盖与定位。
-- 实验或效果：标定方法在不同场景、安装角度和初始值下验证准确性与收敛性；自适应策略提升扫描完整性，确保无特征区域下的鲁棒定位。
+- 核心问题：现有方法依赖安装配置参数化，限制泛化性；旋转扫描特征缺失区域影响定位鲁棒性。
+- 方法要点：基于DH约定实现无目标LiDAR-电机标定；根据空间尺度自适应选择下采样率与地图分辨率。
+- 实验或效果：标定方法在不同场景、安装角度和初始值下准确收敛；自适应里程计提升扫描完整性与定位鲁棒性。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: Benchmarking Text-to-Python against Text-to-SQL: The Impact of Explicit L
 **arXiv**：[2601.15728v1](https://arxiv.org/abs/2601.15728) · [PDF](https://arxiv.org/pdf/2601.15728.pdf)  
 **作者**：Hangle Hu, Chenyu Hou, Bin Cao, Ruizhe Li  
 
-**一句话要点**：提出BIRD-Python基准和逻辑补全框架，以解决文本到Python在数据检索中的歧义问题。
+**一句话要点**：提出BIRD-Python基准与逻辑补全框架，以解决文本到Python在数据检索中的歧义问题。
 
-**关键词**：文本到Python, 文本到SQL, 基准评估, 逻辑补全, 数据检索, 歧义解决
+**关键词**：文本到Python, 文本到SQL, 基准评估, 逻辑补全, 数据检索, 歧义解析
 
 ## 3 点简述
-- 核心问题：文本到Python在数据检索中因需要显式逻辑而比文本到SQL更易受歧义影响。
+- 核心问题：文本到Python在数据检索中因显式逻辑需求而面临歧义挑战，相对文本到SQL研究不足。
 - 方法要点：引入BIRD-Python基准进行跨范式评估，并提出逻辑补全框架以整合领域知识解决歧义。
-- 实验或效果：实验表明，当补充领域上下文后，文本到Python性能可与文本到SQL持平。
+- 实验或效果：实验表明性能差异源于缺失领域上下文，补全后文本到Python可达文本到SQL同等水平。
 
 ## 摘要（原文）
 

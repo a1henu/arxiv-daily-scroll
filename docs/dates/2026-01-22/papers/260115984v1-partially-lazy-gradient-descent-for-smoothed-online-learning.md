@@ -7,14 +7,14 @@ title: Partially Lazy Gradient Descent for Smoothed Online Learning
 **arXiv**：[2601.15984v1](https://arxiv.org/abs/2601.15984) · [PDF](https://arxiv.org/pdf/2601.15984.pdf)  
 **作者**：Naram Mhaisen, George Iosifidis  
 
-**一句话要点**：提出k-lazyGD算法，在平滑在线凸优化中实现懒惰性与跟踪能力的平衡。
+**一句话要点**：提出k-lazyGD算法，在平滑在线凸优化中实现部分懒惰梯度下降，平衡反应性与稳定性。
 
 **关键词**：平滑在线凸优化, 懒惰梯度下降, 动态遗憾, FTRL框架, 比较器路径长度
 
 ## 3 点简述
 - 核心问题：在线学习中贪婪更新与懒惰更新之间的权衡，涉及命中成本和移动成本。
-- 方法要点：基于FTRL框架，引入懒惰松弛参数k，连接OGD和懒惰GD，分析懒惰性与比较器路径长度的关系。
-- 实验或效果：证明k-lazyGD在特定松弛范围内达到最优动态遗憾，无需牺牲命中性能。
+- 方法要点：基于FTRL框架，引入懒惰松弛参数k，连接OGD和懒惰GD，允许根据比较器路径长度调整懒惰程度。
+- 实验或效果：证明k-lazyGD在松弛参数达Θ(√T/P_T)时达到最优动态遗憾，无需牺牲命中性能。
 
 ## 摘要（原文）
 

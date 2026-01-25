@@ -13,8 +13,8 @@ title: DTP: A Simple yet Effective Distracting Token Pruning Framework for Visio
 
 ## 3 点简述
 - 核心问题：VLA模型过度关注任务无关图像区域，影响动作生成成功率
-- 方法要点：动态检测并剪枝分散注意力的图像令牌，无需修改模型架构
-- 实验或效果：在SIMPLER基准测试中提升任务成功率，揭示注意力与成功率负相关
+- 方法要点：动态检测并剪枝分散注意力的图像令牌，无需改变模型架构
+- 实验或效果：在SIMPLER基准测试中提升任务成功率，验证通用性
 
 ## 摘要（原文）
 
