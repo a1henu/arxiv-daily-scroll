@@ -1,0 +1,22 @@
+---
+layout: default
+title: Multi-Modal Time Series Prediction via Mixture of Modulated Experts
+---
+
+# Multi-Modal Time Series Prediction via Mixture of Modulated Experts
+**arXiv**：[2601.21547v1](https://arxiv.org/abs/2601.21547) · [PDF](https://arxiv.org/pdf/2601.21547.pdf)  
+**作者**：Lige Zhang, Ali Maatouk, Jialin Chen, Leandros Tassiulas, Rex Ying  
+
+**一句话要点**：提出专家调制方法，通过文本信号直接控制专家行为，以改进多模态时间序列预测。
+
+**关键词**：多模态时间序列预测, 专家调制, 混合专家模型, 跨模态对齐, 文本信号融合
+
+## 3 点简述
+- 核心问题：现有方法依赖标记级融合，在高质量时间-文本对稀缺及时间序列尺度变化大时，跨模态对齐困难。
+- 方法要点：引入专家调制，基于文本信号调节路由和专家计算，实现高效跨模态控制。
+- 实验或效果：通过理论分析和实验验证，在多模态时间序列预测中取得显著提升。
+
+## 摘要（原文）
+
+> Real-world time series exhibit complex and evolving dynamics, making accurate forecasting extremely challenging. Recent multi-modal forecasting methods leverage textual information such as news reports to improve prediction, but most rely on token-level fusion that mixes temporal patches with language tokens in a shared embedding space. However, such fusion can be ill-suited when high-quality time-text pairs are scarce and when time series exhibit substantial variation in scale and characteristics, thus complicating cross-modal alignment. In parallel, Mixture-of-Experts (MoE) architectures have proven effective for both time series modeling and multi-modal learning, yet many existing MoE-based modality integration methods still depend on token-level fusion. To address this, we propose Expert Modulation, a new paradigm for multi-modal time series prediction that conditions both routing and expert computation on textual signals, enabling direct and efficient cross-modal control over expert behavior. Through comprehensive theoretical analysis and experiments, our proposed method demonstrates substantial improvements in multi-modal time series prediction. The current code is available at https://github.com/BruceZhangReve/MoME
+
