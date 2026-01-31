@@ -9,7 +9,7 @@ title: OCRVerse: Towards Holistic OCR in End-to-End Vision-Language Models
 
 **一句话要点**：提出OCRVerse，首个端到端统一文本与视觉OCR方法，处理信息密集图像。
 
-**关键词**：端到端视觉语言模型, 多模态OCR, 跨域训练, 强化学习奖励策略, 信息密集图像处理
+**关键词**：端到端视觉语言模型, 文本中心OCR, 视觉中心OCR, 多域训练, 强化学习奖励策略
 
 ## 3 点简述
 - 现有OCR方法主要关注文本识别，忽略图表、网页等视觉信息密集图像的识别需求。

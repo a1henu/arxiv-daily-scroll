@@ -7,14 +7,14 @@ title: PLANING: A Loosely Coupled Triangle-Gaussian Framework for Streaming 3D R
 **arXiv**：[2601.22046v1](https://arxiv.org/abs/2601.22046) · [PDF](https://arxiv.org/pdf/2601.22046.pdf)  
 **作者**：Changjian Jiang, Kerui Ren, Xudong Li, Kaiwen Song, Linning Xu, Tao Lu, Junting Dong, Yu Zhang, Bo Dai, Mulin Yu  
 
-**一句话要点**：提出PLANING框架，通过松散耦合三角形与高斯表示实现高效流式3D重建，兼顾几何精度与渲染质量。
+**一句话要点**：提出PLANING框架，通过松散耦合三角形与高斯表示实现流式3D重建，兼顾几何精度与渲染质量。
 
-**关键词**：流式3D重建, 混合表示, 几何解耦, 在线优化, 单目图像序列, 计算效率
+**关键词**：流式3D重建, 混合表示, 几何解耦, 在线优化, 单目图像序列
 
 ## 3 点简述
-- 核心问题：现有单目图像序列流式重建方法难以同时实现高质量渲染与准确几何。
-- 方法要点：采用松散耦合的显式几何基元与神经高斯混合表示，解耦几何与外观建模。
-- 实验或效果：在ScanNetV2上重建速度提升5倍以上，几何精度提升18.52%，渲染质量超越ARTDECO。
+- 核心问题：现有单目图像序列流式重建方法难以同时实现高质量渲染与精确几何。
+- 方法要点：采用混合表示松散耦合显式几何基元与神经高斯，解耦几何与外观建模。
+- 实验或效果：在ScanNetV2上重建速度超5倍于2D高斯泼溅，质量匹配离线优化。
 
 ## 摘要（原文）
 

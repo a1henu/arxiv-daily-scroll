@@ -7,14 +7,14 @@ title: Epistemic Context Learning: Building Trust the Right Way in LLM-Based Mul
 **arXiv**：[2601.21742v1](https://arxiv.org/abs/2601.21742) · [PDF](https://arxiv.org/pdf/2601.21742.pdf)  
 **作者**：Ruiwen Zhou, Maojia Song, Xiaobao Wu, Sitao Cheng, Xunjian Yin, Yuxi Xie, Zhuoqun Hao, Wenyue Hua, Liangming Pan, Soujanya Poria, Min-Yen Kan  
 
-**一句话要点**：提出Epistemic Context Learning以解决多智能体系统中智能体盲从误导同伴的问题
+**一句话要点**：提出Epistemic Context Learning以提升多智能体系统中智能体对同伴可靠性的评估能力
 
 **关键词**：多智能体系统, 可靠性评估, 历史感知学习, 强化学习优化, 信任建模
 
 ## 3 点简述
-- 核心问题：多智能体系统中个体智能体因盲从和评估同伴可靠性能力不足而缺乏鲁棒性
-- 方法要点：通过历史交互构建同伴档案，基于历史评估可靠性并学习可信同伴，使用强化学习优化框架
-- 实验或效果：ECL使小模型超越大基线模型，提升前沿模型至近完美性能，并展示良好泛化能力
+- 多智能体系统中智能体易盲从误导同伴，源于奉承和可靠性评估不足
+- 引入历史交互作为输入，通过强化学习优化，构建同伴档案以估计可靠性
+- 实验显示ECL使小模型超越大基线，提升前沿模型至近完美性能
 
 ## 摘要（原文）
 

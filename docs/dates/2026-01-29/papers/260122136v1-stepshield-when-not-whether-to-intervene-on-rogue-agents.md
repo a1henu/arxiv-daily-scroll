@@ -7,14 +7,14 @@ title: StepShield: When, Not Whether to Intervene on Rogue Agents
 **arXiv**：[2601.22136v1](https://arxiv.org/abs/2601.22136) · [PDF](https://arxiv.org/pdf/2601.22136.pdf)  
 **作者**：Gloria Felicia, Michael Eniolade, Jinfeng He, Zitha Sasindran, Hemant Kumar, Milan Hussain Angati, Sandeep Bandarupalli  
 
-**一句话要点**：提出StepShield基准以评估AI代理违规检测的时机，而非仅准确性
+**一句话要点**：提出StepShield基准以评估AI代理违规检测的时机，而非仅是否检测到。
 
-**关键词**：代理安全基准, 早期干预评估, 时间指标, 代码代理轨迹, 经济成本分析
+**关键词**：代理安全基准, 早期干预评估, 时间指标, 代码代理轨迹, 经济影响分析
 
 ## 3 点简述
-- 现有基准混淆早期干预与事后分析，无法衡量检测时机的重要性
-- StepShield包含9,213条代码代理轨迹，引入早期干预率等三个新时间指标
-- 实验显示LLM法官比静态分析器性能高2.3倍，混合检测器可降低75%成本
+- 现有基准混淆早期干预与事后分析，无法衡量检测时机。
+- StepShield包含9,213条代码代理轨迹，引入三个时间指标评估检测性能。
+- 实验显示LLM法官比静态分析器在早期干预率上高2.3倍，并预测显著经济效益。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: JADE: Bridging the Strategic-Operational Gap in Dynamic Agentic RAG
 **arXiv**：[2601.21916v1](https://arxiv.org/abs/2601.21916) · [PDF](https://arxiv.org/pdf/2601.21916.pdf)  
 **作者**：Yiqun Chen, Erhan Zhang, Tianyi Hu, Shijie Wang, Zixuan Yang, Meizhi Zhong, Xiaochi Wei, Yan Gao, Yi Wu, Yao Hu, Jiaxin Mao  
 
-**一句话要点**：提出JADE框架以解决动态代理RAG中规划与执行不匹配的问题
+**一句话要点**：提出JADE框架以解决动态代理RAG中战略与操作不匹配问题
 
-**关键词**：检索增强生成, 动态代理工作流, 联合优化, 多智能体系统, 端到端学习
+**关键词**：检索增强生成, 动态代理工作流, 联合优化, 协同适应, 端到端学习
 
 ## 3 点简述
-- 核心问题：现有动态RAG系统存在规划与执行模块分离优化，导致策略与操作不匹配，性能提升受限
-- 方法要点：通过联合优化规划与执行，建模为共享骨干网络的多智能体协作系统，实现端到端学习
-- 实验或效果：实证显示JADE能协同优化模块，显著提升性能，并灵活平衡效率与效果
+- 现有动态RAG系统存在战略规划与执行模块解耦优化，导致性能不升反降
+- JADE通过联合优化规划和执行，实现端到端学习与协同适应
+- 实验表明JADE能提升性能，并在效率与效果间灵活平衡
 
 ## 摘要（原文）
 

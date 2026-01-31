@@ -7,14 +7,14 @@ title: Accurate Network Traffic Matrix Prediction via LEAD: an LLM-Enhanced Adap
 **arXiv**：[2601.21437v1](https://arxiv.org/abs/2601.21437) · [PDF](https://arxiv.org/pdf/2601.21437.pdf)  
 **作者**：Yu Sun, Yaqiong Liu, Nan Cheng, Jiayuan Li, Zihan Jia, Xialin Du, Mugen Peng  
 
-**一句话要点**：提出LEAD模型，通过LLM增强的条件扩散方法解决网络流量矩阵预测中的不确定性和突发性问题。
+**一句话要点**：提出LEAD模型以解决网络流量矩阵预测中的不确定性和非线性挑战
 
-**关键词**：网络流量预测, 条件扩散模型, LLM增强, 流量矩阵, 不确定性感知, 图像转换
+**关键词**：网络流量矩阵预测, 条件扩散模型, LLM增强适配器, 流量转图像, 不确定性感知, 边缘智能
 
 ## 3 点简述
-- 核心问题：网络流量矩阵预测因动态随机性和突发性而困难，现有模型易过平滑且不确定性感知有限。
-- 方法要点：将流量矩阵转为图像，利用冻结LLM与可训练适配器捕获时序语义，结合双条件策略引导扩散模型生成。
-- 实验或效果：在Abilene和GEANT数据集上，LEAD显著降低RMSE，如Abilene上比最佳基线减少45.2%，预测误差随步长增加变化小。
+- 核心问题：网络流量矩阵预测因随机性、非线性和突发性而困难，现有模型易过平滑且不确定性感知有限。
+- 方法要点：采用流量转图像范式，结合冻结LLM与可训练适配器，设计双条件策略引导扩散模型生成复杂动态流量矩阵。
+- 实验或效果：在Abilene和GEANT数据集上，LEAD显著降低RMSE，如Abilene上RMSE减少45.2%，多步预测误差增长微小。
 
 ## 摘要（原文）
 

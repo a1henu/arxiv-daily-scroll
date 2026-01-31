@@ -12,9 +12,9 @@ title: SWE-Spot: Building Small Repo-Experts with Repository-Centric Learning
 **关键词**：小型语言模型, Repository-Centric Learning, 代码库专家, 软件工程任务, 参数知识获取, 训练效率
 
 ## 3 点简述
-- 核心问题：小型语言模型在复杂代码库上缺乏推理时泛化能力，传统任务中心学习范式不足。
-- 方法要点：采用Repository-Centric Learning，通过垂直深度训练使模型内化目标软件环境的参数知识。
-- 实验或效果：SWE-Spot-4B在多个软件工程任务中超越更大开源模型，匹配商业模型，训练样本效率和推理成本更低。
+- 核心问题：小型语言模型在复杂陌生代码库上缺乏推理时强泛化能力，现有Task-Centric Learning范式不足。
+- 方法要点：提出Repository-Centric Learning，通过垂直深度训练让模型内化目标软件环境的参数知识，而非依赖推理时搜索。
+- 实验或效果：SWE-Spot-4B模型在多个软件工程任务中超越更大开源模型，匹配或超越高效商业模型，训练样本效率和推理成本更低。
 
 ## 摘要（原文）
 

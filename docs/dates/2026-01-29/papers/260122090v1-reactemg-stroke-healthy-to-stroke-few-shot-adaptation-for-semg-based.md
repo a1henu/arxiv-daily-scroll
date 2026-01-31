@@ -7,14 +7,14 @@ title: ReactEMG Stroke: Healthy-to-Stroke Few-shot Adaptation for sEMG-Based Int
 **arXiv**：[2601.22090v1](https://arxiv.org/abs/2601.22090) · [PDF](https://arxiv.org/pdf/2601.22090.pdf)  
 **作者**：Runsheng Wang, Katelyn Lee, Xinyue Zhu, Lauren Winterbottom, Dawn M. Nilsen, Joel Stein, Matei Ciocarlie  
 
-**一句话要点**：提出健康到中风少样本适应方法，提升基于表面肌电的中风意图检测性能。
+**一句话要点**：提出健康到中风少样本适应方法，提升基于表面肌电的中风意图检测鲁棒性。
 
 **关键词**：表面肌电意图检测, 少样本适应, 中风康复, 健康到中风迁移, 参数高效微调
 
 ## 3 点简述
 - 核心问题：中风后表面肌电意图检测需大量个体校准，且易受变异性影响。
-- 方法要点：基于健康数据预训练模型，通过少量中风数据微调，比较不同适应策略。
-- 实验或效果：在包含分布偏移的测试集上，适应方法显著提升准确率，减少校准负担。
+- 方法要点：利用健康人群大规模预训练模型初始化，通过少量中风个体数据微调适应。
+- 实验或效果：在包含分布偏移的测试集上，适应方法显著提升准确率，优于零样本迁移和中风专用训练。
 
 ## 摘要（原文）
 

@@ -9,7 +9,7 @@ title: LION: A Clifford Neural Paradigm for Multimodal-Attributed Graph Learning
 
 **一句话要点**：提出基于Clifford代数的LION范式，以解决多模态属性图中的模态对齐与融合问题。
 
-**关键词**：多模态属性图, Clifford代数, 模态对齐, 模态融合, 图神经网络, 下游任务
+**关键词**：多模态属性图, Clifford代数, 模态对齐, 模态融合, 图神经网络, 几何流形
 
 ## 3 点简述
 - 核心问题：现有方法在模态对齐中忽视图上下文，在模态融合中缺乏适应性，导致性能受限。

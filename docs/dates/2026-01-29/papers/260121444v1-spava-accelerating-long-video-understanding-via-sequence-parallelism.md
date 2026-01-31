@@ -12,9 +12,9 @@ title: Spava: Accelerating Long-Video Understanding via Sequence-Parallelism-awa
 **关键词**：长视频理解, 序列并行, 近似注意力, 多GPU加速, 大型多模态模型
 
 ## 3 点简述
-- 核心问题：长视频推理效率低，主要因大型多模态模型预填充阶段计算密集
+- 核心问题：长视频推理效率低，源于大型多模态模型预填充阶段的密集计算
 - 方法要点：在多GPU上分布近似注意力，减少计算并增加并行性，无需压缩视觉嵌入
-- 实验或效果：相比FlashAttn、ZigZagRing和APB，分别加速12.72倍、1.70倍和1.18倍，无明显性能损失
+- 实验或效果：相比FlashAttn、ZigZagRing和APB，分别加速12.72倍、1.70倍和1.18倍，性能无显著损失
 
 ## 摘要（原文）
 

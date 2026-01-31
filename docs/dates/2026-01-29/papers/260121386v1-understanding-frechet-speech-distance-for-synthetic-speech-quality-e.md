@@ -7,14 +7,14 @@ title: Understanding Frechet Speech Distance for Synthetic Speech Quality Evalua
 **arXiv**：[2601.21386v1](https://arxiv.org/abs/2601.21386) · [PDF](https://arxiv.org/pdf/2601.21386.pdf)  
 **作者**：June-Woo Kim, Dhruv Agarwal, Federica Cerina  
 
-**一句话要点**：评估Fréchet语音距离在合成语音质量评估中的可靠性，提出基于WavLM特征的稳定度量方法。
+**一句话要点**：评估Fréchet语音距离在合成语音质量评估中的可靠性，提出WavLM Base+特征作为稳定指标
 
-**关键词**：合成语音评估, Fréchet距离, 客观度量, 语音质量, WavLM特征, 人类听测验证
+**关键词**：合成语音评估, Fréchet距离, WavLM特征, 客观指标, 人类听力测试, 语音质量
 
 ## 3 点简述
-- 核心问题：合成语音质量客观评估困难，依赖昂贵的人工听测，需可靠替代指标。
-- 方法要点：全面评估Fréchet语音距离及其变体在不同嵌入和条件下的表现，结合人类听测验证。
-- 实验或效果：WavLM Base+特征与人类评分最稳定对齐，指标可作为成本效益高的补充评估工具。
+- 核心问题：合成语音质量客观评估困难，依赖昂贵的人类听力测试，Fréchet距离可靠性受嵌入和设置影响
+- 方法要点：全面评估Fréchet语音距离及其变体SMMD，结合人类听力测试、TTS可懂度和ASR WER验证感知相关性
+- 实验或效果：WavLM Base+特征与人类评分最稳定对齐，FSD和SMMD可作为补充性、成本效益高的评估指标
 
 ## 摘要（原文）
 

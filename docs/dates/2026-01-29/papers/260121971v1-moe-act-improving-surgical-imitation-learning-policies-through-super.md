@@ -7,14 +7,14 @@ title: MoE-ACT: Improving Surgical Imitation Learning Policies through Supervise
 **arXiv**：[2601.21971v1](https://arxiv.org/abs/2601.21971) · [PDF](https://arxiv.org/pdf/2601.21971.pdf)  
 **作者**：Lorenzo Mazza, Ariel Rodriguez, Rayan Younis, Martin Lelis, Ortrun Hellig, Chenpan Li, Sebastian Bodenstedt, Martin Wagner, Stefanie Speidel  
 
-**一句话要点**：提出监督混合专家架构以提升手术模仿学习策略在数据稀缺场景下的性能
+**一句话要点**：提出监督混合专家架构以提升手术模仿学习策略在数据稀缺下的性能
 
-**关键词**：手术机器人, 模仿学习, 混合专家, 动作分块变换器, 立体视觉, 零样本迁移
+**关键词**：手术机器人, 模仿学习, 混合专家, 动作分块变换器, 视觉语言动作模型, 零样本泛化
 
 ## 3 点简述
-- 手术机器人模仿学习面临数据稀缺、安全要求高等挑战，需高效方法
-- 采用监督混合专家架构增强动作分块变换器，仅用少量立体内窥镜图像演示学习
-- 在肠道抓取任务中，该方法优于现有模型，展现强泛化能力，包括零样本迁移至活体组织
+- 手术机器人模仿学习面临数据稀缺、安全要求高等挑战
+- 采用监督混合专家架构增强动作分块变换器，仅需少于150次演示
+- 在肠道抓取任务中优于基线，并展示出分布外鲁棒性和零样本泛化能力
 
 ## 摘要（原文）
 

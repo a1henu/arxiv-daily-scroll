@@ -7,14 +7,14 @@ title: Efficient Simple Regret Algorithms for Stochastic Contextual Bandits
 **arXiv**：[2601.21167v1](https://arxiv.org/abs/2601.21167) · [PDF](https://arxiv.org/pdf/2601.21167.pdf)  
 **作者**：Shuai Liu, Alireza Bakhtiari, Alex Ayoub, Botao Hao, Csaba Szepesvári  
 
-**一句话要点**：提出高效算法以解决随机上下文逻辑赌博机中的简单遗憾问题，避免依赖参数幅度常数。
+**一句话要点**：提出高效算法以解决随机上下文逻辑老虎机中的简单遗憾问题，实现无依赖κ的遗憾界。
 
-**关键词**：随机上下文赌博机, 简单遗憾, 逻辑回归, Thompson Sampling, 自协调分析, 遗憾界分析
+**关键词**：随机上下文老虎机, 简单遗憾, 逻辑回归, Thompson Sampling, 自协调分析, 遗憾界分析
 
 ## 3 点简述
-- 研究随机上下文逻辑赌博机在简单遗憾目标下的性能，填补了该设置的理论空白。
-- 基于上下文线性赌博机和自协调分析，设计确定性算法实现遗憾界，并引入随机化Thompson Sampling变体。
-- 实验验证了理论保证，随机算法在计算成本上更低，适用于有限动作集。
+- 研究随机上下文逻辑老虎机在简单遗憾目标下的性能，填补了该设置的理论空白。
+- 基于上下文线性老虎机和自协调分析，提出首个确定性算法，遗憾界为Õ(d/√T)，无依赖κ。
+- 引入针对简单遗憾的Thompson Sampling变体，实现随机算法，遗憾界为Õ(d^{3/2}/√T)，并通过实验验证理论。
 
 ## 摘要（原文）
 

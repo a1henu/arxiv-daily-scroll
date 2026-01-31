@@ -7,14 +7,14 @@ title: WebArbiter: A Principle-Guided Reasoning Process Reward Model for Web Age
 **arXiv**：[2601.21872v1](https://arxiv.org/abs/2601.21872) · [PDF](https://arxiv.org/pdf/2601.21872.pdf)  
 **作者**：Yao Zhang, Shijie Tang, Zeyu Li, Zhen Han, Volker Tresp  
 
-**一句话要点**：提出WebArbiter，一种基于原则推理的过程奖励模型，以解决网页代理在长序列决策中的稀疏监督问题。
+**一句话要点**：提出WebArbiter，一种基于原则推理的过程奖励模型，以解决网页代理在长序列决策中的稀疏延迟奖励问题。
 
-**关键词**：网页代理, 过程奖励模型, 推理蒸馏, 强化学习, 文本生成, 长序列决策
+**关键词**：网页代理, 过程奖励模型, 推理蒸馏, 强化学习, 文本生成, 基准测试
 
 ## 3 点简述
-- 核心问题：网页代理任务中，基于结果的监督稀疏且延迟，现有过程奖励模型信号粗糙或依赖脆弱模板匹配。
+- 核心问题：网页代理任务中，基于结果的监督稀疏延迟，现有过程奖励模型信号粗糙或依赖脆弱模板匹配。
 - 方法要点：将奖励建模转化为文本生成，通过推理蒸馏和强化学习两阶段训练，生成结构化理由和偏好裁决。
-- 实验或效果：在WebPRMBench上超越GPT-5基准9.1分，在WebArena-Lite中提升轨迹搜索性能达7.2分。
+- 实验或效果：在WebPRMBench上超越GPT-5 9.1分，在WebArena-Lite上优于先前最佳模型达7.2分。
 
 ## 摘要（原文）
 

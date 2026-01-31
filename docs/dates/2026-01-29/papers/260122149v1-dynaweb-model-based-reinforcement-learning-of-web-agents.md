@@ -7,14 +7,14 @@ title: DynaWeb: Model-Based Reinforcement Learning of Web Agents
 **arXiv**：[2601.22149v1](https://arxiv.org/abs/2601.22149) · [PDF](https://arxiv.org/pdf/2601.22149.pdf)  
 **作者**：Hang Ding, Peidong Liu, Junqiao Wang, Ziwei Ji, Meng Cao, Rongzhao Zhang, Lynn Ai, Eric Yang, Tianyu Shi, Lei Yu  
 
-**一句话要点**：提出DynaWeb框架，通过基于模型的强化学习训练网络代理，以解决在线交互效率低和风险高的问题。
+**一句话要点**：提出DynaWeb框架，通过基于模型的强化学习训练网络代理，以解决与实时互联网交互的低效与风险问题。
 
-**关键词**：网络代理, 基于模型的强化学习, 世界模型, 模拟交互, 样本效率
+**关键词**：网络代理, 基于模型的强化学习, 世界模型, 合成环境, 在线强化学习
 
 ## 3 点简述
 - 核心问题：训练网络代理时，与实时互联网交互效率低、成本高且风险大。
-- 方法要点：学习网络世界模型预测网页表示，用于模拟交互和策略生成，结合专家轨迹提升稳定性。
-- 实验或效果：在WebArena和WebVoyager基准测试中显著提升开源网络代理模型的性能。
+- 方法要点：学习网络世界模型预测网页表示，在合成环境中生成大量轨迹进行高效在线强化学习。
+- 实验或效果：在WebArena和WebVoyager基准测试中，显著提升开源网络代理模型的性能。
 
 ## 摘要（原文）
 

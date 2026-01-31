@@ -9,7 +9,7 @@ title: Pay for Hints, Not Answers: LLM Shepherding for Cost-Efficient Inference
 
 **一句话要点**：提出LLM Shepherding框架，通过LLM生成提示前缀以低成本提升SLM推理性能
 
-**关键词**：LLM-SLM协作, 成本高效推理, 提示前缀生成, 两阶段预测, 数学推理, 代码生成
+**关键词**：LLM-SLM协作, 成本高效推理, 提示前缀生成, 两阶段预测器, 数学推理, 代码生成
 
 ## 3 点简述
 - 核心问题：LLM推理成本高，SLM成本低但准确性不足，现有方法如路由和级联处理LLM为全有或全无资源

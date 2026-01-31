@@ -12,9 +12,9 @@ title: DataCross: A Unified Benchmark and Agent Framework for Cross-Modal Hetero
 **关键词**：跨模态分析, 异构数据, 代理框架, 视觉表格提取, 基准构建, 事实性验证
 
 ## 3 点简述
-- 核心问题：现有数据分析代理主要处理结构化数据，无法有效激活和关联高价值视觉信息，与工业需求存在差距。
-- 方法要点：引入DataCrossBench基准和DataCrossAgent框架，通过分治工作流和reReAct机制实现跨模态协同分析。
-- 实验或效果：DataCrossAgent在事实性上比GPT-4o提升29.7%，在高难度任务中表现出优越鲁棒性。
+- 核心问题：现有数据分析代理主要处理结构化数据，无法有效利用视觉文档中的高价值信息，导致与工业需求脱节。
+- 方法要点：引入DataCrossBench基准，包含200个跨领域任务，并设计DataCrossAgent框架，采用分治策略协调专家子代理进行跨模态分析。
+- 实验或效果：DataCrossAgent在事实性上比GPT-4o提升29.7%，在高难度任务中表现出更强的鲁棒性，有效激活碎片化数据。
 
 ## 摘要（原文）
 

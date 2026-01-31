@@ -9,7 +9,7 @@ title: An introductory Generalization of the standard SVMs loss and its applicat
 
 **一句话要点**：提出一种新的SVM凸损失函数，用于提升二元分类和回归模型的泛化性能。
 
-**关键词**：SVM损失函数, 泛化性能, 二元分类, 回归模型, 神经网络
+**关键词**：SVM损失函数, 凸优化, 泛化性能, 神经网络, 二元分类, 回归模型
 
 ## 3 点简述
 - 核心问题：标准SVM损失函数可能未充分利用模式相关性，影响泛化能力。

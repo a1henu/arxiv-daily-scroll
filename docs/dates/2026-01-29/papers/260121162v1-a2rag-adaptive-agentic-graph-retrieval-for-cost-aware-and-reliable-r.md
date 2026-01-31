@@ -7,14 +7,14 @@ title: A2RAG: Adaptive Agentic Graph Retrieval for Cost-Aware and Reliable Reaso
 **arXiv**：[2601.21162v1](https://arxiv.org/abs/2601.21162) · [PDF](https://arxiv.org/pdf/2601.21162.pdf)  
 **作者**：Jiate Liu, Zebin Chen, Shaobo Qiao, Mingchen Ju, Danting Zhang, Bocheng Han, Shuyue Yu, Xin Shu, Jingling Wu, Dong Wen, Xin Cao, Guanfeng Liu, Zhengyi Yang  
 
-**一句话要点**：提出A2RAG自适应代理图检索框架，以解决图检索增强生成中的成本浪费和提取损失问题。
+**一句话要点**：提出A2RAG自适应代理图检索框架，以解决混合难度查询和提取损失问题，实现成本感知和可靠推理。
 
-**关键词**：图检索增强生成, 自适应检索, 代理检索, 多跳问答, 成本优化, 提取损失缓解
+**关键词**：图检索增强生成, 自适应检索, 代理推理, 成本感知, 多跳问答, 提取损失缓解
 
 ## 3 点简述
-- 核心问题：图检索增强生成面临混合难度查询导致成本浪费，以及图抽象忽略细粒度信息。
-- 方法要点：结合自适应控制器验证证据充分性，代理检索器逐步提升检索努力并映射回源文本。
-- 实验或效果：在HotpotQA和2WikiMultiHopQA上，Recall@2提升9.9/11.8，令牌消耗和延迟降低约50%。
+- 核心问题：图检索增强生成面临混合难度查询导致成本浪费或失败，以及图抽象导致细粒度信息丢失。
+- 方法要点：结合自适应控制器验证证据充分性并触发定向细化，代理检索器逐步提升检索努力并映射图信号回源文本。
+- 实验或效果：在HotpotQA和2WikiMultiHopQA上，Recall@2提升9.9/11.8，令牌消耗和端到端延迟降低约50%。
 
 ## 摘要（原文）
 

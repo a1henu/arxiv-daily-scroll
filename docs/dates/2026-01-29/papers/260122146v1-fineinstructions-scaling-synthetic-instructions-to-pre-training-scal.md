@@ -7,14 +7,14 @@ title: FineInstructions: Scaling Synthetic Instructions to Pre-Training Scale
 **arXiv**：[2601.22146v1](https://arxiv.org/abs/2601.22146) · [PDF](https://arxiv.org/pdf/2601.22146.pdf)  
 **作者**：Ajay Patel, Colin Raffel, Chris Callison-Burch  
 
-**一句话要点**：提出FineInstructions方法，通过大规模合成指令数据，使LLM从零开始仅用指令调优目标进行预训练。
+**一句话要点**：提出FineInstructions方法，通过大规模合成指令数据，使LLM仅用指令调优目标从头预训练。
 
-**关键词**：合成指令数据, 指令调优, 预训练, 大语言模型, 数据增强
+**关键词**：指令调优, 合成数据生成, 大语言模型预训练, 自监督学习, 下游任务对齐
 
 ## 3 点简述
-- 核心问题：LLM预训练依赖无监督文本，指令调优数据有限，影响下游用户提示响应效果。
-- 方法要点：从预训练文档生成数十亿合成指令-答案对，基于真实用户查询模板匹配文档实例化。
-- 实验或效果：在标准基准测试中，FineInstructions预训练优于标准预训练和其他合成预训练技术。
+- 核心问题：指令调优数据有限，影响LLM下游应用效果。
+- 方法要点：从预训练文档生成数十亿合成指令-答案对，基于真实查询模板。
+- 实验或效果：在标准基准测试中，优于传统预训练及其他合成方法。
 
 ## 摘要（原文）
 

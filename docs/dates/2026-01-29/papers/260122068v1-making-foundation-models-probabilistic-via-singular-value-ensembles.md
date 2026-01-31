@@ -7,14 +7,14 @@ title: Making Foundation Models Probabilistic via Singular Value Ensembles
 **arXiv**：[2601.22068v1](https://arxiv.org/abs/2601.22068) · [PDF](https://arxiv.org/pdf/2601.22068.pdf)  
 **作者**：Mehmet Ozgur Turkoglu, Dominik J. Mühlematter, Alexander Becker, Konrad Schindler, Helge Aasen  
 
-**一句话要点**：提出奇异值集成方法，以参数高效方式为基础模型提供概率不确定性估计。
+**一句话要点**：提出奇异值集成方法，以参数高效方式为基础模型提供概率性预测
 
-**关键词**：基础模型, 不确定性估计, 奇异值分解, 参数高效, 模型校准, 隐式集成
+**关键词**：基础模型, 不确定性量化, 奇异值分解, 参数高效学习, 模型集成
 
 ## 3 点简述
-- 基础模型常产生过度自信、未校准的预测，传统集成方法计算成本过高。
-- SVE通过冻结权重矩阵的奇异向量，仅训练奇异值来调制知识方向贡献，实现隐式集成。
-- 在NLP和视觉任务中验证，SVE提升校准性，参数增加少于1%，保持预测准确性。
+- 基础模型常产生过度自信的预测，标准集成方法计算成本过高
+- SVE通过冻结权重矩阵的奇异向量，仅训练奇异值实现隐式集成
+- 在NLP和视觉任务中验证，提升校准性且参数增加小于1%
 
 ## 摘要（原文）
 

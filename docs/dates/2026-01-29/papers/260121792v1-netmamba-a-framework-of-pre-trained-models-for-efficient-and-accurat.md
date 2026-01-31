@@ -7,13 +7,13 @@ title: NetMamba+: A Framework of Pre-trained Models for Efficient and Accurate N
 **arXiv**：[2601.21792v1](https://arxiv.org/abs/2601.21792) · [PDF](https://arxiv.org/pdf/2601.21792.pdf)  
 **作者**：Tongze Wang, Xiaohui Xie, Wenduo Wang, Chuyi Wang, Jinzhou Liu, Boyan Huang, Yannan Hu, Youjian Zhao, Yong Cui  
 
-**一句话要点**：提出NetMamba+框架，通过高效架构与多模态表示解决加密流量分类中的计算效率与特征保留问题。
+**一句话要点**：提出NetMamba+框架，通过高效架构与多模态表示解决加密流量分类中的计算效率与特征偏差问题。
 
-**关键词**：网络流量分类, Mamba架构, 多模态表示, 长尾分布, 少样本学习, 在线系统
+**关键词**：网络流量分类, Mamba架构, 多模态表示, 长尾分布, 高效推理, 少样本学习
 
 ## 3 点简述
-- 核心问题：加密流量分类面临Transformer计算效率低、特征表示偏差和长尾分布处理差。
-- 方法要点：结合Mamba与Flash Attention机制，设计多模态表示方案和标签分布感知微调策略。
+- 核心问题：加密流量分类面临Transformer计算效率低、特征表示偏差及长尾分布处理差。
+- 方法要点：结合Mamba与Flash Attention实现高效架构，多模态表示保留关键信息并消除偏差，标签分布感知微调。
 - 实验或效果：在四大分类任务中F1分数提升达6.44%，推理吞吐量提高1.7倍，并展示少样本学习能力。
 
 ## 摘要（原文）

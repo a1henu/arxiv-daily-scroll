@@ -7,13 +7,13 @@ title: Ostrakon-VL: Towards Domain-Expert MLLM for Food-Service and Retail Store
 **arXiv**：[2601.21342v1](https://arxiv.org/abs/2601.21342) · [PDF](https://arxiv.org/pdf/2601.21342.pdf)  
 **作者**：Zhiyong Shen, Gongpeng Zhao, Jun Zhou, Li Yu, Guandong Kou, Jichen Li, Chuanlei Dong, Zuncheng Li, Kaimao Li, Bingkun Wei, Shicheng Hu, Wei Xia, Wenguo Duan  
 
-**一句话要点**：提出Ostrakon-VL模型、ShopBench基准和QUAD数据管道，以解决食品服务和零售场景中MLLM部署的挑战。
+**一句话要点**：提出Ostrakon-VL模型、ShopBench基准和QUAD数据管道，以解决食品服务与零售场景中MLLM部署的挑战。
 
-**关键词**：多模态大语言模型, 食品服务零售场景, 基准测试, 数据管道, 参数效率
+**关键词**：多模态大语言模型, 食品服务与零售, 基准测试, 数据管道, 参数效率, 开源模型
 
 ## 3 点简述
-- 核心问题：食品服务和零售场景数据噪声大且缺乏标准化评估，阻碍MLLM部署。
-- 方法要点：基于Qwen3-VL-8B开发Ostrakon-VL，引入ShopBench基准和QUAD数据管道。
+- 核心问题：FSRS场景中数据噪声大且缺乏标准化评估，阻碍MLLM的高质量训练与客观评估。
+- 方法要点：基于Qwen3-VL-8B开发Ostrakon-VL，引入ShopBench基准和QUAD多阶段数据管道。
 - 实验或效果：Ostrakon-VL在ShopBench上平均得分60.1，超越更大规模模型，提升参数效率。
 
 ## 摘要（原文）

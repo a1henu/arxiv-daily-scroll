@@ -7,14 +7,14 @@ title: Beyond Forgetting: Machine Unlearning Elicits Controllable Side Behaviors
 **arXiv**：[2601.21702v1](https://arxiv.org/abs/2601.21702) · [PDF](https://arxiv.org/pdf/2601.21702.pdf)  
 **作者**：Tien Dang, The-Hai Nguyen, Dinh Mai Phuong, Nguyen Minh Phuong, Hoang Thanh-Tung, Le-Minh Nguyen, Naoya Inoue  
 
-**一句话要点**：提出基于线性表示假设的表示误导方法，揭示机器遗忘可引发可控侧行为和能力增强
+**一句话要点**：提出基于线性表示假设的表示误导方法，探索机器遗忘引发的可控侧行为和能力增强
 
 **关键词**：机器遗忘, 表示误导, 线性表示假设, 可控行为, 能力增强, 大语言模型
 
 ## 3 点简述
 - 核心问题：表示误导方法中目标向量的作用未充分探索，影响遗忘效果与潜在风险
-- 方法要点：在线性表示假设下，通过操作遗忘样本的表示向量实现概念级控制
-- 实验或效果：实证验证遗忘可控制模型行为（如真实性、情感）并增强能力（如上下文学习）
+- 方法要点：利用线性表示假设，在遗忘表示空间中对概念向量进行线性操作，实现可控遗忘
+- 实验或效果：在行为控制和能力增强任务中验证假设，揭示遗忘可引发可控侧行为和更强能力
 
 ## 摘要（原文）
 

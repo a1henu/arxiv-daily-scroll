@@ -7,14 +7,14 @@ title: Understanding Diffusion Models via Ratio-Based Function Approximation wit
 **arXiv**：[2601.21242v1](https://arxiv.org/abs/2601.21242) · [PDF](https://arxiv.org/pdf/2601.21242.pdf)  
 **作者**：Luwei Sun, Dongrui Shen, Jianfe Li, Yulong Zhao, Han Feng  
 
-**一句话要点**：提出基于SignReLU网络的比率函数逼近理论，为扩散模型提供泛化保证
+**一句话要点**：提出基于SignReLU网络的比率函数逼近理论框架，为扩散模型提供泛化保证
 
-**关键词**：扩散模型, 比率函数逼近, SignReLU网络, 泛化保证, 条件生成建模, KL风险分析
+**关键词**：扩散模型, 比率函数逼近, SignReLU网络, 泛化保证, 条件生成建模
 
 ## 3 点简述
-- 针对条件生成建模中目标密度为比率形式f1/f2的核心问题
-- 利用SignReLU激活的分段结构，证明深度网络逼近比率型泛函的L^p界和收敛率
-- 应用于DDPM，构建反向过程神经估计器，分解KL风险为近似和估计误差
+- 核心问题：条件生成建模中目标条件密度为比率形式f1/f2，需高效逼近
+- 方法要点：利用SignReLU激活的分段结构，在标准正则假设下建立L^p逼近界和收敛率
+- 实验或效果：应用于DDPM，构建SignReLU神经估计器，分解KL风险为逼近和估计误差
 
 ## 摘要（原文）
 

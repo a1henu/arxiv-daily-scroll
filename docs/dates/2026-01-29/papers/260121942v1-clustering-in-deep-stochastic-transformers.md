@@ -7,14 +7,14 @@ title: Clustering in Deep Stochastic Transformers
 **arXiv**：[2601.21942v1](https://arxiv.org/abs/2601.21942) · [PDF](https://arxiv.org/pdf/2601.21942.pdf)  
 **作者**：Lev Fedorov, Michaël E. Sander, Romuald Elie, Pierre Marion, Mathieu Laurière  
 
-**一句话要点**：分析深度随机Transformer中初始化噪声如何防止令牌聚类崩溃
+**一句话要点**：分析深度Transformer随机初始化噪声，揭示其防止token坍缩并诱导相变
 
-**关键词**：Transformer理论, 随机初始化, 令牌动态, 交互粒子系统, 相变分析
+**关键词**：Transformer理论分析, 随机初始化, token动态, 相变, 交互粒子系统
 
 ## 3 点简述
-- 核心问题：确定性Transformer理论预测令牌聚类至单点，但忽略随机初始化噪声的影响
-- 方法要点：在扩散缩放和RMS归一化下，证明令牌动态收敛于球面上的交互粒子系统
-- 实验或效果：数值实验证实相变，抑制噪声会降低模型准确性
+- 核心问题：确定性理论预测token会坍缩至单点，但未考虑标准随机初始化噪声的影响
+- 方法要点：在扩散缩放和RMS归一化下，证明token动态收敛于球面上的交互粒子系统
+- 实验效果：数值实验证实相变存在，抑制噪声会降低模型准确率
 
 ## 摘要（原文）
 

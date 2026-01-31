@@ -14,7 +14,7 @@ title: When "Better" Prompts Hurt: Evaluation-Driven Iteration for LLM Applicati
 ## 3 点简述
 - 核心问题：LLM应用评估因输出随机性、高维度和对提示敏感而不同于传统软件测试
 - 方法要点：引入Define-Test-Diagnose-Fix工作流和分层评估套件MVES，涵盖通用应用、RAG和代理工具使用
-- 实验或效果：实验显示通用提示模板可能导致性能权衡，如提取通过率下降，强调评估驱动迭代的重要性
+- 实验或效果：实验显示通用提示模板可能降低特定任务性能，如提取通过率从100%降至90%，强调评估驱动迭代的重要性
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: On Forgetting and Stability of Score-based Generative models
 **arXiv**：[2601.21868v1](https://arxiv.org/abs/2601.21868) · [PDF](https://arxiv.org/pdf/2601.21868.pdf)  
 **作者**：Stanislas Strasman, Gabriel Cardoso, Sylvain Le Corff, Vincent Lemaire, Antonio Ocello  
 
-**一句话要点**：基于马尔可夫链稳定性与遗忘性，量化基于分数的生成模型的采样误差边界
+**一句话要点**：基于马尔可夫链稳定性与遗忘性，量化基于分数的生成模型的采样误差边界。
 
-**关键词**：基于分数的生成模型, 马尔可夫链稳定性, 采样误差分析, 反向扩散动力学, 李雅普诺夫条件, Doeblin条件
+**关键词**：基于分数的生成模型, 马尔可夫链稳定性, 采样误差分析, 反向扩散动力学, Lyapunov条件, Doeblin条件
 
 ## 3 点简述
-- 研究基于分数的生成模型的稳定性和长期行为，量化采样误差
-- 利用反向时间动力学的马尔可夫链，提出李雅普诺夫漂移条件和Doeblin型小化条件
-- 证明反向扩散动力学诱导收缩机制，确保采样过程的定量稳定性
+- 核心问题：分析基于分数的生成模型的稳定性和长期行为，以理解采样误差传播。
+- 方法要点：利用反向时间动力学的Lyapunov漂移条件和Doeblin型小化条件，确保误差传播可控。
+- 实验或效果：提供采样过程的定量稳定性，阐明随机动力学在模型中的作用。
 
 ## 摘要（原文）
 

@@ -13,7 +13,7 @@ title: FISMO: Fisher-Structured Momentum-Orthogonalized Optimizer
 
 ## 3 点简述
 - 核心问题：现有优化器如Muon强制各向同性更新，可能忽略梯度谱中的曲率信息，影响训练性能。
-- 方法要点：FISMO基于Fisher信息几何，将优化更新重构为受Kronecker分解Fisher度量约束的信任区域问题，实现结构化预条件。
+- 方法要点：FISMO基于Kronecker分解的Fisher度量，将更新重构为信任域问题，实现结构化预条件，适应局部损失几何。
 - 实验或效果：在图像分类和语言建模基准测试中，FISMO相比基线方法展现出更优的训练效率和最终性能。
 
 ## 摘要（原文）

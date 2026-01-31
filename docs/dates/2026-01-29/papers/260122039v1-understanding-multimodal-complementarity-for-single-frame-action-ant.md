@@ -7,14 +7,14 @@ title: Understanding Multimodal Complementarity for Single-Frame Action Anticipa
 **arXiv**：[2601.22039v1](https://arxiv.org/abs/2601.22039) · [PDF](https://arxiv.org/pdf/2601.22039.pdf)  
 **作者**：Manuel Benavent-Lledo, Konstantinos Bacharidis, Konstantinos Papoutsakis, Antonis Argyros, Jose Garcia-Rodriguez  
 
-**一句话要点**：提出AAG+框架，通过多模态融合实现单帧动作预测，性能媲美视频方法。
+**一句话要点**：提出AAG+框架，通过单帧多模态融合实现动作预测，性能媲美视频方法。
 
-**关键词**：单帧动作预测, 多模态融合, 关键帧选择, 动作历史语义, RGB-深度互补, 视频理解基准
+**关键词**：单帧动作预测, 多模态融合, 关键帧选择, 动作历史语义, 深度几何线索, 视频理解基准
 
 ## 3 点简述
-- 核心问题：探究单帧图像中编码的未来动作信息及其有效利用方法。
-- 方法要点：系统分析RGB、深度和语义多模态信息，优化融合策略与关键帧选择。
-- 实验或效果：在IKEA-ASM等基准上，AAG+超越原AAG，性能接近或优于视频方法。
+- 研究单帧动作预测的信息潜力，挑战密集时序建模的必要性。
+- 系统分析RGB、深度和语义多模态融合策略，优化关键帧选择。
+- 在IKEA-ASM等基准上，AAG+超越原AAG，性能接近或优于视频方法。
 
 ## 摘要（原文）
 

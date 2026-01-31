@@ -7,13 +7,13 @@ title: SymbXRL: Symbolic Explainable Deep Reinforcement Learning for Mobile Netw
 **arXiv**：[2601.22024v1](https://arxiv.org/abs/2601.22024) · [PDF](https://arxiv.org/pdf/2601.22024.pdf)  
 **作者**：Abhishek Duttagupta, MohammadErfan Jabbari, Claudio Fiandrino, Marco Fiore, Joerg Widmer  
 
-**一句话要点**：提出SymbXRL，一种符号可解释深度强化学习方法，用于解决6G移动网络中DRL决策解释性差的问题。
+**一句话要点**：提出SymbXRL以解决移动网络中深度强化学习决策可解释性问题
 
-**关键词**：可解释强化学习, 符号AI, 6G移动网络, 深度强化学习, 网络资源分配
+**关键词**：可解释强化学习, 符号AI, 移动网络优化, 深度强化学习, 网络管理
 
 ## 3 点简述
-- 核心问题：DRL在6G网络资源分配中有效，但作为黑盒难以解释，阻碍实际部署。
-- 方法要点：结合符号AI，通过符号和规则生成人类可理解的解释，揭示DRL决策过程。
+- 核心问题：深度强化学习在6G网络优化中有效但决策过程难以解释，阻碍实际应用。
+- 方法要点：结合符号AI生成符号化规则，提供人类可理解的解释，并支持逻辑推理。
 - 实验或效果：在真实网络管理用例中验证，提升解释语义，并实现意图导向控制，中位累积奖励提高12%。
 
 ## 摘要（原文）

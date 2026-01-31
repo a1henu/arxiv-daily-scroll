@@ -7,12 +7,12 @@ title: AIR-VLA: Vision-Language-Action Systems for Aerial Manipulation
 **arXiv**：[2601.21602v1](https://arxiv.org/abs/2601.21602) · [PDF](https://arxiv.org/pdf/2601.21602.pdf)  
 **作者**：Jianli Sun, Bin Tian, Qiyao Zhang, Chengxiang Li, Zihan Song, Zhiyong Cui, Yisheng Lv, Yonglin Tian  
 
-**一句话要点**：提出AIR-VLA基准以解决空中操作系统中视觉-语言-动作模型的应用挑战
+**一句话要点**：提出AIR-VLA基准以解决空中操作系统中视觉-语言-动作模型的适应性问题
 
-**关键词**：空中操作系统, 视觉-语言-动作模型, 多模态数据集, 物理仿真, 长时规划, 基准测试
+**关键词**：空中操作系统, 视觉-语言-动作模型, 多模态数据集, 长时程规划, 物理仿真, 基准测试
 
 ## 3 点简述
-- 核心问题：现有VLA模型难以适应空中操作系统的浮动基座、强耦合和多步长时任务特性
+- 核心问题：现有VLA模型难以适应空中操作系统的浮动基座动力学和长时程任务挑战
 - 方法要点：构建基于物理的仿真环境和高质量多模态数据集，涵盖多种任务类型
 - 实验或效果：系统评估主流模型，验证VLA范式向空中系统转移的可行性并揭示模型能力边界
 

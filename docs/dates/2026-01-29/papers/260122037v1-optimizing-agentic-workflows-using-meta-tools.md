@@ -7,14 +7,14 @@ title: Optimizing Agentic Workflows using Meta-tools
 **arXiv**：[2601.22037v1](https://arxiv.org/abs/2601.22037) · [PDF](https://arxiv.org/pdf/2601.22037.pdf)  
 **作者**：Sami Abuzakuk, Anne-Marie Kermarrec, Rishi Sharma, Rasmus Moorits Veski, Martijn de Vos  
 
-**一句话要点**：提出Agent Workflow Optimization框架，通过元工具优化代理工作流以减少LLM调用和提升成功率
+**一句话要点**：提出Agent Workflow Optimization框架，通过元工具优化代理工作流以减少LLM调用和提升成功率。
 
-**关键词**：代理工作流优化, 元工具, LLM效率提升, 工具调用模式, 任务成功率
+**关键词**：代理工作流优化, 元工具, LLM调用减少, 任务成功率提升, 确定性工具, 工作流轨迹分析
 
 ## 3 点简述
-- 核心问题：代理工作流因多次迭代推理和工具调用导致高成本、延迟和幻觉失败
-- 方法要点：分析工作流轨迹，将重复工具调用序列转换为确定性元工具，减少中间LLM推理步骤
-- 实验效果：在基准测试中，LLM调用减少达11.9%，任务成功率提升达4.2个百分点
+- 核心问题：代理工作流因多次迭代推理和工具调用导致高成本、延迟和幻觉失败。
+- 方法要点：分析工作流轨迹，将重复工具调用序列转换为确定性元工具，减少中间LLM推理步骤。
+- 实验效果：在基准测试中，LLM调用减少达11.9%，任务成功率提升达4.2个百分点。
 
 ## 摘要（原文）
 

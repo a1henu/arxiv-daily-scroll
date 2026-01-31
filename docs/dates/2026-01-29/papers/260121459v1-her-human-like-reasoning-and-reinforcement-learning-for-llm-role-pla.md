@@ -7,14 +7,14 @@ title: HER: Human-like Reasoning and Reinforcement Learning for LLM Role-playing
 **arXiv**：[2601.21459v1](https://arxiv.org/abs/2601.21459) · [PDF](https://arxiv.org/pdf/2601.21459.pdf)  
 **作者**：Chengyu Du, Xintao Wang, Aili Chen, Weiyuan Li, Rui Xu, Junteng Liu, Zishan Huang, Rong Tian, Zijun Sun, Yuhao Li, Liheng Feng, Deming Ding, Pengyu Zhao, Yanghua Xiao  
 
-**一句话要点**：提出HER框架，通过双层思维和强化学习解决LLM角色扮演中的认知模拟问题
+**一句话要点**：提出HER框架，通过双层思维和强化学习提升LLM角色扮演的认知模拟能力。
 
-**关键词**：LLM角色扮演, 认知模拟, 双层思维, 强化学习, 推理增强数据, 奖励模型
+**关键词**：LLM角色扮演, 认知模拟, 双层思维, 强化学习, 推理增强数据, 人类对齐奖励
 
 ## 3 点简述
-- 核心问题：LLM角色扮演中模拟角色内在思维与人类偏好对齐的挑战
-- 方法要点：引入双层思维区分角色第一人称与LLM第三人称思维，构建推理增强数据和奖励模型
-- 实验或效果：在CoSER基准上提升30.26分，Minimax Role-Play Bench上提升14.97分
+- 核心问题：现有LLM角色扮演缺乏高质量推理轨迹和人类偏好对齐的奖励信号。
+- 方法要点：引入双层思维区分角色与LLM思考，构建推理增强数据和人类对齐奖励模型。
+- 实验或效果：在Qwen3-32B基础上训练，CoSER基准提升30.26，Minimax Role-Play Bench提升14.97。
 
 ## 摘要（原文）
 

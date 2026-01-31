@@ -7,14 +7,14 @@ title: astra-langchain4j: Experiences Combining LLMs and Agent Programming
 **arXiv**：[2601.21879v1](https://arxiv.org/abs/2601.21879) · [PDF](https://arxiv.org/pdf/2601.21879.pdf)  
 **作者**：Rem Collier, Katharine Beaumont, Andrei Ciortea  
 
-**一句话要点**：提出ASTRA与LLM集成原型，探索生成式AI与传统多智能体工具包的交互影响
+**一句话要点**：提出结合LLM与ASTRA代理编程的原型集成，探索生成式AI对传统工具包的影响。
 
-**关键词**：生成式AI, 多智能体系统, LLM集成, Agentic AI, ASTRA编程语言, 智能体工具包
+**关键词**：大语言模型集成, 代理编程, 多智能体系统, ASTRA语言, 生成式AI, 原型开发
 
 ## 3 点简述
-- 核心问题：生成式AI兴起下，如何结合LLMs与传统智能体工具包以促进Agentic AI发展
-- 方法要点：开发ASTRA编程语言的LLM集成原型，通过三个示例实现展示技术整合
-- 实验或效果：基于示例讨论经验，分析传统工具包经验对新型智能体平台设计的潜在影响
+- 核心问题：生成式AI兴起下，如何整合LLM与传统代理工具包以影响多智能体系统设计。
+- 方法要点：开发ASTRA编程语言的LLM集成原型，通过三个示例实现展示技术结合。
+- 实验或效果：基于示例讨论经验，评估LLM集成对代理编程平台设计的潜在影响。
 
 ## 摘要（原文）
 

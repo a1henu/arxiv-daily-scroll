@@ -7,14 +7,14 @@ title: PRISM: Distribution-free Adaptive Computation of Matrix Functions for Acc
 **arXiv**：[2601.22137v1](https://arxiv.org/abs/2601.22137) · [PDF](https://arxiv.org/pdf/2601.22137.pdf)  
 **作者**：Shenghao Yang, Zhichao Wang, Oleg Balabanov, N. Benjamin Erichson, Michael W. Mahoney  
 
-**一句话要点**：提出PRISM框架以加速神经网络训练中的矩阵函数计算
+**一句话要点**：提出PRISM框架，通过自适应多项式拟合与随机化草图加速矩阵函数计算，以优化神经网络训练。
 
-**关键词**：矩阵函数计算, 自适应多项式逼近, 随机化草图, 神经网络训练加速, GPU优化
+**关键词**：矩阵函数计算, 自适应多项式近似, 随机化草图, 神经网络训练加速, 迭代算法优化
 
 ## 3 点简述
-- 核心问题：矩阵函数计算在神经网络训练中关键但计算成本高，需适应现代GPU加速器
-- 方法要点：结合自适应多项式逼近与随机化草图技术，无需显式谱界，自动适应谱演化
-- 实验或效果：应用于Shampoo和Muon优化器，实证加速训练过程
+- 核心问题：矩阵函数计算在神经网络训练中关键但计算成本高，需避免显式特征分解。
+- 方法要点：结合自适应多项式近似与随机化草图，迭代拟合多项式代理，无需先验谱界。
+- 实验或效果：应用于矩阵平方根和正交化，集成Shampoo和Muon优化器，加速训练过程。
 
 ## 摘要（原文）
 

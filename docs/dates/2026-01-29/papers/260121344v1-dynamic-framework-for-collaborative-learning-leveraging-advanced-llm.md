@@ -7,14 +7,14 @@ title: Dynamic Framework for Collaborative Learning: Leveraging Advanced LLM wit
 **arXiv**：[2601.21344v1](https://arxiv.org/abs/2601.21344) · [PDF](https://arxiv.org/pdf/2601.21344.pdf)  
 **作者**：Hassam Tahir, Faizan Faisal, Fady Alnajjar, Muhammad Imran Taj, Lucia Gordon, Aila Khan, Michael Lwin, Omar Mubin  
 
-**一句话要点**：提出动态协作学习框架，集成先进LLM与自适应反馈机制以增强学生参与和包容性。
+**一句话要点**：提出动态框架以集成LLM于协作学习平台，增强学生参与度与包容性。
 
-**关键词**：协作学习框架, LLM动态调节, 自适应反馈机制, 教育AI工具, 模块化架构
+**关键词**：协作学习平台, LLM动态调节, 自适应反馈机制, 模块化架构, 教育技术
 
 ## 3 点简述
-- 核心问题：现有协作学习平台在静态调节和个性化方面存在局限，影响学生参与和包容性。
-- 方法要点：采用先进LLM作为动态调节器，结合自适应反馈机制，优化AI调节和讨论流程。
-- 实验或效果：测试显示框架显著提升学生协作、深度理解和可扩展性，支持多学科和用户群体。
+- 核心问题：现有系统在静态调节和个性化方面存在局限，影响协作学习效果。
+- 方法要点：采用先进LLM作为动态调节器，结合自适应反馈机制和模块化架构（ReactJS前端、Flask后端）。
+- 实验或效果：测试显示框架显著提升学生协作、深化理解，并有效扩展至多学科和用户群。
 
 ## 摘要（原文）
 

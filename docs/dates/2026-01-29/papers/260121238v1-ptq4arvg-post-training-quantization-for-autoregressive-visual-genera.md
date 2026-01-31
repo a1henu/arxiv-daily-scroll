@@ -7,12 +7,12 @@ title: PTQ4ARVG: Post-Training Quantization for AutoRegressive Visual Generation
 **arXiv**：[2601.21238v1](https://arxiv.org/abs/2601.21238) · [PDF](https://arxiv.org/pdf/2601.21238.pdf)  
 **作者**：Xuewen Liu, Zhikai Li, Jing Zhang, Mengjuan Chen, Qingyi Gu  
 
-**一句话要点**：提出PTQ4ARVG框架，解决自回归视觉生成模型的后训练量化难题
+**一句话要点**：提出PTQ4ARVG框架，以解决自回归视觉生成模型的后训练量化挑战
 
-**关键词**：自回归视觉生成, 后训练量化, 模型压缩, 通道级离群值, 令牌级量化, 分布校准
+**关键词**：自回归视觉生成, 后训练量化, 模型压缩, 异常值处理, 分布校准, 低比特量化
 
 ## 3 点简述
-- 核心问题：ARVG模型量化面临通道级离群值、令牌级动态激活和样本级分布不匹配三大挑战。
+- 核心问题：ARVG模型量化面临通道级异常值、令牌级动态激活和样本级分布不匹配三大挑战。
 - 方法要点：采用增益投影缩放、静态令牌级量化和分布引导校准，无需训练实现高效量化。
 - 实验或效果：在8位和6位量化下保持ARVG模型性能，代码已开源。
 

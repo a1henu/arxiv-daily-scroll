@@ -7,14 +7,14 @@ title: Exploring Reasoning Reward Model for Agents
 **arXiv**：[2601.22154v1](https://arxiv.org/abs/2601.22154) · [PDF](https://arxiv.org/pdf/2601.22154.pdf)  
 **作者**：Kaixuan Fan, Kaituo Feng, Manyuan Zhang, Tianshuo Peng, Zhixun Li, Yilei Jiang, Shuang Chen, Peng Pei, Xunliang Cai, Xiangyu Yue  
 
-**一句话要点**：提出Agent Reasoning Reward Model以解决智能体强化学习中稀疏奖励导致的推理质量评估不足问题
+**一句话要点**：提出Agent Reasoning Reward Model以解决智能体强化学习中稀疏奖励导致的中间推理质量评估不足问题
 
-**关键词**：智能体强化学习, 推理奖励模型, 结构化反馈, 训练策略, 基准评估, 代码开源
+**关键词**：智能体强化学习, 推理奖励模型, 结构化反馈, 训练策略, 基准评估
 
 ## 3 点简述
 - 核心问题：现有智能体强化学习依赖稀疏结果奖励，无法区分中间推理质量，导致训练效果不佳
 - 方法要点：引入多面奖励模型，提供结构化反馈，包括显式推理轨迹、聚焦批判和整体评分
-- 实验或效果：在12个基准测试中验证，Reagent-U策略在GAIA和WebWalkerQA上分别达到43.7%和46.2%的性能提升
+- 实验或效果：在12个基准测试中，Reagent-U策略显著提升性能，如GAIA达43.7%，验证模型有效性
 
 ## 摘要（原文）
 

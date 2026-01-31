@@ -7,14 +7,14 @@ title: Investigation into using stochastic embedding representations for evaluat
 **arXiv**：[2601.21979v1](https://arxiv.org/abs/2601.21979) · [PDF](https://arxiv.org/pdf/2601.21979.pdf)  
 **作者**：Ciaran Bench, Vivek Desai, Carlijn Roozemond, Ruben van Engen, Spencer A. Thomas  
 
-**一句话要点**：提出基于蒙特卡洛dropout的预测方差方法，评估FID在医学图像应用中的可信度
+**一句话要点**：提出使用蒙特卡洛dropout评估Fréchet Inception Distance在医学图像应用中的可信度
 
-**关键词**：Fréchet Inception Distance, 预测方差, 蒙特卡洛dropout, 医学图像评估, 分布外检测, 特征嵌入
+**关键词**：Fréchet Inception Distance, 蒙特卡洛dropout, 预测方差, 医学图像评估, 分布外检测, 特征嵌入
 
 ## 3 点简述
-- 核心问题：FID依赖ImageNet预训练模型，在医学图像中可能无法有效捕捉图像特征差异，可信度未知
-- 方法要点：使用蒙特卡洛dropout计算FID的预测方差，并补充估计特征嵌入模型的潜在表示方差
-- 实验或效果：预测方差大小与测试输入相对于训练数据的分布外程度相关，为FID可信度指标提供见解
+- 核心问题：FID基于自然图像预训练模型，在医学图像中可能无法有效捕捉特征差异，可信度未知。
+- 方法要点：利用蒙特卡洛dropout计算FID的预测方差和特征嵌入模型的潜在表示方差。
+- 实验或效果：预测方差大小与测试输入相对于训练数据的分布外程度相关，为FID可信度提供指示。
 
 ## 摘要（原文）
 

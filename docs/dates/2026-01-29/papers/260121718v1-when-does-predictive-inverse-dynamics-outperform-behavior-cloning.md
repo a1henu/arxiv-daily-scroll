@@ -7,14 +7,14 @@ title: When does predictive inverse dynamics outperform behavior cloning?
 **arXiv**：[2601.21718v1](https://arxiv.org/abs/2601.21718) · [PDF](https://arxiv.org/pdf/2601.21718.pdf)  
 **作者**：Lukas Schäfer, Pallavi Choudhury, Abdelhak Lemkhenter, Chris Lovett, Somjit Nath, Luis França, Matheus Ribeiro Furtado de Mendonça, Alex Lamb, Riashat Islam, Siddhartha Sen, John Langford, Katja Hofmann, Sergio Valcarcel Macua  
 
-**一句话要点**：提出预测逆动力学模型以提升有限专家演示下的模仿学习性能
+**一句话要点**：提出预测逆动力学模型以提升离线模仿学习在有限专家演示下的性能
 
-**关键词**：模仿学习, 预测逆动力学模型, 偏差-方差权衡, 样本效率, 离线学习, 高维视觉输入
+**关键词**：离线模仿学习, 预测逆动力学模型, 偏差-方差权衡, 行为克隆, 样本效率, 高维视觉输入
 
 ## 3 点简述
-- 核心问题：行为克隆在专家演示有限时性能下降，预测逆动力学模型的优势机制不明
-- 方法要点：结合未来状态预测器和逆动力学模型，通过偏差-方差权衡降低方差
-- 实验或效果：在2D导航和3D游戏环境中，预测逆动力学模型比行为克隆样本效率更高
+- 核心问题：行为克隆在专家演示有限时性能不佳，预测逆动力学模型的优势原因不明
+- 方法要点：预测逆动力学模型结合未来状态预测器和逆动力学模型，引入偏差-方差权衡
+- 实验或效果：在2D导航任务中，预测逆动力学模型平均需演示量减少三倍；在3D游戏环境中，样本需求减少超66%
 
 ## 摘要（原文）
 

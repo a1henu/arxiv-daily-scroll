@@ -7,12 +7,12 @@ title: Why Adam Works Better with $β_1 = β_2$: The Missing Gradient Scale Inva
 **arXiv**：[2601.21739v1](https://arxiv.org/abs/2601.21739) · [PDF](https://arxiv.org/pdf/2601.21739.pdf)  
 **作者**：Alberto Fernández-Hernández, Cristian Pérez-Corral, Jose I. Mestre, Manuel F. Dolz, Enrique S. Quintana-Ortí  
 
-**一句话要点**：揭示Adam优化器在β₁=β₂时表现更优的梯度尺度不变性原理
+**一句话要点**：揭示Adam优化器在β₁=β₂时因梯度尺度不变性而表现更优的原理
 
-**关键词**：Adam优化器, 梯度尺度不变性, 动量参数, 深度学习训练, 优化算法设计
+**关键词**：Adam优化器, 梯度尺度不变性, 深度学习优化, 动量参数, 训练稳定性
 
 ## 3 点简述
-- 核心问题：Adam优化器中β₁=β₂时验证分数和训练行为改善的原因未知
+- 核心问题：Adam优化器中β₁=β₂为何能提升训练效果，缺乏理论解释
 - 方法要点：提出梯度尺度不变性概念，证明Adam一阶梯度尺度不变当且仅当β₁=β₂
 - 实验或效果：在视觉和语言任务中验证梯度缩放对更新平滑性的影响
 

@@ -7,13 +7,13 @@ title: Zenith: Scaling up Ranking Models for Billion-scale Livestreaming Recomme
 **arXiv**：[2601.21285v1](https://arxiv.org/abs/2601.21285) · [PDF](https://arxiv.org/pdf/2601.21285.pdf)  
 **作者**：Ruifeng Zhang, Zexi Huang, Zikai Wang, Ke Sun, Bohang Zheng, Zhen Ouyang, Huimin Xie, Phil Shen, Junlin Zhang, Wentao Guo, Qinglei Wang  
 
-**一句话要点**：提出Zenith架构以解决大规模直播推荐中模型扩展与推理延迟的平衡问题。
+**一句话要点**：提出Zenith架构以解决大规模直播推荐中特征交互建模与推理延迟的平衡问题。
 
-**关键词**：推荐系统, 特征交互, 模型扩展, 直播推荐, 推理效率
+**关键词**：直播推荐系统, 特征交互建模, 可扩展架构, 推理优化, A/B测试
 
 ## 3 点简述
-- 核心问题：推荐系统中需高效处理特征交互并扩展模型容量，同时避免推理延迟过高。
-- 方法要点：通过Token Fusion和Token Boost模块处理高维Prime Tokens，提升特征异质性以实现高效扩展。
+- 核心问题：推荐系统中高效处理特征交互并扩展模型容量，同时避免推理延迟过高。
+- 方法要点：通过Token Fusion和Token Boost模块处理高维Prime Tokens，提升特征异质性以实现可扩展性。
 - 实验或效果：在TikTok Live部署A/B测试，CTR AUC提升1.05%，用户观看时长增加8.11%。
 
 ## 摘要（原文）

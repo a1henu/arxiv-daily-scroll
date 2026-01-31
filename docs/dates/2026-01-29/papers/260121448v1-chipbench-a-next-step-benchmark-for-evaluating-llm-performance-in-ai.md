@@ -7,14 +7,14 @@ title: ChipBench: A Next-Step Benchmark for Evaluating LLM Performance in AI-Aid
 **arXiv**：[2601.21448v1](https://arxiv.org/abs/2601.21448) · [PDF](https://arxiv.org/pdf/2601.21448.pdf)  
 **作者**：Zhongkai Yu, Chenyang Zhou, Yichen Lin, Hejia Zhang, Haotian Ye, Junxia Cui, Zaifeng Pan, Jishen Zhao, Yufei Ding  
 
-**一句话要点**：提出ChipBench基准以评估LLM在AI辅助芯片设计中的性能，解决现有基准饱和与任务多样性不足问题。
+**一句话要点**：提出ChipBench基准以解决AI辅助芯片设计中LLM评估饱和与任务多样性不足的问题。
 
-**关键词**：芯片设计基准, Verilog生成, LLM评估, 参考模型生成, 自动化工具箱
+**关键词**：AI辅助芯片设计, LLM基准评估, Verilog生成, 硬件调试, 参考模型生成
 
 ## 3 点简述
-- 当前基准饱和且任务单一，无法反映LLM在真实工业流程中的性能。
-- 基准涵盖Verilog生成、调试和参考模型生成三个关键任务，包含44个模块和89个调试案例。
-- 评估显示SOTA模型性能显著不足，如Claude-4.5-opus在Verilog生成仅30.74%，并提供了自动化工具箱以促进研究。
+- 当前基准在硬件工程中饱和且任务有限，无法反映真实工业流程。
+- 基准涵盖Verilog生成、调试和参考模型生成三大任务，包含44个模块和89个调试案例。
+- 评估显示SOTA模型性能显著低于现有基准，如Claude-4.5-opus在Verilog生成中仅30.74%。
 
 ## 摘要（原文）
 

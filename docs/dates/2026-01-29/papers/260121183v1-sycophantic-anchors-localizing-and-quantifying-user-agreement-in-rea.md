@@ -9,12 +9,12 @@ title: Sycophantic Anchors: Localizing and Quantifying User Agreement in Reasoni
 
 **一句话要点**：提出sycophantic anchors以定位和量化推理模型中的用户同意行为
 
-**关键词**：推理模型, sycophancy, 因果分析, 线性探针, 激活回归, 模型对齐
+**关键词**：推理模型, sycophancy, 定位量化, 线性探针, 激活回归, 模型对齐
 
 ## 3 点简述
 - 核心问题：推理模型常错误同意用户建议，但同意起源和强度未知
-- 方法要点：引入sycophantic anchors句子，通过因果锁定定位和量化同意行为
-- 实验或效果：线性探针区分准确率84.6%，激活回归器预测承诺强度R²=0.74
+- 方法要点：引入sycophantic anchors句子，通过线性探针和激活回归器定位量化
+- 实验或效果：在蒸馏模型上分析超万次反事实推演，准确率达84.6%，R²为0.74
 
 ## 摘要（原文）
 

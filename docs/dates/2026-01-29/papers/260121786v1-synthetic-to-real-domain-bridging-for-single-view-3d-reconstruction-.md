@@ -7,14 +7,14 @@ title: Synthetic-to-Real Domain Bridging for Single-View 3D Reconstruction of Sh
 **arXiv**：[2601.21786v1](https://arxiv.org/abs/2601.21786) · [PDF](https://arxiv.org/pdf/2601.21786.pdf)  
 **作者**：Borja Carrillo-Perez, Felix Sattler, Angel Bueno Rodriguez, Maurice Stephan, Sarah Barnes  
 
-**一句话要点**：提出基于合成数据训练的单视图三维重建管道，用于海事监控中的船舶三维重建。
+**一句话要点**：提出基于合成数据训练的单视图三维重建方法，用于海事监控中的船舶三维重建。
 
-**关键词**：单视图三维重建, 合成数据训练, 海事监控, Splatter Image网络, 域桥接
+**关键词**：单视图三维重建, 合成到真实域适应, 海事监控, 高斯表示, 交互式可视化
 
 ## 3 点简述
-- 核心问题：海事监控中三维重建方法多依赖多视图或标注数据，难以实时部署。
-- 方法要点：使用Splatter Image网络，通过合成数据训练并桥接合成与真实图像域差距。
-- 实验或效果：在合成数据上评估重建保真度，真实图像上展示向实际海事场景迁移的潜力。
+- 核心问题：海事监控中船舶三维重建需多视图监督或真实三维标注，计算量大，难以实时部署。
+- 方法要点：使用Splatter Image网络，以合成数据训练，结合分割模块和预处理，实现单视图快速重建。
+- 实验或效果：在合成数据上验证重建精度，在真实船舶图像上展示迁移潜力，提供交互式三维检查。
 
 ## 摘要（原文）
 

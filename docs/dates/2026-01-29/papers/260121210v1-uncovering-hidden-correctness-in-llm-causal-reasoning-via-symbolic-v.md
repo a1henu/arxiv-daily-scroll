@@ -14,7 +14,7 @@ title: Uncovering Hidden Correctness in LLM Causal Reasoning via Symbolic Verifi
 ## 3 点简述
 - 当前LLM因果推理评估依赖表面指标，无法捕捉形式语义有效性
 - DoVerifier基于do-calculus和概率论规则，验证因果表达式是否可从给定因果图推导
-- 在合成数据和因果QA基准上，DoVerifier更准确地评估语义正确性，提供更严谨的评估方式
+- 在合成数据和因果QA基准上，DoVerifier更准确地评估语义正确性，提升评估严谨性
 
 ## 摘要（原文）
 

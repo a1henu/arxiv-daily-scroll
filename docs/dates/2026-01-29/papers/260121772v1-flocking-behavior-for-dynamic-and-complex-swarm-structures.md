@@ -7,14 +7,14 @@ title: Flocking behavior for dynamic and complex swarm structures
 **arXiv**：[2601.21772v1](https://arxiv.org/abs/2601.21772) · [PDF](https://arxiv.org/pdf/2601.21772.pdf)  
 **作者**：Carmen D. R. Pita-Romero, Pedro Arias-Perez, Miguel Fernandez-Cortizas, Rafael Perez-Segui, Pascual Campoy  
 
-**一句话要点**：提出基于虚拟质心的无人机集群算法，以解决复杂结构和轨迹下的编队控制问题。
+**一句话要点**：提出基于虚拟质心的无人机集群算法，以解决复杂结构与轨迹的编队控制问题。
 
 **关键词**：无人机集群, 编队控制, 虚拟质心, 复杂轨迹, 动态结构
 
 ## 3 点简述
-- 核心问题：多无人机维持复杂编队和实现复杂轨迹仍具挑战。
+- 核心问题：多无人机复杂结构编队与轨迹控制是主要挑战。
 - 方法要点：基于虚拟质心概念，提供动态控制代理数量和编队的理论框架。
-- 实验或效果：通过仿真和真实实验验证，即使在复杂编队和轨迹下也表现简单有效。
+- 实验或效果：通过仿真和真实实验验证，算法简单且适用于复杂场景。
 
 ## 摘要（原文）
 

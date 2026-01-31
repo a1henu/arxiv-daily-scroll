@@ -7,14 +7,14 @@ title: Hybrid Linear Attention Done Right: Efficient Distillation and Effective 
 **arXiv**：[2601.22156v1](https://arxiv.org/abs/2601.22156) · [PDF](https://arxiv.org/pdf/2601.22156.pdf)  
 **作者**：Yingfa Chen, Zhen Leng Thai, Zihan Zhou, Zhu Zhang, Xingyu Shen, Shuo Wang, Chaojun Xiao, Xu Han, Zhiyuan Liu  
 
-**一句话要点**：提出HALO蒸馏管道和HypeNet架构，以高效转换Transformer为混合模型，提升长上下文性能与效率。
+**一句话要点**：提出HALO蒸馏流程与HypeNet架构，以高效转换Transformer为混合模型，提升长上下文性能与效率。
 
 **关键词**：混合注意力模型, 知识蒸馏, 长上下文建模, 位置编码, Transformer转换, 推理效率
 
 ## 3 点简述
 - 核心问题：混合Transformer架构预训练成本高，现有转换方法需大量数据且长上下文性能差。
-- 方法要点：HALO蒸馏管道仅需少量数据转换，HypeNet架构引入HyPE位置编码和结构改进。
-- 实验或效果：将Qwen3转换为HypeNet，性能接近原模型，长上下文表现更优，效率提升显著。
+- 方法要点：HALO流程仅需少量数据蒸馏，HypeNet架构引入HyPE位置编码和结构优化。
+- 实验或效果：转换Qwen3系列，性能接近原模型，长上下文表现更优，效率显著提升。
 
 ## 摘要（原文）
 

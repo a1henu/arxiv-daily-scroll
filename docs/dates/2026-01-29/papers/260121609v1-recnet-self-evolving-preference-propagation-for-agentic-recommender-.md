@@ -7,13 +7,13 @@ title: RecNet: Self-Evolving Preference Propagation for Agentic Recommender Syst
 **arXiv**：[2601.21609v1](https://arxiv.org/abs/2601.21609) · [PDF](https://arxiv.org/pdf/2601.21609.pdf)  
 **作者**：Bingqian Li, Xiaolei Wang, Junyi Li, Weitao Li, Long Zhang, Sheng Chen, Wayne Xin Zhao, Ji-Rong Wen  
 
-**一句话要点**：提出RecNet框架以解决推荐系统中实时偏好传播的稀疏与噪声问题
+**一句话要点**：提出RecNet框架以解决推荐系统中实时偏好传播的建模问题
 
-**关键词**：智能推荐系统, 偏好传播, 多智能体强化学习, 大型语言模型, 自演化框架
+**关键词**：智能推荐系统, 偏好传播, 多智能体强化学习, 个性化过滤, 实时更新, 自演化框架
 
 ## 3 点简述
-- 核心问题：现有方法依赖稀疏、噪声的显式交互，无法建模用户与物品间的实时相互影响
-- 方法要点：通过前向偏好路由与后向反馈优化，实现自演化的实时偏好传播
+- 核心问题：现有方法依赖稀疏、嘈杂的显式交互，无法捕捉用户与物品间的实时相互影响
+- 方法要点：通过前向偏好路由与个性化接收机制，结合后向反馈优化，实现自演化的偏好传播
 - 实验或效果：多场景实验验证了RecNet在建模偏好传播方面的有效性
 
 ## 摘要（原文）

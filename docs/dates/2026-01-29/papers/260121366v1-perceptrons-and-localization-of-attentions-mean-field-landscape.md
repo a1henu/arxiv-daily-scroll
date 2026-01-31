@@ -7,14 +7,14 @@ title: Perceptrons and localization of attention's mean-field landscape
 **arXiv**：[2601.21366v1](https://arxiv.org/abs/2601.21366) · [PDF](https://arxiv.org/pdf/2601.21366.pdf)  
 **作者**：Antonio Álvarez-López, Borjan Geshkovski, Domènec Ruiz-Balet  
 
-**一句话要点**：研究Transformer前向传播中感知器块对临界点原子性和局部化的影响
+**一句话要点**：研究Transformer中感知器块对注意力平均场景观临界点局部化的影响
 
-**关键词**：Transformer模型, 均值场极限, Wasserstein梯度流, 临界点分析, 感知器块, 注意力机制
+**关键词**：Transformer模型, 平均场理论, Wasserstein梯度流, 临界点分析, 注意力机制, 感知器块
 
 ## 3 点简述
-- 将Transformer前向传播建模为球面上的交互粒子系统，分析无限上下文长度极限
-- 探讨感知器块在梯度流设置下的作用，证明临界点通常为原子性并局部化于球面子集
-- 基于Wasserstein梯度流理论，提供理论分析以理解注意力机制的均值场景观
+- 核心问题：Transformer前向传播在平均场极限下，感知器块如何影响注意力机制的临界点分布。
+- 方法要点：将Transformer建模为球面上的交互粒子系统，利用Wasserstein梯度流分析无限上下文长度极限。
+- 实验或效果：证明临界点通常为原子性，并局部化在球面的子集上。
 
 ## 摘要（原文）
 

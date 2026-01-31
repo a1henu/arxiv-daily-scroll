@@ -14,7 +14,7 @@ title: Vision KAN: Towards an Attention-Free Backbone for Vision with Kolmogorov
 ## 3 点简述
 - 注意力机制在视觉骨干中面临二次复杂度和可解释性限制，需替代方案
 - 核心为MultiPatch-RBFKAN，结合补丁非线性变换、轴可分离混合和低秩全局映射
-- 在ImageNet-1K上以线性复杂度实现竞争性准确度，验证KAN混合潜力
+- 在ImageNet-1K上验证，ViK以线性复杂度实现竞争性准确度
 
 ## 摘要（原文）
 

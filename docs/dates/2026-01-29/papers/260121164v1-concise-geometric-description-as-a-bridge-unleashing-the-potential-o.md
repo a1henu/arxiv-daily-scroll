@@ -7,13 +7,13 @@ title: Concise Geometric Description as a Bridge: Unleashing the Potential of LL
 **arXiv**：[2601.21164v1](https://arxiv.org/abs/2601.21164) · [PDF](https://arxiv.org/pdf/2601.21164.pdf)  
 **作者**：Jingyun Wang, Dian Li, Xiaohan Wang, Gang Liu, Jiahong Yan, Guoliang Kang  
 
-**一句话要点**：提出基于简洁几何描述的桥接方法，释放LLM在平面几何问题求解中的潜力。
+**一句话要点**：提出基于简洁几何描述的桥接方法，以释放LLM在平面几何问题求解中的潜力。
 
-**关键词**：平面几何问题求解, 多模态大语言模型, 条件声明语言, 链式思维增强, 几何描述生成, 奖励优化训练
+**关键词**：平面几何问题求解, 多模态大语言模型, 几何描述生成, 链式思维增强, 奖励优化训练, 数据集构建
 
 ## 3 点简述
 - 核心问题：LLM无法直接处理视觉图表，现有方法联合优化可能损害其推理能力。
-- 方法要点：训练MLLM解释器生成CDL描述，利用现成LLM进行推理，采用CDL匹配奖励优化训练。
+- 方法要点：训练MLLM解释器生成几何描述，利用现成LLM进行推理，采用CDL语言和GRPO训练。
 - 实验或效果：在多个数据集上表现优于领先MLLM，仅需5.5k数据微调。
 
 ## 摘要（原文）

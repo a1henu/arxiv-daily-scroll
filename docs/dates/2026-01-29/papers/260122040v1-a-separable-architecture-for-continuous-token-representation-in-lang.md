@@ -7,13 +7,13 @@ title: A Separable Architecture for Continuous Token Representation in Language 
 **arXiv**：[2601.22040v1](https://arxiv.org/abs/2601.22040) · [PDF](https://arxiv.org/pdf/2601.22040.pdf)  
 **作者**：Reza T. Batley, Sourav Saha  
 
-**一句话要点**：提出Leviathan架构，通过连续嵌入生成器替代离散查找表，提升小语言模型的参数效率。
+**一句话要点**：提出Leviathan架构，通过连续嵌入生成器替换离散查找表，提升小语言模型的参数效率。
 
-**关键词**：小语言模型, 连续嵌入, 参数效率, Transformer架构, 嵌入生成器
+**关键词**：小语言模型, 连续嵌入, 参数效率, Transformer架构, Pile数据集
 
 ## 3 点简述
 - 核心问题：小语言模型中嵌入矩阵参数占比高，导致参数分配不优。
-- 方法要点：设计连续嵌入生成器，取代传统离散嵌入查找表。
+- 方法要点：设计连续嵌入生成器，替代传统离散查找表，优化参数使用。
 - 实验或效果：在Pile数据集上，Leviathan在等参数设置下优于标准架构，有效参数容量提升1.47至2.11倍。
 
 ## 摘要（原文）

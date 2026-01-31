@@ -7,14 +7,14 @@ title: Late Breaking Results: Conversion of Neural Networks into Logic Flows for
 **arXiv**：[2601.22151v1](https://arxiv.org/abs/2601.22151) · [PDF](https://arxiv.org/pdf/2601.22151.pdf)  
 **作者**：Daniel Stein, Shaoyi Huang, Rolf Drechsler, Bing Li, Grace Li Zhang  
 
-**一句话要点**：提出将神经网络转换为逻辑流的方法，以提升CPU在边缘计算中的推理效率。
+**一句话要点**：提出将神经网络转换为逻辑流以提升CPU边缘计算效率
 
 **关键词**：边缘计算, 神经网络转换, 逻辑流, CPU优化, 决策树压缩
 
 ## 3 点简述
-- 核心问题：CPU不擅长大规模MAC操作，而边缘设备常依赖CPU，导致神经网络执行效率低。
-- 方法要点：将神经网络转换为决策树，再压缩为基于if-else结构的逻辑流，减少MAC操作。
-- 实验或效果：在模拟RISC-V CPU上，延迟降低最高14.9%，且无精度损失。
+- 核心问题：CPU不擅长大规模MAC操作，影响神经网络在边缘设备效率
+- 方法要点：将神经网络转换为决策树，再压缩为if-else逻辑流减少MAC操作
+- 实验或效果：在模拟RISC-V CPU上延迟降低达14.9%，无精度损失
 
 ## 摘要（原文）
 

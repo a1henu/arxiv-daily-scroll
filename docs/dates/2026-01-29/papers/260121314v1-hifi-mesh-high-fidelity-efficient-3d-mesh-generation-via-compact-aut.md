@@ -7,14 +7,14 @@ title: HiFi-Mesh: High-Fidelity Efficient 3D Mesh Generation via Compact Autoreg
 **arXiv**：[2601.21314v1](https://arxiv.org/abs/2601.21314) · [PDF](https://arxiv.org/pdf/2601.21314.pdf)  
 **作者**：Yanfeng Li, Tao Tan, Qingquan Gao, Zhiwen Cao, Xiaohong liu, Yue Sun  
 
-**一句话要点**：提出LANE和AdaGraph以高效生成高保真3D网格，解决序列长度和推理速度限制。
+**一句话要点**：提出LANE和AdaGraph以高效生成高保真3D网格，解决现有方法序列长度受限和推理慢的问题。
 
-**关键词**：3D网格生成, 自回归模型, 高效推理, 序列建模, 几何一致性
+**关键词**：3D网格生成, 自回归模型, 高效推理, 高保真建模, 序列建模
 
 ## 3 点简述
-- 现有方法资源利用不足，序列长度受限，影响结构细节表达。
-- LANE引入紧凑自回归依赖，提升序列长度6倍；AdaGraph通过时空解耦加速推理。
-- 实验验证LANE在生成速度、结构细节和几何一致性上表现优越。
+- 核心问题：现有自回归方法资源利用不足，序列长度受限且推理慢，影响3D网格细节表达。
+- 方法要点：引入LANE通过紧凑自回归依赖提升序列长度，AdaGraph通过时空解耦加速推理。
+- 实验或效果：LANE序列长度提升6倍，AdaGraph优化效率，实验验证在速度、细节和几何一致性上表现优越。
 
 ## 摘要（原文）
 

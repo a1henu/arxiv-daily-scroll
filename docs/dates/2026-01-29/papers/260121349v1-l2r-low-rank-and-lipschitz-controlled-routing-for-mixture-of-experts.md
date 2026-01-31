@@ -7,7 +7,7 @@ title: L2R: Low-Rank and Lipschitz-Controlled Routing for Mixture-of-Experts
 **arXiv**：[2601.21349v1](https://arxiv.org/abs/2601.21349) · [PDF](https://arxiv.org/pdf/2601.21349.pdf)  
 **作者**：Minghao Yang, Ren Togo, Guang Li, Takahiro Ogawa, Miki Haseyama  
 
-**一句话要点**：提出L2R路由框架以解决MoE模型中线性路由的判别性和稳定性问题
+**一句话要点**：提出L2R路由框架以解决MoE模型中线性路由的判别性与稳定性问题
 
 **关键词**：混合专家模型, 路由机制, 低秩表示, Lipschitz控制, 多锚点路由, 模型稳定性
 

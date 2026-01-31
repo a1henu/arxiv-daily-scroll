@@ -14,7 +14,7 @@ title: Putting a Face to Forgetting: Continual Learning meets Mechanistic Interp
 ## 3 点简述
 - 核心问题：灾难性遗忘常从性能或最后一层表征衡量，忽略底层机制。
 - 方法要点：引入几何解释框架，将遗忘视为个体特征编码的变换导致。
-- 实验或效果：在可处理模型上分析，并通过Vision Transformer案例验证框架实用性。
+- 实验或效果：通过可处理模型分析验证，并在Vision Transformer上应用案例研究。
 
 ## 摘要（原文）
 
