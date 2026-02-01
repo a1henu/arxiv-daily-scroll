@@ -7,14 +7,14 @@ title: Looking Beyond Accuracy: A Holistic Benchmark of ECG Foundation Models
 **arXiv**：[2601.21830v1](https://arxiv.org/abs/2601.21830) · [PDF](https://arxiv.org/pdf/2601.21830.pdf)  
 **作者**：Francesca Filice, Edoardo De Rose, Simone Bartucci, Francesco Calimeri, Simona Perri  
 
-**一句话要点**：提出基于SHAP和UMAT的基准框架，全面评估心电图基础模型的表征泛化能力。
+**一句话要点**：提出基于SHAP和UMAT的基准框架，全面评估心电图基础模型的表示能力与泛化性。
 
-**关键词**：心电图分析, 基础模型, 基准评估, 表征学习, 医疗AI
+**关键词**：心电图基础模型, 基准评估, 表示学习, SHAP分析, UMAT可视化, 医疗AI
 
 ## 3 点简述
-- 核心问题：现有基准主要关注下游性能，缺乏对心电图基础模型嵌入泛化性的深入评估。
-- 方法要点：结合性能评估与表征分析，利用SHAP和UMAT技术构建综合基准框架。
-- 实验或效果：在跨大陆数据集和数据稀缺场景下评估多个模型，揭示其表征结构和泛化性。
+- 核心问题：现有基准主要关注下游性能，缺乏对心电图基础模型嵌入表示泛化性的深入评估。
+- 方法要点：结合性能评估与表示层分析，利用SHAP和UMAT技术构建综合基准框架。
+- 实验或效果：在跨大陆数据集和数据稀缺场景下评估多个模型，揭示嵌入模式与泛化性。
 
 ## 摘要（原文）
 

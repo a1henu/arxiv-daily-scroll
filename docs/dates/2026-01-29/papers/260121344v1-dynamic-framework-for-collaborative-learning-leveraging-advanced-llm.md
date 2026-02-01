@@ -9,7 +9,7 @@ title: Dynamic Framework for Collaborative Learning: Leveraging Advanced LLM wit
 
 **一句话要点**：提出动态框架以集成LLM于协作学习平台，增强学生参与度与包容性。
 
-**关键词**：协作学习平台, LLM动态调节, 自适应反馈机制, 模块化架构, 教育技术
+**关键词**：协作学习框架, LLM动态调节, 自适应反馈机制, 模块化架构, 教育技术
 
 ## 3 点简述
 - 核心问题：现有系统在静态调节和个性化方面存在局限，影响协作学习效果。

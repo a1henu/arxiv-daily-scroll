@@ -7,14 +7,14 @@ title: Retrieval-Infused Reasoning Sandbox: A Benchmark for Decoupling Retrieval
 **arXiv**：[2601.21937v1](https://arxiv.org/abs/2601.21937) · [PDF](https://arxiv.org/pdf/2601.21937.pdf)  
 **作者**：Shuangshuang Ying, Zheyu Wang, Yunjian Peng, Jin Chen, Yuhao Wu, Hongbin Lin, Dingyu He, Siyi Liu, Gengchen Yu, YinZhu Piao, Yuchen Wu, Xin Gui, Zhongyuan Peng, Xin Li, Xeron Du, Libo Qin, YiXin Cao, Ge Zhang  
 
-**一句话要点**：提出DeR2基准以解耦检索与推理能力，评估大语言模型在科学信息上的推理性能。
+**一句话要点**：提出DeR2基准以解耦检索与推理能力，评估大语言模型在科学新信息上的推理表现。
 
-**关键词**：检索增强推理, 基准测试, 大语言模型评估, 科学信息推理, 错误归因, 文档库
+**关键词**：检索增强推理, 基准测试, 文档基础推理, 大语言模型评估, 科学信息处理, 错误归因
 
 ## 3 点简述
-- 核心问题：现有基准混淆检索与推理，且受参数记忆和网络波动影响，难以评估模型对新颖科学信息的推理能力。
-- 方法要点：通过四种证据访问机制（仅指令、概念、相关文档、全文档集）隔离推理，提供冻结文档库和专家标注概念，实现细粒度错误归因。
-- 实验或效果：实验显示模型性能差异显著，部分模型在全文档集下表现更差，揭示推理脆弱性和概念误用问题。
+- 核心问题：现有基准混淆检索与推理，且受参数记忆和网络波动影响，难以评估大语言模型对新颖科学信息的推理能力。
+- 方法要点：通过四种证据访问机制（仅指令、概念、相关文档、全文档集）隔离文档基础推理，实现检索损失与推理损失的可解释分离。
+- 实验或效果：实验显示先进模型表现差异大，部分模型在全文档集下表现更差，揭示推理脆弱性和概念误用问题。
 
 ## 摘要（原文）
 

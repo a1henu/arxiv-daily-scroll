@@ -9,7 +9,7 @@ title: The Patient is not a Moving Document: A World Model Training Paradigm for
 
 **一句话要点**：提出SMB-Structure世界模型，结合JEPA与SFT训练范式，以模拟纵向电子健康记录中的患者动态系统。
 
-**关键词**：电子健康记录, 世界模型, 联合嵌入预测, 患者动态模拟, 临床基础模型
+**关键词**：电子健康记录, 世界模型, 联合嵌入预测, 患者动态模拟, 纵向数据分析
 
 ## 3 点简述
 - 核心问题：现有LLM将患者视为静态文档，而非动态系统，无法有效模拟疾病轨迹演变。

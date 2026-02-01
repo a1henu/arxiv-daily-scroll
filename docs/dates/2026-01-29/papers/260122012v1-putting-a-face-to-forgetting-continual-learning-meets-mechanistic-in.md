@@ -9,12 +9,12 @@ title: Putting a Face to Forgetting: Continual Learning meets Mechanistic Interp
 
 **一句话要点**：提出机制解释框架，从特征层面分析持续学习中的灾难性遗忘问题。
 
-**关键词**：持续学习, 灾难性遗忘, 机制解释, 特征编码, Vision Transformer
+**关键词**：持续学习, 灾难性遗忘, 机制解释, 特征编码, Vision Transformer, 几何分析
 
 ## 3 点简述
 - 核心问题：灾难性遗忘常从性能或最后一层表征衡量，忽略底层机制。
 - 方法要点：引入几何解释框架，将遗忘视为个体特征编码的变换导致。
-- 实验或效果：通过可处理模型分析验证，并在Vision Transformer上应用案例研究。
+- 实验或效果：通过可处理模型分析，实验验证深度负面影响，并在Vision Transformer上应用案例研究。
 
 ## 摘要（原文）
 

@@ -7,7 +7,7 @@ title: Deep Models, Shallow Alignment: Uncovering the Granularity Mismatch in Ne
 **arXiv**：[2601.21948v1](https://arxiv.org/abs/2601.21948) · [PDF](https://arxiv.org/pdf/2601.21948.pdf)  
 **作者**：Yang Du, Siyuan Dai, Yonghao Song, Paul M. Thompson, Haoteng Tang, Liang Zhan  
 
-**一句话要点**：提出浅层对齐方法以解决神经解码中的粒度不匹配问题
+**一句话要点**：提出浅层对齐方法以解决神经视觉解码中的粒度不匹配问题
 
 **关键词**：神经视觉解码, 粒度不匹配, 浅层对齐, 对比学习, 视觉编码器, 缩放定律
 

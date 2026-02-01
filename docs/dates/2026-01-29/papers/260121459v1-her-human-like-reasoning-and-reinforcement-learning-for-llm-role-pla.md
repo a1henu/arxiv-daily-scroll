@@ -14,7 +14,7 @@ title: HER: Human-like Reasoning and Reinforcement Learning for LLM Role-playing
 ## 3 点简述
 - 核心问题：现有LLM角色扮演缺乏高质量推理轨迹和人类偏好对齐的奖励信号。
 - 方法要点：引入双层思维区分角色与LLM思考，构建推理增强数据和人类对齐奖励模型。
-- 实验或效果：在Qwen3-32B基础上训练，CoSER基准提升30.26，Minimax Role-Play Bench提升14.97。
+- 实验或效果：在Qwen3-32B基础上显著提升，CoSER基准提高30.26，Minimax基准提高14.97。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: ScaleSim: Serving Large-Scale Multi-Agent Simulation with Invocation Dist
 **arXiv**：[2601.21473v1](https://arxiv.org/abs/2601.21473) · [PDF](https://arxiv.org/pdf/2601.21473.pdf)  
 **作者**：Zaifeng Pan, Yipeng Shen, Zhengding Hu, Zhuang Wang, Aninda Manocha, Zheng Wang, Zhongkai Yu, Yue Guan, Yufei Ding  
 
-**一句话要点**：提出ScaleSim系统，基于调用距离管理内存以支持大规模多智能体模拟的LLM服务。
+**一句话要点**：提出ScaleSim系统，基于调用距离管理内存以支持大规模多智能体模拟
 
-**关键词**：多智能体模拟, LLM服务系统, 内存管理, 调用距离, GPU优化
+**关键词**：多智能体模拟, 内存管理, LLM服务系统, 调用距离, GPU优化
 
 ## 3 点简述
-- 核心问题：多智能体模拟中GPU内存压力大，因每个智能体需维护私有状态，导致扩展困难。
-- 方法要点：引入调用距离抽象，预测智能体LLM请求顺序，实现主动预取和基于优先级的逐出。
-- 实验或效果：在模拟基准测试中，相比SGLang实现最高1.74倍加速，提升内存效率。
+- 核心问题：多智能体模拟中GPU内存压力大，因每个智能体需维护私有状态
+- 方法要点：引入调用距离抽象，预测智能体请求顺序，实现主动预取和优先级驱逐
+- 实验或效果：在模拟基准测试中，相比SGLang实现最高1.74倍加速
 
 ## 摘要（原文）
 

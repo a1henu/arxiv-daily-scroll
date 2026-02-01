@@ -7,14 +7,14 @@ title: LoRIF: Low-Rank Influence Functions for Scalable Training Data Attributio
 **arXiv**：[2601.21929v1](https://arxiv.org/abs/2601.21929) · [PDF](https://arxiv.org/pdf/2601.21929.pdf)  
 **作者**：Shuangqi Li, Hieu Le, Jingyi Xu, Mathieu Salzmann  
 
-**一句话要点**：提出LoRIF以解决大规模训练数据归因中的存储与计算瓶颈问题
+**一句话要点**：提出LoRIF以解决大规模训练数据归因中的存储与计算瓶颈问题。
 
-**关键词**：训练数据归因, 低秩近似, 梯度计算, 可扩展性, Hessian近似, 存储优化
+**关键词**：训练数据归因, 低秩结构, 梯度投影, 可扩展性, Hessian近似
 
 ## 3 点简述
-- 核心问题：梯度计算导致存储和I/O瓶颈，影响训练数据归因的可扩展性。
-- 方法要点：利用梯度低秩结构，存储低秩因子并近似Hessian项，降低存储和内存需求。
-- 实验或效果：在0.1B至70B参数模型上，相比LoGRA实现高达20倍存储减少和查询加速，归因质量相当或更优。
+- 核心问题：现有梯度投影方法在扩展至大规模训练集时面临存储和I/O瓶颈，以及Hessian逆近似的高内存成本。
+- 方法要点：利用梯度低秩结构，存储低秩因子减少存储和I/O，使用截断SVD和Woodbury恒等式降低Hessian项内存需求。
+- 实验或效果：在0.1B至70B参数模型上，相比LoGRA实现高达20倍存储减少和查询加速，同时保持或提升归因质量。
 
 ## 摘要（原文）
 

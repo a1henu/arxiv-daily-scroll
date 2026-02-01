@@ -7,9 +7,9 @@ title: Moral Outrage Shapes Commitments Beyond Attention: Multimodal Moral Emoti
 **arXiv**：[2601.21815v1](https://arxiv.org/abs/2601.21815) · [PDF](https://arxiv.org/pdf/2601.21815.pdf)  
 **作者**：Seongchan Park, Jaehong Kim, Hyeonseung Kim, Heejin Bin, Sue Moon, Wonjae Lee  
 
-**一句话要点**：提出多模态道德情感分类器，分析YouTube新闻视频中道德愤怒对用户参与的影响。
+**一句话要点**：提出多模态道德情感分类器，分析YouTube新闻视频中道德愤怒对用户参与度的影响。
 
-**关键词**：多模态情感分析, 道德情感分类器, 用户参与度, YouTube新闻, 跨文化研究, 视觉语言模型
+**关键词**：多模态情感分析, 道德情感分类器, 用户参与度, YouTube研究, 跨文化比较
 
 ## 3 点简述
 - 研究YouTube主流新闻频道的道德情感框架如何影响韩美用户行为。

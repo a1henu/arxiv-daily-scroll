@@ -7,14 +7,14 @@ title: Do Reasoning Models Enhance Embedding Models?
 **arXiv**：[2601.21192v1](https://arxiv.org/abs/2601.21192) · [PDF](https://arxiv.org/pdf/2601.21192.pdf)  
 **作者**：Wun Yu Chan, Shaojin Chen, Huihao Jing, Kwun Hang Lau, Elton Chun-Chai Li, Zihao Wang, Haoran Li, Yangqiu Song  
 
-**一句话要点**：提出HRSA框架分析推理模型对嵌入模型初始化无增益的原因，揭示流形重对齐现象。
+**一句话要点**：提出HRSA框架分析推理模型初始化嵌入模型无性能提升的原因，揭示流形重对齐现象。
 
-**关键词**：嵌入模型, 推理模型, 流形几何, 对比学习, 语义表示, HRSA框架
+**关键词**：嵌入模型, 推理模型, HRSA框架, 流形重对齐, 对比学习, 语义表示
 
 ## 3 点简述
-- 核心问题：推理模型增强是否提升嵌入模型语义表示性能？
-- 方法要点：引入HRSA分解相似性，分析表示、几何和功能层次变化。
-- 实验或效果：MTEB和BRIGHT评估显示无优势，RLVR仅优化轨迹而非重构语义景观。
+- 核心问题：推理模型初始化是否提升嵌入模型性能，实验显示无一致优势。
+- 方法要点：引入HRSA框架，分解表示、几何和功能层面的相似性。
+- 实验或效果：RLVR优化语义景观内轨迹，而非重构景观，导致流形重对齐。
 
 ## 摘要（原文）
 

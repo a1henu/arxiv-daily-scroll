@@ -14,7 +14,7 @@ title: PPI-SVRG: Unifying Prediction-Powered Inference and Variance Reduction fo
 ## 3 点简述
 - 研究半监督随机优化，标签数据稀缺但预训练模型预测可用。
 - 证明PPI与SVRG数学等价，结合两者开发PPI-SVRG方法。
-- 实验显示在标签稀缺下MSE降低43-52%，MNIST测试准确率提升2.7-2.9个百分点。
+- 实验显示在标签稀缺下，MSE降低43-52%，MNIST测试准确率提升2.7-2.9个百分点。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: Exploring Diverse Generation Paths via Inference-time Stiefel Activation 
 **arXiv**：[2601.22010v1](https://arxiv.org/abs/2601.22010) · [PDF](https://arxiv.org/pdf/2601.22010.pdf)  
 **作者**：Dongxuan Zhu, Ly Tran Ho Khanh, Andy Yat-Ming Cheung, Man-Chung Yue, Viet Anh Nguyen  
 
-**一句话要点**：提出STARS方法，通过推理时Stiefel激活引导解决语言模型生成路径同质化问题
+**一句话要点**：提出STARS方法，通过推理时Stiefel激活引导解决语言模型生成路径同质化问题。
 
-**关键词**：激活引导, 推理时干预, Stiefel流形优化, 生成多样性, 语言模型
+**关键词**：推理时干预, 激活引导, Stiefel流形优化, 生成多样性, 语言模型
 
 ## 3 点简述
-- 语言模型生成路径同质化，易陷入模式崩溃，采样方法难以保证多轮生成多样性
-- STARS在推理时收集隐藏激活，在Stiefel流形上联合优化正交引导方向，最大化激活几何体积
-- 在测试用例生成和科学发现基准上，STARS优于标准采样方法，提升多样性且不牺牲质量
+- 语言模型生成路径同质化，易陷入模式崩溃，采样方法难以保证多轮生成的多样性。
+- STARS在推理时收集隐藏激活，在Stiefel流形上联合优化正交引导方向，最大化激活几何体积。
+- 在测试用例生成和科学发现基准上，STARS优于标准采样方法，提升多样性且不牺牲质量。
 
 ## 摘要（原文）
 

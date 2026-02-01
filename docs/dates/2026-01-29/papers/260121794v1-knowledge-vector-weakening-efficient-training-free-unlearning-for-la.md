@@ -13,7 +13,7 @@ title: Knowledge Vector Weakening: Efficient Training-free Unlearning for Large 
 
 ## 3 点简述
 - 核心问题：大型视觉语言模型存在隐私泄露和有害内容生成风险，现有遗忘方法依赖梯度优化，计算成本高。
-- 方法要点：KVW通过识别并弱化遗忘集上激活的知识向量，直接干预模型，无需梯度计算。
+- 方法要点：KVW通过识别并弱化遗忘集激活的知识向量，无需梯度计算，直接干预模型输出。
 - 实验或效果：在MLLMU和CLEAR基准上，KVW实现稳定遗忘-保留权衡，显著提升计算效率。
 
 ## 摘要（原文）

@@ -7,14 +7,14 @@ title: OCRVerse: Towards Holistic OCR in End-to-End Vision-Language Models
 **arXiv**：[2601.21639v1](https://arxiv.org/abs/2601.21639) · [PDF](https://arxiv.org/pdf/2601.21639.pdf)  
 **作者**：Yufeng Zhong, Lei Chen, Xuanle Zhao, Wenkang Han, Liming Zheng, Jing Huang, Deyang Jiang, Yilin Cao, Lin Ma, Zhixiong Zeng  
 
-**一句话要点**：提出OCRVerse，首个端到端统一文本与视觉OCR方法，处理信息密集图像。
+**一句话要点**：提出OCRVerse，一种端到端视觉语言模型中的整体OCR方法，统一文本中心与视觉中心OCR。
 
-**关键词**：端到端视觉语言模型, 文本中心OCR, 视觉中心OCR, 多域训练, 强化学习奖励策略
+**关键词**：整体OCR, 端到端视觉语言模型, 多域训练, 文本中心OCR, 视觉中心OCR, SFT-RL方法
 
 ## 3 点简述
-- 现有OCR方法主要关注文本识别，忽略图表、网页等视觉信息密集图像的识别需求。
-- 构建涵盖文本和视觉数据的综合数据工程，并采用SFT-RL两阶段多域训练方法。
-- 实验显示OCRVerse在文本和视觉数据上均取得竞争性结果，媲美大型开源和闭源模型。
+- 现有OCR方法主要关注文本识别，忽视图表、网页等视觉信息密集图像的识别需求。
+- OCRVerse通过综合数据工程和两阶段SFT-RL多域训练方法，实现跨域统一处理。
+- 实验显示OCRVerse在文本和视觉中心数据类型上取得竞争性结果，媲美大型开源和闭源模型。
 
 ## 摘要（原文）
 

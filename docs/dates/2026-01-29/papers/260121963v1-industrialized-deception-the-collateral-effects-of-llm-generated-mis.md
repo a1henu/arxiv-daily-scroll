@@ -7,14 +7,14 @@ title: Industrialized Deception: The Collateral Effects of LLM-Generated Misinfo
 **arXiv**：[2601.21963v1](https://arxiv.org/abs/2601.21963) · [PDF](https://arxiv.org/pdf/2601.21963.pdf)  
 **作者**：Alexander Loth, Martin Kappes, Marc-Oliver Pahl  
 
-**一句话要点**：提出JudgeGPT和RogueGPT平台，以研究人类对AI生成虚假信息的感知与检测
+**一句话要点**：提出JudgeGPT和RogueGPT平台，以研究人类对AI生成虚假信息的感知与检测。
 
-**关键词**：虚假信息检测, 生成式AI, 人类感知评估, 实验平台, 缓解策略
+**关键词**：AI生成虚假信息, 人类感知评估, 检测技术, LLM应用, 数字生态安全
 
 ## 3 点简述
-- 核心问题：LLM生成虚假信息对数字生态的威胁加剧，需应对生成与检测的竞争
-- 方法要点：开发JudgeGPT评估人类感知，RogueGPT生成受控刺激，构建实验管道
-- 实验或效果：发现检测能力提升，但生成与检测持续竞争，讨论基于LLM的检测等缓解策略
+- 核心问题：AI生成虚假信息对数字生态的威胁加剧，需研究人类感知与检测能力。
+- 方法要点：开发JudgeGPT评估人类对AI生成新闻的感知，RogueGPT生成受控刺激用于实验。
+- 实验或效果：发现检测能力提升，但生成与检测竞争持续，讨论基于LLM的检测和接种等缓解策略。
 
 ## 摘要（原文）
 

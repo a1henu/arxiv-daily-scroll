@@ -7,14 +7,14 @@ title: ConceptMoE: Adaptive Token-to-Concept Compression for Implicit Compute Al
 **arXiv**：[2601.21420v1](https://arxiv.org/abs/2601.21420) · [PDF](https://arxiv.org/pdf/2601.21420.pdf)  
 **作者**：Zihao Huang, Jundong Zhou, Xingwei Qu, Qiyang Min, Ge Zhang  
 
-**一句话要点**：提出ConceptMoE以通过自适应令牌到概念压缩实现隐式计算分配，提升大语言模型效率与性能。
+**一句话要点**：提出ConceptMoE以通过自适应概念压缩实现隐式计算分配，提升大语言模型效率与性能。
 
-**关键词**：令牌压缩, 混合专家模型, 计算分配, 长上下文理解, 多模态基准, 效率优化
+**关键词**：概念压缩, 隐式计算分配, 混合专家模型, 长上下文理解, 多模态基准, 效率优化
 
 ## 3 点简述
-- 大语言模型对所有令牌分配均匀计算，忽略序列可预测性差异，导致计算浪费。
+- 大语言模型对所有令牌分配均匀计算，忽略序列可预测性差异，导致效率低下。
 - ConceptMoE动态合并语义相似令牌为概念表示，通过可学习分块模块压缩序列，实现隐式令牌级计算分配。
-- 在匹配基线FLOPs和参数条件下，ConceptMoE在语言和视觉语言任务中优于标准MoE，并显著减少注意力和KV缓存计算。
+- 在匹配基线计算和参数条件下，ConceptMoE在语言和视觉语言任务中性能提升，并显著减少注意力和KV缓存计算。
 
 ## 摘要（原文）
 

@@ -7,12 +7,12 @@ title: WorldBench: Disambiguating Physics for Diagnostic Evaluation of World Mod
 **arXiv**：[2601.21282v1](https://arxiv.org/abs/2601.21282) · [PDF](https://arxiv.org/pdf/2601.21282.pdf)  
 **作者**：Rishi Upadhyay, Howard Zhang, Jim Solomon, Ayush Agrawal, Pranay Boreddy, Shruti Satya Narayana, Yunhao Ba, Alex Wong, Celso M de Melo, Achuta Kadambi  
 
-**一句话要点**：提出WorldBench基准以解决世界模型物理评估中的概念纠缠问题
+**一句话要点**：提出WorldBench以解决世界模型物理评估中的概念纠缠问题
 
 **关键词**：世界模型评估, 物理推理基准, 视频生成, 概念解耦, 物理一致性
 
 ## 3 点简述
-- 现有视频基准在物理评估中存在多概念纠缠，限制诊断能力
+- 现有视频基准在物理评估中存在概念纠缠，限制诊断能力
 - WorldBench通过概念解耦设计，支持单物理概念或定律的隔离评估
 - 实验显示当前世界模型在特定物理概念上存在一致性不足
 

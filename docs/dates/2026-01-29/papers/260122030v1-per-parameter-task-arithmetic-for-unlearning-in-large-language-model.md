@@ -7,14 +7,14 @@ title: Per-parameter Task Arithmetic for Unlearning in Large Language Models
 **arXiv**：[2601.22030v1](https://arxiv.org/abs/2601.22030) · [PDF](https://arxiv.org/pdf/2601.22030.pdf)  
 **作者**：Chengyi Cai, Zesheng Ye, Jiangchao Yao, Jianzhong Qi, Bo Han, Xiaolu Zhang, Feng Liu, Jun Zhou  
 
-**一句话要点**：提出参数级任务算术以解决大语言模型遗忘中的过度遗忘问题
+**一句话要点**：提出PerTA机制以解决大语言模型遗忘中任务向量导致的过度遗忘问题
 
-**关键词**：大语言模型遗忘, 任务算术, 参数重要性, 梯度估计, Fisher信息, 模型效用
+**关键词**：大语言模型遗忘, 任务向量, 参数重要性, 梯度估计, Fisher信息, 模型效用
 
 ## 3 点简述
-- 核心问题：任务算术遗忘法在移除隐私信息时可能导致过度遗忘，损害模型其他信息的保留能力
-- 方法要点：通过梯度或Fisher信息估计每个参数对遗忘与保留的相对重要性，对任务向量进行参数级缩放调整
-- 实验或效果：在广泛实验中，PerTA在遗忘效果和模型整体效用上优于标准任务向量，并常超越基于训练的遗忘方法
+- 核心问题：任务向量遗忘法效率高但易过度遗忘，破坏模型保留其他信息的能力
+- 方法要点：基于参数重要性，通过梯度或Fisher信息估计权重，逐参数调整任务向量
+- 实验或效果：PerTA在遗忘效果和模型效用上优于标准任务向量，常超越基于训练的方法
 
 ## 摘要（原文）
 

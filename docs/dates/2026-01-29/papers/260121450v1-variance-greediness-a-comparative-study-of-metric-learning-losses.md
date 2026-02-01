@@ -7,14 +7,14 @@ title: Variance & Greediness: A comparative study of metric-learning losses
 **arXiv**：[2601.21450v1](https://arxiv.org/abs/2601.21450) · [PDF](https://arxiv.org/pdf/2601.21450.pdf)  
 **作者**：Donghuo Zeng, Hao Niu, Zhi Li, Masato Taya  
 
-**一句话要点**：提出VARIANCE和GREEDINESS诊断框架，比较度量学习损失在图像检索中的几何与优化特性。
+**一句话要点**：提出VARIANCE和GREEDINESS诊断框架，比较七种度量学习损失在图像检索中的几何与优化特性。
 
-**关键词**：度量学习, 图像检索, 损失函数比较, 嵌入几何, 优化动态
+**关键词**：度量学习, 图像检索, 损失函数分析, 嵌入几何, 优化动态, 诊断框架
 
 ## 3 点简述
-- 核心问题：度量学习对嵌入几何和优化动态的影响未充分理解。
-- 方法要点：引入VARIANCE（类内/类间方差）和GREEDINESS（活跃比和梯度范数）分析框架。
-- 实验或效果：在五个数据集上比较七种损失，揭示Triplet/SCL在细粒度检索中表现更优。
+- 核心问题：度量学习对嵌入几何和优化动态的影响缺乏深入理解。
+- 方法要点：引入VARIANCE（类内/类间方差）和GREEDINESS（活跃比和梯度范数）框架，分析七种损失。
+- 实验或效果：Triplet和SCL在细粒度检索中表现更优，而Contrastive和InfoNCE加速收敛但可能简化结构。
 
 ## 摘要（原文）
 

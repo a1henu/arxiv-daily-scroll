@@ -14,7 +14,7 @@ title: Evaluating Prediction Uncertainty Estimates from BatchEnsemble
 ## 3 点简述
 - 深度学习模型在不确定性估计方面存在困难，现有方法计算成本高或低估不确定性。
 - 研究BatchEnsemble作为通用可扩展方法，并引入GRUBE扩展至序列建模。
-- 实验表明BatchEnsemble性能媲美深度集成，GRUBE在预测和不确定性估计中表现优异。
+- 实验表明BatchEnsemble性能媲美深度集成，优于蒙特卡洛dropout，且参数更少、训练推理更快。
 
 ## 摘要（原文）
 

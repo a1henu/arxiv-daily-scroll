@@ -7,12 +7,12 @@ title: CAR-bench: Evaluating the Consistency and Limit-Awareness of LLM Agents u
 **arXiv**：[2601.22027v1](https://arxiv.org/abs/2601.22027) · [PDF](https://arxiv.org/pdf/2601.22027.pdf)  
 **作者**：Johannes Kirmayr, Lukas Stappen, Elisabeth André  
 
-**一句话要点**：提出CAR-bench以评估车载语音助手场景下LLM代理在现实不确定性中的一致性和能力感知
+**一句话要点**：提出CAR-bench以评估车载语音助手场景下LLM代理在现实不确定性中的一致性与能力感知
 
 **关键词**：LLM代理评估, 车载语音助手, 不确定性处理, 工具使用, 一致性测试, 能力感知
 
 ## 3 点简述
-- 现有基准忽视LLM代理在现实应用中的可靠性，如处理不完整或模糊请求时的内在不确定性
+- 现有基准忽视LLM代理在现实应用中的可靠性，如处理不完整或模糊请求
 - CAR-bench引入多轮对话、工具使用和策略遵守，测试一致性、不确定性处理和能力感知
 - 基线结果显示前沿LLM在消歧任务中一致通过率低于50%，在幻觉任务中常违反策略或捏造信息
 

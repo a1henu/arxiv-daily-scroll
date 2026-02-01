@@ -7,14 +7,14 @@ title: MMFineReason: Closing the Multimodal Reasoning Gap via Open Data-Centric 
 **arXiv**：[2601.21821v1](https://arxiv.org/abs/2601.21821) · [PDF](https://arxiv.org/pdf/2601.21821.pdf)  
 **作者**：Honglin Lin, Zheng Liu, Yun Zhu, Chonghan Qin, Juekai Lin, Xiaoran Shang, Conghui He, Wentao Zhang, Lijun Wu  
 
-**一句话要点**：提出MMFineReason数据集以解决开源视觉语言模型在高质量推理数据上的不足
+**一句话要点**：提出MMFineReason数据集以解决开源视觉语言模型在高质量多模态推理数据上的不足
 
-**关键词**：多模态推理, 数据集构建, 蒸馏训练, 参数效率, 视觉语言模型, 推理质量
+**关键词**：多模态推理, 数据集构建, 链式思维标注, 视觉语言模型, 参数效率, 数据蒸馏
 
 ## 3 点简述
 - 开源视觉语言模型因缺乏高质量推理数据而落后于专有系统，尤其在STEM图表和视觉谜题等领域
-- 通过三阶段流程构建包含1.8M样本的大规模多模态推理数据集，使用Qwen3-VL-235B-A22B-Thinking蒸馏高质量推理注释
-- 基于该数据集微调的模型在参数效率上表现优异，例如MMFineReason-4B超越Qwen3-VL-8B-Thinking，并发现仅7%数据子集可达到全数据集性能
+- 通过三阶段流程构建大规模多模态推理数据集，包含1.8M样本和5.1B解决方案令牌，基于Qwen3-VL-235B-A22B-Thinking蒸馏高质量推理标注
+- 微调模型在参数效率上表现优异，例如MMFineReason-4B超越Qwen3-VL-8B-Thinking，并发现仅7%数据子集可达到全数据集性能
 
 ## 摘要（原文）
 

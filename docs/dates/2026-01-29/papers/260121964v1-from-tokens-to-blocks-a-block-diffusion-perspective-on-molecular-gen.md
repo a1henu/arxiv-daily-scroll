@@ -7,14 +7,14 @@ title: From Tokens to Blocks: A Block-Diffusion Perspective on Molecular Generat
 **arXiv**：[2601.21964v1](https://arxiv.org/abs/2601.21964) · [PDF](https://arxiv.org/pdf/2601.21964.pdf)  
 **作者**：Qianwei Yang, Dong Xu, Zhangfan Yang, Sisi Yuan, Zexuan Zhu, Jianqiang Li, Junkai Ji  
 
-**一句话要点**：提出SoftMol框架，结合块扩散与自回归生成，用于靶向分子设计。
+**一句话要点**：提出SoftMol框架，结合块扩散与自回归生成，用于靶向分子生成。
 
 **关键词**：分子生成, 块扩散模型, 靶向药物设计, 软片段表示, 蒙特卡洛树搜索
 
 ## 3 点简述
-- 现有分子语言模型难以捕捉图结构且缺乏靶向生成机制。
-- 引入软片段表示和块扩散模型SoftBD，在结构约束下融合双向扩散与自回归生成。
-- 实验显示SoftMol实现100%化学有效性，提升结合亲和力9.7%，并加速推理6.6倍。
+- 现有分子语言模型难以捕捉分子图结构，且缺乏靶向生成机制。
+- 引入软片段表示和块扩散模型SoftBD，结合局部双向扩散与自回归生成。
+- 实验显示SoftMol实现100%化学有效性，提升结合亲和力与多样性，加速推理。
 
 ## 摘要（原文）
 

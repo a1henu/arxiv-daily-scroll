@@ -7,14 +7,14 @@ title: Enhancing Underwater Light Field Images via Global Geometry-aware Diffusi
 **arXiv**：[2601.21179v1](https://arxiv.org/abs/2601.21179) · [PDF](https://arxiv.org/pdf/2601.21179.pdf)  
 **作者**：Yuji Lin, Qian Zhao, Zongsheng Yue, Junhui Hou, Deyu Meng  
 
-**一句话要点**：提出GeoDiff-LF以增强水下光场成像质量
+**一句话要点**：提出GeoDiff-LF扩散框架以增强水下光场成像质量
 
-**关键词**：水下成像, 光场增强, 扩散模型, 几何感知, 颜色校正
+**关键词**：水下成像, 光场增强, 扩散模型, 几何感知, 颜色失真缓解
 
 ## 3 点简述
-- 核心问题：水下4-D光场成像存在颜色失真等挑战
-- 方法要点：基于SD-Turbo的扩散框架，结合几何适配器和损失函数
-- 实验或效果：在视觉保真度和量化指标上优于现有方法
+- 核心问题：水下4-D光场成像存在颜色失真，获取高质量图像具挑战性
+- 方法要点：基于SD-Turbo构建扩散模型，通过几何适配器和损失函数整合光场结构
+- 实验或效果：在视觉保真度和量化性能上优于现有方法，代码将开源
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: World of Workflows: a Benchmark for Bringing World Models to Enterprise S
 **arXiv**：[2601.22130v1](https://arxiv.org/abs/2601.22130) · [PDF](https://arxiv.org/pdf/2601.22130.pdf)  
 **作者**：Lakshya Gupta, Litao Li, Yizhe Liu, Sriram Ganapathi Subramanian, Kaheer Suleman, Zichen Zhang, Haoye Lu, Sumit Pasupalak  
 
-**一句话要点**：提出World of Workflows基准以评估大语言模型在企业系统中的动态建模能力
+**一句话要点**：提出World of Workflows基准以评估大语言模型在企业系统中的隐藏工作流建模能力
 
-**关键词**：企业系统基准, 工作流建模, 大语言模型评估, 动态盲区, 世界模型, ServiceNow环境
+**关键词**：企业系统基准, 隐藏工作流建模, 大语言模型评估, 世界模型, 级联效应, ServiceNow环境
 
 ## 3 点简述
-- 核心问题：现有基准忽略企业系统隐藏工作流和级联效应，导致大语言模型在复杂环境中表现不佳
+- 核心问题：现有企业基准忽略隐藏工作流和级联效应，导致大语言模型在复杂系统中表现不佳
 - 方法要点：基于ServiceNow构建包含4000+业务规则和55个工作流的真实环境，并设计234个任务的基准
-- 实验或效果：发现前沿大语言模型存在动态盲区，需基于世界建模提升在不可观测系统中的可靠性
+- 实验或效果：发现前沿大语言模型存在动态盲区，需基于世界建模来提升企业代理的可靠性
 
 ## 摘要（原文）
 

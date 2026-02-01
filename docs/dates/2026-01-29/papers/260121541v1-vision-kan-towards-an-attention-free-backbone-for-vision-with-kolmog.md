@@ -9,12 +9,12 @@ title: Vision KAN: Towards an Attention-Free Backbone for Vision with Kolmogorov
 
 **一句话要点**：提出Vision KAN作为无注意力视觉骨干，基于Kolmogorov-Arnold网络实现线性复杂度竞争性能
 
-**关键词**：无注意力骨干, Kolmogorov-Arnold网络, 线性复杂度, 视觉骨干, 补丁混合, 长程交互
+**关键词**：无注意力骨干, Kolmogorov-Arnold网络, 令牌混合器, 线性复杂度, 径向基函数, 视觉骨干网络
 
 ## 3 点简述
-- 注意力机制在视觉骨干中面临二次复杂度和可解释性限制，需替代方案
-- 核心为MultiPatch-RBFKAN，结合补丁非线性变换、轴可分离混合和低秩全局映射
-- 在ImageNet-1K上验证，ViK以线性复杂度实现竞争性准确度
+- 核心问题：注意力机制在视觉骨干中存在二次复杂度高和可解释性差的问题，限制可扩展性和清晰度
+- 方法要点：引入MultiPatch-RBFKAN作为统一令牌混合器，结合基于径向基函数的KAN、轴可分离混合和低秩全局映射，以补丁分组策略降低计算成本
+- 实验或效果：在ImageNet-1K上实验显示，ViK以线性复杂度实现竞争性准确率，验证KAN基础令牌混合作为注意力高效替代的潜力
 
 ## 摘要（原文）
 

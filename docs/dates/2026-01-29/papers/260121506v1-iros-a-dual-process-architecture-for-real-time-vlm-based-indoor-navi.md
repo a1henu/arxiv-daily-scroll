@@ -7,7 +7,7 @@ title: IROS: A Dual-Process Architecture for Real-Time VLM-Based Indoor Navigati
 **arXiv**：[2601.21506v1](https://arxiv.org/abs/2601.21506) · [PDF](https://arxiv.org/pdf/2601.21506.pdf)  
 **作者**：Joonhee Lee, Hyunseung Shin, Jeonggil Ko  
 
-**一句话要点**：提出IROS双进程架构，结合VLM推理与轻量模块，实现低成本硬件的实时室内导航。
+**一句话要点**：提出IROS双进程架构，结合VLM推理与轻量感知，实现低成本硬件上的实时室内导航。
 
 **关键词**：室内导航, 双进程架构, 视觉语言模型, 实时系统, 语义理解, 低成本硬件
 

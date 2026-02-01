@@ -7,14 +7,14 @@ title: Mam-App: A Novel Parameter-Efficient Mamba Model for Apple Leaf Disease C
 **arXiv**：[2601.21307v1](https://arxiv.org/abs/2601.21307) · [PDF](https://arxiv.org/pdf/2601.21307.pdf)  
 **作者**：Md Nadim Mahamood, Md Imran Hasan, Md Rasheduzzaman, Ausrukona Ray, Md Shafi Ud Doula, Kamrul Hasan  
 
-**一句话要点**：提出Mam-App参数高效Mamba模型，用于苹果叶病分类，平衡效率与性能。
+**一句话要点**：提出Mam-App参数高效Mamba模型，用于苹果叶病分类以平衡效率与性能。
 
-**关键词**：苹果叶病分类, 参数高效模型, Mamba模型, 轻量深度学习, 农业图像识别
+**关键词**：苹果叶病分类, 参数高效模型, Mamba模型, 轻量部署, 植物病害识别
 
 ## 3 点简述
 - 核心问题：现有深度学习模型参数多，训练推理慢，轻量模型性能下降。
 - 方法要点：基于Mamba构建参数高效模型，用于特征提取和疾病分类。
-- 实验或效果：在苹果叶病数据集上达99.58%准确率，仅0.051M参数，适用于低资源平台。
+- 实验或效果：在苹果叶病数据集上达99.58%准确率，仅0.051M参数，并在玉米和马铃薯数据集验证泛化性。
 
 ## 摘要（原文）
 

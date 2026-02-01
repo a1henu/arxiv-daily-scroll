@@ -13,7 +13,7 @@ title: Vidmento: Creating Video Stories Through Context-Aware Expansion With Gen
 
 ## 3 点简述
 - 核心问题：视频叙事常受可用素材限制，导致创意表达受限和叙事间隙。
-- 方法要点：基于访谈和电影制作原则，开发Vidmento工具，结合捕捉和生成媒体，实现上下文感知扩展。
+- 方法要点：基于访谈和电影制作原则，开发Vidmento工具，结合捕获和生成媒体进行上下文感知扩展。
 - 实验或效果：在12名创作者研究中，Vidmento支持叙事发展和探索，通过生成媒体系统扩展初始素材。
 
 ## 摘要（原文）

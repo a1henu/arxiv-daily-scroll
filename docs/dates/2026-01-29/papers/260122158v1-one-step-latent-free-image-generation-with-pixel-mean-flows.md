@@ -7,14 +7,14 @@ title: One-step Latent-free Image Generation with Pixel Mean Flows
 **arXiv**：[2601.22158v1](https://arxiv.org/abs/2601.22158) · [PDF](https://arxiv.org/pdf/2601.22158.pdf)  
 **作者**：Yiyang Lu, Susie Lu, Qiao Sun, Hanhong Zhao, Zhicheng Jiang, Xianbang Wang, Tianhong Li, Zhengyang Geng, Kaiming He  
 
-**一句话要点**：提出像素均值流以在图像生成中实现一步无潜在空间采样
+**一句话要点**：提出像素均值流以实现一步潜在空间无关的图像生成
 
-**关键词**：图像生成, 一步采样, 无潜在空间, 均值流, 扩散模型, 流模型
+**关键词**：图像生成, 一步采样, 潜在空间无关, 扩散模型, 流模型, 像素均值流
 
 ## 3 点简述
-- 核心问题：现有扩散/流模型依赖多步采样和潜在空间，阻碍高效图像生成。
-- 方法要点：设计网络输出为图像流形预测，损失基于速度空间的均值流，通过简单变换连接两者。
-- 实验或效果：在ImageNet 256x256和512x256分辨率上实现一步生成，FID分数分别为2.22和2.48。
+- 核心问题：现有扩散/流模型依赖多步采样和潜在空间，限制效率
+- 方法要点：分离网络输出与损失空间，通过像素均值流在速度空间定义损失
+- 实验或效果：在ImageNet 256x256和512x512分辨率上实现低FID的一步生成
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: Early and Prediagnostic Detection of Pancreatic Cancer from Computed Tomo
 **arXiv**：[2601.22134v1](https://arxiv.org/abs/2601.22134) · [PDF](https://arxiv.org/pdf/2601.22134.pdf)  
 **作者**：Wenxuan Li, Pedro R. A. S. Bassi, Lizhou Wu, Xinze Zhou, Yuxuan Zhao, Qi Chen, Szymon Plotka, Tianyu Lin, Zheren Zhu, Marisa Martin, Justin Caskey, Shanshan Jiang, Xiaoxi Chen, Jaroslaw B. Ćwikla, Artur Sankowski, Yaping Wu, Sergio Decherchi, Andrea Cavalli, Chandana Lall, Cristian Tomasetti, Yaxing Guo, Xuan Yu, Yuqing Cai, Hualin Qiao, Jie Bao, Chenhan Hu, Ximing Wang, Arkadiusz Sitek, Kai Ding, Heng Li, Meiyun Wang, Dexin Yu, Guang Zhang, Yang Yang, Kang Wang, Alan L. Yuille, Zongwei Zhou  
 
-**一句话要点**：提出ePAI系统以辅助早期和诊断前胰腺癌的CT检测
+**一句话要点**：提出ePAI系统以辅助早期和诊断前胰腺癌检测，基于CT影像分析。
 
 **关键词**：胰腺癌检测, 计算机辅助诊断, CT影像分析, 早期诊断, AI医疗系统
 
 ## 3 点简述
-- 核心问题：胰腺导管腺癌（PDAC）常因晚期发现而致命，诊断前CT扫描中的小病灶易被忽略。
-- 方法要点：开发基于AI的ePAI系统，利用单中心1,598名患者数据训练，可精确定位小至2mm的PDAC病灶。
-- 实验或效果：内部测试AUC达0.939-0.999，外部测试AUC为0.918-0.945；在诊断前CT中检测出75/159例被忽略的PDAC，多读者研究显示灵敏度显著优于30名放射科医生。
+- 核心问题：胰腺导管腺癌（PDAC）常晚期发现，诊断前CT扫描中病变易被忽略。
+- 方法要点：开发自动化AI系统ePAI，训练于单中心1,598例患者数据，可检测小至2mm的PDAC。
+- 实验或效果：内部测试AUC达0.939-0.999，外部测试AUC为0.918-0.945，多读者研究显示灵敏度显著优于放射科医生。
 
 ## 摘要（原文）
 

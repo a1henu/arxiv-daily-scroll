@@ -7,14 +7,14 @@ title: LION: A Clifford Neural Paradigm for Multimodal-Attributed Graph Learning
 **arXiv**：[2601.21453v1](https://arxiv.org/abs/2601.21453) · [PDF](https://arxiv.org/pdf/2601.21453.pdf)  
 **作者**：Xunkai Li, Zhengyu Wu, Zekai Chen, Henan Sun, Daohan Su, Guang Zeng, Hongchao Qin, Rong-Hua Li, Guoren Wang  
 
-**一句话要点**：提出基于Clifford代数的LION范式，以解决多模态属性图中的模态对齐与融合问题。
+**一句话要点**：提出LION基于Clifford代数和解耦图神经范式，以解决多模态属性图中的模态对齐与融合问题。
 
-**关键词**：多模态属性图, Clifford代数, 模态对齐, 模态融合, 图神经网络, 几何流形
+**关键词**：多模态属性图学习, Clifford代数, 几何流形, 模态对齐, 模态融合, 图神经网络
 
 ## 3 点简述
 - 核心问题：现有方法在模态对齐中忽视图上下文，在模态融合中缺乏适应性，导致性能受限。
-- 方法要点：利用Clifford代数构建几何流形进行高阶图传播，实现模态对齐；基于几何等级属性设计自适应全息聚合，优化模态融合。
-- 实验或效果：在9个数据集上验证，LION在3种图和3种模态下游任务中显著优于现有方法。
+- 方法要点：构建基于Clifford代数的模态感知几何流形，实现高效模态交互对齐；提出自适应全息聚合，利用几何等级属性改进融合。
+- 实验或效果：在9个数据集上验证，LION在3种图和3种模态下游任务中显著优于SOTA基线。
 
 ## 摘要（原文）
 

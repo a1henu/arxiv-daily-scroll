@@ -7,14 +7,14 @@ title: CoFrGeNet: Continued Fraction Architectures for Language Generation
 **arXiv**：[2601.21766v1](https://arxiv.org/abs/2601.21766) · [PDF](https://arxiv.org/pdf/2601.21766.pdf)  
 **作者**：Amit Dhurandhar, Vijil Chenthamarakshan, Dennis Wei, Tejaswini Pedapati, Karthikeyan Natesan Ramamurthy, Rahul Nair  
 
-**一句话要点**：提出连分数生成网络以替代Transformer组件，减少参数并保持性能。
+**一句话要点**：提出CoFrGeNet架构，基于连分数设计新函数类，以更少参数替代Transformer组件用于语言生成。
 
-**关键词**：语言生成, 连分数架构, 参数效率, Transformer替代, 梯度优化
+**关键词**：语言生成, 连分数架构, 参数高效, 梯度优化, Transformer替代
 
 ## 3 点简述
-- 核心问题：Transformer在语言生成中参数多、训练成本高。
-- 方法要点：基于连分数设计新架构，替换多头注意力和前馈网络。
-- 实验或效果：在GPT2-xl和Llama3上验证，参数减少至2/3到1/2，性能竞争或更优。
+- 核心问题：Transformer在语言生成中参数多、训练成本高，需更高效架构。
+- 方法要点：引入连分数函数类，设计新组件替换多头注意力和前馈网络，并优化梯度计算。
+- 实验或效果：在GPT2-xl和Llama3上预训练，下游任务性能与原模型相当或更优，参数减少至2/3到1/2。
 
 ## 摘要（原文）
 

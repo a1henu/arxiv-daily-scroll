@@ -7,14 +7,14 @@ title: A Low-Complexity Plug-and-Play Deep Learning Model for Generalizable Mass
 **arXiv**：[2601.21897v1](https://arxiv.org/abs/2601.21897) · [PDF](https://arxiv.org/pdf/2601.21897.pdf)  
 **作者**：Ali Hasanzadeh Karkan, Ahmed Ibrahim, Jean-François Frigon, François Leduc-Primeau  
 
-**一句话要点**：提出可插拔预编码器PaPP，通过元学习实现跨站点通用的大规模MIMO预编码
+**一句话要点**：提出PaPP低复杂度即插即用深度学习模型，用于可泛化大规模MIMO预编码
 
-**关键词**：大规模MIMO预编码, 元学习, 知识蒸馏, 混合波束成形, 能量效率
+**关键词**：大规模MIMO预编码, 即插即用深度学习, 教师-学生架构, 元学习, 计算能耗优化, 信道估计误差鲁棒性
 
 ## 3 点简述
-- 大规模MIMO预编码面临计算成本高、部署适应性差的问题
-- PaPP结合教师-学生蒸馏与自监督损失，支持全数字或混合波束成形
-- 在未见站点上微调后，性能优于基线，计算能耗降低超21倍
+- 大规模MIMO预编码面临计算成本高、部署敏感和深度学习模型泛化性差的问题
+- PaPP结合教师-学生架构和元学习，支持全数字或混合波束成形，可跨站点和功率重用
+- 在未见站点上，PaPP通过少量本地样本微调，性能优于基线，计算能耗降低超21倍
 
 ## 摘要（原文）
 

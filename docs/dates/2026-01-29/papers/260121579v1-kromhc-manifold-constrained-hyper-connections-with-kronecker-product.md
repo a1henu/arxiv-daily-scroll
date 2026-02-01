@@ -12,9 +12,9 @@ title: KromHC: Manifold-Constrained Hyper-Connections with Kronecker-Product Res
 **关键词**：超连接, 双随机矩阵, Kronecker积, 参数复杂度, 神经网络优化, 残差连接
 
 ## 3 点简述
-- 超连接存在训练不稳定和参数复杂度高的问题，mHC通过Birkhoff多面体投影缓解但面临双随机性不精确和O(n^3C)复杂度。
-- KromHC使用小双随机矩阵的Kronecker积参数化残差矩阵，保证精确双随机性，将参数复杂度降至O(n^2C)。
-- 实验表明KromHC在性能上匹配或超越SOTA mHC变体，同时显著减少可训练参数。
+- 超连接存在训练不稳定和参数复杂度高的问题，mHC通过Birkhoff多面体投影缓解但面临双随机性不精确和O(n³C)复杂度。
+- KromHC使用小双随机矩阵的Kronecker积参数化残差矩阵，确保精确双随机性，将参数复杂度降至O(n²C)。
+- 实验表明KromHC在性能匹配或超越SOTA mHC变体的同时，显著减少可训练参数。
 
 ## 摘要（原文）
 

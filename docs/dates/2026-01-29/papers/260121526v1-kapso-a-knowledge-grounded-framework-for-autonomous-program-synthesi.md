@@ -7,14 +7,14 @@ title: KAPSO: A Knowledge-grounded framework for Autonomous Program Synthesis an
 **arXiv**：[2601.21526v1](https://arxiv.org/abs/2601.21526) · [PDF](https://arxiv.org/pdf/2601.21526.pdf)  
 **作者**：Alireza Nadaf, Alireza Mohammadshahi, Majid Yazdani  
 
-**一句话要点**：提出KAPSO框架，通过迭代合成与优化解决编程代理的长视距失败问题。
+**一句话要点**：提出KAPSO框架以解决自主程序合成与优化中的长视界失败问题
 
-**关键词**：程序合成, 自主优化, 知识系统, 实验引擎, 认知记忆, 长视距编程
+**关键词**：自主程序合成, 长视界优化, 知识系统, 认知记忆, Git实验引擎, 代码优化
 
 ## 3 点简述
-- 核心问题：编程代理常面临长视距失败，如实验状态丢失、调试脆弱和领域知识重用弱。
-- 方法要点：集成Git实验引擎、知识系统和认知记忆层，支持迭代代码合成与优化。
-- 实验或效果：在MLE-Bench和ALE-Bench上评估，报告端到端性能，代码已开源。
+- 核心问题：编码代理常面临实验状态丢失、调试脆弱和领域知识重用弱等长视界失败
+- 方法要点：集成Git实验引擎、知识系统和认知记忆层，通过迭代合成、执行、评估和学习优化程序
+- 实验或效果：在MLE-Bench和ALE-Bench上评估，报告端到端性能，代码已开源
 
 ## 摘要（原文）
 

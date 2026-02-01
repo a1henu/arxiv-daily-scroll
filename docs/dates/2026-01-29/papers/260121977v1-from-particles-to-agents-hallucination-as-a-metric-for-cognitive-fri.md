@@ -7,14 +7,14 @@ title: From Particles to Agents: Hallucination as a Metric for Cognitive Frictio
 **arXiv**：[2601.21977v1](https://arxiv.org/abs/2601.21977) · [PDF](https://arxiv.org/pdf/2601.21977.pdf)  
 **作者**：Javier Argota Sánchez-Vaquerizo, Luis Borunda Monsivais  
 
-**一句话要点**：提出基于大模型的空间模拟新框架，以AI幻觉度量认知摩擦，用于增强环境交互设计。
+**一句话要点**：提出基于大模型的空间模拟方法，以AI幻觉作为认知摩擦度量工具。
 
-**关键词**：空间模拟, 认知代理, 大模型应用, 认知摩擦, 人机交互, 环境设计
+**关键词**：空间模拟, 认知代理, AI幻觉, 认知摩擦, 人机交互, 数字孪生
 
 ## 3 点简述
-- 传统建筑模拟基于物理粒子，缺乏认知代理，导致交互设计局限。
-- 引入Agentic Environmental Simulations，利用大模型进行语义预测，实现事件驱动的空间推理。
-- 通过形式化认知摩擦，揭示环境中的语义歧义，提出以人为本的认知编排框架。
+- 传统建筑模拟将元素视为物理粒子而非认知代理，缺乏语义理解。
+- 引入Agentic Environmental Simulations，利用大模型基于语义预期预测环境状态。
+- 通过认知摩擦量化AI幻觉，揭示建筑空间中的符号歧义，挑战现有HCI范式。
 
 ## 摘要（原文）
 

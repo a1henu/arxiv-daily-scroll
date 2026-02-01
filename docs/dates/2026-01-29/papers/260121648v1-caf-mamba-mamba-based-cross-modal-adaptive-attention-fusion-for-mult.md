@@ -12,9 +12,9 @@ title: CAF-Mamba: Mamba-Based Cross-Modal Adaptive Attention Fusion for Multimod
 **关键词**：多模态抑郁症检测, 跨模态融合, 自适应注意力, Mamba模型, 心理健康分析
 
 ## 3 点简述
-- 抑郁症检测中现有方法依赖有限特征，忽视跨模态交互，融合方式简单。
-- CAF-Mamba通过Mamba模型显式和隐式捕获跨模态交互，动态调整模态贡献。
-- 在LMVD和D-Vlog数据集上实验，CAF-Mamba优于现有方法，达到最优性能。
+- 抑郁症检测中现有方法特征类型有限，忽视显式跨模态交互，融合方式简单。
+- CAF-Mamba通过Mamba模型显式和隐式捕获跨模态交互，并动态调整模态贡献。
+- 在LMVD和D-Vlog数据集上实验，CAF-Mamba性能优于现有方法，达到未知最佳水平。
 
 ## 摘要（原文）
 

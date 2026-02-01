@@ -14,7 +14,7 @@ title: LLaMEA-SAGE: Guiding Automated Algorithm Design with Structural Feedback 
 ## 3 点简述
 - 核心问题：自动化算法设计仅依赖适应度反馈，忽略生成代码的结构信息，导致搜索效率受限。
 - 方法要点：从抽象语法树提取图论和复杂度特征，通过可解释AI识别关键特征并转化为自然语言指令，指导LLM生成代码。
-- 实验或效果：在小型实验中更快达到相同性能，在GECCO-MA-BBOB基准测试中优于现有自动化算法设计方法。
+- 实验或效果：在GECCO-MA-BBOB基准测试中，LLaMEA-SAGE优于现有方法，实现更快收敛和更高性能。
 
 ## 摘要（原文）
 

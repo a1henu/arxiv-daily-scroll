@@ -7,14 +7,14 @@ title: HPTune: Hierarchical Proactive Tuning for Collision-Free Model Predictive
 **arXiv**：[2601.21346v1](https://arxiv.org/abs/2601.21346) · [PDF](https://arxiv.org/pdf/2601.21346.pdf)  
 **作者**：Wei Zuo, Chengyang Li, Yikun Wang, Bingyang Cheng, Zeyi Ren, Shuai Wang, Derrick Wing Kwan Ng, Yik-Chung Wu  
 
-**一句话要点**：提出分层主动调优框架HPTune，以解决模型预测控制中参数调优效率低的问题，实现无碰撞运动规划。
+**一句话要点**：提出分层主动调优框架HPTune，以解决模型预测控制中参数调优因失败事件稀疏而低效的问题。
 
-**关键词**：模型预测控制, 参数调优, 分层主动调优, 无碰撞运动规划, 多普勒激光雷达, 风险指标
+**关键词**：模型预测控制, 参数调优, 避障规划, 分层优化, 主动学习, 多普勒激光雷达
 
 ## 3 点简述
-- 现有MPC参数调优方法仅评估已执行动作，导致因失败事件稀疏而效率低下。
-- HPTune结合快速级和慢速级调优，扩展评估至未执行动作，利用风险指标和闭环反向传播。
-- 在高保真模拟器实验中，HPTune在复杂环境下实现高效调优，优于基线方案，支持安全敏捷的避障策略。
+- 现有MPC参数调优方法仅评估已执行动作，导致因碰撞等失败事件稀疏而更新效率低下。
+- HPTune通过评估未执行动作，结合快速级（基于预测接近指标）和慢速级（基于闭环反向传播损失）调优。
+- 高保真模拟实验显示HPTune在复杂环境中实现高效调优，优于基线方案，支持安全敏捷的避障规划。
 
 ## 摘要（原文）
 

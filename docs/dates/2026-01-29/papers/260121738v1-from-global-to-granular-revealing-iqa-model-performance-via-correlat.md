@@ -9,12 +9,12 @@ title: From Global to Granular: Revealing IQA Model Performance via Correlation 
 
 **一句话要点**：提出Granularity-Modulated Correlation以细粒度分析图像质量评估模型性能
 
-**关键词**：图像质量评估, 相关表面, 粒度调制, 性能分析, MOS差异
+**关键词**：图像质量评估, 相关性分析, 细粒度性能, MOS调制, 分布调节, 相关性表面
 
 ## 3 点简述
-- 核心问题：全局相关指标如SRCC和PLCC无法捕捉IQA模型在局部质量谱上的性能变化，且对测试样本分布敏感。
-- 方法要点：引入Granularity-Modulated Correlation，包括基于MOS和\|ΔMOS\|的粒度调制器和分布调节器，生成相关表面进行3D性能映射。
-- 实验或效果：在标准基准测试中，GMC揭示了标量指标不可见的性能特征，提供更信息丰富和可靠的IQA分析范式。
+- 核心问题：全局相关性指标如SRCC和PLCC无法捕捉IQA模型在局部质量谱上的性能变化，且对测试样本分布敏感。
+- 方法要点：引入Granularity-Modulated Correlation，通过粒度调制器和分布调节器生成相关性表面，实现基于MOS和\|ΔMOS\|的细粒度分析。
+- 实验或效果：在标准基准测试中，GMC揭示了标量指标不可见的性能特征，提供更信息丰富和可靠的IQA模型评估范式。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: CG-MLLM: Captioning and Generating 3D content via Multi-modal Large Langu
 **arXiv**：[2601.21798v1](https://arxiv.org/abs/2601.21798) · [PDF](https://arxiv.org/pdf/2601.21798.pdf)  
 **作者**：Junming Huang, Weiwei Xu  
 
-**一句话要点**：提出CG-MLLM以解决3D内容生成中分辨率低和几何细节缺失的问题。
+**一句话要点**：提出CG-MLLM以解决3D内容生成中分辨率低和结构粗糙的问题，实现高分辨率3D生成与描述。
 
-**关键词**：多模态大语言模型, 3D内容生成, 混合Transformer架构, 高分辨率3D, 3D VAE潜在空间, 长上下文交互
+**关键词**：多模态大语言模型, 3D内容生成, 高分辨率网格, 混合Transformer架构, 3D VAE潜在空间
 
 ## 3 点简述
-- 现有方法生成低分辨率网格或粗糙结构代理，无法原生捕获细粒度几何。
-- 采用混合Transformer架构，TokenAR和BlockAR Transformer分别处理令牌级和块级内容。
-- 实验显示CG-MLLM在生成高保真3D对象方面显著优于现有MLLM。
+- 现有方法在3D生成中常产生低分辨率网格或粗糙结构，难以捕捉细粒度几何细节。
+- CG-MLLM采用混合Transformer架构，通过TokenAR和BlockAR Transformer分别处理token级和块级内容，集成预训练视觉语言骨干与3D VAE潜在空间。
+- 实验表明，CG-MLLM在生成高保真3D对象方面显著优于现有MLLMs，推动高分辨率3D内容创建进入主流LLM范式。
 
 ## 摘要（原文）
 

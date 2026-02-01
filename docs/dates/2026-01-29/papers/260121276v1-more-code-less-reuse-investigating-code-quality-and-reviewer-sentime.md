@@ -7,14 +7,14 @@ title: More Code, Less Reuse: Investigating Code Quality and Reviewer Sentiment 
 **arXiv**：[2601.21276v1](https://arxiv.org/abs/2601.21276) · [PDF](https://arxiv.org/pdf/2601.21276.pdf)  
 **作者**：Haoming Huang, Pongchai Jaisri, Shota Shimizu, Lingfeng Chen, Sota Nakashima, Gema Rodríguez-Pérez  
 
-**一句话要点**：研究AI生成PR的代码质量与评审者情感，揭示冗余增加与情感偏差问题
+**一句话要点**：研究AI生成PR的代码质量与评审情感，揭示冗余增加与情感偏差问题
 
-**关键词**：AI生成代码, 代码质量评估, 评审者情感分析, 技术债务, 人机协作, 代码复用
+**关键词**：大语言模型代理, 代码质量评估, 代码冗余, 情感分析, 技术债务, 人机协作
 
 ## 3 点简述
 - 核心问题：现有指标仅关注通过率，忽略AI生成代码对长期可维护性和可读性的影响
-- 方法要点：基于代码指标评估客观特性，分析开发者对AI生成PR的情感反应
-- 实验或效果：发现AI代理常忽视代码复用，导致冗余高于人类，但评审者情感更中性或积极
+- 方法要点：基于代码度量评估客观特性，分析开发者对AI生成PR的情感反应
+- 实验或效果：AI代理常忽视代码复用，导致冗余高于人类，但评审情感更中性或积极
 
 ## 摘要（原文）
 

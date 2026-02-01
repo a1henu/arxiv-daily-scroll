@@ -7,14 +7,14 @@ title: DropoutTS: Sample-Adaptive Dropout for Robust Time Series Forecasting
 **arXiv**：[2601.21726v1](https://arxiv.org/abs/2601.21726) · [PDF](https://arxiv.org/pdf/2601.21726.pdf)  
 **作者**：Siru Zhong, Yiqiu Liu, Zhiqing Cui, Zezhi Shao, Fei Wang, Qingsong Wen, Yuxuan Liang  
 
-**一句话要点**：提出DropoutTS插件，通过样本自适应Dropout提升时间序列预测的鲁棒性。
+**一句话要点**：提出DropoutTS插件，通过样本自适应Dropout增强时间序列预测的鲁棒性。
 
 **关键词**：时间序列预测, 鲁棒性增强, 自适应Dropout, 噪声处理, 模型无关插件
 
 ## 3 点简述
-- 核心问题：深度时间序列模型易受现实噪声影响，现有方法难以平衡效果与效率。
-- 方法要点：利用谱稀疏性量化噪声，动态映射为自适应Dropout率，抑制虚假波动。
-- 实验或效果：在多种噪声场景和基准测试中，显著提升骨干模型性能，参数开销可忽略。
+- 核心问题：深度时间序列模型易受现实噪声影响，现有方法难以平衡有效性与效率。
+- 方法要点：利用谱稀疏性量化噪声，动态映射为自适应Dropout率，选择性抑制虚假波动。
+- 实验或效果：在多种噪声场景和基准测试中提升骨干模型性能，参数开销可忽略且无需架构修改。
 
 ## 摘要（原文）
 

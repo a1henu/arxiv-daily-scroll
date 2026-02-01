@@ -9,7 +9,7 @@ title: BEAP-Agent: Backtrackable Execution and Adaptive Planning for GUI Agents
 
 **一句话要点**：提出BEAP-Agent框架，通过回溯执行与自适应规划解决GUI代理任务失败问题
 
-**关键词**：GUI代理, 回溯执行, 自适应规划, 任务探索, 状态回溯
+**关键词**：GUI代理, 回溯执行, 自适应规划, 任务探索, DFS框架
 
 ## 3 点简述
 - 核心问题：现有GUI代理在错误探索路径后难以恢复，导致任务失败

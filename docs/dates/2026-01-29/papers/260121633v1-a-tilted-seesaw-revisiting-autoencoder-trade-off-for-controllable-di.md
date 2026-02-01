@@ -14,7 +14,7 @@ title: A Tilted Seesaw: Revisiting Autoencoder Trade-off for Controllable Diffus
 ## 3 点简述
 - 核心问题：ImageNet规模自编码器评估偏向生成指标，忽视重建保真度，导致可控扩散中条件漂移风险
 - 方法要点：理论分析条件漂移机制，提出多维度条件保持评估协议，强调实例级重建指标的重要性
-- 实验或效果：实证验证重建指标与可控性对齐，ControlNet实验确认条件保持优于gFID预测
+- 实验或效果：实证验证重建指标与可控性高度相关，ControlNet实验确认条件保持优于gFID预测能力
 
 ## 摘要（原文）
 

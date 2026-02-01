@@ -14,7 +14,7 @@ title: A block-coordinate descent framework for non-convex composite optimizatio
 ## 3 点简述
 - 核心问题：块坐标下降在非凸优化中的理论分析不足，需新框架确保收敛。
 - 方法要点：框架支持变量度量近端梯度、近端牛顿和交替最小化更新，涵盖Graphical Lasso的三种求解器。
-- 实验或效果：在稀疏精度矩阵估计中提供收敛保证，迭代次数减少高达100倍。
+- 实验或效果：在稀疏精度矩阵估计中，提供收敛保证，迭代次数减少高达100倍。
 
 ## 摘要（原文）
 

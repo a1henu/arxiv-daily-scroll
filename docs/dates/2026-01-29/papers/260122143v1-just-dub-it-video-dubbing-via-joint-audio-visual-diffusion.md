@@ -7,13 +7,13 @@ title: JUST-DUB-IT: Video Dubbing via Joint Audio-Visual Diffusion
 **arXiv**：[2601.22143v1](https://arxiv.org/abs/2601.22143) · [PDF](https://arxiv.org/pdf/2601.22143.pdf)  
 **作者**：Anthony Chen, Naomi Ken Korem, Tavi Halperin, Matan Ben Yosef, Urska Jelercic, Ofir Bibi, Or Patashnik, Daniel Cohen-Or  
 
-**一句话要点**：提出基于联合音频-视觉扩散模型的视频配音方法，通过轻量LoRA实现输入视频到多语言配音的转换。
+**一句话要点**：提出基于联合音频-视觉扩散模型的视频配音方法，通过轻量LoRA适配实现高质量多语言配音。
 
-**关键词**：视频配音, 音频-视觉扩散模型, LoRA微调, 多模态生成, 唇部同步
+**关键词**：视频配音, 音频-视觉扩散模型, LoRA适配, 多语言生成, 唇部同步
 
 ## 3 点简述
 - 核心问题：现有视频配音方法依赖复杂任务特定流程，在真实场景中表现不佳。
-- 方法要点：利用音频-视觉基础模型，通过LoRA条件化输入音频-视频，联合生成翻译音频和同步面部运动。
+- 方法要点：利用音频-视觉基础模型，通过LoRA条件化输入视频，联合生成翻译音频和同步面部运动。
 - 实验或效果：通过合成多语言视频训练，保持说话者身份和唇部同步，提升视觉保真度和鲁棒性。
 
 ## 摘要（原文）

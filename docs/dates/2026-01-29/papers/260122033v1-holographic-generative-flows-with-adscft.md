@@ -7,13 +7,13 @@ title: Holographic generative flows with AdS/CFT
 **arXiv**：[2601.22033v1](https://arxiv.org/abs/2601.22033) · [PDF](https://arxiv.org/pdf/2601.22033.pdf)  
 **作者**：Ehsan Mirafzali, Sanjit Shashi, Sanya Murdeshwar, Edgar Shaghoulian, Daniele Venturi, Razvan Marinescu  
 
-**一句话要点**：提出基于AdS/CFT的全息生成流框架，以提升流匹配算法的收敛速度与质量。
+**一句话要点**：提出基于AdS/CFT的全息生成流框架，以提升流匹配算法的收敛速度和质量。
 
 **关键词**：全息生成流, AdS/CFT对应, 流匹配算法, 生成式建模, 物理可解释性
 
 ## 3 点简述
-- 核心问题：如何将量子引力的全息原理应用于生成式机器学习，以增强流匹配算法的物理可解释性。
-- 方法要点：利用AdS/CFT对应关系，通过标量场的体-边界映射表示数据从基分布到学习分布的流动。
+- 核心问题：如何将量子引力全息原理应用于生成式机器学习，增强流匹配算法的物理可解释性。
+- 方法要点：利用AdS/CFT对应中的体-边界映射，表示数据从基础分布到学习分布的流动。
 - 实验或效果：在棋盘玩具数据集和MNIST上，模型比无物理的流匹配模型收敛更快、质量更高。
 
 ## 摘要（原文）

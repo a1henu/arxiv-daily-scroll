@@ -9,11 +9,11 @@ title: DA-SPS: A Dual-stage Network based on Singular Spectrum Analysis, Patchin
 
 **一句话要点**：提出DA-SPS模型，通过双阶段网络处理多元时间序列预测，提升目标变量预测精度。
 
-**关键词**：多元时间序列预测, 奇异谱分析, Spearman相关性, 双阶段网络, 注意力机制, LSTM
+**关键词**：多元时间序列预测, 奇异谱分析, Spearman相关性, 双阶段网络, 注意力机制, 长短期记忆网络
 
 ## 3 点简述
 - 核心问题：现有方法未有效考虑外生变量对目标变量的影响，且未充分提取序列的复杂时间模式信息。
-- 方法要点：采用双阶段网络，TVPS阶段用SSA和LSTM处理目标变量，EVPS阶段用Spearman相关性和L-Attention筛选分析外生变量。
+- 方法要点：采用双阶段结构，TVPS阶段用SSA和LSTM处理目标变量，EVPS阶段用Spearman相关性和L-Attention筛选分析外生变量。
 - 实验或效果：在四个公共数据集上优于现有方法，并在私有笔记本电脑主板测试数据集上验证了实际应用效果。
 
 ## 摘要（原文）

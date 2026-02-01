@@ -14,7 +14,7 @@ title: EHR-RAG: Bridging Long-Horizon Structured Electronic Health Records and L
 ## 3 点简述
 - 核心问题：长时程EHR超出LLM上下文限制，现有方法丢弃临床相关事件和时间依赖。
 - 方法要点：引入事件和时间感知混合检索、自适应迭代检索和双路径证据检索与推理。
-- 实验或效果：在四个长时程EHR预测任务中平均Macro-F1提升10.76%，优于基线。
+- 实验或效果：在四个长时程EHR预测任务中平均Macro-F1提升10.76%。
 
 ## 摘要（原文）
 

@@ -9,12 +9,12 @@ title: HeRo-Q: A General Framework for Stable Low Bit Quantization via Hessian C
 
 **一句话要点**：提出HeRo-Q框架，通过Hessian条件化解决低比特量化中的稳定性问题。
 
-**关键词**：后训练量化, Hessian矩阵, 低比特压缩, 模型鲁棒性, 旋转-压缩矩阵
+**关键词**：后训练量化, Hessian矩阵, 低比特压缩, 模型鲁棒性, 旋转-压缩矩阵, 量化噪声
 
 ## 3 点简述
 - 核心问题：PTQ因仅最小化量化误差导致'低误差高损失'现象，源于损失景观Hessian矩阵的高曲率方向敏感。
 - 方法要点：引入轻量可学习的旋转-压缩矩阵，在量化前重塑权重空间，降低Hessian最大特征值以增强鲁棒性。
-- 实验效果：在Llama和Qwen模型上优于GPTQ等方法，在W3A16超低比特下提升GSM8K准确率至70.15%，避免逻辑崩溃。
+- 实验效果：在Llama和Qwen模型上优于GPTQ等方法，在W3A16超低比特设置下提升GSM8K准确率至70.15%，避免逻辑崩溃。
 
 ## 摘要（原文）
 

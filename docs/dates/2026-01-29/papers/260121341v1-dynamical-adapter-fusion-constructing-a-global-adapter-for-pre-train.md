@@ -7,9 +7,9 @@ title: Dynamical Adapter Fusion: Constructing A Global Adapter for Pre-Trained M
 **arXiv**：[2601.21341v1](https://arxiv.org/abs/2601.21341) · [PDF](https://arxiv.org/pdf/2601.21341.pdf)  
 **作者**：Ruiqi Liu, Boyu Diao, Zijia An, Zhulin An, Fei Wang, Yongjun Xu  
 
-**一句话要点**：提出动态适配器融合以构建全局适配器，解决类增量学习中的遗忘与干扰问题。
+**一句话要点**：提出动态适配器融合以构建全局适配器，解决预训练模型类增量学习中的遗忘与干扰问题。
 
-**关键词**：类增量学习, 适配器融合, PAC-Bayes定理, 稳定性与可塑性平衡, 预训练模型, 灾难性遗忘
+**关键词**：类增量学习, 适配器融合, 预训练模型, 灾难性遗忘, PAC-Bayes定理, 动态优化
 
 ## 3 点简述
 - 核心问题：类增量学习中，冻结预训练模型并训练任务特定适配器导致知识迁移受限和检索成本高，参数融合易引发破坏性干扰和灾难性遗忘。

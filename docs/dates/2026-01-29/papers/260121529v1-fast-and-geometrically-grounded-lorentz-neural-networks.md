@@ -7,14 +7,14 @@ title: Fast and Geometrically Grounded Lorentz Neural Networks
 **arXiv**：[2601.21529v1](https://arxiv.org/abs/2601.21529) · [PDF](https://arxiv.org/pdf/2601.21529.pdf)  
 **作者**：Robert van der Klis, Ricardo Chávez Torres, Max van Spengler, Yuhui Ding, Thomas Hofmann, Pascal Mettes  
 
-**一句话要点**：提出基于距离到超平面公式的Lorentz线性层，以解决输出范数对数缩放问题，提升双曲神经网络效率与几何一致性。
+**一句话要点**：提出基于距离到超平面公式的Lorentz线性层，以解决双曲神经网络输出范数缩放问题。
 
-**关键词**：双曲神经网络, Lorentz模型, 几何深度学习, 高效计算, 表示学习
+**关键词**：双曲神经网络, Lorentz模型, 几何深度学习, 表示学习, 梯度缩放
 
 ## 3 点简述
 - 核心问题：现有Lorentz线性层导致输出双曲范数随梯度步数对数缩放，削弱双曲几何优势。
-- 方法要点：引入新Lorentz线性层，基于距离到超平面公式，实现输出范数线性缩放，并优化激活函数与缓存策略。
-- 实验或效果：新方法保持双曲几何性质，同时计算效率接近欧几里得神经网络，代码已开源。
+- 方法要点：设计新Lorentz线性层，基于距离到超平面公式，实现输出范数线性缩放。
+- 实验或效果：结合Lorentzian激活函数和缓存策略，提升计算效率，保持双曲几何特性。
 
 ## 摘要（原文）
 

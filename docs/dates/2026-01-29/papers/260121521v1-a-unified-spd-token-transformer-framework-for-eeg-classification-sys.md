@@ -9,12 +9,12 @@ title: A Unified SPD Token Transformer Framework for EEG Classification: Systema
 
 **一句话要点**：提出统一SPD令牌Transformer框架，系统比较几何嵌入对EEG分类的影响
 
-**关键词**：EEG分类, SPD矩阵, 几何嵌入, Transformer框架, 梯度条件分析
+**关键词**：脑电分类, 对称正定矩阵, 黎曼流形, Transformer框架, 几何嵌入, 梯度条件分析
 
 ## 3 点简述
 - 核心问题：SPD矩阵嵌入几何与优化动态的理论联系未知，影响EEG分类性能
 - 方法要点：分析BWSPD和Log-Euclidean嵌入的梯度条件，提出嵌入空间批归一化
-- 实验或效果：在三种EEG范式上验证，Log-Euclidean Transformer达到最优性能
+- 实验或效果：在三种EEG范式上验证，Log-Euclidean Transformer达到SOTA，BWSPD提供竞争性精度
 
 ## 摘要（原文）
 

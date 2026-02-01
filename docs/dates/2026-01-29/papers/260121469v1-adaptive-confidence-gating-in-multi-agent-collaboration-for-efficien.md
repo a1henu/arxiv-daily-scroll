@@ -7,14 +7,14 @@ title: Adaptive Confidence Gating in Multi-Agent Collaboration for Efficient and
 **arXiv**：[2601.21469v1](https://arxiv.org/abs/2601.21469) · [PDF](https://arxiv.org/pdf/2601.21469.pdf)  
 **作者**：Haoji Zhang, Yuzhe Li, Zhenqiang Liu, Chenyang Liu, Shenyang Zhang, Yi Zhou  
 
-**一句话要点**：提出DebateCoder多智能体协作框架，以提升资源受限环境下小语言模型的代码生成推理能力。
+**一句话要点**：提出DebateCoder多智能体协作框架，以提升资源受限环境下小语言模型的代码生成能力。
 
 **关键词**：代码生成, 多智能体协作, 小语言模型, 自适应置信门控, 推理优化
 
 ## 3 点简述
 - 核心问题：小语言模型在复杂逻辑代码生成中面临推理瓶颈和失败循环。
 - 方法要点：采用三智能体角色扮演协议，结合自适应置信门控和多轮审议模块。
-- 实验或效果：在HumanEval上实现70.12% Pass@1，优于MapCoder并减少约35%API开销。
+- 实验或效果：在HumanEval上达到70.12% Pass@1，优于MapCoder并减少约35% API开销。
 
 ## 摘要（原文）
 

@@ -12,7 +12,7 @@ title: Semantic Content Determines Algorithmic Performance
 **关键词**：语义敏感性, 算法近似, LLM评估, 计数任务, 微调影响
 
 ## 3 点简述
-- 核心问题：算法行为应独立于参数语义，但LLM可能违反此原则
+- 核心问题：算法行为应独立于输入语义，但LLM可能违反此原则
 - 方法要点：设计原子化WhatCounts测试，隔离语义敏感性，避免混淆因素
 - 实验或效果：前沿LLM在计数任务中准确率差异超40%，语义依赖随微调变化
 

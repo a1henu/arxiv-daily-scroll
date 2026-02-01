@@ -13,8 +13,8 @@ title: Missing-Data-Induced Phase Transitions in Spectral PLS for Multimodal Lea
 
 ## 3 点简述
 - 研究PLS-SVD在独立随机缺失数据下的性能，基于高维尖峰模型。
-- 发现归一化后掩码交叉协方差信号强度衰减，导致BBP型相变。
-- 通过模拟和半合成实验验证相变图和恢复曲线，支持理论预测。
+- 发现归一化后交叉协方差信号衰减，导致BBP型相变和闭式重叠公式。
+- 通过仿真和半合成实验验证相变图，支持理论预测。
 
 ## 摘要（原文）
 

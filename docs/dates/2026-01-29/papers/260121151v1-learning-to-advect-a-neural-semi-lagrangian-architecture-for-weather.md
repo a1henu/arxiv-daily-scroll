@@ -7,14 +7,14 @@ title: Learning to Advect: A Neural Semi-Lagrangian Architecture for Weather For
 **arXiv**：[2601.21151v1](https://arxiv.org/abs/2601.21151) · [PDF](https://arxiv.org/pdf/2601.21151.pdf)  
 **作者**：Carlos A. Pereira, Stéphane Gaudreault, Valentin Dallerit, Christopher Subich, Shoyon Panday, Siqi Wei, Sasa Zhang, Siddharth Rout, Eldad Haber, Raymond J. Spiteri, David Millard, Emilia Diaconescu  
 
-**一句话要点**：提出PARADIS模型，通过神经半拉格朗日算子改进天气预测中的平流处理。
+**一句话要点**：提出PARADIS模型，通过神经半拉格朗日算子改进天气预测中的平流处理
 
 **关键词**：天气预测, 神经半拉格朗日算子, 物理启发模型, 功能分解, 轨迹传输, 训练效率
 
 ## 3 点简述
-- 传统机器学习天气预测模型在平流处理上存在全局交互成本高或卷积层深的问题。
-- PARADIS采用功能分解为平流、扩散和反应块，引入神经半拉格朗日算子实现轨迹传输。
-- 在ERA5基准测试中，以较低训练成本达到或超越高分辨率基线模型的性能。
+- 传统机器学习天气预测模型在平流处理上存在全局交互成本高或卷积层深的问题
+- PARADIS采用功能分解为平流、扩散和反应块，引入神经半拉格朗日算子实现轨迹传输
+- 在ERA5基准测试中，以更低训练成本达到或超越高分辨率基线性能
 
 ## 摘要（原文）
 

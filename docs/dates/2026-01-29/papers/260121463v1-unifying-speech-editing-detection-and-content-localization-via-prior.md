@@ -7,14 +7,14 @@ title: Unifying Speech Editing Detection and Content Localization via Prior-Enha
 **arXiv**：[2601.21463v1](https://arxiv.org/abs/2601.21463) · [PDF](https://arxiv.org/pdf/2601.21463.pdf)  
 **作者**：Jun Xue, Yi Chai, Yanzhen Ren, Jinshen He, Zhiqiang Tang, Zhuolin Yi, Yihuan Huang, Yuankun Xie, Yujie Chen  
 
-**一句话要点**：提出PELM框架，通过先验增强音频大语言模型统一语音编辑检测与内容定位任务。
+**一句话要点**：提出PELM框架，通过先验增强音频大模型统一语音编辑检测与内容定位任务。
 
-**关键词**：语音编辑检测, 内容定位, 音频大语言模型, 先验增强, 数据集构建, 一致性感知损失
+**关键词**：语音编辑检测, 内容定位, 音频大模型, 先验增强, 声学一致性感知
 
 ## 3 点简述
 - 核心问题：现有检测方法难以应对无缝神经语音编辑技术，缺乏高质量数据集。
-- 方法要点：构建AiEdit数据集，利用先验增强音频大模型，引入概率先验和一致性感知损失。
-- 实验或效果：在HumanEdit和AiEdit数据集上显著优于现有方法，实现低错误率。
+- 方法要点：构建AiEdit数据集，设计PELM框架，引入词级概率先验和声学一致性感知损失。
+- 实验或效果：在HumanEdit和AiEdit数据集上显著优于现有方法，定位EER分别为0.57%和9.28%。
 
 ## 摘要（原文）
 
