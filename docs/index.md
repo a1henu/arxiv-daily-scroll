@@ -85,9 +85,10 @@ title: arXiv·cs.CV 中文要点汇总（with DeepSeek）
 <option value="dates/2026-01-28/index.html" >2026-01-28</option>
 <option value="dates/2026-01-29/index.html" >2026-01-29</option>
 <option value="dates/2026-02-01/index.html" >2026-02-01</option>
-<option value="dates/2026-02-02/index.html" selected>2026-02-02</option>
+<option value="dates/2026-02-02/index.html" >2026-02-02</option>
+<option value="dates/2026-02-04/index.html" selected>2026-02-04</option>
   </select>
-  <a class="btn" href="dates/2026-02-02/index.html">前往最新（2026-02-02）</a>
+  <a class="btn" href="dates/2026-02-04/index.html">前往最新（2026-02-04）</a>
 </div>
 
 
