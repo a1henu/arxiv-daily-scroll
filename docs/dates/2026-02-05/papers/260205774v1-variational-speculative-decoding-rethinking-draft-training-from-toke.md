@@ -14,7 +14,7 @@ title: Variational Speculative Decoding: Rethinking Draft Training from Token Li
 ## 3 点简述
 - 现有推测解码方法存在训练与解码不一致问题，优化单一路径而非多路径验证
 - VSD将草稿训练建模为变分推断，最大化目标模型接受概率，通过ELBO提升草稿质量
-- 实验显示VSD在LLMs和MLLMs上实现最高9.6%速度提升，显著改进解码效率
+- 实验显示VSD在LLMs和MLLMs上比EAGLE-3和ViSpec提速最高达9.6%和7.9%
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: FastVMT: Eliminating Redundancy in Video Motion Transfer
 **arXiv**：[2602.05551v1](https://arxiv.org/abs/2602.05551) · [PDF](https://arxiv.org/pdf/2602.05551.pdf)  
 **作者**：Yue Ma, Zhikai Wang, Tianhao Ren, Mingzhe Zheng, Hongyu Liu, Jiayi Guo, Mark Fong, Yuxuan Xue, Zixiang Zhao, Konrad Schindler, Qifeng Chen, Linfeng Zhang  
 
-**一句话要点**：提出FastVMT以消除视频运动转移中的计算冗余，实现高效视频合成。
+**一句话要点**：提出FastVMT以消除视频运动传递中的计算冗余，实现高效视频合成。
 
-**关键词**：视频运动转移, 计算冗余消除, Diffusion Transformer, 局部注意力, 梯度优化, 高效视频合成
+**关键词**：视频运动传递, 扩散变换器, 计算冗余, 注意力机制, 梯度优化, 视频合成
 
 ## 3 点简述
-- 核心问题：现有方法在Diffusion Transformer架构中存在运动冗余和梯度冗余，导致计算效率低下。
+- 核心问题：现有基于DiT的视频运动传递方法存在运动冗余和梯度冗余，导致计算效率低下。
 - 方法要点：通过局部注意力掩码减少运动冗余，并设计梯度重用优化方案以利用梯度冗余。
-- 实验或效果：平均实现3.43倍加速，同时保持生成视频的视觉保真度和时间一致性。
+- 实验或效果：平均实现3.43倍加速，且不降低生成视频的视觉保真度和时间一致性。
 
 ## 摘要（原文）
 

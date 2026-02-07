@@ -7,14 +7,14 @@ title: PhysicsAgentABM: Physics-Guided Generative Agent-Based Modeling
 **arXiv**：[2602.06030v1](https://arxiv.org/abs/2602.06030) · [PDF](https://arxiv.org/pdf/2602.06030.pdf)  
 **作者**：Kavana Venkatesh, Yinhan He, Jundong Li, Jiaming Cui  
 
-**一句话要点**：提出PhysicsAgentABM，通过群体级推理和不确定性感知的神经符号融合，实现可扩展且校准的模拟。
+**一句话要点**：提出PhysicsAgentABM，通过群体级推理和不确定性感知融合实现可扩展校准的模拟。
 
-**关键词**：代理建模, 神经符号融合, 不确定性校准, 群体推理, LLM多代理系统
+**关键词**：代理建模, 不确定性融合, LLM优化, 群体模拟, 神经符号系统
 
 ## 3 点简述
 - 核心问题：LLM多代理系统扩展成本高且校准差，传统ABM难以整合个体信号和非平稳行为。
-- 方法要点：基于行为一致代理集群进行推理，结合符号代理、神经过渡模型和不确定性融合。
-- 实验或效果：在公共卫生、金融和社会科学实验中，事件时间准确性和校准优于基线方法。
+- 方法要点：使用符号代理和神经模型融合，引入ANCHOR聚类策略减少LLM调用。
+- 实验或效果：在公共卫生等领域超越基线，提升事件时间准确性和校准性。
 
 ## 摘要（原文）
 

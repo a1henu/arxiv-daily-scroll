@@ -7,14 +7,14 @@ title: Automated Customization of LLMs for Enterprise Code Repositories Using Se
 **arXiv**：[2602.05780v1](https://arxiv.org/abs/2602.05780) · [PDF](https://arxiv.org/pdf/2602.05780.pdf)  
 **作者**：Ulrich Finkler, Irene Manotas, Wei Zhang, Geert Janssen, Octavian Popescu, Shyam Ramji  
 
-**一句话要点**：提出基于语义范围的自动化LLM定制方法，以提升企业私有代码库的代码补全性能
+**一句话要点**：提出基于语义范围的自动化LLM定制方法，以提升企业私有代码库的代码补全性能。
 
 **关键词**：代码补全, LLM定制, 语义范围, 检索增强生成, 微调, 企业代码库
 
 ## 3 点简述
-- 核心问题：通用LLM难以生成与未见过私有代码库对齐的代码，影响开发效率
-- 方法要点：利用语义范围机制处理代码库数据，结合RAG和微调策略进行模型定制
-- 实验或效果：定制模型在私有库上表现优于更大规模未定制模型，提升代码精确性
+- 核心问题：通用LLM难以生成与未见过私有代码库对齐的代码，影响开发效率。
+- 方法要点：通过语义范围机制处理代码库数据，结合RAG和微调策略进行模型定制。
+- 实验或效果：定制模型在私有库上表现优于更大规模未定制模型，提升代码精确度。
 
 ## 摘要（原文）
 

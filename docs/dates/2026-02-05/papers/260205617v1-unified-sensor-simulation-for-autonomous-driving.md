@@ -7,14 +7,14 @@ title: Unified Sensor Simulation for Autonomous Driving
 **arXiv**：[2602.05617v1](https://arxiv.org/abs/2602.05617) · [PDF](https://arxiv.org/pdf/2602.05617.pdf)  
 **作者**：Nikolay Patakin, Arsenii Shirokov, Anton Konushin, Dmitry Senushkin  
 
-**一句话要点**：提出XSIM框架以解决自动驾驶中传感器模拟的几何与外观失真问题
+**一句话要点**：提出XSIM传感器模拟框架，通过扩展3DGUT splatting解决自动驾驶中球形相机投影问题。
 
-**关键词**：传感器模拟, 自动驾驶, 3DGUT splatting, 几何一致性, 外观建模, 球形相机
+**关键词**：传感器模拟, 自动驾驶, 3DGUT splatting, 球形相机, 相位建模, 3D高斯表示
 
 ## 3 点简述
-- 核心问题：现有3DGUT splatting在球形相机（如LiDAR）模拟中存在投影错误和时间不连续性问题
-- 方法要点：扩展3DGUT splatting，引入相位建模机制和双不透明度参数以增强几何一致性和外观真实感
-- 实验或效果：在Waymo等数据集上评估，性能优于基线，达到最先进水平
+- 核心问题：现有3DGUT splatting在球形相机（如LiDAR）上因方位边界循环投影和时间不连续导致粒子投影错误。
+- 方法要点：引入相位建模机制处理方位边界的高斯投影不连续，并扩展3D高斯表示以解决几何与颜色分布不匹配。
+- 实验或效果：在Waymo、Argoverse 2和PandaSet等数据集上评估，性能优于基线，达到最先进水平。
 
 ## 摘要（原文）
 

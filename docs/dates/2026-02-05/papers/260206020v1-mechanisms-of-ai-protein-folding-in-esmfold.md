@@ -7,14 +7,14 @@ title: Mechanisms of AI Protein Folding in ESMFold
 **arXiv**：[2602.06020v1](https://arxiv.org/abs/2602.06020) · [PDF](https://arxiv.org/pdf/2602.06020.pdf)  
 **作者**：Kevin Lu, Jannik Brinkmann, Stefan Huber, Aaron Mueller, Yonatan Belinkov, David Bau, Chris Wendler  
 
-**一句话要点**：通过反事实干预揭示ESMFold折叠蛋白质的计算机制，定位结构决策过程。
+**一句话要点**：揭示ESMFold折叠蛋白质的计算机制，通过干预模型潜在变量分析beta hairpin折叠过程。
 
-**关键词**：蛋白质折叠, ESMFold, 反事实干预, 计算机制, 结构预测, 可解释性
+**关键词**：蛋白质折叠, ESMFold, 反事实干预, 计算机制, beta hairpin, 模型解释性
 
 ## 3 点简述
-- 核心问题：探究蛋白质结构预测模型如何折叠蛋白质，以beta hairpin为例。
-- 方法要点：对模型潜在表示进行反事实干预，识别折叠过程中的两个计算阶段。
-- 实验或效果：展示ESMFold的结构决策机制可定位、可追踪，并能通过干预产生强因果效应。
+- 核心问题：探究蛋白质结构预测模型如何折叠蛋白质，聚焦beta hairpin结构基序。
+- 方法要点：通过反事实干预模型潜在变量，识别折叠主干中的两个计算阶段。
+- 实验或效果：定位ESMFold结构决策机制，可追踪可解释表示并产生强因果效应。
 
 ## 摘要（原文）
 

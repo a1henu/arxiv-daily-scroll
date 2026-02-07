@@ -7,14 +7,14 @@ title: LSA: Localized Semantic Alignment for Enhancing Temporal Consistency in T
 **arXiv**：[2602.05966v1](https://arxiv.org/abs/2602.05966) · [PDF](https://arxiv.org/pdf/2602.05966.pdf)  
 **作者**：Mirlan Karimov, Teodora Spasojevic, Markus Braun, Julian Wiederer, Vasileios Belagiannis, Marc Pollefeys  
 
-**一句话要点**：提出局部语义对齐以增强交通视频生成中的时序一致性
+**一句话要点**：提出局部语义对齐（LSA）以增强交通视频生成中的时序一致性
 
 **关键词**：视频生成, 时序一致性, 语义对齐, 交通场景, 微调框架
 
 ## 3 点简述
-- 现有可控视频生成依赖推理时控制信号，限制可扩展性
-- LSA通过对齐真实与生成视频中动态对象的语义特征来微调模型
-- 在nuScenes和KITTI数据集上实验显示时序一致性提升，无需推理时额外控制
+- 核心问题：现有可控视频生成方法依赖推理时控制信号，限制其作为可扩展数据引擎的实用性。
+- 方法要点：通过对齐真实与生成视频中动态对象周围的语义特征，引入一致性损失微调预训练模型。
+- 实验或效果：在nuScenes和KITTI数据集上，单轮微调即提升评估指标，无需推理时外部控制信号。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: Benchmarking Affordance Generalization with BusyBox
 **arXiv**：[2602.05441v1](https://arxiv.org/abs/2602.05441) · [PDF](https://arxiv.org/pdf/2602.05441.pdf)  
 **作者**：Dean Fortier, Timothy Adamson, Tess Hellebrekers, Teresa LaScala, Kofi Ennin, Michael Murray, Andrey Kolobov, Galen Mullins  
 
-**一句话要点**：提出BusyBox物理基准以评估视觉-语言-动作模型的物性泛化能力
+**一句话要点**：提出BusyBox物理基准以评估视觉-语言-动作模型的affordance泛化能力
 
-**关键词**：物性泛化, 视觉-语言-动作模型, 物理基准, 机器人操作, 泛化评估, 开源数据集
+**关键词**：视觉-语言-动作模型, affordance泛化, 物理基准, 机器人操作, 泛化评估, 3D打印设计
 
 ## 3 点简述
-- 核心问题：物性泛化是VLA模型的关键元技能，但现有评估缺乏系统性
-- 方法要点：设计可互换模块的BusyBox，通过视觉变化测试泛化，提供CAD文件和数据集
-- 实验或效果：实证显示强VLA模型在BusyBox变体上泛化困难，鼓励社区评估与创新
+- 核心问题：评估VLA模型在操纵新物体时的affordance泛化能力，即基于熟悉物理特征处理未见对象
+- 方法要点：设计BusyBox基准，包含6个可互换旋转模块，通过变体创建视觉差异但affordance相同的测试环境
+- 实验或效果：实证显示即使强VLA模型如π0.5和GR00T-N1.6在BusyBox变体上泛化仍具挑战性
 
 ## 摘要（原文）
 

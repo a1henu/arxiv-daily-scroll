@@ -7,14 +7,14 @@ title: RL-VLA$^3$: Reinforcement Learning VLA Accelerating via Full Asynchronism
 **arXiv**：[2602.05765v1](https://arxiv.org/abs/2602.05765) · [PDF](https://arxiv.org/pdf/2602.05765.pdf)  
 **作者**：Zhong Guan, Haoran Sun, Yongjian Guo, Shuai Di, Xiaodong Bai, Jing Long, Tianyun Zhao, Mingxi Luo, Chen Zhou, Yucheng Guo, Qiming Yang, Wanting Xu, Wen Huang, Yunxuan Ma, Hongke Zhao, Likang Wu, Xiaotie Deng, Xi Xiao, Sheng Wen, Yicheng Gong, Junwu Xiong  
 
-**一句话要点**：提出全异步强化学习框架以加速视觉-语言-动作模型训练
+**一句话要点**：提出全异步强化学习框架RL-VLA³，以提升视觉-语言-动作模型的训练效率。
 
-**关键词**：视觉-语言-动作模型, 强化学习, 异步训练, 吞吐量优化, 多GPU扩展
+**关键词**：视觉-语言-动作模型, 强化学习, 异步训练, 吞吐量优化, 多级解耦架构
 
 ## 3 点简述
-- 核心问题：现有同步训练框架导致资源利用率低和吞吐量瓶颈
-- 方法要点：设计多级解耦架构，实现环境交互、策略生成和模型更新的全异步并行
-- 实验或效果：在LIBERO基准上吞吐量提升最高达59.25%，优化后可达126.67%
+- 核心问题：现有VLA模型训练框架依赖同步执行，导致资源利用不足和吞吐量受限。
+- 方法要点：设计多级解耦架构，实现环境交互、策略生成和模型更新的全异步并行化。
+- 实验或效果：在LIBERO基准上，吞吐量提升最高达59.25%，优化后可达126.67%。
 
 ## 摘要（原文）
 

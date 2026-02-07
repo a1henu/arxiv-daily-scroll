@@ -13,7 +13,7 @@ title: FHAIM: Fully Homomorphic AIM For Private Synthetic Data Generation
 
 ## 3 点简述
 - 核心问题：合成数据生成服务需信任提供商访问私有数据，存在隐私风险。
-- 方法要点：将AIM算法适配全同态加密，开发新协议确保数据全程加密并满足差分隐私。
+- 方法要点：将AIM算法适配全同态加密，设计新协议确保数据全程加密并满足差分隐私。
 - 实验或效果：实证分析显示FHAIM保持AIM性能，运行时间可行。
 
 ## 摘要（原文）

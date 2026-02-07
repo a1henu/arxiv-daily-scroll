@@ -7,14 +7,14 @@ title: Graph-based Agent Memory: Taxonomy, Techniques, and Applications
 **arXiv**：[2602.05665v1](https://arxiv.org/abs/2602.05665) · [PDF](https://arxiv.org/pdf/2602.05665.pdf)  
 **作者**：Chang Yang, Chuang Zhou, Yilin Xiao, Su Dong, Luyao Zhuang, Yujing Zhang, Zhu Wang, Zijin Hong, Zheng Yuan, Zhishang Xiang, Shengyuan Chen, Huachi Zhou, Qinggang Zhang, Ninghao Liu, Jinsong Su, Xinrun Wang, Yi Chang, Xiao Huang  
 
-**一句话要点**：综述基于图的智能体记忆，涵盖分类、技术与应用，以支持长时复杂任务。
+**一句话要点**：综述基于图的智能体记忆：分类、技术与应用，以提升LLM智能体在复杂任务中的性能。
 
-**关键词**：智能体记忆, 图结构, 长时任务, 知识积累, 自我进化, 开源基准
+**关键词**：智能体记忆, 图结构, LLM智能体, 记忆演化, 知识检索, 复杂任务
 
 ## 3 点简述
-- 核心问题：基于大语言模型的智能体在长时复杂任务中需要高效记忆模块以积累知识、迭代推理和自我进化。
-- 方法要点：从图的角度系统分析智能体记忆，包括分类、生命周期技术（提取、存储、检索、进化）和开源资源。
-- 实验或效果：总结开源库和基准，探索应用场景，识别挑战与未来方向，提供可操作见解。
+- 核心问题：LLM智能体在长程复杂任务中需高效记忆模块以支持知识积累与推理。
+- 方法要点：提出基于图的记忆分类与生命周期技术，涵盖提取、存储、检索和演化。
+- 实验或效果：总结开源库与基准，探索应用场景，识别挑战与未来方向。
 
 ## 摘要（原文）
 

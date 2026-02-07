@@ -7,7 +7,7 @@ title: Steering Large Reasoning Models towards Concise Reasoning via Flow Matchi
 **arXiv**：[2602.05539v1](https://arxiv.org/abs/2602.05539) · [PDF](https://arxiv.org/pdf/2602.05539.pdf)  
 **作者**：Yawei Li, Benjamin Bergner, Yinghan Zhao, Vihang Prakash Patil, Bei Chen, Cheng Wang  
 
-**一句话要点**：提出FlowSteer方法，通过流匹配学习非线性变换，以引导大型推理模型生成简洁推理输出。
+**一句话要点**：提出FlowSteer方法，通过流匹配学习非线性变换，以引导大型推理模型生成简洁推理过程。
 
 **关键词**：大型推理模型, 流匹配, 非线性引导, 推理效率, 分布对齐
 

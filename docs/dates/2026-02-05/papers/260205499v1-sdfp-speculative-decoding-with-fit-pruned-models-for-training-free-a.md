@@ -7,12 +7,12 @@ title: SDFP: Speculative Decoding with FIT-Pruned Models for Training-Free and P
 **arXiv**：[2602.05499v1](https://arxiv.org/abs/2602.05499) · [PDF](https://arxiv.org/pdf/2602.05499.pdf)  
 **作者**：Hanyu Wei, Zunhai Su, Peng Lu, Chao Li, Spandan Tiwari, Ashish Sirasao, Yuhan Dong  
 
-**一句话要点**：提出SDFP框架，通过FIT剪层构建草稿模型，实现免训练、即插即用的LLM加速
+**一句话要点**：提出SDFP框架，通过FIT剪枝构建草稿模型，实现免训练、即插即用的LLM加速
 
-**关键词**：推测解码, 模型剪枝, Fisher信息迹, 免训练加速, 即插即用框架, 多媒体应用
+**关键词**：推测解码, 模型剪枝, 大语言模型加速, 免训练优化, 多媒体应用, 延迟降低
 
 ## 3 点简述
-- 核心问题：LLM自回归解码延迟高，现有推测解码方法需额外训练或复杂优化，部署成本高
+- 核心问题：LLM自回归解码延迟高，现有草稿模型方法需额外训练或复杂优化，部署成本高
 - 方法要点：基于Fisher信息迹剪除低影响层，构建紧凑草稿模型，保持与原始模型兼容性
 - 实验或效果：在基准测试中实现1.32-1.5倍解码加速，不改变输出分布，支持低延迟多媒体应用
 

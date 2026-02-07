@@ -7,12 +7,12 @@ title: Solving Stochastic Variational Inequalities without the Bounded Variance 
 **arXiv**：[2602.05531v1](https://arxiv.org/abs/2602.05531) · [PDF](https://arxiv.org/pdf/2602.05531.pdf)  
 **作者**：Ahmet Alacaoglu, Jun-Hyun Kim  
 
-**一句话要点**：提出无界方差假设下的随机变分不等式求解算法，优化min-max问题复杂度
+**一句话要点**：提出无界方差假设下求解随机变分不等式的方法，优化min-max问题复杂度
 
 **关键词**：随机变分不等式, min-max优化, 无界方差, 复杂度分析, 非凸非凹优化
 
 ## 3 点简述
-- 核心问题：解决随机变分不等式，无需有界方差或域假设，适用于无界约束集min-max优化
+- 核心问题：解决随机变分不等式时无需有界方差或域假设，适用于无界约束集min-max优化
 - 方法要点：针对单调和结构化非单调变分不等式，基于弱Minty VI假设，实现最优复杂度
 - 实验或效果：在方差随变量平方增长下，达到预期残差范数小于ε的复杂度为O(ε^{-4})
 

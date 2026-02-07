@@ -7,14 +7,14 @@ title: AgentXRay: White-Boxing Agentic Systems via Workflow Reconstruction
 **arXiv**：[2602.05353v1](https://arxiv.org/abs/2602.05353) · [PDF](https://arxiv.org/pdf/2602.05353.pdf)  
 **作者**：Ruijie Shi, Houbin Zhang, Yuecheng Han, Yuheng Wang, Jingru Fan, Runde Yang, Yufan Dang, Huatao Li, Dewen Liu, Yuan Cheng, Chen Qian  
 
-**一句话要点**：提出AgentXRay框架，通过工作流重构实现黑盒智能体系统的白盒化解释
+**一句话要点**：提出AgentXRay框架，通过工作流重构实现黑盒智能体系统的白盒化解释。
 
-**关键词**：智能体系统, 工作流重构, 白盒化解释, 蒙特卡洛树搜索, 组合优化, 代理相似度
+**关键词**：智能体系统, 工作流重构, 白盒化, 蒙特卡洛树搜索, 组合优化, 代理相似度
 
 ## 3 点简述
-- 核心问题：智能体系统内部工作流不透明，难以解释和控制
-- 方法要点：基于搜索的组合优化，使用蒙特卡洛树搜索和红黑剪枝机制
-- 实验或效果：在多个领域实现更高代理相似度和更低令牌消耗
+- 核心问题：智能体系统内部工作流不透明，难以解释和控制。
+- 方法要点：基于搜索的组合优化，在链式工作流空间中重构可编辑的白盒工作流。
+- 实验或效果：在多样领域实现更高代理相似度，减少令牌消耗，支持深度探索。
 
 ## 摘要（原文）
 

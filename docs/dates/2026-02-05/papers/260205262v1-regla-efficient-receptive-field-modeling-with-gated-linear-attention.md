@@ -13,8 +13,8 @@ title: ReGLA: Efficient Receptive-Field Modeling with Gated Linear Attention Net
 
 ## 3 点简述
 - 核心问题：轻量模型在高分辨率图像上平衡精度与延迟的挑战，Transformer架构常有过高延迟。
-- 方法要点：结合高效卷积进行局部特征提取和基于ReLU的门控线性注意力进行全局建模，包括ELRF模块、RGMA模块和多教师蒸馏策略。
-- 实验或效果：ReGLA-M在ImageNet-1K上达到80.85% Top-1精度，延迟仅4.98 ms，下游任务中优于iFormer模型，如COCO检测提升3.1% AP。
+- 方法要点：结合高效卷积进行局部特征提取和基于ReLU的门控线性注意力进行全局建模，包括ELRF、RGMA模块和多教师蒸馏策略。
+- 实验或效果：在ImageNet-1K上达到80.85% Top-1精度，延迟仅4.98 ms，下游任务如COCO和ADE20K上性能优于类似规模模型。
 
 ## 摘要（原文）
 

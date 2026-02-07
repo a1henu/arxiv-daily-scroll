@@ -7,14 +7,14 @@ title: Sparse Video Generation Propels Real-World Beyond-the-View Vision-Languag
 **arXiv**：[2602.05827v1](https://arxiv.org/abs/2602.05827) · [PDF](https://arxiv.org/pdf/2602.05827.pdf)  
 **作者**：Hai Zhang, Siqi Liang, Li Chen, Yuxian Li, Yukuan Xu, Yichao Zhong, Fu Zhang, Hongyang Li  
 
-**一句话要点**：提出SparseVideoNav，利用稀疏视频生成实现超越视野的视觉语言导航
+**一句话要点**：提出SparseVideoNav，利用稀疏视频生成实现真实世界超越视野的视觉语言导航
 
 **关键词**：超越视野导航, 稀疏视频生成, 视觉语言导航, 长时程监督, 零样本学习, 实时推理
 
 ## 3 点简述
-- 核心问题：超越视野导航需在稀疏高层意图下定位未见过目标，现有LLM方法因短视监督而受限
-- 方法要点：首次引入视频生成模型，通过生成稀疏未来轨迹实现长时程监督，优化后推理速度提升27倍
-- 实验或效果：零样本实验中，在BVN任务上成功率比SOTA LLM基线高2.5倍，首次实现夜间场景导航
+- 核心问题：真实世界导航需基于高层意图，而非详细指令，现有LLM方法因短视监督难以处理超越视野导航。
+- 方法要点：首次引入视频生成模型，通过生成稀疏未来轨迹实现长时程监督，优化后推理速度提升27倍。
+- 实验或效果：在零样本实验中，成功率比现有LLM基线高2.5倍，首次在夜间场景实现超越视野导航。
 
 ## 摘要（原文）
 

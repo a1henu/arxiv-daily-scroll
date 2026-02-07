@@ -9,10 +9,10 @@ title: CompactRAG: Reducing LLM Calls and Token Overhead in Multi-Hop Question A
 
 **一句话要点**：提出CompactRAG以减少多跳问答中的LLM调用和令牌开销
 
-**关键词**：检索增强生成, 多跳问答, 知识库构建, 令牌优化, 实体一致性
+**关键词**：检索增强生成, 多跳问答, 知识库构建, 查询分解, 令牌优化
 
 ## 3 点简述
-- 现有RAG系统在多跳推理中效率低下，需反复调用LLM并消耗高令牌
+- 现有RAG系统在多跳问答中效率低下，需反复调用LLM并消耗高令牌
 - 离线阶段将语料转换为原子QA知识库，在线阶段通过查询分解和密集检索减少LLM调用
 - 在HotpotQA等数据集上实现竞争性准确度，显著降低令牌消耗
 

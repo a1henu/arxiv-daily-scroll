@@ -7,9 +7,9 @@ title: Distributional Reinforcement Learning with Diffusion Bridge Critics
 **arXiv**：[2602.05783v1](https://arxiv.org/abs/2602.05783) · [PDF](https://arxiv.org/pdf/2602.05783.pdf)  
 **作者**：Shutong Ding, Yimiao Zhou, Ke Hu, Mokai Pan, Shan Zhong, Yanwei Fu, Jingya Wang, Ye Shi  
 
-**一句话要点**：提出扩散桥评论家以提升强化学习中的价值分布估计准确性
+**一句话要点**：提出扩散桥评论家以提升强化学习中的价值分布估计精度
 
-**关键词**：分布强化学习, 扩散桥模型, 价值分布估计, 逆累积分布函数, MuJoCo控制, 即插即用组件
+**关键词**：分布强化学习, 扩散桥模型, 价值分布估计, 逆累积分布函数, 机器人控制, 即插即用组件
 
 ## 3 点简述
 - 现有扩散强化学习方法忽视评论家，而价值估计对策略优化至关重要

@@ -7,14 +7,14 @@ title: ContextBench: A Benchmark for Context Retrieval in Coding Agents
 **arXiv**：[2602.05892v1](https://arxiv.org/abs/2602.05892) · [PDF](https://arxiv.org/pdf/2602.05892.pdf)  
 **作者**：Han Li, Letian Zhu, Bohan Zhang, Rili Feng, Jiaming Wang, Yue Pan, Earl T. Barr, Sarro Federica, Zhaoyang Chu, He Ye  
 
-**一句话要点**：提出ContextBench基准以评估编码代理在问题解决中的上下文检索过程
+**一句话要点**：提出ContextBench基准以评估编码代理中的上下文检索过程
 
-**关键词**：编码代理评估, 上下文检索基准, 过程导向分析, LLM推理, 软件任务, 自动化评估
+**关键词**：编码代理, 上下文检索, 基准评估, 过程导向, LLM评估, 软件工程
 
 ## 3 点简述
 - 现有评估聚焦任务成功，缺乏对编码代理上下文检索过程的洞察
 - ContextBench包含多语言任务和人工标注的黄金上下文，支持自动化评估框架
-- 实验显示代理架构对检索提升有限，LLM偏好召回率，存在探索与利用差距
+- 实验显示代理架构对上下文检索提升有限，LLM偏好召回而非精确度
 
 ## 摘要（原文）
 

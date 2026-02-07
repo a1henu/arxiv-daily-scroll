@@ -7,14 +7,14 @@ title: OmniVideo-R1: Reinforcing Audio-visual Reasoning with Query Intention and
 **arXiv**：[2602.05847v1](https://arxiv.org/abs/2602.05847) · [PDF](https://arxiv.org/pdf/2602.05847.pdf)  
 **作者**：Zhangquan Chen, Jiale Tao, Ruihuang Li, Yihao Hu, Ruitao Chen, Zhantao Yang, Xinlei Yu, Haodong Jing, Manyuan Zhang, Shuai Shao, Biao Wang, Qinglin Lu, Ruqi Huang  
 
-**一句话要点**：提出OmniVideo-R1框架，通过查询意图与模态注意力增强音视频推理能力
+**一句话要点**：提出OmniVideo-R1以增强音频-视频混合模态推理能力
 
-**关键词**：音视频理解, 多模态融合, 自监督学习, 对比学习, 全视频模型
+**关键词**：音频-视频理解, 混合模态推理, 查询意图基础, 模态注意力融合, 全视频模型
 
 ## 3 点简述
-- 现有全视频模型在音视频理解任务中面临挑战，难以实现多模态协同感知
-- 采用基于自监督学习的查询密集定位和基于对比学习的模态注意力融合策略
-- 在多个基准测试中表现优于基线，验证了其有效性和泛化能力
+- 现有全视频模型在音频-视频理解任务中面临挑战
+- 采用查询意图基础和模态注意力融合两种策略
+- 在多个基准测试中表现优于基线，展示泛化能力
 
 ## 摘要（原文）
 

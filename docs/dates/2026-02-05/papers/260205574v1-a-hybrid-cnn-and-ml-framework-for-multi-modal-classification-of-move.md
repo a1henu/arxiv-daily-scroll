@@ -14,7 +14,7 @@ title: A Hybrid CNN and ML Framework for Multi-modal Classification of Movement 
 ## 3 点简述
 - 核心问题：非典型帕金森病早期与帕金森病临床特征重叠，导致误诊，需可靠影像生物标志物进行早期鉴别诊断。
 - 方法要点：融合T1加权MRI、12个深部脑结构分割掩模及其体积测量，结合CNN提取图像特征与机器学习处理定量特征。
-- 实验或效果：在PSP vs. PD、MSA vs. PD和PSP vs. MSA分类中，AUC分别达0.95、0.86和0.92，显示多模态整合提升分类性能。
+- 实验或效果：在PSP vs. PD、MSA vs. PD和PSP vs. MSA分类中，AUC分别达0.95、0.86和0.92，显示多模态信息整合提升分类性能。
 
 ## 摘要（原文）
 

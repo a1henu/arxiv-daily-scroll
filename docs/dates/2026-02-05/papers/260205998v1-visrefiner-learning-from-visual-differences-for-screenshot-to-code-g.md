@@ -14,7 +14,7 @@ title: VisRefiner: Learning from Visual Differences for Screenshot-to-Code Gener
 ## 3 点简述
 - 现有模型直接从截图生成代码，但未观察生成代码的视觉结果，导致布局和样式保真度不足。
 - VisRefiner引入差异对齐监督，关联视觉差异与代码编辑，并采用强化学习阶段进行自优化。
-- 实验表明，VisRefiner显著提升单步生成质量和布局保真度，并赋予模型强大的自优化能力。
+- 实验表明，VisRefiner显著提高单步生成质量和布局保真度，并赋予模型强大的自优化能力。
 
 ## 摘要（原文）
 

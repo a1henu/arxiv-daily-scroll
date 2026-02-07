@@ -7,14 +7,14 @@ title: Evaluating the impact of word embeddings on similarity scoring in practic
 **arXiv**：[2602.05734v1](https://arxiv.org/abs/2602.05734) · [PDF](https://arxiv.org/pdf/2602.05734.pdf)  
 **作者**：Niall McCarroll, Kevin Curran, Eugene McNamee, Angela Clist, Andrew Brammer  
 
-**一句话要点**：评估词嵌入对信息检索相似性评分的影响，提出结合WMD与GloVe的方法提升准确性
+**一句话要点**：评估词嵌入在信息检索相似性评分中的影响，提出基于词移距离的改进方法
 
 **关键词**：信息检索, 词嵌入, 词移距离, 相似性评分, 语义表示, 自然语言处理
 
 ## 3 点简述
-- 核心问题：传统基于词嵌入质心的相似性度量在信息检索中可能不足，需更精确捕捉查询与语句的语义关联
-- 方法要点：采用词移距离模型，通过计算查询与语句中单个词的距离来评估相似性，结合预训练词嵌入如GloVe
-- 实验或效果：在排名查询和响应语句上，WMD+GloVe组合显著优于Doc2Vec和LSA等先进模型，实现领域无关的便携解决方案
+- 核心问题：传统基于词嵌入质心的相似性度量在信息检索中可能不足，需更精确捕捉查询与文档的语义关联。
+- 方法要点：采用词移距离模型，通过计算查询与语句中单个词的距离来评估相似性，结合预训练词嵌入如GloVe。
+- 实验或效果：WMD+GloVe组合在排名查询和响应语句中显著提升准确性，优于Doc2Vec和LSA等先进模型。
 
 ## 摘要（原文）
 

@@ -14,7 +14,7 @@ title: Self-Supervised Learning with a Multi-Task Latent Space Objective
 ## 3 点简述
 - 核心问题：多裁剪策略在BYOL等预测器架构中导致训练不稳定，源于共享预测器。
 - 方法要点：为每种视图类型分配独立预测器，并引入掩码视图，形成多任务非对称孪生网络框架。
-- 实验或效果：方法稳定，适用于多种骨干网络，在ImageNet上显著提升ResNet和ViT模型性能。
+- 实验或效果：方法稳定，适用于ResNet和ViT等骨干网络，在ImageNet上显著提升性能。
 
 ## 摘要（原文）
 

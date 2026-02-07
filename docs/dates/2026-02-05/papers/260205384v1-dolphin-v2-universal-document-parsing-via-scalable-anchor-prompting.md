@@ -7,13 +7,13 @@ title: Dolphin-v2: Universal Document Parsing via Scalable Anchor Prompting
 **arXiv**：[2602.05384v1](https://arxiv.org/abs/2602.05384) · [PDF](https://arxiv.org/pdf/2602.05384.pdf)  
 **作者**：Hao Feng, Wei Shi, Ke Zhang, Xiang Fei, Lei Liao, Dingkang Yang, Yongkun Du, Xuecheng Wu, Jingqun Tang, Yang Liu, Hong Chen, Can Huang  
 
-**一句话要点**：提出Dolphin-v2通过可扩展锚点提示实现通用文档解析，解决文档类型多样与几何失真问题。
+**一句话要点**：提出Dolphin-v2通过可扩展锚点提示实现通用文档解析，以解决文档类型多样化和布局扭曲问题。
 
-**关键词**：文档解析, 视觉语言模型, 布局分析, 锚点提示, 混合解析策略, 并行处理
+**关键词**：文档解析, 视觉语言模型, 布局分析, 锚点提示, 混合解析, 并行处理
 
 ## 3 点简述
-- 核心问题：文档解析领域模型碎片化，现有方法依赖轴对齐边界框，难以处理拍摄文档的几何失真。
-- 方法要点：采用两阶段解析，第一阶段联合文档类型分类与布局分析，第二阶段根据类型采用混合策略进行内容提取。
+- 核心问题：文档解析领域模型碎片化，依赖轴对齐边界框难以处理扭曲或拍摄文档。
+- 方法要点：两阶段模型，结合文档类型分类与布局分析，采用混合解析策略处理数字原生和拍摄文档。
 - 实验或效果：在OmniDocBench上整体提升14.78分，拍摄文档错误减少91%，支持并行处理保持高效推理。
 
 ## 摘要（原文）

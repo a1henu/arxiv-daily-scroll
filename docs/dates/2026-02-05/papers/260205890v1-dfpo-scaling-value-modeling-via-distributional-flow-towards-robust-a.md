@@ -7,14 +7,14 @@ title: DFPO: Scaling Value Modeling via Distributional Flow towards Robust and G
 **arXiv**：[2602.05890v1](https://arxiv.org/abs/2602.05890) · [PDF](https://arxiv.org/pdf/2602.05890.pdf)  
 **作者**：Dingwei Zhu, Zhiheng Xi, Shihan Dou, Jiahan Li, Chenhao Huang, Junjie Ye, Sixian Li, Mingxu Chai, Yuhui Wang, Yajie Yang, Ming Zhang, Jiazheng Zhang, Shichun Liu, Caishuang Huang, Yunke Zhang, Yuran Wang, Tao Gui, Xipeng Qiu, Qi Zhang, Xuanjing Huang  
 
-**一句话要点**：提出DFPO以增强大语言模型后训练在噪声监督下的鲁棒性和泛化能力
+**一句话要点**：提出DFPO以增强LLM后训练中强化学习的鲁棒性和泛化能力
 
-**关键词**：分布强化学习, 大语言模型后训练, 值流建模, 噪声监督, 鲁棒性优化, 泛化能力
+**关键词**：分布强化学习, LLM后训练, 值流建模, 鲁棒性优化, 泛化能力
 
 ## 3 点简述
-- 核心问题：分布强化学习在噪声监督和域外泛化中因值表示粗糙而表现不佳
-- 方法要点：通过建模值流场替代孤立分位数预测，捕获更丰富状态信息
-- 实验或效果：在对话、数学推理和科学任务上优于PPO等基线，提升稳定性和泛化
+- 核心问题：强化学习在真实环境中面临噪声监督和域外泛化挑战，尤其在LLM后训练中。
+- 方法要点：通过建模值流场替代独立分位数预测，结合条件风险控制和一致性约束提升稳定性。
+- 实验或效果：在对话、数学推理和科学任务上优于PPO和FlowRL等基线，改善训练稳定性和泛化。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: E.M.Ground: A Temporal Grounding Vid-LLM with Holistic Event Perception a
 **arXiv**：[2602.05215v1](https://arxiv.org/abs/2602.05215) · [PDF](https://arxiv.org/pdf/2602.05215.pdf)  
 **作者**：Jiahao Nie, Wenbin An, Gongjie Zhang, Yicheng Xu, Yap-Peng Tan, Alex C. Kot, Shijian Lu  
 
-**一句话要点**：提出E.M.Ground以解决视频大语言模型在时序视频定位中的语义连续性问题
+**一句话要点**：提出E.M.Ground以解决视频大语言模型在时序视频定位中事件语义连续性和完整性不足的问题
 
 **关键词**：时序视频定位, 视频大语言模型, 事件感知, 语义连续性, 帧特征聚合, 噪声平滑
 
 ## 3 点简述
 - 核心问题：现有方法依赖精确时间戳匹配起止帧，忽略事件语义连续性，导致定位模糊。
 - 方法要点：引入<event>令牌聚合事件所有帧信息，使用Savitzky-Golay平滑减少噪声，多粒度帧特征聚合增强匹配可靠性。
-- 实验或效果：在基准数据集上显著超越现有最先进视频大语言模型，验证了方法的有效性。
+- 实验或效果：在基准数据集上实验显示，E.M.Ground显著超越现有最先进视频大语言模型。
 
 ## 摘要（原文）
 

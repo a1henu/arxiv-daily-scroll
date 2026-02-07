@@ -7,14 +7,14 @@ title: Reasoning-guided Collaborative Filtering with Language Models for Explain
 **arXiv**：[2602.05544v1](https://arxiv.org/abs/2602.05544) · [PDF](https://arxiv.org/pdf/2602.05544.pdf)  
 **作者**：Fahad Anwaar, Adil Mehmood Khan, Muhammad Khalid, Usman Zia, Kezhi Wang  
 
-**一句话要点**：提出RGCF-XRec框架，通过推理引导的协同过滤知识增强语言模型，实现一步式可解释序列推荐。
+**一句话要点**：提出RGCF-XRec框架，通过推理引导协同过滤与语言模型结合，实现一步可解释序列推荐。
 
 **关键词**：可解释推荐, 协同过滤, 语言模型, 序列推荐, 推理引导, 统一表示学习
 
 ## 3 点简述
-- 核心问题：现有方法忽视协同信号或将推荐与解释分离，导致内存开销和性能限制。
-- 方法要点：引入推理引导的协同过滤知识，结合高效评分机制和统一表示学习网络，优化解释质量。
-- 实验或效果：在Amazon数据集上提升HR@10和ROUGE-L指标，减少冷启动差距，并实现训练效率。
+- 核心问题：现有方法忽视协同信号，推荐与解释分离导致内存开销和性能限制。
+- 方法要点：引入推理引导协同过滤知识，结合四维评分机制和统一表示学习网络，优化解释质量。
+- 实验或效果：在Amazon数据集上提升HR@10和ROUGE-L，减少冷启动差距，增强泛化能力。
 
 ## 摘要（原文）
 

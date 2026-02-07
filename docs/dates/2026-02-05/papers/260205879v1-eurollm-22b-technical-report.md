@@ -7,14 +7,14 @@ title: EuroLLM-22B: Technical Report
 **arXiv**：[2602.05879v1](https://arxiv.org/abs/2602.05879) · [PDF](https://arxiv.org/pdf/2602.05879.pdf)  
 **作者**：Miguel Moura Ramos, Duarte M. Alves, Hippolyte Gisserot-Boukhlef, João Alves, Pedro Henrique Martins, Patrick Fernandes, José Pombal, Nuno M. Guerreiro, Ricardo Rei, Nicolas Boizard, Amin Farajian, Mateusz Klimaszewski, José G. C. de Souza, Barry Haddow, François Yvon, Pierre Colombo, Alexandra Birch, André F. T. Martins  
 
-**一句话要点**：提出EuroLLM-22B以解决欧洲语言在现有大语言模型中代表性不足的问题，支持35种语言。
+**一句话要点**：提出EuroLLM-22B以解决欧洲语言在现有大语言模型中代表性不足的问题，支持多语言需求。
 
-**关键词**：多语言大语言模型, 欧洲语言支持, 从零训练, 指令调优, 翻译性能, 开放数据发布
+**关键词**：多语言大语言模型, 欧洲语言支持, 从头训练, 指令调优, 多语言基准测试, 开源发布
 
 ## 3 点简述
-- 核心问题：欧洲语言在开放大语言模型中代表性不足，影响欧洲公民需求。
-- 方法要点：从零训练EuroLLM-22B，覆盖24种欧盟官方语言和11种额外语言，包括分词器设计、数据过滤和训练过程。
-- 实验或效果：在多语言基准测试中表现优异，在推理、指令遵循和翻译方面与同类模型竞争。
+- 核心问题：欧洲语言在开放大语言模型中代表性不足，影响欧洲公民使用。
+- 方法要点：从头训练模型，覆盖24种欧盟官方语言和11种额外语言，包括分词器设计和数据过滤。
+- 实验或效果：在多项多语言基准测试中表现优异，推理、指令遵循和翻译能力与同类模型竞争。
 
 ## 摘要（原文）
 

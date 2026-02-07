@@ -7,14 +7,14 @@ title: A Short and Unified Convergence Analysis of the SAG, SAGA, and IAG Algori
 **arXiv**：[2602.05304v1](https://arxiv.org/abs/2602.05304) · [PDF](https://arxiv.org/pdf/2602.05304.pdf)  
 **作者**：Feng Zhu, Robert W. Heath, Aritra Mitra  
 
-**一句话要点**：提出统一收敛分析框架，适用于SAG、SAGA和IAG算法，针对光滑强凸有限和优化问题。
+**一句话要点**：提出统一收敛分析框架，适用于SAG、SAGA和IAG算法，针对平滑强凸有限和优化问题。
 
-**关键词**：随机方差缩减算法, 有限和优化, 收敛分析, Lyapunov函数, 强凸目标函数
+**关键词**：随机方差缩减算法, 有限和优化, 收敛分析, Lyapunov函数, 平滑强凸目标, 高概率界
 
 ## 3 点简述
-- 现有SAG、SAGA和IAG算法分析分散且复杂，缺乏统一理论框架。
-- 通过延迟边界和新Lyapunov函数设计，提供简短模块化收敛证明。
-- 获得SAG和SAGA的高概率界，并改进IAG算法的最佳已知收敛率。
+- 现有SAG、SAGA和IAG算法分析分散，依赖不同证明技术，SAG原始证明复杂。
+- 开发统一收敛分析，基于延迟边界和新Lyapunov函数设计，证明简洁模块化。
+- 获得SAG和SAGA的高概率界，可扩展至非凸目标和马尔可夫采样，改进IAG算法已知最优速率。
 
 ## 摘要（原文）
 

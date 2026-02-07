@@ -7,14 +7,14 @@ title: IndustryShapes: An RGB-D Benchmark dataset for 6D object pose estimation 
 **arXiv**：[2602.05555v1](https://arxiv.org/abs/2602.05555) · [PDF](https://arxiv.org/pdf/2602.05555.pdf)  
 **作者**：Panagiotis Sapoutzoglou, Orestis Vaggelis, Athina Zacharia, Evangelos Sartinas, Maria Pateraki  
 
-**一句话要点**：提出IndustryShapes数据集以评估工业场景下的6D物体姿态估计方法
+**一句话要点**：提出IndustryShapes数据集以解决工业场景中6D物体姿态估计的基准测试需求
 
-**关键词**：6D姿态估计, 工业机器人, RGB-D数据集, 基准测试, 实例级估计, 新物体估计
+**关键词**：6D物体姿态估计, 工业机器人, RGB-D数据集, 基准测试, 实例级姿态估计, 新物体姿态估计
 
 ## 3 点简述
-- 核心问题：现有数据集多关注家庭或合成环境，缺乏工业装配场景的真实数据
+- 核心问题：现有数据集多关注家庭或合成场景，缺乏工业组装环境的真实数据
 - 方法要点：提供RGB-D基准数据集，包含经典集和扩展集，支持实例级和新物体姿态估计
-- 实验或效果：在代表性方法上评估，显示该领域仍有改进空间，数据集公开可用
+- 实验或效果：评估现有方法显示该领域仍有改进空间，数据集包含静态上架序列
 
 ## 摘要（原文）
 

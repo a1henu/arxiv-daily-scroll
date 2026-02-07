@@ -7,14 +7,14 @@ title: ProAct: Agentic Lookahead in Interactive Environments
 **arXiv**：[2602.05327v1](https://arxiv.org/abs/2602.05327) · [PDF](https://arxiv.org/pdf/2602.05327.pdf)  
 **作者**：Yangbin Yu, Mingyu Yang, Junyou Li, Yiming Gao, Feiyu Liu, Yijun Yang, Zichuan Lin, Jiafei Lyu, Yicheng Liu, Zhicong Lu, Deheng Ye, Jie Jiang  
 
-**一句话要点**：提出ProAct框架，通过两阶段训练解决LLM智能体在交互环境中长程规划的复合误差问题。
+**一句话要点**：提出ProAct框架，通过两阶段训练解决交互环境中LLM代理的长时规划错误问题。
 
-**关键词**：长程规划, 蒸馏训练, 价值估计, 交互环境, 策略优化, 泛化能力
+**关键词**：长时规划, 蒸馏训练, 值估计, 交互环境, 强化学习
 
 ## 3 点简述
-- 现有LLM智能体在交互环境中因模拟未来状态时复合误差而难以进行长程规划。
-- ProAct采用Grounded LookAhead Distillation和Monte-Carlo Critic两阶段训练，前者通过监督微调压缩搜索树为因果推理链，后者通过轻量环境模拟校准价值估计以稳定策略优化。
-- 在随机和确定性环境实验中，ProAct显著提升规划准确性，4B参数模型超越开源基线并媲美闭源模型，展现强泛化能力。
+- 现有LLM代理在交互环境中因未来状态模拟误差累积而规划困难。
+- 采用GLAD蒸馏搜索轨迹和MC-Critic辅助值估计，提升规划准确性和稳定性。
+- 在随机和确定性环境中实验显示，ProAct显著优于开源基线并媲美闭源模型。
 
 ## 摘要（原文）
 

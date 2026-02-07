@@ -7,13 +7,13 @@ title: TaSA: Two-Phased Deep Predictive Learning of Tactile Sensory Attenuation 
 **arXiv**：[2602.05468v1](https://arxiv.org/abs/2602.05468) · [PDF](https://arxiv.org/pdf/2602.05468.pdf)  
 **作者**：Pranav Ponnivalavan, Satoshi Funabashi, Alexander Schmitz, Tetsuya Ogata, Shigeki Sugano  
 
-**一句话要点**：提出TaSA框架，通过两阶段深度预测学习触觉感官衰减，以提升机器人抓取内操作性能。
+**一句话要点**：提出TaSA框架，通过两阶段深度预测学习触觉感官衰减，以提升机器人抓取内操作能力。
 
 **关键词**：触觉感知, 感官衰减, 深度预测学习, 机器人抓取操作, 自接触建模
 
 ## 3 点简述
 - 核心问题：机器人抓取操作中难以区分自接触与外部接触的触觉信号，导致操作失败或损坏。
-- 方法要点：采用两阶段学习，先建模自接触触觉动态，再融入运动学习以突出物体接触信号。
+- 方法要点：采用两阶段学习，先学习自接触触觉动态，再融入运动学习以突出物体接触信号。
 - 实验或效果：在插入任务中，TaSA策略相比基线方法显著提高成功率，验证了感官衰减对灵巧操作的重要性。
 
 ## 摘要（原文）

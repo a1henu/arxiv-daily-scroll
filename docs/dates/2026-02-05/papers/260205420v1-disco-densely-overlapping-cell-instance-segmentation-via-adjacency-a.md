@@ -7,14 +7,14 @@ title: Disco: Densely-overlapping Cell Instance Segmentation via Adjacency-aware
 **arXiv**：[2602.05420v1](https://arxiv.org/abs/2602.05420) · [PDF](https://arxiv.org/pdf/2602.05420.pdf)  
 **作者**：Rui Sun, Yiwen Yang, Kaiyu Guo, Chen Jiang, Dongli Xu, Zhaonan Liu, Tan Pan, Limei Han, Xue Jiang, Wu Wei, Yuan Cheng  
 
-**一句话要点**：提出Disco框架，通过邻接感知协同着色解决密集重叠细胞实例分割问题。
+**一句话要点**：提出Disco框架，通过邻接感知协同着色解决密集重叠细胞实例分割问题
 
-**关键词**：细胞实例分割, 图着色, 深度学习, 邻接感知, 密集重叠, 拓扑分析
+**关键词**：细胞实例分割, 图着色, 密集重叠, 邻接感知, 深度学习, 病理分析
 
 ## 3 点简述
-- 核心问题：现有方法在复杂密集细胞区域处理困难，图着色方法在真实场景有效性未知。
-- 方法要点：基于数据驱动拓扑标记和约束深度学习，分解细胞图并解决邻接冲突。
-- 实验或效果：发布GBC-FS 2025数据集，分析细胞图色性，验证模型在复杂组织中的性能。
+- 核心问题：现有方法在处理密集重叠细胞区域时面临挑战，图着色方法在复杂拓扑中有效性未知
+- 方法要点：基于数据驱动拓扑标记和约束深度学习，分解细胞图并解决邻接冲突
+- 实验或效果：发布GBC-FS 2025数据集，分析细胞图色性，验证模型在复杂组织中的性能
 
 ## 摘要（原文）
 

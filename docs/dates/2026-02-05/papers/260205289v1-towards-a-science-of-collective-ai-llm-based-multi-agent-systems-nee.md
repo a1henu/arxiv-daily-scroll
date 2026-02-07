@@ -7,14 +7,14 @@ title: Towards a Science of Collective AI: LLM-based Multi-Agent Systems Need a 
 **arXiv**：[2602.05289v1](https://arxiv.org/abs/2602.05289) · [PDF](https://arxiv.org/pdf/2602.05289.pdf)  
 **作者**：Jingru Fan, Dewen Liu, Yufan Dang, Huatao Li, Yuheng Wang, Wei Liu, Feiyu Duan, Xuanwen Ding, Shu Yao, Lin Wu, Ruijie Shi, Wai-Shing Leung, Yuan Cheng, Zhongyu Wei, Cheng Yang, Chen Qian, Zhiyuan Liu, Maosong Sun  
 
-**一句话要点**：提出基于协作增益度量的科学框架，以推动LLM多智能体系统从经验试错转向严谨科学
+**一句话要点**：提出基于协作增益度量的科学框架，以解决LLM多智能体系统依赖试错的问题
 
-**关键词**：多智能体系统, 大语言模型, 协作增益度量, 因子归因, 科学框架, 集体AI
+**关键词**：多智能体系统, 大语言模型, 协作增益度量, 因子归因, 科学框架, 集体人工智能
 
 ## 3 点简述
 - 核心问题：LLM多智能体系统缺乏统一科学框架，依赖试错，难以区分协作增益与资源积累
-- 方法要点：建立协作增益度量Γ作为标准，并构建因子归因范式和系统化因子库
-- 实验或效果：未知，但框架旨在促进系统优化，为集体AI科学奠定基础
+- 方法要点：建立协作增益度量Γ作为标准，提出因子归因范式，构建系统化因子库
+- 实验或效果：未知
 
 ## 摘要（原文）
 

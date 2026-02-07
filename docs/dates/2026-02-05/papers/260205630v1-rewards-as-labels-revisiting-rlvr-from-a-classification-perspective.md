@@ -7,14 +7,14 @@ title: Rewards as Labels: Revisiting RLVR from a Classification Perspective
 **arXiv**：[2602.05630v1](https://arxiv.org/abs/2602.05630) · [PDF](https://arxiv.org/pdf/2602.05630.pdf)  
 **作者**：Zepeng Zhai, Meilin Chen, Jiaxuan Zhao, Junlang Qian, Lei Shen, Yuan Lu  
 
-**一句话要点**：提出REAL框架，将可验证奖励视为分类标签以解决强化学习中梯度分配问题，提升大语言模型推理性能。
+**一句话要点**：提出REAL框架，将可验证奖励视为分类标签以解决强化学习中梯度分配失衡问题。
 
-**关键词**：强化学习, 可验证奖励, 分类视角, 梯度分配, 大语言模型, 数学推理
+**关键词**：强化学习, 可验证奖励, 分类视角, 梯度分配, 数学推理, 策略优化
 
 ## 3 点简述
-- 核心问题：RLVR方法如GRPO存在梯度误分配和梯度主导，导致策略更新低效。
-- 方法要点：REAL将奖励重新定义为分类标签，引入锚定logits，将策略优化转化为分类问题。
-- 实验或效果：在数学推理基准测试中，REAL稳定训练，性能优于GRPO和DAPO，模型规模扩展时增益持续。
+- 核心问题：GRPO等RLVR方法存在梯度正样本误分配和负样本主导，导致策略更新低效。
+- 方法要点：REAL将奖励重新定义为分类标签，引入锚定逻辑值，将策略优化转化为分类问题。
+- 实验或效果：在数学推理基准测试中，REAL提升训练稳定性，优于GRPO和DAPO，性能随模型规模扩展。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: Towards Worst-Case Guarantees with Scale-Aware Interpretability
 **arXiv**：[2602.05184v1](https://arxiv.org/abs/2602.05184) · [PDF](https://arxiv.org/pdf/2602.05184.pdf)  
 **作者**：Lauren Greenspan, David Berman, Aryeh Brill, Ro Jefferson, Artemy Kolchinsky, Jennifer Lin, Andrew Mack, Anindita Maiti, Fernando E. Rosas, Alexander Stapleton, Lucas Teixeira, Dmitry Vaintrob  
 
-**一句话要点**：提出尺度感知可解释性框架，结合重整化理论以增强神经网络解释的鲁棒性和忠实性。
+**一句话要点**：提出尺度感知可解释性研究议程，以增强神经网络可解释性的鲁棒性和忠实性
 
-**关键词**：尺度感知可解释性, 神经网络解释, 重整化理论, AI安全, 多尺度特征, 鲁棒性保证
+**关键词**：尺度感知可解释性, 神经网络可解释性, 重整化框架, AI安全, 统计物理, 鲁棒性保证
 
 ## 3 点简述
-- 核心问题：现有神经网络解释方法缺乏对多尺度特征组合的显式追踪和细粒度噪声影响的保证。
-- 方法要点：引入物理重整化框架，开发理论工具以克服当前方法的局限性，实现尺度感知解释。
-- 实验或效果：未知，但提出统一研究议程，旨在合成跨领域成果为AI安全提供实用工具。
+- 核心问题：当前可解释性方法缺乏对自然数据多尺度结构的显式追踪和保证，无法处理细粒度噪声的影响
+- 方法要点：借鉴物理学的重整化框架，开发形式化工具，以跨分辨率跟踪特征组合并保证边界
+- 实验或效果：未知，但旨在合成相邻领域成熟研究，构建理论指导的实用工具
 
 ## 摘要（原文）
 

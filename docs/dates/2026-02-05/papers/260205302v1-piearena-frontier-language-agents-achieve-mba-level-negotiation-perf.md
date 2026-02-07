@@ -7,14 +7,14 @@ title: PieArena: Frontier Language Agents Achieve MBA-Level Negotiation Performa
 **arXiv**：[2602.05302v1](https://arxiv.org/abs/2602.05302) · [PDF](https://arxiv.org/pdf/2602.05302.pdf)  
 **作者**：Chris Zhu, Sasha Cui, Will Sanok Dufallo, Runzhi Jin, Zhen Xu, Linjun Zhang, Daylian Cain  
 
-**一句话要点**：提出PieArena基准，评估语言模型在MBA级谈判场景中的性能与行为差异
+**一句话要点**：提出PieArena基准，评估语言模型在MBA级谈判场景中的性能与行为差异。
 
-**关键词**：语言模型评估, 多智能体谈判, MBA场景基准, 行为分析, 战略推理
+**关键词**：语言模型评估, 谈判基准, 多智能体交互, 行为分析, AGI性能
 
 ## 3 点简述
-- 核心问题：评估LLMs在谈判任务中的能力，涉及战略推理、心智理论和经济价值创造
-- 方法要点：基于精英商学院MBA课程构建大规模多智能体谈判基准PieArena
-- 实验或效果：前沿模型GPT-5达到或超越商学院学生水平，揭示模型在欺骗、计算准确性等方面的行为异质性
+- 核心问题：评估LLMs在谈判任务中的能力，涉及战略推理、心智理论和经济价值创造。
+- 方法要点：基于精英商学院MBA课程的真实场景，构建大规模多智能体谈判基准PieArena。
+- 实验或效果：前沿模型GPT-5匹配或超越商学院学生，揭示模型在欺骗、计算准确性等方面的行为异质性。
 
 ## 摘要（原文）
 

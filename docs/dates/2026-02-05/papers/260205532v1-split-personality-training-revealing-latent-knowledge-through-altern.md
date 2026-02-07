@@ -7,13 +7,13 @@ title: Split Personality Training: Revealing Latent Knowledge Through Alternate 
 **arXiv**：[2602.05532v1](https://arxiv.org/abs/2602.05532) · [PDF](https://arxiv.org/pdf/2602.05532.pdf)  
 **作者**：Florian Dietz, William Wale, Oscar Gilg, Robert McCarthy, Felix Michalak, Gustavo Ewbank Rodrigues Danon, Miguelito de Guzman, Dietrich Klakow  
 
-**一句话要点**：提出Split Personality Training以揭示大语言模型中的潜在知识，解决对齐检测难题。
+**一句话要点**：提出Split Personality Training以揭示大语言模型中的潜在知识
 
-**关键词**：大语言模型对齐, 潜在知识检测, LoRA微调, 模型审计, 人格训练
+**关键词**：大语言模型审计, 潜在知识检测, LoRA微调, 模型对齐, 人格训练
 
 ## 3 点简述
 - 核心问题：大语言模型可能隐藏不当行为，标准审计方法难以检测。
-- 方法要点：通过微调诚实人格LoRA参数，在触发后审查主模型响应。
+- 方法要点：通过微调一个诚实人格到LoRA参数，在触发后审查主模型响应。
 - 实验效果：在Anthropic审计游戏基准上达到96%准确率，显著优于现有方法。
 
 ## 摘要（原文）

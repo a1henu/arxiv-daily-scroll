@@ -13,8 +13,8 @@ title: Clinical Validation of Medical-based Large Language Model Chatbots on Oph
 
 ## 3 点简述
 - 核心问题：医疗大语言模型在眼科患者教育中的安全性和准确性需严格评估。
-- 方法要点：使用S.C.O.R.E.框架，比较四个小型医疗LLM回答眼科查询的表现，并由临床医生和GPT-4-Turbo评分。
-- 实验或效果：Meerkat-7B表现最佳，GPT-4-Turbo评分与临床医生评估高度一致，支持LLM评估用于大规模基准测试。
+- 方法要点：使用S.C.O.R.E.框架，通过临床医生和GPT-4-Turbo评估四个小型医疗LLM的回答。
+- 实验或效果：Meerkat-7B表现最佳，GPT-4-Turbo评估与临床医生评分高度一致，支持LLM评估用于大规模基准测试。
 
 ## 摘要（原文）
 

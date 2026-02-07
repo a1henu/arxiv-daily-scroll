@@ -9,7 +9,7 @@ title: THOR: Inductive Link Prediction over Hyper-Relational Knowledge Graphs
 
 **一句话要点**：提出THOR以解决超关系知识图谱的归纳链接预测问题
 
-**关键词**：超关系知识图谱, 归纳链接预测, 图神经网络, Transformer, 结构不变性, 基础图建模
+**关键词**：超关系知识图谱, 归纳链接预测, 图神经网络, Transformer, 结构不变性
 
 ## 3 点简述
 - 核心问题：现有超关系知识图谱链接预测方法多为转导式，无法泛化到未见词汇。

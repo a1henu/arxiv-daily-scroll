@@ -7,14 +7,14 @@ title: Fast-SAM3D: 3Dfy Anything in Images but Faster
 **arXiv**：[2602.05293v1](https://arxiv.org/abs/2602.05293) · [PDF](https://arxiv.org/pdf/2602.05293.pdf)  
 **作者**：Weilun Feng, Mingqiang Wu, Zhiliang Chen, Chuanguang Yang, Haotong Qin, Yuqi Li, Xiaokun Liu, Guoxin Fan, Zhulin An, Libo Huang, Yulun Zhang, Michele Magno, Yongjun Xu  
 
-**一句话要点**：提出Fast-SAM3D框架以加速SAM3D的3D重建，通过动态对齐计算与生成复杂度。
+**一句话要点**：提出Fast-SAM3D框架以加速单视图3D生成，通过动态对齐计算与生成复杂度。
 
-**关键词**：3D重建, 推理加速, 异构性感知, 单视图生成, 训练免费框架
+**关键词**：3D重建, 推理加速, 异构计算, 单视图生成, 训练免费框架
 
 ## 3 点简述
 - 核心问题：SAM3D的推理延迟高，通用加速策略因忽视多级异构性而失效。
 - 方法要点：集成模态感知步缓存、联合时空令牌雕刻和频谱感知令牌聚合机制。
-- 实验或效果：实现最高2.67倍端到端加速，保真度损失可忽略，建立高效单视图3D生成新帕累托前沿。
+- 实验或效果：实现最高2.67倍端到端加速，保真度损失可忽略，建立高效帕累托前沿。
 
 ## 摘要（原文）
 

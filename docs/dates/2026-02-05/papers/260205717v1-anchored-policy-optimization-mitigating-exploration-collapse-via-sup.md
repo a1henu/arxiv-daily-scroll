@@ -7,13 +7,13 @@ title: Anchored Policy Optimization: Mitigating Exploration Collapse Via Support
 **arXiv**：[2602.05717v1](https://arxiv.org/abs/2602.05717) · [PDF](https://arxiv.org/pdf/2602.05717.pdf)  
 **作者**：Tianyi Wang, Long Li, Hongcan Guo, Yibiao Chen, Yixia Li, Yong Wang, Yun Chen, Guanhua Chen  
 
-**一句话要点**：提出锚定策略优化以解决强化学习中探索崩溃问题，通过支持约束校正实现高效锐化与弹性恢复。
+**一句话要点**：提出锚定策略优化以解决强化学习中探索崩溃问题，通过支持约束校正实现高效学习。
 
 **关键词**：强化学习, 策略优化, 探索崩溃, 支持约束, 梯度对齐, 弹性恢复
 
 ## 3 点简述
-- 核心问题：强化学习中的递归空间收缩导致探索崩溃，KL正则化引发梯度冲突。
-- 方法要点：从全局形状匹配转向支持覆盖，定义安全流形以允许锐化并选择性恢复。
+- 核心问题：强化学习验证奖励中递归空间收缩导致探索崩溃，KL正则化引发梯度冲突。
+- 方法要点：从全局形状匹配转向支持覆盖，定义安全流形允许激进锐化并选择性恢复。
 - 实验或效果：在数学基准上打破准确率-多样性权衡，显著提升Pass@1并恢复多样性。
 
 ## 摘要（原文）

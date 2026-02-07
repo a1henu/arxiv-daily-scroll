@@ -9,7 +9,7 @@ title: How to Achieve the Intended Aim of Deep Clustering Now, without Deep Lear
 
 **一句话要点**：揭示非深度学习方法通过利用分布信息实现深度聚类的目标
 
-**关键词**：深度聚类, k-means限制, 分布信息, 非深度学习, 簇发现, 数据表示
+**关键词**：深度聚类, k-means限制, 分布信息, 非深度学习, 簇形状发现, 数据表示
 
 ## 3 点简述
 - 核心问题：深度聚类是否克服了k-means无法发现任意形状、大小和密度簇的根本限制

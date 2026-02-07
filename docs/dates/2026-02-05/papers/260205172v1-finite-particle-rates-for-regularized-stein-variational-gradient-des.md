@@ -9,12 +9,12 @@ title: Finite-Particle Rates for Regularized Stein Variational Gradient Descent
 
 **一句话要点**：提出正则化Stein变分梯度下降以解决有限粒子收敛率问题
 
-**关键词**：Stein变分梯度下降, 正则化方法, 有限粒子系统, 非渐近收敛分析, Wasserstein梯度流
+**关键词**：Stein变分梯度下降, 正则化方法, 有限粒子收敛率, Wasserstein梯度流, 非渐近分析, 交互粒子系统
 
 ## 3 点简述
 - 核心问题：SVGD算法存在常数阶偏差，影响有限粒子系统的收敛分析。
-- 方法要点：引入预条件器正则化核化Wasserstein梯度，建立非渐近收敛界。
-- 实验或效果：在Fisher信息和Wasserstein距离下证明收敛，提供参数调优规则。
+- 方法要点：引入正则化预处理器修正核化Wasserstein梯度，建立非渐近收敛界。
+- 实验或效果：在连续和离散时间下，量化正则化参数、步长等调优规则，平衡梯度流近似与估计误差。
 
 ## 摘要（原文）
 

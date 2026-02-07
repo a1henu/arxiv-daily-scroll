@@ -7,14 +7,14 @@ title: EoCD: Encoder only Remote Sensing Change Detection
 **arXiv**：[2602.05882v1](https://arxiv.org/abs/2602.05882) · [PDF](https://arxiv.org/pdf/2602.05882.pdf)  
 **作者**：Mubashir Noman, Mustansar Fiaz, Hiyam Debary, Abdul Hannan, Shah Nawaz, Fahad Shahbaz Khan, Salman Khan  
 
-**一句话要点**：提出EoCD方法，通过早期融合与无参数多尺度特征融合模块简化遥感变化检测模型。
+**一句话要点**：提出EoCD方法，通过早期融合与无参数多尺度特征融合简化遥感变化检测模型。
 
 **关键词**：遥感变化检测, 早期融合, 无参数特征融合, 编码器简化, 模型复杂度降低
 
 ## 3 点简述
-- 现有方法依赖孪生编码器或复杂解码器，导致计算成本高且模型复杂。
+- 现有方法依赖孪生编码器或复杂解码器，导致计算成本高和模型复杂度大。
 - EoCD采用早期融合时间数据，并用无参数多尺度特征融合模块替代解码器，显著降低模型复杂度。
-- 在四个挑战性数据集上实验显示，EoCD在性能与预测速度间取得平衡，且性能主要依赖编码器。
+- 在四个挑战性数据集上实验显示，EoCD在性能与预测速度间取得平衡，性能主要依赖编码器。
 
 ## 摘要（原文）
 

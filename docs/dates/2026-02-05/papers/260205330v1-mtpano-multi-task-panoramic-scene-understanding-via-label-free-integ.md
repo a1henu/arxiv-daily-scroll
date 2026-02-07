@@ -7,14 +7,14 @@ title: MTPano: Multi-Task Panoramic Scene Understanding via Label-Free Integrati
 **arXiv**：[2602.05330v1](https://arxiv.org/abs/2602.05330) · [PDF](https://arxiv.org/pdf/2602.05330.pdf)  
 **作者**：Jingdong Zhang, Xiaohang Zhan, Lingzhi Zhang, Yizhou Wang, Zhengming Yu, Jionghao Wang, Wenping Wang, Xin Li  
 
-**一句话要点**：提出MTPano，通过无标签集成密集预测先验实现多任务全景场景理解
+**一句话要点**：提出MTPano，通过无标签训练集成密集预测先验，实现多任务全景场景理解。
 
 **关键词**：全景场景理解, 多任务学习, 无标签训练, 密集预测, 几何失真处理, 基础模型
 
 ## 3 点简述
-- 核心问题：全景场景理解面临标注稀缺、几何失真和坐标系差异挑战，多任务关系未充分探索。
-- 方法要点：利用透视密集先验生成伪标签，通过全景双桥网络分离旋转不变与旋转变任务特征流。
-- 实验或效果：在多个基准测试中达到最先进性能，与任务特定全景专家模型竞争。
+- 核心问题：全景场景理解面临数据稀缺、几何失真和任务间干扰挑战。
+- 方法要点：利用透视先验生成伪标签，通过全景双桥网络分离旋转不变与旋转变任务特征。
+- 实验或效果：在多个基准测试中达到最先进性能，与任务专用模型竞争。
 
 ## 摘要（原文）
 

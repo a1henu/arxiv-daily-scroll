@@ -7,14 +7,14 @@ title: Boosting SAM for Cross-Domain Few-Shot Segmentation via Conditional Point
 **arXiv**：[2602.05218v1](https://arxiv.org/abs/2602.05218) · [PDF](https://arxiv.org/pdf/2602.05218.pdf)  
 **作者**：Jiahao Nie, Yun Xing, Wenbin An, Qingsong Zhao, Jiawei Shao, Yap-Peng Tan, Alex C. Kot, Shijian Lu, Xuelong Li  
 
-**一句话要点**：提出条件点稀疏化方法以提升SAM在跨域少样本分割中的性能
+**一句话要点**：提出条件点稀疏化以提升SAM在跨域少样本分割中的性能
 
 **关键词**：跨域少样本分割, 条件点稀疏化, Segment Anything Model, 无训练方法, 点匹配优化
 
 ## 3 点简述
 - 核心问题：SAM在跨域少样本分割中，密集点匹配因域偏移导致性能下降
 - 方法要点：基于参考样本自适应稀疏化匹配点，优化SAM交互，无需训练
-- 实验或效果：在多个跨域数据集上优于现有无训练SAM方法，提升分割准确性
+- 实验或效果：在多个跨域数据集上优于现有无训练SAM方法
 
 ## 摘要（原文）
 

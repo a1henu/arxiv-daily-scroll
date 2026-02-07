@@ -13,8 +13,8 @@ title: Stable Velocity: A Variance Perspective on Flow Matching
 
 ## 3 点简述
 - 核心问题：流匹配依赖单样本条件速度导致高方差训练目标，优化不稳定且收敛慢。
-- 方法要点：提出StableVM方差减少目标和VA-REPA自适应监督，并在低方差区域实现闭式采样加速。
-- 实验或效果：在ImageNet和大模型上提升训练效率，采样速度超2倍且质量不降。
+- 方法要点：引入StableVM方差减少目标和VA-REPA自适应监督，在低方差区域简化采样。
+- 实验或效果：在ImageNet和大模型上提升训练效率，采样加速超2倍且质量不降。
 
 ## 摘要（原文）
 
