@@ -13,8 +13,8 @@ title: Capture the Flags: Family-Based Evaluation of Agentic LLMs via Semantics-
 
 ## 3 点简述
 - 现有CTF基准在评估智能体LLM对源代码变换的鲁棒性和泛化能力方面有限。
-- 引入CTF挑战家族，通过语义保留程序变换生成语义等价挑战，实现可控评估。
-- 使用Evolve-CTF工具评估13个智能体LLM配置，发现模型对某些变换鲁棒，但复杂变换影响性能。
+- 引入CTF挑战家族，通过语义保留程序变换生成语义等效挑战，保持利用策略不变。
+- 使用Evolve-CTF工具评估13种智能体LLM配置，发现模型对重命名和代码插入变换鲁棒，但组合变换和深度混淆影响性能。
 
 ## 摘要（原文）
 

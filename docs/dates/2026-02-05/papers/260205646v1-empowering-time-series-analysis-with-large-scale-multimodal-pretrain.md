@@ -7,14 +7,14 @@ title: Empowering Time Series Analysis with Large-Scale Multimodal Pretraining
 **arXiv**：[2602.05646v1](https://arxiv.org/abs/2602.05646) · [PDF](https://arxiv.org/pdf/2602.05646.pdf)  
 **作者**：Peng Chen, Siyuan Wang, Shiyan Hu, Xingjian Wu, Yang Shu, Zhongwen Rao, Meng Wang, Yijie Li, Bin Yang, Chenjuan Guo  
 
-**一句话要点**：提出HORAI模型以解决时间序列分析中多模态预训练的挑战
+**一句话要点**：提出HORAI多模态基础模型以增强时间序列分析的泛化能力
 
-**关键词**：时间序列分析, 多模态预训练, 频率增强模型, 零样本学习, 异常检测
+**关键词**：多模态预训练, 时间序列分析, 基础模型, 零样本学习, 频率增强, 跨模态融合
 
 ## 3 点简述
-- 核心问题：现有时间序列基础模型缺乏多模态互补，且缺少统一预训练范式和大规模数据集。
-- 方法要点：构建MM-TS多模态数据集，并设计频率增强的HORAI模型，集成跨模态编码器和时频解码器。
-- 实验或效果：在MM-TS上预训练后，HORAI在零样本预测和异常检测任务中达到最先进性能，展示强泛化能力。
+- 现有时间序列基础模型缺乏多模态互补，面临统一预训练范式和大规模数据集缺失的挑战。
+- 提出基于内源模态和外源知识的多模态预训练范式，并构建首个大规模多模态时间序列数据集MM-TS。
+- HORAI模型通过频率增强跨模态编码器和时频解码器，在零样本预测和异常检测任务中达到最优性能。
 
 ## 摘要（原文）
 

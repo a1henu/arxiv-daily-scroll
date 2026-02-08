@@ -7,14 +7,14 @@ title: Spider-Sense: Intrinsic Risk Sensing for Efficient Agent Defense with Hie
 **arXiv**：[2602.05386v1](https://arxiv.org/abs/2602.05386) · [PDF](https://arxiv.org/pdf/2602.05386.pdf)  
 **作者**：Zhenxiong Yu, Zhi Yang, Zhiheng Jin, Shuhe Wang, Heng Zhang, Yanlin Fei, Lingfeng Zeng, Fangqi Lou, Shuo Zhang, Tu Hu, Jingping Liu, Rongze Chen, Xingyu Zhu, Kunyi Wang, Chaofa Yuan, Xin Guo, Zhaowei Liu, Feipeng Zhang, Jie Huang, Huacan Wang, Ronghao Chen, Liwen Zhang  
 
-**一句话要点**：提出Spider-Sense框架，通过内在风险感知实现高效自主代理防御
+**一句话要点**：提出Spider-Sense框架，基于内在风险感知实现高效自主代理防御
 
-**关键词**：自主代理安全, 内在风险感知, 分层防御, 事件驱动框架, 基准评估
+**关键词**：自主代理安全, 内在风险感知, 分层防御机制, 事件驱动框架, 基准评估
 
 ## 3 点简述
-- 核心问题：现有代理防御机制多为强制检查，效率低且与代理架构脱节
-- 方法要点：基于事件驱动的内在风险感知，仅在感知风险时触发分层防御机制
-- 实验或效果：在S$^2$Bench基准上实现最低攻击成功率和误报率，延迟开销仅8.3%
+- 核心问题：现有代理防御机制多为强制检查，效率低且与架构解耦，难以适应动态安全挑战。
+- 方法要点：引入事件驱动的内在风险感知，仅在感知风险时触发分层防御，结合轻量匹配与深度推理。
+- 实验或效果：在S$^2$Bench基准上，Spider-Sense实现最低攻击成功率与误报率，延迟开销仅8.3%。
 
 ## 摘要（原文）
 

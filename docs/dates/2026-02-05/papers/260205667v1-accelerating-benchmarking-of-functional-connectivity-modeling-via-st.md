@@ -7,13 +7,13 @@ title: Accelerating Benchmarking of Functional Connectivity Modeling via Structu
 **arXiv**：[2602.05667v1](https://arxiv.org/abs/2602.05667) · [PDF](https://arxiv.org/pdf/2602.05667.pdf)  
 **作者**：Ling Zhan, Zhen Li, Junjie Huang, Tao Jia  
 
-**一句话要点**：提出结构感知核心集选择方法，以加速功能连接建模的基准测试
+**一句话要点**：提出结构感知核心集选择方法以加速功能连接建模的基准测试
 
-**关键词**：功能连接建模, 核心集选择, 结构感知学习, 基准测试加速, 自监督框架, Transformer网络
+**关键词**：功能连接建模, 核心集选择, 基准测试加速, 自监督学习, 结构感知学习, 神经科学计算
 
 ## 3 点简述
 - 核心问题：大规模fMRI数据中功能连接建模方法基准测试计算成本过高，阻碍可重复神经科学评估。
-- 方法要点：使用自适应Transformer学习样本结构，引入结构扰动分数识别稳定样本，结合密度平衡采样确保多样性。
+- 方法要点：通过自监督学习框架SCLCS，利用自适应Transformer学习样本结构，引入结构扰动评分选择代表性核心集。
 - 实验或效果：在REST-meta-MDD数据集上，仅用10%数据保持模型排名，排名一致性优于现有方法达23.2%。
 
 ## 摘要（原文）

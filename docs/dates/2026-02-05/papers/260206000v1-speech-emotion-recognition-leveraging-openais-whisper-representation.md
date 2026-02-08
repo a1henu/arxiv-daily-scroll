@@ -12,9 +12,9 @@ title: Speech Emotion Recognition Leveraging OpenAI's Whisper Representations an
 **关键词**：语音情感识别, Whisper表示, 注意力池化, 多语言数据集, 轻量级模型
 
 ## 3 点简述
-- 语音情感识别面临数据集不足问题，利用预训练模型提取特征。
+- 语音情感识别面临数据集标准化不足问题，利用预训练模型提取特征。
 - 设计多头注意力平均池化和QKV池化方法，高效降维并保留情感特征。
-- 在英语和波斯语数据集上实验，Whisper中间层表现优异，实现SOTA结果。
+- 在英语和波斯语数据集上实验，QKV架构在ShEMO上取得最优结果，提升2.47%准确率。
 
 ## 摘要（原文）
 

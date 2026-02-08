@@ -7,12 +7,12 @@ title: A Comparative Study of 3D Person Detection: Sensor Modalities and Robustn
 **arXiv**：[2602.05538v1](https://arxiv.org/abs/2602.05538) · [PDF](https://arxiv.org/pdf/2602.05538.pdf)  
 **作者**：Malaz Tamim, Andrea Matic-Flierl, Karsten Roscher  
 
-**一句话要点**：比较相机、LiDAR及融合方法在多样室内外场景中的3D行人检测性能与鲁棒性
+**一句话要点**：比较相机、LiDAR及融合方法在多样室内外环境中的3D行人检测性能与鲁棒性
 
-**关键词**：3D行人检测, 传感器融合, 鲁棒性评估, 室内外场景, JRDB数据集, 多模态检测
+**关键词**：3D行人检测, 传感器融合, 鲁棒性评估, 室内外场景, JRDB数据集, 多模态感知
 
 ## 3 点简述
-- 核心问题：现有研究多关注自动驾驶，缺乏对多样室内外场景中3D行人检测性能的系统评估。
+- 核心问题：现有研究多关注自动驾驶，缺乏对多样室内外场景中3D行人检测性能与鲁棒性的系统评估。
 - 方法要点：使用JRDB数据集，对比BEVDepth（相机）、PointPillars（LiDAR）和DAL（相机-LiDAR融合）三种代表性模型。
 - 实验或效果：融合方法在挑战性场景中表现最佳，但易受传感器错位和LiDAR噪声影响；相机模型性能最低且对遮挡和距离敏感。
 

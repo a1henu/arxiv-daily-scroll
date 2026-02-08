@@ -7,14 +7,14 @@ title: Determining Energy Efficiency Sweet Spots in Production LLM Inference
 **arXiv**：[2602.05695v1](https://arxiv.org/abs/2602.05695) · [PDF](https://arxiv.org/pdf/2602.05695.pdf)  
 **作者**：Hiari Pizzini Cavagna, Andrea Proia, Giacomo Madella, Giovanni B. Esposito, Francesco Antici, Daniele Cesarini, Zeynep Kiziltan, Andrea Bartolini  
 
-**一句话要点**：提出基于Transformer复杂度的分析模型，以确定LLM推理中的能效甜点，支持生产系统优化。
+**一句话要点**：提出基于Transformer复杂性的分析模型，以确定生产LLM推理中的能效最佳点
 
-**关键词**：LLM推理能效, Transformer复杂度分析, 序列长度优化, 生产系统节能, GPU能耗建模
+**关键词**：大语言模型推理, 能效分析, Transformer架构, 生产系统优化, GPU能耗建模
 
 ## 3 点简述
 - 核心问题：现有方法用线性函数估计LLM推理能耗，但能效呈现非线性依赖，需准确建模。
-- 方法要点：从Transformer计算和内存访问复杂度推导分析模型，能精确描述输入输出长度与能效的关系。
-- 实验或效果：在NVIDIA H100 GPU上测试1B至9B参数模型，平均MAPE为1.79%，验证模型准确性，指导序列长度优化。
+- 方法要点：从Transformer计算和内存访问复杂性推导分析模型，精确刻画输入输出长度与能效关系。
+- 实验或效果：在NVIDIA H100 GPU上测试1B至9B参数模型，平均MAPE为1.79%，验证模型准确性，支持节能策略。
 
 ## 摘要（原文）
 

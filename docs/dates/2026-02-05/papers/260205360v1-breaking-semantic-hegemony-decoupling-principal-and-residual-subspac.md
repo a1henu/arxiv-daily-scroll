@@ -12,9 +12,9 @@ title: Breaking Semantic Hegemony: Decoupling Principal and Residual Subspaces f
 **关键词**：广义OOD检测, 语义霸权, 几何解耦, 训练后方法, 神经网络崩溃, 双空间校准
 
 ## 3 点简述
-- 核心问题：现有OOD检测模型存在简单性悖论，对语义细微样本敏感但对结构简单样本或噪声盲视。
-- 方法要点：通过正交分解解耦主成分与残差子空间，引入双空间校准机制增强对弱残差信号的敏感性。
-- 实验或效果：在CIFAR和ImageNet基准上实现新SOTA，显著降低FPR95并提升AUROC性能。
+- 核心问题：现有OOD检测模型存在简单性悖论，对语义细微OOD敏感但对结构简单样本或噪声盲视
+- 方法要点：通过正交分解解耦主成分与残差子空间，引入双空间校准机制增强对弱残差信号的敏感性
+- 实验或效果：在CIFAR和ImageNet基准上实现新SOTA，显著降低FPR95并提升AUROC
 
 ## 摘要（原文）
 

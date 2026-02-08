@@ -7,14 +7,14 @@ title: Data-Centric Interpretability for LLM-based Multi-Agent Reinforcement Lea
 **arXiv**：[2602.05183v1](https://arxiv.org/abs/2602.05183) · [PDF](https://arxiv.org/pdf/2602.05183.pdf)  
 **作者**：John Yan, Michael Yu, Yuqi Sun, Alexander Duffy, Tyler Marques, Matthew Lyle Olson  
 
-**一句话要点**：提出Meta-Autointerp方法，结合稀疏自编码器和LLM摘要器，分析多智能体强化学习中LLM行为动态。
+**一句话要点**：提出Meta-Autointerp方法，结合稀疏自编码器和LLM摘要器，分析多智能体强化学习中LLM的行为动态
 
-**关键词**：多智能体强化学习, 稀疏自编码器, LLM解释性, 数据中心分析, 训练动态, Meta-Autointerp
+**关键词**：多智能体强化学习, 稀疏自编码器, LLM行为解释, 数据中心可解释性, Meta-Autointerp, Full-Press Diplomacy
 
 ## 3 点简述
-- 核心问题：LLM在多智能体强化学习训练中行为变化难以理解，需数据中心的解释性方法。
-- 方法要点：应用预训练稀疏自编码器和LLM摘要器，开发Meta-Autointerp分组特征为可解释假设。
-- 实验或效果：发现细粒度行为如角色扮演和奖励黑客，验证90%元特征显著，系统提示增强提升分数14.2%。
+- 核心问题：LLM在多智能体强化学习训练中行为变化难以理解，需数据中心的解释性方法
+- 方法要点：应用预训练稀疏自编码器，开发Meta-Autointerp分组特征为可解释假设，结合LLM摘要器
+- 实验或效果：在Full-Press Diplomacy环境中发现细粒度行为，验证90%元特征显著，但用户研究表明部分特征对人工帮助有限
 
 ## 摘要（原文）
 

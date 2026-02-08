@@ -9,7 +9,7 @@ title: SDFP: Speculative Decoding with FIT-Pruned Models for Training-Free and P
 
 **一句话要点**：提出SDFP框架，通过FIT剪枝构建草稿模型，实现免训练、即插即用的LLM加速
 
-**关键词**：推测解码, 模型剪枝, 大语言模型加速, 免训练优化, 多媒体应用, 延迟降低
+**关键词**：大语言模型加速, 推测解码, 剪枝优化, 免训练框架, 多媒体应用
 
 ## 3 点简述
 - 核心问题：LLM自回归解码延迟高，现有草稿模型方法需额外训练或复杂优化，部署成本高

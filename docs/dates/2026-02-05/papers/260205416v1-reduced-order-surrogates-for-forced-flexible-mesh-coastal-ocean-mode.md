@@ -14,7 +14,7 @@ title: Reduced-Order Surrogates for Forced Flexible Mesh Coastal-Ocean Models
 ## 3 点简述
 - 核心问题：Koopman自编码器在真实海岸-海洋建模中应用有限，需改进以处理复杂动态。
 - 方法要点：引入灵活Koopman自编码器，结合学习线性时间算子和特征值正则化，促进时间稳定性。
-- 实验或效果：在三个测试案例中，Koopman自编码器优于POD代理，预测误差小，推理速度提升300-1400倍。
+- 实验或效果：在三个测试案例中，Koopman自编码器优于POD代理，预测误差低至0.01-0.13，推理加速300-1400倍。
 
 ## 摘要（原文）
 

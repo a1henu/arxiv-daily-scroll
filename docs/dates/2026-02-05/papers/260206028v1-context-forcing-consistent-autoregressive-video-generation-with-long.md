@@ -7,14 +7,14 @@ title: Context Forcing: Consistent Autoregressive Video Generation with Long Con
 **arXiv**：[2602.06028v1](https://arxiv.org/abs/2602.06028) · [PDF](https://arxiv.org/pdf/2602.06028.pdf)  
 **作者**：Shuo Chen, Cong Wei, Sun Sun, Ping Nie, Kai Zhou, Ge Zhang, Ming-Hsuan Yang, Wenhu Chen  
 
-**一句话要点**：提出Context Forcing框架，通过长上下文教师模型解决长视频生成中的学生-教师不匹配问题
+**一句话要点**：提出Context Forcing框架，通过长上下文教师模型解决长视频生成中的学生-教师不匹配问题。
 
-**关键词**：长视频生成, 自回归模型, 上下文管理, 学生-教师训练, 慢-快记忆架构, 时间一致性
+**关键词**：长视频生成, 自回归模型, 上下文管理, 蒸馏训练, 时间一致性
 
 ## 3 点简述
-- 核心问题：现有流式调优方法中，短上下文教师无法指导学生对长期依赖的学习，导致学生-教师不匹配
-- 方法要点：采用长上下文教师监督长上下文学生，并引入慢-快记忆架构管理计算复杂度
-- 实验效果：上下文长度超过20秒，在长视频评估指标上超越现有方法如LongLive和Infinite-RoPE
+- 核心问题：现有流式调优方法中，短上下文教师无法指导长上下文学生，导致全局时间依赖缺失。
+- 方法要点：引入长上下文教师和Slow-Fast Memory架构，消除监督不匹配，降低计算成本。
+- 实验或效果：实现超过20秒的有效上下文长度，在长视频评估指标上超越现有方法。
 
 ## 摘要（原文）
 

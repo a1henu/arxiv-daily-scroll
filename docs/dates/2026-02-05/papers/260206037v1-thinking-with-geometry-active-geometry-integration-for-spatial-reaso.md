@@ -7,14 +7,14 @@ title: Thinking with Geometry: Active Geometry Integration for Spatial Reasoning
 **arXiv**：[2602.06037v1](https://arxiv.org/abs/2602.06037) · [PDF](https://arxiv.org/pdf/2602.06037.pdf)  
 **作者**：Haoyuan Li, Qihang Cao, Tao Tang, Kun Xiang, Zihan Guo, Jianhua Han, Hang Xu, Xiaodan Liang  
 
-**一句话要点**：提出GeoThinker框架，通过主动几何感知解决MLLMs空间推理中的语义-几何错位问题
+**一句话要点**：提出GeoThinker框架，通过主动几何检索解决MLLM空间推理中的语义-几何错位问题
 
-**关键词**：空间推理, 多模态大语言模型, 几何感知, 主动融合, 跨模态注意力
+**关键词**：空间推理, 多模态大语言模型, 几何感知, 主动检索, 跨模态融合
 
 ## 3 点简述
-- 现有MLLMs空间推理方法被动融合全局几何特征，导致语义-几何错位和冗余信号
-- GeoThinker采用主动感知范式，让模型根据推理需求选择性检索几何证据
-- 在VSI-Bench上达到72.6分的新SOTA，并在具身指代等下游任务中展现强泛化能力
+- 现有MLLM空间推理方法被动融合全局几何特征，导致语义-几何错位和冗余信号
+- GeoThinker采用空间锚定融合和重要性门控，使模型能根据推理需求主动检索相关几何证据
+- 在VSI-Bench上达到72.6分的新SOTA，并在具身指代和自动驾驶等场景展现强泛化能力
 
 ## 摘要（原文）
 

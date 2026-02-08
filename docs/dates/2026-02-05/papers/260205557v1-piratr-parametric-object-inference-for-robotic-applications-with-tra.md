@@ -7,14 +7,14 @@ title: PIRATR: Parametric Object Inference for Robotic Applications with Transfo
 **arXiv**：[2602.05557v1](https://arxiv.org/abs/2602.05557) · [PDF](https://arxiv.org/pdf/2602.05557.pdf)  
 **作者**：Michael Schwingshackl, Fabio F. Oberweger, Mario Niedermeyer, Huemer Johannes, Markus Murschitz  
 
-**一句话要点**：提出PIRATR框架，用于机器人点云中的参数化3D物体检测与姿态估计。
+**一句话要点**：提出PIRATR框架，用于机器人点云中的参数化3D物体检测，联合估计姿态与属性。
 
 **关键词**：3D物体检测, 参数化感知, 点云处理, 机器人视觉, Transformer模型, 合成数据训练
 
 ## 3 点简述
-- 核心问题：在遮挡点云中实现多类别6自由度姿态和参数化属性的联合估计。
-- 方法要点：基于PI3DETR扩展，采用模块化类别特定头，支持新物体类型扩展。
-- 实验或效果：在合成数据训练后，无需微调，在真实室外LiDAR扫描中达到0.919 mAP。
+- 核心问题：从遮挡点云中检测参数化物体，需同时定位几何姿态和估计任务相关属性。
+- 方法要点：基于PI3DETR扩展，采用模块化类别特定头，端到端联合估计多类别6自由度姿态和参数属性。
+- 实验或效果：在合成环境训练，泛化至真实室外LiDAR扫描，检测mAP达0.919，无需微调。
 
 ## 摘要（原文）
 

@@ -9,11 +9,11 @@ title: Generalization of Self-Supervised Vision Transformers for Protein Localiz
 
 **一句话要点**：评估自监督视觉Transformer在跨显微镜域蛋白质定位中的泛化能力，发现领域相关预训练提升性能。
 
-**关键词**：自监督学习, 视觉Transformer, 蛋白质定位, 跨域泛化, 显微镜图像, DINO预训练
+**关键词**：自监督学习, 视觉Transformer, 蛋白质定位, 跨域迁移, 显微镜图像, DINO预训练
 
 ## 3 点简述
-- 核心问题：显微镜数据集小，自监督学习跨域泛化能力未知。
-- 方法要点：使用DINO预训练视觉Transformer，比较ImageNet、HPA和OpenCell预训练模型。
+- 核心问题：显微镜数据集小，自监督学习跨域泛化能力不明确。
+- 方法要点：使用DINO预训练视觉Transformer，在OpenCell数据集上评估跨域迁移。
 - 实验或效果：HPA预训练模型性能最佳，表明领域相关自监督表示能有效泛化。
 
 ## 摘要（原文）

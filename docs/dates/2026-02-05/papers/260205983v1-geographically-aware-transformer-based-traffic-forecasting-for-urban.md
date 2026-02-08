@@ -7,14 +7,14 @@ title: Geographically-aware Transformer-based Traffic Forecasting for Urban Moto
 **arXiv**：[2602.05983v1](https://arxiv.org/abs/2602.05983) · [PDF](https://arxiv.org/pdf/2602.05983.pdf)  
 **作者**：Krešimir Kušić, Vinny Cahill, Ivana Dusparic  
 
-**一句话要点**：提出地理感知Transformer交通预测模型以提升高速公路数字孪生中的交通预测准确性
+**一句话要点**：提出地理感知Transformer交通预测模型以提升高速公路数字孪生中的交通预测精度
 
 **关键词**：交通预测, 数字孪生, Transformer模型, 地理感知, 互信息, 高速公路管理
 
 ## 3 点简述
-- 核心问题：高速公路交通预测因时空复杂性和非线性动态而困难，现有序列深度学习模型在准确性和复杂性方面有待改进。
-- 方法要点：引入GATTF模型，利用传感器间的互信息捕捉地理关系，增强Transformer的地理感知能力。
-- 实验或效果：在日内瓦高速公路网络实时数据上评估，结果显示GATTF相比标准Transformer提高了预测准确性，且未增加模型复杂性。
+- 核心问题：高速公路交通预测因时空复杂性和非线性动态而困难，现有序列模型在精度和复杂度上需改进
+- 方法要点：利用传感器间互信息引入地理感知，增强Transformer模型以捕捉空间关系，不增加模型复杂度
+- 实验或效果：在日内瓦高速公路网络真实数据上验证，相比标准Transformer，地理感知提升了预测准确性
 
 ## 摘要（原文）
 

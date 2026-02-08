@@ -7,14 +7,14 @@ title: On the Superlinear Relationship between SGD Noise Covariance and Loss Lan
 **arXiv**：[2602.05600v1](https://arxiv.org/abs/2602.05600) · [PDF](https://arxiv.org/pdf/2602.05600.pdf)  
 **作者**：Yikuan Zhang, Ning Yang, Yuhai Tu  
 
-**一句话要点**：揭示SGD噪声协方差与损失景观曲率间的超线性关系，挑战先验假设并统一深度学习噪声-曲率表征。
+**一句话要点**：揭示SGD噪声协方差与损失景观曲率间的超线性关系，基于活动-权重对偶性提供统一理论框架。
 
-**关键词**：SGD噪声协方差, 损失景观曲率, Activity-Weight Duality, 深度学习优化, Hessian矩阵, 超线性关系
+**关键词**：随机梯度下降, 噪声协方差, 损失景观曲率, 活动-权重对偶性, 深度神经网络优化, Hessian分析
 
 ## 3 点简述
-- 核心问题：先前工作假设Fisher信息矩阵与Hessian等价，导致SGD噪声协方差与Hessian成比例，但此假设在深度神经网络中常不成立。
-- 方法要点：利用Activity-Weight Duality，发现更一般关系，噪声协方差与每样本Hessian平方的期望成比例，且与Hessian近似可交换。
-- 实验或效果：通过多数据集、架构和损失函数实验验证理论边界，指数γ在1到2之间，提供统一噪声-曲率关系描述。
+- 核心问题：先前研究假设Fisher信息矩阵与Hessian等价，导致SGD噪声协方差与Hessian成比例，但该假设在深度神经网络中通常不成立。
+- 方法要点：利用活动-权重对偶性，推导出更一般的关系，表明噪声协方差与每样本Hessian平方的期望成比例，且两者近似可交换。
+- 实验或效果：通过跨数据集、架构和损失函数的实验验证理论边界，噪声协方差对角元素与Hessian对角元素呈近似幂律关系，指数在1到2之间。
 
 ## 摘要（原文）
 

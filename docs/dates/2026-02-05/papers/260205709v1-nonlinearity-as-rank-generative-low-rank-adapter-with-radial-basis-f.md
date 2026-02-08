@@ -7,14 +7,14 @@ title: Nonlinearity as Rank: Generative Low-Rank Adapter with Radial Basis Funct
 **arXiv**：[2602.05709v1](https://arxiv.org/abs/2602.05709) · [PDF](https://arxiv.org/pdf/2602.05709.pdf)  
 **作者**：Yihao Ouyang, Shiwei Li, Haozhao Wang, Xiandi Luo, Zhuoqi Hu, Yuetong Song, Qiyu Qin, Yichen Li, Ruixuan Li  
 
-**一句话要点**：提出GenLoRA以解决低秩适配中参数冗余问题，通过非线性基向量生成提升参数效率。
+**一句话要点**：提出GenLoRA以解决低秩适配参数冗余问题，通过非线性基向量生成提升参数效率。
 
-**关键词**：低秩适配, 参数效率, 径向基函数, 微调优化, 生成式模型
+**关键词**：低秩适配, 参数效率, 径向基函数, 微调优化, 模型压缩
 
 ## 3 点简述
 - 标准LoRA采用显式基向量存储，增加模型容量导致参数大幅增长。
-- GenLoRA用径向基函数生成基向量，减少参数冗余，实现更高参数效率。
-- 实验表明GenLoRA在较小参数预算下获得更高有效秩，微调性能更优。
+- GenLoRA用径向基函数从潜向量生成基向量，减少参数冗余。
+- 实验表明GenLoRA在更小参数预算下实现更高有效秩，微调性能更优。
 
 ## 摘要（原文）
 

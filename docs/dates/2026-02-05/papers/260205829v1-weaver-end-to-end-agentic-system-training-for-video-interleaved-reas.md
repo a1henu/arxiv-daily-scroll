@@ -7,13 +7,13 @@ title: Weaver: End-to-End Agentic System Training for Video Interleaved Reasonin
 **arXiv**：[2602.05829v1](https://arxiv.org/abs/2602.05829) · [PDF](https://arxiv.org/pdf/2602.05829.pdf)  
 **作者**：Yudi Shi, Shangzhe Di, Qirui Chen, Qinian Wang, Jiayin Cai, Xiaolong Jiang, Yao Hu, Weidi Xie  
 
-**一句话要点**：提出Weaver端到端可训练多模态推理代理系统，以解决视频推理中的表示不匹配和感知限制问题。
+**一句话要点**：提出Weaver端到端可训练多模态推理代理系统，以解决视频推理中的表示不匹配和感知受限问题。
 
 **关键词**：视频推理, 多模态代理系统, 端到端训练, 强化学习, 长视频理解
 
 ## 3 点简述
-- 核心问题：视频推理需强感知与解释能力，现有文本链式推理方法存在表示不匹配和感知限制。
-- 方法要点：Weaver通过动态调用工具，逐步获取视觉线索并构建多模态推理轨迹，结合强化学习探索工具使用策略。
+- 核心问题：视频推理需强感知与解释能力，现有文本中心链式思维方法存在表示不匹配和感知受限。
+- 方法要点：Weaver通过动态调用工具获取视觉线索，构建多模态推理轨迹，并集成强化学习探索工具使用策略。
 - 实验或效果：在多个复杂视频推理基准测试中提升性能，尤其针对长视频任务。
 
 ## 摘要（原文）

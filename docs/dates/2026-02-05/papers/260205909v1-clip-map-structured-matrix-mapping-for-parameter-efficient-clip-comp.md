@@ -7,14 +7,14 @@ title: CLIP-Map: Structured Matrix Mapping for Parameter-Efficient CLIP Compress
 **arXiv**：[2602.05909v1](https://arxiv.org/abs/2602.05909) · [PDF](https://arxiv.org/pdf/2602.05909.pdf)  
 **作者**：Kangjie Zhang, Wenxuan Huang, Xin Zhou, Boxiang Zhou, Dejia Song, Yuan Xie, Baochang Zhang, Lizhuang Ma, Nemo Chen, Xu Tang, Yao Hu, Shaohui Lin  
 
-**一句话要点**：提出CLIP-Map框架，通过结构化矩阵映射实现参数高效的CLIP压缩
+**一句话要点**：提出CLIP-Map框架，通过结构化矩阵映射实现参数高效压缩，以解决CLIP模型在资源受限场景下的高成本问题。
 
-**关键词**：CLIP压缩, 参数高效, 矩阵映射, Kronecker分解, 权重初始化
+**关键词**：CLIP压缩, 参数高效学习, 结构化矩阵映射, Kronecker分解, 模型优化, 资源受限应用
 
 ## 3 点简述
-- CLIP模型存在高内存和计算成本问题，限制其在资源受限场景的应用
-- 采用基于映射的压缩方法，利用可学习矩阵和Kronecker分解映射预训练权重
-- 实验显示在高压缩比下优于现有选择式方法，提升特征表示能力
+- 核心问题：CLIP模型因高内存和计算成本，难以应用于资源受限场景，现有基于选择的压缩方法在极端压缩下会损害特征表示能力。
+- 方法要点：采用基于映射的压缩框架，利用可学习矩阵通过全映射与Kronecker分解来映射和组合预训练权重，并引入对角继承初始化以缓解优化挑战。
+- 实验或效果：在多种压缩比下优于基于选择的方法，尤其在高压縮设置下表现显著提升。
 
 ## 摘要（原文）
 

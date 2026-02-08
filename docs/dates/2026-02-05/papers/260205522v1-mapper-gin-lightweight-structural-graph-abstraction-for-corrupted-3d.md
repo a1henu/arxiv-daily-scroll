@@ -7,14 +7,14 @@ title: Mapper-GIN: Lightweight Structural Graph Abstraction for Corrupted 3D Poi
 **arXiv**：[2602.05522v1](https://arxiv.org/abs/2602.05522) · [PDF](https://arxiv.org/pdf/2602.05522.pdf)  
 **作者**：Jeongbin You, Donggun Kim, Sejun Park, Seungsang Oh  
 
-**一句话要点**：提出Mapper-GIN，通过结构图抽象提升受损3D点云分类的鲁棒性
+**一句话要点**：提出Mapper-GIN，通过结构图抽象提升损坏3D点云分类的鲁棒性
 
-**关键词**：3D点云分类, 结构图抽象, Mapper算法, 图神经网络, 鲁棒性, 轻量级模型
+**关键词**：3D点云分类, 结构图抽象, Mapper算法, 图同构网络, 鲁棒性增强, 轻量级模型
 
 ## 3 点简述
-- 核心问题：传统方法依赖大模型或数据增强实现鲁棒性，但结构抽象潜力未知
-- 方法要点：使用Mapper算法分区点云为重叠区域，构建区域图并用GIN进行图分类
-- 实验或效果：在ModelNet40-C基准上，仅0.5M参数即实现竞争性准确率，对噪声和变换鲁棒
+- 核心问题：3D点云分类在噪声和变换损坏下鲁棒性不足，传统方法依赖大模型或数据增强
+- 方法要点：使用Mapper算法将点云分割为重叠区域，构建区域图，并用图同构网络进行分类
+- 实验或效果：在ModelNet40-C基准上，仅0.5M参数即实现竞争性准确率，尤其在噪声和变换损坏下表现稳定
 
 ## 摘要（原文）
 

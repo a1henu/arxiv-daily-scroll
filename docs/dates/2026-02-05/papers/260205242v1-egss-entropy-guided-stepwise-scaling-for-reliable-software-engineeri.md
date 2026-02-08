@@ -7,13 +7,13 @@ title: EGSS: Entropy-guided Stepwise Scaling for Reliable Software Engineering
 **arXiv**：[2602.05242v1](https://arxiv.org/abs/2602.05242) · [PDF](https://arxiv.org/pdf/2602.05242.pdf)  
 **作者**：Chenhui Mao, Yuanting Lei, Zhixiang Wei, Ming Liang, Zhixiang Wang, Jingxuan Xu, Dajun Chen, Wei Jiang, Yong Li  
 
-**一句话要点**：提出EGSS框架以解决Agentic TTS在软件工程任务中的计算开销和候选选择问题
+**一句话要点**：提出EGSS框架以解决代理测试时扩展在软件工程中的计算开销与候选选择问题
 
-**关键词**：软件工程, 测试时缩放, 熵引导搜索, 计算效率, 代码生成, 大语言模型
+**关键词**：软件工程, 代理测试时扩展, 熵引导搜索, 代码生成, 计算效率优化
 
 ## 3 点简述
-- 核心问题：Agentic TTS因大集成部署成本高和缺乏可靠候选选择机制，导致计算开销大且性能受限
-- 方法要点：EGSS通过熵引导自适应搜索和鲁棒测试套件增强，动态平衡效率与效果
+- 核心问题：代理测试时扩展在代码生成等任务中因大集成成本高和候选选择不可靠导致计算开销大
+- 方法要点：EGSS通过熵引导自适应搜索和鲁棒测试套件增强动态平衡效率与效果
 - 实验或效果：在SWE-Bench-Verified上提升性能5-10%，减少推理令牌使用超28%，实现效果与效率双提升
 
 ## 摘要（原文）

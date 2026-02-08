@@ -7,14 +7,14 @@ title: Late-to-Early Training: LET LLMs Learn Earlier, So Faster and Better
 **arXiv**：[2602.05393v1](https://arxiv.org/abs/2602.05393) · [PDF](https://arxiv.org/pdf/2602.05393.pdf)  
 **作者**：Ji Zhao, Yufei Gu, Shitong Shao, Xun Zhou, Liang Xiang, Zeke Xie  
 
-**一句话要点**：提出Late-to-Early Training方法，利用小预训练模型加速大模型训练
+**一句话要点**：提出Late-to-Early Training范式，利用小预训练模型加速大模型训练
 
-**关键词**：大语言模型, 预训练加速, 知识迁移, 训练收敛, 下游任务性能
+**关键词**：大语言模型, 预训练加速, 知识迁移, 训练效率, 模型缩放
 
 ## 3 点简述
 - 核心问题：如何利用现有小预训练模型加速大模型训练，降低计算成本
 - 方法要点：通过小模型后期层表示指导大模型早期层，实现后期知识在早期学习
-- 实验或效果：在1.4B和7B模型上验证，加速达1.6倍，下游任务准确率提升近5%
+- 实验或效果：在1.4B和7B模型上验证，训练加速1.6倍，下游任务准确率提升近5%
 
 ## 摘要（原文）
 

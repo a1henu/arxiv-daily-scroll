@@ -7,14 +7,14 @@ title: VMF-GOS: Geometry-guided virtual Outlier Synthesis for Long-Tailed OOD De
 **arXiv**：[2602.05415v1](https://arxiv.org/abs/2602.05415) · [PDF](https://arxiv.org/pdf/2602.05415.pdf)  
 **作者**：Ningkang Peng, Qianfeng Yu, Yuhao Zhang, Yafei Liu, Xiaoqian Peng, Peirong Ma, Yi Chen, Peiheng Li, Yanhui Gu  
 
-**一句话要点**：提出几何引导虚拟离群点合成方法以解决长尾分布下无外部数据的OOD检测问题
+**一句话要点**：提出几何引导虚拟离群点合成方法以解决长尾分布下的无外部数据OOD检测问题
 
-**关键词**：长尾分布, OOD检测, 虚拟离群点合成, vMF分布, 对比学习, 无外部数据
+**关键词**：长尾分布, OOD检测, 虚拟离群点合成, von Mises-Fisher分布, 对比学习, 无外部数据
 
 ## 3 点简述
-- 核心问题：长尾分布中尾类样本稀缺导致特征空间决策边界模糊，依赖外部数据的现有方法不实用
-- 方法要点：基于vMF分布定位低似然环带并方向性采样虚拟离群点，结合双粒度语义损失增强ID与离群点区分
-- 实验或效果：在CIFAR-LT等基准上超越使用外部真实图像的sota方法，验证了无外部数据框架的有效性
+- 核心问题：长尾分布中尾类样本稀缺导致特征空间决策边界模糊，依赖外部数据的现有方法不实用。
+- 方法要点：基于von Mises-Fisher分布，在特征空间低似然环带进行几何引导的虚拟离群点合成。
+- 实验或效果：在CIFAR-LT等基准上，优于使用外部真实图像的先进方法，实现无外部数据的高性能检测。
 
 ## 摘要（原文）
 

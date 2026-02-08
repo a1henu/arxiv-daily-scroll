@@ -7,14 +7,14 @@ title: xList-Hate: A Checklist-Based Framework for Interpretable and Generalizab
 **arXiv**：[2602.05874v1](https://arxiv.org/abs/2602.05874) · [PDF](https://arxiv.org/pdf/2602.05874.pdf)  
 **作者**：Adrián Girón, Pablo Miralles, Javier Huertas-Tato, Sergio D'Antonio, David Camacho  
 
-**一句话要点**：提出xList-Hate框架，通过清单式诊断提升仇恨言论检测的鲁棒性和可解释性
+**一句话要点**：提出xList-Hate框架，通过清单式诊断提升仇恨言论检测的鲁棒性和可解释性。
 
 **关键词**：仇恨言论检测, 可解释人工智能, 清单式框架, 大语言模型, 决策树, 跨域鲁棒性
 
 ## 3 点简述
-- 仇恨言论检测常因定义差异导致模型过拟合和跨域性能下降
-- 框架将检测分解为基于规范准则的概念级问题，由LLM独立回答生成诊断信号
-- 实验显示框架在跨数据集鲁棒性和可解释性方面优于传统方法
+- 仇恨言论检测常因定义差异导致模型过拟合和跨域性能下降。
+- 框架将检测分解为基于规范准则的概念级问题，由LLM独立回答并聚合。
+- 实验显示在跨数据集鲁棒性和可解释性方面优于传统方法。
 
 ## 摘要（原文）
 

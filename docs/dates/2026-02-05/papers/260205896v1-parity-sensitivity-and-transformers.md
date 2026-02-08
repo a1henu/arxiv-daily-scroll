@@ -7,14 +7,14 @@ title: Parity, Sensitivity, and Transformers
 **arXiv**：[2602.05896v1](https://arxiv.org/abs/2602.05896) · [PDF](https://arxiv.org/pdf/2602.05896.pdf)  
 **作者**：Alexander Kozachinskiy, Tomasz Steifer, Przemysław Wałȩga  
 
-**一句话要点**：提出单层多头Transformer无法解决PARITY问题，并给出新构造以解决此限制。
+**一句话要点**：提出单层多头Transformer无法解决奇偶性问题的下界证明及新构造方法。
 
-**关键词**：Transformer架构, PARITY问题, 计算复杂性, 位置编码, 因果掩码, 下界证明
+**关键词**：Transformer架构, 奇偶性问题, 计算复杂度, 位置编码, 下界证明
 
 ## 3 点简述
-- 研究Transformer架构计算能力，聚焦PARITY问题解决限制。
-- 构造新Transformer模型，使用softmax、长度无关位置编码，无layernorm。
-- 证明单层单头Transformer无法解决PARITY，提供首个下界结果。
+- 研究Transformer架构计算能力，聚焦奇偶性问题求解限制。
+- 给出新构造，使用softmax、长度无关位置编码，无需层归一化。
+- 证明单层单头Transformer无法解决奇偶性问题，提供首个下界。
 
 ## 摘要（原文）
 

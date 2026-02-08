@@ -14,7 +14,7 @@ title: OmniVideo-R1: Reinforcing Audio-visual Reasoning with Query Intention and
 ## 3 点简述
 - 现有全视频模型在音频-视频理解任务中面临挑战
 - 采用查询意图基础和模态注意力融合两种策略
-- 在多个基准测试中表现优于基线，展示泛化能力
+- 在多个基准测试中表现优于基线，展示有效性和泛化能力
 
 ## 摘要（原文）
 

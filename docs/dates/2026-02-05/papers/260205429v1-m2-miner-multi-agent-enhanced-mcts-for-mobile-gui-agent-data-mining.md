@@ -14,7 +14,7 @@ title: M$^2$-Miner: Multi-Agent Enhanced MCTS for Mobile GUI Agent Data Mining
 ## 3 点简述
 - 核心问题：移动GUI智能体数据挖掘面临高成本、低质量和低丰富度挑战。
 - 方法要点：采用多智能体框架（InferAgent、OrchestraAgent、JudgeAgent）和意图回收策略提升效率与多样性。
-- 实验或效果：基于挖掘数据微调的GUI智能体在多个移动GUI基准测试中达到最优性能。
+- 实验或效果：在多个移动GUI基准测试中，使用挖掘数据微调的智能体达到最先进性能。
 
 ## 摘要（原文）
 

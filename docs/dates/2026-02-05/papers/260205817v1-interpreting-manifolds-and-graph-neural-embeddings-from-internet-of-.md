@@ -7,14 +7,14 @@ title: Interpreting Manifolds and Graph Neural Embeddings from Internet of Thing
 **arXiv**：[2602.05817v1](https://arxiv.org/abs/2602.05817) · [PDF](https://arxiv.org/pdf/2602.05817.pdf)  
 **作者**：Enrique Feito-Casares, Francisco M. Melgarejo-Meseguer, Elena Casiraghi, Giorgio Valentini, José-Luis Rojo-Álvarez  
 
-**一句话要点**：提出可解释管道，通过流形映射将高维图神经网络嵌入可视化，以解决物联网流量监控的透明度问题。
+**一句话要点**：提出可解释管道以解决物联网流量中图神经网络嵌入的可视化与监控问题
 
-**关键词**：物联网流量分析, 图神经网络嵌入, 可解释人工智能, 流形学习, 入侵检测, 网络监控
+**关键词**：物联网流量分析, 图神经网络嵌入, 可解释机器学习, 潜在流形映射, 入侵检测
 
 ## 3 点简述
-- 物联网网络拓扑复杂，传统监控工具难以捕捉设备间动态关系。
-- 方法将高维GNN嵌入投影到潜在流形，实现可解释的低维表示和特征归因。
-- 实验在入侵检测中达到0.830 F1分数，并揭示概念漂移等现象。
+- 物联网网络拓扑复杂，传统监控工具难以捕捉动态关系
+- 通过将高维嵌入映射到潜在流形，生成可直接可视化的低维表示
+- 在入侵检测中达到0.830 F1分数，并揭示概念漂移等现象
 
 ## 摘要（原文）
 

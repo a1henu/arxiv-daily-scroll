@@ -9,7 +9,7 @@ title: Transformers Are Born Biased: Structural Inductive Biases at Random Initi
 
 **一句话要点**：揭示Transformer随机初始化时的结构偏置及其对训练与指纹识别的影响
 
-**关键词**：Transformer偏置, 随机初始化, 模型指纹, 注意力机制, 表示学习
+**关键词**：Transformer偏置, 随机初始化, 模型指纹识别, 注意力机制, 表示学习, 结构分析
 
 ## 3 点简述
 - 核心问题：Transformer在随机初始化时已存在系统性结构偏置，挑战了其行为无结构的假设

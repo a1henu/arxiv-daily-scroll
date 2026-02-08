@@ -7,14 +7,14 @@ title: Beyond Manual Planning: Seating Allocation for Large Organizations
 **arXiv**：[2602.05875v1](https://arxiv.org/abs/2602.05875) · [PDF](https://arxiv.org/pdf/2602.05875.pdf)  
 **作者**：Anton Ipsen, Michael Cashmore, Kirsty Fielding, Nicolas Marchesotti, Parisa Zehtabi, Daniele Magazzeni, Manuela Veloso  
 
-**一句话要点**：提出分层座位分配问题框架，以自动优化大型组织团队在平面图中的座位安排。
+**一句话要点**：提出分层座位分配问题框架，以解决大型组织团队座位优化分配问题。
 
 **关键词**：座位分配优化, 分层组织规划, 概率路线图, 整数规划, 启发式搜索
 
 ## 3 点简述
-- 核心问题：大型组织需手动分配团队座位，导致规划效率低且不优。
-- 方法要点：结合概率路线图和启发式搜索，通过整数规划求解分层座位分配问题。
-- 实验或效果：在不同规模实例上评估框架，进行定量和定性分析。
+- 核心问题：大型组织需手动分配团队座位，导致效率低下和次优安排。
+- 方法要点：结合概率路线图和快速探索随机树计算座位距离，使用启发式搜索和动态规划求解整数规划。
+- 实验或效果：在不同规模实例上评估框架，进行定量和定性分析验证效果。
 
 ## 摘要（原文）
 

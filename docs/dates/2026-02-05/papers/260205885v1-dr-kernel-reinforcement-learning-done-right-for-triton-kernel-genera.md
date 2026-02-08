@@ -7,14 +7,14 @@ title: Dr. Kernel: Reinforcement Learning Done Right for Triton Kernel Generatio
 **arXiv**：[2602.05885v1](https://arxiv.org/abs/2602.05885) · [PDF](https://arxiv.org/pdf/2602.05885.pdf)  
 **作者**：Wei Liu, Jiawei Xu, Yingru Li, Longtao Zheng, Tianjian Li, Qian Liu, Junxian He  
 
-**一句话要点**：提出TRLOO与PR/PRS方法，解决强化学习在Triton内核生成中的奖励黑客与懒惰优化问题。
+**一句话要点**：提出TRLOO和Profiling-based Rewards以解决强化学习在Triton内核生成中的奖励黑客和懒惰优化问题。
 
-**关键词**：强化学习, 内核生成, 奖励黑客, 懒惰优化, Triton, GPU环境
+**关键词**：强化学习, 内核生成, 奖励黑客, Triton, 多轮交互, 性能优化
 
 ## 3 点简述
 - 核心问题：强化学习训练内核生成模型易受奖励黑客和懒惰优化影响，导致模型追求表面正确性而非实际加速。
-- 方法要点：设计KernelGYM环境，提出TRLOO进行无偏优势估计，结合PR和PRS提升训练稳定性与性能。
-- 实验或效果：Dr.Kernel-14B在KernelBench上性能优于Claude-4.5-Sonnet和GPT-5，生成内核加速效果显著。
+- 方法要点：设计KernelGYM环境，提出TRLOO进行无偏优势估计，并引入Profiling-based Rewards和Rejection Sampling提升训练稳定性。
+- 实验或效果：Dr.Kernel-14B在KernelBench上性能优于Claude-4.5-Sonnet和GPT-5，31.6%生成内核实现至少1.2倍加速。
 
 ## 摘要（原文）
 

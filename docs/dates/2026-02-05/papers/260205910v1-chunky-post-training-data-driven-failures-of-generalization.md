@@ -13,7 +13,7 @@ title: Chunky Post-Training: Data Driven Failures of Generalization
 
 ## 3 点简述
 - 核心问题：后训练数据中的偶然模式导致模型学习虚假相关性，产生意外行为
-- 方法要点：SURF为黑盒运行时检测工具，TURF用于溯源失败到具体后训练数据
+- 方法要点：SURF为黑盒运行时检测工具，TURF用于追踪失败至具体后训练数据
 - 实验或效果：应用于前沿和开源模型，显示后训练数据不平衡或未指定导致行为失准
 
 ## 摘要（原文）

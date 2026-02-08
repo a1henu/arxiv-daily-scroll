@@ -7,13 +7,13 @@ title: Reactive Knowledge Representation and Asynchronous Reasoning
 **arXiv**：[2602.05625v1](https://arxiv.org/abs/2602.05625) · [PDF](https://arxiv.org/pdf/2602.05625.pdf)  
 **作者**：Simon Kohaut, Benedict Flade, Julian Eggert, Kristian Kersting, Devendra Singh Dhami  
 
-**一句话要点**：提出Resin语言和Reactive Circuits以解决动态环境中概率推理的计算效率问题
+**一句话要点**：提出Resin语言与Reactive Circuits以解决动态环境中概率推理的计算效率问题
 
-**关键词**：概率推理, 反应式编程, 异步推理, 计算效率, 动态环境, 代数电路
+**关键词**：概率推理, 响应式编程, 异步推理, 计算效率, 动态环境, 无人机模拟
 
 ## 3 点简述
-- 核心问题：动态环境中概率推理计算成本高，现有方法无法有效处理异步信息流
-- 方法要点：结合概率逻辑与反应式编程，通过Reactive Circuits自适应调整推理结构
+- 核心问题：动态环境中概率推理计算成本高，现有方法因全模型重评估而效率低下
+- 方法要点：结合概率逻辑与响应式编程，通过Reactive Circuits基于输入信号波动自适应调整结构
 - 实验或效果：在无人机群模拟中实现数量级加速，减少延迟并支持实时推理
 
 ## 摘要（原文）

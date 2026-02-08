@@ -7,14 +7,14 @@ title: Mining Generalizable Activation Functions
 **arXiv**：[2602.05688v1](https://arxiv.org/abs/2602.05688) · [PDF](https://arxiv.org/pdf/2602.05688.pdf)  
 **作者**：Alex Vitvitskyi, Michael Boratko, Matej Grcic, Razvan Pascanu, Deep Shah, Petar Veličković  
 
-**一句话要点**：提出基于AlphaEvolve的进化搜索框架，以发现具有泛化能力的激活函数。
+**一句话要点**：提出基于AlphaEvolve的进化搜索框架，以发现具有泛化能力的激活函数
 
 **关键词**：激活函数搜索, 进化算法, 归纳偏置, AlphaEvolve, 分布外泛化
 
 ## 3 点简述
-- 核心问题：激活函数选择影响模型优化与归纳偏置，需高效搜索新函数。
-- 方法要点：利用AlphaEvolve在Python函数空间搜索，结合分布外数据作为适应度函数。
-- 实验或效果：小规模合成数据集足以发现有意义激活函数，验证框架有效性。
+- 核心问题：激活函数选择影响模型优化和归纳偏置，需平衡性能与泛化能力
+- 方法要点：利用前沿大语言模型作为变异算子，在Python函数空间内进行灵活搜索，无需手动设计搜索空间
+- 实验或效果：通过分布外数据评估，在小规模合成数据集上发现有意义激活函数，验证框架有效性
 
 ## 摘要（原文）
 

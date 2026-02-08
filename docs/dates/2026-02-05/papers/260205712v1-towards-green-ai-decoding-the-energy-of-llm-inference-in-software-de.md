@@ -9,7 +9,7 @@ title: Towards Green AI: Decoding the Energy of LLM Inference in Software Develo
 
 **一句话要点**：分析LLM推理能耗阶段并提出抑制冗余输出以降低软件开发中AI工具能耗
 
-**关键词**：绿色AI, LLM推理能耗, 代码生成, 能耗分析, 冗余输出抑制
+**关键词**：LLM推理能耗, 绿色AI, 代码生成, 能耗分析, 冗余输出抑制
 
 ## 3 点简述
 - 核心问题：LLM推理在软件开发中能耗高，影响可持续性，需分阶段分析。

@@ -7,14 +7,14 @@ title: FedRandom: Sampling Consistent and Accurate Contribution Values in Federa
 **arXiv**：[2602.05693v1](https://arxiv.org/abs/2602.05693) · [PDF](https://arxiv.org/pdf/2602.05693.pdf)  
 **作者**：Arno Geimer, Beltran Fiz Pontiveros, Radu State  
 
-**一句话要点**：提出FedRandom以解决联邦学习中贡献评估不稳定的问题
+**一句话要点**：提出FedRandom以解决联邦学习中贡献评估的不稳定性问题
 
 **关键词**：联邦学习, 贡献评估, 稳定性优化, 统计估计, 隐私保护机器学习
 
 ## 3 点简述
-- 核心问题：联邦学习中参与者贡献评估存在不稳定性，影响公平性和参与意愿
-- 方法要点：将不稳定性视为统计估计问题，通过生成更多样本提高评估一致性和可靠性
-- 实验或效果：在多个数据集上测试，FedRandom在多数场景中显著减少与真实值的距离并提升稳定性
+- 核心问题：联邦学习中参与者贡献评估存在固有高不稳定性，影响公平性和参与意愿
+- 方法要点：将不稳定性视为统计估计问题，通过生成更多样本来提高评估的一致性和可靠性
+- 实验或效果：在多个数据集上测试，FedRandom在多数场景中显著减少与真实贡献的距离并提升稳定性
 
 ## 摘要（原文）
 

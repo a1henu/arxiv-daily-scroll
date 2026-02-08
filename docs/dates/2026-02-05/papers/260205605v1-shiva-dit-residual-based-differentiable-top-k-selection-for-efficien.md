@@ -7,14 +7,14 @@ title: Shiva-DiT: Residual-Based Differentiable Top-$k$ Selection for Efficient 
 **arXiv**：[2602.05605v1](https://arxiv.org/abs/2602.05605) · [PDF](https://arxiv.org/pdf/2602.05605.pdf)  
 **作者**：Jiaji Zhang, Hailiang Zhao, Guoxuan Zhu, Ruichao Sun, Jiaju Wu, Xinkui Zhao, Hanlin Tang, Weiyi Lu, Kan Liu, Tao Lan, Lin Qu, Shuiguang Deng  
 
-**一句话要点**：提出Shiva-DiT，通过残差可微Top-k选择解决扩散Transformer计算成本高的问题
+**一句话要点**：提出Shiva-DiT，通过残差可微Top-k选择解决扩散Transformer计算成本高的问题。
 
-**关键词**：扩散Transformer, 可微剪枝, 残差估计, 自适应调度, 计算效率
+**关键词**：扩散Transformer, 可微剪枝, 残差估计, 静态编译, 自注意力优化, 计算效率
 
 ## 3 点简述
-- 扩散Transformer因自注意力二次缩放导致计算成本过高
-- 采用残差可微Top-k选择，结合残差感知直通估计器实现静态预算和可学习性
-- 实验在SD3.5等模型上实现1.54倍加速，保真度优于基线
+- 核心问题：扩散Transformer自注意力二次缩放导致计算成本过高，现有剪枝方法难以同时满足可微性、效率和硬件静态预算要求。
+- 方法要点：采用残差可微Top-k选择，结合残差感知直通估计器，实现确定性令牌计数以支持静态编译，同时通过残差梯度估计保持端到端可学习性。
+- 实验或效果：在SD3.5等主流模型上实验，Shiva-DiT建立新帕累托前沿，实现1.54倍加速并保持高保真度，消除不规则张量开销。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: Parallel Swin Transformer-Enhanced 3D MRI-to-CT Synthesis for MRI-Only Ra
 **arXiv**：[2602.05387v1](https://arxiv.org/abs/2602.05387) · [PDF](https://arxiv.org/pdf/2602.05387.pdf)  
 **作者**：Zolnamar Dorjsembe, Hung-Yi Chen, Furen Xiao, Hsing-Kuo Pao  
 
-**一句话要点**：提出并行Swin Transformer增强的3D MRI-to-CT合成方法，用于仅MRI的放疗规划。
+**一句话要点**：提出并行Swin Transformer增强的3D MRI-to-CT合成方法，用于仅MRI的放疗规划
 
-**关键词**：医学图像合成, MRI-to-CT转换, Swin Transformer, 放疗规划, 3D深度学习
+**关键词**：医学图像合成, Swin Transformer, 放疗规划, 3D架构, 多尺度注意力
 
 ## 3 点简述
-- 核心问题：MRI缺乏电子密度信息，无法直接用于放疗剂量计算，需结合CT，增加配准不确定性和流程复杂性。
-- 方法要点：集成卷积编码与双Swin Transformer分支，建模局部解剖细节和长距离上下文依赖，提升解剖保真度。
-- 实验或效果：在公共和临床数据集上展示更高图像相似性和几何精度，剂量评估显示平均靶区剂量误差为1.69%。
+- 核心问题：MRI缺乏电子密度信息，无法直接用于放疗剂量计算，需结合CT增加不确定性。
+- 方法要点：集成卷积编码与双Swin Transformer分支，建模局部细节和长程上下文依赖，提升解剖保真度。
+- 实验或效果：在公开和临床数据集上，相比基线方法，图像相似度和几何精度更高，剂量误差均值1.69%。
 
 ## 摘要（原文）
 

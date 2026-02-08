@@ -12,9 +12,9 @@ title: ROMAN: Reward-Orchestrated Multi-Head Attention Network for Autonomous Dr
 **关键词**：自动驾驶系统测试, 场景生成, 多头注意力网络, 交通法规加权, 高风险违规, 模拟平台
 
 ## 3 点简述
-- 核心问题：现有测试方法难以生成复杂高风险违规场景，且忽略多车交互与关键情况。
+- 核心问题：现有测试方法难以生成复杂高风险违规场景，且忽略多车辆交互与关键情况。
 - 方法要点：使用多头注意力建模车辆、信号等交互，并基于LLM的风险加权模块评估违规严重性与发生频率。
-- 实验或效果：在CARLA平台测试百度Apollo，ROMAN在违规数量和场景多样性上优于ABEL和LawBreaker，能覆盖所有输入法规条款。
+- 实验或效果：在CARLA平台测试百度Apollo，ROMAN在违规数量和场景多样性上优于ABEL和LawBreaker，覆盖所有输入法规条款。
 
 ## 摘要（原文）
 

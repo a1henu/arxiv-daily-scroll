@@ -7,14 +7,14 @@ title: CORP: Closed-Form One-shot Representation-Preserving Structured Pruning f
 **arXiv**：[2602.05243v1](https://arxiv.org/abs/2602.05243) · [PDF](https://arxiv.org/pdf/2602.05243.pdf)  
 **作者**：Boxiang Zhang, Baijian Yang  
 
-**一句话要点**：提出CORP以解决Vision Transformers后训练结构化剪枝问题，无需标签或微调。
+**一句话要点**：提出CORP框架以解决Vision Transformers后训练结构化剪枝问题
 
-**关键词**：Vision Transformers, 结构化剪枝, 后训练优化, 表示恢复, 闭式解, 单次剪枝
+**关键词**：Vision Transformers, 结构化剪枝, 后训练优化, 闭式解, 表示恢复, 单次剪枝
 
 ## 3 点简述
-- Vision Transformers计算成本高，现有剪枝方法依赖重训练或优化阶段。
-- CORP通过闭式单次剪枝，建模为表示恢复问题，补偿权重以最小化误差。
-- 实验显示在DeiT模型上，CORP在50%剪枝率下保持高精度，效率提升显著。
+- 核心问题：Vision Transformers计算和内存成本高，现有结构化剪枝方法依赖重训练或多阶段优化，限制后训练部署。
+- 方法要点：CORP为闭式单次结构化剪枝框架，无需标签、梯度或微调，通过表示恢复建模和闭式岭回归补偿权重。
+- 实验或效果：在ImageNet上，CORP在DeiT-Huge模型剪枝50% MLP和注意力结构后保持82.8% Top-1准确率，单GPU 20分钟内完成。
 
 ## 摘要（原文）
 

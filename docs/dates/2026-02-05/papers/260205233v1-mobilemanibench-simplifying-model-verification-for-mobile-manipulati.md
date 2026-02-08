@@ -9,7 +9,7 @@ title: MobileManiBench: Simplifying Model Verification for Mobile Manipulation
 
 **一句话要点**：提出MobileManiBench仿真基准以简化移动操作模型的验证
 
-**关键词**：移动操作基准, 仿真验证, 视觉-语言-动作模型, 强化学习生成, 机器人仿真
+**关键词**：移动操作基准, 仿真验证, 视觉-语言-动作模型, 强化学习生成, 机器人仿真, 数据效率研究
 
 ## 3 点简述
 - 核心问题：现有视觉-语言-动作模型依赖静态桌面场景数据集，限制移动操作验证。

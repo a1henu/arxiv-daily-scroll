@@ -7,14 +7,14 @@ title: Explainable AI: A Combined XAI Framework for Explaining Brain Tumour Dete
 **arXiv**：[2602.05240v1](https://arxiv.org/abs/2602.05240) · [PDF](https://arxiv.org/pdf/2602.05240.pdf)  
 **作者**：Patrick McGonagle, William Farrelly, Kevin Curran  
 
-**一句话要点**：提出集成XAI框架以增强脑肿瘤检测模型的解释性
+**一句话要点**：提出集成XAI框架以增强脑肿瘤检测模型的可解释性
 
-**关键词**：可解释人工智能, 脑肿瘤检测, 卷积神经网络, GRAD-CAM, SHAP, 医疗影像分析
+**关键词**：可解释人工智能, 脑肿瘤检测, 卷积神经网络, 梯度加权类激活映射, 层相关传播, SHAP解释
 
 ## 3 点简述
-- 核心问题：深度学习模型在脑肿瘤检测中缺乏可解释性，影响医疗信任。
-- 方法要点：结合GRAD-CAM、LRP和SHAP技术，提供从区域到像素的多层解释。
-- 实验或效果：在BraTS 2021数据集上，模型准确率达91.24%，集成方法优于单一XAI技术。
+- 核心问题：深度学习模型在脑肿瘤检测中缺乏透明度和可解释性，影响医疗应用中的信任。
+- 方法要点：结合GRAD-CAM、LRP和SHAP三种XAI技术，提供从空间区域到像素级的层次化解释。
+- 实验或效果：在BraTS 2021数据集上，CNN模型准确率达91.24%，集成框架能识别全肿瘤和部分肿瘤，解释能力优于单一方法。
 
 ## 摘要（原文）
 

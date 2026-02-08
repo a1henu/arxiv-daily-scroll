@@ -13,8 +13,8 @@ title: Benchmarking Artificial Intelligence Models for Daily Coastal Hypoxia For
 
 ## 3 点简述
 - 核心问题：墨西哥湾北部沿海缺氧的日尺度预测需求，现有季节性模型无法捕捉精细变化。
-- 方法要点：比较BiLSTM、Medformer、ST-Transformer和TCN四种深度学习架构，结合水柱分层等特征构建分类模型。
-- 实验或效果：ST-Transformer在所有指标和测试期表现最佳（AUC-ROC: 0.982-0.992），模型间差异通过McNemar方法统计验证。
+- 方法要点：比较BiLSTM、Medformer、ST-Transformer和TCN四种深度学习架构，结合水柱分层、沉积物耗氧和温度依赖分解率构建分类模型。
+- 实验或效果：使用2009-2020年数据训练，2020-2024年测试，ST-Transformer在所有指标和测试期表现最佳（AUC-ROC: 0.982-0.992）。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: Neuro-Inspired Visual Pattern Recognition via Biological Reservoir Comput
 **arXiv**：[2602.05737v1](https://arxiv.org/abs/2602.05737) · [PDF](https://arxiv.org/pdf/2602.05737.pdf)  
 **作者**：Luca Ciampi, Ludovico Iannello, Fabrizio Tonelli, Gabriele Lagani, Angelo Di Garbo, Federico Cremisi, Giuseppe Amato  
 
-**一句话要点**：提出基于体外培养皮层神经元的生物储层计算系统，用于静态视觉模式识别。
+**一句话要点**：提出生物储层计算系统，利用体外培养皮层神经元网络实现静态视觉模式识别。
 
-**关键词**：生物储层计算, 神经形态计算, 视觉模式识别, 高密度多电极阵列, 体外神经网络
+**关键词**：生物储层计算, 神经形态计算, 视觉模式识别, 高密度多电极阵列, 体外神经元网络
 
 ## 3 点简述
-- 核心问题：如何利用生物神经网络的动态特性作为计算基底，替代人工循环模型。
-- 方法要点：使用高密度多电极阵列刺激和读取神经元活动，结合线性读出层进行分类。
-- 实验或效果：在从简单刺激到MNIST手写数字的任务中，系统生成高维表示支持准确分类。
+- 核心问题：传统储层计算依赖人工循环模型，缺乏生物神经动态的真实性。
+- 方法要点：使用高密度多电极阵列刺激和读取活体神经回路活动作为计算基底。
+- 实验或效果：在MNIST等任务中，系统生成高维表示支持准确分类，验证生物储层有效性。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: Variational Speculative Decoding: Rethinking Draft Training from Token Li
 **arXiv**：[2602.05774v1](https://arxiv.org/abs/2602.05774) · [PDF](https://arxiv.org/pdf/2602.05774.pdf)  
 **作者**：Xiandong Zou, Jianshu Li, Jing Huang, Pan Zhou  
 
-**一句话要点**：提出变分推测解码以优化草稿训练，提升大语言模型推理速度
+**一句话要点**：提出变分推测解码以优化草稿训练，提升大模型推理速度
 
 **关键词**：推测解码, 变分推断, 大语言模型, 推理加速, 草稿训练, 序列接受
 
 ## 3 点简述
-- 现有推测解码方法存在训练与解码不一致问题，优化单一路径而非多路径验证
-- VSD将草稿训练建模为变分推断，最大化目标模型接受概率，通过ELBO提升草稿质量
-- 实验显示VSD在LLMs和MLLMs上比EAGLE-3和ViSpec提速最高达9.6%和7.9%
+- 现有推测解码方法训练与解码存在差异，草稿训练仅优化单一路径，而解码需验证多条路径
+- VSD将草稿训练建模为变分推断，最大化目标模型接受概率，通过ELBO提升草稿质量并减少分布差异
+- 实验显示VSD在LLMs和MLLMs上比EAGLE-3和ViSpec提速最高达9.6%和7.9%，显著提升解码效率
 
 ## 摘要（原文）
 
