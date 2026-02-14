@@ -9,7 +9,7 @@ title: Free Lunch for Stabilizing Rectified Flow Inversion
 
 **一句话要点**：提出Proximal-Mean Inversion以稳定Rectified Flow反演，提升重建与编辑质量
 
-**关键词**：Rectified Flow反演, 速度场稳定, 训练自由方法, 图像重建, 图像编辑, PIE-Bench
+**关键词**：Rectified Flow反演, 速度场稳定, 训练自由梯度校正, 图像重建, 图像编辑, PIE-Bench
 
 ## 3 点简述
 - Rectified Flow反演存在近似误差累积，导致速度场不稳定和重建编辑质量下降

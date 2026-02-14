@@ -7,14 +7,14 @@ title: Improving HPC Code Generation Capability of LLMs via Online Reinforcement
 **arXiv**：[2602.12049v1](https://arxiv.org/abs/2602.12049) · [PDF](https://arxiv.org/pdf/2602.12049.pdf)  
 **作者**：Ryo Mikasa, Shun-ichiro Hayashi, Daichi Mukunoki, Tetsuya Hoshino, Takahiro Katagiri  
 
-**一句话要点**：提出在线强化学习方法，结合实时性能反馈与分阶段优化，提升LLM的HPC代码生成能力。
+**一句话要点**：提出在线强化学习方法，结合实时性能反馈与分阶段优化，以提升LLM在HPC代码生成中的性能。
 
 **关键词**：高性能计算, 代码生成, 强化学习, 在线训练, 性能优化, 分阶段算法
 
 ## 3 点简述
-- 核心问题：LLM生成的代码在HPC领域运行时性能无保证，缺乏基于性能奖励的训练尝试。
-- 方法要点：在线强化学习，在超算上执行代码并以GFLOPS作为奖励，引入分阶段质量多样性算法。
-- 实验或效果：训练Qwen2.5 Coder 14B于矩阵乘法任务，结合GRPO，实验显示方法能提升代码生成能力。
+- 核心问题：LLM生成的代码在HPC领域运行时性能不保证，缺乏基于性能奖励的训练尝试。
+- 方法要点：使用在线强化学习，在超级计算机上执行代码并以GFLOPS作为奖励，引入分阶段质量多样性算法进行优化。
+- 实验或效果：训练Qwen2.5 Coder 14B于双精度矩阵乘法任务，实验显示方法能提升LLM的HPC代码生成能力。
 
 ## 摘要（原文）
 

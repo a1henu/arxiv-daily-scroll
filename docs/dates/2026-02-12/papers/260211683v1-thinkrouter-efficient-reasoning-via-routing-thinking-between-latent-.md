@@ -7,14 +7,14 @@ title: ThinkRouter: Efficient Reasoning via Routing Thinking between Latent and 
 **arXiv**：[2602.11683v1](https://arxiv.org/abs/2602.11683) · [PDF](https://arxiv.org/pdf/2602.11683.pdf)  
 **作者**：Xin Xu, Tong Yu, Xiang Chen, Haoliang Wang, Julian McAuley, Saayan Mitra  
 
-**一句话要点**：提出ThinkRouter推理时置信度感知路由机制，以提升大模型在STEM和编码任务中的推理效率与准确性。
+**一句话要点**：提出ThinkRouter推理时置信度感知路由机制，以提升大模型在STEM和编程任务中的推理效率与准确性。
 
-**关键词**：推理效率, 置信度路由, 潜在空间推理, STEM推理, 编码基准, 模型校准
+**关键词**：推理效率, 置信度感知路由, 潜在推理, STEM推理, 编程基准, 模型校准
 
 ## 3 点简述
-- 核心问题：潜在推理中，错误答案轨迹因低置信度步骤少而高置信，软嵌入聚合可能引入噪声，影响推理可靠性。
-- 方法要点：ThinkRouter根据模型置信度动态路由思考，低置信时转向离散令牌空间，高置信时转向潜在空间，避免噪声传播。
-- 实验或效果：在多个大推理模型上，ThinkRouter在准确率上优于显式CoT、随机路由和潜在推理基线，平均提升Pass@1 19.70点，生成长度减少达15.55%。
+- 分析发现，潜在推理中错误答案轨迹包含更少低置信度步骤，软嵌入可能引入噪声导致高置信度不可靠推理。
+- ThinkRouter根据模型置信度动态路由思考到离散令牌空间或潜在空间，避免高置信度和噪声传播。
+- 实验显示，ThinkRouter在准确率上优于显式思维链和潜在推理基线，平均提升19.70点Pass@1，同时减少生成长度达15.55%。
 
 ## 摘要（原文）
 

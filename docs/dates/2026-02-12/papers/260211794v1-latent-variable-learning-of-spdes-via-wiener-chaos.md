@@ -7,14 +7,14 @@ title: Latent-Variable Learning of SPDEs via Wiener Chaos
 **arXiv**：[2602.11794v1](https://arxiv.org/abs/2602.11794) · [PDF](https://arxiv.org/pdf/2602.11794.pdf)  
 **作者**：Sebastian Zeng, Andreas Petersson, Wolfgang Bock  
 
-**一句话要点**：提出基于Wiener混沌展开的隐变量学习方法，从时空观测中学习线性SPDE的随机动力学。
+**一句话要点**：提出基于Wiener混沌展开的隐变量方法，从时空观测中学习线性SPDE的随机动力学。
 
-**关键词**：随机偏微分方程学习, Wiener混沌展开, 隐变量模型, 变分学习, 时空数据分析
+**关键词**：随机偏微分方程学习, 隐变量模型, Wiener混沌展开, 谱Galerkin方法, 变分学习
 
 ## 3 点简述
-- 核心问题：从时空观测中学习线性随机偏微分方程的随机动力学，无需噪声或初始条件。
-- 方法要点：结合谱Galerkin投影和截断Wiener混沌展开，将SPDE简化为参数化常微分方程系统。
-- 实验或效果：在合成数据上评估，在可比建模假设下实现最先进性能，适用于有界和无界空间域。
+- 核心问题：从时空观测学习线性SPDE的随机律，无需噪声或初始条件直接访问。
+- 方法要点：结合谱Galerkin投影与截断Wiener混沌展开，将SPDE降维为参数化ODE系统。
+- 实验或效果：在合成数据上验证，在可比建模假设下实现最先进性能。
 
 ## 摘要（原文）
 

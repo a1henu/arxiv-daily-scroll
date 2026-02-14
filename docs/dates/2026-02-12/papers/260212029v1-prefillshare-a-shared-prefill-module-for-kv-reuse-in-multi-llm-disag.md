@@ -14,7 +14,7 @@ title: PrefillShare: A Shared Prefill Module for KV Reuse in Multi-LLM Disaggreg
 ## 3 点简述
 - 多模型系统重复处理相同提示前缀，导致预填充阶段冗余和KV缓存浪费
 - PrefillShare将模型分解为预填充和解码模块，冻结预填充模块并微调解码模块以实现共享
-- 实验显示在多种任务上匹配全微调精度，并显著降低延迟和提高吞吐量
+- 实验显示在保持精度的同时，显著降低延迟并提高吞吐量
 
 ## 摘要（原文）
 

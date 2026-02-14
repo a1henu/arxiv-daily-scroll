@@ -7,13 +7,13 @@ title: WaveFormer: Wavelet Embedding Transformer for Biomedical Signals
 **arXiv**：[2602.12189v1](https://arxiv.org/abs/2602.12189) · [PDF](https://arxiv.org/pdf/2602.12189.pdf)  
 **作者**：Habib Irani, Bikram De, Vangelis Metsis  
 
-**一句话要点**：提出WaveFormer，通过小波嵌入和动态位置编码解决生物医学信号分类中的长序列和多尺度频率模式问题。
+**一句话要点**：提出WaveFormer，通过小波嵌入和动态位置编码解决生物医学信号分类中长序列和多尺度频率模式捕获问题。
 
-**关键词**：生物医学信号分类, 小波变换, Transformer架构, 动态位置编码, 时间序列分析
+**关键词**：生物医学信号分类, 小波变换, Transformer架构, 动态位置编码, 多尺度频率模式, 时间序列分析
 
 ## 3 点简述
-- 生物医学信号分类面临长序列、复杂动态和多尺度频率模式挑战，标准Transformer难以有效捕捉。
-- WaveFormer在嵌入构建和位置编码阶段集成小波分解，提取频率特征并适应信号特定时间结构。
+- 生物医学信号分类面临长序列、复杂时域动态和多尺度频率模式挑战，标准Transformer架构难以有效处理。
+- WaveFormer在嵌入构建阶段使用多通道离散小波变换提取频率特征，在位置编码阶段采用动态小波位置编码适应信号特定时域结构。
 - 在八个数据集上评估，涵盖人类活动识别和脑信号分析，WaveFormer通过频率感知处理实现竞争性能。
 
 ## 摘要（原文）

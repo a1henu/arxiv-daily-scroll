@@ -12,9 +12,9 @@ title: How to Sample High Quality 3D Fractals for Action Recognition Pre-Trainin
 **关键词**：3D分形生成, 动作识别预训练, 合成数据集, 迭代函数系统, Targeted Smart Filtering
 
 ## 3 点简述
-- 核心问题：传统3D分形生成方法速度慢且易产生退化分形，影响预训练效果。
-- 方法要点：采用Targeted Smart Filtering，平衡生成速度与分形多样性，避免过度限制。
-- 实验或效果：采样速度提升约100倍，下游任务性能优于其他3D分形过滤方法。
+- 核心问题：传统3D分形生成方法速度慢且易产生退化分形，影响下游任务性能。
+- 方法要点：采用3D迭代函数系统生成分形，提出Targeted Smart Filtering提升采样速度和多样性。
+- 实验或效果：采样速度提升约100倍，下游动作识别性能优于其他3D分形过滤方法。
 
 ## 摘要（原文）
 

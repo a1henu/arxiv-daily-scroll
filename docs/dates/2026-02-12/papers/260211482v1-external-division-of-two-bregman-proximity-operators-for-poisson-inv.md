@@ -13,8 +13,8 @@ title: External Division of Two Bregman Proximity Operators for Poisson Inverse 
 
 ## 3 点简述
 - 核心问题：从泊松噪声污染的线性模型中恢复稀疏向量，传统ℓ₁正则化存在估计偏差
-- 方法要点：引入外部除法Bregman邻近算子促进稀疏解，并嵌入NoLips算法进行优化
-- 实验或效果：数值测试显示方法收敛更稳定，在合成数据和图像恢复中性能显著优于传统KL方法
+- 方法要点：引入外部除法Bregman邻近算子促进稀疏解，并嵌入NoLips算法以替代标准算子
+- 实验或效果：数值测试显示方法比传统KL方法收敛更稳定，在合成数据和图像恢复中性能显著提升
 
 ## 摘要（原文）
 

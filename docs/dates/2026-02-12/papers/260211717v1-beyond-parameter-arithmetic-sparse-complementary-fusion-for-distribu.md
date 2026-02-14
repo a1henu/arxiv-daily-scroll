@@ -7,14 +7,14 @@ title: Beyond Parameter Arithmetic: Sparse Complementary Fusion for Distribution
 **arXiv**：[2602.11717v1](https://arxiv.org/abs/2602.11717) · [PDF](https://arxiv.org/pdf/2602.11717.pdf)  
 **作者**：Weihong Lin, Lin Sun, Qilong Shi, Aomufei Yuan, Yuxuan Tian, Zhengyang Wang, Guangxiang Zhao, Xiangzheng Zhang, Tong Yang  
 
-**一句话要点**：提出SCF-RKL稀疏互补融合框架，以解决模型合并中的功能干扰问题。
+**一句话要点**：提出SCF-RKL稀疏互补融合框架，以解决模型合并中的功能干扰问题
 
-**关键词**：模型合并, 稀疏融合, 反向KL散度, 功能干扰, 分布感知更新, 生成稳定性
+**关键词**：模型合并, 稀疏融合, 反向KL散度, 分布感知更新, 功能干扰控制, 生成稳定性
 
 ## 3 点简述
-- 现有模型合并方法依赖参数空间启发式，导致严重干扰和性能下降。
-- SCF-RKL使用反向KL散度测量功能差异，通过稀疏更新选择性整合互补参数。
-- 在24个基准测试中，SCF-RKL优于现有方法，保持强泛化和生成稳定性。
+- 现有模型合并方法依赖参数空间启发式，导致严重干扰和性能下降
+- SCF-RKL使用反向KL散度衡量功能差异，通过稀疏、分布感知更新选择性融合互补参数
+- 在24个基准测试中，SCF-RKL优于现有方法，保持强泛化和生成稳定性
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: PAC-Bayesian Generalization Guarantees for Fairness on Stochastic and Det
 **arXiv**：[2602.11722v1](https://arxiv.org/abs/2602.11722) · [PDF](https://arxiv.org/pdf/2602.11722.pdf)  
 **作者**：Julien Bastian, Benjamin Leblanc, Pascal Germain, Amaury Habrard, Christine Largeron, Guillaume Metzler, Emilie Morvant, Paul Viallard  
 
-**一句话要点**：提出PAC-Bayesian框架以解决公平性泛化保证问题，适用于随机和确定性分类器。
+**一句话要点**：提出PAC-Bayesian框架以推导公平性泛化保证，适用于随机和确定性分类器。
 
-**关键词**：公平性学习, PAC-Bayes理论, 泛化保证, 随机分类器, 确定性分类器, 风险差异
+**关键词**：公平性泛化保证, PAC-Bayesian框架, 随机分类器, 确定性分类器, 风险差异, 自界算法
 
 ## 3 点简述
-- 核心问题：经典PAC泛化界不足以保证公平性，需平衡预测风险和公平约束。
-- 方法要点：基于PAC-Bayes推导公平性泛化界，扩展至确定性分类器，支持风险差异类公平度量。
-- 实验或效果：评估三种公平度量，展示框架实用性和边界紧致性。
+- 核心问题：传统PAC泛化界无法为平衡预测风险和公平约束的模型提供理论保证。
+- 方法要点：基于PAC-Bayes技术，为随机分类器推导公平界，并扩展至确定性分类器。
+- 实验或效果：在三种经典公平度量上实证评估，展示框架实用性和界紧致性。
 
 ## 摘要（原文）
 

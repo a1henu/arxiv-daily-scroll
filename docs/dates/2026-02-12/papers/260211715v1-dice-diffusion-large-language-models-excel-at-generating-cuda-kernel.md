@@ -9,12 +9,12 @@ title: DICE: Diffusion Large Language Models Excel at Generating CUDA Kernels
 
 **一句话要点**：提出DICE扩散大语言模型，通过CuKe数据集和BiC-RL框架解决CUDA内核生成难题。
 
-**关键词**：扩散大语言模型, CUDA内核生成, 强化学习, 代码生成, 并行令牌生成
+**关键词**：扩散大语言模型, CUDA内核生成, 强化学习, 代码生成, 并行生成
 
 ## 3 点简述
-- 核心问题：扩散大语言模型在CUDA内核生成中面临高专业性和高质量训练数据缺乏的挑战。
-- 方法要点：构建CuKe增强数据集，并设计BiC-RL框架进行两阶段强化学习优化。
-- 实验或效果：在KernelBench上，DICE超越同类自回归和扩散模型，达到新SOTA。
+- 核心问题：扩散大语言模型在CUDA内核生成中面临数据稀缺和专业化挑战。
+- 方法要点：构建CuKe数据集，并设计BiC-RL框架进行两阶段强化学习优化。
+- 实验或效果：在KernelBench上，DICE超越同类模型，实现CUDA内核生成的新SOTA。
 
 ## 摘要（原文）
 

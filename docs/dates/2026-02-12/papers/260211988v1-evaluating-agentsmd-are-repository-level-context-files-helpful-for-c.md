@@ -7,14 +7,14 @@ title: Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Codi
 **arXiv**：[2602.11988v1](https://arxiv.org/abs/2602.11988) · [PDF](https://arxiv.org/pdf/2602.11988.pdf)  
 **作者**：Thibaud Gloaguen, Niels Mündler, Mark Müller, Veselin Raychev, Martin Vechev  
 
-**一句话要点**：评估AGENTS.md：仓库级上下文文件对编码代理任务完成率有负面影响
+**一句话要点**：评估AGENTS.md：仓库级上下文文件对编码代理任务完成率的影响研究
 
 **关键词**：编码代理, 上下文文件, 任务评估, 软件工程基准, LLM生成, 仓库级优化
 
 ## 3 点简述
-- 核心问题：研究仓库级上下文文件（如AGENTS.md）是否提升编码代理在真实任务中的性能
-- 方法要点：在SWE-bench任务和含开发者提交上下文文件的新问题集上评估编码代理
-- 实验或效果：上下文文件降低任务成功率，增加推理成本，建议仅描述最小需求
+- 核心问题：探究编码代理使用仓库级上下文文件（如AGENTS.md）是否提升真实世界任务性能
+- 方法要点：在SWE-bench任务和含开发者提交上下文文件的新问题集上评估多编码代理和LLM
+- 实验或效果：上下文文件降低任务成功率，增加推理成本，鼓励更广泛探索
 
 ## 摘要（原文）
 

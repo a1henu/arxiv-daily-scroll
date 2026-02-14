@@ -7,14 +7,14 @@ title: Learning to Control: The iUzawa-Net for Nonsmooth Optimal Control of Line
 **arXiv**：[2602.12273v1](https://arxiv.org/abs/2602.12273) · [PDF](https://arxiv.org/pdf/2602.12273.pdf)  
 **作者**：Yongcun Song, Xiaoming Yuan, Hangrui Yue, Tianyou Zeng  
 
-**一句话要点**：提出iUzawa-Net以实时求解线性PDE非光滑最优控制问题
+**一句话要点**：提出iUzawa-Net以解决线性PDE非光滑最优控制问题的实时求解
 
-**关键词**：最优控制, 偏微分方程, 神经网络求解器, 非光滑优化, Uzawa方法, 实时计算
+**关键词**：最优控制, 偏微分方程约束优化, 深度学习, Uzawa方法, 神经网络求解器
 
 ## 3 点简述
 - 核心问题：线性偏微分方程非光滑最优控制问题求解效率低，难以实时应用。
-- 方法要点：基于非精确Uzawa方法展开，用可学习神经网络替代传统预处理器和PDE求解器。
-- 实验或效果：验证了非光滑椭圆和抛物最优控制问题中的数值效率，证明渐近ε最优性。
+- 方法要点：基于不精确Uzawa方法展开，用可学习神经网络替代传统预处理器和PDE求解器。
+- 实验或效果：验证了在非光滑椭圆和抛物最优控制问题中的数值效率，证明渐近ε最优性。
 
 ## 摘要（原文）
 

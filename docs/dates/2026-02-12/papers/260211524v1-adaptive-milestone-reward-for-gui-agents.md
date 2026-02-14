@@ -7,14 +7,14 @@ title: Adaptive Milestone Reward for GUI Agents
 **arXiv**：[2602.11524v1](https://arxiv.org/abs/2602.11524) · [PDF](https://arxiv.org/pdf/2602.11524.pdf)  
 **作者**：Congmin Zheng, Xiaoyun Mo, Xinbei Ma, Qiqiang Lin, Yin Zhao, Jiachen Zhu, Xingyu Lou, Jun Wang, Zhaoxiang Wang, Weiwen Liu, Zhuosheng Zhang, Yong Yu, Weinan Zhang  
 
-**一句话要点**：提出自适应里程碑奖励机制，以解决移动GUI智能体中长时任务奖励稀疏与偏差的权衡问题。
+**一句话要点**：提出自适应里程碑奖励机制，以解决移动GUI智能体中长时程任务的信用分配问题。
 
-**关键词**：移动GUI智能体, 强化学习, 信用分配, 里程碑奖励, 非对称策略, 泛化性能
+**关键词**：移动GUI智能体, 强化学习, 信用分配, 自适应奖励, 里程碑学习, 泛化性能
 
 ## 3 点简述
-- 核心问题：强化学习在移动GUI智能体训练中面临长时任务信用分配难题，奖励稀疏与偏差存在权衡。
-- 方法要点：ADMIRE通过动态提取里程碑构建可验证奖励系统，并采用非对称信用分配策略去噪成功轨迹和辅助失败轨迹。
-- 实验或效果：在AndroidWorld上，ADMIRE使不同基础模型成功率绝对提升超10%，并在多种环境和算法中展现强泛化性。
+- 核心问题：强化学习在移动GUI智能体训练中面临长时程任务的信用分配难题，奖励保真度与密度之间存在权衡。
+- 方法要点：ADMIRE通过锚定轨迹到动态从成功探索中提炼的里程碑，构建可验证的自适应奖励系统，并集成非对称信用分配策略。
+- 实验或效果：在AndroidWorld上，ADMIRE在不同基础模型上实现超过10%的绝对成功率提升，并在多种环境和算法中展现强泛化性。
 
 ## 摘要（原文）
 

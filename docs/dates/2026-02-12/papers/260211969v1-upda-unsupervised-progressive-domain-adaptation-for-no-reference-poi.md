@@ -7,13 +7,13 @@ title: UPDA: Unsupervised Progressive Domain Adaptation for No-Reference Point C
 **arXiv**：[2602.11969v1](https://arxiv.org/abs/2602.11969) · [PDF](https://arxiv.org/pdf/2602.11969.pdf)  
 **作者**：Bingxu Xie, Fang Zhou, Jincan Wu, Yonghui Liu, Weiqing Li, Zhiyong Su  
 
-**一句话要点**：提出无监督渐进域适应框架UPDA以解决无参考点云质量评估的跨域性能下降问题。
+**一句话要点**：提出无监督渐进域适应框架UPDA，以解决无参考点云质量评估中的跨域性能下降问题。
 
 **关键词**：无参考点云质量评估, 域适应, 渐进对齐, 特征融合, 跨域学习
 
 ## 3 点简述
 - 核心问题：无参考点云质量评估模型在训练与测试数据分布不同时性能显著下降。
-- 方法要点：采用两阶段粗到细对齐，包括基于质量差异的粗粒度对齐和感知融合的细粒度对齐。
+- 方法要点：采用两阶段粗到细对齐，包括粗粒度差异感知对齐和细粒度感知融合对齐。
 - 实验或效果：实验验证UPDA能有效提升跨域场景下的评估性能，代码已开源。
 
 ## 摘要（原文）

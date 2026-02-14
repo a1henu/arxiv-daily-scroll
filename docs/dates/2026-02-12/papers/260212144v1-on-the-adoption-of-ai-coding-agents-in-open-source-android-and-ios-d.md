@@ -7,14 +7,14 @@ title: On the Adoption of AI Coding Agents in Open-source Android and iOS Develo
 **arXiv**：[2602.12144v1](https://arxiv.org/abs/2602.12144) · [PDF](https://arxiv.org/pdf/2602.12144.pdf)  
 **作者**：Muhammad Ahmad Khan, Hasnain Ali, Muneeb Rana, Muhammad Saqib Ilyas, Abdul Ali Bangash  
 
-**一句话要点**：实证分析开源移动项目中AI编码代理的采纳情况，揭示平台与任务差异
+**一句话要点**：实证分析AI编码代理在开源Android与iOS开发中的采纳行为与影响
 
-**关键词**：AI编码代理, 移动开发, 开源软件, PR接受率, 任务类别分析, 实证研究
+**关键词**：AI编码代理, 开源移动开发, PR接受行为, Android与iOS对比, 任务类别分析, 实证研究
 
 ## 3 点简述
-- 核心问题：AI编码代理在移动开发中的影响缺乏实证研究，需评估其代码采纳行为。
-- 方法要点：分析AIDev数据集中193个Android和iOS项目的2,901个AI生成PR，考察平台、代理和任务类别。
-- 实验或效果：Android项目PR接受率更高（71% vs 63%），常规任务接受率最高，结构变更成功率低且耗时更长。
+- 核心问题：AI编码代理在移动开发中的贡献缺乏实证研究，需评估其代码采纳情况。
+- 方法要点：分析AIDev数据集中193个Android和iOS开源项目的2,901个AI生成PR，按平台、代理和任务类别分类。
+- 实验或效果：Android项目AI PR数量更多、接受率更高（71% vs 63%），常规任务接受率最高，结构变更成功率低且耗时更长。
 
 ## 摘要（原文）
 

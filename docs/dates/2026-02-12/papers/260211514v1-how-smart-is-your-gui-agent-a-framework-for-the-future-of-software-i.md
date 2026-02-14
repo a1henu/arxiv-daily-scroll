@@ -12,9 +12,9 @@ title: How Smart Is Your GUI Agent? A Framework for the Future of Software Inter
 **关键词**：GUI代理, 自主性框架, 软件交互, 基准测试, 可信交互
 
 ## 3 点简述
-- 核心问题：GUI代理的自主性定义模糊，导致能力、责任和风险不明确。
+- 核心问题：GUI代理的自主性描述差异大，导致能力、责任和风险不明确。
 - 方法要点：引入六层GUI Agent Autonomy Levels框架，使自主性显式化。
-- 实验或效果：未知，论文主要提出概念框架，未报告具体实验或效果。
+- 实验或效果：未知，但框架旨在帮助基准测试未来软件交互的进展。
 
 ## 摘要（原文）
 

@@ -9,7 +9,7 @@ title: AttentionRetriever: Attention Layers are Secretly Long Document Retriever
 
 **一句话要点**：提出AttentionRetriever，利用注意力机制和基于实体的检索解决长文档检索中的上下文感知和范围确定问题。
 
-**关键词**：长文档检索, 注意力机制, 实体检索, 上下文感知嵌入, 检索增强生成
+**关键词**：长文档检索, 注意力机制, 实体检索, 上下文感知, 检索增强生成
 
 ## 3 点简述
 - 核心问题：现有检索模型未针对长文档设计，难以处理上下文感知、因果依赖和检索范围等挑战。

@@ -14,7 +14,7 @@ title: When Should LLMs Be Less Specific? Selective Abstraction for Reliable Lon
 ## 3 点简述
 - 核心问题：LLMs在长文本生成中易产生事实错误，现有不确定性估计方法过于限制。
 - 方法要点：引入选择性抽象，将响应分解为原子声明，用更抽象但更可靠的表述替换不确定部分。
-- 实验或效果：在FactScore和LongFact-Objects基准上，原子级选择性抽象显著优于基线，提升风险-覆盖曲线下面积。
+- 实验或效果：在FactScore和LongFact-Objects基准上，原子级选择性抽象优于基线，风险-覆盖曲线下面积提升达27.73%。
 
 ## 摘要（原文）
 

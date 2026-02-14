@@ -7,14 +7,14 @@ title: Stroke of Surprise: Progressive Semantic Illusions in Vector Sketching
 **arXiv**：[2602.12280v1](https://arxiv.org/abs/2602.12280) · [PDF](https://arxiv.org/pdf/2602.12280.pdf)  
 **作者**：Huai-Hsun Cheng, Siang-Ling Zhang, Yu-Lun Liu  
 
-**一句话要点**：提出Stroke of Surprise框架，通过序列优化向量笔画实现渐进语义错觉
+**一句话要点**：提出Stroke of Surprise框架以解决渐进语义幻觉的向量草图生成任务
 
-**关键词**：向量素描, 语义错觉, 序列优化, Score Distillation Sampling, 覆盖损失, 视觉字谜
+**关键词**：向量草图生成, 渐进语义幻觉, 双分支SDS, 序列感知优化, 覆盖损失, 视觉字谜
 
 ## 3 点简述
-- 核心问题：向量素描中，如何使初始笔画同时构成两个不同语义对象，满足双重约束。
+- 核心问题：向量草图中如何通过顺序添加笔画实现语义转换，同时满足双重约束。
 - 方法要点：采用序列感知联合优化框架，结合双分支SDS机制和覆盖损失，动态调整笔画。
-- 实验效果：在可识别性和错觉强度上显著优于基线，将视觉字谜从空间扩展到时间维度。
+- 实验或效果：在可识别性和幻觉强度上显著优于基线，将视觉字谜从空间扩展到时间维度。
 
 ## 摘要（原文）
 

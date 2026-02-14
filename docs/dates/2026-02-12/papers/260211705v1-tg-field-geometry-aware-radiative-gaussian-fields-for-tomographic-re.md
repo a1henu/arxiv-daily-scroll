@@ -7,14 +7,14 @@ title: TG-Field: Geometry-Aware Radiative Gaussian Fields for Tomographic Recons
 **arXiv**：[2602.11705v1](https://arxiv.org/abs/2602.11705) · [PDF](https://arxiv.org/pdf/2602.11705.pdf)  
 **作者**：Yuxiang Zhong, Jun Wei, Chaoqi Chen, Senyou An, Hui Huang  
 
-**一句话要点**：提出TG-Field几何感知高斯变形框架，以解决稀疏投影和动态运动下的CT重建伪影问题。
+**一句话要点**：提出TG-Field以解决稀疏投影和动态运动下的CT重建伪影问题
 
 **关键词**：CT重建, 3D高斯溅射, 动态重建, 稀疏投影, 几何感知, 时空注意力
 
 ## 3 点简述
-- 核心问题：现有3DGS方法在稀疏投影和动态运动中产生严重伪影，影响CT重建质量。
-- 方法要点：采用多分辨率哈希编码捕获空间先验，引入时间条件表示和时空注意力块增强动态重建。
-- 实验或效果：在合成和真实数据集上验证，TG-Field在稀疏条件下达到最优重建精度。
+- 核心问题：现有3DGS方法在稀疏投影和动态运动中产生严重伪影
+- 方法要点：结合几何感知高斯变形、多分辨率哈希编码和时空注意力机制
+- 实验或效果：在合成和真实数据集上优于现有方法，实现高精度重建
 
 ## 摘要（原文）
 

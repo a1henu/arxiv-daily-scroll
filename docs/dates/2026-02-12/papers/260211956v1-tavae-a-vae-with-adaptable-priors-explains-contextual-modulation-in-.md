@@ -7,14 +7,14 @@ title: TAVAE: A VAE with Adaptable Priors Explains Contextual Modulation in the 
 **arXiv**：[2602.11956v1](https://arxiv.org/abs/2602.11956) · [PDF](https://arxiv.org/pdf/2602.11956.pdf)  
 **作者**：Balázs Meszéna, Keith T. Murray, Julien Corbo, O. Batuhan Erkat, Márton A. Hajnal, Pierre-Olivier Polack, Gergő Orbán  
 
-**一句话要点**：提出任务摊销变分自编码器以解释视觉皮层中的上下文调制机制
+**一句话要点**：提出任务摊销变分自编码器以解释视觉皮层中任务相关的上下文调制
 
-**关键词**：变分自编码器, 视觉皮层, 上下文调制, 任务特定先验, 概率推断, 神经编码
+**关键词**：变分自编码器, 视觉皮层, 任务特定先验, 上下文调制, 生成模型, 神经记录
 
 ## 3 点简述
-- 研究视觉系统能否灵活学习任务特定先验以支持概率推断
+- 研究视觉系统能否灵活学习任务特定先验以解释上下文调制
 - 扩展变分自编码器框架，通过重用学习表示高效获取任务
-- 模型与小鼠实验数据匹配，解释V1群体活动中的不确定性特征
+- 模型预测与小鼠V1记录一致，显示任务统计不匹配引发不确定性
 
 ## 摘要（原文）
 

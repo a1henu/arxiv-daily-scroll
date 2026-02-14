@@ -7,13 +7,13 @@ title: MAPLE: Modality-Aware Post-training and Learning Ecosystem
 **arXiv**：[2602.11596v1](https://arxiv.org/abs/2602.11596) · [PDF](https://arxiv.org/pdf/2602.11596.pdf)  
 **作者**：Nikhil Verma, Minjung Kim, JooYoung Yoo, Kyung-Min Jin, Manasa Bharadwaj, Kevin Ferreira, Ko Keun Kim, Youngjoon Kim  
 
-**一句话要点**：提出MAPLE模态感知后训练生态系统，解决多模态RL中模态无关训练导致的梯度方差大和鲁棒性差问题。
+**一句话要点**：提出MAPLE模态感知后训练生态系统，以解决多模态RL中模态无关训练导致的梯度方差大和鲁棒性差问题。
 
 **关键词**：多模态语言模型, 强化学习后训练, 模态感知优化, 梯度方差减少, 鲁棒性增强, 自适应课程学习
 
 ## 3 点简述
-- 核心问题：现有多模态RL后训练忽视任务所需模态，导致梯度方差大、收敛慢和鲁棒性差。
-- 方法要点：引入MAPLE-bench基准、MAPO模态感知策略优化框架，以及自适应加权和课程调度。
+- 核心问题：现有RL后训练忽视任务所需模态，导致梯度方差大、收敛慢和鲁棒性差。
+- 方法要点：引入MAPLE-bench基准、MAPO模态感知策略优化框架及自适应加权与课程调度。
 - 实验或效果：缩小模态间准确率差距30.24%，收敛速度提升3.18倍，并在信号缺失下保持稳定。
 
 ## 摘要（原文）

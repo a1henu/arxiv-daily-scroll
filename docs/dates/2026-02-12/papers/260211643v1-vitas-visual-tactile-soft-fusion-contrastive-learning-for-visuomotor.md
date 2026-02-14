@@ -7,12 +7,12 @@ title: ViTaS: Visual Tactile Soft Fusion Contrastive Learning for Visuomotor Lea
 **arXiv**：[2602.11643v1](https://arxiv.org/abs/2602.11643) · [PDF](https://arxiv.org/pdf/2602.11643.pdf)  
 **作者**：Yufeng Tian, Shuiqi Cheng, Tianming Wei, Tianxing Zhou, Yuanhang Zhang, Zixian Liu, Qianwei Han, Zhecheng Yuan, Huazhe Xu  
 
-**一句话要点**：提出ViTaS框架，通过软融合对比学习和CVAE模块融合视觉与触觉信息，提升机器人操作在遮挡场景下的性能。
+**一句话要点**：提出ViTaS框架，通过软融合对比学习和CVAE模块融合视觉与触觉信息以提升机器人操作性能。
 
-**关键词**：视觉触觉融合, 对比学习, 机器人操作, 遮挡场景, CVAE模块
+**关键词**：视觉触觉融合, 对比学习, 机器人操作, 多模态学习, 遮挡处理
 
 ## 3 点简述
-- 现有方法多直接拼接视觉与触觉特征，忽视模态互补性，在遮挡场景中表现不佳。
+- 现有方法多直接拼接视觉与触觉特征，难以处理遮挡场景且未充分利用模态互补性。
 - 引入软融合对比学习和CVAE模块，增强视觉-触觉表示的对齐与互补性。
 - 在12个模拟和3个真实环境中验证，ViTaS显著优于现有基线方法。
 

@@ -9,7 +9,7 @@ title: Gradient Compression May Hurt Generalization: A Remedy by Synthetic Data 
 
 **一句话要点**：提出FedSynSAM以解决联邦学习中梯度压缩损害泛化的问题
 
-**关键词**：联邦学习, 梯度压缩, 泛化能力, Sharpness Aware Minimization, 合成数据, 非独立同分布数据
+**关键词**：联邦学习, 梯度压缩, 泛化能力, 锐度感知最小化, 合成数据, 非独立同分布数据
 
 ## 3 点简述
 - 发现梯度压缩在非独立同分布数据下导致损失景观更尖锐，损害泛化能力

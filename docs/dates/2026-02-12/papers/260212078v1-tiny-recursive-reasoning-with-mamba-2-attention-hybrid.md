@@ -9,12 +9,12 @@ title: Tiny Recursive Reasoning with Mamba-2 Attention Hybrid
 
 **一句话要点**：提出Mamba-2混合算子以增强递归推理模型的候选覆盖能力
 
-**关键词**：递归推理, Mamba-2, 状态空间模型, 抽象推理, 算子设计
+**关键词**：递归推理, Mamba-2, 状态空间模型, 抽象推理, 参数效率
 
 ## 3 点简述
 - 核心问题：Mamba-2状态空间循环是否适合作为递归推理的算子，并保持推理能力
-- 方法要点：在TRM中替换Transformer块为Mamba-2混合算子，保持参数规模相近
-- 实验或效果：在ARC-AGI-1上，pass@2提升2.0%，高K值表现更优，验证算子有效性
+- 方法要点：在TRM中用Mamba-2混合算子替换Transformer块，保持参数规模相近
+- 实验或效果：在ARC-AGI-1上，pass@2提升2.0%，高K值表现更优，验证推理能力保留
 
 ## 摘要（原文）
 

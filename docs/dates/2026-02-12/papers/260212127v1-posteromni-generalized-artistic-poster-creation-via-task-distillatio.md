@@ -13,8 +13,8 @@ title: PosterOmni: Generalized Artistic Poster Creation via Task Distillation an
 
 ## 3 点简述
 - 核心问题：图像到海报生成需兼顾局部实体保留与全局设计概念理解，是多维耦合过程
-- 方法要点：构建多场景数据集，通过知识蒸馏和统一奖励反馈整合局部编辑与全局创作
-- 实验或效果：在PosterOmni-Bench上显著提升参考依从性、构图质量和美学和谐性，超越开源基线
+- 方法要点：构建多场景数据集，通过知识蒸馏和统一奖励反馈整合局部与全局任务
+- 实验或效果：在PosterOmni-Bench上优于开源基线，部分超越专有系统，提升参考依从性和美学和谐
 
 ## 摘要（原文）
 

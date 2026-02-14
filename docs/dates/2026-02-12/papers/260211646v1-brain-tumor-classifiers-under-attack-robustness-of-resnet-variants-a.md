@@ -9,7 +9,7 @@ title: Brain Tumor Classifiers Under Attack: Robustness of ResNet Variants Again
 
 **一句话要点**：评估ResNet变体在脑肿瘤MRI分类中对FGSM和PGD攻击的鲁棒性
 
-**关键词**：脑肿瘤分类, 对抗攻击, ResNet变体, MRI数据, 鲁棒性评估
+**关键词**：脑肿瘤分类, 对抗攻击, ResNet变体, MRI数据, 鲁棒性评估, 梯度攻击
 
 ## 3 点简述
 - 核心问题：脑肿瘤分类模型的对抗鲁棒性在临床MRI应用中未充分探索

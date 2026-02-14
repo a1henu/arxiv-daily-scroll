@@ -7,12 +7,12 @@ title: Do MLLMs Really Understand Space? A Mathematical Reasoning Evaluation
 **arXiv**：[2602.11635v1](https://arxiv.org/abs/2602.11635) · [PDF](https://arxiv.org/pdf/2602.11635.pdf)  
 **作者**：Shuo Lu, Jianjie Cheng, Yinuo Xu, Yongcan Yu, Lijun Sheng, Peijie Wang, Siru Jiang, Yongguan Hu, Run Ling, Yihua Shao, Ao Ma, Wei Feng, Lingxiao He, Meng Wang, Qianlong Xie, Xingxing Wang, Ran He, Jian Liang  
 
-**一句话要点**：提出MathSpatial框架以评估和改进多模态大语言模型在数学空间推理上的能力
+**一句话要点**：提出MathSpatial框架以评估和改进多模态大语言模型的空间数学推理能力
 
-**关键词**：多模态大语言模型, 数学空间推理, 基准测试, 结构化推理, 微调优化, 感知与推理分离
+**关键词**：多模态大语言模型, 空间数学推理, 基准测试, 结构化推理, 微调优化, 感知与推理分离
 
 ## 3 点简述
-- 核心问题：MLLMs在数学空间推理任务上表现不佳，准确率低于60%，远逊于人类水平。
+- 核心问题：MLLMs在数学空间推理任务上表现不佳，准确率低于60%，远低于人类水平。
 - 方法要点：MathSpatial包括基准测试、训练数据集和结构化推理追踪，以分离感知与推理。
 - 实验或效果：在Qwen2.5-VL-7B上微调后，实现竞争性准确率并减少25%的令牌使用。
 

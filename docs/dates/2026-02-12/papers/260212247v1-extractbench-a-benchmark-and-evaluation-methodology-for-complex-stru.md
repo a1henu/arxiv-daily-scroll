@@ -7,14 +7,14 @@ title: ExtractBench: A Benchmark and Evaluation Methodology for Complex Structur
 **arXiv**：[2602.12247v1](https://arxiv.org/abs/2602.12247) · [PDF](https://arxiv.org/pdf/2602.12247.pdf)  
 **作者**：Nick Ferguson, Josh Pennington, Narek Beghian, Aravind Mohan, Douwe Kiela, Sheshansh Agrawal, Thien Hang Nguyen  
 
-**一句话要点**：提出ExtractBench基准与评估框架，解决PDF到JSON结构化提取的端到端评测难题。
+**一句话要点**：提出ExtractBench基准与评估框架，解决PDF到JSON结构化提取的端到端评测与语义评估问题。
 
-**关键词**：PDF到JSON提取, 结构化提取基准, 语义嵌套评估, 企业级模式, LLM评估, 开源框架
+**关键词**：PDF结构化提取, JSON Schema评估, LLM基准测试, 语义提取评估, 企业级数据提取
 
 ## 3 点简述
-- 核心问题：缺乏企业级模式广度的PDF到JSON提取端到端基准和语义嵌套评估方法。
-- 方法要点：开源基准包含35个PDF文档与JSON模式，提供12,867个可评估字段，框架将模式作为可执行规范。
-- 实验或效果：前沿模型在现实模式上不可靠，性能随模式广度急剧下降，369字段财务报告模式上所有模型输出无效。
+- 核心问题：缺乏企业级PDF到JSON提取的端到端基准和语义评估方法，阻碍LLM应用进展。
+- 方法要点：构建开源基准，包含35个PDF文档、JSON Schema和人工标注，支持字段级语义评分。
+- 实验或效果：前沿模型在复杂模式上表现不可靠，如369字段金融报告模式上所有模型输出无效。
 
 ## 摘要（原文）
 

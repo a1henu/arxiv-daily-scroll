@@ -7,14 +7,14 @@ title: Towards Performance-Enhanced Model-Contrastive Federated Learning using H
 **arXiv**：[2602.11945v1](https://arxiv.org/abs/2602.11945) · [PDF](https://arxiv.org/pdf/2602.11945.pdf)  
 **作者**：Hongliang Zhang, Jiguo Yu, Guijuan Wang, Wenshuo Ma, Tianqing He, Baobao Chai, Chunqiang Hu  
 
-**一句话要点**：提出PMFL框架，利用历史信息增强模型对比联邦学习在异构场景中的性能。
+**一句话要点**：提出PMFL框架，利用历史信息增强模型对比联邦学习，以解决异构场景下的性能问题。
 
 **关键词**：联邦学习, 异构场景, 模型对比学习, 历史信息利用, 自适应聚合
 
 ## 3 点简述
-- 核心问题：联邦学习在数据分布和参与频率异构的场景下性能下降。
-- 方法要点：节点端引入历史本地模型对比项，服务器端自适应调整聚合权重并利用历史全局模型。
-- 实验或效果：在异构场景中，PMFL相比现有方法表现出更优性能。
+- 核心问题：联邦学习在数据分布和参与频率异构的场景中性能下降。
+- 方法要点：节点端引入历史模型对比项，服务器端自适应调整聚合权重并利用历史全局模型。
+- 实验或效果：在异构场景下，PMFL相比现有方法表现出更优性能。
 
 ## 摘要（原文）
 

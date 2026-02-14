@@ -7,14 +7,14 @@ title: Learn from Your Mistakes: Self-Correcting Masked Diffusion Models
 **arXiv**：[2602.11590v1](https://arxiv.org/abs/2602.11590) · [PDF](https://arxiv.org/pdf/2602.11590.pdf)  
 **作者**：Yair Schiff, Omer Belhasin, Roy Uziel, Guanghan Wang, Marianne Arriola, Gilad Turok, Michael Elad, Volodymyr Kuleshov  
 
-**一句话要点**：提出渐进自校正框架以解决掩码扩散模型错误累积问题
+**一句话要点**：提出渐进式自校正框架以解决掩码扩散模型错误累积问题
 
-**关键词**：掩码扩散模型, 自校正训练, 并行生成, 错误累积, 渐进细化
+**关键词**：掩码扩散模型, 自校正训练, 并行生成, 错误累积, 渐进式细化
 
 ## 3 点简述
 - 掩码扩散模型在并行生成时存在错误累积，导致样本质量下降
-- 训练模型同时执行去掩码和校正，利用去噪网络输出进行纠正
-- 实验显示ProSeCo在质量和效率上优于标准掩码扩散模型
+- 训练模型同时执行去掩码和校正，利用去噪网络输出进行自校正训练
+- 实验显示在质量和效率上优于标准模型，支持推理时计算扩展
 
 ## 摘要（原文）
 

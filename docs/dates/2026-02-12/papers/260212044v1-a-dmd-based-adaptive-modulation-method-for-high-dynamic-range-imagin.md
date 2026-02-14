@@ -13,8 +13,8 @@ title: A DMD-Based Adaptive Modulation Method for High Dynamic Range Imaging in 
 
 ## 3 点简述
 - 核心问题：传统CCD/CMOS传感器在强光下易饱和，导致图像细节丢失和DIC误差。
-- 方法要点：利用DMD空间调制能力，构建自适应光学调制和计算成像系统。
-- 实验或效果：系统实现127 dB动态范围，减少78%应变误差，提升DIC精度。
+- 方法要点：利用DMD空间调制能力，构建自适应曝光控制的光学调制与计算成像系统。
+- 实验或效果：系统实现127 dB动态范围，减少78%应变误差，提升DIC定位精度。
 
 ## 摘要（原文）
 

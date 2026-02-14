@@ -7,14 +7,14 @@ title: CAAL: Confidence-Aware Active Learning for Heteroscedastic Atmospheric Re
 **arXiv**：[2602.11825v1](https://arxiv.org/abs/2602.11825) · [PDF](https://arxiv.org/pdf/2602.11825.pdf)  
 **作者**：Fei Jiang, Jiyang Xia, Junjie Yu, Mingfei Sun, Hugh Coe, David Topping, Dantong Liu, Zhenhui Jessie Li, Zhonghua Zheng  
 
-**一句话要点**：提出置信感知主动学习框架CAAL，以解决异方差大气回归中样本选择效率低的问题
+**一句话要点**：提出置信感知主动学习框架CAAL，以解决异方差大气回归中样本选择效率低的问题。
 
-**关键词**：主动学习, 异方差回归, 不确定性估计, 大气科学, 样本选择
+**关键词**：异方差回归, 主动学习, 不确定性估计, 大气科学, 样本选择, 置信感知
 
 ## 3 点简述
-- 核心问题：大气粒子属性估计因异方差噪声导致主动学习样本选择浪费预算
-- 方法要点：通过解耦不确定性训练和置信感知采集函数，动态加权认知不确定性
-- 实验或效果：在粒子解析模拟和真实观测中，CAAL优于标准主动学习基线
+- 核心问题：大气粒子属性估计因异方差噪声导致主动学习样本选择浪费预算。
+- 方法要点：通过解耦不确定性训练和置信感知采集函数，动态权衡认知与随机不确定性。
+- 实验或效果：在粒子解析模拟和真实观测中，CAAL优于标准主动学习基线。
 
 ## 摘要（原文）
 

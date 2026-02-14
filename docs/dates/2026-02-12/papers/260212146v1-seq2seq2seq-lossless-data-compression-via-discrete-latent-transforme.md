@@ -7,14 +7,14 @@ title: Seq2Seq2Seq: Lossless Data Compression via Discrete Latent Transformers a
 **arXiv**：[2602.12146v1](https://arxiv.org/abs/2602.12146) · [PDF](https://arxiv.org/pdf/2602.12146.pdf)  
 **作者**：Mahdi Khodabandeh, Ghazal Shabani, Arash Yousefi Jordehi, Seyed Abolghasem Mirroshandel  
 
-**一句话要点**：提出基于强化学习和T5架构的无损压缩方法，以提升复杂数据的压缩效率。
+**一句话要点**：提出基于强化学习和T5架构的无损压缩方法，以提升复杂数据压缩效率
 
 **关键词**：无损压缩, 强化学习, T5模型, 令牌序列, 压缩比优化
 
 ## 3 点简述
-- 传统压缩方法难以有效利用复杂数据的结构和冗余，导致压缩效率受限。
-- 采用强化学习优化T5模型，将数据压缩为令牌序列而非向量表示，保留原始结构。
-- 实验显示压缩比显著优于传统方法，无需外部知识，适用于多种应用场景。
+- 传统压缩方法难以有效利用复杂数据结构和冗余，导致压缩效率受限
+- 采用强化学习优化T5模型，将数据压缩为令牌序列而非向量，保留原始结构
+- 实验显示压缩比显著优于传统方法，无需外部知识，适用于多种应用
 
 ## 摘要（原文）
 

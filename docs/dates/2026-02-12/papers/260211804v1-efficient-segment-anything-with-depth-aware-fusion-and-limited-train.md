@@ -9,12 +9,12 @@ title: Efficient Segment Anything with Depth-Aware Fusion and Limited Training D
 
 **一句话要点**：提出轻量级RGB-D融合框架，通过深度先验增强EfficientViT-SAM，在少量数据下提升分割精度。
 
-**关键词**：RGB-D融合, 轻量级分割, 深度先验, 少量数据训练, EfficientViT-SAM
+**关键词**：轻量级RGB-D融合, 深度先验增强, 少量数据训练, EfficientViT-SAM, 分割精度提升
 
 ## 3 点简述
-- 核心问题：SAM依赖大规模RGB数据和计算，高效变体仍需大量训练。
-- 方法要点：融合单目深度图与RGB特征，使用专用深度编码器进行中层融合。
-- 实验或效果：仅用11.2k样本训练，精度超越EfficientViT-SAM，验证深度几何先验有效性。
+- 核心问题：SAM依赖大规模RGB数据训练，计算成本高且缺乏几何信息。
+- 方法要点：使用预训练深度估计器生成深度图，通过专用编码器与RGB特征中层级融合。
+- 实验或效果：仅用11.2k样本训练，精度超越EfficientViT-SAM，验证深度先验的有效性。
 
 ## 摘要（原文）
 

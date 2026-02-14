@@ -9,7 +9,7 @@ title: Cooperation Breakdown in LLM Agents Under Communication Delays
 
 **一句话要点**：提出FLCOA框架分析通信延迟对LLM多智能体合作的影响
 
-**关键词**：多智能体系统, 通信延迟, 合作博弈, LLM智能体, 模拟实验
+**关键词**：多智能体系统, 通信延迟, 合作博弈, LLM智能体, 囚徒困境
 
 ## 3 点简述
 - 核心问题：LLM多智能体系统在真实世界通信延迟下合作可能崩溃

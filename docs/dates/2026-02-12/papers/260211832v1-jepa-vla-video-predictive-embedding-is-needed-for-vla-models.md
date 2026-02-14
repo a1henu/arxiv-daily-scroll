@@ -7,12 +7,12 @@ title: JEPA-VLA: Video Predictive Embedding is Needed for VLA Models
 **arXiv**：[2602.11832v1](https://arxiv.org/abs/2602.11832) · [PDF](https://arxiv.org/pdf/2602.11832.pdf)  
 **作者**：Shangchen Miao, Ningya Feng, Jialong Wu, Ye Lin, Xu He, Dong Li, Mingsheng Long  
 
-**一句话要点**：提出JEPA-VLA方法，通过集成预测性嵌入提升视觉-语言-动作模型的样本效率和泛化能力
+**一句话要点**：提出JEPA-VLA，通过集成预测嵌入提升视觉语言动作模型的样本效率和泛化能力
 
-**关键词**：视觉-语言-动作模型, 预测性嵌入, 视频预训练, 机器人操作, 样本效率, 泛化能力
+**关键词**：视觉语言动作模型, 视频预测嵌入, 样本效率, 泛化能力, 机器人操作, V-JEPA
 
 ## 3 点简述
-- 当前VLA模型因视觉表示不足导致样本效率低和泛化受限
+- 当前视觉语言动作模型因视觉表示不足导致样本效率低和泛化受限
 - 引入视频预测嵌入V-JEPA 2以编码任务相关动态并补偿现有表示缺陷
 - 实验在多个基准和真实机器人任务中验证了性能显著提升
 

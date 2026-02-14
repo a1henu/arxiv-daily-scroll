@@ -9,7 +9,7 @@ title: Stop Tracking Me! Proactive Defense Against Attribute Inference Attack in
 
 **一句话要点**：提出TRACE-RPS框架以防御大语言模型中的属性推断攻击
 
-**关键词**：属性推断攻击, 隐私保护, 大语言模型, 细粒度匿名化, 推理阻止优化
+**关键词**：属性推断攻击, 隐私保护, 细粒度匿名化, 推理阻止优化, 大语言模型防御
 
 ## 3 点简述
 - 核心问题：现有匿名化防御粗粒度，无法阻止模型推理导致的隐私泄露

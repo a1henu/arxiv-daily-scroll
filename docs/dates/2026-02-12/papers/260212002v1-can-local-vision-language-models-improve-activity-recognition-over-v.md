@@ -9,10 +9,10 @@ title: Can Local Vision-Language Models improve Activity Recognition over Vision
 
 **一句话要点**：提出基于本地视觉语言模型与LoRA微调的方法，以提升新生儿复苏视频中细粒度活动识别的准确性。
 
-**关键词**：新生儿复苏视频, 细粒度活动识别, 视觉语言模型, LoRA微调, 零样本学习
+**关键词**：新生儿复苏活动识别, 视觉语言模型, LoRA微调, 细粒度视频理解, 零样本学习
 
 ## 3 点简述
-- 核心问题：新生儿复苏视频的细粒度活动识别存在挑战，现有方法如Vision Transformers效果有限。
+- 核心问题：新生儿复苏视频中细粒度活动识别困难，现有方法如Vision Transformers效果有限。
 - 方法要点：探索生成式AI，结合本地视觉语言模型与大型语言模型，并采用LoRA微调策略。
 - 实验或效果：在模拟数据集上，微调后模型F1分数达0.91，超越TimeSformer的0.70。
 

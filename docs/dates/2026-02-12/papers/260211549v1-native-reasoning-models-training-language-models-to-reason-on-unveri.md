@@ -7,14 +7,14 @@ title: Native Reasoning Models: Training Language Models to Reason on Unverifiab
 **arXiv**：[2602.11549v1](https://arxiv.org/abs/2602.11549) · [PDF](https://arxiv.org/pdf/2602.11549.pdf)  
 **作者**：Yuanfu Wang, Zhixuan Liu, Xiangtian Li, Chaochao Lu, Chao Yang  
 
-**一句话要点**：提出NRT框架，通过自生成推理轨迹训练语言模型在不可验证数据上推理
+**一句话要点**：提出NRT框架，通过自生成推理轨迹训练语言模型在不可验证数据上进行推理。
 
-**关键词**：推理训练, 无验证器方法, 隐变量建模, 自生成数据, 语言模型优化
+**关键词**：推理训练, 隐变量建模, 无验证器学习, 自生成数据, 语言模型优化
 
 ## 3 点简述
 - 核心问题：现有方法依赖高质量人工标注和外部验证器，成本高且局限于可验证领域。
-- 方法要点：将推理过程建模为隐变量，使用统一训练目标，通过优化问题内在奖励推理路径。
-- 实验或效果：在Llama和Mistral模型上验证，NRT在无验证器方法中达到先进性能，优于基线。
+- 方法要点：将推理过程建模为隐变量，使用统一训练目标奖励提高答案似然性的路径。
+- 实验或效果：在Llama和Mistral模型上验证，NRT在无验证器方法中达到最先进性能，鲁棒性强。
 
 ## 摘要（原文）
 

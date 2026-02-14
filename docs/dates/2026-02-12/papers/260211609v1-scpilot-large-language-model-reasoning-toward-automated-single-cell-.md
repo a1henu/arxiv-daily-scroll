@@ -7,14 +7,14 @@ title: scPilot: Large Language Model Reasoning Toward Automated Single-Cell Anal
 **arXiv**：[2602.11609v1](https://arxiv.org/abs/2602.11609) · [PDF](https://arxiv.org/pdf/2602.11609.pdf)  
 **作者**：Yiming Gao, Zhen Wang, Jefferson Chen, Mark Antkowiak, Mengzhou Hu, JungHo Kong, Dexter Pratt, Jieyuan Liu, Enze Ma, Zhiting Hu, Eric P. Xing  
 
-**一句话要点**：提出scPilot框架，通过大语言模型在单细胞RNA-seq数据上的原生推理实现自动化分析
+**一句话要点**：提出scPilot框架，通过大语言模型直接检查单细胞RNA-seq数据，实现可解释的单细胞分析自动化
 
 **关键词**：单细胞RNA测序分析, 大语言模型推理, 生物信息学自动化, 可解释人工智能, 细胞类型注释, 发育轨迹重建
 
 ## 3 点简述
-- 核心问题：单细胞分析依赖专家经验，缺乏自动化、可解释的推理流程
-- 方法要点：将单细胞分析任务转化为LLM可逐步推理、验证和修正的步骤化问题
-- 实验效果：在scBench基准上，迭代推理比单次提示提升细胞类型注释准确率11%，轨迹重建图编辑距离减少30%
+- 核心问题：传统单细胞分析依赖专家手动操作，缺乏透明度和自动化能力
+- 方法要点：将单细胞分析任务转化为大语言模型可逐步推理、验证和修正的问题
+- 实验效果：在scBench基准测试中，迭代推理使细胞类型注释准确率提升11%，轨迹重建误差降低30%
 
 ## 摘要（原文）
 

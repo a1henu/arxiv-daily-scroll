@@ -7,14 +7,14 @@ title: SAM3-LiteText: An Anatomical Study of the SAM3 Text Encoder for Efficient
 **arXiv**：[2602.12173v1](https://arxiv.org/abs/2602.12173) · [PDF](https://arxiv.org/pdf/2602.12173.pdf)  
 **作者**：Chengxi Zeng, Yuxuan Jiang, Ge Gao, Shuai Wang, Duolikun Danier, Bin Zhu, Stevan Rudinac, David Bull, Fan Zhang  
 
-**一句话要点**：提出SAM3-LiteText，通过轻量文本编码器解决视觉语言分割中文本编码冗余问题
+**一句话要点**：提出SAM3-LiteText，通过解剖分析优化文本编码器，以解决视觉语言分割中文本编码器冗余问题。
 
-**关键词**：视觉语言分割, 文本编码优化, 知识蒸馏, 轻量模型, 冗余分析
+**关键词**：视觉语言分割, 文本编码器优化, 知识蒸馏, 轻量化模型, 分割提示分析
 
 ## 3 点简述
-- 分析视觉语言分割中文本提示的冗余性，发现上下文窗口利用不足和词汇稀疏
-- 设计轻量文本编码框架，用MobileCLIP学生模型通过知识蒸馏替换原SAM3文本编码器
-- 实验显示参数减少达88%，保持分割性能，降低内存开销
+- 核心问题：视觉语言分割模型如SAM3使用大型通用文本编码器，导致计算和内存开销过大，与短提示不匹配。
+- 方法要点：基于大规模提示分析，发现冗余现象，采用知识蒸馏优化MobileCLIP学生模型替换原编码器。
+- 实验或效果：在图像和视频分割基准上，减少参数达88%，保持性能接近原模型，降低静态内存占用。
 
 ## 摘要（原文）
 
