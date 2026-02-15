@@ -7,14 +7,14 @@ title: Move What Matters: Parameter-Efficient Domain Adaptation via Optimal Tran
 **arXiv**：[2602.11565v1](https://arxiv.org/abs/2602.11565) · [PDF](https://arxiv.org/pdf/2602.11565.pdf)  
 **作者**：Zesheng Jia, Jin Wang, Siao Liu, Lingzhi Li, Ziyao Huang, Yunjiang Xu, Jianping Wang  
 
-**一句话要点**：提出FlowAdapt框架，基于最优传输理论解决V2X协同感知中的参数高效域适应问题。
+**一句话要点**：提出FlowAdapt框架，基于最优传输理论解决V2X协同感知中的参数高效域适应问题
 
-**关键词**：协同感知, 域适应, 最优传输, 参数高效微调, V2X通信
+**关键词**：协同感知, 参数高效域适应, 最优传输, 多智能体系统, V2X通信
 
 ## 3 点简述
-- 核心问题：多智能体协同感知中，参数高效微调导致性能下降和训练不稳定，源于异构流冗余和深层语义侵蚀。
-- 方法要点：引入Wasserstein贪婪采样减少冗余样本，设计渐进知识传输模块缓解语义退化。
-- 实验或效果：在三个基准测试中，仅用1%可训练参数实现最优性能，有效桥接域差距。
+- 核心问题：PEFT在多智能体协同感知中因异构流冗余和深层语义侵蚀导致性能下降与训练不稳定
+- 方法要点：引入Wasserstein贪婪采样减少冗余样本，设计渐进知识传输模块缓解语义退化
+- 实验或效果：在三个基准测试中以仅1%可训练参数实现最优性能，提升样本效率与泛化能力
 
 ## 摘要（原文）
 

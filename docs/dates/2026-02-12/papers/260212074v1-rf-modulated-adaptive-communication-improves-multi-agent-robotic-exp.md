@@ -7,13 +7,13 @@ title: RF-Modulated Adaptive Communication Improves Multi-Agent Robotic Explorat
 **arXiv**：[2602.12074v1](https://arxiv.org/abs/2602.12074) · [PDF](https://arxiv.org/pdf/2602.12074.pdf)  
 **作者**：Lorin Achey, Breanne Crockett, Christoffer Heckman, Bradley Hayes  
 
-**一句话要点**：提出自适应射频传输算法以提升多机器人受限环境探索效率
+**一句话要点**：提出自适应射频传输算法以提升通信受限环境下多机器人探索效率
 
-**关键词**：多机器人探索, 自适应通信, 射频调制, 受限环境, 路径规划
+**关键词**：多机器人探索, 自适应通信, 射频调制, 信号强度阈值, 路径规划, 通信受限环境
 
 ## 3 点简述
 - 核心问题：多机器人探索中通信受限导致协调困难和效率低下
-- 方法要点：基于信号强度和数据负载动态调制传输位置，减少不必要回溯
+- 方法要点：动态调制传输位置，基于信号强度和数据负载大小优化通信
 - 实验或效果：在洞穴环境中模拟，相比基线方法减少58%移动距离和52%探索时间
 
 ## 摘要（原文）

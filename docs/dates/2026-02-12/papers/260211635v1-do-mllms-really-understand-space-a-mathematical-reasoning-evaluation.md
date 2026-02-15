@@ -13,7 +13,7 @@ title: Do MLLMs Really Understand Space? A Mathematical Reasoning Evaluation
 
 ## 3 点简述
 - 核心问题：MLLMs在数学空间推理任务上表现不佳，准确率低于60%，远低于人类水平。
-- 方法要点：MathSpatial包括基准测试、训练数据集和结构化推理追踪，以分离感知与推理。
+- 方法要点：MathSpatial包括基准测试、训练数据集和结构化推理轨迹建模，以分离感知与推理。
 - 实验或效果：在Qwen2.5-VL-7B上微调后，实现竞争性准确率并减少25%的令牌使用。
 
 ## 摘要（原文）

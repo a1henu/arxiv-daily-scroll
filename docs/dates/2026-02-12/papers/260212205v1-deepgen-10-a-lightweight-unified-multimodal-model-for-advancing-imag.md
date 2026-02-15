@@ -7,14 +7,14 @@ title: DeepGen 1.0: A Lightweight Unified Multimodal Model for Advancing Image G
 **arXiv**：[2602.12205v1](https://arxiv.org/abs/2602.12205) · [PDF](https://arxiv.org/pdf/2602.12205.pdf)  
 **作者**：Dianyi Wang, Ruihang Li, Feng Han, Chaofan Ma, Wei Song, Siyuan Wang, Yibin Wang, Yi Xin, Hongjian Liu, Zhixiong Zhang, Shengyuan Ding, Tianhang Wang, Zhenglin Cheng, Tao Lin, Cheng Jin, Kaicheng Yu, Jingjing Chen, Wenjie Wang, Zhongyu Wei, Jiaqi Wang  
 
-**一句话要点**：提出DeepGen 1.0轻量统一多模态模型，通过SCB框架和三阶段训练策略，高效实现图像生成与编辑。
+**一句话要点**：提出DeepGen 1.0轻量统一多模态模型，通过SCB框架和三阶段训练策略，在图像生成与编辑任务中实现高效高性能。
 
 **关键词**：轻量统一多模态模型, 图像生成与编辑, Stacked Channel Bridging, 数据中心训练, 强化学习, 开源模型
 
 ## 3 点简述
-- 当前统一多模态模型参数规模大，训练和部署成本高，DeepGen 1.0为5B轻量模型，旨在降低资源需求。
+- 当前统一多模态模型参数规模大，训练和部署成本高，DeepGen 1.0作为5B轻量模型旨在解决此问题。
 - 引入Stacked Channel Bridging框架，从VLM提取层次特征并与可学习令牌融合，增强语义理解和细粒度控制。
-- 采用三阶段数据中心训练策略，包括对齐预训练、联合监督微调和强化学习，在多个基准上取得领先性能。
+- 采用三阶段数据中心训练策略，包括对齐预训练、联合监督微调和强化学习，在有限数据上实现领先性能。
 
 ## 摘要（原文）
 

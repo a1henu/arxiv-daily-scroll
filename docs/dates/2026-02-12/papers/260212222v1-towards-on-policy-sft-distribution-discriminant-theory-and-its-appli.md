@@ -14,7 +14,7 @@ title: Towards On-Policy SFT: Distribution Discriminant Theory and its Applicati
 ## 3 点简述
 - 核心问题：监督微调（SFT）泛化能力弱于强化学习（RL），主要源于RL使用在线策略数据。
 - 方法要点：引入分布判别理论（DDT）量化数据与模型分布对齐，并开发In-Distribution Finetuning和Hinted Decoding技术。
-- 实验或效果：框架在泛化性能上媲美离线RL算法如DPO和SimPO，同时保持SFT的高效性。
+- 实验或效果：框架在泛化性能上媲美DPO和SimPO等离线RL算法，同时保持SFT的高效性。
 
 ## 摘要（原文）
 

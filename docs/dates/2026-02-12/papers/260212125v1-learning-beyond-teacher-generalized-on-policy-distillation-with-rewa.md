@@ -9,7 +9,7 @@ title: Learning beyond Teacher: Generalized On-Policy Distillation with Reward E
 
 **一句话要点**：提出广义策略蒸馏框架，通过奖励外推提升学生模型性能
 
-**关键词**：策略蒸馏, 强化学习, 模型蒸馏, 奖励外推, 数学推理, 代码生成
+**关键词**：策略蒸馏, 强化学习, 知识蒸馏, 奖励外推, 模型泛化
 
 ## 3 点简述
 - 理论证明策略蒸馏是密集KL约束强化学习的特例

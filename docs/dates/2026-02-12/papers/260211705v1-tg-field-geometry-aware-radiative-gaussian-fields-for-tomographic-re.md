@@ -13,7 +13,7 @@ title: TG-Field: Geometry-Aware Radiative Gaussian Fields for Tomographic Recons
 
 ## 3 点简述
 - 核心问题：现有3DGS方法在稀疏投影和动态运动中产生严重伪影
-- 方法要点：结合几何感知高斯变形、多分辨率哈希编码和时空注意力机制
+- 方法要点：使用几何感知高斯变形框架，结合多分辨率哈希编码和时空注意力
 - 实验或效果：在合成和真实数据集上优于现有方法，实现高精度重建
 
 ## 摘要（原文）

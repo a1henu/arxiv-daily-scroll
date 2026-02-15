@@ -7,14 +7,14 @@ title: Towards Sustainable Investment Policies Informed by Opponent Shaping
 **arXiv**：[2602.11829v1](https://arxiv.org/abs/2602.11829) · [PDF](https://arxiv.org/pdf/2602.11829.pdf)  
 **作者**：Juan Agustin Duque, Razvan Ciuca, Ayoub Echchahed, Hugo Larochelle, Aaron Courville  
 
-**一句话要点**：应用对手塑造算法以优化投资政策，促进长期可持续性
+**一句话要点**：应用对手塑造算法于投资模拟以促进可持续政策
 
-**关键词**：多智能体模拟, 对手塑造算法, 可持续投资, 社会困境, 气候风险
+**关键词**：多智能体模拟, 对手塑造, 可持续投资, 社会困境, 气候风险
 
 ## 3 点简述
-- 核心问题：理性经济主体在气候风险下优先短期收益，导致社会困境。
-- 方法要点：在InvestESG模拟中应用可扩展的对手塑造算法，偏置学习动态。
-- 实验或效果：算法系统性地促进合作均衡，为政策机制提供理论依据。
+- 核心问题：理性经济主体在气候风险下优先短期利益，导致社会困境。
+- 方法要点：在InvestESG模拟中应用可扩展的对手塑造算法Advantage Alignment。
+- 实验或效果：算法偏向合作结果，为政策机制提供理论依据。
 
 ## 摘要（原文）
 

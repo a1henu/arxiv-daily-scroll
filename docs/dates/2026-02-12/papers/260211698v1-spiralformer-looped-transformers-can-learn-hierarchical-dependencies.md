@@ -9,12 +9,12 @@ title: SpiralFormer: Looped Transformers Can Learn Hierarchical Dependencies via
 
 **一句话要点**：提出SpiralFormer，通过多分辨率递归提升循环Transformer的层次依赖学习能力与效率。
 
-**关键词**：循环Transformer, 多分辨率递归, 层次依赖学习, 计算效率, 迭代细化, 序列建模
+**关键词**：循环Transformer, 多分辨率递归, 层次依赖学习, 参数效率, 计算效率, 递归架构
 
 ## 3 点简述
-- 早期循环Transformer在计算效率上常落后于非循环基线，需改进递归机制。
-- SpiralFormer引入多分辨率递归调度，在不同尺度上实现迭代功能专业化。
-- 实验显示，在160M至1.4B模型规模上，SpiralFormer在参数和计算效率上优于基线。
+- 早期循环Transformer性能常低于非循环基线，因固定全令牌分辨率限制效率。
+- SpiralFormer引入多分辨率递归机制，在不同尺度上实现迭代功能专业化。
+- 在160M至1.4B模型规模上，SpiralFormer在参数和计算效率上优于循环与非循环基线。
 
 ## 摘要（原文）
 

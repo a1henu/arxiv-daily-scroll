@@ -7,14 +7,14 @@ title: RELATE: A Reinforcement Learning-Enhanced LLM Framework for Advertising T
 **arXiv**：[2602.11780v1](https://arxiv.org/abs/2602.11780) · [PDF](https://arxiv.org/pdf/2602.11780.pdf)  
 **作者**：Jinfang Wang, Jiajie Liu, Jianwei Wu, Ziqin Luo, Zhen Chen, Chunlei Li, Biao Han, Tao Deng, Yi Li, Shuanglong Li, Lin Liu  
 
-**一句话要点**：提出RELATE强化学习框架，统一广告文本生成与目标对齐以提升转化性能。
+**一句话要点**：提出RELATE强化学习框架，统一广告文本生成与目标对齐以提升转化率。
 
-**关键词**：广告文本生成, 强化学习, 端到端框架, 转化优化, 合规约束
+**关键词**：广告文本生成, 强化学习, 端到端框架, 转化率优化, 政策约束
 
 ## 3 点简述
-- 现有工业系统两阶段范式导致优化目标错位和漏斗效率低。
-- RELATE通过策略学习将性能和合规目标直接集成到生成过程中。
-- 大规模实验和在线部署显示RELATE在转化率上显著优于基线。
+- 现有两阶段广告文本生成系统存在优化目标不一致和漏斗效率低的问题。
+- RELATE通过强化学习将性能和合规目标整合到生成过程中，使用多维奖励建模。
+- 实验和在线部署显示RELATE在严格政策约束下显著提升点击转化率。
 
 ## 摘要（原文）
 

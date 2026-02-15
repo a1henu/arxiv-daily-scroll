@@ -7,14 +7,14 @@ title: Quark Medical Alignment: A Holistic Multi-Dimensional Alignment and Colla
 **arXiv**：[2602.11661v1](https://arxiv.org/abs/2602.11661) · [PDF](https://arxiv.org/pdf/2602.11661.pdf)  
 **作者**：Tianxiang Xu, Jiayi Liu, Yixuan Tong, Jialu Xu, Yunqing Wei, Kaiwen Feng, PanPan Hou, Kangping Yin, Jiyuan Hu, Hao Zhou, Zhenxin Ma, Jian Xu, Guanjun Jiang  
 
-**一句话要点**：提出Quark Medical Alignment范式，以解决医疗问答中多目标对齐的挑战
+**一句话要点**：提出Quark Medical Alignment范式，通过多维度对齐矩阵和协同优化机制解决医疗问答中的对齐挑战。
 
-**关键词**：医疗问答对齐, 多目标优化, 强化学习, 参考冻结归一化, 自适应动态加权, 垂直领域对齐
+**关键词**：医疗问答对齐, 多目标优化, 强化学习, 垂直领域对齐, 协同优化机制
 
 ## 3 点简述
-- 核心问题：现有强化学习对齐方法在医疗领域存在成本高、验证难和多目标冲突问题
-- 方法要点：构建多维度对齐矩阵，结合参考冻结归一化和三因子自适应动态加权进行协同优化
-- 实验或效果：在真实医疗场景评估中验证了有效性，为垂直领域复杂对齐提供新范式
+- 核心问题：现有强化学习对齐范式在医疗问答中成本高、验证难，且多目标优化易冲突。
+- 方法要点：构建多维度对齐矩阵分解目标，并采用归一化和动态加权实现协同优化。
+- 实验或效果：在真实医疗场景评估中验证了有效性，为垂直领域复杂对齐提供新范式。
 
 ## 摘要（原文）
 

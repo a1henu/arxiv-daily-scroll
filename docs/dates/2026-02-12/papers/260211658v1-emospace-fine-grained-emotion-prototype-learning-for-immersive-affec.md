@@ -7,9 +7,9 @@ title: EmoSpace: Fine-Grained Emotion Prototype Learning for Immersive Affective
 **arXiv**：[2602.11658v1](https://arxiv.org/abs/2602.11658) · [PDF](https://arxiv.org/pdf/2602.11658.pdf)  
 **作者**：Bingyuan Wang, Xingbei Chen, Zongyang Qiu, Linping Yuan, Zeyu Wang  
 
-**一句话要点**：提出EmoSpace框架，通过可学习原型实现细粒度情感控制，用于沉浸式VR内容生成。
+**一句话要点**：提出EmoSpace框架，通过可学习情感原型实现细粒度情感控制，用于沉浸式VR内容生成。
 
-**关键词**：情感原型学习, 视觉-语言对齐, 细粒度情感控制, VR内容生成, 可控生成
+**关键词**：情感原型学习, 细粒度情感控制, 视觉-语言对齐, 沉浸式内容生成, VR环境生成
 
 ## 3 点简述
 - 核心问题：现有生成方法难以捕捉细微情感语义，缺乏细粒度控制，影响VR沉浸体验。

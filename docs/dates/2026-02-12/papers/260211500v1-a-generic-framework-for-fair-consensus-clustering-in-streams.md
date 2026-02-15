@@ -7,14 +7,14 @@ title: A Generic Framework for Fair Consensus Clustering in Streams
 **arXiv**：[2602.11500v1](https://arxiv.org/abs/2602.11500) · [PDF](https://arxiv.org/pdf/2602.11500.pdf)  
 **作者**：Diptarka Chakraborty, Kushagra Chatterjee, Debarati Das, Tien-Long Nguyen  
 
-**一句话要点**：提出流式公平共识聚类的通用框架，实现常数近似比与对数存储开销
+**一句话要点**：提出流式公平共识聚类通用框架，实现对数存储与常数近似比
 
 **关键词**：流式聚类, 公平共识聚类, 近似算法, k-median聚类, 通用框架
 
 ## 3 点简述
-- 研究流式模型下的公平共识聚类问题，输入聚类序列到达且内存受限
-- 设计通用框架，结合最近公平聚类与聚类拟合，提升近似保证并适用于多种公平定义
-- 扩展至k-median共识聚类，实验验证在流式与离线场景下的有效性
+- 研究流式模型下的公平共识聚类问题，输入聚类序列到达且内存有限
+- 设计通用框架结合最近公平聚类与聚类拟合，提升近似保证并适用于多种公平定义
+- 扩展至k-median共识聚类，实验验证在流式与离线设置中的有效性
 
 ## 摘要（原文）
 

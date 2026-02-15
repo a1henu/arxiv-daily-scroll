@@ -7,14 +7,14 @@ title: RooflineBench: A Benchmarking Framework for On-Device LLMs via Roofline A
 **arXiv**：[2602.11506v1](https://arxiv.org/abs/2602.11506) · [PDF](https://arxiv.org/pdf/2602.11506.pdf)  
 **作者**：Zhen Bi, Xueshu Chen, Luoyang Sun, Yuhang Yao, Qing Shen, Jungang Lou, Cheng Deng  
 
-**一句话要点**：提出RooflineBench基准框架，通过Roofline分析评估设备端LLMs性能
+**一句话要点**：提出RooflineBench基准框架，通过屋顶线分析评估设备端小语言模型性能
 
-**关键词**：设备端语言模型, Roofline分析, 性能基准, 硬件-软件协同设计, 操作强度, 相对推理潜力
+**关键词**：设备端语言模型, 屋顶线分析, 操作强度, 异构硬件, 性能基准, 硬件软件协同设计
 
 ## 3 点简述
-- 核心问题：异构硬件上设备端小语言模型性能评估缺乏统一标准
-- 方法要点：基于Roofline模型，引入操作强度和相对推理潜力作为新指标
-- 实验或效果：分析序列长度和模型深度对性能的影响，验证结构优化如MLA提升效率
+- 核心问题：设备端小语言模型在异构硬件上的理论性能上限难以客观衡量
+- 方法要点：基于屋顶线模型，通过操作强度统一架构原语和硬件约束，引入相对推理潜力指标
+- 实验或效果：分析显示序列长度和模型深度显著影响性能，结构优化如多头潜在注意力可提升效率
 
 ## 摘要（原文）
 

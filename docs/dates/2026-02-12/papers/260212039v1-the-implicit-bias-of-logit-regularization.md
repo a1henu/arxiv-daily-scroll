@@ -9,7 +9,7 @@ title: The Implicit Bias of Logit Regularization
 
 **一句话要点**：分析Logit正则化在线性分类中的隐式偏差，揭示其驱动权重对齐Fisher线性判别式
 
-**关键词**：Logit正则化, 隐式偏差, 线性分类, Fisher线性判别式, 泛化鲁棒性
+**关键词**：Logit正则化, 隐式偏差, 线性分类, Fisher线性判别式, 泛化鲁棒性, 标签平滑
 
 ## 3 点简述
 - 研究Logit正则化（如标签平滑）在分类中的机制，聚焦其隐式偏差

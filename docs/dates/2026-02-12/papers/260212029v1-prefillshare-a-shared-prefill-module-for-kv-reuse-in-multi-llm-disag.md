@@ -7,14 +7,14 @@ title: PrefillShare: A Shared Prefill Module for KV Reuse in Multi-LLM Disaggreg
 **arXiv**：[2602.12029v1](https://arxiv.org/abs/2602.12029) · [PDF](https://arxiv.org/pdf/2602.12029.pdf)  
 **作者**：Sunghyeon Woo, Hoseung Kim, Sunghwan Shim, Minjung Jo, Hyunjoon Jeong, Jeongtae Lee, Joonghoon Kim, Sungjae Lee, Baeseong Park, Se Jung Kwon, Dongsoo Lee  
 
-**一句话要点**：提出PrefillShare算法，在多LLM解耦服务中通过共享预填充模块减少KV冗余
+**一句话要点**：提出PrefillShare算法，在多LLM解耦服务中通过共享预填充模块实现KV重用
 
-**关键词**：多模型服务, KV缓存共享, 解耦架构, 预填充优化, 大语言模型推理
+**关键词**：多模型服务, KV缓存重用, 解耦计算, 预填充优化, 延迟降低
 
 ## 3 点简述
-- 多模型系统重复处理相同提示前缀，导致预填充阶段冗余和KV缓存浪费
-- PrefillShare将模型分解为预填充和解码模块，冻结预填充模块并微调解码模块以实现共享
-- 实验显示在保持精度的同时，显著降低延迟并提高吞吐量
+- 核心问题：多模型系统中重复预填充相同提示前缀，导致计算冗余和延迟增加
+- 方法要点：将模型分解为预填充和解码模块，冻结预填充模块并微调解码模块以实现共享
+- 实验或效果：在广泛任务中匹配全微调精度，多模型工作负载下延迟降低4.5倍，吞吐量提升3.9倍
 
 ## 摘要（原文）
 

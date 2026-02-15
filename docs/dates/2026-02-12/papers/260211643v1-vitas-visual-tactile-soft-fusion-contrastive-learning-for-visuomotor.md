@@ -13,7 +13,7 @@ title: ViTaS: Visual Tactile Soft Fusion Contrastive Learning for Visuomotor Lea
 
 ## 3 点简述
 - 现有方法多直接拼接视觉与触觉特征，难以处理遮挡场景且未充分利用模态互补性。
-- 引入软融合对比学习和CVAE模块，增强视觉-触觉表示的对齐与互补性。
+- 引入软融合对比学习增强特征对齐，结合CVAE模块利用视觉触觉表示的互补性。
 - 在12个模拟和3个真实环境中验证，ViTaS显著优于现有基线方法。
 
 ## 摘要（原文）

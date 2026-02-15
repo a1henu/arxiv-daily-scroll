@@ -7,14 +7,14 @@ title: How Smart Is Your GUI Agent? A Framework for the Future of Software Inter
 **arXiv**：[2602.11514v1](https://arxiv.org/abs/2602.11514) · [PDF](https://arxiv.org/pdf/2602.11514.pdf)  
 **作者**：Sidong Feng, Chunyang Chen  
 
-**一句话要点**：提出GUI Agent Autonomy Levels框架以澄清GUI代理的自主性程度，促进可信软件交互的基准测试。
+**一句话要点**：提出GUI Agent Autonomy Levels框架以明确GUI代理自主性，促进可信软件交互发展
 
-**关键词**：GUI代理, 自主性框架, 软件交互, 基准测试, 可信交互
+**关键词**：GUI代理, 自主性框架, 软件交互, 基准测试, 可信计算
 
 ## 3 点简述
-- 核心问题：GUI代理的自主性描述差异大，导致能力、责任和风险不明确。
-- 方法要点：引入六层GUI Agent Autonomy Levels框架，使自主性显式化。
-- 实验或效果：未知，但框架旨在帮助基准测试未来软件交互的进展。
+- 核心问题：GUI代理自主性定义模糊，导致能力、责任和风险不明确
+- 方法要点：引入六层GUI Agent Autonomy Levels框架，使自主性显式化
+- 实验或效果：未知，但框架旨在帮助基准测试和推动可信交互进步
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: TreeGrad-Ranker: Feature Ranking via $O(L)$-Time Gradients for Decision T
 **arXiv**：[2602.11623v1](https://arxiv.org/abs/2602.11623) · [PDF](https://arxiv.org/pdf/2602.11623.pdf)  
 **作者**：Weida Li, Yaoliang Yu, Bryan Kian Hsiang Low  
 
-**一句话要点**：提出TreeGrad-Ranker，通过O(L)时间梯度优化特征排序以解释决策树预测。
+**一句话要点**：提出TreeGrad-Ranker，通过O(L)时间梯度直接优化联合目标以提升决策树特征排名的可靠性。
 
-**关键词**：特征排序, 决策树解释, 梯度优化, Shapley值, 概率值计算
+**关键词**：特征排名, 决策树解释, 梯度优化, 概率值计算, Shapley值, 机器学习可解释性
 
 ## 3 点简述
-- 核心问题：概率值如Shapley值在优化插入和删除指标时不可靠，无法有效解决特征子集选择问题。
-- 方法要点：开发TreeGrad计算联合目标的多线性扩展梯度，基于此构建TreeGrad-Ranker直接优化目标生成特征排序。
-- 实验或效果：TreeGrad-Ranker在插入和删除指标上表现显著优于现有方法，TreeGrad-Shap计算Shapley值误差远小于Linear TreeShap。
+- 核心问题：概率值（如Shapley值）在联合优化插入和删除指标时不可靠，影响决策树特征排名的质量。
+- 方法要点：开发TreeGrad计算联合目标梯度的O(L)时间算法，并基于此构建TreeGrad-Ranker直接优化联合目标生成特征排名。
+- 实验或效果：TreeGrad-Ranker在插入和删除指标上表现显著优于现有方法，且TreeGrad-Shap计算Shapley值的数值误差远低于Linear TreeShap。
 
 ## 摘要（原文）
 

@@ -7,13 +7,13 @@ title: Unifying Stable Optimization and Reference Regularization in RLHF
 **arXiv**：[2602.11523v1](https://arxiv.org/abs/2602.11523) · [PDF](https://arxiv.org/pdf/2602.11523.pdf)  
 **作者**：Li He, Qiang Qu, He Zhao, Stephen Wan, Dadong Wang, Lina Yao, Tongliang Liu  
 
-**一句话要点**：提出统一正则化方法以平衡RLHF中的奖励黑客和稳定优化问题。
+**一句话要点**：提出统一正则化方法以解决RLHF中的奖励黑客和稳定优化问题。
 
-**关键词**：强化学习人类反馈, 奖励黑客, 稳定优化, 正则化方法, 对齐性能
+**关键词**：强化学习人类反馈, 奖励黑客, 稳定优化, 正则化方法, 对齐性能, 策略更新
 
 ## 3 点简述
 - 核心问题：RLHF面临奖励黑客和稳定优化的双重挑战，现有方法独立处理导致隐式权衡。
-- 方法要点：引入统一正则化，显式平衡防止奖励黑客和保持策略更新稳定的目标。
+- 方法要点：引入统一正则化，平衡防止奖励黑客和保持策略更新稳定的目标，简化对齐目标。
 - 实验或效果：在多个基准测试中优于RLHF和在线偏好学习方法，提升对齐性能和稳定性。
 
 ## 摘要（原文）

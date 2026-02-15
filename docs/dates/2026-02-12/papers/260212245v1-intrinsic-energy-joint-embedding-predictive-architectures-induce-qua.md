@@ -14,7 +14,7 @@ title: Intrinsic-Energy Joint Embedding Predictive Architectures Induce Quasimet
 ## 3 点简述
 - 核心问题：JEPA能量函数与QRL拟度量值在表示学习和控制中的联系未知
 - 方法要点：限制JEPA能量为内在能量，证明其构成拟度量，匹配QRL最优成本函数
-- 实验或效果：理论分析表明对称能量不匹配单向可达性，支持非对称能量应用
+- 实验或效果：理论分析表明对称能量不匹配单向可达性，需非对称能量
 
 ## 摘要（原文）
 

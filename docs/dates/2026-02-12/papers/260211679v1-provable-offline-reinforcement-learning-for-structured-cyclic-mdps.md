@@ -7,14 +7,14 @@ title: Provable Offline Reinforcement Learning for Structured Cyclic MDPs
 **arXiv**：[2602.11679v1](https://arxiv.org/abs/2602.11679) · [PDF](https://arxiv.org/pdf/2602.11679.pdf)  
 **作者**：Kyungbok Lee, Angelica Cristello Sarteau, Michael R. Kosorok  
 
-**一句话要点**：提出CycleFQI以解决结构化循环MDP中的离线强化学习挑战
+**一句话要点**：提出CycleFQI以解决离线强化学习中结构化循环MDP的优化难题
 
-**关键词**：离线强化学习, 循环马尔可夫决策过程, 模块化结构, 拟合Q迭代, 有限样本分析, 渐近推断
+**关键词**：离线强化学习, 循环马尔可夫决策过程, 模块化优化, 拟合Q迭代, 理论分析, 医疗决策
 
 ## 3 点简述
-- 针对循环MDP中阶段异质性和策略优化传播不匹配的核心问题
-- 采用模块化结构分解为阶段子问题，扩展FQI实现理论分析和部分控制
-- 在模拟和真实糖尿病数据集上验证有效性，提供有限样本误差界和渐近推断
+- 针对循环MDP中阶段异质性导致的离线学习挑战，提出模块化结构框架
+- 基于拟合Q迭代扩展CycleFQI，实现理论分析和维度诅咒缓解
+- 在模拟和真实糖尿病数据集上验证方法的有效性和推断能力
 
 ## 摘要（原文）
 

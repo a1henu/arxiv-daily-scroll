@@ -13,8 +13,8 @@ title: Both Topology and Text Matter: Revisiting LLM-guided Out-of-Distribution 
 
 ## 3 点简述
 - 核心问题：GNN在文本属性图上处理OOD节点时，现有方法存在语义利用不足或结构整合有限的问题
-- 方法要点：LG-Plug对齐拓扑与文本嵌入，通过聚类迭代LLM提示生成共识OOD暴露，并集成现有检测器
-- 实验或效果：未知，但方法旨在提升检测性能并减少LLM查询时间成本
+- 方法要点：LG-Plug对齐拓扑与文本嵌入，通过聚类迭代LLM提示生成共识驱动的OOD暴露，并集成现有检测器
+- 实验或效果：未知，但方法旨在提升检测性能并降低LLM查询时间成本
 
 ## 摘要（原文）
 

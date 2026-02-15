@@ -7,14 +7,14 @@ title: PuYun-LDM: A Latent Diffusion Model for High-Resolution Ensemble Weather 
 **arXiv**：[2602.11807v1](https://arxiv.org/abs/2602.11807) · [PDF](https://arxiv.org/pdf/2602.11807.pdf)  
 **作者**：Lianjun Wu, Shengchen Zhu, Yuxuan Liu, Liuyu Kai, Xiaoduan Feng, Duomin Wang, Wenshuo Liu, Jingxuan Zhang, Kelvin Li, Bin Wang  
 
-**一句话要点**：提出PuYun-LDM以解决高分辨率集合天气预报中潜在扩散模型扩散能力受限的问题。
+**一句话要点**：提出PuYun-LDM以解决高分辨率集合天气预报中潜在扩散模型扩散能力受限的问题
 
-**关键词**：集合天气预报, 潜在扩散模型, 3D掩码自编码器, 变量感知频率建模, 高分辨率气象数据
+**关键词**：集合天气预报, 潜在扩散模型, 3D掩码自编码器, 变量感知正则化, 高分辨率气象数据, 谱异质性
 
 ## 3 点简述
-- 核心问题：气象数据缺乏通用基础模型和语义结构，现有频率方法在变量间谱异质性下正则化不均。
-- 方法要点：引入3D-MAE编码天气状态演化特征作为条件，结合VA-MFM策略自适应调整各变量谱阈值。
-- 实验或效果：在短预报时间优于ENS，长预报时间相当，单GPU上5分钟生成15天全球预报。
+- 核心问题：高分辨率集合天气预报中，潜在扩散模型扩散能力受限，且气象数据缺乏通用基础模型和语义结构，现有频率方法在变量间谱异质性下正则化不均。
+- 方法要点：引入3D掩码自编码器编码天气状态演化特征作为扩散模型条件，并提出变量感知掩码频率建模策略自适应调整正则化阈值。
+- 实验或效果：PuYun-LDM在短预报时效优于ENS，长时效与ENS相当，可在单GPU上快速生成15天全球预报。
 
 ## 摘要（原文）
 

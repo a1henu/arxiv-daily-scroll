@@ -7,14 +7,14 @@ title: RI-Mamba: Rotation-Invariant Mamba for Robust Text-to-Shape Retrieval
 **arXiv**：[2602.11673v1](https://arxiv.org/abs/2602.11673) · [PDF](https://arxiv.org/pdf/2602.11673.pdf)  
 **作者**：Khanh Nguyen, Dasith de Silva Edirimuni, Ghulam Mubashar Hassan, Ajmal Mian  
 
-**一句话要点**：提出RI-Mamba以解决点云在任意旋转下的文本到形状检索问题
+**一句话要点**：提出RI-Mamba以解决点云在任意方向下的文本到形状检索问题
 
-**关键词**：旋转不变性, 点云检索, 状态空间模型, 跨模态对比学习, 文本到形状检索
+**关键词**：点云检索, 旋转不变性, 状态空间模型, 跨模态对比学习, 文本到形状检索, Hilbert排序
 
 ## 3 点简述
-- 现有方法依赖规范姿态且类别有限，难以处理现实世界中的多样类别和随机旋转
-- RI-Mamba通过全局和局部参考框架分离姿态与几何，并利用Hilbert排序构建旋转不变序列
-- 在OmniObject3D基准上实现最优性能，支持超过200个类别
+- 现有方法依赖规范姿态且类别有限，难以处理随机方向的多样对象
+- RI-Mamba通过全局局部参考系和Hilbert排序实现旋转不变性，并引入方向嵌入增强表达
+- 在OmniObject3D基准上超过200个类别达到最优性能，代码已开源
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: Hi-SAM: A Hierarchical Structure-Aware Multi-modal Framework for Large-Sc
 **arXiv**：[2602.11799v1](https://arxiv.org/abs/2602.11799) · [PDF](https://arxiv.org/pdf/2602.11799.pdf)  
 **作者**：Pingjun Pan, Tingting Zhou, Peiyao Lu, Tingting Fei, Hongxiang Chen, Chuanjiang Luo  
 
-**一句话要点**：提出Hi-SAM框架，通过解耦语义分词器和分层记忆锚点Transformer解决多模态推荐中的语义冗余与架构不匹配问题。
+**一句话要点**：提出Hi-SAM框架以解决多模态推荐中的语义ID冗余和层次结构忽略问题
 
-**关键词**：多模态推荐, 语义ID, 分层Transformer, 解耦学习, 冷启动优化, 大规模部署
+**关键词**：多模态推荐, 语义ID, 层次Transformer, 解耦学习, 冷启动优化, 大规模部署
 
 ## 3 点简述
-- 核心问题：现有方法在语义ID生成中存在跨模态语义与模态细节未解耦，以及Transformer架构忽略用户交互和物品的层次结构。
-- 方法要点：设计解耦语义分词器统一多模态信息并量化，采用分层记忆锚点Transformer恢复层次结构并压缩物品表示。
-- 实验或效果：在真实数据集上优于现有方法，冷启动场景表现突出，大规模部署实现核心指标提升6.55%。
+- 核心问题：现有方法在语义ID生成中未解耦跨模态共享语义与模态特定细节，且Transformer架构忽略用户交互和物品的层次结构
+- 方法要点：引入解耦语义分词器通过几何对齐和粗到细量化统一模态，并设计层次记忆锚点Transformer通过分层RoPE和锚点令牌恢复结构
+- 实验或效果：在真实数据集上优于现有方法，冷启动场景表现突出，大规模部署实现核心在线指标提升6.55%
 
 ## 摘要（原文）
 

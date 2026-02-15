@@ -7,14 +7,14 @@ title: Talk2DM: Enabling Natural Language Querying and Commonsense Reasoning for
 **arXiv**：[2602.11860v1](https://arxiv.org/abs/2602.11860) · [PDF](https://arxiv.org/pdf/2602.11860.pdf)  
 **作者**：Lu Tao, Jinxuan Luo, Yousuke Watanabe, Zhengshu Zhou, Yuhuan Lu, Shen Ying, Pan Zhang, Fei Zhao, Hiroaki Takada  
 
-**一句话要点**：提出Talk2DM模块，通过链式提示机制为车路云动态地图系统增加自然语言查询与常识推理能力。
+**一句话要点**：提出Talk2DM模块，通过自然语言查询和常识推理增强车路云动态地图系统。
 
-**关键词**：动态地图, 自然语言查询, 常识推理, 车路云协同, 链式提示机制, 问答数据集
+**关键词**：动态地图, 自然语言查询, 常识推理, 车路云协同, 链式提示, 大语言模型
 
 ## 3 点简述
-- 动态地图系统缺乏自然语言接口，限制了人机交互效率。
-- 基于VRCsim和VRC-QA数据集，Talk2DM采用链式提示机制结合规则与LLM常识。
-- 实验显示Talk2DM在VRC-QA上准确率超93%，响应时间2-5秒，具有强泛化能力。
+- 动态地图系统缺乏自然语言界面，限制人机交互效率。
+- 基于VRCsim和VRC-QA，Talk2DM采用链式提示机制集成规则与LLM常识。
+- 实验显示Talk2DM在VRC-QA上实现高查询准确率，响应时间短，具实用潜力。
 
 ## 摘要（原文）
 

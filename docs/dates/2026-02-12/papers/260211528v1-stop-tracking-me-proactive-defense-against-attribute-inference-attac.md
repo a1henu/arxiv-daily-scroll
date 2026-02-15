@@ -13,7 +13,7 @@ title: Stop Tracking Me! Proactive Defense Against Attribute Inference Attack in
 
 ## 3 点简述
 - 核心问题：现有匿名化防御粗粒度，无法阻止模型推理导致的隐私泄露
-- 方法要点：结合细粒度匿名化TRACE与推理阻止优化RPS，诱导模型拒绝行为
+- 方法要点：结合细粒度匿名化TRACE与推理阻止优化RPS，诱导模型拒绝推断
 - 实验或效果：在开源模型上，将属性推断准确率从约50%降至5%以下
 
 ## 摘要（原文）

@@ -13,8 +13,8 @@ title: Think like a Scientist: Physics-guided LLM Agent for Equation Discovery
 
 ## 3 点简述
 - 核心问题：现有LLM系统直接从数据猜测方程，缺乏模拟科学家多步推理过程，如先推断物理属性再约束候选方程。
-- 方法要点：KeplerAgent协调物理工具提取中间结构，配置符号回归引擎如PySINDy和PySR，包括函数库和结构约束。
-- 实验或效果：在物理方程基准测试中，比LLM和传统基线显著提高符号准确性和对噪声数据的鲁棒性。
+- 方法要点：KeplerAgent协调物理工具提取中间结构，并配置符号回归引擎如PySINDy和PySR，包括函数库和结构约束。
+- 实验或效果：在物理方程基准测试中，KeplerAgent比LLM和传统基线具有更高的符号准确性和对噪声数据的鲁棒性。
 
 ## 摘要（原文）
 

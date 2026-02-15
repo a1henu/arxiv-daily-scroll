@@ -13,7 +13,7 @@ title: Decentralized Multi-Robot Obstacle Detection and Tracking in a Maritime S
 
 ## 3 点简述
 - 核心问题：海上反射水面环境下的可靠感知与有限通信下的可扩展协调。
-- 方法要点：结合YOLOv8与立体视差检测，采用不确定性感知数据关联与协方差交集融合。
+- 方法要点：结合YOLOv8与立体视差检测，使用不确定性感知数据关联与协方差交集融合。
 - 实验效果：仿真显示提升了覆盖范围、定位精度与跟踪一致性，通信需求适中。
 
 ## 摘要（原文）

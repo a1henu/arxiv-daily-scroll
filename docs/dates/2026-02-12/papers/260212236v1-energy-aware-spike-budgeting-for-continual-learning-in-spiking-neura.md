@@ -7,9 +7,9 @@ title: Energy-Aware Spike Budgeting for Continual Learning in Spiking Neural Net
 **arXiv**：[2602.12236v1](https://arxiv.org/abs/2602.12236) · [PDF](https://arxiv.org/pdf/2602.12236.pdf)  
 **作者**：Anika Tabassum Meem, Muntasir Hossain Nadid, Md Zesun Ahmed Mia  
 
-**一句话要点**：提出能量感知脉冲预算框架，以解决脉冲神经网络在神经形态视觉中持续学习的灾难性遗忘和能效优化问题。
+**一句话要点**：提出能量感知脉冲预算框架，以解决脉冲神经网络在神经形态视觉系统中持续学习的灾难性遗忘和能效优化问题。
 
-**关键词**：脉冲神经网络, 持续学习, 神经形态视觉, 能量感知, 事件数据集, 脉冲预算
+**关键词**：脉冲神经网络, 持续学习, 神经形态视觉, 能量效率, 事件数据集, 灾难性遗忘
 
 ## 3 点简述
 - 核心问题：脉冲神经网络在持续学习中面临灾难性遗忘，现有方法未联合优化准确性和能效，尤其在事件数据集上探索有限。

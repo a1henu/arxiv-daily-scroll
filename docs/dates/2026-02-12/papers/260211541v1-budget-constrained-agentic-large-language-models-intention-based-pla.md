@@ -14,7 +14,7 @@ title: Budget-Constrained Agentic Large Language Models: Intention-Based Plannin
 ## 3 点简述
 - 核心问题：大语言模型在多步任务中需在严格预算下调用外部工具，面临状态-动作空间巨大、结果高方差和探索成本高的挑战。
 - 方法要点：基于意图感知分层世界模型，在线预测未来工具使用和风险校准成本，指导决策。
-- 实验或效果：在成本增强的StableToolBench上，严格保证预算可行性，显著提升任务成功率，对动态市场变化保持鲁棒性。
+- 实验或效果：在成本增强的StableToolBench上，严格保证预算可行性，显著提升任务成功率，对动态市场变化保持鲁棒。
 
 ## 摘要（原文）
 

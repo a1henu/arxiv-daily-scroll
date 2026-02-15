@@ -14,7 +14,7 @@ title: CSEval: A Framework for Evaluating Clinical Semantics in Text-to-Image Ge
 ## 3 点简述
 - 现有方法主要评估图像真实感或多样性，但忽略临床语义如解剖位置和病理的准确性
 - CSEval利用语言模型评估生成图像与提示之间的临床语义对齐，识别其他指标遗漏的不一致性
-- 实验显示CSEval与专家判断相关，为医疗生成模型提供可扩展且临床有意义的评估补充
+- 实验表明CSEval与专家判断相关，为医疗生成模型提供可扩展且临床有意义的评估补充
 
 ## 摘要（原文）
 

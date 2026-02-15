@@ -9,11 +9,11 @@ title: Right for the Wrong Reasons: Epistemic Regret Minimization for Causal Run
 
 **一句话要点**：提出Epistemic Regret Minimization以解决LLMs中因果层级塌缩问题
 
-**关键词**：因果推理, 大语言模型, 信念修正, 分布偏移, 干预学习, 认知固化
+**关键词**：因果推理, 大语言模型, 信念修正, 分布偏移, 干预学习, 错误分析
 
 ## 3 点简述
 - 核心问题：自回归训练导致LLMs混淆关联与干预，形成因果层级塌缩，使模型因错误原因正确。
-- 方法要点：提出Epistemic Regret Minimization作为因果信念修正算子，独立于任务成功惩罚推理错误，防止认知固化。
+- 方法要点：提出Epistemic Regret Minimization作为因果信念修正算子，独立于任务成功惩罚推理错误，防止错误固化。
 - 实验或效果：在1,360个因果陷阱场景中测试，ERM反馈能恢复53-59%的固化错误，而结果级反馈失败。
 
 ## 摘要（原文）

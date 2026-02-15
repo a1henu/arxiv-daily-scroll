@@ -14,7 +14,7 @@ title: ArGEnT: Arbitrary Geometry-encoded Transformer for Operator Learning
 ## 3 点简述
 - 核心问题：学习复杂几何和参数物理系统的解算子，需跨几何泛化并在任意空间位置评估
 - 方法要点：基于Transformer注意力机制，通过点云表示编码几何信息，集成到DeepONet作为主干网络
-- 实验或效果：在流体动力学、固体力学和电化学系统基准测试中，相比标准DeepONet和其他几何感知代理，预测精度和泛化性能显著提升
+- 实验或效果：在流体动力学、固体力学和电化学系统基准上，相比标准DeepONet和其他几何感知代理，预测精度和泛化性能显著提升
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: UniT: Unified Multimodal Chain-of-Thought Test-time Scaling
 **arXiv**：[2602.12279v1](https://arxiv.org/abs/2602.12279) · [PDF](https://arxiv.org/pdf/2602.12279.pdf)  
 **作者**：Leon Liangyu Chen, Haoyu Ma, Zhipeng Fan, Ziqi Huang, Animesh Sinha, Xiaoliang Dai, Jialiang Wang, Zecheng He, Jianwei Yang, Chunyuan Li, Junzhe Sun, Chu Wang, Serena Yeung-Levy, Felix Juefei-Xu  
 
-**一句话要点**：提出UniT框架以实现统一多模态模型的链式思维测试时扩展，解决复杂任务迭代推理问题。
+**一句话要点**：提出UniT框架以实现统一多模态模型的链式思维测试时扩展，解决复杂任务中的迭代推理需求。
 
-**关键词**：多模态统一模型, 测试时扩展, 链式思维推理, 迭代推理, 视觉生成与理解, 代理数据合成
+**关键词**：多模态统一模型, 测试时扩展, 链式思维推理, 迭代推理, 视觉生成与理解
 
 ## 3 点简述
 - 核心问题：统一多模态模型缺乏迭代推理能力，难以处理复杂空间组合或多对象交互任务。
 - 方法要点：结合代理数据合成、统一模型训练和灵活测试时推理，支持验证、子目标分解和内容记忆。
-- 实验或效果：训练短推理轨迹可泛化至长推理链，链式思维推理比并行采样更高效，提升分布外视觉推理。
+- 实验或效果：训练短推理轨迹可泛化至长推理链，链式思维推理比并行采样更高效，提升分布外视觉推理能力。
 
 ## 摘要（原文）
 

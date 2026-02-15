@@ -9,7 +9,7 @@ title: PAC-Bayesian Generalization Guarantees for Fairness on Stochastic and Det
 
 **一句话要点**：提出PAC-Bayesian框架以推导公平性泛化保证，适用于随机和确定性分类器。
 
-**关键词**：公平性泛化保证, PAC-Bayesian框架, 随机分类器, 确定性分类器, 风险差异, 自界算法
+**关键词**：公平性泛化保证, PAC-Bayesian框架, 随机分类器, 确定性分类器, 风险差异, 自边界算法
 
 ## 3 点简述
 - 核心问题：传统PAC泛化界无法为平衡预测风险和公平约束的模型提供理论保证。

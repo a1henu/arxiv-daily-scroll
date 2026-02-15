@@ -7,14 +7,14 @@ title: Text2GQL-Bench: A Text to Graph Query Language Benchmark [Experiment, Ana
 **arXiv**：[2602.11745v1](https://arxiv.org/abs/2602.11745) · [PDF](https://arxiv.org/pdf/2602.11745.pdf)  
 **作者**：Songlin Lyu, Lujie Ban, Zihang Wu, Tianqi Luo, Jirong Liu, Chenhao Ma, Yuyu Luo, Nan Tang, Shipeng Qi, Heng Lin, Yongchao Liu, Chuntao Hong  
 
-**一句话要点**：提出Text2GQL-Bench基准以解决文本到图查询语言转换的评估不足问题
+**一句话要点**：提出Text2GQL-Bench基准以解决文本到图查询语言系统缺乏高质量评估数据集和方法的问题
 
-**关键词**：文本到图查询语言, 基准数据集, 图数据库管理, 大语言模型评估, ISO-GQL生成, 执行准确率
+**关键词**：文本到图查询语言, 基准数据集, 图数据库管理, 大语言模型评估, ISO-GQL生成, 多领域查询
 
 ## 3 点简述
-- 现有文本到图查询语言数据集在领域覆盖、查询语言支持和评估范围上有限，阻碍系统发展
-- Text2GQL-Bench包含多领域178,184个问答对，支持可扩展构建和综合评估方法
-- 实验显示ISO-GQL生成存在方言差距，零射执行准确率低，但少量示例提示或微调可显著提升性能
+- 核心问题：现有文本到图查询语言数据集在领域覆盖、查询语言支持和评估范围上有限，阻碍系统发展
+- 方法要点：构建多图查询语言数据集，包含178,184个问题-查询对，覆盖13个领域，并设计可扩展的生成框架
+- 实验或效果：评估揭示ISO-GQL生成存在显著方言差距，零射设置下执行准确率仅4%，但少量示例提示可提升至约50%
 
 ## 摘要（原文）
 

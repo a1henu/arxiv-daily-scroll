@@ -9,7 +9,7 @@ title: Deep Kernel Fusion for Transformers
 
 **一句话要点**：提出DeepFusionKernel以解决长上下文LLM推理中SwiGLU MLP块的内存带宽瓶颈问题。
 
-**关键词**：长上下文推理, 内存带宽优化, 内核融合, SwiGLU MLP, 硬件加速, SGLang集成
+**关键词**：长上下文推理, 内存带宽优化, 内核融合, LLM加速, SGLang集成
 
 ## 3 点简述
 - 核心问题：长上下文LLM推理受限于内存带宽，SwiGLU MLP块权重过大导致缓存不足成为瓶颈。

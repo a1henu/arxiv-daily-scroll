@@ -13,7 +13,7 @@ title: Aggregate Models, Not Explanations: Improving Feature Importance Estimati
 
 ## 3 点简述
 - 核心问题：表达性模型因数据采样和算法随机性导致特征重要性估计不稳定，影响生物医学应用
-- 方法要点：理论分析表明，模型级集成优于解释级集成，能减少超额风险误差
+- 方法要点：理论分析表明，模型级集成通过降低超额风险误差，优于解释级集成
 - 实验或效果：在经典基准和UK Biobank蛋白质组学研究中验证了模型级集成的优势
 
 ## 摘要（原文）

@@ -7,14 +7,14 @@ title: Oscillators Are All You Need: Irregular Time Series Modelling via Damped 
 **arXiv**：[2602.12139v1](https://arxiv.org/abs/2602.12139) · [PDF](https://arxiv.org/pdf/2602.12139.pdf)  
 **作者**：Yashas Shende, Aritra Das, Reva Laxmi Chauhan, Arghya Pathak, Debayan Gupta  
 
-**一句话要点**：提出基于阻尼谐振子闭式解的方法，以高效建模不规则时间序列
+**一句话要点**：提出基于阻尼谐振子的闭式解方法，以高效处理不规则时间序列建模问题。
 
 **关键词**：不规则时间序列, 阻尼谐振子, 闭式解, 注意力机制, 计算效率, 连续时间建模
 
 ## 3 点简述
-- 核心问题：Transformer处理不规则时间序列时因假设均匀间隔而受限，现有方法如ContiFormer计算开销大
-- 方法要点：用阻尼谐振子类比键值，闭式解替代数值求解，通过共振现象模拟注意力机制
-- 实验或效果：在基准测试中实现最佳性能，计算速度显著提升，保持通用逼近性质
+- 核心问题：Transformer处理不规则时间序列时因假设均匀间隔而受限，现有方法如ContiFormer存在数值求解计算瓶颈。
+- 方法要点：用阻尼谐振子类比替换NODEs，利用其闭式解建模键值作为振荡器，将查询展开为正弦基，通过共振现象模拟注意力机制。
+- 实验或效果：在保持表达力的同时消除数值求解开销，理论证明具有通用逼近性质，在基准测试中实现最先进性能且速度大幅提升。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: The Five Ws of Multi-Agent Communication: Who Talks to Whom, When, What, 
 **arXiv**：[2602.11583v1](https://arxiv.org/abs/2602.11583) · [PDF](https://arxiv.org/pdf/2602.11583.pdf)  
 **作者**：Jingdi Chen, Hanqing Yang, Zongjun Liu, Carlee Joe-Wong  
 
-**一句话要点**：综述多智能体通信的五大要素，连接MARL、涌现语言与LLMs研究脉络
+**一句话要点**：综述多智能体通信的五个维度，连接MARL、涌现语言与LLMs研究脉络
 
 **关键词**：多智能体通信, 多智能体强化学习, 涌现语言, 大语言模型, 协作AI, 通信协议
 
 ## 3 点简述
-- 核心问题：动态部分可观测环境中，通信如何减少不确定性并促进协作
-- 方法要点：以五大要素框架梳理MARL、涌现语言和LLMs的通信设计演变
-- 实验或效果：提炼设计模式与开放挑战，支持未来混合系统开发
+- 核心问题：动态部分可观测环境中，通信如何降低不确定性并促进协作
+- 方法要点：通过谁与谁通信、何时、何内容、为何有益的五维框架分析通信设计
+- 实验或效果：总结MARL、涌现语言和LLM系统的设计模式、权衡与未解挑战
 
 ## 摘要（原文）
 
