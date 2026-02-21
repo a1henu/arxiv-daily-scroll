@@ -7,13 +7,13 @@ title: A Contrastive Variational AutoEncoder for NSCLC Survival Prediction with 
 **arXiv**：[2602.17402v1](https://arxiv.org/abs/2602.17402) · [PDF](https://arxiv.org/pdf/2602.17402.pdf)  
 **作者**：Michele Zanitti, Vanja Miskovic, Francesco Trovò, Alessandra Laura Giulia Pedrocchi, Ming Shen, Yan Kyaw Tun, Arsela Prelaj, Sokol Kosta  
 
-**一句话要点**：提出多模态对比变分自编码器以解决非小细胞肺癌生存预测中模态缺失问题
+**一句话要点**：提出多模态对比变分自编码器以解决非小细胞肺癌生存预测中模态缺失的鲁棒性问题
 
 **关键词**：多模态学习, 生存预测, 变分自编码器, 对比学习, 模态缺失, 非小细胞肺癌
 
 ## 3 点简述
 - 核心问题：真实临床数据常缺失模态，现有模型在严重缺失时缺乏鲁棒性。
-- 方法要点：使用模态特定变分编码器捕获不确定性，结合融合瓶颈和多任务目标进行正则化。
+- 方法要点：使用模态特定变分编码器、融合瓶颈与多任务目标，包括对比损失和随机模态掩码。
 - 实验或效果：在TCGA数据集上验证了疾病特异性生存预测的有效性和对严重缺失的鲁棒性。
 
 ## 摘要（原文）

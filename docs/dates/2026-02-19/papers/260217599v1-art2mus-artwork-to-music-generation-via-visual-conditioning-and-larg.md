@@ -14,7 +14,7 @@ title: Art2Mus: Artwork-to-Music Generation via Visual Conditioning and Large-Sc
 ## 3 点简述
 - 现有图像条件音乐生成系统依赖自然照片和图像到文本转换，限制了艺术品语义和风格的捕捉。
 - ArtToMus框架直接映射艺术品视觉嵌入到潜在扩散模型，无需语言中介，实现视觉到音乐的生成。
-- 实验显示ArtToMus生成音乐与艺术品风格一致，跨模态对齐分数竞争性强，但低于文本条件系统。
+- 实验显示ArtToMus生成音乐与艺术品风格一致，跨模态对齐分数虽低于文本条件系统，但感知质量竞争。
 
 ## 摘要（原文）
 

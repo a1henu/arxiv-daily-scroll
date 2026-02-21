@@ -7,14 +7,14 @@ title: Sonar-TS: Search-Then-Verify Natural Language Querying for Time Series Da
 **arXiv**：[2602.17001v1](https://arxiv.org/abs/2602.17001) · [PDF](https://arxiv.org/pdf/2602.17001.pdf)  
 **作者**：Zhao Tan, Yiji Zhao, Shiyu Wang, Chang Xu, Yuxuan Liang, Xiping Liu, Shirui Pan, Ming Jin  
 
-**一句话要点**：提出Sonar-TS框架以解决时间序列数据库的自然语言查询问题
+**一句话要点**：提出Sonar-TS框架以解决时间序列数据库自然语言查询中的形态意图和超长历史处理问题
 
-**关键词**：时间序列数据库, 自然语言查询, 神经符号框架, 搜索-验证管道, 基准测试
+**关键词**：时间序列数据库, 自然语言查询, 神经符号框架, 搜索-验证流程, 超长历史处理
 
 ## 3 点简述
-- 核心问题：现有方法难以处理连续形态意图和超长历史时间序列查询
-- 方法要点：采用神经符号框架，通过搜索-验证管道结合SQL和Python程序
-- 实验或效果：引入NLQTSBench基准，实验显示Sonar-TS能有效处理复杂查询
+- 核心问题：现有方法难以处理连续形态意图（如形状或异常）和超长时间序列历史查询
+- 方法要点：采用神经符号框架，通过搜索-验证流程，结合SQL索引和Python程序进行候选窗口锁定与验证
+- 实验或效果：引入NLQTSBench基准，实验显示Sonar-TS能有效处理传统方法失败的复杂时间查询
 
 ## 摘要（原文）
 

@@ -9,12 +9,12 @@ title: FLoRG: Federated Fine-tuning with Low-rank Gram Matrices and Procrustes A
 
 **一句话要点**：提出FLoRG框架，通过单低秩矩阵与Gram矩阵聚合解决联邦微调中的聚合误差与分解漂移问题。
 
-**关键词**：联邦学习, 低秩适应, Gram矩阵, Procrustes对齐, 大语言模型微调
+**关键词**：联邦学习, 低秩适应, Gram矩阵, Procrustes对齐, 大语言模型微调, 通信效率
 
 ## 3 点简述
 - LoRA在联邦微调中因双低秩矩阵聚合导致误差与分解漂移，影响模型性能。
-- FLoRG采用单低秩矩阵并聚合其Gram矩阵，结合Procrustes对齐减少通信开销与分解漂移。
-- 实验表明FLoRG在多个基准上优于现有方法，通信开销降低达2041倍。
+- FLoRG采用单低秩矩阵并聚合其Gram矩阵，结合Procrustes对齐减少分解漂移，降低通信开销。
+- 实验表明FLoRG在多个基准上优于现有方法，下游任务准确率提升，通信开销最多减少2041倍。
 
 ## 摘要（原文）
 

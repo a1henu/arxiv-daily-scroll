@@ -7,14 +7,14 @@ title: LiveGraph: Active-Structure Neural Re-ranking for Exercise Recommendation
 **arXiv**：[2602.17036v1](https://arxiv.org/abs/2602.17036) · [PDF](https://arxiv.org/pdf/2602.17036.pdf)  
 **作者**：Rong Fu, Zijian Zhang, Haiyun Wei, Jiekai Wu, Kun Liu, Xianda Li, Haoyu Zhao, Yang Li, Yongtai Liu, Ziming Wang, Rui Lu, Simon Fong  
 
-**一句话要点**：提出LiveGraph主动结构神经重排序框架以解决数字学习环境中练习推荐的个性化与多样性问题
+**一句话要点**：提出LiveGraph主动结构神经重排序框架以解决练习推荐中的长尾分布和个性化轨迹适应问题。
 
-**关键词**：练习推荐, 图神经网络, 重排序机制, 个性化学习, 长尾分布
+**关键词**：练习推荐, 神经重排序, 图表示学习, 长尾分布, 个性化学习, 内容多样性
 
 ## 3 点简述
-- 核心问题：现有推荐系统难以处理学生参与的长尾分布和个性化学习轨迹适应问题
-- 方法要点：采用图表示增强策略和动态重排序机制，平衡推荐精度与内容多样性
-- 实验或效果：在多个真实数据集上验证，LiveGraph在预测准确性和练习多样性方面优于基线方法
+- 核心问题：数字学习环境中学生参与度长尾分布和个性化学习轨迹适应不足。
+- 方法要点：基于图表示增强策略和动态重排序机制，平衡推荐精度与内容多样性。
+- 实验或效果：在多个真实数据集上超越基线，提升预测准确性和练习多样性。
 
 ## 摘要（原文）
 

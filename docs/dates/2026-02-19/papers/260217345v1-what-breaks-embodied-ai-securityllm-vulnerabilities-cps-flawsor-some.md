@@ -7,14 +7,14 @@ title: What Breaks Embodied AI Security:LLM Vulnerabilities, CPS Flaws,or Someth
 **arXiv**：[2602.17345v1](https://arxiv.org/abs/2602.17345) · [PDF](https://arxiv.org/pdf/2602.17345.pdf)  
 **作者**：Boyang Ma, Hechuan Guo, Peizhuo Lv, Minghui Xu, Xuelong Dai, YeChao Zhang, Yijun Yang, Yue Zhang  
 
-**一句话要点**：提出系统级失配视角以解释具身AI安全漏洞，超越LLM与CPS传统分析
+**一句话要点**：提出系统级失配视角以解释具身AI安全漏洞，超越LLM与CPS传统分析框架
 
 **关键词**：具身AI安全, 系统级失配, 物理风险推理, 感知-决策-行动循环, 安全非组合性
 
 ## 3 点简述
-- 核心问题：具身AI安全失效源于系统级失配，而非孤立模型缺陷或传统CPS攻击
-- 方法要点：识别四个核心洞察，强调语义正确不等于物理安全、动作结果依赖物理状态、误差在感知-决策-行动循环中放大、安全非组合性
-- 实验或效果：未知
+- 核心问题：具身AI安全失效常源于系统级失配，而非孤立模型缺陷或传统CPS攻击
+- 方法要点：识别四个核心洞察，如语义正确性不保证物理安全、小误差在感知-决策-行动循环中放大
+- 实验或效果：基于调查分析，强调需转向系统级物理风险推理以提升安全
 
 ## 摘要（原文）
 

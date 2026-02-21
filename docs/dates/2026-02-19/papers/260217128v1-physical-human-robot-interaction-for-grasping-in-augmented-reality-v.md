@@ -7,14 +7,14 @@ title: Physical Human-Robot Interaction for Grasping in Augmented Reality via Ri
 **arXiv**：[2602.17128v1](https://arxiv.org/abs/2602.17128) · [PDF](https://arxiv.org/pdf/2602.17128.pdf)  
 **作者**：Huishi Huang, Jack Klusmann, Haozhe Wang, Shuchen Ji, Fengkang Ying, Yiyuan Zhang, John Nassour, Gordon Cheng, Daniela Rus, Jun Liu, Marcelo H Ang, Cecilia Laschi  
 
-**一句话要点**：提出基于增强现实的物理人机交互框架，实现混合刚柔机器人的直接遥操作抓取。
+**一句话要点**：提出基于增强现实的物理人机交互框架，实现混合刚软机器人的直接遥操作抓取。
 
-**关键词**：混合刚柔机器人, 增强现实, 物理人机交互, 遥操作, 参数识别, 抓取任务
+**关键词**：混合刚软机器人, 增强现实, 物理人机交互, 遥操作, 参数识别, 抓取任务
 
 ## 3 点简述
-- 核心问题：混合刚柔机器人协调困难，涉及建模、感知和跨域运动学挑战。
-- 方法要点：利用AR头显集成模拟模型于物理引擎，支持虚拟执行与真实部署同步。
-- 实验或效果：引入实到模拟参数识别管道，基于软机器人几何特性确保虚拟与物理行为一致。
+- 核心问题：混合刚软机器人协调困难，涉及建模、感知和跨域运动学挑战。
+- 方法要点：利用AR头显集成模拟模型于物理引擎，支持虚拟执行与现实部署一致性。
+- 实验或效果：引入实到模拟参数识别流程，基于软机器人几何特性，准确建模静态动态行为及控制系统响应。
 
 ## 摘要（原文）
 

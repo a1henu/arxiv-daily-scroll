@@ -7,14 +7,14 @@ title: MolHIT: Advancing Molecular-Graph Generation with Hierarchical Discrete D
 **arXiv**：[2602.17602v1](https://arxiv.org/abs/2602.17602) · [PDF](https://arxiv.org/pdf/2602.17602.pdf)  
 **作者**：Hojung Jung, Rodrigo Hormazabal, Jaehyeong Jo, Youngrok Park, Kyunggeun Roh, Se-Young Yun, Sehui Han, Dae-Woong Jeong  
 
-**一句话要点**：提出MolHIT框架，基于分层离散扩散模型提升分子图生成性能，用于药物发现与材料科学。
+**一句话要点**：提出MolHIT框架，基于分层离散扩散模型提升分子图生成性能，用于药物发现和材料科学。
 
-**关键词**：分子图生成, 离散扩散模型, 药物发现, 化学有效性, 多属性引导生成, 支架扩展
+**关键词**：分子图生成, 离散扩散模型, 药物发现, 化学有效性, 分层建模, 多属性引导生成
 
 ## 3 点简述
 - 现有图扩散模型在分子生成中化学有效性低且难以满足属性需求。
-- MolHIT采用分层离散扩散模型，引入化学先验编码和解耦原子编码。
-- 在MOSES数据集上实现新SOTA，首次在图扩散中达到近完美有效性，并在下游任务中表现优异。
+- MolHIT采用分层离散扩散模型，通过编码化学先验和解耦原子类型来改进生成。
+- 在MOSES数据集上实现新SOTA性能，首次在图扩散中达到接近完美的化学有效性。
 
 ## 摘要（原文）
 

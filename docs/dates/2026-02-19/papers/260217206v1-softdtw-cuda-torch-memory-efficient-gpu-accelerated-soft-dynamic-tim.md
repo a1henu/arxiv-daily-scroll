@@ -7,14 +7,14 @@ title: SoftDTW-CUDA-Torch: Memory-Efficient GPU-Accelerated Soft Dynamic Time Wa
 **arXiv**：[2602.17206v1](https://arxiv.org/abs/2602.17206) · [PDF](https://arxiv.org/pdf/2602.17206.pdf)  
 **作者**：Ron Shapira Weber, Oren Freifeld  
 
-**一句话要点**：提出SoftDTW-CUDA-Torch库以解决GPU上SoftDTW计算的内存效率与数值稳定性问题
+**一句话要点**：提出SoftDTW-CUDA-Torch库，解决GPU上SoftDTW的序列长度限制、数值不稳定性和内存消耗问题。
 
-**关键词**：动态时间规整, GPU加速, 内存优化, PyTorch库, 数值稳定性
+**关键词**：SoftDTW, GPU加速, PyTorch库, 内存优化, 动态时间规整
 
 ## 3 点简述
-- 现有GPU实现存在序列长度限制、反向传播数值不稳定和内存消耗过大问题
-- 采用分块反对角线核执行、对数空间反向传播和融合距离计算模式
-- 支持任意序列长度，内存减少高达98%，集成PyTorch自动微分
+- 现有GPU实现存在序列长度上限1024、反向传播数值不稳定和内存消耗大等限制。
+- 采用分块反对角线核执行、对数空间反向传播和融合距离计算模式以克服这些问题。
+- 实现任意序列长度支持、PyTorch自动微分集成和SoftDTW重心计算，内存减少高达98%。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: Tracing Copied Pixels and Regularizing Patch Affinity in Copy Detection
 **arXiv**：[2602.17484v1](https://arxiv.org/abs/2602.17484) · [PDF](https://arxiv.org/pdf/2602.17484.pdf)  
 **作者**：Yichen Lu, Siwei Nie, Minlong Lu, Xudong Yang, Xiaobo Zhang, Peng Zhang  
 
-**一句话要点**：提出PixTrace和CopyNCE以增强图像复制检测中的细粒度对应学习
+**一句话要点**：提出PixTrace和CopyNCE以提升图像复制检测中精细编辑的识别能力
 
-**关键词**：图像复制检测, 自监督学习, 像素坐标跟踪, 对比学习, 细粒度对应, 几何引导
+**关键词**：图像复制检测, 自监督学习, 像素追踪, 对比学习, 块亲和性正则化
 
 ## 3 点简述
-- 现有自监督学习方法在复杂编辑下因细粒度对应不足而性能受限
-- 通过像素坐标跟踪模块和几何引导对比损失，桥接像素级可追踪性与块级相似性学习
-- 在DISC21数据集上实现领先性能，并提升可解释性
+- 核心问题：自监督学习在图像复制检测中因缺乏细粒度对应学习，难以处理复杂编辑。
+- 方法要点：引入PixTrace模块追踪像素坐标，并设计CopyNCE损失正则化块亲和性。
+- 实验或效果：在DISC21数据集上实现先进性能，并增强可解释性。
 
 ## 摘要（原文）
 

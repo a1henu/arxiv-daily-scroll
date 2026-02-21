@@ -7,14 +7,14 @@ title: Arcee Trinity Large Technical Report
 **arXiv**：[2602.17004v1](https://arxiv.org/abs/2602.17004) · [PDF](https://arxiv.org/pdf/2602.17004.pdf)  
 **作者**：Varun Singh, Lucas Krauss, Sami Jaghouar, Matej Sirovatka, Charles Goddard, Fares Obied, Jack Min Ong, Jannik Straube, Fern, Aria Harley, Conner Stewart, Colin Kealty, Maziyar Panahi, Simon Kirsten, Anushka Deshpande, Anneketh Vij, Arthur Bresnu, Pranav Veldurthi, Raghav Ravishankar, Hardik Bishnoi, DatologyAI Team, Arcee AI Team, Prime Intellect Team, Mark McQuade, Johannes Hagemann, Lucas Atkins  
 
-**一句话要点**：提出Arcee Trinity系列稀疏专家混合模型，包括400B总参数的大模型，以高效处理大规模语言预训练。
+**一句话要点**：提出Arcee Trinity稀疏专家混合模型系列，包括400B总参数的大模型，以高效处理大规模语言预训练。
 
-**关键词**：稀疏专家混合模型, 大规模预训练, 注意力机制, 负载平衡策略, Muon优化器
+**关键词**：稀疏专家混合模型, 大规模预训练, 注意力机制, 参数激活优化, Muon优化器
 
 ## 3 点简述
-- 核心问题：大规模语言模型训练中参数效率与计算成本的平衡。
-- 方法要点：采用稀疏MoE架构，结合局部与全局注意力、门控注意力等现代技术，并引入SMEBU负载平衡策略。
-- 实验或效果：模型在10-17万亿token上预训练，无损失尖峰，参数激活量低，如Trinity Large每token激活13B参数。
+- 核心问题：大规模语言模型训练中的计算效率与参数激活平衡问题。
+- 方法要点：采用稀疏MoE架构，结合局部与全局注意力、门控注意力、深度缩放三明治归一化和Sigmoid路由。
+- 实验或效果：Trinity Large在17万亿tokens上预训练，无损失尖峰，模型检查点已公开。
 
 ## 摘要（原文）
 

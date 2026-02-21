@@ -7,7 +7,7 @@ title: SMAC: Score-Matched Actor-Critics for Robust Offline-to-Online Transfer
 **arXiv**：[2602.17632v1](https://arxiv.org/abs/2602.17632) · [PDF](https://arxiv.org/pdf/2602.17632.pdf)  
 **作者**：Nathan S. de Lara, Florian Shkurti  
 
-**一句话要点**：提出SMAC方法以解决离线强化学习到在线微调时性能下降的问题
+**一句话要点**：提出SMAC方法以解决离线强化学习到在线微调时的性能下降问题
 
 **关键词**：离线强化学习, 在线微调, 损失景观, 正则化, Q函数, 性能转移
 

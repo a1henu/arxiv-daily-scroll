@@ -7,14 +7,14 @@ title: Reverso: Efficient Time Series Foundation Models for Zero-shot Forecastin
 **arXiv**：[2602.17634v1](https://arxiv.org/abs/2602.17634) · [PDF](https://arxiv.org/pdf/2602.17634.pdf)  
 **作者**：Xinghong Fu, Yanhong Li, Georgios Papaioannou, Yoon Kim  
 
-**一句话要点**：提出Reverso高效时间序列基础模型，用于零样本预测，显著提升性能-效率帕累托前沿。
+**一句话要点**：提出Reverso高效时间序列基础模型，用于零样本预测，显著提升性能效率边界。
 
 **关键词**：时间序列基础模型, 零样本预测, 高效模型, 混合架构, 长卷积, 线性RNN
 
 ## 3 点简述
-- 核心问题：现有时间序列基础模型参数量大，导致效率低、使用成本高。
-- 方法要点：采用小型混合模型，结合长卷积和线性RNN层（如DeltaNet），替代大型Transformer。
-- 实验或效果：模型比基于Transformer的模型小百倍以上，性能相当，并引入数据增强和推理策略提升效果。
+- 问题：现有时间序列基础模型参数庞大，导致效率低、成本高，难以实际应用。
+- 方法：采用小型混合模型，结合长卷积和线性RNN层（如DeltaNet），替代大型Transformer。
+- 效果：模型尺寸缩小百倍以上，性能媲美大型模型，并通过数据增强和推理策略进一步提升。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: Representation Collapse in Machine Translation Through the Lens of Angula
 **arXiv**：[2602.17287v1](https://arxiv.org/abs/2602.17287) · [PDF](https://arxiv.org/pdf/2602.17287.pdf)  
 **作者**：Evgeniia Tokarchuk, Maya K. Nachesa, Sergey Troshin, Vlad Niculae  
 
-**一句话要点**：提出基于角分散的正则化方法，缓解机器翻译中Transformer的表征塌缩问题
+**一句话要点**：提出基于角分散的正则化方法，缓解机器翻译中Transformer的表征塌陷问题。
 
-**关键词**：表征塌缩, 机器翻译, Transformer, 角分散正则化, 量化模型
+**关键词**：表征塌陷, 机器翻译, Transformer, 角分散正则化, 量化模型
 
 ## 3 点简述
-- 分析离散和连续NMT Transformer训练中表征塌缩的动态过程
-- 引入角分散正则化，实证显示能减轻塌缩并提升翻译质量
-- 量化模型也出现类似塌缩，正则化在量化后仍保持益处
+- 分析离散和连续NMT Transformer训练中表征塌陷的动态过程。
+- 引入角分散正则化，实验证明能减轻塌陷并提升翻译质量。
+- 量化模型也表现出塌陷，正则化在量化后仍保持益处。
 
 ## 摘要（原文）
 

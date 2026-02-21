@@ -7,14 +7,14 @@ title: A Privacy by Design Framework for Large Language Model-Based Applications
 **arXiv**：[2602.17418v1](https://arxiv.org/abs/2602.17418) · [PDF](https://arxiv.org/pdf/2602.17418.pdf)  
 **作者**：Diana Addae, Diana Rogachova, Nafiseh Kahani, Masoud Barati, Michael Christensen, Chen Zhou  
 
-**一句话要点**：提出基于隐私设计框架，指导儿童大语言模型应用开发以降低隐私风险
+**一句话要点**：提出基于隐私设计的大语言模型儿童应用框架，以降低隐私风险并满足法规要求。
 
-**关键词**：隐私设计, 大语言模型, 儿童隐私保护, 法规合规, 应用框架, 适龄设计
+**关键词**：隐私设计, 大语言模型, 儿童隐私保护, 法规合规, AI应用框架
 
 ## 3 点简述
-- 核心问题：儿童使用AI技术面临隐私风险，现有法规实施困难。
+- 核心问题：儿童使用AI技术时面临隐私风险，现有法规实施困难。
 - 方法要点：整合GDPR、PIPEDA、COPPA等法规原则，映射到LLM应用全生命周期。
-- 实验或效果：通过教育辅导案例研究，展示框架如何结合技术组织控制和适龄设计。
+- 实验或效果：通过教育辅导案例研究，展示框架如何结合技术控制与适龄设计。
 
 ## 摘要（原文）
 

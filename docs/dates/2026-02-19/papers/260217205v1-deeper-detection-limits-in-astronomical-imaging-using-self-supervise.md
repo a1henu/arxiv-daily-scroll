@@ -7,14 +7,14 @@ title: Deeper detection limits in astronomical imaging using self-supervised spa
 **arXiv**：[2602.17205v1](https://arxiv.org/abs/2602.17205) · [PDF](https://arxiv.org/pdf/2602.17205.pdf)  
 **作者**：Yuduo Guo, Hao Zhang, Mingyu Li, Fujiang Yu, Yunjing Wu, Yuhan Hao, Song Huang, Yongming Liang, Xiaojing Lin, Xinyang Li, Jiamin Wu, Zheng Cai, Qionghai Dai  
 
-**一句话要点**：提出基于自监督时空去噪的天文图像检测极限提升方法
+**一句话要点**：提出自监督时空去噪算法ASTERIS以提升天文成像的探测极限
 
-**关键词**：天文图像去噪, 自监督学习, Transformer模型, 时空信息整合, 检测极限提升
+**关键词**：天文成像去噪, 自监督学习, Transformer模型, 时空信息整合, 探测极限提升
 
 ## 3 点简述
-- 天文成像检测极限受噪声限制，部分噪声在像素和曝光间相关
-- 开发自监督Transformer算法ASTERIS，整合多曝光时空信息
-- 模拟和观测验证显示检测极限提升1星等，识别更多高红移星系
+- 天文成像探测极限受限于像素和曝光间的相关噪声
+- ASTERIS基于Transformer整合多曝光时空信息进行自监督去噪
+- 在模拟和真实数据中显著提升探测深度并保持光度精度
 
 ## 摘要（原文）
 

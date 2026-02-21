@@ -9,7 +9,7 @@ title: AdvSynGNN: Structure-Adaptive Graph Neural Nets via Adversarial Synthesis
 
 **一句话要点**：提出AdvSynGNN以解决图神经网络在结构噪声或非同配拓扑下的性能退化问题
 
-**关键词**：图神经网络, 结构自适应, 对抗学习, 节点表示学习, 非同配图
+**关键词**：图神经网络, 结构自适应, 对抗合成, 节点表示学习, 非同配图, 残差校正
 
 ## 3 点简述
 - 核心问题：图神经网络易受结构噪声和非同配拓扑影响，导致性能显著下降

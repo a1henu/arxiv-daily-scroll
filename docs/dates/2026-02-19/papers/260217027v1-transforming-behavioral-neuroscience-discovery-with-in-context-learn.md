@@ -7,14 +7,14 @@ title: Transforming Behavioral Neuroscience Discovery with In-Context Learning a
 **arXiv**：[2602.17027v1](https://arxiv.org/abs/2602.17027) · [PDF](https://arxiv.org/pdf/2602.17027.pdf)  
 **作者**：Paimon Goulart, Jordan Steinhauser, Dawon Ahn, Kylene Shuler, Edward Korzus, Jia Chen, Evangelos E. Papalexakis  
 
-**一句话要点**：提出基于情境学习和AI增强张量方法的管道，以加速行为神经科学数据洞察
+**一句话要点**：提出基于上下文学习和AI增强张量方法的管道，以加速行为神经科学数据洞察
 
-**关键词**：情境学习, 张量分解, 行为神经科学, AI增强管道, 恐惧泛化, 数据洞察
+**关键词**：上下文学习, 张量分解, 行为神经科学, AI增强管道, 恐惧泛化, 数据洞察
 
 ## 3 点简述
 - 核心问题：行为神经科学中恐惧泛化研究的数据分析流程复杂耗时，阻碍领域专家快速获取洞察。
-- 方法要点：利用情境学习自动化数据准备和模式解释，并引入AI增强张量分解模型处理异构数据。
-- 实验或效果：实验评估显示该管道优于领域标准实践和非情境学习基线，结果得到领域专家验证。
+- 方法要点：利用上下文学习自动化数据准备和模式解释，无需AI模型训练；增强张量分解模型以处理异构数据。
+- 实验或效果：实验评估显示管道性能优于领域标准实践和非上下文学习基线，结果经领域专家验证有效。
 
 ## 摘要（原文）
 

@@ -7,13 +7,13 @@ title: RetouchIQ: MLLM Agents for Instruction-Based Image Retouching with Genera
 **arXiv**：[2602.17558v1](https://arxiv.org/abs/2602.17558) · [PDF](https://arxiv.org/pdf/2602.17558.pdf)  
 **作者**：Qiucheng Wu, Jing Shi, Simon Jenni, Kushal Kafle, Tianyu Wang, Shiyu Chang, Handong Zhao  
 
-**一句话要点**：提出RetouchIQ框架，通过通用奖励模型驱动的MLLM代理实现基于指令的图像精修。
+**一句话要点**：提出RetouchIQ框架，通过通用奖励模型指导MLLM代理实现基于指令的图像精修。
 
 **关键词**：多模态大语言模型, 强化学习, 图像编辑, 奖励模型, 指令执行, 专业软件集成
 
 ## 3 点简述
-- 核心问题：专业图像编辑中缺乏可靠奖励信号，难以训练MLLM代理进行主观性编辑。
-- 方法要点：引入通用奖励模型，基于多模态推理生成案例特定指标，提供高质量强化学习梯度。
+- 核心问题：专业图像编辑中，强化学习缺乏可靠奖励信号以反映主观创意需求。
+- 方法要点：使用通用奖励模型，基于案例生成评估指标，提供高质量梯度指导强化学习。
 - 实验或效果：在19万指令-推理对数据集上验证，显著提升语义一致性和感知质量。
 
 ## 摘要（原文）

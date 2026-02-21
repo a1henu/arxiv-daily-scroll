@@ -7,14 +7,14 @@ title: ComptonUNet: A Deep Learning Model for GRB Localization with Compton Came
 **arXiv**：[2602.17085v1](https://arxiv.org/abs/2602.17085) · [PDF](https://arxiv.org/pdf/2602.17085.pdf)  
 **作者**：Shogo Sato, Kazuo Tanaka, Shojun Ogasawara, Kazuki Yamamoto, Kazuhiko Murasaki, Ryuichi Tanida, Jun Kataoka  
 
-**一句话要点**：提出ComptonUNet以在低统计高噪声条件下实现伽马暴的稳健定位
+**一句话要点**：提出ComptonUNet以在低统计和高噪声条件下实现伽马射线暴的稳健定位
 
-**关键词**：伽马暴定位, 康普顿相机, 深度学习, 低统计重建, 噪声抑制, 天体物理模拟
+**关键词**：伽马射线暴定位, 康普顿相机, 深度学习, 低统计数据处理, 噪声抑制, 图像重建
 
 ## 3 点简述
-- 核心问题：伽马暴检测中低光子统计和强背景噪声导致定位困难
-- 方法要点：结合直接重建统计效率与图像去噪能力的混合深度学习框架
-- 实验或效果：模拟低地球轨道任务场景，定位精度显著优于现有方法
+- 核心问题：伽马射线暴在低光子统计和强背景噪声下检测与定位困难
+- 方法要点：结合直接重建模型的统计效率与图像架构的去噪能力
+- 实验或效果：在模拟低地球轨道任务场景中，定位精度显著优于现有方法
 
 ## 摘要（原文）
 

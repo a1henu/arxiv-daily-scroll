@@ -13,8 +13,8 @@ title: 2Mamba2Furious: Linear in Complexity, Competitive in Accuracy
 
 ## 3 点简述
 - 核心问题：线性注意力在效率上优于softmax注意力，但表达力较弱，导致精度降低。
-- 方法要点：简化Mamba-2为Mamba-2S，通过改进A-mask和增加隐藏状态阶数，提升精度至接近softmax注意力。
-- 实验或效果：2Mamba在长上下文场景下内存效率高，代码已开源，部分元素可超越softmax注意力精度。
+- 方法要点：简化Mamba-2为Mamba-2S，优化A-mask并增加隐藏状态阶数，提升精度。
+- 实验或效果：2Mamba在精度上接近softmax注意力，且在长上下文下内存效率更高。
 
 ## 摘要（原文）
 

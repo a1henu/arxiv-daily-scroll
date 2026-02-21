@@ -7,9 +7,9 @@ title: Improving LLM-based Recommendation with Self-Hard Negatives from Intermed
 **arXiv**：[2602.17410v1](https://arxiv.org/abs/2602.17410) · [PDF](https://arxiv.org/pdf/2602.17410.pdf)  
 **作者**：Bingqian Li, Bowen Zheng, Xiaolei Wang, Long Zhang, Jinpeng Wang, Sheng Chen, Wayne Xin Zhao, Ji-rong Wen  
 
-**一句话要点**：提出ILRec框架，利用中间层自硬负样本增强基于LLM的推荐系统偏好学习
+**一句话要点**：提出ILRec框架，利用中间层自硬负信号增强基于LLM的推荐系统偏好学习
 
-**关键词**：LLM推荐, 偏好学习, 自硬负样本, 中间层监督, 跨层蒸馏
+**关键词**：基于LLM的推荐, 偏好学习, 自硬负样本, 中间层信号, 跨层蒸馏
 
 ## 3 点简述
 - 现有方法依赖离线生成的序列级负样本，在大型负项空间中区分性和信息性不足

@@ -7,14 +7,14 @@ title: Dynamic Decision-Making under Model Misspecification: A Stochastic Stabil
 **arXiv**：[2602.17086v1](https://arxiv.org/abs/2602.17086) · [PDF](https://arxiv.org/pdf/2602.17086.pdf)  
 **作者**：Xinyu Dai, Daniel Chen, Yian Qian  
 
-**一句话要点**：提出随机稳定性框架以分析模型误设下Thompson Sampling的后验演化与性能
+**一句话要点**：提出随机稳定性框架，分析模型误设下Thompson Sampling的后验演化与性能
 
-**关键词**：模型误设, Thompson Sampling, 随机稳定性, 后验演化, 老虎机算法, 贝叶斯强化学习
+**关键词**：模型误设, Thompson Sampling, 后验演化, 随机稳定性, 贝叶斯强化学习, 老虎机问题
 
 ## 3 点简述
-- 研究Thompson Sampling在模型误设下的行为与性能，突破正确模型假设限制
-- 通过高斯双臂老虎机案例，分类后验演化为正确集中、错误集中和持续混合三种机制
-- 扩展至有限模型类，建立随机稳定性框架，表征遍历与瞬态行为并提供维度约简
+- 核心问题：模型误设时Thompson Sampling的行为与性能分析，现有算法依赖正确模型假设
+- 方法要点：基于高斯双臂老虎机分类后验演化，扩展至有限模型类，构建马尔可夫过程框架
+- 实验或效果：提供后验动态的几何分类，为结构化老虎机中的鲁棒决策奠定基础
 
 ## 摘要（原文）
 

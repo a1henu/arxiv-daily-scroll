@@ -7,14 +7,14 @@ title: Sink-Aware Pruning for Diffusion Language Models
 **arXiv**：[2602.17664v1](https://arxiv.org/abs/2602.17664) · [PDF](https://arxiv.org/pdf/2602.17664.pdf)  
 **作者**：Aidar Myrzakhan, Tianyi Li, Bowei Guo, Shengkun Tang, Zhiqiang Shen  
 
-**一句话要点**：提出Sink-Aware Pruning以优化扩散语言模型的推理效率
+**一句话要点**：提出Sink-Aware Pruning以解决扩散语言模型推理效率问题
 
 **关键词**：扩散语言模型, 模型剪枝, 注意力机制, 推理优化, 高效计算
 
 ## 3 点简述
 - 核心问题：扩散语言模型推理成本高，现有剪枝方法继承自自回归模型，错误假设注意力sink稳定
-- 方法要点：基于sink位置在生成轨迹中高方差的观察，自动识别并剪除不稳定sink
-- 实验或效果：无需重训练，在匹配计算下实现更好的质量-效率权衡，超越强基线
+- 方法要点：基于sink位置在生成轨迹中高方差，自动识别并剪除不稳定sink，无需重训练
+- 实验或效果：在匹配计算下，实现更好的质量-效率权衡，优于先前剪枝基线
 
 ## 摘要（原文）
 

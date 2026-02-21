@@ -7,14 +7,14 @@ title: MASPO: Unifying Gradient Utilization, Probability Mass, and Signal Reliab
 **arXiv**：[2602.17550v1](https://arxiv.org/abs/2602.17550) · [PDF](https://arxiv.org/pdf/2602.17550.pdf)  
 **作者**：Xiaoliang Fu, Jiaye Lin, Yangyi Fang, Binbin Zheng, Chaowen Hu, Zekai Shao, Cong Qin, Lu Pan, Ke Zeng, Xunliang Cai  
 
-**一句话要点**：提出MASPO框架以统一梯度利用、概率质量和信号可靠性，提升LLM推理的鲁棒性和样本效率
+**一句话要点**：提出MASPO框架，通过统一梯度利用、概率质量和信号可靠性，提升LLM推理的鲁棒性和样本效率。
 
 **关键词**：强化学习, 大语言模型推理, 策略优化, 梯度利用, 样本效率, 鲁棒性
 
 ## 3 点简述
-- 现有RLVR方法存在梯度利用低效、概率质量不敏感和信号可靠性不对称三大挑战
-- MASPO整合软高斯门控、质量自适应限制器和非对称风险控制器以统一优化
-- 实验表明MASPO作为一体化RLVR解决方案，显著优于基线方法
+- 现有RLVR方法存在梯度利用低效、概率质量不敏感和信号可靠性不对称三大挑战。
+- MASPO整合软高斯门控、质量自适应限制器和非对称风险控制器以统一优化。
+- 实验表明MASPO作为一体化RLVR解决方案，显著优于基线方法。
 
 ## 摘要（原文）
 

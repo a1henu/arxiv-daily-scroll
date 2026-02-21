@@ -12,7 +12,7 @@ title: KLong: Training LLM Agent for Extremely Long-horizon Tasks
 **关键词**：长视野任务, 轨迹分割SFT, 渐进式强化学习, LLM代理训练, 自动化数据生成, 研究论文分析
 
 ## 3 点简述
-- 核心问题：训练LLM代理处理极长视野任务，如研究论文分析，面临轨迹过长和训练效率挑战。
+- 核心问题：训练LLM代理处理极长视野任务，如研究论文分析，面临轨迹长度和训练效率挑战。
 - 方法要点：采用轨迹分割SFT激活基础能力，结合Research-Factory自动生成高质量数据，并通过渐进式RL分阶段扩展训练超时。
 - 实验或效果：KLong在PaperBench上超越Kimi K2 Thinking 11.28%，并在SWE-bench Verified和MLE-bench等编码基准上展现泛化性能。
 

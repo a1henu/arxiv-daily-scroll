@@ -7,14 +7,14 @@ title: Conv-FinRe: A Conversational and Longitudinal Benchmark for Utility-Groun
 **arXiv**：[2602.16990v1](https://arxiv.org/abs/2602.16990) · [PDF](https://arxiv.org/pdf/2602.16990.pdf)  
 **作者**：Yan Wang, Yi Han, Lingfei Qian, Yueru He, Xueqing Peng, Dongji Feng, Zhuohan Xie, Vincent Jim Zhang, Rosie Guo, Fengran Mo, Jimin Huang, Yankai Chen, Xue Liu, Jian-Yun Nie  
 
-**一句话要点**：提出Conv-FinRe基准以评估金融推荐中LLMs的决策质量与行为模仿的差异
+**一句话要点**：提出Conv-FinRe基准以评估金融推荐中LLM的决策质量与行为模仿的张力
 
-**关键词**：金融推荐基准, 对话式推荐, 长周期评估, 多视角参考, LLM评估, 行为模仿
+**关键词**：金融推荐基准, 对话式推荐, 长周期评估, 行为模仿, 决策质量, 多视角参考
 
 ## 3 点简述
-- 核心问题：金融推荐中用户行为可能受市场波动影响，传统基准混淆行为模仿与决策质量
+- 核心问题：现有推荐基准混淆行为模仿与决策质量，在金融场景下用户行为可能受市场噪声影响
 - 方法要点：构建基于真实市场数据和人类决策轨迹的对话式长周期基准，提供多视角参考区分描述性行为与规范性效用
-- 实验或效果：评估显示LLMs在理性决策质量与行为对齐间存在张力，数据集和代码已公开
+- 实验或效果：评估显示LLM在理性决策质量与行为对齐间存在张力，行为对齐模型可能过度拟合短期噪声
 
 ## 摘要（原文）
 

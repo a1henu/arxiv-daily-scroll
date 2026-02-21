@@ -9,7 +9,7 @@ title: Tree crop mapping of South America reveals links to deforestation and con
 
 **一句话要点**：提出10米分辨率南美树作物地图，以支持零毁林政策并减少误判风险。
 
-**关键词**：树作物制图, 卫星遥感, 深度学习, 毁林监测, 政策支持
+**关键词**：树作物制图, 多模态深度学习, Sentinel卫星影像, 零毁林政策, 南美农业监测
 
 ## 3 点简述
 - 核心问题：缺乏高分辨率数据区分树作物与森林，阻碍零毁林政策实施。

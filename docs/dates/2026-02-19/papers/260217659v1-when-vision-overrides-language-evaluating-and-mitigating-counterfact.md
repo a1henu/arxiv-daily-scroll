@@ -7,14 +7,14 @@ title: When Vision Overrides Language: Evaluating and Mitigating Counterfactual 
 **arXiv**：[2602.17659v1](https://arxiv.org/abs/2602.17659) · [PDF](https://arxiv.org/pdf/2602.17659.pdf)  
 **作者**：Yu Fang, Yuchun Feng, Dong Jing, Jiaqi Liu, Yue Yang, Zhenyu Wei, Daniel Szafir, Mingyu Ding  
 
-**一句话要点**：提出Counterfactual Action Guidance以缓解视觉-语言-动作模型中的反事实失败问题
+**一句话要点**：提出Counterfactual Action Guidance以缓解视觉语言动作模型中的反事实失败问题
 
-**关键词**：视觉-语言-动作模型, 反事实失败, 语言遵循能力, 双分支推理, 机器人控制, 基准评估
+**关键词**：视觉语言动作模型, 反事实失败, 语言遵循, 机器人控制, 基准评估, 推理优化
 
 ## 3 点简述
-- 核心问题：视觉-语言-动作模型在缺乏场景特定监督时，因数据集偏见导致反事实失败，忽视语言指令而依赖视觉捷径。
-- 方法要点：引入Counterfactual Action Guidance，通过双分支推理方案结合标准策略和语言无条件视觉-动作模块，显式正则化语言条件。
-- 实验或效果：在LIBERO-CF基准上显著提升语言遵循准确性和任务成功率，并在真实世界评估中减少反事实失败。
+- 核心问题：视觉语言动作模型在缺乏场景特定监督时，易因视觉捷径导致反事实失败，忽视语言指令。
+- 方法要点：引入双分支推理方案CAG，结合标准策略与语言无关模块，通过反事实比较提升语言条件化。
+- 实验或效果：在LIBERO-CF基准上显著提升语言遵循准确性和任务成功率，并在真实世界评估中减少失败。
 
 ## 摘要（原文）
 
