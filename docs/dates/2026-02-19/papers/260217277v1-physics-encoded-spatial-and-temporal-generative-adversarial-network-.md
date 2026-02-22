@@ -14,7 +14,7 @@ title: Physics Encoded Spatial and Temporal Generative Adversarial Network for T
 ## 3 点简述
 - 现有超分辨率方法忽略云运动物理规律，导致重建图像缺乏气象合理性。
 - 设计解耦生成器，通过PhyCell模块编码涡度方程近似物理动态，分离物理动态与视觉纹理。
-- 在Digital Typhoon数据集上实验，4倍上采样时结构保真度和感知质量优于现有方法。
+- 在Digital Typhoon数据集上实验，4倍上采样显示结构保真度和感知质量优于现有方法。
 
 ## 摘要（原文）
 

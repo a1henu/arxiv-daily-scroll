@@ -7,14 +7,14 @@ title: Inferring Height from Earth Embeddings: First insights using Google Alpha
 **arXiv**：[2602.17250v1](https://arxiv.org/abs/2602.17250) · [PDF](https://arxiv.org/pdf/2602.17250.pdf)  
 **作者**：Alireza Hamoudzadeh, Valeria Belloni, Roberta Ravanelli  
 
-**一句话要点**：利用Google AlphaEarth嵌入指导深度学习模型进行区域地表高度推断
+**一句话要点**：利用AlphaEarth嵌入指导深度学习模型进行区域地表高度映射
 
-**关键词**：地球嵌入, 深度学习回归, 高度推断, U-Net++, 地理空间特征, 数字表面模型
+**关键词**：地球嵌入, 深度学习回归, 高度映射, U-Net++, 地理空间特征, 泛化能力
 
 ## 3 点简述
-- 研究探索地球嵌入中的地理空间和多模态特征是否能有效指导深度学习回归模型进行高度映射。
-- 采用U-Net和U-Net++作为轻量卷积解码器，评估嵌入信息转化为准确高度估计的能力。
-- 实验显示U-Net++在测试集上表现更优，但泛化仍面临分布偏移和偏差挑战。
+- 研究探索地球嵌入中的地理空间和多模态特征能否有效支持深度学习回归模型进行高度映射。
+- 采用U-Net和U-Net++作为轻量卷积解码器，评估嵌入信息转化为高度估计的准确性。
+- 实验显示U-Net++在测试集上表现更优，但泛化能力仍面临分布偏移和偏差挑战。
 
 ## 摘要（原文）
 

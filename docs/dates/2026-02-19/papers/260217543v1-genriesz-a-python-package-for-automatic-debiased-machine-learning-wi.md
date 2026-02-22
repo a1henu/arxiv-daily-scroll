@@ -7,14 +7,14 @@ title: genriesz: A Python Package for Automatic Debiased Machine Learning with G
 **arXiv**：[2602.17543v1](https://arxiv.org/abs/2602.17543) · [PDF](https://arxiv.org/pdf/2602.17543.pdf)  
 **作者**：Masahiro Kato  
 
-**一句话要点**：提出genriesz Python包，通过广义Riesz回归实现自动去偏机器学习，用于因果与结构参数估计。
+**一句话要点**：提出genriesz Python包，通过广义Riesz回归实现自动去偏机器学习，用于因果和结构参数估计。
 
-**关键词**：去偏机器学习, Riesz回归, 因果推断, Python包, 参数估计, 自动平衡
+**关键词**：去偏机器学习, Riesz回归, 因果推断, Python包, 自动估计, Bregman散度
 
 ## 3 点简述
 - 核心问题：自动化估计因果和结构参数，需处理去偏和Riesz表示器计算。
-- 方法要点：基于Bregman散度最小化统一框架，自动构建兼容链接函数实现平衡最优条件。
-- 实验或效果：提供模块化接口，支持多种估计器，应用于ATE、ATT等典型问题，开源可用。
+- 方法要点：基于Bregman散度最小化，实现广义Riesz回归，支持自动回归器平衡和多种模型类。
+- 实验或效果：提供回归调整、Riesz加权等估计器，应用于平均处理效应等场景，包含置信区间和p值。
 
 ## 摘要（原文）
 

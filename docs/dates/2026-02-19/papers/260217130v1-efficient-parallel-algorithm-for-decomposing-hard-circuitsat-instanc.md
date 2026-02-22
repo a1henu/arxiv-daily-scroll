@@ -13,8 +13,8 @@ title: Efficient Parallel Algorithm for Decomposing Hard CircuitSAT Instances
 
 ## 3 点简述
 - 核心问题：分解困难CircuitSAT实例，如逻辑等价检查和密码哈希函数攻击中的SAT问题。
-- 方法要点：使用专用约束将SAT实例分割为弱化公式族，基于并行计算的硬度估计指导参数调整。
-- 实验或效果：在挑战性CircuitSAT实例上展示算法实用效能，具体性能指标未知。
+- 方法要点：使用专用约束将SAT实例分割为弱化公式族，参数化并行算法基于并行计算的硬度估计指导高质量分解。
+- 实验或效果：在挑战性CircuitSAT实例上展示算法实际效能，具体性能指标未知。
 
 ## 摘要（原文）
 

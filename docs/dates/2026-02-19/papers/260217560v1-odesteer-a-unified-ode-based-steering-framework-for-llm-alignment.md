@@ -7,14 +7,14 @@ title: ODESteer: A Unified ODE-Based Steering Framework for LLM Alignment
 **arXiv**：[2602.17560v1](https://arxiv.org/abs/2602.17560) · [PDF](https://arxiv.org/pdf/2602.17560.pdf)  
 **作者**：Hongjue Zhao, Haosen Sun, Jiangtao Kong, Xiaochang Li, Qineng Wang, Liwei Jiang, Qi Zhu, Tarek Abdelzaher, Yejin Choi, Manling Li, Huajie Shao  
 
-**一句话要点**：提出基于常微分方程的ODESteer框架，以统一理论指导大语言模型对齐中的激活操控。
+**一句话要点**：提出ODESteer框架，基于常微分方程统一理论指导大语言模型激活操控对齐。
 
 **关键词**：大语言模型对齐, 激活操控, 常微分方程框架, 屏障函数, 多步自适应操控, 模型对齐基准
 
 ## 3 点简述
 - 核心问题：现有激活操控方法缺乏统一理论框架，且单步操控难以捕捉复杂激活分布模式。
-- 方法要点：将激活加法解释为常微分方程一阶近似，基于控制理论设计屏障函数指导多步自适应操控。
-- 实验或效果：在TruthfulQA等基准上实现显著提升，如TruthfulQA提升5.7%，验证了理论框架的有效性。
+- 方法要点：将激活操控视为常微分方程求解，通过控制理论中的屏障函数设计多步自适应操控方向。
+- 实验或效果：在TruthfulQA等基准上取得显著提升，如TruthfulQA改进5.7%，验证了理论框架的有效性。
 
 ## 摘要（原文）
 

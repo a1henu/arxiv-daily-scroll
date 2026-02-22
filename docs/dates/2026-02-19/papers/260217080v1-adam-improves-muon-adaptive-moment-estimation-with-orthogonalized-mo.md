@@ -7,12 +7,12 @@ title: Adam Improves Muon: Adaptive Moment Estimation with Orthogonalized Moment
 **arXiv**：[2602.17080v1](https://arxiv.org/abs/2602.17080) · [PDF](https://arxiv.org/pdf/2602.17080.pdf)  
 **作者**：Minxin Zhang, Yuxuan Liu, Hayden Scheaffer  
 
-**一句话要点**：提出NAMO和NAMO-D优化器，将正交动量与Adam型噪声适应结合，提升大语言模型训练性能。
+**一句话要点**：提出NAMO和NAMO-D优化器，将正交动量与Adam型噪声适应结合以提升大语言模型训练性能。
 
-**关键词**：优化算法, 正交动量, 自适应噪声适应, 大语言模型训练, 随机梯度下降
+**关键词**：优化算法, 自适应动量估计, 正交动量, 大语言模型训练, 噪声适应, 收敛分析
 
 ## 3 点简述
-- 核心问题：如何有效结合正交动量与自适应噪声适应以改进随机优化。
+- 核心问题：如何有效结合正交动量与自适应噪声适应以改进随机优化器性能。
 - 方法要点：NAMO使用单一自适应步长缩放正交动量，NAMO-D引入对角矩阵实现神经元级噪声适应。
 - 实验或效果：在GPT-2预训练中优于AdamW和Muon，NAMO-D通过额外超参数获得进一步增益。
 

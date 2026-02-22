@@ -7,12 +7,12 @@ title: FR-GESTURE: An RGBD Dataset For Gesture-based Human-Robot Interaction In 
 **arXiv**：[2602.17573v1](https://arxiv.org/abs/2602.17573) · [PDF](https://arxiv.org/pdf/2602.17573.pdf)  
 **作者**：Konstantinos Foteinos, Georgios Angelidis, Aggelos Psiris, Vasileios Argyriou, Panagiotis Sarigiannidis, Georgios Th. Papadopoulos  
 
-**一句话要点**：提出FR-GESTURE数据集以支持第一响应者基于手势的无人地面车辆控制交互。
+**一句话要点**：提出FR-GESTURE数据集以支持第一响应者通过手势控制无人地面车辆的人机交互
 
 **关键词**：手势识别, 人机交互, RGBD数据集, 第一响应者, 无人地面车辆
 
 ## 3 点简述
-- 核心问题：灾难频发增加第一响应者工作难度，需AI与机器人辅助解决方案。
+- 核心问题：灾难频发增加第一响应者工作难度，需AI和机器人辅助解决方案。
 - 方法要点：基于第一响应者现有手势和战术信号，定义12个命令，收集3312个RGBD数据对。
 - 实验或效果：建立评估协议并进行基线实验，公开数据以促进未来研究。
 

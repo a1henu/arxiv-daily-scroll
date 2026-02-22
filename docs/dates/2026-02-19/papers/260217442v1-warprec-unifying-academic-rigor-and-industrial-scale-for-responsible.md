@@ -7,14 +7,14 @@ title: WarpRec: Unifying Academic Rigor and Industrial Scale for Responsible, Re
 **arXiv**：[2602.17442v1](https://arxiv.org/abs/2602.17442) · [PDF](https://arxiv.org/pdf/2602.17442.pdf)  
 **作者**：Marco Avolio, Potito Aghilar, Sabino Roccotelli, Vito Walter Anelli, Chiara Mallamaci, Vincenzo Paparella, Marco Valentini, Alejandro Bellogín, Michelantonio Trizio, Joseph Trotta, Antonio Ferrara, Tommaso Di Noia  
 
-**一句话要点**：提出WarpRec框架以统一学术实验与工业部署，支持负责任、可复现、高效的推荐系统开发
+**一句话要点**：提出WarpRec框架以统一学术实验与工业规模，支持负责任、可复现和高效的推荐系统开发
 
-**关键词**：推荐系统框架, 分布式训练, 可持续计算, 算法库, 可复现性, 工业部署
+**关键词**：推荐系统框架, 分布式训练, 可持续计算, 可复现研究, 算法集成
 
 ## 3 点简述
 - 核心问题：推荐系统生态分裂，学术实验与工业部署间存在效率与复杂性鸿沟
 - 方法要点：采用后端无关架构，集成50+算法、40指标和19策略，支持本地到分布式无缝过渡
-- 实验或效果：集成CodeCarbon实现实时能耗追踪，确保可扩展性不牺牲科学完整性与可持续性
+- 实验或效果：集成CodeCarbon实现实时能耗追踪，强调可扩展性与可持续性，代码已开源
 
 ## 摘要（原文）
 

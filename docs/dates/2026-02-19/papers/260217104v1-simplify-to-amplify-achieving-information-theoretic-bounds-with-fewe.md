@@ -7,9 +7,9 @@ title: Simplify to Amplify: Achieving Information-Theoretic Bounds with Fewer St
 **arXiv**：[2602.17104v1](https://arxiv.org/abs/2602.17104) · [PDF](https://arxiv.org/pdf/2602.17104.pdf)  
 **作者**：Sie Hendrata Dharmawan, Peter Chin  
 
-**一句话要点**：提出简化谱算法以在二社区随机块模型中接近信息论极限
+**一句话要点**：提出简化谱算法以在二社区随机块模型中逼近信息论界
 
-**关键词**：谱社区检测, 随机块模型, 算法简化, 信息论极限, 误差界分析
+**关键词**：谱社区检测, 随机块模型, 信息论界, 算法简化, 误差分析
 
 ## 3 点简述
 - 针对二社区随机块模型，在恒定边密度假设下进行社区检测

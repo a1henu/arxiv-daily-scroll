@@ -7,14 +7,14 @@ title: Dataless Weight Disentanglement in Task Arithmetic via Kronecker-Factored
 **arXiv**：[2602.17385v1](https://arxiv.org/abs/2602.17385) · [PDF](https://arxiv.org/pdf/2602.17385.pdf)  
 **作者**：Angelo Porrello, Pietro Buzzega, Felix Dangel, Thomas Sommariva, Riccardo Salami, Lorenzo Bonicelli, Simone Calderara  
 
-**一句话要点**：提出基于Kronecker分解近似曲率的无数据权重解缠方法，以解决任务算术中的跨任务干扰问题。
+**一句话要点**：提出基于Kronecker分解近似曲率的无数据权重解耦方法，以解决任务算术中的交叉任务干扰问题。
 
-**关键词**：任务算术, 权重解缠, Kronecker分解近似曲率, 无数据正则化, 表示漂移, 跨任务干扰
+**关键词**：任务算术, 权重解耦, Kronecker分解近似曲率, 无数据正则化, 表示漂移, 交叉任务干扰
 
 ## 3 点简述
-- 任务算术中多任务向量组合导致表示漂移和性能下降。
-- 通过曲率矩阵近似实现无数据正则化，避免外部任务数据依赖。
-- 在任务添加和否定中达到先进效果，复杂度恒定且无需调优。
+- 任务算术中多任务向量组合易导致交叉任务干扰和表示漂移，影响性能。
+- 通过将表示漂移正则化为曲率矩阵近似问题，采用Kronecker分解近似曲率实现无数据正则化。
+- 在任务添加和否定中达到先进效果，复杂度恒定且无需调优，提升鲁棒性。
 
 ## 摘要（原文）
 

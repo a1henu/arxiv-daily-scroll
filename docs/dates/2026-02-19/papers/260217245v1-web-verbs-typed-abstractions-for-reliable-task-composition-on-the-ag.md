@@ -7,14 +7,14 @@ title: Web Verbs: Typed Abstractions for Reliable Task Composition on the Agenti
 **arXiv**：[2602.17245v1](https://arxiv.org/abs/2602.17245) · [PDF](https://arxiv.org/pdf/2602.17245.pdf)  
 **作者**：Linxi Jiang, Rui Xi, Zhijie Liu, Shuo Chen, Zhiqiang Lin, Suman Nath  
 
-**一句话要点**：提出Web Verbs作为语义层，以提升网络代理的任务组合可靠性与效率。
+**一句话要点**：提出Web Verbs作为语义层，以提升网络代理任务组合的可靠性与效率。
 
-**关键词**：网络代理, 语义抽象, 任务组合, 可靠性验证, 类型化接口
+**关键词**：网络代理, 语义层, 任务组合, 类型化接口, 可靠性验证
 
 ## 3 点简述
 - 核心问题：当前网络代理依赖低级操作如点击，导致脆弱、低效且难以验证。
-- 方法要点：引入类型化、语义文档化的函数抽象，统一API和浏览器范式，支持可组合任务。
-- 实验或效果：概念验证显示，相比现有代理，能实现更简洁和鲁棒的执行。
+- 方法要点：引入类型化、语义文档化的Web Verbs，统一API与浏览器接口，支持可组合任务。
+- 实验或效果：通过概念验证和案例研究，展示其能实现简洁、稳健的执行，优于现有代理。
 
 ## 摘要（原文）
 

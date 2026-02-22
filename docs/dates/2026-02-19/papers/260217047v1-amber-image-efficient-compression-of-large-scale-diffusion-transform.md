@@ -9,12 +9,12 @@ title: Amber-Image: Efficient Compression of Large-Scale Diffusion Transformers
 
 **一句话要点**：提出Amber-Image压缩框架，高效压缩大规模扩散Transformer以降低计算成本。
 
-**关键词**：扩散Transformer压缩, 深度剪枝, 层间蒸馏, 文本到图像生成, 高效训练, 模型轻量化
+**关键词**：扩散Transformer压缩, 深度剪枝, 混合流架构, 层间蒸馏, 文本到图像生成, 高效训练
 
 ## 3 点简述
-- 扩散Transformer计算成本高，部署困难，阻碍文本到图像生成应用。
+- 扩散Transformer计算成本高，部署困难，需高效压缩方案。
 - 采用时间步敏感深度剪枝和混合流架构，无需从头训练，减少参数70%。
-- 在DPG-Bench等基准测试中，实现高保真合成和优异文本渲染，匹配更大模型。
+- 在DPG-Bench等基准测试中实现高保真合成和优越文本渲染，匹配更大模型。
 
 ## 摘要（原文）
 

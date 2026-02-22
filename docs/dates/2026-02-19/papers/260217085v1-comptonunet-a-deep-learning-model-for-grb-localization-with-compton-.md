@@ -14,7 +14,7 @@ title: ComptonUNet: A Deep Learning Model for GRB Localization with Compton Came
 ## 3 点简述
 - 核心问题：伽马射线暴在低光子统计和强背景噪声下检测与定位困难
 - 方法要点：结合直接重建模型的统计效率与图像架构的去噪能力
-- 实验或效果：在模拟低地球轨道任务场景中，定位精度显著优于现有方法
+- 实验或效果：在模拟低地球轨道任务场景中显著优于现有方法
 
 ## 摘要（原文）
 

@@ -12,9 +12,9 @@ title: GraphThinker: Reinforcing Video Reasoning with Event Graph Thinking
 **关键词**：视频推理, 事件图建模, 强化微调, 视觉注意力, 幻觉减少, 多模态大语言模型
 
 ## 3 点简述
-- 视频推理中事件因果关系隐式且标注成本高，现有MLLMs缺乏因果结构建模，易产生幻觉。
+- 视频推理需理解事件间因果关系，但现有MLLMs缺乏显式因果建模，易产生幻觉。
 - GraphThinker构建事件级场景图作为中间思考过程，并引入视觉注意力奖励进行强化微调。
-- 在RexTime和VidHalluc数据集上评估，显示能更好捕获对象和事件关系，减少幻觉。
+- 在RexTime和VidHalluc数据集上，GraphThinker能更精确捕捉事件关系，减少幻觉。
 
 ## 摘要（原文）
 

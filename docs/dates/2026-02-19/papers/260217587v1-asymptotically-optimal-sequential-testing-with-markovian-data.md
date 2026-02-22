@@ -7,14 +7,14 @@ title: Asymptotically Optimal Sequential Testing with Markovian Data
 **arXiv**：[2602.17587v1](https://arxiv.org/abs/2602.17587) · [PDF](https://arxiv.org/pdf/2602.17587.pdf)  
 **作者**：Alhad Sethi, Kavali Sofia Sagar, Shubhada Agrawal, Debabrota Basu, P. N. Karthik  
 
-**一句话要点**：提出渐近最优序贯检验方法，解决马尔可夫数据下的假设检验问题。
+**一句话要点**：提出渐近最优序贯检验方法，解决马尔可夫数据下的假设检验问题
 
 **关键词**：序贯假设检验, 马尔可夫链, 渐近最优性, 非渐近下界, 模型误设检测, 马尔可夫决策过程
 
 ## 3 点简述
-- 研究遍历马尔可夫链生成数据的一侧和α正确序贯假设检验。
-- 建立紧非渐近实例依赖下界，改进现有下界，并设计渐近匹配的检验。
-- 应用于MCMC模型误设检测和MDP结构性质测试，验证框架实用性。
+- 研究遍历马尔可夫链生成数据的一侧和α正确序贯假设检验
+- 建立紧非渐近实例依赖下界，改进现有渐近或次优下界
+- 提出渐近匹配下界的最优检验，应用于MCMC模型误设检测和MDP结构测试
 
 ## 摘要（原文）
 

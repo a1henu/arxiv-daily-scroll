@@ -7,14 +7,14 @@ title: Catastrophic Forgetting Resilient One-Shot Incremental Federated Learning
 **arXiv**：[2602.17625v1](https://arxiv.org/abs/2602.17625) · [PDF](https://arxiv.org/pdf/2602.17625.pdf)  
 **作者**：Obaidullah Zaland, Zulfiqar Ahmad Khan, Monowar Bhuyan  
 
-**一句话要点**：提出OSI-FL框架以解决联邦学习中单轮通信与灾难性遗忘的双重挑战
+**一句话要点**：提出OSI-FL框架以解决联邦学习中通信开销与灾难性遗忘的双重挑战
 
-**关键词**：联邦学习, 灾难性遗忘, 单轮通信, 增量学习, 扩散模型, 样本保留
+**关键词**：联邦学习, 灾难性遗忘, 单轮通信, 扩散模型, 增量学习
 
 ## 3 点简述
 - 核心问题：联邦学习在增量数据流中面临高通信开销和灾难性遗忘问题
-- 方法要点：使用VLM生成嵌入，扩散模型合成数据，结合SSR保留关键样本
-- 实验或效果：在三个基准数据集上优于传统和单轮联邦学习方法
+- 方法要点：使用单轮通信传输嵌入，结合扩散模型合成数据，并采用选择性样本保留策略
+- 实验或效果：在三个基准数据集上，OSI-FL在类增量和域增量场景中优于基线方法
 
 ## 摘要（原文）
 

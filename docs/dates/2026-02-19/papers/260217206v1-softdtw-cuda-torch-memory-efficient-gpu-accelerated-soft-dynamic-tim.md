@@ -13,8 +13,8 @@ title: SoftDTW-CUDA-Torch: Memory-Efficient GPU-Accelerated Soft Dynamic Time Wa
 
 ## 3 点简述
 - 现有GPU实现存在序列长度上限1024、反向传播数值不稳定和内存消耗大等限制。
-- 采用分块反对角线核执行、对数空间反向传播和融合距离计算模式以克服这些问题。
-- 实现任意序列长度支持、PyTorch自动微分集成和SoftDTW重心计算，内存减少高达98%。
+- 采用分块反对角线核执行、对数空间反向传播和融合距离计算模式以提升性能。
+- 支持任意序列长度、PyTorch自动微分和Soft-DTW重心计算，内存减少高达98%。
 
 ## 摘要（原文）
 

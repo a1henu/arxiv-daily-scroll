@@ -7,14 +7,14 @@ title: Convergence Analysis of Two-Layer Neural Networks under Gaussian Input Ma
 **arXiv**：[2602.17423v1](https://arxiv.org/abs/2602.17423) · [PDF](https://arxiv.org/pdf/2602.17423.pdf)  
 **作者**：Afroditi Kolomvaki, Fangshuo Liao, Evan Dramko, Ziyun Guang, Anastasios Kyrillidis  
 
-**一句话要点**：分析高斯随机掩码输入下两层神经网络的收敛性，基于NTK证明线性收敛至误差区域
+**一句话要点**：分析高斯随机掩码输入下两层神经网络训练的收敛性，基于NTK证明线性收敛至误差区域与掩码方差成正比。
 
-**关键词**：高斯随机掩码, 两层神经网络, 神经切线核, 收敛分析, 输入dropout, 噪声训练
+**关键词**：高斯随机掩码输入, 两层神经网络, 神经正切核分析, 线性收敛, dropout训练, 噪声输入训练
 
 ## 3 点简述
-- 研究高斯随机掩码输入下两层ReLU网络的训练收敛问题，对应输入级高斯dropout或噪声输入场景
-- 采用神经切线核（NTK）分析，证明训练实现线性收敛，误差区域与掩码方差成正比
-- 关键贡献是解决非线性激活中的随机性问题，具有独立研究价值
+- 研究高斯随机掩码输入下两层神经网络训练的收敛保证，对应输入级高斯dropout或噪声输入训练场景。
+- 采用神经正切核分析，证明两层ReLU网络在高斯随机掩码输入下实现线性收敛，误差区域与掩码方差成正比。
+- 关键技术贡献是解决非线性激活中的随机性问题，这是一个独立兴趣问题。
 
 ## 摘要（原文）
 

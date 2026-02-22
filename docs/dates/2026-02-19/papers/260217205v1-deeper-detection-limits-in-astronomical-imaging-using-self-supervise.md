@@ -14,7 +14,7 @@ title: Deeper detection limits in astronomical imaging using self-supervised spa
 ## 3 点简述
 - 天文成像探测极限受限于像素和曝光间的相关噪声
 - ASTERIS基于Transformer整合多曝光时空信息进行自监督去噪
-- 在模拟和真实数据中显著提升探测深度并保持光度精度
+- 在模拟和真实数据中显著提升探测能力并保持光度准确性
 
 ## 摘要（原文）
 

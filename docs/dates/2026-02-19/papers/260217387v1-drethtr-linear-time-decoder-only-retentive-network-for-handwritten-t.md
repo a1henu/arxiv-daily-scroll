@@ -13,7 +13,7 @@ title: DRetHTR: Linear-Time Decoder-Only Retentive Network for Handwritten Text 
 
 ## 3 点简述
 - 核心问题：Transformer在手写文本识别中因KV缓存增长导致解码慢和内存密集
-- 方法要点：基于Retentive Networks构建解码器模型，用软注意力替代软注意力并注入多尺度序列先验
+- 方法要点：基于Retentive Networks构建解码器，用软注意力替代软注意力并注入多尺度序列先验
 - 实验或效果：在IAM-A、RIMES和Bentham数据集上实现最佳字符错误率，解码速度提升1.6-1.9倍，内存使用减少38-42%
 
 ## 摘要（原文）

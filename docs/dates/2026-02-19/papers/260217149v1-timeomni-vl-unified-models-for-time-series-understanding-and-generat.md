@@ -7,14 +7,14 @@ title: TimeOmni-VL: Unified Models for Time Series Understanding and Generation
 **arXiv**：[2602.17149v1](https://arxiv.org/abs/2602.17149) · [PDF](https://arxiv.org/pdf/2602.17149.pdf)  
 **作者**：Tong Guan, Sheng Pan, Johan Barthelemy, Zhao Li, Yujun Cai, Cesare Alippi, Ming Jin, Shirui Pan  
 
-**一句话要点**：提出TimeOmni-VL框架，通过视觉中心方法统一时间序列理解与生成，解决现有模型分割问题。
+**一句话要点**：提出TimeOmni-VL框架，通过视觉中心化方法统一时间序列理解与生成任务。
 
-**关键词**：时间序列理解, 时间序列生成, 多模态模型, 双向映射, 理解引导生成, TSUMM-Suite数据集
+**关键词**：时间序列理解, 时间序列生成, 多模态模型, 保真映射, 理解引导生成, 视觉中心化框架
 
 ## 3 点简述
-- 核心问题：时间序列建模中数值生成与语义理解存在分割，生成模型依赖表面模式匹配，理解模型难以输出高保真数值。
+- 核心问题：时间序列建模中生成与理解任务分离，生成模型依赖浅层模式匹配，理解模型难以输出高保真数值。
 - 方法要点：引入保真双向映射（Bi-TSI）实现时间序列与图像近无损转换，并利用理解引导生成，通过校准思维链控制生成过程。
-- 实验或效果：基于TSUMM-Suite数据集验证，统一方法显著提升语义理解和数值精度，为多模态时间序列建模开辟新前沿。
+- 实验或效果：在TSUMM-Suite数据集上验证，统一方法显著提升语义理解和数值精度，为多模态时间序列建模开辟新前沿。
 
 ## 摘要（原文）
 

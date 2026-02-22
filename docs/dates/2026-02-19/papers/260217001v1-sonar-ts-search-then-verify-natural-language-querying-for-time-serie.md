@@ -13,7 +13,7 @@ title: Sonar-TS: Search-Then-Verify Natural Language Querying for Time Series Da
 
 ## 3 点简述
 - 核心问题：现有方法难以处理连续形态意图（如形状或异常）和超长时间序列历史查询
-- 方法要点：采用神经符号框架，通过搜索-验证流程，结合SQL索引和Python程序进行候选窗口锁定与验证
+- 方法要点：采用神经符号框架，通过搜索-验证流程结合SQL索引和Python程序生成进行候选窗口锁定
 - 实验或效果：引入NLQTSBench基准，实验显示Sonar-TS能有效处理传统方法失败的复杂时间查询
 
 ## 摘要（原文）

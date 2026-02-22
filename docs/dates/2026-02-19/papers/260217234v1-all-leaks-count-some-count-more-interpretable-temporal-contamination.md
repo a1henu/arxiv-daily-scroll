@@ -9,12 +9,12 @@ title: All Leaks Count, Some Count More: Interpretable Temporal Contamination De
 
 **一句话要点**：提出Shapley-DCLR和TimeSPEC框架，以检测和减少LLM回溯测试中的时间知识泄露。
 
-**关键词**：时间知识泄露, 回溯测试, Shapley值, 声明级验证, LLM评估
+**关键词**：时间知识泄露, 回溯测试, Shapley值, 声明分解, LLM评估, 可解释性
 
 ## 3 点简述
-- 核心问题：LLM在训练中可能泄露截止日期后的知识，影响回溯测试的有效性。
-- 方法要点：通过分解模型推理为原子声明，应用Shapley值量化泄露贡献，并开发TimeSPEC进行主动过滤。
-- 实验效果：在多个任务中验证了泄露问题，TimeSPEC能降低泄露率同时保持性能。
+- 核心问题：LLM在回溯测试中可能泄露训练后的知识，影响评估有效性。
+- 方法要点：基于原子声明分解和Shapley值量化泄露，并设计TimeSPEC进行主动过滤。
+- 实验效果：在多个任务中验证了泄露存在，TimeSPEC能降低泄露率并保持性能。
 
 ## 摘要（原文）
 

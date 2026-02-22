@@ -7,14 +7,14 @@ title: General sample size analysis for probabilities of causation: a delta meth
 **arXiv**：[2602.17070v1](https://arxiv.org/abs/2602.17070) · [PDF](https://arxiv.org/pdf/2602.17070.pdf)  
 **作者**：Tianyuan Cheng, Ruirui Mao, Judea Pearl, Ang Li  
 
-**一句话要点**：提出基于delta方法的通用样本量分析框架，用于因果概率的边界估计。
+**一句话要点**：提出基于delta方法的通用样本量分析框架，用于因果概率边界估计。
 
 **关键词**：因果推断, 样本量分析, delta方法, 概率边界, 实验设计
 
 ## 3 点简述
 - 核心问题：因果概率如PNS通常不可点识别，样本量分析研究有限。
-- 方法要点：基于delta方法，适用于目标边界可表示为实验与观测概率线性组合的极值。
-- 实验或效果：通过模拟研究验证样本量计算能稳定估计这些边界。
+- 方法要点：基于delta方法，适用于边界可表示为实验与观测概率线性组合极值的情况。
+- 实验或效果：通过模拟研究验证样本量计算能稳定估计边界。
 
 ## 摘要（原文）
 

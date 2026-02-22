@@ -9,12 +9,12 @@ title: A Hybrid Federated Learning Based Ensemble Approach for Lung Disease Diag
 
 **一句话要点**：提出基于联邦学习的混合集成方法，结合SWIN Transformer与CNN进行肺部疾病诊断。
 
-**关键词**：联邦学习, 混合模型, SWIN Transformer, 卷积神经网络, 肺部疾病诊断, X射线分析
+**关键词**：联邦学习, 混合模型, SWIN Transformer, CNN, 肺部疾病诊断, 医疗影像分析
 
 ## 3 点简述
-- 核心问题：医疗数据分散且敏感，需安全高效的疾病诊断系统。
-- 方法要点：集成SWIN Transformer与CNN模型，采用联邦学习实现分布式训练。
-- 实验或效果：应用于COVID-19和肺炎的X射线诊断，未知具体性能指标。
+- 核心问题：利用AI和联邦学习处理医疗数据，实现安全、分布式的COVID-19和肺炎诊断。
+- 方法要点：集成DenseNet201、Inception V3、VGG 19等CNN模型与SWIN Transformer构建混合模型。
+- 实验或效果：未知具体准确率，但强调联邦学习可提升诊断精度、确保模型安全性和数据真实性。
 
 ## 摘要（原文）
 
