@@ -1,0 +1,22 @@
+---
+layout: default
+title: A Model-Free Universal AI
+---
+
+# A Model-Free Universal AI
+**arXiv**：[2602.23242v1](https://arxiv.org/abs/2602.23242) · [PDF](https://arxiv.org/pdf/2602.23242.pdf)  
+**作者**：Yegon Kim, Juho Lee  
+
+**一句话要点**：提出AIQI模型，首次在通用强化学习中实现无模型渐进最优性。
+
+**关键词**：通用强化学习, 无模型代理, Q归纳, 渐进最优性, 贝叶斯最优性
+
+## 3 点简述
+- 核心问题：现有通用最优代理如AIXI依赖环境模型，缺乏无模型方案。
+- 方法要点：AIQI基于Q归纳进行通用归纳，替代传统策略或环境建模。
+- 实验或效果：在真值条件下，证明AIQI具有渐进ε最优性和贝叶斯最优性。
+
+## 摘要（原文）
+
+> In general reinforcement learning, all established optimal agents, including AIXI, are model-based, explicitly maintaining and using environment models. This paper introduces Universal AI with Q-Induction (AIQI), the first model-free agent proven to be asymptotically $\varepsilon$-optimal in general RL. AIQI performs universal induction over distributional action-value functions, instead of policies or environments like previous works. Under a grain of truth condition, we prove that AIQI is strong asymptotically $\varepsilon$-optimal and asymptotically $\varepsilon$-Bayes-optimal. Our results significantly expand the diversity of known universal agents.
+
