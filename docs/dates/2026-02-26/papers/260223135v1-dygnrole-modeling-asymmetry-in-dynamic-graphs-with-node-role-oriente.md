@@ -13,8 +13,8 @@ title: DyGnROLE: Modeling Asymmetry in Dynamic Graphs with Node-Role-Oriented La
 
 ## 3 点简述
 - 核心问题：现有动态图模型缺乏对源节点和目标节点不对称行为的系统建模
-- 方法要点：基于Transformer，使用分离嵌入和角色语义位置编码解耦节点表示
-- 实验或效果：在未标注数据上预训练，未来边分类任务中显著优于基线
+- 方法要点：基于Transformer，使用分离嵌入和角色语义位置编码来解耦节点表示
+- 实验或效果：在未标注数据上通过自监督预训练，未来边分类任务中显著优于基线
 
 ## 摘要（原文）
 

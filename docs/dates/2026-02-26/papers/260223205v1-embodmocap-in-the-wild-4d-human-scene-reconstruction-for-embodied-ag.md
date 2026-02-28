@@ -7,14 +7,14 @@ title: EmbodMocap: In-the-Wild 4D Human-Scene Reconstruction for Embodied Agents
 **arXiv**：[2602.23205v1](https://arxiv.org/abs/2602.23205) · [PDF](https://arxiv.org/pdf/2602.23205.pdf)  
 **作者**：Wenjia Wang, Liang Pan, Huaijin Pi, Yuke Lou, Xuqian Ren, Yifan Wu, Zhouyingcheng Liao, Lei Yang, Rishabh Dabral, Christian Theobalt, Taku Komura  
 
-**一句话要点**：提出EmbodMocap以解决野外场景下人体与场景统一重建的数据采集难题
+**一句话要点**：提出EmbodMocap，使用双移动iPhone实现野外4D人体-场景重建，以支持具身智能体研究。
 
-**关键词**：野外4D重建, 双视图校准, 度量尺度对齐, 具身AI数据, 人体场景交互, 机器人运动控制
+**关键词**：4D重建, 具身智能, 野外数据采集, 双视角校准, 人体-场景交互, 机器人学习
 
 ## 3 点简述
-- 现有系统依赖昂贵设备，限制野外大规模人体运动数据采集
-- 使用双移动iPhone联合校准RGB-D序列，实现统一度量坐标下人体与场景重建
-- 实验验证双视图优于单视图，并应用于三个具身AI任务
+- 现有系统依赖昂贵设备，难以大规模收集野外场景下人体运动数据。
+- 通过双RGB-D序列联合校准，在统一坐标系中重建人体与场景，无需静态相机或标记。
+- 实验验证双视角优于单视角，数据可应用于人体-场景重建、物理动画和机器人控制任务。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: ODEBrain: Continuous-Time EEG Graph for Modeling Dynamic Brain Networks
 **arXiv**：[2602.23285v1](https://arxiv.org/abs/2602.23285) · [PDF](https://arxiv.org/pdf/2602.23285.pdf)  
 **作者**：Haohui Jia, Zheng Chen, Lingwei Zhu, Rikuto Kotoge, Jathurshan Pradeepkumar, Yasuko Matsubara, Jimeng Sun, Yasushi Sakurai, Takashi Matsubara  
 
-**一句话要点**：提出ODEBRAIN框架，通过神经ODE建模连续脑电图动态以提升预测精度和鲁棒性。
+**一句话要点**：提出ODEBRAIN框架，通过神经ODE建模连续脑电图动态以提升预测精度
 
-**关键词**：脑电图建模, 神经ODE, 动态脑网络, 时空频特征, 连续时间预测
+**关键词**：脑电图动态建模, 神经ODE, 谱图节点, 连续时间建模, 预测精度提升
 
 ## 3 点简述
-- 传统方法离散化时间导致累积误差，难以捕捉脑电图瞬时非线性特征。
-- ODEBRAIN整合时空频特征到谱图节点，用神经ODE建模连续潜在动态。
-- 实验验证ODEBRAIN在脑电图动态预测上显著优于现有方法，增强泛化能力。
+- 传统方法离散化时间导致累积误差，难以捕捉脑电图瞬时非线性特征
+- ODEBRAIN整合时空频特征到谱图节点，用神经ODE建模连续潜在动态
+- 实验验证ODEBRAIN在脑电图动态预测中显著优于现有方法，增强鲁棒性和泛化能力
 
 ## 摘要（原文）
 

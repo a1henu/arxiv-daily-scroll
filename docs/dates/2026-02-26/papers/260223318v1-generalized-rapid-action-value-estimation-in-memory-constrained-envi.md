@@ -7,14 +7,14 @@ title: Generalized Rapid Action Value Estimation in Memory-Constrained Environme
 **arXiv**：[2602.23318v1](https://arxiv.org/abs/2602.23318) · [PDF](https://arxiv.org/pdf/2602.23318.pdf)  
 **作者**：Aloïs Rautureau, Tristan Cazenave, Éric Piette  
 
-**一句话要点**：提出GRAVE2、GRAVER和GRAVER2算法，通过两级搜索和节点回收减少存储节点，以在内存受限环境中保持GRAVE的博弈强度。
+**一句话要点**：提出GRAVE2、GRAVER和GRAVER2算法，通过两级搜索和节点回收解决GRAVE在内存受限环境中的存储问题。
 
-**关键词**：蒙特卡洛树搜索, 通用博弈, 内存优化, 节点回收, 两级搜索, 算法增强
+**关键词**：蒙特卡洛树搜索, 通用游戏博弈, 内存优化, 节点回收, 两级搜索
 
 ## 3 点简述
-- 核心问题：GRAVE算法在通用博弈中因存储额外统计信息导致内存占用高，限制了在内存受限环境中的应用。
-- 方法要点：引入两级搜索、节点回收及其组合，分别形成GRAVE2、GRAVER和GRAVER2算法，以优化存储效率。
-- 实验或效果：这些增强方法显著减少了存储节点数量，同时匹配了GRAVE的博弈强度，提升了实用性。
+- 核心问题：GRAVE算法在内存受限环境中因存储额外统计信息而实用性受限。
+- 方法要点：引入两级搜索、节点回收及其组合，显著减少存储节点数量。
+- 实验或效果：新算法在保持GRAVE游戏强度的同时，大幅降低内存需求。
 
 ## 摘要（原文）
 

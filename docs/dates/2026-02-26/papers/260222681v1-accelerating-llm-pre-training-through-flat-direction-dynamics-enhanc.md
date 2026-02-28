@@ -7,14 +7,14 @@ title: Accelerating LLM Pre-Training through Flat-Direction Dynamics Enhancement
 **arXiv**：[2602.22681v1](https://arxiv.org/abs/2602.22681) · [PDF](https://arxiv.org/pdf/2602.22681.pdf)  
 **作者**：Shuchen Zhu, Rizhen Hu, Mingze Wang, Mou Sun, Xue Wang, Kun Yuan, Zaiwen Wen  
 
-**一句话要点**：提出LITE策略以加速大语言模型预训练，通过增强平坦方向动态提升优化器效率。
+**一句话要点**：提出LITE策略以加速大语言模型预训练，通过增强平坦方向动态提升优化器效率
 
-**关键词**：大语言模型预训练, 优化器加速, 黎曼几何优化, 各向异性损失景观, 平坦方向动态
+**关键词**：大语言模型预训练, 优化器加速, 黎曼几何优化, 各向异性景观, 平坦方向动态
 
 ## 3 点简述
-- 核心问题：大语言模型预训练计算成本高，优化器需高效处理高度各向异性的损失景观。
-- 方法要点：基于黎曼ODE框架，LITE通过增大平坦方向的Hessian阻尼系数和学习率来加速训练动态。
-- 实验效果：LITE显著加速Muon和SOAP优化器，在多种架构、参数规模和数据集上验证了其有效性。
+- 核心问题：大语言模型预训练计算成本高，优化器在高度各向异性景观中沿平坦方向进展不足
+- 方法要点：基于黎曼ODE框架，LITE通过增大平坦轨迹的Hessian阻尼系数和学习率来加速训练
+- 实验效果：LITE显著加速Muon和SOAP优化器，在多种架构、参数规模和数据集上验证了其有效性
 
 ## 摘要（原文）
 

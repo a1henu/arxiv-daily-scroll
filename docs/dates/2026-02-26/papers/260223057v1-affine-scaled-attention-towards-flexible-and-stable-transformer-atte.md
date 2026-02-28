@@ -7,14 +7,14 @@ title: Affine-Scaled Attention: Towards Flexible and Stable Transformer Attentio
 **arXiv**：[2602.23057v1](https://arxiv.org/abs/2602.23057) · [PDF](https://arxiv.org/pdf/2602.23057.pdf)  
 **作者**：Jeongin Bae, Baeseong Park, Gunho Park, Minsub Kim, Joonhyung Lee, Junhee Yoo, Sunghyeon Woo, Jiwon Ryu, Se Jung Kwon, Dongsoo Lee  
 
-**一句话要点**：提出Affine-Scaled Attention以解决Transformer注意力归一化限制导致的灵活性与稳定性问题。
+**一句话要点**：提出Affine-Scaled Attention以增强Transformer注意力的灵活性和训练稳定性
 
-**关键词**：Transformer注意力, 归一化约束, 训练稳定性, 语言模型预训练, 注意力重加权
+**关键词**：Transformer注意力, 注意力重加权, 训练稳定性, 语言模型预训练, softmax归一化
 
 ## 3 点简述
-- 核心问题：标准softmax注意力强制单位归一化，可能限制注意力幅度控制并导致训练中注意力模式过度集中或不稳定。
-- 方法要点：引入输入依赖的缩放和偏置项，放松归一化约束，允许调整注意力的相对分布和尺度。
-- 实验或效果：在大规模语言模型预训练中，相比标准注意力和注意力汇基线，提升训练稳定性、优化行为和下游任务性能。
+- 标准softmax注意力强制单位归一化，可能限制注意力幅度控制并导致不稳定模式
+- 方法引入输入依赖的缩放和偏置项，放松归一化约束，允许调整注意力的相对分布和尺度
+- 实验显示在大规模语言模型预训练中提升训练稳定性、优化行为和下游任务性能
 
 ## 摘要（原文）
 

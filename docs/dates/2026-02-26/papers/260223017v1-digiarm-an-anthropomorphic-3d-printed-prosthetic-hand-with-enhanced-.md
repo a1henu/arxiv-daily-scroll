@@ -7,12 +7,12 @@ title: DigiArm: An Anthropomorphic 3D-Printed Prosthetic Hand with Enhanced Dext
 **arXiv**：[2602.23017v1](https://arxiv.org/abs/2602.23017) · [PDF](https://arxiv.org/pdf/2602.23017.pdf)  
 **作者**：Dean Zadok, Tom Naamani, Yuval Bar-Ratson, Elisha Barash, Oren Salzman, Alon Wolf, Alex M. Bronstein, Nili Krausz  
 
-**一句话要点**：提出低成本3D打印仿生假手以增强打字等精细操作能力
+**一句话要点**：提出低成本3D打印仿生假手DigiArm，增强打字等精细操作能力
 
 **关键词**：仿生假手, 3D打印, 精细操作, 打字任务, 腕部控制, 低成本设计
 
 ## 3 点简述
-- 现有假肢缺乏精细手指动作和直观控制，难以执行打字等任务
+- 现有假肢缺乏精细手指运动能力，难以支持打字等电子设备交互
 - 设计包括可调手指间距、优化腕部控制和独立手指按压机制
 - 实验显示参与者能实时使用假手进行键盘打字和钢琴演奏
 

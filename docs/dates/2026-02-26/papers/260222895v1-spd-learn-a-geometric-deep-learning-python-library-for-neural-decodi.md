@@ -7,14 +7,14 @@ title: SPD Learn: A Geometric Deep Learning Python Library for Neural Decoding T
 **arXiv**：[2602.22895v1](https://arxiv.org/abs/2602.22895) · [PDF](https://arxiv.org/pdf/2602.22895.pdf)  
 **作者**：Bruno Aristimunha, Ce Ju, Antoine Collas, Florent Bouchard, Ammar Mian, Bertrand Thirion, Sylvain Chevallier, Reinmar Kobler  
 
-**一句话要点**：提出SPD Learn库以解决SPD矩阵神经网络实现分散问题，支持神经解码
+**一句话要点**：提出SPD Learn库以解决SPD矩阵神经网络在神经解码中的碎片化问题
 
 **关键词**：几何深度学习, SPD矩阵, 神经解码, 平凡化参数化, 脑机接口, Python库
 
 ## 3 点简述
-- 核心问题：SPD矩阵神经网络实现分散，阻碍可复现性和集成到现代深度学习流程
-- 方法要点：提供统一模块化Python包，基于平凡化参数化实现流形约束，支持标准反向传播
-- 实验或效果：提供参考模型实现，与脑机接口/神经影像工具包集成，促进可复现基准测试
+- 核心问题：SPD矩阵神经网络实现分散，阻碍可复现性和集成
+- 方法要点：提供模块化库，通过平凡化参数化实现流形约束和标准优化
+- 实验或效果：集成脑机接口工具包，支持可复现基准测试和部署
 
 ## 摘要（原文）
 

@@ -7,13 +7,13 @@ title: SPMamba-YOLO: An Underwater Object Detection Network Based on Multi-Scale
 **arXiv**：[2602.22674v1](https://arxiv.org/abs/2602.22674) · [PDF](https://arxiv.org/pdf/2602.22674.pdf)  
 **作者**：Guanghao Liao, Zhen Liu, Liyuan Cao, Yonghui Yang, Qi Li  
 
-**一句话要点**：提出SPMamba-YOLO以解决水下目标检测中的多尺度特征增强与全局上下文建模问题。
+**一句话要点**：提出SPMamba-YOLO以解决水下目标检测中的尺度变化和背景干扰问题
 
-**关键词**：水下目标检测, 多尺度特征增强, 全局上下文建模, SPPELAN模块, PSA机制, Mamba模块
+**关键词**：水下目标检测, 多尺度特征增强, 全局上下文建模, 状态空间模型, YOLO改进
 
 ## 3 点简述
 - 核心问题：水下目标检测面临光照衰减、颜色失真、背景杂乱和小目标挑战。
-- 方法要点：集成SPPELAN模块增强多尺度特征，PSA机制提升特征区分度，Mamba模块捕获长程依赖。
+- 方法要点：集成SPPELAN模块增强多尺度特征，PSA机制提升特征判别力，Mamba模块建模全局上下文。
 - 实验或效果：在URPC2022数据集上，mAP@0.5比YOLOv8n提升超过4.9%，尤其对小而密集目标有效。
 
 ## 摘要（原文）

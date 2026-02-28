@@ -7,14 +7,14 @@ title: HARU-Net: Hybrid Attention Residual U-Net for Edge-Preserving Denoising i
 **arXiv**：[2602.22544v1](https://arxiv.org/abs/2602.22544) · [PDF](https://arxiv.org/pdf/2602.22544.pdf)  
 **作者**：Khuram Naveed, Ruben Pauwels  
 
-**一句话要点**：提出HARU-Net以解决锥束CT低剂量去噪中噪声抑制与边缘保持的难题。
+**一句话要点**：提出HARU-Net以解决CBCT低剂量成像中噪声抑制与边缘保留的难题。
 
-**关键词**：锥束CT去噪, 混合注意力机制, 残差U-Net, 低剂量成像, 边缘保持
+**关键词**：锥束CT去噪, 混合注意力网络, 残差学习, 边缘保留, 深度学习, 医学图像处理
 
 ## 3 点简述
-- 核心问题：低剂量锥束CT成像产生强空间变化噪声，损害软组织可见性和精细结构。
-- 方法要点：集成混合注意力Transformer块、残差混合注意力Transformer组和残差学习卷积块，增强特征选择与全局建模。
-- 实验或效果：在尸体数据集上训练，性能超越SwinIR和Uformer，PSNR达37.52 dB，计算成本更低。
+- CBCT低剂量成像引入强噪声，损害软组织可见性和精细结构，传统方法难以平衡去噪与边缘保留。
+- HARU-Net集成混合注意力变换器块、残差混合注意力变换器组和残差学习卷积块，增强特征选择与全局建模。
+- 在尸体数据集上训练，HARU-Net在PSNR、SSIM和GMSD指标上优于SOTA方法，计算成本更低。
 
 ## 摘要（原文）
 

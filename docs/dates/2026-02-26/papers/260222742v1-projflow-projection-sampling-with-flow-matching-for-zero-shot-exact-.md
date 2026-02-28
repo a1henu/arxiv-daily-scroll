@@ -7,13 +7,13 @@ title: ProjFlow: Projection Sampling with Flow Matching for Zero-Shot Exact Spat
 **arXiv**：[2602.22742v1](https://arxiv.org/abs/2602.22742) · [PDF](https://arxiv.org/pdf/2602.22742.pdf)  
 **作者**：Akihisa Watanabe, Qing Yu, Edgar Simo-Serra, Kent Fujiwara  
 
-**一句话要点**：提出ProjFlow，通过流匹配与投影采样实现零样本精确空间运动控制
+**一句话要点**：提出ProjFlow，通过投影采样与流匹配实现零样本精确空间运动控制
 
-**关键词**：运动生成, 零样本控制, 流匹配, 投影采样, 线性约束, 骨骼拓扑
+**关键词**：零样本学习, 运动生成, 空间控制, 流匹配, 线性逆问题, 运动修复
 
 ## 3 点简述
 - 核心问题：现有方法需任务特定训练或优化慢，硬约束常破坏运动自然性。
-- 方法要点：基于线性逆问题观察，引入训练无关采样器，使用骨骼感知度量确保约束精确满足。
+- 方法要点：基于线性逆问题，引入训练无关采样器，使用骨骼感知度量确保约束精确满足。
 - 实验或效果：在运动修复和2D到3D提升中，实现精确约束并保持或提升真实感。
 
 ## 摘要（原文）

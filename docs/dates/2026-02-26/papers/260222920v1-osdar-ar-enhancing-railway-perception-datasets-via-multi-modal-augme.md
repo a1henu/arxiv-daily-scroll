@@ -7,14 +7,14 @@ title: OSDaR-AR: Enhancing Railway Perception Datasets via Multi-modal Augmented
 **arXiv**：[2602.22920v1](https://arxiv.org/abs/2602.22920) · [PDF](https://arxiv.org/pdf/2602.22920.pdf)  
 **作者**：Federico Nesti, Gianluca D'Amico, Mauro Marinoni, Giorgio Buttazzo  
 
-**一句话要点**：提出多模态增强现实框架以解决铁路感知数据稀缺与仿真真实差距问题
+**一句话要点**：提出多模态增强现实框架以解决铁路感知数据稀缺与真实感不足问题
 
-**关键词**：铁路感知, 增强现实, 多模态数据融合, 仿真真实差距, 障碍检测, 公开数据集
+**关键词**：铁路感知, 增强现实, 多模态数据, sim-to-real, 障碍检测, 公开数据集
 
 ## 3 点简述
-- 铁路安全关键任务如障碍检测缺乏高质量标注数据，现有仿真器存在真实差距
-- 利用Unreal Engine 5集成LiDAR和INS/GNSS数据，确保虚拟对象在真实序列中的准确放置与时序稳定性
-- 提出基于分割的INS/GNSS数据优化策略，提升增强序列的真实性，并发布OSDaR-AR公开数据集
+- 铁路安全关键任务如障碍检测缺乏高质量标注数据，现有仿真器存在sim-to-real差距
+- 利用Unreal Engine 5集成虚拟对象到真实铁路序列，基于LiDAR和INS/GNSS确保时空一致性
+- 提出分割优化策略提升真实感，并发布OSDaR-AR公开数据集支持下一代系统开发
 
 ## 摘要（原文）
 

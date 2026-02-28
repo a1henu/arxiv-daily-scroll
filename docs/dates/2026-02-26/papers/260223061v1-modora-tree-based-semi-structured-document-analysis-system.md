@@ -7,13 +7,13 @@ title: MoDora: Tree-Based Semi-Structured Document Analysis System
 **arXiv**：[2602.23061v1](https://arxiv.org/abs/2602.23061) · [PDF](https://arxiv.org/pdf/2602.23061.pdf)  
 **作者**：Bangrui Xu, Qihang Yao, Zirui Tang, Xuanhe Zhou, Yeye He, Shihan Yu, Qianqian Xu, Bin Wang, Guoliang Li, Conghui He, Fan Wu  
 
-**一句话要点**：提出MoDora系统，基于LLM解决半结构化文档自然语言问答中的布局感知与信息检索挑战。
+**一句话要点**：提出MoDora系统，基于LLM解决半结构化文档自然语言问答中的元素碎片化、结构缺失和跨区域检索难题。
 
-**关键词**：半结构化文档分析, 自然语言问答, 布局感知建模, 组件关联树, LLM增强检索
+**关键词**：半结构化文档分析, 自然语言问答, 组件关联树, 布局感知检索, LLM引导系统
 
 ## 3 点简述
-- 核心问题：半结构化文档元素碎片化、缺乏层次表示，信息分散导致问答困难。
-- 方法要点：采用局部对齐聚合、组件关联树和问题类型感知检索策略，增强布局与语义建模。
+- 核心问题：半结构化文档元素碎片化、结构层次缺失和跨区域信息检索困难，阻碍自然语言问答。
+- 方法要点：采用局部对齐聚合和类型提取，设计组件关联树建模层次关系，结合布局网格和LLM引导的检索策略。
 - 实验或效果：在准确性上超越基线5.97%-61.07%，代码已开源。
 
 ## 摘要（原文）

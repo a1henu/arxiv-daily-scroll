@@ -7,14 +7,14 @@ title: MSJoE: Jointly Evolving MLLM and Sampler for Efficient Long-Form Video Un
 **arXiv**：[2602.22932v1](https://arxiv.org/abs/2602.22932) · [PDF](https://arxiv.org/pdf/2602.22932.pdf)  
 **作者**：Wenhui Tan, Xiaoyi Yu, Jiaze Li, Yijing Chen, Jianzhong Ju, Zhenbo Luo, Ruihua Song, Jian Luan  
 
-**一句话要点**：提出MSJoE框架，联合进化MLLM与采样器以高效理解长视频。
+**一句话要点**：提出MSJoE框架，联合进化MLLM与采样器以高效理解长视频
 
-**关键词**：长视频理解, 多模态大语言模型, 关键帧采样, 联合进化, 强化学习
+**关键词**：长视频理解, 多模态大语言模型, 关键帧采样, 强化学习, 联合优化
 
 ## 3 点简述
-- 核心问题：MLLM高效理解长视频时面临信息冗余与计算负担挑战。
-- 方法要点：通过查询推理与相似度矩阵，轻量采样器选择关键帧，MLLM与采样器联合强化学习优化。
-- 实验或效果：在多个数据集上实现8.0%准确率提升，优于基线方法1.1%。
+- 核心问题：多模态大语言模型在长视频理解中效率低，需处理大量冗余帧。
+- 方法要点：通过查询推理生成相似度矩阵，轻量采样器选择关键帧，MLLM与采样器联合强化学习优化。
+- 实验或效果：在多个数据集上测试，准确率比基础MLLM提升8.0%，优于最强基线1.1%。
 
 ## 摘要（原文）
 

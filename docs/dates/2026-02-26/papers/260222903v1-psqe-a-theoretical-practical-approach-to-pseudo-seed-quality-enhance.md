@@ -7,14 +7,14 @@ title: PSQE: A Theoretical-Practical Approach to Pseudo Seed Quality Enhancement
 **arXiv**：[2602.22903v1](https://arxiv.org/abs/2602.22903) · [PDF](https://arxiv.org/pdf/2602.22903.pdf)  
 **作者**：Yunpeng Hong, Chenyang Bu, Jie Zhang, Yi He, Di Wu, Xindong Wu  
 
-**一句话要点**：提出PSQE以增强无监督多模态实体对齐中伪种子质量，提升精度与图覆盖平衡。
+**一句话要点**：提出PSQE以增强无监督多模态实体对齐中的伪种子质量
 
 **关键词**：多模态实体对齐, 无监督学习, 伪种子增强, 对比学习, 图覆盖平衡, 聚类重采样
 
 ## 3 点简述
 - 核心问题：多模态信息导致伪种子在图覆盖中不平衡，影响对齐性能。
-- 方法要点：通过多模态信息和聚类重采样优化伪种子，理论分析其对对比学习的影响。
-- 实验或效果：PSQE作为即插即用模块显著提升基线模型性能，验证理论发现。
+- 方法要点：通过多模态信息和聚类重采样提升伪种子精度与覆盖平衡。
+- 实验或效果：理论分析伪种子影响，实验验证PSQE作为即插即用模块显著提升基线性能。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: MetaOthello: A Controlled Study of Multiple World Models in Transformers
 **arXiv**：[2602.23164v1](https://arxiv.org/abs/2602.23164) · [PDF](https://arxiv.org/pdf/2602.23164.pdf)  
 **作者**：Aviral Chawla, Galen Hall, Juniper Lovato  
 
-**一句话要点**：提出MetaOthello以研究Transformer中多个世界模型的共享表示组织方式
+**一句话要点**：提出MetaOthello以研究Transformer中多个世界模型的共享表示组织
 
-**关键词**：世界模型, Transformer, 表示学习, 机制可解释性, Othello游戏, 线性探针
+**关键词**：世界模型, Transformer表示学习, 机制可解释性, Othello变体, 线性探针, 共享表示
 
 ## 3 点简述
 - 核心问题：Transformer如何组织多个潜在冲突的世界模型，而非孤立研究单一能力
 - 方法要点：设计Othello变体套件，训练小GPT于混合数据，分析共享表示空间
-- 实验或效果：发现Transformer使用共享棋盘表示，线性探针可跨变体干预，层间表示随规则重叠而分化
+- 实验或效果：发现共享棋盘状态表示，线性探针可跨变体干预，层间表示随规则重叠而分化
 
 ## 摘要（原文）
 

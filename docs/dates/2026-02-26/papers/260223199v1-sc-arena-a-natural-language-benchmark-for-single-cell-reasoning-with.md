@@ -7,14 +7,14 @@ title: SC-Arena: A Natural Language Benchmark for Single-Cell Reasoning with Kno
 **arXiv**：[2602.23199v1](https://arxiv.org/abs/2602.23199) · [PDF](https://arxiv.org/pdf/2602.23199.pdf)  
 **作者**：Jiahao Zhao, Feng Jiang, Shaowei Qin, Zhonghui Zhang, Junhao Liu, Guibing Guo, Hamid Alinejad-Rokny, Min Yang  
 
-**一句话要点**：提出SC-Arena评估框架以解决单细胞生物学中LLM评估的碎片化与缺乏生物可解释性问题
+**一句话要点**：提出SC-Arena基准以解决单细胞生物学中LLM评估的碎片化与缺乏生物学基础问题。
 
 **关键词**：单细胞生物学, 大语言模型评估, 知识增强评估, 虚拟细胞抽象, 自然语言任务
 
 ## 3 点简述
-- 现有单细胞生物学LLM评估基准任务分散、格式不切实际且指标缺乏生物可解释性
-- SC-Arena通过虚拟细胞抽象统一评估目标，定义五个自然语言任务并引入知识增强评估
-- 实验表明该框架能确保生物正确性、提供可解释依据并克服传统指标的脆弱性
+- 现有单细胞生物学LLM评估基准任务分散、格式不切实际且指标缺乏可解释性。
+- SC-Arena引入虚拟细胞抽象统一评估目标，定义五个自然语言任务并采用知识增强评估。
+- 实验显示模型在复杂任务上表现不均，知识增强评估确保生物学正确性并提供可解释判断。
 
 ## 摘要（原文）
 

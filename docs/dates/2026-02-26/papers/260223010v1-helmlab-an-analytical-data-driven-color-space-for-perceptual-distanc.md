@@ -7,13 +7,13 @@ title: HELMLAB: An Analytical, Data-Driven Color Space for Perceptual Distance i
 **arXiv**：[2602.23010v1](https://arxiv.org/abs/2602.23010) · [PDF](https://arxiv.org/pdf/2602.23010.pdf)  
 **作者**：Gorkem Yildiz  
 
-**一句话要点**：提出HELMLAB颜色空间以提升UI设计系统中颜色感知距离的准确性
+**一句话要点**：提出HELMLAB颜色空间，用于UI设计系统中基于感知距离的数据驱动颜色表示。
 
-**关键词**：颜色空间, 感知距离, UI设计系统, 颜色校正, 数据驱动模型
+**关键词**：颜色空间, 感知距离, UI设计系统, 数据驱动方法, 颜色转换, 色域映射
 
 ## 3 点简述
-- 核心问题：UI设计系统需要更精确的颜色感知距离度量，以改进颜色选择和对比度评估。
-- 方法要点：通过72参数分析模型，结合学习矩阵、功率压缩、傅里叶色调校正和Helmholtz-Kohlrausch调整，实现从CIE XYZ到感知Lab的映射。
+- 核心问题：UI设计系统需要感知均匀的颜色空间以准确评估颜色差异。
+- 方法要点：通过学习矩阵、功率压缩、傅里叶色调校正和Helmholtz-Kohlrausch调整，将CIE XYZ映射到感知组织的Lab表示。
 - 实验或效果：在COMBVD数据集上，STRESS为23.22，比CIEDE2000降低20.4%，并展示跨数据集竞争性能。
 
 ## 摘要（原文）

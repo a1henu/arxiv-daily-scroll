@@ -7,14 +7,14 @@ title: BetterScene: 3D Scene Synthesis with Representation-Aligned Generative Mo
 **arXiv**：[2602.22596v1](https://arxiv.org/abs/2602.22596) · [PDF](https://arxiv.org/pdf/2602.22596.pdf)  
 **作者**：Yuci Han, Charles Toth, John E. Anderson, William J. Shuart, Alper Yilmaz  
 
-**一句话要点**：提出BetterScene方法，通过改进扩散模型增强稀疏照片下的新视角合成质量
+**一句话要点**：提出BetterScene方法，通过表示对齐增强稀疏照片下的新视角合成质量
 
-**关键词**：新视角合成, 扩散模型, 3D高斯泼溅, 变分自编码器, 视觉基础模型
+**关键词**：新视角合成, 扩散模型, 3D高斯泼溅, 表示对齐, 稀疏视图
 
 ## 3 点简述
 - 核心问题：现有方法依赖预训练扩散先验，仅微调UNet模块，导致细节不一致和伪影
-- 方法要点：引入时间等变性正则化和视觉基础模型对齐表示，优化VAE模块以提升一致性
-- 实验或效果：在DL3DV-10K数据集上评估，相比先进方法展示出优越性能
+- 方法要点：引入时间等变正则化和视觉基础模型对齐表示，优化VAE模块以提升表示一致性
+- 实验或效果：在DL3DV-10K数据集上评估，优于先进方法，生成连续、无伪影、一致的新视角
 
 ## 摘要（原文）
 

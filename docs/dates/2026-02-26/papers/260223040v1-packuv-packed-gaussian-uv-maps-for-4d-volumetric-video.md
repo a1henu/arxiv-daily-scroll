@@ -7,14 +7,14 @@ title: PackUV: Packed Gaussian UV Maps for 4D Volumetric Video
 **arXiv**：[2602.23040v1](https://arxiv.org/abs/2602.23040) · [PDF](https://arxiv.org/pdf/2602.23040.pdf)  
 **作者**：Aashish Rai, Angela Xing, Anushka Agarwal, Xiaoyan Cong, Zekun Li, Tao Lu, Aayush Prakash, Srinath Sridhar  
 
-**一句话要点**：提出PackUV以解决4D体视频重建、存储和流媒体中的长序列、时间不一致和标准编解码兼容性问题。
+**一句话要点**：提出PackUV以解决4D体视频重建、存储和流媒体兼容性问题
 
-**关键词**：4D体视频, 高斯泼溅, UV图集, 时间一致性, 视频编解码, 长序列重建
+**关键词**：4D体视频, 高斯泼溅, UV图谱, 时间一致性, 视频编码兼容, 多视图数据集
 
 ## 3 点简述
-- 核心问题：现有高斯泼溅方法在长序列、大运动和遮挡下失效，且输出不兼容标准视频编解码。
-- 方法要点：引入PackUV表示，将高斯属性映射到结构化UV图集，通过PackUV-GS优化实现时间一致性。
-- 实验或效果：在PackUV-2B数据集上验证，渲染质量超越基线，支持长达30分钟序列，兼容标准编解码。
+- 核心问题：现有高斯泼溅方法在长序列、大运动和遮挡下失效，且不兼容标准视频编码
+- 方法要点：引入结构化UV图谱表示，通过流引导高斯标记和视频关键帧优化保持时间一致性
+- 实验或效果：在大型数据集PackUV-2B上验证，渲染质量优于基线，支持长达30分钟序列
 
 ## 摘要（原文）
 

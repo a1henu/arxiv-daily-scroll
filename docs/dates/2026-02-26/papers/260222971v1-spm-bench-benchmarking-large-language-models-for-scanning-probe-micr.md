@@ -9,12 +9,12 @@ title: SPM-Bench: Benchmarking Large Language Models for Scanning Probe Microsco
 
 **一句话要点**：提出SPM-Bench基准以评估大语言模型在扫描探针显微镜领域的专业能力
 
-**关键词**：扫描探针显微镜, 多模态基准, 自动化数据合成, Anchor-Gated Sieve, SIP-F1分数, 模型人格量化
+**关键词**：扫描探针显微镜, 多模态基准, 自动化数据合成, 模型评估指标, 科学领域AI
 
 ## 3 点简述
 - 现有基准在专业科学领域存在数据污染、复杂度不足和人力成本高的问题
-- 采用自动化数据合成管道和Anchor-Gated Sieve技术提取高价值图像-文本对
-- 引入SIP-F1分数量化模型性能并揭示其在复杂物理场景中的推理边界
+- 通过自动化数据合成管道和Anchor-Gated Sieve技术，从论文中高效提取高质量图像-文本对
+- 引入SIP-F1分数评估模型性能，并量化模型个性以揭示AI在复杂物理场景中的推理边界
 
 ## 摘要（原文）
 

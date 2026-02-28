@@ -7,13 +7,13 @@ title: Learning Physical Operators using Neural Operators
 **arXiv**：[2602.23113v1](https://arxiv.org/abs/2602.23113) · [PDF](https://arxiv.org/pdf/2602.23113.pdf)  
 **作者**：Vignesh Gopakumar, Ander Gray, Dan Giles, Lorenzo Zanisi, Matt J. Kusner, Timo Betcke, Stanislas Pamela, Marc Peter Deisenroth  
 
-**一句话要点**：提出基于算子分解的物理信息训练框架，以提升神经算子在PDE求解中的泛化能力与时间连续性。
+**一句话要点**：提出基于算子分裂的物理信息训练框架，以提升神经算子在PDE求解中的泛化能力与时间连续性。
 
 **关键词**：神经算子, 偏微分方程求解, 物理信息训练, 算子分裂, 时间连续性, 泛化性能
 
 ## 3 点简述
 - 神经算子作为PDE代理模型，面临泛化差和固定时间离散化限制。
-- 采用算子分裂法分解PDE，训练神经算子学习非线性物理算子，线性算子用有限差分卷积近似。
+- 采用算子分裂方法分解PDE，训练神经算子学习非线性物理算子，线性算子用有限差分卷积近似。
 - 在Navier-Stokes方程上验证，实现更好收敛、泛化性能，支持时间外推和可解释性。
 
 ## 摘要（原文）

@@ -7,14 +7,14 @@ title: GSTurb: Gaussian Splatting for Atmospheric Turbulence Mitigation
 **arXiv**：[2602.22800v1](https://arxiv.org/abs/2602.22800) · [PDF](https://arxiv.org/pdf/2602.22800.pdf)  
 **作者**：Hanliang Du, Zhangji Lu, Zewei Cai, Qijian Tang, Qifeng Yu, Xiaoli Liu  
 
-**一句话要点**：提出GSTurb框架，结合光流引导倾斜校正与高斯泼溅，以缓解大气湍流导致的图像退化。
+**一句话要点**：提出GSTurb框架，结合光流引导的倾斜校正与高斯泼溅，以缓解大气湍流引起的图像退化。
 
-**关键词**：大气湍流缓解, 高斯泼溅, 光流引导校正, 图像恢复, 长距离成像
+**关键词**：大气湍流缓解, 高斯泼溅, 光流引导, 图像恢复, 长距离成像
 
 ## 3 点简述
 - 核心问题：大气湍流导致像素位移和模糊，影响长距离成像质量。
 - 方法要点：使用高斯参数建模倾斜和非等晕模糊，通过多帧优化进行图像恢复。
-- 实验或效果：在ATSyn-static数据集上PSNR达27.67 dB，优于现有方法，并在真实数据集上表现优异。
+- 实验或效果：在合成和真实数据集上优于现有方法，PSNR和SSIM显著提升。
 
 ## 摘要（原文）
 

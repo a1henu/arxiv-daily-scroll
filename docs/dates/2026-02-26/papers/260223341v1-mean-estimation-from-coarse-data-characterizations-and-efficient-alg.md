@@ -7,14 +7,14 @@ title: Mean Estimation from Coarse Data: Characterizations and Efficient Algorit
 **arXiv**：[2602.23341v1](https://arxiv.org/abs/2602.23341) · [PDF](https://arxiv.org/pdf/2602.23341.pdf)  
 **作者**：Alkis Kalavasis, Anay Mehrotra, Manolis Zampetakis, Felix Zhou, Ziyu Zhu  
 
-**一句话要点**：解决高斯均值估计在凸分区粗数据下的可识别性与高效算法问题
+**一句话要点**：解决高斯均值估计在凸划分下的可识别性与高效算法问题
 
-**关键词**：粗数据估计, 高斯均值识别, 凸分区分析, 计算效率算法
+**关键词**：高斯均值估计, 粗数据, 凸划分, 可识别性, 高效算法
 
 ## 3 点简述
-- 核心问题：确定高斯均值在凸分区粗数据下的可识别条件
+- 核心问题：确定凸划分下高斯均值可识别的条件
 - 方法要点：建立可识别性理论并设计计算高效估计算法
-- 实验或效果：未知
+- 实验或效果：验证算法在可识别条件下的样本效率与计算可行性
 
 ## 摘要（原文）
 

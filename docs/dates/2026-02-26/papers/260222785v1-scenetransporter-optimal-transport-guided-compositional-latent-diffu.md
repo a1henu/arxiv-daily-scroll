@@ -7,13 +7,13 @@ title: SceneTransporter: Optimal Transport-Guided Compositional Latent Diffusion
 **arXiv**：[2602.22785v1](https://arxiv.org/abs/2602.22785) · [PDF](https://arxiv.org/pdf/2602.22785.pdf)  
 **作者**：Ling Wang, Hao-Xiang Guo, Xinzhou Wang, Fuchun Sun, Kai Sun, Pengkun Liu, Hang Xiao, Zhong Wang, Guangyuan Fu, Eric Li, Yang Liu, Yikai Wang  
 
-**一句话要点**：提出SceneTransporter，通过最优传输引导的潜在扩散，从单图像生成结构化3D场景。
+**一句话要点**：提出SceneTransporter，通过最优传输引导的潜在扩散模型，从单图像生成结构化3D场景。
 
 **关键词**：单图像3D场景生成, 结构化场景生成, 最优传输, 潜在扩散模型, 实例分割, 开放世界场景
 
 ## 3 点简述
 - 核心问题：现有方法生成部分级3D对象，但缺乏结构约束，难以在开放世界场景中组织成独立实例。
-- 方法要点：在去噪循环中引入熵最优传输目标，强制图像块与部分级潜在的一对一映射，防止纠缠并促进对象分组。
+- 方法要点：基于去偏聚类分析，将任务重构为全局关联分配问题，在扩散去噪循环中引入熵最优传输目标，施加一对一路由和分组约束。
 - 实验或效果：在开放世界场景生成中优于现有方法，显著提升实例级连贯性和几何保真度。
 
 ## 摘要（原文）

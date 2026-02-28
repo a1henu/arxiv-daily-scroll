@@ -13,8 +13,8 @@ title: Forecasting Antimicrobial Resistance Trends Using Machine Learning on WHO
 
 ## 3 点简述
 - 核心问题：抗菌素耐药性（AMR）是全球危机，需基于WHO GLASS数据预测趋势以支持政策。
-- 方法要点：使用XGBoost等六种模型预测耐药率，并集成RAG管道生成基于证据的政策建议。
-- 实验或效果：XGBoost在测试集上MAE为7.07%，R平方0.854，优于基线83.1%，区域预测性能差异显著。
+- 方法要点：使用六种机器学习模型（如XGBoost）进行预测，并集成检索增强生成（RAG）提供政策建议。
+- 实验或效果：XGBoost在测试集上MAE为7.07%，R平方为0.854，优于基线83.1%；RAG结合WHO文档生成可信政策答案。
 
 ## 摘要（原文）
 

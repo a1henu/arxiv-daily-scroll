@@ -9,7 +9,7 @@ title: Iterative Prompt Refinement for Dyslexia-Friendly Text Summarization Usin
 
 **一句话要点**：提出基于GPT-4o的迭代提示优化方法，用于生成适合阅读障碍者的文本摘要。
 
-**关键词**：阅读障碍辅助, 文本摘要, GPT-4o, 迭代提示优化, 可读性评估
+**关键词**：阅读障碍辅助, 文本摘要, GPT-4o, 可读性优化, 迭代提示, 无障碍NLP
 
 ## 3 点简述
 - 核心问题：阅读障碍影响全球约10%人口，现有辅助技术未充分解决语言复杂性障碍。

@@ -7,14 +7,14 @@ title: Addressing Climate Action Misperceptions with Generative AI
 **arXiv**：[2602.22564v1](https://arxiv.org/abs/2602.22564) · [PDF](https://arxiv.org/pdf/2602.22564.pdf)  
 **作者**：Miriam Remshard, Yara Kyrychenko, Sander van der Linden, Matthew H. Goldberg, Anthony Leiserowitz, Elena Savoia, Jon Roozenbeek  
 
-**一句话要点**：提出个性化气候大语言模型以纠正气候行动误解并促进行为改变
+**一句话要点**：利用个性化生成式AI纠正气候行动认知偏差以促进行为改变
 
-**关键词**：气候行动误解, 大语言模型, 个性化对话, 行为改变, 减排知识
+**关键词**：生成式AI, 气候行动认知, 行为改变, 个性化对话, 大语言模型, 减排行为
 
 ## 3 点简述
-- 核心问题：气候关切者常误解减排行动效果，阻碍行为改变。
-- 方法要点：使用具备气候知识的大语言模型提供个性化对话指导。
-- 实验或效果：个性化模型提升知识准确性和行为意愿，优于非专业模型和无干预。
+- 核心问题：气候关切者常误判减排行动效果，阻碍有效行为改变。
+- 方法要点：开发具备气候知识的LLM，提供个性化对话，对比网络搜索和非专业LLM干预。
+- 实验或效果：个性化气候LLM提升知识准确性和行为意愿，优于其他条件，但理解效果未超越网络搜索。
 
 ## 摘要（原文）
 

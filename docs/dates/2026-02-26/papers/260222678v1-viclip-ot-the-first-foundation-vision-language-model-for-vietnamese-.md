@@ -7,14 +7,14 @@ title: ViCLIP-OT: The First Foundation Vision-Language Model for Vietnamese Imag
 **arXiv**：[2602.22678v1](https://arxiv.org/abs/2602.22678) · [PDF](https://arxiv.org/pdf/2602.22678.pdf)  
 **作者**：Quoc-Khang Tran, Minh-Thien Nguyen, Nguyen-Khang Pham  
 
-**一句话要点**：提出ViCLIP-OT，首个越南语图文检索基础模型，通过最优传输增强跨模态一致性。
+**一句话要点**：提出ViCLIP-OT，首个越南语图文检索基础模型，结合最优传输提升跨模态一致性。
 
 **关键词**：越南语图文检索, 视觉语言模型, 最优传输, 跨模态对齐, 低资源语言处理
 
 ## 3 点简述
-- 核心问题：现有视觉语言模型对越南语等低资源语言图文检索效果不佳。
-- 方法要点：结合CLIP对比学习与SIGROT损失，优化全局一致性和模态间隙。
-- 实验或效果：在三个越南语基准上超越CLIP和SigLIP，零-shot性能提升显著。
+- 问题：现有视觉语言模型对越南语等低资源语言图文检索效果不佳。
+- 方法：集成CLIP对比学习与SIGROT损失，增强全局一致性并减少模态差距。
+- 效果：在多个越南语基准测试中优于CLIP和SigLIP，零样本性能提升显著。
 
 ## 摘要（原文）
 

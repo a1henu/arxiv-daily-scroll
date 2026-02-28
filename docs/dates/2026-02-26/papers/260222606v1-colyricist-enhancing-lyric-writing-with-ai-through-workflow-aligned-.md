@@ -7,14 +7,14 @@ title: CoLyricist: Enhancing Lyric Writing with AI through Workflow-Aligned Supp
 **arXiv**：[2602.22606v1](https://arxiv.org/abs/2602.22606) · [PDF](https://arxiv.org/pdf/2602.22606.pdf)  
 **作者**：Masahiro Yoshida, Bingxuan Li, Songyan Zhao, Qinyi Zhou, Shiwei Hu, Xiang Anthony Chen, Nanyun Peng  
 
-**一句话要点**：提出CoLyricist以通过工作流对齐的AI支持增强歌词写作效率
+**一句话要点**：提出CoLyricist以通过工作流对齐的AI支持增强歌词创作效率
 
 **关键词**：AI辅助创作, 歌词写作工具, 工作流对齐设计, 用户研究, 创意效率
 
 ## 3 点简述
-- 核心问题：现有工具缺乏对歌词写作阶段及其挑战的理解，导致设计无效。
-- 方法要点：通过访谈识别四个关键阶段，并针对每个阶段提供定制化AI驱动支持。
-- 实验或效果：用户研究表明，CoLyricist能提升不同技能水平用户的歌词写作体验。
+- 核心问题：现有工具缺乏对歌词创作阶段的理解，难以融入创作实践
+- 方法要点：基于访谈识别四阶段，设计AI驱动支持以优化工作流
+- 实验或效果：用户研究表明工具提升各技能水平用户的创作体验
 
 ## 摘要（原文）
 

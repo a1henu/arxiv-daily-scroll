@@ -13,7 +13,7 @@ title: Large Multimodal Models as General In-Context Classifiers
 
 ## 3 点简述
 - 核心问题：大型多模态模型在开放世界分类中受限于不完美的上下文信息
-- 方法要点：CIRCLE通过伪标签迭代精炼上下文示例，无需训练
+- 方法要点：CIRCLE通过伪标签迭代优化上下文示例，无需训练
 - 实验或效果：CIRCLE在开放世界分类中超越对比视觉语言模型，建立稳健基线
 
 ## 摘要（原文）

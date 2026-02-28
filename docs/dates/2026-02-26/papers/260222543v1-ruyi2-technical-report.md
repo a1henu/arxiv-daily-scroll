@@ -7,14 +7,14 @@ title: Ruyi2 Technical Report
 **arXiv**：[2602.22543v1](https://arxiv.org/abs/2602.22543) · [PDF](https://arxiv.org/pdf/2602.22543.pdf)  
 **作者**：Huan Song, Shuyu Tian, Junyi Hao, Minxiu Xu, Hongjun An, Yiliang Song, Jiawei Shao, Xuelong Li  
 
-**一句话要点**：提出Ruyi2自适应模型，基于家族模型和3D并行训练，以解决大语言模型部署成本与延迟问题。
+**一句话要点**：提出Ruyi2自适应模型以解决大语言模型部署成本与延迟问题
 
 **关键词**：自适应计算, 家族模型, 3D并行训练, 大语言模型部署, 参数共享
 
 ## 3 点简述
 - 核心问题：大语言模型面临高部署成本和延迟，需自适应计算策略。
-- 方法要点：基于Megatron-LM构建稳定家族模型，采用3D并行训练优化。
-- 实验或效果：相比Ruyi提速2-3倍，性能与同规模Qwen3模型相当。
+- 方法要点：基于AI Flow框架，引入稳定家族模型，采用3D并行训练优化。
+- 实验或效果：相比Ruyi提速2-3倍，性能媲美同规模Qwen3模型。
 
 ## 摘要（原文）
 

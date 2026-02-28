@@ -7,7 +7,7 @@ title: Probing for Knowledge Attribution in Large Language Models
 **arXiv**：[2602.22787v1](https://arxiv.org/abs/2602.22787) · [PDF](https://arxiv.org/pdf/2602.22787.pdf)  
 **作者**：Ivo Brink, Alexander Boer, Dennis Ulmer  
 
-**一句话要点**：提出基于探针的知识归因方法，以区分大语言模型输出的知识来源
+**一句话要点**：提出基于探针的知识归因方法，以区分大语言模型输出中的知识来源
 
 **关键词**：知识归因, 大语言模型, 幻觉检测, 自监督学习, 探针方法, 模型可解释性
 

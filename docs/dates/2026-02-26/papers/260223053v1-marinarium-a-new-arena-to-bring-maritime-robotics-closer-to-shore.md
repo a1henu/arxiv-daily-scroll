@@ -7,14 +7,14 @@ title: Marinarium: a New Arena to Bring Maritime Robotics Closer to Shore
 **arXiv**：[2602.23053v1](https://arxiv.org/abs/2602.23053) · [PDF](https://arxiv.org/pdf/2602.23053.pdf)  
 **作者**：Ignacio Torroba, David Dorner, Victor Nan Fernandez-Ayala, Mart Kartasev, Joris Verhagen, Elias Krantz, Gregorio Marchesini, Carl Ljung, Pedro Roque, Chelsea Sidrane, Linda Van der Spaa, Nicola De Carli, Petter Ogren, Christer Fuglesang, Jana Tumova, Dimos V. Dimarogonas, Ivan Stenius  
 
-**一句话要点**：提出Marinarium模块化水下研究设施，以资源高效方式桥接仿真、实验室与真实环境测试。
+**一句话要点**：提出Marinarium模块化水下研究设施，以资源高效方式为海事和空间模拟机器人实验提供真实测试平台。
 
-**关键词**：海事机器人, 水下研究设施, 数字孪生, 仿真现实差距, 空间类比实验, 异构机器人系统
+**关键词**：海事机器人, 空间模拟实验, 数字孪生, 水下测试平台, 异构机器人, 系统识别
 
 ## 3 点简述
-- 核心问题：海事与空间类比机器人实验缺乏能桥接仿真、实验室验证和真实条件的测试平台。
-- 方法要点：设计包含水下空中操作体积、可伸缩屋顶、数字孪生和空间实验室集成的模块化独立设施。
-- 实验或效果：通过系统识别、异构机器人会合、仿真现实差距减小和空间导航验证实验展示其多功能性。
+- 核心问题：海事和空间机器人实验在模拟、实验室验证和现场条件之间存在差距，需要更高效的测试环境。
+- 方法要点：设计模块化独立设施，结合水下和空中操作体积、可伸缩屋顶、数字孪生模拟器，并与空间机器人实验室紧密集成。
+- 实验或效果：通过四类实验展示其应用，包括基于学习的系统识别、异构机器人跨域任务、减少模拟现实差距，以及水下替代验证航天器导航。
 
 ## 摘要（原文）
 

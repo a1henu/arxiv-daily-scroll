@@ -7,14 +7,14 @@ title: IBCircuit: Towards Holistic Circuit Discovery with Information Bottleneck
 **arXiv**：[2602.22581v1](https://arxiv.org/abs/2602.22581) · [PDF](https://arxiv.org/pdf/2602.22581.pdf)  
 **作者**：Tian Bian, Yifan Niu, Chaohao Yuan, Chengzhi Piao, Bingzhe Wu, Long-Kai Huang, Yu Rong, Tingyang Xu, Hong Cheng, Jia Li  
 
-**一句话要点**：提出IBCircuit以基于信息瓶颈原则进行整体电路发现，无需设计损坏激活
+**一句话要点**：提出IBCircuit以基于信息瓶颈原理实现语言模型电路的全自动发现
 
-**关键词**：电路发现, 信息瓶颈, 语言模型解释, 端到端优化, 整体性分析
+**关键词**：电路发现, 信息瓶颈, 语言模型可解释性, 端到端优化, 计算子图
 
 ## 3 点简述
 - 现有电路发现方法忽视电路整体性，需为不同任务设计损坏激活，不准确且低效
-- IBCircuit基于信息瓶颈原则，提供端到端优化框架，可整体识别信息性电路
-- 在IOI和Greater-Than任务中，IBCircuit识别出更忠实和最小化的电路，优于相关方法
+- IBCircuit基于信息瓶颈原理，构建端到端优化框架，无需手动设计损坏激活即可全自动识别电路
+- 在IOI和Greater-Than任务中，IBCircuit识别出更忠实和最小化的电路，优于近期相关工作
 
 ## 摘要（原文）
 

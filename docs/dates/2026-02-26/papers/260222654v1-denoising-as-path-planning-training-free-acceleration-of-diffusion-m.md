@@ -7,14 +7,14 @@ title: Denoising as Path Planning: Training-Free Acceleration of Diffusion Model
 **arXiv**：[2602.22654v1](https://arxiv.org/abs/2602.22654) · [PDF](https://arxiv.org/pdf/2602.22654.pdf)  
 **作者**：Bowen Cui, Yuanbin Wang, Huajiang Xu, Biaolong Chen, Aixi Zhang, Hao Jiang, Zhengzheng Jin, Xu Liu, Pipei Huang  
 
-**一句话要点**：提出DPCache框架，将扩散模型去噪加速建模为全局路径规划问题，实现免训练高效采样。
+**一句话要点**：提出DPCache框架，将扩散模型去噪加速建模为全局路径规划问题，实现无训练加速。
 
-**关键词**：扩散模型加速, 免训练采样, 路径规划, 缓存优化, 动态规划, 图像生成
+**关键词**：扩散模型加速, 无训练优化, 路径规划, 缓存方法, 动态规划, 图像生成
 
 ## 3 点简述
-- 核心问题：扩散模型多步迭代采样计算开销大，现有缓存方法忽略去噪轨迹全局结构，易导致误差累积和视觉伪影。
-- 方法要点：构建路径感知成本张量量化跳步误差，利用动态规划选择关键时间步序列以最小化总路径成本，保持轨迹保真度。
-- 实验或效果：在DiT、FLUX和HunyuanVideo上验证，DPCache在加速同时质量损失小，优于先前方法，部分场景甚至超越全步基线。
+- 核心问题：扩散模型多步采样计算开销大，现有缓存方法忽略去噪轨迹全局结构，导致误差累积和视觉伪影。
+- 方法要点：构建路径感知成本张量，量化跳过时间步的路径依赖误差，通过动态规划选择最优关键时间步序列。
+- 实验效果：在DiT、FLUX和HunyuanVideo上验证，DPCache在加速同时保持质量，优于先前方法，部分场景超越全步基线。
 
 ## 摘要（原文）
 

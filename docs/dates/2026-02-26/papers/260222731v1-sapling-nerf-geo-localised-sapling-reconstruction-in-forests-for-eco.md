@@ -7,14 +7,14 @@ title: Sapling-NeRF: Geo-Localised Sapling Reconstruction in Forests for Ecologi
 **arXiv**：[2602.22731v1](https://arxiv.org/abs/2602.22731) · [PDF](https://arxiv.org/pdf/2602.22731.pdf)  
 **作者**：Miguel Ángel Muñoz-Bañón, Nived Chebrolu, Sruthi M. Krishna Moorthy, Yifu Tao, Fernando Torres, Roberto Salguero-Gómez, Maurice Fallon  
 
-**一句话要点**：提出融合NeRF、LiDAR SLAM和GNSS的管道，实现森林幼苗可重复、地理定位的生态监测。
+**一句话要点**：提出融合NeRF、LiDAR SLAM与GNSS的管道，实现森林幼苗可重复、地理定位的生态监测。
 
 **关键词**：神经辐射场, 激光雷达SLAM, 地理定位, 生态监测, 三维重建, 森林幼苗
 
 ## 3 点简述
-- 核心问题：现有3D传感方法难以捕捉幼苗细尺度结构，且缺乏地理定位能力，阻碍长期生态监测。
-- 方法要点：采用三级表示，结合GNSS粗定位、LiDAR SLAM厘米级定位与重建，以及NeRF对象中心密集重建。
-- 实验或效果：在森林样地实验中，相比TLS，能更准确测量幼苗高度、分枝模式和叶木比，支持定量评估。
+- 核心问题：现有3D传感方法难以捕捉幼苗细尺度结构，且缺乏地理定位能力，阻碍长期定量评估。
+- 方法要点：采用三级表示，结合GNSS粗定位、LiDAR SLAM厘米级定位与NeRF对象中心重建，提升重建精度与可重复性。
+- 实验或效果：在森林样地验证，相比TLS，能更准确测量幼苗高度、分枝模式和叶木比，支持生态分析。
 
 ## 摘要（原文）
 

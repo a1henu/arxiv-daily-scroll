@@ -9,7 +9,7 @@ title: Enhancing Geometric Perception in VLMs via Translator-Guided Reinforcemen
 
 **一句话要点**：提出GeoDPO框架以增强视觉语言模型的几何感知能力
 
-**关键词**：几何感知, 视觉语言模型, 强化学习, 领域特定语言, 基准评估, 数据生成
+**关键词**：几何感知, 视觉语言模型, 强化学习, 领域特定语言, 基准数据集, 翻译器引导
 
 ## 3 点简述
 - 视觉语言模型在几何推理中因对基础图形元素感知有限而表现不佳

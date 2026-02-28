@@ -7,14 +7,14 @@ title: Toward Personalized LLM-Powered Agents: Foundations, Evaluation, and Futu
 **arXiv**：[2602.22680v1](https://arxiv.org/abs/2602.22680) · [PDF](https://arxiv.org/pdf/2602.22680.pdf)  
 **作者**：Yue Xu, Qian Chen, Zizhan Ma, Dongrui Liu, Wenxuan Wang, Xiting Wang, Li Xiong, Wenjie Wang  
 
-**一句话要点**：综述个性化LLM智能体的基础、评估与未来方向，以用户对齐和长期适应为核心。
+**一句话要点**：综述个性化LLM智能体的基础、评估与未来方向，以用户对齐为目标。
 
 **关键词**：个性化智能体, LLM智能体, 用户画像建模, 长期交互, 评估基准, 应用场景
 
 ## 3 点简述
-- 核心问题：LLM智能体在长期交互中需个性化适应用户，提升任务效果和连续性。
-- 方法要点：围绕用户画像建模、记忆、规划和执行四组件，分析信号表示与传播方法。
-- 实验或效果：总结个性化评估指标、基准和应用场景，推动从原型到实际部署。
+- 核心问题：长期交互中LLM智能体需适应个体用户并保持行为连续性。
+- 方法要点：围绕用户画像建模、记忆、规划和行动执行四组件组织文献。
+- 实验或效果：分析用户信号表示与传播，总结评估指标和应用场景。
 
 ## 摘要（原文）
 

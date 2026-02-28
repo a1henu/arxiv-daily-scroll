@@ -7,14 +7,14 @@ title: TriLite: Efficient Weakly Supervised Object Localization with Universal V
 **arXiv**：[2602.23120v1](https://arxiv.org/abs/2602.23120) · [PDF](https://arxiv.org/pdf/2602.23120.pdf)  
 **作者**：Arian Sabaghi, José Oramas  
 
-**一句话要点**：提出TriLite框架，利用冻结ViT和TriHead模块解决弱监督目标定位中的部分覆盖和训练成本问题。
+**一句话要点**：提出TriLite框架，利用冻结ViT和TriHead模块解决弱监督目标定位中的部分覆盖问题
 
 **关键词**：弱监督目标定位, 视觉Transformer, 特征解耦, 参数效率, 自监督学习, 目标覆盖
 
 ## 3 点简述
-- 弱监督目标定位面临部分对象覆盖和训练成本高的挑战。
-- TriLite采用冻结Dinov2预训练ViT，通过TriHead模块分解特征为前景、背景和模糊区域。
-- 在CUB-200-2011等数据集上实现新SOTA，参数少于800K，训练更高效。
+- 弱监督目标定位面临部分覆盖和训练成本高的挑战
+- TriLite采用单阶段设计，通过TriHead模块分解特征，提升覆盖并抑制伪激活
+- 在多个数据集上实现SOTA，参数少于80万，训练更高效
 
 ## 摘要（原文）
 

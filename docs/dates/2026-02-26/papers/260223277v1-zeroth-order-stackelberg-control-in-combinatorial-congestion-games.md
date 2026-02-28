@@ -9,12 +9,12 @@ title: Zeroth-Order Stackelberg Control in Combinatorial Congestion Games
 
 **一句话要点**：提出ZO-Stackelberg方法，用于组合拥塞博弈中网络参数的Stackelberg控制，避免均衡微分。
 
-**关键词**：组合拥塞博弈, Stackelberg控制, 零阶优化, Frank-Wolfe方法, 均衡求解, 网络参数优化
+**关键词**：组合拥塞博弈, Stackelberg控制, 零阶优化, Frank-Wolfe方法, 均衡求解, 网络参数调整
 
 ## 3 点简述
-- 研究组合拥塞博弈中网络参数（如收费、容量）的Stackelberg优化问题，系统目标在均衡处非光滑。
+- 研究组合拥塞博弈中网络参数（如收费、容量）的Stackelberg调整，系统目标在均衡处非光滑。
 - 结合无投影Frank-Wolfe均衡求解器和零阶外更新，避免通过均衡微分，证明收敛到广义Goldstein稳定点。
-- 在真实网络实验中，相比基于微分基线实现数量级加速，同时收敛到跟随者均衡。
+- 实验显示在真实网络上比基于微分基线快几个数量级，同时收敛到跟随者均衡。
 
 ## 摘要（原文）
 

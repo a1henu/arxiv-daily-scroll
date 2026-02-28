@@ -7,14 +7,14 @@ title: Fair feature attribution for multi-output prediction: a Shapley-based per
 **arXiv**：[2602.22882v1](https://arxiv.org/abs/2602.22882) · [PDF](https://arxiv.org/pdf/2602.22882.pdf)  
 **作者**：Umberto Biccari, Alain Ibáñez de Opakua, José María Mato, Óscar Millet, Roberto Morales, Enrique Zuazua  
 
-**一句话要点**：基于Shapley框架，为多输出预测提供公平特征归因的刚性定理
+**一句话要点**：基于Shapley框架，为多输出预测提供公平特征归因的刚性定理与分解约束
 
-**关键词**：特征归因, Shapley值, 多输出预测, 可解释性, 合作博弈, 公平性
+**关键词**：特征归因, Shapley值, 多输出预测, 可解释性, 合作博弈, 刚性定理
 
 ## 3 点简述
-- 核心问题：多输出预测中特征归因的公平性缺乏理论依据，SHAP解释独立计算各输出的必要性未知
-- 方法要点：扩展Shapley公理到向量值合作博弈，证明满足效率等公理的归因规则必须按输出分量分解
-- 实验或效果：在生物医学基准上验证多输出模型可节省计算，SHAP解释与Shapley公理强加的分解结构一致
+- 核心问题：多输出预测中，SHAP解释独立计算各输出坐标的理论必要性未明，需形式化公平归因规则
+- 方法要点：扩展Shapley公理至向量值合作博弈，证明满足效率等公理的归因规则必须按输出分量分解
+- 实验或效果：在生物医学基准上，多输出模型节省计算成本，SHAP解释与Shapley公理强加的分解结构一致
 
 ## 摘要（原文）
 

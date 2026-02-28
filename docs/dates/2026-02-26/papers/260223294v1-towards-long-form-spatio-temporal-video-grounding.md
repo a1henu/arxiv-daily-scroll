@@ -7,13 +7,13 @@ title: Towards Long-Form Spatio-Temporal Video Grounding
 **arXiv**：[2602.23294v1](https://arxiv.org/abs/2602.23294) · [PDF](https://arxiv.org/pdf/2602.23294.pdf)  
 **作者**：Xin Gu, Bing Fan, Jiali Yao, Zhipeng Zhang, Yan Huang, Cheng Han, Heng Fan, Libo Zhang  
 
-**一句话要点**：提出ART-STVG架构以解决长视频时空定位中的效率与上下文建模挑战。
+**一句话要点**：提出ART-STVG架构以解决长视频时空定位中的长时跨度和无关信息挑战。
 
-**关键词**：长视频时空定位, 自回归Transformer, 时空记忆库, 级联定位, 视频流处理
+**关键词**：长视频时空定位, 自回归Transformer, 时空记忆库, 级联定位, 流式处理
 
 ## 3 点简述
-- 核心问题：现有时空视频定位方法难以处理长视频，因视频时长可达数分钟至数小时，包含大量无关信息。
-- 方法要点：采用自回归Transformer架构，将视频作为流输入顺序处理，并设计时空记忆库与级联定位策略。
+- 核心问题：现有时空视频定位方法主要针对短视频，难以处理长视频的长时跨度和大量无关信息。
+- 方法要点：采用自回归Transformer架构，通过时空记忆库和级联设计，实现流式处理和精细定位。
 - 实验或效果：在新扩展的长视频数据集上显著优于现有方法，并在短视频任务中保持竞争力。
 
 ## 摘要（原文）
