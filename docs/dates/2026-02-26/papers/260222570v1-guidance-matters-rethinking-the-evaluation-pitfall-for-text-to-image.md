@@ -7,12 +7,12 @@ title: Guidance Matters: Rethinking the Evaluation Pitfall for Text-to-Image Gen
 **arXiv**：[2602.22570v1](https://arxiv.org/abs/2602.22570) · [PDF](https://arxiv.org/pdf/2602.22570.pdf)  
 **作者**：Dian Xie, Shitong Shao, Lichen Bai, Zikai Zhou, Bojun Cheng, Shuo Yang, Jun Wu, Zeke Xie  
 
-**一句话要点**：揭示文本到图像生成评估陷阱并提出公平比较框架
+**一句话要点**：揭示扩散引导评估陷阱并提出公平评估框架，以重新审视文本到图像生成方法
 
-**关键词**：文本到图像生成, 扩散模型, 评估方法, 引导尺度, 人类偏好, 公平比较
+**关键词**：扩散模型, 文本到图像生成, 评估方法, 引导尺度, 人类偏好, 公平比较
 
 ## 3 点简述
-- 发现常见人类偏好模型对高引导尺度有强偏见，导致评估失真
+- 揭示常见人类偏好模型对高引导尺度有强偏差，导致评估失真
 - 提出引导感知评估框架，通过尺度校准实现公平比较
 - 实验显示仅增加CFG尺度可与多数方法竞争，但所有方法性能下降
 

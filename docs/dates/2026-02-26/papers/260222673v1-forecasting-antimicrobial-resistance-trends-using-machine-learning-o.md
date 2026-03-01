@@ -7,14 +7,14 @@ title: Forecasting Antimicrobial Resistance Trends Using Machine Learning on WHO
 **arXiv**：[2602.22673v1](https://arxiv.org/abs/2602.22673) · [PDF](https://arxiv.org/pdf/2602.22673.pdf)  
 **作者**：Md Tanvir Hasan Turja  
 
-**一句话要点**：提出基于机器学习和检索增强生成的框架，以预测抗菌素耐药性趋势并支持政策决策
+**一句话要点**：提出基于WHO GLASS数据的机器学习框架与RAG方法，以预测抗菌素耐药性趋势并支持政策决策
 
-**关键词**：抗菌素耐药性预测, 机器学习基准测试, 检索增强生成, WHO GLASS数据, 政策决策支持
+**关键词**：抗菌素耐药性预测, 机器学习模型比较, 检索增强生成, WHO GLASS数据, 政策决策支持
 
 ## 3 点简述
 - 核心问题：抗菌素耐药性（AMR）是全球危机，需基于WHO GLASS数据预测趋势以支持政策。
-- 方法要点：使用六种机器学习模型（如XGBoost）进行预测，并集成检索增强生成（RAG）提供政策建议。
-- 实验或效果：XGBoost在测试集上MAE为7.07%，R平方为0.854，优于基线83.1%；RAG结合WHO文档生成可信政策答案。
+- 方法要点：采用六种机器学习模型（如XGBoost）进行趋势预测，并集成RAG管道生成基于证据的政策答案。
+- 实验或效果：XGBoost在测试集上表现最佳，MAE为7.07%，R平方为0.854，优于基线83.1%。
 
 ## 摘要（原文）
 

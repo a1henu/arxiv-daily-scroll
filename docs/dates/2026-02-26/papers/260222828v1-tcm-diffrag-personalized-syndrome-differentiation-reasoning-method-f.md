@@ -7,13 +7,13 @@ title: TCM-DiffRAG: Personalized Syndrome Differentiation Reasoning Method for T
 **arXiv**：[2602.22828v1](https://arxiv.org/abs/2602.22828) · [PDF](https://arxiv.org/pdf/2602.22828.pdf)  
 **作者**：Jianmin Li, Ying Chang, Su-Kit Tang, Yujia Liu, Yanwen Wang, Shuyuan Lin, Binkai Ou  
 
-**一句话要点**：提出TCM-DiffRAG框架，结合知识图谱与思维链，以提升中医个性化辨证推理性能
+**一句话要点**：提出TCM-DiffRAG框架，结合知识图谱与思维链，提升中医个性化辨证推理性能
 
 **关键词**：检索增强生成, 知识图谱, 思维链, 中医辨证, 个性化推理, 大语言模型
 
 ## 3 点简述
 - 传统RAG方法在中医复杂推理和个体差异场景中表现不佳
-- TCM-DiffRAG整合知识图谱与思维链，优化推理过程
+- TCM-DiffRAG集成知识图谱与思维链，优化推理过程
 - 实验显示在三个数据集上显著优于原生LLM、微调模型及其他RAG基准
 
 ## 摘要（原文）

@@ -7,14 +7,14 @@ title: SoPE: Spherical Coordinate-Based Positional Embedding for Enhancing Spati
 **arXiv**：[2602.22716v1](https://arxiv.org/abs/2602.22716) · [PDF](https://arxiv.org/pdf/2602.22716.pdf)  
 **作者**：Guanting Ye, Qiyan Zhao, Wenhao Yu, Liangyu Yuan, Mingkai Li, Xiaofeng Zhang, Jianmin Ji, Yanyong Zhang, Qing Jiang, Ka-Veng Yuen  
 
-**一句话要点**：提出SoPE位置嵌入方法以增强3D大视觉语言模型的空间感知能力
+**一句话要点**：提出SoPE位置嵌入以增强3D大视觉语言模型的空间感知能力
 
-**关键词**：3D大视觉语言模型, 位置嵌入, 球坐标系, 多模态学习, 点云数据
+**关键词**：3D大视觉语言模型, 位置嵌入, 球坐标系, 空间感知, 多尺度频率融合, 点云处理
 
 ## 3 点简述
-- 核心问题：RoPE位置嵌入在3D多模态理解中未能保留三维空间结构和方向依赖性
-- 方法要点：将点云令牌索引映射到球坐标系，统一建模空间位置和方向角度
-- 实验或效果：在多个3D场景基准测试中验证有效性，并展示强泛化能力
+- 核心问题：RoPE位置嵌入在3D场景中无法保持空间结构，忽略角度依赖。
+- 方法要点：将点云令牌映射到球坐标系，统一建模位置和方向，并融合多尺度频率。
+- 实验或效果：在多个3D基准测试中验证有效性，实际部署展示强泛化能力。
 
 ## 摘要（原文）
 

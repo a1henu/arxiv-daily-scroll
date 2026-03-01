@@ -7,14 +7,14 @@ title: Compress the Easy, Explore the Hard: Difficulty-Aware Entropy Regularizat
 **arXiv**：[2602.22642v1](https://arxiv.org/abs/2602.22642) · [PDF](https://arxiv.org/pdf/2602.22642.pdf)  
 **作者**：Qin-Wen Luo, Sheng Ren, Xiang Chen, Rui Liu, Jun Fang, Naiqiang Tan, Sheng-Jun Huang  
 
-**一句话要点**：提出难度感知熵正则化方法CEEH，以解决LLM推理中压缩与探索的平衡问题
+**一句话要点**：提出难度感知熵正则化方法CEEH，以在压缩LLM推理步骤时保持推理能力
 
 **关键词**：大语言模型推理, 思维链压缩, 难度感知学习, 熵正则化, 强化学习优化
 
 ## 3 点简述
-- 核心问题：现有推理压缩方法易导致熵崩溃，牺牲推理能力换取简短性
-- 方法要点：动态评估问题难度，对困难问题保持探索空间，对简单问题进行压缩
-- 实验效果：在六个基准测试中保持准确率的同时显著缩短响应长度
+- 核心问题：现有压缩方法为追求简短易导致熵崩溃，损害复杂问题的推理能力
+- 方法要点：动态评估问题难度，对难题保持探索空间，对易题进行激进压缩
+- 实验效果：在六个基准测试中，在保持准确率的同时有效缩短响应长度
 
 ## 摘要（原文）
 

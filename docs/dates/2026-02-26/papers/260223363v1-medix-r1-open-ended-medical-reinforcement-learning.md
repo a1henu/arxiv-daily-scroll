@@ -7,14 +7,14 @@ title: MediX-R1: Open Ended Medical Reinforcement Learning
 **arXiv**：[2602.23363v1](https://arxiv.org/abs/2602.23363) · [PDF](https://arxiv.org/pdf/2602.23363.pdf)  
 **作者**：Sahal Shaji Mullappilly, Mohammed Irfan Kurpath, Omair Mohamed, Mohamed Zidan, Fahad Khan, Salman Khan, Rao Anwer, Hisham Cholakkal  
 
-**一句话要点**：提出MediX-R1框架，通过强化学习提升医疗多模态大语言模型的开放式回答能力
+**一句话要点**：提出MediX-R1框架，通过强化学习提升医疗多模态大语言模型的开放式回答能力。
 
-**关键词**：医疗强化学习, 多模态大语言模型, 开放式回答, 复合奖励设计, LLM作为评判者
+**关键词**：医疗强化学习, 多模态大语言模型, 开放式回答, 复合奖励设计, LLM评估框架
 
 ## 3 点简述
-- 针对医疗多模态大语言模型在开放式任务中传统奖励机制不足的问题
-- 采用基于组的强化学习和复合奖励，包括准确性、语义、格式和模态奖励
-- 在少量指令数据上实现优异性能，尤其在开放式临床任务中表现突出
+- 针对医疗多模态大语言模型在开放式回答中缺乏有效反馈的问题，提出基于复合奖励的强化学习框架。
+- 采用基于LLM的准确性奖励、医学嵌入语义奖励和轻量级格式奖励，稳定优化模型输出。
+- 在少量指令数据上，MediX-R1在医疗文本和图像+文本基准测试中表现优异，尤其在开放式临床任务上提升显著。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: Decentralized Ranking Aggregation: Gossip Algorithms for Borda and Copela
 **arXiv**：[2602.22847v1](https://arxiv.org/abs/2602.22847) · [PDF](https://arxiv.org/pdf/2602.22847.pdf)  
 **作者**：Anna Van Elst, Kerrian Le Caillec, Igor Colin, Stephan Clémençon  
 
-**一句话要点**：提出基于随机八卦通信的去中心化排名聚合算法，以解决分布式网络中的共识排名计算问题。
+**一句话要点**：提出基于随机gossip通信的去中心化排名聚合算法，以解决分布式网络中Borda和Copeland共识计算问题。
 
-**关键词**：去中心化计算, 排名聚合, 八卦算法, 共识排名, Borda规则, Copeland规则
+**关键词**：去中心化计算, 排名聚合, gossip算法, Borda共识, Copeland共识, 分布式网络
 
 ## 3 点简述
-- 核心问题：在去中心化网络中，如何可靠计算排名聚合，如Borda和Copeland共识，面临数据分布和通信挑战。
-- 方法要点：利用随机八卦算法，通过局部交互实现全局排名共识，无需中央协调，提供收敛保证和速率界限。
-- 实验或效果：在多种网络拓扑和真实/合成数据集上验证算法快速可靠收敛至正确排名聚合，并评估鲁棒性和可扩展性。
+- 核心问题：在去中心化网络中聚合分布式排名数据，缺乏可靠共识计算方法。
+- 方法要点：利用随机gossip算法实现局部交互，支持Borda、Copeland、中位数排名和局部Kemenization规则。
+- 实验或效果：提供收敛保证和速率界限，实证显示算法快速可靠收敛到正确聚合结果。
 
 ## 摘要（原文）
 

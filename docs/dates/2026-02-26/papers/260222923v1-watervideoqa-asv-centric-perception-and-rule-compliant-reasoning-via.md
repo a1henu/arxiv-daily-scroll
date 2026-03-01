@@ -7,13 +7,13 @@ title: WaterVideoQA: ASV-Centric Perception and Rule-Compliant Reasoning via Mul
 **arXiv**：[2602.22923v1](https://arxiv.org/abs/2602.22923) · [PDF](https://arxiv.org/pdf/2602.22923.pdf)  
 **作者**：Runwei Guan, Shaofeng Liang, Ningwei Ouyang, Weichen Fei, Shanliang Yao, Wei Dai, Chenhao Ge, Penglei Sun, Xiaohui Zhu, Tao Huang, Ryan Wen Liu, Hui Xiong  
 
-**一句话要点**：提出WaterVideoQA基准和NaviMind系统，以提升自主水面舰艇在复杂水道环境中的认知推理能力。
+**一句话要点**：提出WaterVideoQA基准和NaviMind系统，以增强自主水面舰艇在复杂水道环境中的认知推理能力。
 
-**关键词**：视频问答基准, 海事自主导航, 多智能体系统, 神经符号推理, 认知框架, 动态环境
+**关键词**：视频问答基准, 自主水面舰艇, 多模态代理, 神经符号系统, 海事导航, 认知推理
 
 ## 3 点简述
 - 核心问题：自主导航在知识驱动交互认知方面存在不足，尤其在动态海事环境中。
-- 方法要点：构建大规模视频问答基准，并设计多智能体神经符号系统实现规则合规推理。
+- 方法要点：构建大规模视频问答基准，结合多代理神经符号系统实现规则合规推理。
 - 实验或效果：框架显著超越现有基线，为海事智能交互建立新范式。
 
 ## 摘要（原文）

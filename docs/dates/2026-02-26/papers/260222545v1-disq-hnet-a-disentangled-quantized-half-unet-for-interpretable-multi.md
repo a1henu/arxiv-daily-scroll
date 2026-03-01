@@ -7,14 +7,14 @@ title: DisQ-HNet: A Disentangled Quantized Half-UNet for Interpretable Multimoda
 **arXiv**：[2602.22545v1](https://arxiv.org/abs/2602.22545) · [PDF](https://arxiv.org/pdf/2602.22545.pdf)  
 **作者**：Agamdeep S. Chopra, Caitlin Neher, Tianyi Ren, Juampablo E. Heras Rivera, Mehmet Kurt  
 
-**一句话要点**：提出DisQ-HNet框架，从T1和FLAIR MRI合成tau-PET图像，以解决阿尔茨海默病病理标记成本高和可用性有限的问题。
+**一句话要点**：提出DisQ-HNet框架，从T1和FLAIR MRI合成tau-PET，以解决阿尔茨海默病病理标记成本高和可用性有限的问题。
 
-**关键词**：多模态图像合成, tau-PET合成, 部分信息分解, 向量量化编码, Half-UNet解码, 阿尔茨海默病诊断
+**关键词**：多模态图像合成, 阿尔茨海默病诊断, 向量量化编码, 信息分解, 医学影像分析, tau-PET合成
 
 ## 3 点简述
-- 核心问题：tau-PET作为阿尔茨海默病病理标记成本高且可用性有限，需要基于MRI的替代方案。
-- 方法要点：结合PID引导的向量量化编码器分解潜在信息，以及Half-UNet解码器利用结构边缘线索保持解剖细节。
-- 实验或效果：在多个基线模型上保持重建保真度，并更好地保留疾病相关信号，支持下游AD任务如Braak分期和分类。
+- 核心问题：tau-PET作为阿尔茨海默病病理标记成本高且可用性有限，需基于MRI的替代方案。
+- 方法要点：结合PID引导的向量量化编码器分解潜在信息，以及Half-UNet解码器利用结构边缘线索保留解剖细节。
+- 实验或效果：在多个基线模型上保持重建保真度，并更好地保留疾病相关信号用于下游任务，如Braak分期和分类。
 
 ## 摘要（原文）
 

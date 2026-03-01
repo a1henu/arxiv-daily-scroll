@@ -7,14 +7,14 @@ title: TorchLean: Formalizing Neural Networks in Lean
 **arXiv**：[2602.22631v1](https://arxiv.org/abs/2602.22631) · [PDF](https://arxiv.org/pdf/2602.22631.pdf)  
 **作者**：Robert Joseph George, Jennifer Cruden, Xiangru Zhong, Huan Zhang, Anima Anandkumar  
 
-**一句话要点**：提出TorchLean框架，在Lean 4中形式化神经网络，统一执行与验证语义以解决安全关键系统验证问题。
+**一句话要点**：提出TorchLean框架，以统一执行与验证的精确语义，解决神经网络在安全关键系统中语义鸿沟问题。
 
-**关键词**：形式化验证, 神经网络语义, 定理证明, 安全关键系统, 浮点精度, 边界传播
+**关键词**：形式化验证, 神经网络语义, 定理证明, 安全关键系统, 浮点运算, 边界传播
 
 ## 3 点简述
-- 核心问题：神经网络部署于安全关键系统时，执行与验证语义分离导致语义鸿沟，影响保证可靠性。
-- 方法要点：在Lean 4中构建PyTorch风格API，集成IEEE-754浮点语义和IBP/CROWN/LiRPA验证，实现形式化统一。
-- 实验或效果：验证了认证鲁棒性、PINNs物理约束和神经控制器稳定性，并机械化通用逼近定理等理论结果。
+- 核心问题：神经网络执行与验证分离导致语义鸿沟，影响安全关键系统可靠性。
+- 方法要点：在Lean 4中构建PyTorch风格API，集成IEEE-754浮点语义和IBP/CROWN/LiRPA验证方法。
+- 实验或效果：验证了认证鲁棒性、PINNs物理约束和神经控制器稳定性，并实现通用逼近定理机械化证明。
 
 ## 摘要（原文）
 

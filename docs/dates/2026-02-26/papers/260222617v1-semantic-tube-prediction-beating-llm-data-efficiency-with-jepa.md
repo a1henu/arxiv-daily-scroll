@@ -14,7 +14,7 @@ title: Semantic Tube Prediction: Beating LLM Data Efficiency with JEPA
 ## 3 点简述
 - 核心问题：大语言模型的数据效率受限于缩放定律，缺乏优化训练方法。
 - 方法要点：引入测地线假设，设计语义管预测任务作为JEPA正则化，约束隐藏状态轨迹。
-- 实验或效果：在NL-RX-SYNTH数据集上，用16倍少数据达到基线准确率，违反Chinchilla缩放定律。
+- 实验或效果：在NL-RX-SYNTH数据集上，用16倍少数据达到基线准确率，违反Chinchilla式缩放定律。
 
 ## 摘要（原文）
 

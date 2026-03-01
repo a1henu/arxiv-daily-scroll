@@ -7,14 +7,14 @@ title: ColoDiff: Integrating Dynamic Consistency With Content Awareness for Colo
 **arXiv**：[2602.23203v1](https://arxiv.org/abs/2602.23203) · [PDF](https://arxiv.org/pdf/2602.23203.pdf)  
 **作者**：Junhu Fu, Shuyu Liang, Wutong Li, Chen Ma, Peng Huang, Kehao Wang, Ke Chen, Shengli Lin, Pinghong Zhou, Zeju Li, Yuanyuan Wang, Yi Guo  
 
-**一句话要点**：提出ColoDiff框架，通过动态一致性与内容感知生成结肠镜视频以缓解数据稀缺问题。
+**一句话要点**：提出ColoDiff框架，通过动态一致性和内容感知生成结肠镜视频以缓解数据稀缺问题
 
 **关键词**：结肠镜视频生成, 扩散模型, 时间一致性, 内容感知控制, 非马尔可夫采样, 临床数据增强
 
 ## 3 点简述
-- 核心问题：结肠镜视频生成需处理不规则肠道结构、多样疾病表征和成像模态，确保时间一致性和临床属性精确控制。
-- 方法要点：TimeStream模块解耦时间依赖，Content-Aware模块注入噪声嵌入和可学习原型实现精细控制，非马尔可夫采样加速生成。
-- 实验或效果：在多个数据集评估，生成视频过渡平滑、动态丰富，提升下游任务如疾病诊断和病变分割性能。
+- 核心问题：结肠镜视频生成需处理不规则肠道结构、多样疾病表示和成像模态，确保时间一致性和临床属性精确控制
+- 方法要点：采用扩散模型，TimeStream模块解耦时间依赖，Content-Aware模块通过噪声嵌入和可学习原型实现精细属性控制
+- 实验或效果：在多个数据集上评估，生成视频过渡平滑、动态丰富，支持疾病诊断、模态判别等下游任务，采样步骤减少超90%
 
 ## 摘要（原文）
 

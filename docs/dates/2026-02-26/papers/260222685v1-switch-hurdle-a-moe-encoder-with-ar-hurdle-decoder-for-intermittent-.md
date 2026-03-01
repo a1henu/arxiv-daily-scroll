@@ -7,14 +7,14 @@ title: Switch-Hurdle: A MoE Encoder with AR Hurdle Decoder for Intermittent Dema
 **arXiv**：[2602.22685v1](https://arxiv.org/abs/2602.22685) · [PDF](https://arxiv.org/pdf/2602.22685.pdf)  
 **作者**：Fabian Muşat, Simona Căbuz  
 
-**一句话要点**：提出Switch-Hurdle框架，结合MoE编码器与AR Hurdle解码器，以解决间歇性需求预测问题。
+**一句话要点**：提出Switch-Hurdle框架，结合MoE编码器与AR Hurdle解码器，以解决零售间歇性需求预测难题。
 
 **关键词**：间歇性需求预测, 混合专家模型, Hurdle模型, 自回归解码器, 零售预测, 稀疏序列处理
 
 ## 3 点简述
 - 间歇性需求预测面临零值序列长、非零值稀疏的挑战，传统和现代方法常表现不佳。
-- Switch-Hurdle采用MoE编码器稀疏前向、近似稠密反向，解码器通过Hurdle结构分离销售概率与数量预测。
-- 在M5基准和零售数据集上，Switch-Hurdle实现最优预测性能，同时保持可扩展性。
+- Switch-Hurdle采用MoE编码器稀疏前向、近似稠密反向，解码器通过Hurdle头分离销售概率与数量预测。
+- 在M5基准和专有零售数据集上，Switch-Hurdle实现最优预测性能，同时保持可扩展性。
 
 ## 摘要（原文）
 

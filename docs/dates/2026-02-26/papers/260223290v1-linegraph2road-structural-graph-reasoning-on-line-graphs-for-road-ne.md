@@ -7,14 +7,14 @@ title: LineGraph2Road: Structural Graph Reasoning on Line Graphs for Road Networ
 **arXiv**：[2602.23290v1](https://arxiv.org/abs/2602.23290) · [PDF](https://arxiv.org/pdf/2602.23290.pdf)  
 **作者**：Zhengyang Wei, Renzhi Jing, Yiyi He, Jenny Suckale  
 
-**一句话要点**：提出LineGraph2Road框架，通过线图结构推理改进卫星图像道路网络提取的连通性预测。
+**一句话要点**：提出LineGraph2Road框架，通过线图结构推理改进卫星图像道路网络提取
 
-**关键词**：道路网络提取, 图Transformer, 线图推理, 卫星图像分析, 连通性预测, 结构表示学习
+**关键词**：道路网络提取, 图神经网络, 卫星图像分析, 线图变换, 结构推理, 连通性预测
 
 ## 3 点简述
-- 核心问题：现有方法在道路提取中难以捕获长距离依赖和复杂拓扑结构，影响连通性预测准确性。
-- 方法要点：将连通性预测建模为稀疏欧几里得图上的边二分类，并在线图上应用图Transformer以增强结构表示学习。
-- 实验或效果：在City-scale、SpaceNet和Global-scale基准测试中，TOPO-F1和APLS指标达到先进水平，并引入立交桥/地下通道头和多级交叉解析策略。
+- 核心问题：现有方法难以捕捉道路网络的长程依赖和复杂拓扑结构
+- 方法要点：将连通性预测转化为稀疏欧几里得图边分类，在线图上应用图Transformer
+- 实验效果：在City-scale等三个基准测试中取得TOPO-F1和APLS指标的先进结果
 
 ## 摘要（原文）
 

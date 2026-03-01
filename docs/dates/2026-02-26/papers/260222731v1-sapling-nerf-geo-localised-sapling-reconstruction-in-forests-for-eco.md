@@ -14,7 +14,7 @@ title: Sapling-NeRF: Geo-Localised Sapling Reconstruction in Forests for Ecologi
 ## 3 点简述
 - 核心问题：现有3D传感方法难以捕捉幼苗细尺度结构，且缺乏地理定位能力，阻碍长期定量评估。
 - 方法要点：采用三级表示，结合GNSS粗定位、LiDAR SLAM厘米级定位与NeRF对象中心重建，提升重建精度与可重复性。
-- 实验或效果：在森林样地验证，相比TLS，能更准确测量幼苗高度、分枝模式和叶木比，支持生态分析。
+- 实验或效果：在英芬森林实验中，相比TLS，能更准确测量幼苗高度、分枝模式和叶木比，支持生态分析。
 
 ## 摘要（原文）
 

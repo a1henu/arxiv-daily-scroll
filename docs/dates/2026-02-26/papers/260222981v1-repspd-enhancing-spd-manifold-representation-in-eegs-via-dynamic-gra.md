@@ -7,14 +7,14 @@ title: RepSPD: Enhancing SPD Manifold Representation in EEGs via Dynamic Graphs
 **arXiv**：[2602.22981v1](https://arxiv.org/abs/2602.22981) · [PDF](https://arxiv.org/pdf/2602.22981.pdf)  
 **作者**：Haohui Jia, Zheng Chen, Lingwei Zhu, Xu Cao, Yasuko Matsubara, Takashi Matsubara, Yasushi Sakurai  
 
-**一句话要点**：提出RepSPD模型，通过动态图增强EEG中SPD流形表示，提升脑活动解码性能。
+**一句话要点**：提出RepSPD模型，通过动态图和全局对齐增强EEG中SPD流形表示，以解决现有方法忽略频率同步和局部拓扑结构的问题。
 
-**关键词**：脑电图解码, 黎曼流形学习, 几何深度学习, 动态图神经网络, 对称正定矩阵
+**关键词**：脑电图解码, 黎曼流形学习, 几何深度学习, 功能连接图, 对称正定矩阵, 交叉注意力机制
 
 ## 3 点简述
-- 核心问题：现有SPD方法忽略EEG频率同步和脑区局部拓扑结构，导致表示不充分。
-- 方法要点：在黎曼流形上使用交叉注意力机制，结合图功能连接特征调制SPD几何属性。
-- 实验或效果：实验显示RepSPD显著优于现有EEG表示方法，具有更强鲁棒性和泛化能力。
+- 核心问题：现有基于SPD的EEG方法主要关注统计聚合，忽略了频率特定同步和脑区局部拓扑结构。
+- 方法要点：在黎曼流形上使用交叉注意力机制，结合图功能连接特征调制SPD几何属性，并引入全局双向对齐策略减少几何失真。
+- 实验或效果：实验表明RepSPD显著优于现有EEG表示方法，展现出更强的鲁棒性和泛化能力。
 
 ## 摘要（原文）
 

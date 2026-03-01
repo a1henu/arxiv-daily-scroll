@@ -7,14 +7,14 @@ title: A data- and compute-efficient chest X-ray foundation model beyond aggress
 **arXiv**：[2602.22843v1](https://arxiv.org/abs/2602.22843) · [PDF](https://arxiv.org/pdf/2602.22843.pdf)  
 **作者**：Chong Wang, Yabin Zhang, Yunhe Gao, Maya Varma, Clemence Mottez, Faidra Patsatzi, Jiaming Liu, Jin Long, Jean-Benoit Delbrouck, Sergios Gatidis, Akshay S. Chaudhari, Curtis P. Langlotz  
 
-**一句话要点**：提出CheXficient胸片基础模型，通过主动数据筛选实现高效预训练，替代盲目扩大数据集。
+**一句话要点**：提出CheXficient胸片基础模型，通过主动数据筛选替代大规模数据集扩展，实现高效预训练。
 
 **关键词**：医学影像基础模型, 数据筛选, 计算效率, 胸片分析, 多任务评估, 长尾学习
 
 ## 3 点简述
 - 核心问题：大规模医学影像数据集存在冗余和类别不平衡，导致计算效率低和表示学习偏差。
-- 方法要点：在预训练中主动筛选信息丰富的训练样本，仅使用22.7%的数据和27.3%的计算资源。
-- 实验或效果：在20个基准测试中表现可比或优于全数据模型，提升长尾或罕见条件的泛化能力。
+- 方法要点：在预训练中主动筛选信息丰富的训练样本，仅使用22.7%的数据和27.3%的计算预算。
+- 实验或效果：在20个基准测试中表现可比或优于全数据模型，提升长尾或罕见病症的泛化能力。
 
 ## 摘要（原文）
 

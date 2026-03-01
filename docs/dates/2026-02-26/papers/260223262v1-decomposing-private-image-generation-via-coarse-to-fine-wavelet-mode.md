@@ -7,14 +7,14 @@ title: Decomposing Private Image Generation via Coarse-to-Fine Wavelet Modeling
 **arXiv**：[2602.23262v1](https://arxiv.org/abs/2602.23262) · [PDF](https://arxiv.org/pdf/2602.23262.pdf)  
 **作者**：Jasmine Bayrooti, Weiwei Kong, Natalia Ponomareva, Carlos Esteves, Ameesh Makadia, Amanda Prorok  
 
-**一句话要点**：提出基于小波建模的差分隐私图像生成框架，以平衡隐私与图像质量
+**一句话要点**：提出基于小波建模的谱差分隐私框架，以提升私有图像生成的质量与隐私权衡。
 
-**关键词**：差分隐私图像生成, 小波建模, 两阶段框架, 隐私-效用权衡, 图像质量提升
+**关键词**：差分隐私, 图像生成, 小波变换, 谱分析, 隐私保护, 超分辨率
 
 ## 3 点简述
-- 核心问题：差分隐私训练导致图像质量下降，尤其在高频纹理细节上
-- 方法要点：分两阶段处理，先对低频小波系数进行隐私微调，再用公开模型上采样
-- 实验或效果：在MS-COCO和MM-CelebA-HQ数据集上，相比其他方法提升了图像质量和风格捕捉
+- 核心问题：差分隐私微调导致图像质量下降，尤其在高频纹理，因噪声添加不区分。
+- 方法要点：假设隐私敏感部分为小波空间低频成分，分两阶段：DP微调低频系数，公开模型上采样高频细节。
+- 实验或效果：在MS-COCO和MM-CelebA-HQ数据集上，相比其他DP框架，图像质量和风格捕获有改进。
 
 ## 摘要（原文）
 

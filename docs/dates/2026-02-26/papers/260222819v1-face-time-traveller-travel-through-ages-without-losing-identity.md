@@ -9,12 +9,12 @@ title: Face Time Traveller : Travel Through Ages Without Losing Identity
 
 **一句话要点**：提出Face Time Traveller框架，通过扩散模型实现高保真、身份一致的人脸年龄变换。
 
-**关键词**：人脸年龄变换, 扩散模型, 身份保持, 注意力控制, 提示细化, 背景一致性
+**关键词**：人脸年龄变换, 扩散模型, 身份保持, 自适应注意力控制, 属性感知提示
 
 ## 3 点简述
 - 核心问题：现有方法在宽年龄变换中身份保持不足，且扩散模型存在静态注意力和优化繁重问题。
-- 方法要点：引入Face-Attribute-Aware Prompt Refinement编码内外老化线索，Adaptive Attention Control动态平衡注意力，Angular Inversion高效映射真实人脸。
-- 实验或效果：在基准数据集和野外测试集上，FaceTT在身份保留、背景一致性和老化真实性方面优于SOTA方法。
+- 方法要点：引入Face-Attribute-Aware Prompt Refinement编码内外老化线索，结合Adaptive Attention Control动态平衡注意力。
+- 实验或效果：在基准数据集和野外测试集上优于SOTA方法，实现身份保留、背景一致和老化真实感。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: Residual Koopman Spectral Profiling for Predicting and Preventing Transfo
 **arXiv**：[2602.22988v1](https://arxiv.org/abs/2602.22988) · [PDF](https://arxiv.org/pdf/2602.22988.pdf)  
 **作者**：Bum Jun Kim, Shohei Taniguchi, Makoto Kawano, Yusuke Iwasawa, Yutaka Matsuo  
 
-**一句话要点**：提出残差库普曼谱分析以预测和防止Transformer训练不稳定性
+**一句话要点**：提出残差库普曼谱分析以预测和防止Transformer训练不稳定
 
-**关键词**：Transformer训练稳定性, 库普曼谱分析, 动态模式分解, 训练发散预测, 谱整形, 语言建模
+**关键词**：Transformer训练稳定性, 库普曼谱分析, 动态模式分解, 训练发散预测, 谱整形技术
 
 ## 3 点简述
 - 核心问题：Transformer训练发散浪费计算资源，需在训练前评估失败概率。
-- 方法要点：通过初始化时单次前向传递，提取残差快照的库普曼谱特征，用近单位谱质量量化不稳定性风险。
-- 实验或效果：在广泛配置中AUROC达0.995，库普曼谱整形可将发散率从66.7%降至12.5%，并提高学习率。
+- 方法要点：通过初始化单次前向传递提取残差库普曼谱特征，用近单位谱质量量化不稳定风险。
+- 实验或效果：AUROC达0.995，优于梯度基线，库普曼谱整形可降低发散率并提高学习率。
 
 ## 摘要（原文）
 

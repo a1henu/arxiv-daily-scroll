@@ -7,14 +7,14 @@ title: MobilityBench: A Benchmark for Evaluating Route-Planning Agents in Real-W
 **arXiv**：[2602.22638v1](https://arxiv.org/abs/2602.22638) · [PDF](https://arxiv.org/pdf/2602.22638.pdf)  
 **作者**：Zhiheng Song, Jingshuai Zhang, Chuan Qin, Chao Wang, Chao Chen, Longfei Xu, Kaikui Liu, Xiangxiang Chu, Hengshu Zhu  
 
-**一句话要点**：提出MobilityBench基准以评估现实移动场景中基于LLM的路径规划智能体
+**一句话要点**：提出MobilityBench基准以评估现实世界移动场景中的路线规划智能体
 
-**关键词**：路径规划基准, 大语言模型评估, 现实移动场景, 可复现性沙盒, 多维度评估
+**关键词**：路线规划基准, 大语言模型评估, 移动场景, 可复现性, 多维度评估
 
 ## 3 点简述
-- 核心问题：现实移动场景中基于LLM的路径规划智能体缺乏系统评估，受制于多样需求和非确定性服务。
-- 方法要点：构建基于真实用户查询的基准，设计确定性API重放沙盒以确保可复现性。
-- 实验或效果：评估显示模型在基础任务上表现良好，但在偏好约束路径规划上存在显著不足。
+- 核心问题：现实世界移动场景中LLM路线规划智能体评估缺乏系统性，受制于多样需求和非确定性服务。
+- 方法要点：基于真实用户查询构建基准，设计确定性API重放沙盒确保可复现性，提出多维度评估协议。
+- 实验或效果：评估显示模型在基础任务上表现良好，但在偏好约束路线规划上存在显著不足。
 
 ## 摘要（原文）
 

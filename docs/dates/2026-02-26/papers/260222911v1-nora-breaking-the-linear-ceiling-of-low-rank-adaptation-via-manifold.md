@@ -9,12 +9,12 @@ title: NoRA: Breaking the Linear Ceiling of Low-Rank Adaptation via Manifold Exp
 
 **一句话要点**：提出NoRA以解决LoRA在复杂推理任务中的线性天花板问题
 
-**关键词**：参数高效微调, 低秩适应, 非线性适配器, 流形扩展, 奇异值分解
+**关键词**：低秩适应, 参数高效微调, 非线性适配器, 流形扩展, 复杂推理任务
 
 ## 3 点简述
-- LoRA在参数高效微调中占主导，但面临线性天花板，增加秩导致收益递减。
-- NoRA引入SiLU门控和结构dropout，通过流形扩展实现非线性秩适应。
-- 在SlimOrca和MathInstruct基准上，NoRA以更低秩超越LoRA性能，SVD分析证实其激活奇异值谱尾部。
+- LoRA在复杂推理任务中面临线性天花板，增加秩的收益递减
+- NoRA通过SiLU门控和结构化dropout引入非线性，实现流形扩展
+- 在SlimOrca和MathInstruct基准上，NoRA以更低秩超越LoRA性能
 
 ## 摘要（原文）
 

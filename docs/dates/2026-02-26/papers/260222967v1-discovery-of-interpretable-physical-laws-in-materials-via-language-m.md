@@ -7,9 +7,9 @@ title: Discovery of Interpretable Physical Laws in Materials via Language-Model-
 **arXiv**：[2602.22967v1](https://arxiv.org/abs/2602.22967) · [PDF](https://arxiv.org/pdf/2602.22967.pdf)  
 **作者**：Yifeng Guan, Chuyi Liu, Dongzhan Zhou, Lei Bai, Wan-jian Yin, Jingyuan Li, Mao Su  
 
-**一句话要点**：提出语言模型引导的符号回归框架，以高效发现材料中的可解释物理定律。
+**一句话要点**：提出语言模型引导的符号回归框架，以发现材料中的可解释物理定律。
 
-**关键词**：符号回归, 大语言模型, 材料科学, 物理定律发现, 可解释性, 钙钛矿材料
+**关键词**：符号回归, 大语言模型, 材料科学, 物理定律发现, 可解释性
 
 ## 3 点简述
 - 核心问题：从高维数据中发现可解释物理定律，传统符号回归易产生复杂非物理公式。

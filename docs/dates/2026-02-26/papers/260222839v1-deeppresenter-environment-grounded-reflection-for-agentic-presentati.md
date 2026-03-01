@@ -7,14 +7,14 @@ title: DeepPresenter: Environment-Grounded Reflection for Agentic Presentation G
 **arXiv**：[2602.22839v1](https://arxiv.org/abs/2602.22839) · [PDF](https://arxiv.org/pdf/2602.22839.pdf)  
 **作者**：Hao Zheng, Guozhao Mo, Xinru Yan, Qianhao Yuan, Wenkai Zhang, Xuanang Chen, Yaojie Lu, Hongyu Lin, Xianpei Han, Le Sun  
 
-**一句话要点**：提出DeepPresenter框架，通过环境感知反思解决演示文稿生成中的自适应与迭代优化问题。
+**一句话要点**：提出DeepPresenter框架，通过环境感知的反思机制解决自适应演示生成问题。
 
-**关键词**：演示文稿生成, 环境感知反思, 长时程优化, 自适应代理, 反馈驱动生成
+**关键词**：演示生成, 环境感知反思, 自适应代理, 长时程优化, 幻灯片渲染
 
 ## 3 点简述
-- 现有演示文稿生成代理依赖预定义流程和固定模板，缺乏自适应性和反馈驱动优化。
-- DeepPresenter采用环境感知反思，基于感知到的幻灯片状态进行规划和修订，支持长时程迭代。
-- 在多样化场景评估中达到最优性能，9B微调模型在低成本下保持高竞争力。
+- 现有演示生成代理依赖预定义流程和固定模板，缺乏自适应性和迭代优化能力。
+- DeepPresenter采用环境感知反思，基于感知到的幻灯片状态进行规划和修订，支持长时程优化。
+- 在多样化演示场景评估中，DeepPresenter达到最优性能，9B模型在低成本下保持竞争力。
 
 ## 摘要（原文）
 

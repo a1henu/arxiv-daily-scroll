@@ -13,7 +13,7 @@ title: Physics Informed Viscous Value Representations
 
 ## 3 点简述
 - 离线目标条件强化学习中，状态-动作空间覆盖有限导致价值估计不准确。
-- 方法利用HJB方程的粘性解提供物理归纳偏置，通过Feynman-Kac定理实现蒙特卡洛估计。
+- 方法利用HJB方程的粘性解作为物理正则化，通过Feynman-Kac定理实现蒙特卡洛估计。
 - 实验显示方法提升几何一致性，适用于导航和高维复杂操作任务。
 
 ## 摘要（原文）

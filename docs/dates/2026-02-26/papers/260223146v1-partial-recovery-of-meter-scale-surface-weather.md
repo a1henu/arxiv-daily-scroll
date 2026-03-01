@@ -7,14 +7,14 @@ title: Partial recovery of meter-scale surface weather
 **arXiv**：[2602.23146v1](https://arxiv.org/abs/2602.23146) · [PDF](https://arxiv.org/pdf/2602.23146.pdf)  
 **作者**：Jonathan Giezendanner, Qidong Yang, Eric Schmitt, Anirban Chandra, Daniel Salles Civitarese, Johannes Jakubik, Jeremy Vila, Detlef Hohl, Campbell Watson, Sherrie Wang  
 
-**一句话要点**：提出基于观测数据与高分辨率地球观测的统计推断方法，实现米级近地表天气场的部分恢复。
+**一句话要点**：提出基于观测数据恢复米级近地表天气的方法，提升美国大陆天气推断精度。
 
-**关键词**：米级天气恢复, 近地表气象推断, 高分辨率地球观测, 统计条件推断, 空间连续场
+**关键词**：米级天气推断, 近地表气象, 高分辨率地球观测, 条件化建模, 空间连续场
 
 ## 3 点简述
-- 核心问题：米级近地表天气变异性是否可预测，当前天气分析缺乏此尺度信息。
-- 方法要点：利用稀疏地面站测量和高分辨率地球观测数据，对粗尺度大气状态进行条件推断。
-- 实验或效果：在美国大陆实现10米分辨率推断，相比ERA5降低风误差29%，温度露点误差6%。
+- 核心问题：米级近地表天气变异性是否可预测，当前天气分析缺失此尺度信息。
+- 方法要点：利用稀疏站点测量和高分辨率地球观测数据，条件化粗尺度大气状态进行推断。
+- 实验或效果：在10米分辨率下，相比ERA5，风误差减少29%，温度和露点误差减少6%。
 
 ## 摘要（原文）
 

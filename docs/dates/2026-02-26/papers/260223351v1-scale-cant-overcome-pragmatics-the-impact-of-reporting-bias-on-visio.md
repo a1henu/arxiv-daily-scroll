@@ -7,14 +7,14 @@ title: Scale Can't Overcome Pragmatics: The Impact of Reporting Bias on Vision-L
 **arXiv**：[2602.23351v1](https://arxiv.org/abs/2602.23351) · [PDF](https://arxiv.org/pdf/2602.23351.pdf)  
 **作者**：Amita Kamath, Jack Hessel, Khyathi Chandu, Jena D. Hwang, Kai-Wei Chang, Ranjay Krishna  
 
-**一句话要点**：揭示报告偏差限制视觉语言模型推理能力，提出针对性数据标注方法
+**一句话要点**：揭示报告偏差限制视觉语言模型推理能力，提出针对性数据标注以提升性能
 
 **关键词**：视觉语言模型, 报告偏差, 推理能力, 数据标注, 语用学, 模型评估
 
 ## 3 点简述
 - 核心问题：视觉语言模型推理能力不足源于训练数据中的报告偏差，即默认省略隐含信息。
 - 方法要点：基于语用学理论分析OpenCLIP等模型数据，发现空间、时间、否定和计数推理技能代表性不足。
-- 实验或效果：实验表明，扩大数据规模无法自动提升推理能力，但针对性标注数据有效改善性能。
+- 实验或效果：实验表明，扩大数据规模无法自动提升推理能力，但针对性标注数据能有效改善性能。
 
 ## 摘要（原文）
 

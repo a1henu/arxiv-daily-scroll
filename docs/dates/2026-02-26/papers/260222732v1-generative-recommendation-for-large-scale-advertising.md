@@ -7,14 +7,14 @@ title: Generative Recommendation for Large-Scale Advertising
 **arXiv**：[2602.22732v1](https://arxiv.org/abs/2602.22732) · [PDF](https://arxiv.org/pdf/2602.22732.pdf)  
 **作者**：Ben Xue, Dan Liu, Lixiang Wang, Mingjie Sun, Peng Wang, Pengfei Zhang, Shaoyun Shi, Tianyu Xu, Yunhao Sha, Zhiqiang Liu, Bo Kong, Bo Wang, Hang Yang, Jieting Xue, Junhao Wang, Shengyu Wang, Shuping Hui, Wencai Ye, Xiao Lin, Yongzhi Li, Yuhang Chen, Zhihui Yin, Quan Chen, Shiyang Wen, Wenjin Wu, Han Li, Guorui Zhou, Changcheng Li, Peng Jiang  
 
-**一句话要点**：提出GR4AD生成式推荐系统，以解决大规模广告中实时部署的挑战。
+**一句话要点**：提出GR4AD生成式推荐系统，针对大规模广告场景优化架构、学习与服务，提升收入与可扩展性。
 
-**关键词**：生成式推荐, 广告系统, 实时推理, 自回归解码, 强化学习优化, 大规模部署
+**关键词**：生成式推荐, 广告系统, 自回归解码, 强化学习, 实时推理, 模型扩展
 
 ## 3 点简述
-- 核心问题：大规模广告中生成式推荐需超越LLM式训练与服务设计，实现实时高效部署。
-- 方法要点：引入UA-SID统一广告语义ID、LazyAR懒自回归解码器、VSL与RSPO优化算法，支持动态波束服务。
-- 实验或效果：在线A/B测试显示广告收入提升达4.2%，已在快手广告系统部署，服务超4亿用户。
+- 核心问题：大规模广告中实时生成式推荐需超越LLM式训练与服务设计，以平衡效果与成本。
+- 方法要点：引入UA-SID统一广告语义ID、LazyAR懒自回归解码器降低推理成本，以及RSPO排名引导优化算法对齐业务价值。
+- 实验或效果：在线A/B测试显示广告收入提升达4.2%，已在快手广告系统部署，支持高吞吐实时服务。
 
 ## 摘要（原文）
 

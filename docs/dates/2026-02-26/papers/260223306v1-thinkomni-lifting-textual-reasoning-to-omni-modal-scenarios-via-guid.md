@@ -7,14 +7,14 @@ title: ThinkOmni: Lifting Textual Reasoning to Omni-modal Scenarios via Guidance
 **arXiv**：[2602.23306v1](https://arxiv.org/abs/2602.23306) · [PDF](https://arxiv.org/pdf/2602.23306.pdf)  
 **作者**：Yiran Guan, Sifan Tu, Dingkang Liang, Linghao Zhu, Jianzhong Ju, Zhenbo Luo, Jian Luan, Yuliang Liu, Xiang Bai  
 
-**一句话要点**：提出ThinkOmni框架，通过引导解码将文本推理能力提升至全模态场景。
+**一句话要点**：提出ThinkOmni框架，通过引导解码将文本推理能力提升至全模态场景
 
-**关键词**：全模态推理, 引导解码, 训练免费框架, 多模态基准测试, 感知与推理平衡
+**关键词**：全模态推理, 引导解码, 步进对比缩放, 训练免费框架, 多模态基准测试
 
 ## 3 点简述
-- 核心问题：现有全模态大语言模型感知能力强但推理能力不足，增强训练面临数据、适配和计算成本挑战。
-- 方法要点：引入LRM-as-a-Guide利用现成大型推理模型引导解码，Stepwise Contrastive Scaling自适应平衡感知与推理信号。
-- 实验或效果：在六个多模态推理基准测试中性能提升，MathVista达70.2，MMAU达75.5。
+- 核心问题：现有全模态大语言模型感知能力强但推理能力不足，增强训练面临数据、计算等挑战
+- 方法要点：利用现成大推理模型引导解码，结合步进对比缩放自适应平衡感知与推理信号
+- 实验或效果：在六个多模态推理基准上性能提升，如MathVista达70.2，MMAU达75.5
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: Obscure but Effective: Classical Chinese Jailbreak Prompt Optimization vi
 **arXiv**：[2602.22983v1](https://arxiv.org/abs/2602.22983) · [PDF](https://arxiv.org/pdf/2602.22983.pdf)  
 **作者**：Xun Huang, Simeng Qin, Xiaoshuang Jia, Ranjie Duan, Huanqian Yan, Zhitao Zeng, Fei Yang, Yang Liu, Xiaojun Jia  
 
-**一句话要点**：提出CC-BOS框架，利用古典中文优化黑盒越狱攻击
+**一句话要点**：提出CC-BOS框架，利用古典中文和果蝇优化算法自动化生成对抗提示以增强黑盒越狱攻击效果。
 
-**关键词**：古典中文越狱攻击, 黑盒对抗提示优化, 果蝇优化算法, 大语言模型安全, 自动提示生成
+**关键词**：大语言模型安全, 越狱攻击, 古典中文对抗提示, 果蝇优化算法, 黑盒攻击
 
 ## 3 点简述
-- 研究古典中文在LLM越狱攻击中的作用，因其简洁隐晦可绕过安全约束
-- 基于多维果蝇优化自动生成古典中文对抗提示，编码为八维策略并迭代优化
-- 实验显示CC-BOS在黑盒设置下高效，优于现有越狱攻击方法
+- 研究古典中文在LLM越狱攻击中的作用，因其简洁隐晦可部分绕过安全约束。
+- 基于多维果蝇优化设计CC-BOS框架，自动生成古典中文对抗提示，覆盖八个策略维度。
+- 实验表明CC-BOS在黑盒设置下优于现有越狱攻击方法，并设计翻译模块提升可读性。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: Unleashing the Potential of Diffusion Models for End-to-End Autonomous Dr
 **arXiv**：[2602.22801v1](https://arxiv.org/abs/2602.22801) · [PDF](https://arxiv.org/pdf/2602.22801.pdf)  
 **作者**：Yinan Zheng, Tianyi Tan, Bin Huang, Enguang Liu, Ruiming Liang, Jianlin Zhang, Jianwei Cui, Guang Chen, Kun Ma, Hangjun Ye, Long Chen, Ya-Qin Zhang, Xianyuan Zhan, Jingjing Liu  
 
-**一句话要点**：提出Hyper Diffusion Planner以解决端到端自动驾驶在真实世界中的规划问题
+**一句话要点**：提出Hyper Diffusion Planner以解决端到端自动驾驶在复杂现实场景中的规划问题
 
-**关键词**：扩散模型, 端到端自动驾驶, 轨迹规划, 强化学习后训练, 实车测试, 数据缩放
+**关键词**：扩散模型, 端到端自动驾驶, 轨迹规划, 强化学习后训练, 实车部署, 数据缩放
 
 ## 3 点简述
-- 核心问题：扩散模型在真实世界端到端自动驾驶中的应用与评估有限，潜力未充分挖掘
+- 核心问题：扩散模型在自动驾驶中的应用局限于仿真或实验室，未充分探索其在复杂现实端到端规划中的潜力
 - 方法要点：基于大量实车数据，系统研究扩散损失空间、轨迹表示和数据缩放，并采用强化学习后训练提升安全性
-- 实验或效果：在真实车辆平台部署，经6种场景和200公里测试，性能比基础模型提升10倍
+- 实验或效果：在真实车辆平台上部署，经6种城市场景和200公里测试，性能比基础模型提升10倍
 
 ## 摘要（原文）
 

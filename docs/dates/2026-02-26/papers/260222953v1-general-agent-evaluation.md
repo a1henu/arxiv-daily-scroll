@@ -7,14 +7,14 @@ title: General Agent Evaluation
 **arXiv**：[2602.22953v1](https://arxiv.org/abs/2602.22953) · [PDF](https://arxiv.org/pdf/2602.22953.pdf)  
 **作者**：Elron Bandel, Asaf Yehudai, Lilach Eden, Yehoshua Sagron, Yotam Perlitz, Elad Venezian, Natalia Razinkov, Natan Ergas, Shlomit Shachor Ifergan, Segev Shlomov, Michal Jacovi, Leshem Choshen, Liat Ein-Dor, Yoav Katz, Michal Shmueli-Scheuer  
 
-**一句话要点**：提出通用智能体评估框架以解决现有基准无法公平评估通用智能体的问题
+**一句话要点**：提出通用智能体评估框架以解决跨环境性能系统评测问题
 
-**关键词**：通用智能体评估, 评估框架, 基准测试, 智能体性能, 统一协议
+**关键词**：通用智能体评估, 统一协议, Exgentic框架, 性能基准, 跨环境泛化, 智能体评测
 
 ## 3 点简述
-- 核心问题：现有智能体多为专用，缺乏系统评估通用智能体性能的基准。
-- 方法要点：提出通用智能体评估概念原则、统一协议和Exgentic框架。
-- 实验或效果：在六个环境中评估五个智能体，性能媲美专用智能体，无需环境特定调优。
+- 核心问题：现有智能体多为专用，缺乏通用性能的系统评估方法
+- 方法要点：提出统一协议和Exgentic框架，支持智能体与基准的无缝集成
+- 实验或效果：在六个环境中评测五个智能体，显示通用智能体性能接近专用智能体
 
 ## 摘要（原文）
 

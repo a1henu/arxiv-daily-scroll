@@ -7,9 +7,9 @@ title: Simple Models, Real Swimming: Digital Twins for Tendon-Driven Underwater 
 **arXiv**：[2602.23283v1](https://arxiv.org/abs/2602.23283) · [PDF](https://arxiv.org/pdf/2602.23283.pdf)  
 **作者**：Mike Y. Michelis, Nana Obayashi, Josie Hughes, Robert K. Katzschmann  
 
-**一句话要点**：提出基于简化流体模型的肌腱驱动鱼机器人数字孪生，以解决软体水下机器人高效仿真与控制问题。
+**一句话要点**：提出基于简化流体模型的肌腱驱动鱼机器人数字孪生，以解决软体水下机器人高效仿真与控制难题。
 
-**关键词**：肌腱驱动机器人, 数字孪生, 流体动力学模型, 强化学习, 软体机器人, 水下游泳仿真
+**关键词**：肌腱驱动机器人, 数字孪生, 简化流体模型, 软体水下机器人, 强化学习, MuJoCo仿真
 
 ## 3 点简述
 - 核心问题：软体机器人游泳运动模拟复杂，现有模型计算成本高，难以支持实时控制与强化学习。

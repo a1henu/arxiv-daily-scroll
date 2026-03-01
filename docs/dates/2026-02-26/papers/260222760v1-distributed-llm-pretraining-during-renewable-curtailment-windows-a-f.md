@@ -7,14 +7,14 @@ title: Distributed LLM Pretraining During Renewable Curtailment Windows: A Feasi
 **arXiv**：[2602.22760v1](https://arxiv.org/abs/2602.22760) · [PDF](https://arxiv.org/pdf/2602.22760.pdf)  
 **作者**：Philipp Wiesner, Soeren Becker, Brett Cornick, Dominik Scheinert, Alexander Acker, Odej Kao  
 
-**一句话要点**：提出分布式LLM预训练系统，利用可再生能源弃电窗口降低碳排放
+**一句话要点**：提出分布式LLM预训练系统，利用可再生能源弃电窗口降低碳排放。
 
 **关键词**：分布式训练, 联邦学习, 可再生能源, 碳排放优化, LLM预训练
 
 ## 3 点简述
-- 核心问题：LLM训练能耗高，可再生能源弃电造成浪费
-- 方法要点：基于Flower框架，在弃电窗口弹性切换单点与联邦训练
-- 实验或效果：原型系统训练561M参数模型，碳排放降至基线5-12%
+- 核心问题：LLM训练能耗高，可再生能源弃电造成浪费。
+- 方法要点：基于Flower框架，在弃电窗口弹性切换单点与联邦训练。
+- 实验或效果：原型训练561M参数模型，碳排放降至基线5-12%。
 
 ## 摘要（原文）
 

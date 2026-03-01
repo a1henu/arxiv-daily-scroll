@@ -7,14 +7,14 @@ title: LLM Novice Uplift on Dual-Use, In Silico Biology Tasks
 **arXiv**：[2602.23329v1](https://arxiv.org/abs/2602.23329) · [PDF](https://arxiv.org/pdf/2602.23329.pdf)  
 **作者**：Chen Bo Calvin Zhang, Christina Q. Knight, Nicholas Kruus, Jason Hausenloy, Pedro Medeiros, Nathaniel Li, Aiden Kim, Yury Orlovskiy, Coleman Breen, Bryce Cai, Jasper Götting, Andrew Bo Liu, Samira Nedungadi, Paula Rodriguez, Yannis Yiming He, Mohamed Shaaban, Zifan Wang, Seth Donoughe, Julian Michael  
 
-**一句话要点**：评估大语言模型在生物安全任务中对新手用户的提升效果
+**一句话要点**：评估大语言模型在生物安全相关任务中对新手用户的提升效果
 
-**关键词**：大语言模型, 生物安全任务, 新手用户提升, 双用风险, 人类评估
+**关键词**：大语言模型, 生物安全, 新手提升, 双重用途风险, 人类评估, 基准测试
 
 ## 3 点简述
-- 核心问题：大语言模型能否提升新手在生物安全相关任务中的表现，而非仅依赖互联网资源。
-- 方法要点：进行多模型、多基准的人类提升研究，比较新手在LLM访问与仅互联网访问下的表现。
-- 实验效果：LLM访问使新手准确率提升4.16倍，在部分任务中超越专家，但用户未充分利用LLM潜力。
+- 核心问题：大语言模型能否提升新手在生物任务中的表现，涉及科学加速与双重用途风险。
+- 方法要点：进行多模型、多基准人类提升研究，比较新手使用LLM与仅使用互联网资源的效果。
+- 实验或效果：LLM使新手准确性提高4.16倍，在三个基准上超越专家，但用户未充分利用LLM潜力。
 
 ## 摘要（原文）
 

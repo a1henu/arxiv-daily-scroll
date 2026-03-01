@@ -13,7 +13,7 @@ title: SPATIALALIGN: Aligning Dynamic Spatial Relationships in Video Generation
 
 ## 3 点简述
 - 核心问题：现有文本到视频生成器常忽略文本提示中的动态空间约束，导致视频空间关系不准确。
-- 方法要点：采用零阶正则化直接偏好优化微调模型，并设计基于几何的DSR-SCORE指标量化评估对齐度。
+- 方法要点：采用零阶正则化直接偏好优化微调模型，并设计基于几何的DSR-SCORE指标量化对齐程度。
 - 实验或效果：微调模型在空间关系对齐上显著优于基线，代码将公开。
 
 ## 摘要（原文）

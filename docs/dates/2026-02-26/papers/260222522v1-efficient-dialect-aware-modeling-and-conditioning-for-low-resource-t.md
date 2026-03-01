@@ -7,7 +7,7 @@ title: Efficient Dialect-Aware Modeling and Conditioning for Low-Resource Taiwan
 **arXiv**：[2602.22522v1](https://arxiv.org/abs/2602.22522) · [PDF](https://arxiv.org/pdf/2602.22522.pdf)  
 **作者**：An-Ci Peng, Kuan-Tang Huang, Tien-Hong Lo, Hung-Shin Lee, Hsin-Min Wang, Berlin Chen  
 
-**一句话要点**：提出方言感知建模与参数高效预测网络，以解决低资源台湾客家话语音识别中的方言变异和双书写系统挑战。
+**一句话要点**：提出方言感知建模与参数高效预测网络，以解决低资源台湾客家话语音识别中的方言变异和双书写系统问题。
 
 **关键词**：方言感知建模, 低资源语音识别, 台湾客家话, 双书写系统ASR, 参数高效预测网络, RNN-T框架
 

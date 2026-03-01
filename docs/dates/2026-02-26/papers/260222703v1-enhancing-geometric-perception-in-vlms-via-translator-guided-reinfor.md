@@ -13,8 +13,8 @@ title: Enhancing Geometric Perception in VLMs via Translator-Guided Reinforcemen
 
 ## 3 点简述
 - 视觉语言模型在几何推理中因对基础图形元素感知有限而表现不佳
-- 引入GeoPerceive基准和自动数据生成管道，并开发基于翻译器引导强化学习的GeoDPO框架
-- 实验显示GeoDPO在域内、域外及下游任务中显著优于监督微调，提升达39.0%
+- 通过翻译器引导的强化学习框架，利用DSL级奖励信号优化模型
+- 实验显示GeoDPO在域内、域外及下游任务中均显著优于监督微调
 
 ## 摘要（原文）
 

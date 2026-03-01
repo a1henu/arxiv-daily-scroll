@@ -13,8 +13,8 @@ title: TrajTok: Learning Trajectory Tokens enables better Video Understanding
 
 ## 3 点简述
 - 视频模型分词通常产生冗余令牌，限制效率与可扩展性。
-- TrajTok集成统一分割器，在时空上隐式聚类像素生成对象轨迹。
-- 实验显示TrajTok在分类和检索基准上实现最佳精度，同时保持高效。
+- TrajTok集成统一分割器，在时空上隐式聚类像素，直接生成对象轨迹。
+- 实验显示TrajTok在分类和检索基准上实现最佳精度，同时保持高效性。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: Learning Continuous Wasserstein Barycenter Space for Generalized All-in-O
 **arXiv**：[2602.23169v1](https://arxiv.org/abs/2602.23169) · [PDF](https://arxiv.org/pdf/2602.23169.pdf)  
 **作者**：Xiaole Tang, Xiaoyi He, Jiayi Xu, Xiang Gu, Jian Sun  
 
-**一句话要点**：提出BaryIR框架，通过Wasserstein重心空间对齐多源退化特征以提升全合一图像恢复的泛化能力。
+**一句话要点**：提出BaryIR框架，通过Wasserstein重心空间对齐多源退化特征以提升全合一图像修复的泛化能力
 
-**关键词**：全合一图像恢复, Wasserstein重心, 特征解耦, 泛化学习, 退化无关表示
+**关键词**：全合一图像修复, Wasserstein重心, 特征解耦, 泛化学习, 退化无关表示
 
 ## 3 点简述
-- 核心问题：现有全合一图像恢复方法对分布外退化泛化不足，限制实际应用。
-- 方法要点：利用Wasserstein重心空间建模退化无关分布，并引入正交残差子空间解耦退化无关与退化特定知识。
-- 实验或效果：在未见退化类型和级别上表现优异，对混合退化现实数据具有鲁棒性。
+- 现有全合一图像修复方法对分布外退化泛化不足，限制了实际应用
+- BaryIR利用Wasserstein重心空间建模退化无关分布，并引入正交残差子空间解耦退化无关与退化特定知识
+- 实验表明BaryIR在未见退化和真实混合退化场景下表现优异，泛化性强
 
 ## 摘要（原文）
 

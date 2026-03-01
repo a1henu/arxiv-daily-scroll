@@ -7,14 +7,14 @@ title: DySL-VLA: Efficient Vision-Language-Action Model Inference via Dynamic-St
 **arXiv**：[2602.22896v1](https://arxiv.org/abs/2602.22896) · [PDF](https://arxiv.org/pdf/2602.22896.pdf)  
 **作者**：Zebin Yang, Yijiahao Qi, Tong Xie, Bo Yu, Shaoshan Liu, Meng Li  
 
-**一句话要点**：提出DySL-VLA框架，通过动态-静态层跳过机制降低视觉-语言-动作模型的计算成本，用于机器人操作任务。
+**一句话要点**：提出DySL-VLA框架，通过动态-静态层跳过机制高效推理视觉-语言-动作模型，用于机器人操作任务。
 
-**关键词**：视觉-语言-动作模型, 动态层跳过, 机器人操作, 知识蒸馏, 计算效率优化
+**关键词**：视觉-语言-动作模型, 动态层跳过, 机器人操作, 高效推理, 知识蒸馏, 实时性能
 
 ## 3 点简述
 - 核心问题：视觉-语言-动作模型计算成本高，阻碍实时机器人应用。
 - 方法要点：基于动作重要性动态跳过模型层，分为信息层和增量层，并设计先验-后验跳过指导机制。
-- 实验或效果：在Calvin数据集上，相比Deer-VLA提升成功长度2.1%，参数减少85.7倍，速度提升3.75倍。
+- 实验或效果：在Calvin数据集上，相比Deer-VLA提升2.1%成功率，减少85.7倍可训练参数，相对RoboFlamingo基线加速3.75倍。
 
 ## 摘要（原文）
 

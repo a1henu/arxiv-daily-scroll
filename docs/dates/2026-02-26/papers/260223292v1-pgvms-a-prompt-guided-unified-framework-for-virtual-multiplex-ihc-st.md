@@ -7,14 +7,14 @@ title: PGVMS: A Prompt-Guided Unified Framework for Virtual Multiplex IHC Staini
 **arXiv**：[2602.23292v1](https://arxiv.org/abs/2602.23292) · [PDF](https://arxiv.org/pdf/2602.23292.pdf)  
 **作者**：Fuqiang Chen, Ranran Zhang, Wanming Hu, Deboch Eyob Abera, Yue Peng, Boyun Zheng, Yiwen Sun, Jing Cai, Wenjian Qin  
 
-**一句话要点**：提出PGVMS框架以解决虚拟多重IHC染色中的语义指导不足、分布不一致和空间错位问题。
+**一句话要点**：提出PGVMS框架，通过提示引导和病理语义学习解决虚拟多重IHC染色中的语义指导不足、分布不一致和空间错位问题。
 
 **关键词**：虚拟多重IHC染色, 病理语义学习, 提示引导框架, 蛋白质感知学习, 原型一致学习, 自适应提示机制
 
 ## 3 点简述
 - 核心问题：虚拟多重IHC染色面临语义指导不足、染色分布不一致和空间错位三大挑战。
-- 方法要点：采用自适应提示引导机制、蛋白质感知学习策略和原型一致学习策略。
-- 实验或效果：未知，但框架旨在通过仅使用单重训练数据提升染色准确性和一致性。
+- 方法要点：引入自适应提示引导机制、蛋白质感知学习策略和原型一致学习策略，仅使用单重训练数据。
+- 实验或效果：未知具体实验细节，但框架旨在提升染色准确性和一致性。
 
 ## 摘要（原文）
 

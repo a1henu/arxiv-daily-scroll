@@ -7,14 +7,14 @@ title: InnerQ: Hardware-aware Tuning-free Quantization of KV Cache for Large Lan
 **arXiv**：[2602.23200v1](https://arxiv.org/abs/2602.23200) · [PDF](https://arxiv.org/pdf/2602.23200.pdf)  
 **作者**：Sayed Mohammadreza Tayaranian Hosseini, Amir Ardakani, Warren J. Gross  
 
-**一句话要点**：提出InnerQ硬件感知KV缓存量化方案，以降低大语言模型解码延迟并保持精度。
+**一句话要点**：提出InnerQ硬件感知KV缓存量化方案，以降低大语言模型解码延迟
 
-**关键词**：KV缓存量化, 硬件感知优化, 大语言模型解码, 内存效率, 分组量化, 反量化加速
+**关键词**：KV缓存量化, 硬件感知优化, 大语言模型解码, 内存效率, 分组量化, 解码加速
 
 ## 3 点简述
-- 核心问题：KV缓存在大语言模型解码中内存占用高，成为长序列生成的瓶颈。
+- 核心问题：KV缓存在大语言模型解码中内存占用高，影响长序列生成效率。
 - 方法要点：采用内维度分组量化，结合混合量化、高精度窗口和每通道归一化，减少内存访问并加速反量化。
-- 实验或效果：在Llama模型上评估，保持GSM8K性能，相比先前工作提速达22%，相比半精度向量矩阵乘法提速达88%。
+- 实验或效果：在Llama模型上评估，保持GSM8K性能，解码速度提升最高达22%，优于先前方法。
 
 ## 摘要（原文）
 

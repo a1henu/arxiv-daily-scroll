@@ -7,14 +7,14 @@ title: Towards Dynamic Dense Retrieval with Routing Strategy
 **arXiv**：[2602.22547v1](https://arxiv.org/abs/2602.22547) · [PDF](https://arxiv.org/pdf/2602.22547.pdf)  
 **作者**：Zhan Su, Fengran Mo, Jinghan Zhang, Yuchen Hui, Jia Ao Sun, Bingbing Wen, Jian-Yun Nie  
 
-**一句话要点**：提出动态稠密检索以解决稠密检索在领域适应和频繁更新中的高成本问题
+**一句话要点**：提出动态稠密检索以解决稠密检索在领域适应和模型更新中的高成本问题
 
 **关键词**：稠密检索, 动态路由, 前缀调谐, 领域适应, 零样本学习, 信息检索
 
 ## 3 点简述
 - 核心问题：稠密检索在有限训练数据下难以适应新领域，且频繁更新模型成本高昂
 - 方法要点：使用前缀调谐作为领域专用模块，结合动态路由策略实现灵活组合
-- 实验或效果：在六个零样本下游任务中超越传统稠密检索，仅需2%训练参数
+- 实验或效果：在六个零样本下游任务上超越传统稠密检索，仅需2%训练参数
 
 ## 摘要（原文）
 

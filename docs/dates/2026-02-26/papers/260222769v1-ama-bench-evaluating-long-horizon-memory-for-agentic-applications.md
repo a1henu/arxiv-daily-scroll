@@ -7,14 +7,14 @@ title: AMA-Bench: Evaluating Long-Horizon Memory for Agentic Applications
 **arXiv**：[2602.22769v1](https://arxiv.org/abs/2602.22769) · [PDF](https://arxiv.org/pdf/2602.22769.pdf)  
 **作者**：Yujie Zhao, Boqin Yuan, Junbo Huang, Haocheng Yuan, Zhongming Yu, Haozhou Xu, Lanxiang Hu, Abhilash Shankarampeta, Zimeng Huang, Wentao Ni, Yuandong Tian, Jishen Zhao  
 
-**一句话要点**：提出AMA-Bench评估长时记忆，并设计AMA-Agent系统提升LLM在自主应用中的性能。
+**一句话要点**：提出AMA-Bench评估长时记忆，并设计AMA-Agent系统提升智能体性能。
 
-**关键词**：长时记忆评估, 自主代理应用, 因果图检索, 合成轨迹生成, 工具增强检索
+**关键词**：长时记忆评估, 智能体应用, 因果图, 工具增强检索, 基准测试
 
 ## 3 点简述
-- 现有评估标准与实际应用脱节，主要关注人机对话而非机器生成交互流。
-- AMA-Bench包含真实和合成轨迹，结合专家和规则QA，评估长时记忆能力。
-- AMA-Agent引入因果图和工具增强检索，在AMA-Bench上平均准确率达57.22%，超越基线11.16%。
+- 现有评估标准与真实应用脱节，缺乏机器生成交互的连续流评估。
+- AMA-Bench包含真实轨迹与合成轨迹，支持任意长度记忆测试。
+- AMA-Agent通过因果图和工具增强检索，在基准上超越基线11.16%。
 
 ## 摘要（原文）
 
