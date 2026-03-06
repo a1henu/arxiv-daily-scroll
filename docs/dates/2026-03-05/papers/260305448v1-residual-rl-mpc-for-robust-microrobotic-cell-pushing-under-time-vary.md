@@ -1,0 +1,22 @@
+---
+layout: default
+title: Residual RL--MPC for Robust Microrobotic Cell Pushing Under Time-Varying Flow
+---
+
+# Residual RL--MPC for Robust Microrobotic Cell Pushing Under Time-Varying Flow
+**arXiv**：[2603.05448v1](https://arxiv.org/abs/2603.05448) · [PDF](https://arxiv.org/pdf/2603.05448.pdf)  
+**作者**：Yanda Yang, Sambeeta Das  
+
+**一句话要点**：提出混合控制器Residual RL-MPC，以增强微流控时变流下细胞推送的鲁棒性
+
+**关键词**：微机器人控制, 强化学习, 模型预测控制, 微流控操作, 细胞推送, 鲁棒性增强
+
+## 3 点简述
+- 核心问题：微流控时变流中接触式微操作易受扰动，导致推送接触中断和横向漂移。
+- 方法要点：结合名义MPC与SAC训练的残差策略，输出有界速度修正，仅在接触时应用以稳定学习。
+- 实验或效果：在非平稳流下优于纯MPC和PID，从训练曲线泛化至未见轨迹，残差界限扫描确定最佳折中。
+
+## 摘要（原文）
+
+> Contact-rich micromanipulation in microfluidic flow is challenging because small disturbances can break pushing contact and induce large lateral drift. We study planar cell pushing with a magnetic rolling microrobot that tracks a waypoint-sampled reference curve under time-varying Poiseuille flow. We propose a hybrid controller that augments a nominal MPC with a learned residual policy trained by SAC. The policy outputs a bounded 2D velocity correction that is contact-gated, so residual actions are applied only during robot--cell contact, preserving reliable approach behavior and stabilizing learning. All methods share the same actuation interface and speed envelope for fair comparisons. Experiments show improved robustness and tracking accuracy over pure MPC and PID under nonstationary flow, with generalization from a clover training curve to unseen circle and square trajectories. A residual-bound sweep identifies an intermediate correction limit as the best trade-off, which we use in all benchmarks.
+
