@@ -9,12 +9,12 @@ title: Hyperbolic Multiview Pretraining for Robotic Manipulation
 
 **一句话要点**：提出HyperMVP框架，通过双曲多视图预训练提升机器人操作任务的鲁棒性。
 
-**关键词**：双曲空间学习, 多视图预训练, 机器人操作, 3D感知, 自监督学习
+**关键词**：双曲空间学习, 多视图预训练, 机器人操作, 自监督学习, 3D感知
 
 ## 3 点简述
 - 现有方法局限于欧几里得嵌入空间，难以建模结构关系，影响机器人空间感知。
 - 扩展掩码自编码器范式，设计GeoLink编码器学习多视图双曲表示，并引入3D-MOV数据集支持预训练。
-- 在COLOSSEUM、RLBench和真实场景中评估，HyperMVP在多种任务和扰动设置下优于基线方法。
+- 在COLOSSEUM、RLBench和真实场景评估中，HyperMVP在多种任务和扰动设置下优于基线方法。
 
 ## 摘要（原文）
 

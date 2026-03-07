@@ -7,7 +7,7 @@ title: Towards a data-scale independent regulariser for robust sparse identifica
 **arXiv**：[2603.05201v1](https://arxiv.org/abs/2603.05201) · [PDF](https://arxiv.org/pdf/2603.05201.pdf)  
 **作者**：Jay Raut, Daniel N. Wilke, Stephan Schmidt  
 
-**一句话要点**：提出STCV算法以解决数据归一化对非线性动力学稀疏识别的影响
+**一句话要点**：提出STCV算法以解决数据归一化对稀疏非线性动力学识别的影响
 
 **关键词**：稀疏系统识别, 非线性动力学, 数据归一化, 统计阈值, SINDy框架, 鲁棒回归
 

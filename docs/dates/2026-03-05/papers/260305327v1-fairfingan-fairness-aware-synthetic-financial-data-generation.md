@@ -7,14 +7,14 @@ title: FairFinGAN: Fairness-aware Synthetic Financial Data Generation
 **arXiv**：[2603.05327v1](https://arxiv.org/abs/2603.05327) · [PDF](https://arxiv.org/pdf/2603.05327.pdf)  
 **作者**：Tai Le Quy, Dung Nguyen Tuan, Trung Nguyen Thanh, Duy Tran Cong, Huyen Giang Thi Thu, Frank Hopfgartner  
 
-**一句话要点**：提出FairFinGAN以解决金融数据生成中的偏见问题
+**一句话要点**：提出FairFinGAN以生成公平的合成金融数据，缓解自动化决策中的偏见问题。
 
-**关键词**：公平性数据生成, WGAN框架, 金融数据合成, 偏见缓解, 下游任务效用
+**关键词**：公平性生成对抗网络, 合成金融数据, 偏见缓解, 自动化决策, 数据效用保持
 
 ## 3 点简述
-- 金融数据常含偏见，导致自动化决策不公
-- 基于WGAN框架，通过分类器引入公平约束生成合成数据
-- 在五个真实数据集上验证，公平性提升且数据效用保持
+- 金融数据常含偏见，导致自动化系统决策不公。
+- 基于WGAN框架，通过分类器引入公平约束，生成公平且实用的合成数据。
+- 在五个真实金融数据集上验证，公平性指标优于现有方法，数据实用性未显著下降。
 
 ## 摘要（原文）
 

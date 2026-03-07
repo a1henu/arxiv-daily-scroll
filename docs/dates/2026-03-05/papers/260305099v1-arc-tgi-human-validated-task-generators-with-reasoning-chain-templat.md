@@ -7,14 +7,14 @@ title: ARC-TGI: Human-Validated Task Generators with Reasoning Chain Templates f
 **arXiv**：[2603.05099v1](https://arxiv.org/abs/2603.05099) · [PDF](https://arxiv.org/pdf/2603.05099.pdf)  
 **作者**：Jens Lehmann, Syeda Khushbakht, Nikoo Salehfard, Nur A Zarin Nishat, Dhananjay Bhandiwad, Andrei Aioanei, Sahar Vahdati  
 
-**一句话要点**：提出ARC-TGI框架，通过任务生成器解决ARC-AGI基准测试中的过拟合和数据集泄漏问题。
+**一句话要点**：提出ARC-TGI框架，通过任务生成器解决ARC-AGI基准测试中的过拟合和数据集泄露问题。
 
-**关键词**：抽象推理, 任务生成, 基准测试, 规则归纳, 数据集采样, 人类验证
+**关键词**：任务生成器, 抽象推理, 基准测试, 数据集采样, 人类验证, 规则归纳
 
 ## 3 点简述
-- 核心问题：ARC-AGI基准测试因静态谜题集导致过拟合、数据集泄漏和记忆化，难以衡量进展。
-- 方法要点：开发开源任务生成器框架，生成多样化任务并保持潜在规则，支持任务级约束以确保人类可解。
-- 实验或效果：发布461个生成器，覆盖ARC-Mini和ARC-AGI任务，支持可扩展数据集采样和受控基准测试。
+- 核心问题：ARC-AGI基准测试因静态谜题集导致过拟合、数据集泄露和记忆化，难以衡量进展。
+- 方法要点：开发开源任务生成器框架，生成多样任务并保持潜在规则，支持任务级约束和人类验证。
+- 实验或效果：发布461个生成器覆盖多个任务集，支持可扩展数据集采样和受控基准测试。
 
 ## 摘要（原文）
 

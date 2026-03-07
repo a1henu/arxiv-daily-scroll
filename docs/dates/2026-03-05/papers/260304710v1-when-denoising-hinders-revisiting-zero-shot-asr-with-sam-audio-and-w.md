@@ -7,14 +7,14 @@ title: When Denoising Hinders: Revisiting Zero-Shot ASR with SAM-Audio and Whisp
 **arXiv**：[2603.04710v1](https://arxiv.org/abs/2603.04710) · [PDF](https://arxiv.org/pdf/2603.04710.pdf)  
 **作者**：Akif Islam, Raufun Nahar, Md. Ekramul Hamid  
 
-**一句话要点**：揭示SAM-Audio预处理在零样本ASR中降低Whisper性能，挑战音频去噪提升识别准确性的假设。
+**一句话要点**：揭示SAM-Audio降噪预处理在零样本ASR中降低Whisper性能，挑战音频质量提升必有益于识别的假设。
 
-**关键词**：零样本语音识别, 语音增强, Whisper模型, 去噪预处理, 错误率分析, 信号质量
+**关键词**：零样本语音识别, 语音增强, 降噪预处理, Whisper模型, 音频质量与识别性能
 
 ## 3 点简述
-- 核心问题：检验音频去噪是否提升零样本ASR性能，发现SAM-Audio预处理反而降低Whisper转录准确率。
-- 方法要点：使用SAM-Audio作为预处理步骤，在多个Whisper模型和双语嘈杂数据集上进行系统实验。
-- 实验或效果：SAM-Audio改善信号质量但增加WER和CER，错误随模型规模增大而加剧，显示感知清洁与机器识别不匹配。
+- 核心问题：检验音频质量提升是否直接有益于零样本ASR性能，挑战常见直觉。
+- 方法要点：使用SAM-Audio作为预处理，结合Whisper进行零样本转录，系统评估降噪影响。
+- 实验或效果：在孟加拉语和英语数据集上，SAM-Audio预处理导致WER和CER增加，性能随模型规模恶化。
 
 ## 摘要（原文）
 

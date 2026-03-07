@@ -13,7 +13,7 @@ title: POET-X: Memory-efficient LLM Training by Scaling Orthogonal Transformatio
 
 ## 3 点简述
 - 核心问题：大语言模型训练内存消耗高，标准优化器如AdamW在单GPU上易内存不足
-- 方法要点：基于正交等价变换的POET-X，通过可扩展设计显著降低计算开销和内存占用
+- 方法要点：基于正交等价变换的POET-X，通过可扩展设计显著降低计算开销和内存使用
 - 实验或效果：POET-X能在单Nvidia H100 GPU上预训练十亿参数模型，提升吞吐量和内存效率
 
 ## 摘要（原文）

@@ -7,14 +7,14 @@ title: Omni-Manip: Beyond-FOV Large-Workspace Humanoid Manipulation with Omnidir
 **arXiv**：[2603.05355v1](https://arxiv.org/abs/2603.05355) · [PDF](https://arxiv.org/pdf/2603.05355.pdf)  
 **作者**：Pei Qu, Zheng Li, Yufei Jia, Ziyun Liu, Liang Zhu, Haoang Li, Jinni Zhou, Jun Ma  
 
-**一句话要点**：提出Omni-Manip，基于LiDAR的全景3D感知方法，解决人形机器人在大工作空间中的灵巧操作问题。
+**一句话要点**：提出Omni-Manip，基于LiDAR的全景3D视觉运动策略，解决大工作空间中人形机器人操作受限问题。
 
 **关键词**：人形机器人操作, 全景3D感知, LiDAR驱动策略, 时间感知注意力, 大工作空间, 端到端学习
 
 ## 3 点简述
 - 核心问题：传统RGB-D感知视野窄、自遮挡，导致机器人需频繁移动，增加不确定性和风险。
-- 方法要点：采用LiDAR驱动的时间感知注意力池化机制，处理全景点云，实现360°感知。
-- 实验或效果：在仿真和真实环境中验证，在大工作空间和杂乱场景中表现稳健，优于基于深度相机的基线方法。
+- 方法要点：使用全景点云和时间感知注意力池化，编码稀疏3D数据并捕获时间依赖，实现360°感知。
+- 实验或效果：在仿真和真实环境中验证，在大工作空间和杂乱场景中表现稳健，优于基于深度相机的基线。
 
 ## 摘要（原文）
 

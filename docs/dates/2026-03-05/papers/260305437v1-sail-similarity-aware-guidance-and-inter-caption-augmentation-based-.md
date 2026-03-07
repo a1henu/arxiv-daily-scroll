@@ -7,14 +7,14 @@ title: SAIL: Similarity-Aware Guidance and Inter-Caption Augmentation-based Lear
 **arXiv**：[2603.05437v1](https://arxiv.org/abs/2603.05437) · [PDF](https://arxiv.org/pdf/2603.05437.pdf)  
 **作者**：Ye-Chan Kim, SeungJu Cha, Si-Woo Kim, Minju Jeon, Hyungee Kim, Dong-Jin Kim  
 
-**一句话要点**：提出SAIL方法，通过相似性感知训练和跨字幕增强，解决弱监督密集视频描述中语义对齐和标注稀疏问题。
+**一句话要点**：提出SAIL方法，通过相似性感知训练和跨字幕增强，解决弱监督密集视频描述中语义掩码生成和稀疏标注问题。
 
-**关键词**：弱监督密集视频描述, 语义对齐, 跨模态学习, 大语言模型增强, 视频事件定位
+**关键词**：弱监督密集视频描述, 语义掩码生成, 跨模态对齐, LLM增强, 视频事件定位, 稀疏标注
 
 ## 3 点简述
-- 核心问题：现有方法生成掩码时忽略语义关系，且依赖稀疏标注导致性能受限。
-- 方法要点：引入相似性感知训练指导掩码对齐事件描述，并基于LLM生成合成字幕增强对齐信号。
-- 实验或效果：在ActivityNet Captions和YouCook2数据集上实现描述和定位指标的先进性能。
+- 核心问题：现有方法生成语义无关的均匀掩码，且依赖稀疏标注导致性能受限。
+- 方法要点：基于跨模态对齐构建语义感知掩码，并利用LLM生成合成字幕增强训练信号。
+- 实验或效果：在ActivityNet Captions和YouCook2数据集上实现最先进的描述和定位性能。
 
 ## 摘要（原文）
 

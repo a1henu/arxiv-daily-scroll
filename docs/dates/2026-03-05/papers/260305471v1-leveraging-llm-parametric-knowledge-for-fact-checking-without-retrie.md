@@ -7,14 +7,14 @@ title: Leveraging LLM Parametric Knowledge for Fact Checking without Retrieval
 **arXiv**：[2603.05471v1](https://arxiv.org/abs/2603.05471) · [PDF](https://arxiv.org/pdf/2603.05471.pdf)  
 **作者**：Artem Vazhentsev, Maria Marina, Daniil Moskovskiy, Sergey Pletenev, Mikhail Seleznyov, Mikhail Salnikov, Elena Tutubalina, Vasily Konovalov, Irina Nikishina, Alexander Panchenko, Viktor Moskvoretskii  
 
-**一句话要点**：提出INTRA方法，利用内部表示交互实现无检索事实核查，提升泛化性能。
+**一句话要点**：提出INTRA方法，利用内部表示交互实现无检索事实核查，提升泛化能力。
 
-**关键词**：无检索事实核查, 内部表示交互, LLM可信度, 泛化评估, 多语言处理
+**关键词**：无检索事实核查, 内部表示交互, 泛化评估, 长尾知识, 多语言验证, 长文本生成
 
 ## 3 点简述
 - 核心问题：基于检索的事实核查方法受限于检索错误和数据可用性，未充分利用LLM内在验证能力。
-- 方法要点：引入无检索事实核查任务，通过内部表示交互设计INTRA方法，避免依赖外部知识。
-- 实验或效果：在9个数据集上评估，INTRA实现最优性能，展示对长尾知识、多语言等场景的强泛化。
+- 方法要点：引入无检索事实核查任务，通过内部表示交互（INTRA）增强模型对任意自然语言声明的验证性能。
+- 实验或效果：在9个数据集、18种方法和3个模型上评估，INTRA在泛化测试中达到最先进性能。
 
 ## 摘要（原文）
 

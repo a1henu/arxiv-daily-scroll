@@ -7,14 +7,14 @@ title: MUTEX: Leveraging Multilingual Transformers and Conditional Random Fields
 **arXiv**：[2603.05057v1](https://arxiv.org/abs/2603.05057) · [PDF](https://arxiv.org/pdf/2603.05057.pdf)  
 **作者**：Inayat Arshad, Fajar Saleem, Ijaz Hussain  
 
-**一句话要点**：提出MUTEX框架，结合多语言Transformer与CRF以提升乌尔都语毒性片段检测性能。
+**一句话要点**：提出MUTEX框架，结合多语言Transformer与CRF，以提升乌尔都语毒性片段检测性能。
 
 **关键词**：毒性片段检测, 多语言Transformer, 条件随机场, 乌尔都语处理, 序列标注, 社交媒体分析
 
 ## 3 点简述
-- 乌尔都语毒性检测面临句子级分类局限、缺乏词级标注数据及语言复杂性等挑战。
+- 乌尔都语毒性检测面临句子级分类局限，缺乏词级标注资源及语言复杂性挑战。
 - MUTEX采用XLM RoBERTa与CRF层进行序列标注，利用手动标注词级数据集提升检测精度。
-- 实验在社交媒体等多领域数据上实现60%词级F1分数，为乌尔都语毒性片段检测建立首个监督基线。
+- 实验显示MUTEX在社交媒体等多领域数据上达到60%词级F1分数，优于其他模型处理代码切换问题。
 
 ## 摘要（原文）
 

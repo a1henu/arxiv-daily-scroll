@@ -7,9 +7,9 @@ title: Competitive Multi-Operator Reinforcement Learning for Joint Pricing and F
 **arXiv**：[2603.05000v1](https://arxiv.org/abs/2603.05000) · [PDF](https://arxiv.org/pdf/2603.05000.pdf)  
 **作者**：Emil Kragh Toft, Carolin Schmidt, Daniele Gammelli, Filipe Rodrigues  
 
-**一句话要点**：提出多运营商强化学习框架，以解决竞争性AMoD系统中的联合定价与车队再平衡问题。
+**一句话要点**：提出多运营商强化学习框架，以解决竞争性AMoD系统中联合定价与车队再平衡问题。
 
-**关键词**：自主按需出行系统, 多智能体强化学习, 竞争定价, 车队再平衡, 离散选择模型
+**关键词**：自主按需出行系统, 多智能体强化学习, 竞争性定价, 车队再平衡, 离散选择理论, 市场动态
 
 ## 3 点简述
 - 研究竞争性AMoD市场中多运营商通过定价和车队部署争夺乘客的核心问题。

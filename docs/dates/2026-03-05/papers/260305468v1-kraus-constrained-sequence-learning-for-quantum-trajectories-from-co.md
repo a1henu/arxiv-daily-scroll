@@ -9,7 +9,7 @@ title: Kraus Constrained Sequence Learning For Quantum Trajectories from Continu
 
 **一句话要点**：提出Kraus结构输出层以解决量子轨迹连续测量中物理约束违反问题
 
-**关键词**：量子轨迹重建, 连续测量, 物理约束学习, Kraus结构, 序列模型, 量子反馈控制
+**关键词**：量子轨迹重建, 连续测量, 物理约束学习, Kraus结构, 序列模型, 状态估计
 
 ## 3 点简述
 - 核心问题：标准SME求解器需精确模型，无约束神经网络预测可能违反量子态物理性

@@ -7,14 +7,14 @@ title: Uncertainty-aware Blood Glucose Prediction from Continuous Glucose Monito
 **arXiv**：[2603.04955v1](https://arxiv.org/abs/2603.04955) · [PDF](https://arxiv.org/pdf/2603.04955.pdf)  
 **作者**：Hai Siong Tan  
 
-**一句话要点**：提出基于Transformer与证据输出层的血糖预测模型，集成不确定性量化以提升预测准确性与临床风险评估。
+**一句话要点**：提出不确定性感知神经网络模型，用于1型糖尿病血糖预测与不良事件识别。
 
-**关键词**：血糖预测, 不确定性量化, Transformer模型, 连续血糖监测, 临床风险评估, 证据回归
+**关键词**：血糖预测, 不确定性量化, 序列模型, 1型糖尿病, 深度证据回归
 
 ## 3 点简述
-- 研究基于LSTM、GRU和Transformer的序列模型，用于1型糖尿病血糖预测与不良事件识别。
-- 采用蒙特卡洛dropout或证据输出层实现不确定性量化，Transformer模型表现最佳，预测误差与不确定性显著相关。
-- 使用HUPA-UCM数据集验证，并通过糖尿病技术学会误差网格评估临床风险，证明不确定性量化在实时血糖预测系统中的价值。
+- 核心问题：研究不确定性感知模型在1型糖尿病血糖预测和不良事件识别中的应用。
+- 方法要点：基于LSTM、GRU和Transformer序列模型，采用蒙特卡洛dropout或深度证据回归输出层进行不确定性量化。
+- 实验或效果：在HUPA-UCM数据集上验证，Transformer模型结合证据输出头提供最有效框架，预测精度高且不确定性估计校准良好。
 
 ## 摘要（原文）
 

@@ -9,7 +9,7 @@ title: BioLLMAgent: A Hybrid Framework with Enhanced Structural Interpretability
 
 **一句话要点**：提出BioLLMAgent混合框架，结合认知模型与LLM，增强计算精神病学中人类决策模拟的结构可解释性。
 
-**关键词**：计算精神病学, 混合框架, 结构可解释性, 人类决策模拟, 认知模型, 大型语言模型
+**关键词**：计算精神病学, 混合框架, 结构可解释性, 人类决策模拟, 强化学习, 大型语言模型
 
 ## 3 点简述
 - 核心问题：计算精神病学中传统RL模型可解释性强但行为真实性不足，LLM代理行为真实但结构可解释性差。

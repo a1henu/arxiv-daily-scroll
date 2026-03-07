@@ -7,14 +7,14 @@ title: Feature Resemblance: On the Theoretical Understanding of Analogical Reaso
 **arXiv**：[2603.05143v1](https://arxiv.org/abs/2603.05143) · [PDF](https://arxiv.org/pdf/2603.05143.pdf)  
 **作者**：Ruichen Xu, Wenjing Yan, Ying-Jun Angela Zhang  
 
-**一句话要点**：提出特征相似性理论，揭示Transformer类比推理的统一机制与训练条件
+**一句话要点**：提出特征相似性理论，解释Transformer中类比推理的机制与训练条件
 
-**关键词**：类比推理, Transformer理论, 特征对齐, 表征学习, 两跳推理, 训练课程
+**关键词**：类比推理, Transformer理论, 特征对齐, 表示学习, 训练机制, 归纳推理
 
 ## 3 点简述
-- 核心问题：分离类比推理，分析Transformer中其涌现的理论基础
-- 方法要点：理论证明联合训练、顺序训练和两跳推理的机制与条件
-- 实验或效果：在1.5B参数架构上验证理论，展示表征几何如何塑造推理能力
+- 核心问题：分离类比推理以理解Transformer的推理能力，避免评估混淆
+- 方法要点：理论证明联合训练、顺序训练和两跳推理的机制，强调特征对齐
+- 实验或效果：在1.5B参数架构上验证理论，展示表示几何如何塑造归纳推理
 
 ## 摘要（原文）
 

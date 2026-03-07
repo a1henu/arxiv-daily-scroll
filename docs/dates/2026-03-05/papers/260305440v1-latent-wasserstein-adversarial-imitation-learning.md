@@ -7,14 +7,14 @@ title: Latent Wasserstein Adversarial Imitation Learning
 **arXiv**：[2603.05440v1](https://arxiv.org/abs/2603.05440) · [PDF](https://arxiv.org/pdf/2603.05440.pdf)  
 **作者**：Siqi Yang, Kai Yan, Alexander G. Schwing, Yu-Xiong Wang  
 
-**一句话要点**：提出LWAIL框架，通过动态感知隐空间匹配状态分布，减少模仿学习对专家动作和大量演示的需求。
+**一句话要点**：提出LWAIL框架，通过动态感知隐空间匹配状态分布，以少量状态演示实现模仿学习。
 
-**关键词**：模仿学习, Wasserstein距离, 隐空间学习, 状态分布匹配, 动态感知表示
+**关键词**：模仿学习, Wasserstein距离, 隐空间学习, 状态分布匹配, 对抗模仿学习
 
 ## 3 点简述
-- 核心问题：传统模仿学习需大量高质量演示和专家动作，现实中常不可得。
-- 方法要点：在动态感知隐空间使用Wasserstein距离进行状态分布匹配，基于预训练的ICVF捕获状态空间结构。
-- 实验或效果：在MuJoCo环境中，仅需少量状态专家轨迹即达专家级性能，优于先前方法。
+- 模仿学习传统方法需大量高质量演示和动作数据，这常不可得。
+- LWAIL利用Wasserstein距离在动态感知隐空间匹配状态分布，提升策略对状态转移的理解。
+- 在MuJoCo环境中，LWAIL优于先前方法，仅需一或几个状态演示即达专家水平。
 
 ## 摘要（原文）
 

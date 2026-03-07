@@ -7,14 +7,14 @@ title: ICHOR: A Robust Representation Learning Approach for ASL CBF Maps with Se
 **arXiv**：[2603.05247v1](https://arxiv.org/abs/2603.05247) · [PDF](https://arxiv.org/pdf/2603.05247.pdf)  
 **作者**：Xavier Beltran-Urbano, Yiran Li, Xinglin Zeng, Katie R. Jobson, Manuel Taso, Christopher A. Brown, David A. Wolk, Corey T. McMillan, Ilya M. Nashrallah, Paul A. Yushkevich, Ze Wang, John A. Detre, Sudipto Dolui  
 
-**一句话要点**：提出ICHOR自监督预训练方法，利用3D掩码自编码器学习ASL CBF图的鲁棒表示以解决跨站点泛化问题。
+**一句话要点**：提出ICHOR自监督预训练方法，利用3D掩码自编码器学习ASL CBF图的鲁棒表示以解决跨站点泛化挑战。
 
-**关键词**：自监督学习, 掩码自编码器, ASL CBF图, 神经影像分析, 表示学习, Vision Transformer
+**关键词**：自监督学习, 掩码自编码器, ASL CBF图, Vision Transformer, 跨站点泛化, 医学影像分析
 
 ## 3 点简述
-- 核心问题：ASL CBF图存在图像质量差异、站点间协议不一致和标记数据有限，限制深度学习模型泛化能力。
-- 方法要点：基于Vision Transformer的3D掩码自编码器进行自监督预训练，学习可迁移表示，作为下游任务通用编码器。
-- 实验或效果：在11,405个ASL CBF扫描上预训练，在诊断分类和质量预测任务中优于现有神经影像自监督方法。
+- ASL CBF图分析面临图像质量差异、跨站点协议不一致和标注数据有限等泛化问题。
+- ICHOR基于Vision Transformer，通过掩码图像建模自监督预训练，学习可迁移的通用编码器表示。
+- 在包含11,405次扫描的大规模数据集上预训练，并在下游分类和回归任务中优于现有方法。
 
 ## 摘要（原文）
 

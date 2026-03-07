@@ -7,14 +7,14 @@ title: AgentSCOPE: Evaluating Contextual Privacy Across Agentic Workflows
 **arXiv**：[2603.04902v1](https://arxiv.org/abs/2603.04902) · [PDF](https://arxiv.org/pdf/2603.04902.pdf)  
 **作者**：Ivoline C. Ngong, Keerthiram Murugesan, Swanand Kadhe, Justin D. Weisz, Amit Dhurandhar, Karthikeyan Natesan Ramamurthy  
 
-**一句话要点**：提出Privacy Flow Graph框架和AgentSCOPE基准，以评估智能体工作流中的上下文隐私风险。
+**一句话要点**：提出Privacy Flow Graph框架和AgentSCOPE基准，以评估智能体工作流中的上下文隐私风险
 
-**关键词**：智能体隐私评估, 上下文完整性, 隐私流图, 多工具工作流, 基准测试
+**关键词**：智能体隐私评估, 上下文完整性, 隐私流图, 多工具工作流, 基准测试, 隐私违规检测
 
 ## 3 点简述
-- 核心问题：智能体系统在任务执行中产生多个中间信息流，现有隐私评估仅关注输入输出边界，忽略潜在隐私泄露。
-- 方法要点：基于Contextual Integrity理论，将智能体执行分解为信息流序列，用五个参数标注，追踪隐私违规源头。
-- 实验或效果：在62个多工具场景中评估，隐私违规率超80%，工具响应阶段是主要风险点，输出级评估显著低估风险。
+- 核心问题：智能体系统在任务执行中产生多个中间信息流，现有隐私评估仅关注输入输出边界，忽略潜在隐私泄露点。
+- 方法要点：基于Contextual Integrity理论，引入Privacy Flow Graph框架，将智能体执行分解为带参数的信息流序列，追踪隐私违规源头。
+- 实验或效果：构建AgentSCOPE基准，包含62个多工具场景，评估显示超80%场景存在隐私违规，多数源于工具响应阶段。
 
 ## 摘要（原文）
 

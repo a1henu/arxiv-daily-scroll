@@ -13,8 +13,8 @@ title: SSR-GS: Separating Specular Reflection in Gaussian Splatting for Glossy S
 
 ## 3 点简述
 - 核心问题：3D高斯溅射在强镜面反射和多表面互反射场景中难以准确重建光泽表面
-- 方法要点：引入预滤波Mip-Cubemap建模直接镜面反射，IndiASG模块捕获间接镜面反射，并设计视觉几何先验优化损失函数
-- 实验或效果：在合成和真实数据集上验证了SSR-GS在光泽表面重建中的先进性能
+- 方法要点：引入预过滤Mip-Cubemap建模直接镜面反射，IndiASG模块捕获间接镜面反射，设计视觉几何先验优化损失
+- 实验或效果：在合成和真实数据集上验证，实现光泽表面重建的先进性能
 
 ## 摘要（原文）
 

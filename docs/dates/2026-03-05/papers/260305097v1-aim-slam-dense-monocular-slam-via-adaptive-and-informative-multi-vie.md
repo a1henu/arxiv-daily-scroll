@@ -7,14 +7,14 @@ title: AIM-SLAM: Dense Monocular SLAM via Adaptive and Informative Multi-View Ke
 **arXiv**：[2603.05097v1](https://arxiv.org/abs/2603.05097) · [PDF](https://arxiv.org/pdf/2603.05097.pdf)  
 **作者**：Jinwoo Jeon, Dong-Uk Seo, Eungchang Mason Lee, Hyun Myung  
 
-**一句话要点**：提出AIM-SLAM框架，通过自适应多视图关键帧优先化解决单目SLAM中的密集重建问题。
+**一句话要点**：提出AIM-SLAM框架，通过自适应多视图关键帧优先化解决单目SLAM密集重建问题。
 
-**关键词**：单目SLAM, 密集重建, 多视图优化, 关键帧选择, 几何基础模型, ROS集成
+**关键词**：单目SLAM, 密集重建, 多视图优化, 关键帧选择, 几何基础模型
 
 ## 3 点简述
-- 问题：现有方法局限于两视图对或固定输入，缺乏几何上下文考虑，影响视图选择。
-- 方法：引入SIGMA模块，基于体素重叠和信息增益自适应选择关键帧，并联合多视图Sim(3)优化提升姿态估计。
-- 效果：在真实数据集上实现姿态估计和密集重建的先进性能，支持ROS集成。
+- 问题：现有方法局限于双视图或固定输入，缺乏几何上下文考虑。
+- 方法：引入SIGMA模块，基于体素重叠和信息增益自适应选择关键帧。
+- 效果：在真实数据集上实现姿态估计和密集重建的先进性能。
 
 ## 摘要（原文）
 

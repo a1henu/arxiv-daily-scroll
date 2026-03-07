@@ -7,9 +7,9 @@ title: When Weak LLMs Speak with Confidence, Preference Alignment Gets Stronger
 **arXiv**：[2603.04968v1](https://arxiv.org/abs/2603.04968) · [PDF](https://arxiv.org/pdf/2603.04968.pdf)  
 **作者**：Amirabbas Afzali, Myeongho Jeon, Maria Brbic  
 
-**一句话要点**：提出置信加权偏好优化框架，利用弱大语言模型的高置信样本提升偏好对齐效率
+**一句话要点**：提出置信加权偏好优化框架，利用弱大语言模型的高置信样本提升偏好对齐效果
 
-**关键词**：偏好对齐, 置信加权, 弱大语言模型, 成本降低, 样本选择, 优化框架
+**关键词**：偏好对齐, 置信加权, 弱大语言模型, 成本降低, 样本选择
 
 ## 3 点简述
 - 核心问题：偏好对齐依赖昂贵人工标注或大规模API模型，成本高

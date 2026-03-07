@@ -7,13 +7,13 @@ title: EVMbench: Evaluating AI Agents on Smart Contract Security
 **arXiv**：[2603.04915v1](https://arxiv.org/abs/2603.04915) · [PDF](https://arxiv.org/pdf/2603.04915.pdf)  
 **作者**：Justin Wang, Andreas Bigger, Xiaohai Xu, Justin W. Lin, Andy Applebaum, Tejal Patwardhan, Alpin Yukseloglu, Olivia Watkins  
 
-**一句话要点**：提出EVMbench以评估AI代理在智能合约安全中的检测、修复和利用能力。
+**一句话要点**：提出EVMbench以评估AI代理在智能合约安全中的检测、修补和利用能力。
 
-**关键词**：智能合约安全, AI代理评估, 漏洞检测, 以太坊环境, 程序化评分
+**关键词**：智能合约安全, AI代理评估, 漏洞检测, 以太坊环境, 程序化分级
 
 ## 3 点简述
-- 核心问题：智能合约漏洞导致重大损失，需评估AI代理在安全改进和风险增加方面的能力。
-- 方法要点：基于117个精选漏洞，在本地以太坊环境中使用程序化评分进行端到端评估。
+- 核心问题：智能合约漏洞导致重大损失，需评估AI代理在安全改进与风险增加方面的能力。
+- 方法要点：基于117个精选漏洞，在本地以太坊环境中使用程序化分级进行端到端评估。
 - 实验或效果：前沿代理能发现并利用漏洞，发布代码和工具支持持续测量。
 
 ## 摘要（原文）

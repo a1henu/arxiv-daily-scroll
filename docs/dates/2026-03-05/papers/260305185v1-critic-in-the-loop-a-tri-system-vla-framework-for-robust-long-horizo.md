@@ -14,7 +14,7 @@ title: Critic in the Loop: A Tri-System VLA Framework for Robust Long-Horizon Ma
 ## 3 点简述
 - 核心问题：视觉机器人操作中，高语义推理与低层实时控制难以平衡，VLM延迟高而VLA语义深度不足。
 - 方法要点：采用仿生三系统架构，包括VLM大脑、VLA小脑和视觉Critic，Critic动态监控并调度控制权以优化执行。
-- 实验或效果：在长时程操作基准测试中实现先进性能，增强OOD场景下的鲁棒性和自主性，减少VLM查询。
+- 实验或效果：在挑战性长时程操作基准测试中实现先进性能，增强OOD场景下的鲁棒性和自主性。
 
 ## 摘要（原文）
 

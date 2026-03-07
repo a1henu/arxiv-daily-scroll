@@ -7,14 +7,14 @@ title: AI+HW 2035: Shaping the Next Decade
 **arXiv**：[2603.05225v1](https://arxiv.org/abs/2603.05225) · [PDF](https://arxiv.org/pdf/2603.05225.pdf)  
 **作者**：Deming Chen, Jason Cong, Azalia Mirhoseini, Christos Kozyrakis, Subhasish Mitra, Jinjun Xiong, Cliff Young, Anima Anandkumar, Michael Littman, Aron Kirschen, Sophia Shao, Serge Leef, Naresh Shanbhag, Dejan Milojicic, Michael Schulte, Gert Cauwenberghs, Jerry M. Chow, Tri Dao, Kailash Gopalakrishnan, Richard Ho, Hoshik Kim, Kunle Olukotun, David Z. Pan, Mark Ren, Dan Roth, Aarti Singh, Yizhou Sun, Yusu Wang, Yann LeCun, Ruchir Puri  
 
-**一句话要点**：提出AI与硬件协同设计的十年路线图，以提升能效和系统集成
+**一句话要点**：提出AI与硬件协同设计的十年路线图，以提升能效和系统集成，应对AI发展中的能效挑战。
 
-**关键词**：AI硬件协同设计, 能效优化, 跨层优化, 系统集成, 可持续AI
+**关键词**：AI硬件协同设计, 能效优化, 跨层优化, 系统集成, 可持续AI, 十年路线图
 
 ## 3 点简述
-- 核心问题：AI与硬件发展缺乏协调，制约高效、可持续智能系统构建
-- 方法要点：通过算法、架构、系统跨层优化，重新定义以能效为中心的扩展
-- 实验或效果：目标十年内实现AI训练与推理能效提升1000倍，支持云边端无缝系统
+- 核心问题：AI与硬件发展缺乏长期协同愿景，导致能效低下和系统碎片化。
+- 方法要点：通过算法、架构、系统和可持续性的跨层优化，实现AI+HW协同设计。
+- 实验或效果：目标在十年内实现AI训练和推理效率提升1000倍，并构建云边端一体化系统。
 
 ## 摘要（原文）
 

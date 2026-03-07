@@ -7,14 +7,14 @@ title: Balancing Privacy-Quality-Efficiency in Federated Learning through Round-
 **arXiv**：[2603.05158v1](https://arxiv.org/abs/2603.05158) · [PDF](https://arxiv.org/pdf/2603.05158.pdf)  
 **作者**：Yenan Wang, Carla Fabiana Chiasserini, Elad Michael Schiller  
 
-**一句话要点**：提出Alt-FL框架，通过轮次交错策略平衡联邦学习中的隐私、质量和效率。
+**一句话要点**：提出Alt-FL框架，通过轮次交错策略平衡联邦学习中的隐私保护、学习质量和效率。
 
 **关键词**：联邦学习, 隐私保护, 差分隐私, 同态加密, 合成数据, 轮次交错
 
 ## 3 点简述
-- 核心问题：联邦学习中隐私保护机制如差分隐私和同态加密常导致学习质量下降或系统开销大。
-- 方法要点：Alt-FL结合差分隐私、同态加密和合成数据，采用轮次交错策略实现灵活的质量-效率权衡。
-- 实验或效果：在CIFAR-10和Fashion-MNIST上评估，隐私交错在高隐私级别表现最佳，差分隐私方法在中等隐私需求下更优。
+- 核心问题：联邦学习中隐私保护机制（如差分隐私和同态加密）常导致学习质量下降或系统开销大。
+- 方法要点：Alt-FL结合差分隐私、同态加密和合成数据，采用轮次交错策略，提供三种新方法（PI、SI/DP、SI/HE）。
+- 实验或效果：在CIFAR-10和Fashion-MNIST上评估，PI在高隐私保护下平衡性最佳，差分隐私方法在中等隐私需求下更优。
 
 ## 摘要（原文）
 

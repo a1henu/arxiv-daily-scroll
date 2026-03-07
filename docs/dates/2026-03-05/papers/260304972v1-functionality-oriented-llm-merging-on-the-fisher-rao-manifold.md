@@ -7,14 +7,14 @@ title: Functionality-Oriented LLM Merging on the Fisher--Rao Manifold
 **arXiv**：[2603.04972v1](https://arxiv.org/abs/2603.04972) · [PDF](https://arxiv.org/pdf/2603.04972.pdf)  
 **作者**：Jiayu Wang, Zuojun Ye, Wenpeng Yin  
 
-**一句话要点**：提出基于Fisher-Rao流形的加权Karcher平均方法，以稳定合并多个异构LLM的功能性。
+**一句话要点**：提出基于Fisher-Rao流形的功能导向LLM合并方法，以解决参数空间启发式合并的局限性。
 
-**关键词**：模型合并, Fisher-Rao流形, Karcher平均, 表示崩溃, 功能导向, 多专家合并
+**关键词**：LLM合并, Fisher-Rao流形, Karcher平均, 表示崩溃, 多专家合并, 功能导向
 
 ## 3 点简述
-- 现有参数空间启发式方法在合并LLM时易导致表示崩溃和精度下降。
-- 将模型合并形式化为Fisher-Rao流形上的加权Karcher平均，最小化预测分布的KL距离。
-- 实验显示该方法在模型数量和异构性增加时保持稳定，优于基线。
+- 现有LLM合并方法多为参数空间启发式，导致功能合并不理想、异质性模型合并时表示崩溃、多专家合并缺乏原则性目标。
+- 将模型合并形式化为Fisher-Rao流形上的加权Karcher平均，使用轻量级球形代理推导固定点算法，直接推广到多专家合并。
+- 在多种基准测试和崩溃诊断中，方法在模型数量和异质性增加时保持稳定，性能优于先前基线。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: Fusion4CA: Boosting 3D Object Detection via Comprehensive Image Exploitat
 **arXiv**：[2603.05305v1](https://arxiv.org/abs/2603.05305) · [PDF](https://arxiv.org/pdf/2603.05305.pdf)  
 **作者**：Kang Luo, Xin Chen, Yangyi Xiao, Hesheng Wang  
 
-**一句话要点**：提出Fusion4CA以增强自动驾驶3D目标检测中的RGB信息利用
+**一句话要点**：提出Fusion4CA以增强自动驾驶中基于BEV的3D物体检测，通过全面利用RGB信息提升性能。
 
-**关键词**：3D目标检测, 多模态融合, 鸟瞰图, 对比学习, 自动驾驶, 泛化能力
+**关键词**：3D物体检测, BEV融合, RGB信息利用, 对比对齐, 自动驾驶, nuScenes数据集
 
 ## 3 点简述
-- 现有方法过度依赖LiDAR，RGB信息利用不足
-- 引入对比对齐模块和相机辅助分支，充分挖掘视觉输入
-- 在nuScenes数据集上仅6个训练周期达到69.7% mAP，性能提升1.2%
+- 现有方法过度依赖LiDAR，RGB信息利用不足，导致检测性能受限。
+- 引入对比对齐模块和相机辅助分支，校准图像特征并充分挖掘RGB信息。
+- 在nuScenes数据集上仅用6个训练周期达到69.7% mAP，比基线提升1.2%。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: UltraDexGrasp: Learning Universal Dexterous Grasping for Bimanual Robots 
 **arXiv**：[2603.05312v1](https://arxiv.org/abs/2603.05312) · [PDF](https://arxiv.org/pdf/2603.05312.pdf)  
 **作者**：Sizhe Yang, Yiman Xie, Zhixuan Liang, Yang Tian, Jia Zeng, Dahua Lin, Jiangmiao Pang  
 
-**一句话要点**：提出UltraDexGrasp框架，利用合成数据学习双手机器人的通用灵巧抓取。
+**一句话要点**：提出UltraDexGrasp框架，利用合成数据解决双手机器人灵巧抓取的通用性问题。
 
 **关键词**：双手机器人抓取, 合成数据生成, 灵巧抓取策略, 零样本迁移, 大规模数据集
 
 ## 3 点简述
 - 核心问题：双手机器人灵巧抓取数据稀缺，难以实现物理合理和几何适配的抓取。
 - 方法要点：集成优化抓取合成与规划演示生成，构建大规模多策略数据集UltraDexGrasp-20M。
-- 实验或效果：基于点云输入和注意力机制，策略在真实世界零样本迁移中平均成功率81.2%。
+- 实验或效果：基于点云输入和注意力机制的政策，在真实世界零样本迁移中平均成功率81.2%。
 
 ## 摘要（原文）
 

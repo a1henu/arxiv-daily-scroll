@@ -13,7 +13,7 @@ title: Quadratic polarity and polar Fenchel-Young divergences from the canonical
 
 ## 3 点简述
 - 核心问题：探究二次极性泛函与Legendre极性的关系，以深化信息几何中的对偶性理解。
-- 方法要点：通过(n+2)×(n+2)矩阵在齐次坐标上操作，将二次极性表达为变形Legendre极性或变形凸体的Legendre极性。
+- 方法要点：通过齐次坐标上的矩阵运算，将二次极性表达为变形Legendre极性或变形凸体的Legendre极性。
 - 实验或效果：定义极散度，推广Fenchel-Young散度，并展示总Bregman散度作为总极Fenchel-Young散度的新对偶性。
 
 ## 摘要（原文）

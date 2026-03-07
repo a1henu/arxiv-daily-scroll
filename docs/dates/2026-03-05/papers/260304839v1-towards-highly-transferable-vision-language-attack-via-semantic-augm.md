@@ -7,14 +7,14 @@ title: Towards Highly Transferable Vision-Language Attack via Semantic-Augmented
 **arXiv**：[2603.04839v1](https://arxiv.org/abs/2603.04839) · [PDF](https://arxiv.org/pdf/2603.04839.pdf)  
 **作者**：Yuanbo Li, Tianyang Xu, Cong Hu, Tao Zhou, Xiao-Jun Wu, Josef Kittler  
 
-**一句话要点**：提出语义增强动态对比攻击以增强视觉语言预训练模型的对抗迁移性
+**一句话要点**：提出语义增强动态对比攻击以提升视觉-语言预训练模型的对抗迁移性
 
-**关键词**：视觉语言预训练, 对抗攻击, 迁移性, 对比学习, 语义增强
+**关键词**：视觉-语言预训练, 对抗攻击, 迁移性, 对比学习, 语义增强, 动态交互
 
 ## 3 点简述
 - 现有攻击依赖静态跨模态交互，仅破坏正样本对，导致迁移性有限
-- SADCA通过动态对抗图像-文本交互和对比学习机制，增强语义不一致性扰动
-- 实验表明SADCA在多个数据集和模型上显著提升迁移性，超越现有方法
+- SADCA通过动态对抗图像-文本交互和对比学习机制增强语义不一致性
+- 实验表明SADCA在多个数据集和模型上显著超越现有方法，提升对抗迁移性
 
 ## 摘要（原文）
 

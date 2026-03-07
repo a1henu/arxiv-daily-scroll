@@ -9,7 +9,7 @@ title: OpenFrontier: General Navigation with Visual-Language Grounded Frontiers
 
 **一句话要点**：提出OpenFrontier框架，以视觉-语言锚定前沿实现零训练开放世界导航
 
-**关键词**：开放世界导航, 视觉-语言导航, 零样本学习, 稀疏子目标识别, 前沿锚定, 移动机器人
+**关键词**：开放世界导航, 视觉-语言导航, 零样本学习, 稀疏子目标识别, 语义前沿锚定, 移动机器人
 
 ## 3 点简述
 - 核心问题：传统导航依赖密集3D重建和手工目标度量，泛化能力受限。

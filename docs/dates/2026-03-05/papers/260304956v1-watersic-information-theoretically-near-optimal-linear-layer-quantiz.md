@@ -7,14 +7,14 @@ title: WaterSIC: information-theoretically (near) optimal linear layer quantizat
 **arXiv**：[2603.04956v1](https://arxiv.org/abs/2603.04956) · [PDF](https://arxiv.org/pdf/2603.04956.pdf)  
 **作者**：Egor Lifar, Semyon Savkin, Or Ordentlich, Yury Polyanskiy  
 
-**一句话要点**：提出WaterSIC算法，在线性层量化中实现信息论近最优压缩，提升大模型低精度性能。
+**一句话要点**：提出WaterSIC算法以优化线性层量化，实现信息理论近最优压缩
 
-**关键词**：线性层量化, 信息论优化, 水填充算法, 低精度压缩, 大模型量化, GPTQ改进
+**关键词**：线性层量化, 信息理论极限, 水填充算法, 低精度压缩, 大语言模型优化
 
 ## 3 点简述
-- 分析线性层量化中压缩长度与输出误差的信息论权衡，揭示GPTQ算法可能远离理论极限。
-- 设计WaterSIC算法，基于水填充原理为权重矩阵列分配不同量化率，接近信息论极限。
-- 在Llama和Qwen大模型上应用，1至4比特量化均达到新最优性能。
+- 分析线性层量化中压缩长度与输出误差的信息理论极限
+- 提出WaterSIC算法，基于水填充原理分配不同列量化率，接近理论极限
+- 在Llama和Qwen模型上应用，1-4位量化均达到新最优性能
 
 ## 摘要（原文）
 

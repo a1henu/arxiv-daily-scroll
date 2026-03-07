@@ -7,14 +7,14 @@ title: GCAgent: Enhancing Group Chat Communication through Dialogue Agents Syste
 **arXiv**：[2603.05240v1](https://arxiv.org/abs/2603.05240) · [PDF](https://arxiv.org/pdf/2603.05240.pdf)  
 **作者**：Zijie Meng, Zheyong Xie, Zheyu Ye, Chonggang Lu, Zuozhu Liu, Zihan Niu, Yao Hu, Shaosheng Cao  
 
-**一句话要点**：提出GCAgent系统，通过对话代理增强群聊通信，解决活跃度与管理挑战。
+**一句话要点**：提出GCAgent系统，通过LLM驱动的对话代理增强群聊通信，解决活跃度与管理挑战。
 
 **关键词**：群聊增强, 对话代理系统, 大语言模型应用, 多参与者对话, 交互工具
 
 ## 3 点简述
 - 核心问题：群聊中活跃度低与管理困难，阻碍兴趣交流与问题解决。
-- 方法要点：基于大语言模型，集成Agent Builder、Dialogue Manager和Interface Plugins模块。
-- 实验或效果：实验得分4.68，部署350天消息量增28.80%，提升群聊活跃度。
+- 方法要点：系统包含Agent Builder定制代理、Dialogue Manager协调对话、Interface Plugins降低交互障碍。
+- 实验或效果：实验平均得分4.68，部署350天消息量增28.80%，提升群组活跃度。
 
 ## 摘要（原文）
 

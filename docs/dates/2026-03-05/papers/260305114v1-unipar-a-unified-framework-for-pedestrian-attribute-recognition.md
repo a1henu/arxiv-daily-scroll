@@ -7,14 +7,14 @@ title: UniPAR: A Unified Framework for Pedestrian Attribute Recognition
 **arXiv**：[2603.05114v1](https://arxiv.org/abs/2603.05114) · [PDF](https://arxiv.org/pdf/2603.05114.pdf)  
 **作者**：Minghe Xu, Rouying Wu, Jiarui Xu, Minhao Sun, Zikang Yan, Xiao Wang, ChiaWei Chu, Yu Li  
 
-**一句话要点**：提出UniPAR统一框架，以解决行人属性识别中跨模态、跨数据集和跨场景的挑战。
+**一句话要点**：提出UniPAR统一框架以解决行人属性识别中的多模态跨域挑战
 
-**关键词**：行人属性识别, 统一框架, Transformer, 跨模态学习, 多数据集训练, 分阶段融合
+**关键词**：行人属性识别, 统一框架, 多模态处理, 跨域泛化, Transformer架构, 动态分类头
 
 ## 3 点简述
-- 核心问题：现有方法受限于‘一数据集一模型’范式，难以处理模态、属性和环境差异。
+- 核心问题：现有方法受限于单数据集模型，难以处理模态、属性和环境差异。
 - 方法要点：采用统一数据调度和动态分类头，结合分阶段融合编码器对齐视觉与文本特征。
-- 实验或效果：在多个基准数据集上性能媲美专用SOTA，多数据集联合训练提升跨域泛化与鲁棒性。
+- 实验或效果：在多个基准数据集上性能媲美专用方法，多数据集训练提升跨域泛化与鲁棒性。
 
 ## 摘要（原文）
 

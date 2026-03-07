@@ -7,14 +7,14 @@ title: Multilevel Training for Kolmogorov Arnold Networks
 **arXiv**：[2603.04827v1](https://arxiv.org/abs/2603.04827) · [PDF](https://arxiv.org/pdf/2603.04827.pdf)  
 **作者**：Ben S. Southworth, Jonas A. Actor, Graham Harper, Eric C. Cyr  
 
-**一句话要点**：提出多级训练方法以加速Kolmogorov-Arnold网络训练，提升物理信息神经网络性能
+**一句话要点**：提出多级训练方法以加速Kolmogorov-Arnold网络训练，提升物理信息神经网络性能。
 
-**关键词**：Kolmogorov-Arnold网络, 多级训练, 样条基函数, 物理信息神经网络, 梯度优化, 基变换
+**关键词**：Kolmogorov-Arnold网络, 多级训练, 样条基函数, 物理信息神经网络, 梯度优化
 
 ## 3 点简述
-- 核心问题：传统神经网络训练因缺乏结构保证而难以加速，KANs提供更多结构但训练效率仍待提升
-- 方法要点：通过基变换建立KANs与MLPs等价性，利用样条基函数结构设计多级训练算法，实现模型间几何插值
-- 实验或效果：数值实验显示多级训练在精度上比传统方法提升多个数量级，尤其适用于物理信息神经网络
+- 核心问题：传统神经网络训练缺乏结构保证，导致算法加速困难。
+- 方法要点：利用KANs的基函数结构，通过基变换和样条节点细化实现多级训练。
+- 实验或效果：数值实验显示多级训练在精度上比传统方法提升多个数量级。
 
 ## 摘要（原文）
 

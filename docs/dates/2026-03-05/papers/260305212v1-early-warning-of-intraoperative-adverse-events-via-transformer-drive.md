@@ -13,7 +13,7 @@ title: Early Warning of Intraoperative Adverse Events via Transformer-Driven Mul
 
 ## 3 点简述
 - 核心问题：术中不良事件预测存在事件依赖忽略、异构数据利用不足和类别不平衡挑战。
-- 方法要点：结合TAFiLM模块融合静态与动态数据，并引入LCRLoss正则化处理事件共现与不平衡。
+- 方法要点：结合TAFiLM模块融合静态与动态数据，引入LCRLoss正则化处理事件共现与不平衡。
 - 实验或效果：在5、10、15分钟预警任务中，平均F1分数分别提升5.05%、2.82%和7.57%。
 
 ## 摘要（原文）

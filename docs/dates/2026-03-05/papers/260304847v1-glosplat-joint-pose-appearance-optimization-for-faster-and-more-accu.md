@@ -7,14 +7,14 @@ title: GloSplat: Joint Pose-Appearance Optimization for Faster and More Accurate
 **arXiv**：[2603.04847v1](https://arxiv.org/abs/2603.04847) · [PDF](https://arxiv.org/pdf/2603.04847.pdf)  
 **作者**：Tianyu Xiong, Rui Li, Linjie Li, Jiaqi Yang  
 
-**一句话要点**：提出GloSplat框架，通过联合位姿-外观优化提升3D高斯溅射重建的速度与精度
+**一句话要点**：提出GloSplat框架，通过联合位姿-外观优化实现更快更准确的3D重建
 
-**关键词**：3D高斯溅射, 联合优化, 运动恢复结构, 新视角合成, 特征轨迹, 无COLMAP重建
+**关键词**：3D重建, 联合优化, 高斯溅射, 位姿估计, 特征跟踪
 
 ## 3 点简述
-- 核心问题：传统3D重建将特征提取、匹配、运动恢复结构和新视角合成作为独立优化问题，导致效率与精度受限
-- 方法要点：在3D高斯溅射训练中，联合优化位姿与外观，保留显式SfM特征轨迹作为可优化参数，结合重投影损失与光度监督
-- 实验或效果：GloSplat-F在无COLMAP方法中达到最优，GloSplat-A超越所有基于COLMAP的基线，实现更快更准重建
+- 核心问题：传统3D重建将特征提取、匹配、SfM和NVS作为独立优化问题，导致效率与精度受限
+- 方法要点：在3D高斯溅射训练中，结合显式SfM特征轨迹与光度监督，进行联合位姿-外观优化
+- 实验或效果：GloSplat-F在无COLMAP方法中达到最优，GloSplat-A超越所有基于COLMAP的基线
 
 ## 摘要（原文）
 

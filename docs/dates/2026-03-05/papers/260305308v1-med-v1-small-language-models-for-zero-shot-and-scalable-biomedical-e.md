@@ -7,14 +7,14 @@ title: Med-V1: Small Language Models for Zero-shot and Scalable Biomedical Evide
 **arXiv**：[2603.05308v1](https://arxiv.org/abs/2603.05308) · [PDF](https://arxiv.org/pdf/2603.05308.pdf)  
 **作者**：Qiao Jin, Yin Fang, Lauren He, Yifan Yang, Guangzhi Xiong, Zhizheng Wang, Nicholas Wan, Joey Chan, Donald C. Comeau, Robert Leaman, Charalampos S. Floudas, Aidong Zhang, Michael F. Chiang, Yifan Peng, Zhiyong Lu  
 
-**一句话要点**：提出Med-V1小语言模型，用于高效且可扩展的生物医学证据归因与验证任务。
+**一句话要点**：提出Med-V1小语言模型，用于高效且可扩展的生物医学证据归因任务。
 
 **关键词**：生物医学证据归因, 小语言模型, 幻觉检测, 声明验证, 合成数据训练, 临床指南分析
 
 ## 3 点简述
-- 核心问题：评估文章是否支持断言对幻觉检测和声明验证至关重要，但现有大型语言模型部署成本高。
-- 方法要点：开发仅30亿参数的Med-V1模型，基于高质量合成数据训练，统一五个生物医学基准为验证格式。
-- 实验或效果：Med-V1在基准上显著超越基础模型，性能媲美前沿LLMs，并应用于量化幻觉和识别临床指南误归因。
+- 核心问题：评估文章是否支持断言，对幻觉检测和声明验证至关重要，但现有大模型部署成本高。
+- 方法要点：基于高质量合成数据训练仅30亿参数的Med-V1模型，统一五个生物医学基准为验证格式。
+- 实验或效果：Med-V1在基准上显著超越基础模型，性能媲美前沿大模型，并应用于量化幻觉和识别临床指南误归因。
 
 ## 摘要（原文）
 

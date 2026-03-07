@@ -7,14 +7,14 @@ title: A Simple Baseline for Unifying Understanding, Generation, and Editing via
 **arXiv**：[2603.04980v1](https://arxiv.org/abs/2603.04980) · [PDF](https://arxiv.org/pdf/2603.04980.pdf)  
 **作者**：Jie Zhu, Hanghang Ma, Jia Wang, Yayong Guan, Yanbing Zeng, Lishuai Gao, Junqiang Wu, Jie Hu, Leye Wang  
 
-**一句话要点**：提出Wallaroo，基于自回归模型统一多模态理解、生成与编辑任务。
+**一句话要点**：提出Wallaroo，基于自回归模型统一多模态理解、图像生成与编辑。
 
-**关键词**：自回归模型, 多模态统一, 视觉编码解耦, 四阶段训练, 多分辨率支持, 中英双语
+**关键词**：自回归模型, 多模态统一, 图像生成, 图像编辑, 多分辨率支持, 双语支持
 
 ## 3 点简述
-- 核心问题：多模态任务统一模型复杂，需简化架构以提升效率与性能。
-- 方法要点：采用解耦视觉编码和四阶段训练策略，支持多分辨率输入输出及中英双语。
-- 实验或效果：在多个基准测试中表现竞争性或超越其他统一模型，验证自回归模型潜力。
+- 核心问题：多模态任务统一模型复杂，需简化架构以提升效率。
+- 方法要点：采用自回归模型，通过四阶段训练策略解耦视觉编码路径。
+- 实验或效果：在多个基准测试中表现竞争性或超越其他统一模型。
 
 ## 摘要（原文）
 

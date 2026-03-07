@@ -7,9 +7,9 @@ title: A Geometry-Adaptive Deep Variational Framework for Phase Discovery in the
 **arXiv**：[2603.05161v1](https://arxiv.org/abs/2603.05161) · [PDF](https://arxiv.org/pdf/2603.05161.pdf)  
 **作者**：Yuchen Xie, Jianyuan Yin, Lei Zhang  
 
-**一句话要点**：提出几何自适应深度变分框架以解决Landau-Brazovskii模型中相发现的计算域敏感性问题
+**一句话要点**：提出几何自适应深度变分框架以解决Landau-Brazovskii模型中相发现的计算域尺寸敏感性问题
 
-**关键词**：Landau-Brazovskii模型, 几何自适应变分框架, 深度神经网络, 相发现, 计算域优化, 预热惩罚机制
+**关键词**：相发现, 几何自适应, 深度变分框架, Landau-Brazovskii模型, 神经网络参数化
 
 ## 3 点简述
 - 核心问题：数值求解器对计算域尺寸敏感，导致人工应力并陷入高能亚稳态
