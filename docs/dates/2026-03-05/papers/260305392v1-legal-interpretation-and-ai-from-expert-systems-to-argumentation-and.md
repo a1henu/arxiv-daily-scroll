@@ -7,7 +7,7 @@ title: Legal interpretation and AI: from expert systems to argumentation and LLM
 **arXiv**：[2603.05392v1](https://arxiv.org/abs/2603.05392) · [PDF](https://arxiv.org/pdf/2603.05392.pdf)  
 **作者**：Václav Janeček, Giovanni Sartor  
 
-**一句话要点**：综述AI与法律研究中法律解释的演进，从专家系统到论证与大型语言模型
+**一句话要点**：综述AI与法律研究中法律解释的演变，从专家系统到论证与大型语言模型
 
 **关键词**：AI与法律, 法律解释, 专家系统, 论证框架, 大型语言模型, 知识工程
 

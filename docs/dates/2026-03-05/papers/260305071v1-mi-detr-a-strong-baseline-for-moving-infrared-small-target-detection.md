@@ -7,14 +7,14 @@ title: MI-DETR: A Strong Baseline for Moving Infrared Small Target Detection wit
 **arXiv**：[2603.05071v1](https://arxiv.org/abs/2603.05071) · [PDF](https://arxiv.org/pdf/2603.05071.pdf)  
 **作者**：Nian Liu, Jin Gao, Shubo Lin, Yutong Kou, Sikui Zhang, Fudong Ge, Zhiqiang Pu, Liang Li, Gang Wang, Yizheng Wang, Weiming Hu  
 
-**一句话要点**：提出MI-DETR，通过生物启发式运动集成解决红外小目标检测中背景复杂与目标低对比度问题。
+**一句话要点**：提出MI-DETR，通过生物启发式运动整合解决红外小目标检测中复杂背景干扰问题。
 
-**关键词**：红外小目标检测, 生物启发式模型, 运动集成, 双通路检测, DETR架构, 无监督运动建模
+**关键词**：红外小目标检测, 运动整合, 生物启发模型, 双通路检测, DETR架构, 无监督运动建模
 
 ## 3 点简述
 - 核心问题：红外小目标检测中，微小低对比度目标易被复杂动态背景遮挡，传统多帧方法需额外运动监督或对齐模块。
-- 方法要点：设计视网膜启发式细胞自动机生成运动图，结合双通路特征交互，无需额外运动标签或对齐操作。
-- 实验或效果：在三个ISTD基准上表现优异，如IRDST-H上mAP@50达70.3%，提升显著。
+- 方法要点：设计视网膜启发式细胞自动机生成运动图，结合双通路特征交互，实现无额外标签的运动-外观整合检测。
+- 实验或效果：在三个ISTD基准上表现优异，如IRDST-H上mAP@50达70.3%，验证了生物启发方法的有效性。
 
 ## 摘要（原文）
 

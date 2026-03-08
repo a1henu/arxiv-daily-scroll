@@ -7,14 +7,14 @@ title: WebFactory: Automated Compression of Foundational Language Intelligence i
 **arXiv**：[2603.05044v1](https://arxiv.org/abs/2603.05044) · [PDF](https://arxiv.org/pdf/2603.05044.pdf)  
 **作者**：Sicheng Fan, Qingyun Shi, Shengze Xu, Shengbo Cai, Tieyong Zeng, Li Ling, Yanyi Shang, Dehan Kong  
 
-**一句话要点**：提出WebFactory自动化压缩大语言模型知识为GUI智能体，解决训练数据依赖问题。
+**一句话要点**：提出WebFactory自动化压缩大语言模型知识为GUI智能体，解决数据依赖与效率问题。
 
 **关键词**：GUI智能体, 知识压缩, 强化学习, 自动化训练, 大语言模型, 泛化性能
 
 ## 3 点简述
-- 核心问题：GUI智能体训练依赖不安全实时交互或昂贵人工数据，忽视知识压缩效率。
-- 方法要点：采用闭环强化学习流程，自动化合成环境、生成任务、收集轨迹、分解奖励训练。
-- 实验或效果：在10个网站合成数据上训练，性能媲美更多环境人工数据训练的智能体，泛化能力强。
+- 核心问题：当前GUI智能体训练依赖不安全实时交互或昂贵人工数据，忽视知识压缩效率。
+- 方法要点：引入全自动闭环强化学习流程，包括环境合成、任务生成、轨迹收集、分解奖励训练和系统评估。
+- 实验或效果：在仅10个网站合成数据上训练，性能媲美更多环境人工数据训练的智能体，泛化能力强。
 
 ## 摘要（原文）
 

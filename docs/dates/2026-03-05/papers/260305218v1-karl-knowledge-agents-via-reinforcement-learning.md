@@ -7,14 +7,14 @@ title: KARL: Knowledge Agents via Reinforcement Learning
 **arXiv**：[2603.05218v1](https://arxiv.org/abs/2603.05218) · [PDF](https://arxiv.org/pdf/2603.05218.pdf)  
 **作者**：Jonathan D. Chang, Andrew Drozdov, Shubham Toshniwal, Owen Oertell, Alexander Trott, Jacob Portes, Abhay Gupta, Pallavi Koppol, Ashutosh Baheti, Sean Kulinski, Ivan Zhou, Irene Dea, Krista Opsahl-Ong, Simon Favreau-Lessard, Sean Owen, Jose Javier Gonzalez Ortiz, Arnav Singhvi, Xabi Andrade, Cindy Wang, Kartik Sreenivasan, Sam Havens, Jialu Liu, Peyton DeNiro, Wen Sun, Michael Bendersky, Jonathan Frankle  
 
-**一句话要点**：提出KARL系统，通过强化学习训练企业搜索代理，在多样化任务中实现最优性能。
+**一句话要点**：提出KARL系统，通过强化学习训练企业搜索代理，在多样化搜索任务中实现最优性能。
 
-**关键词**：企业搜索代理, 强化学习, 多任务评估, 合成数据生成, 分布外泛化, 后训练范式
+**关键词**：企业搜索代理, 强化学习, 多任务训练, 合成数据生成, 评估套件, 泛化能力
 
 ## 3 点简述
-- 核心问题：企业搜索任务多样且难以验证，需高效代理系统。
-- 方法要点：引入KARLBench评估套件，开发基于长时推理和工具使用的数据合成管道，采用迭代大批次离策略RL进行后训练。
-- 实验或效果：在KARLBench上优于Claude 4.6和GPT 5.2，支持分布外泛化，计算充足时超越最强闭源模型。
+- 核心问题：企业搜索任务多样且难以验证，需高效代理处理。
+- 方法要点：开发KARLBench评估套件，结合多任务强化学习与合成数据生成。
+- 实验或效果：在成本-质量和延迟-质量权衡上优于Claude 4.6和GPT 5.2，泛化能力强。
 
 ## 摘要（原文）
 

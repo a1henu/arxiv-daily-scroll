@@ -7,14 +7,14 @@ title: UniM: A Unified Any-to-Any Interleaved Multimodal Benchmark
 **arXiv**：[2603.05075v1](https://arxiv.org/abs/2603.05075) · [PDF](https://arxiv.org/pdf/2603.05075.pdf)  
 **作者**：Yanlin Li, Minghui Guo, Kaiwen Zhang, Shize Zhang, Yiran Zhao, Haodong Li, Congyue Zhou, Weijie Zheng, Yushen Yan, Shengqiong Wu, Wei Ji, Lei Cui, Furu Wei, Hao Fei, Mong-Li Lee, Wynne Hsu  
 
-**一句话要点**：提出UniM基准以评估任意组合交错多模态输入输出的统一理解与生成能力
+**一句话要点**：提出UniM基准以评估任意模态交错输入输出的统一多模态学习能力
 
-**关键词**：任意到任意交错多模态, 多模态基准, 统一理解与生成, 多模态大语言模型, 交错推理生成, 多模态评估
+**关键词**：任意到任意多模态学习, 交错多模态基准, 多模态大语言模型评估, 统一理解与生成, 多模态数据集, 交错连贯性
 
 ## 3 点简述
-- 核心问题：现实多模态应用需处理任意交错多模态输入并生成任意交错输出，现有基准不足
-- 方法要点：构建首个统一任意到任意交错多模态数据集UniM，涵盖7种模态和30个领域，并设计三维评估套件
-- 实验或效果：实验显示UniM具有挑战性，提出UniMA基线模型，为多模态大语言模型发展提供方向
+- 核心问题：现实多模态应用需处理任意组合交错输入并生成任意交错输出，现有基准不足
+- 方法要点：构建首个统一任意到任意交错多模态数据集，含31K实例覆盖7模态，并设计三维评估套件
+- 实验或效果：基准难度高，突显统一多模态智能的关键挑战，提出可追溯推理的基线模型UniMA
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: SlideSparse: Fast and Flexible (2N-2):2N Structured Sparsity
 **arXiv**：[2603.05232v1](https://arxiv.org/abs/2603.05232) · [PDF](https://arxiv.org/pdf/2603.05232.pdf)  
 **作者**：Hanyong Shao, Yingbo Hao, Ting Song, Yan Xia, Di Zhang, Shaohan Huang, Xun Wu, Songchen Xu, Le Xu, Li Dong, Zewen Chi, Yi Zou, Furu Wei  
 
-**一句话要点**：提出SlideSparse系统，在通用GPU上实现(2N-2):2N结构化稀疏的加速，以平衡LLM推理精度与效率。
+**一句话要点**：提出SlideSparse系统，在通用GPU上实现(2N-2):2N结构化稀疏加速，以平衡LLM推理精度与效率。
 
-**关键词**：结构化稀疏, LLM推理加速, GPU优化, 滑动窗口分解, 激活提升, 精度保持
+**关键词**：结构化稀疏, LLM推理加速, GPU优化, 稀疏张量核心, 滑动窗口分解, 激活提升
 
 ## 3 点简述
-- 核心问题：NVIDIA的2:4稀疏张量核心要求严格50%剪枝，导致LLM推理精度大幅下降，而更温和的(2N-2):2N模式缺乏硬件支持。
-- 方法要点：通过滑动窗口分解将(2N-2):2N权重块重构为N-1个重叠的2:4兼容窗口，结合激活提升技术以低成本融合激活重排。
-- 实验或效果：在Qwen2.5-7B等模型上，6:8稀疏度下实测加速比达1.33倍，接近理论上限，验证了精度保持的LLM加速可行性。
+- 核心问题：NVIDIA 2:4稀疏张量核心要求50%剪枝，导致LLM推理精度大幅下降，而更温和的(2N-2):2N模式无硬件支持。
+- 方法要点：通过滑动窗口分解将(2N-2):2N权重块重构为N-1个重叠的2:4兼容窗口，结合激活提升技术融合激活重排。
+- 实验或效果：在Qwen2.5-7B等模型上，6:8稀疏度下实测加速比达1.33倍，接近理论上限，代码已开源。
 
 ## 摘要（原文）
 

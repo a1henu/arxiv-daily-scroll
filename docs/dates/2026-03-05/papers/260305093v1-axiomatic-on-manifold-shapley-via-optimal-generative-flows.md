@@ -13,7 +13,7 @@ title: Axiomatic On-Manifold Shapley via Optimal Generative Flows
 
 ## 3 点简述
 - 核心问题：传统Shapley归因因启发式基线产生离流形伪影，生成方法存在几何低效和离散化漂移。
-- 方法要点：建立最优生成流驱动的流形上Aumann-Shapley归因形式理论，通过动能最小化Wasserstein-2测地线确定唯一路径。
+- 方法要点：建立流形上Aumann-Shapley归因的形式理论，通过动能最小化的Wasserstein-2测地线确定唯一梯度线积分。
 - 实验效果：方法在流形一致性误差趋零，结构感知总变差指标上优于基线，实现严格流形遵循和语义对齐。
 
 ## 摘要（原文）

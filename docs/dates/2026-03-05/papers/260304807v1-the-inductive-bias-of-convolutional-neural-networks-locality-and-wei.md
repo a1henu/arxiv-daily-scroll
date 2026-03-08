@@ -14,7 +14,7 @@ title: The Inductive Bias of Convolutional Neural Networks: Locality and Weight 
 ## 3 点简述
 - 研究架构归纳偏置如何重塑梯度下降边缘稳定性中的隐式正则化
 - 证明卷积网络在接收域较小时能泛化球面数据，而全连接网络失败
-- 分析自然图像块几何，解释卷积设计优于全连接基线的泛化原因
+- 分析自然图像块几何，解释卷积网络优于全连接基线的泛化原因
 
 ## 摘要（原文）
 

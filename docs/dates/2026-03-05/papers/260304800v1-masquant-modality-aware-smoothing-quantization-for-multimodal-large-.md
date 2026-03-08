@@ -7,14 +7,14 @@ title: MASQuant: Modality-Aware Smoothing Quantization for Multimodal Large Lang
 **arXiv**：[2603.04800v1](https://arxiv.org/abs/2603.04800) · [PDF](https://arxiv.org/pdf/2603.04800.pdf)  
 **作者**：Lulu Hu, Wenhu Xiao, Xin Chen, Xinhua Xu, Bowen Xu, Kun Li, Yongliang Tao  
 
-**一句话要点**：提出MASQuant以解决多模态大语言模型后训练量化中的平滑错位和跨模态计算不变性问题。
+**一句话要点**：提出MASQuant以解决多模态大语言模型后训练量化中的平滑错位和跨模态计算不变性问题
 
-**关键词**：多模态大语言模型, 后训练量化, 模态感知平滑, 跨模态补偿, SVD白化
+**关键词**：多模态大语言模型, 后训练量化, 模态感知平滑, 跨模态补偿, 低秩变换
 
 ## 3 点简述
-- 核心问题：SmoothQuant在多模态大语言模型中存在平滑错位和跨模态计算不变性挑战。
-- 方法要点：引入模态感知平滑和跨模态补偿，通过模态特定平滑因子和SVD白化实现统一量化。
-- 实验或效果：在双模态和三模态模型上表现稳定，与先进后训练量化算法竞争。
+- 核心问题：SmoothQuant在多模态大语言模型中存在平滑错位和跨模态计算不变性问题
+- 方法要点：引入模态感知平滑和跨模态补偿，实现多模态统一量化
+- 实验或效果：在双模态和三模态模型中表现稳定，与先进后训练量化算法竞争
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: TSEmbed: Unlocking Task Scaling in Universal Multimodal Embeddings
 **arXiv**：[2603.04772v1](https://arxiv.org/abs/2603.04772) · [PDF](https://arxiv.org/pdf/2603.04772.pdf)  
 **作者**：Yebo Wu, Feng Liu, Ziwei Xie, Zhiyuan Liu, Changwang Zhang, Jun Wang, Li Li  
 
-**一句话要点**：提出TSEmbed框架，通过MoE与LoRA协同解决多模态嵌入中的任务冲突问题
+**一句话要点**：提出TSEmbed框架以解决多模态嵌入中的任务冲突问题
 
-**关键词**：多模态嵌入, 任务冲突, 混合专家, 低秩适应, 负采样策略, 通用表示学习
+**关键词**：多模态嵌入, 任务冲突, 混合专家, 低秩适应, 负采样策略, 通用嵌入模型
 
 ## 3 点简述
-- 核心问题：多模态大语言模型作为通用嵌入模型时面临任务冲突的阻碍
-- 方法要点：结合MoE与LoRA显式解耦冲突任务，并引入专家感知负采样策略
-- 实验效果：在MMEB基准和工业数据集上达到最先进性能，支持任务级扩展
+- 核心问题：多模态大语言模型作为通用嵌入模型时面临任务冲突阻碍。
+- 方法要点：结合MoE与LoRA解耦任务目标，并引入EANS策略优化负采样。
+- 实验或效果：在MMEB和工业数据集上实现最先进性能，支持任务级扩展。
 
 ## 摘要（原文）
 

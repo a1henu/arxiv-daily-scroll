@@ -7,14 +7,14 @@ title: Recursive Inference Machines for Neural Reasoning
 **arXiv**：[2603.05234v1](https://arxiv.org/abs/2603.05234) · [PDF](https://arxiv.org/pdf/2603.05234.pdf)  
 **作者**：Mieszko Komisarczyk, Saurabh Mathur, Maurice Kraus, Sriraam Natarajan, Kristian Kersting  
 
-**一句话要点**：提出递归推理机以结合神经推理与经典推理机制，提升复杂问题解决性能。
+**一句话要点**：提出递归推理机以结合神经推理与经典推理机制，提升复杂推理任务性能。
 
-**关键词**：神经推理, 递归推理机, 推理机制, 复杂问题解决, 表格数据分类
+**关键词**：神经推理, 递归推理, 推理机制, 复杂查询, 表格数据分类
 
 ## 3 点简述
 - 核心问题：神经推理系统如TRMs缺乏显式推理机制，难以高效处理复杂查询。
 - 方法要点：引入RIMs框架，集成递归推理机制，通过重加权组件扩展TRMs。
-- 实验或效果：在ARC-AGI和Sudoku Extreme等基准上表现更优，并在表格数据分类任务中超越TabPFNs。
+- 实验或效果：在ARC-AGI和Sudoku Extreme等基准上表现更优，并改进表格数据分类任务。
 
 ## 摘要（原文）
 

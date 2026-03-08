@@ -7,14 +7,14 @@ title: Fusion-CAM: Integrating Gradient and Region-Based Class Activation Maps f
 **arXiv**：[2603.05386v1](https://arxiv.org/abs/2603.05386) · [PDF](https://arxiv.org/pdf/2603.05386.pdf)  
 **作者**：Hajar Dekdegue, Moncef Garouani, Josiane Mothe, Jordan Bernigaud  
 
-**一句话要点**：提出Fusion-CAM以融合梯度和区域类激活图，提供鲁棒视觉解释
+**一句话要点**：提出Fusion-CAM以融合梯度和区域类激活图，生成鲁棒视觉解释
 
 **关键词**：类激活图, 可解释AI, 梯度融合, 视觉解释, 深度学习
 
 ## 3 点简述
 - 核心问题：梯度CAM噪声大且覆盖不全，区域CAM平滑过度且细节不敏感
-- 方法要点：先降噪梯度图，再加权融合区域图，最后自适应像素级融合
-- 实验或效果：在标准基准上优于现有CAM变体，提供灵活解释工具
+- 方法要点：去噪梯度图后与区域图加权融合，自适应像素级融合增强一致性
+- 实验或效果：在标准基准上优于现有CAM变体，提供鲁棒灵活解释工具
 
 ## 摘要（原文）
 

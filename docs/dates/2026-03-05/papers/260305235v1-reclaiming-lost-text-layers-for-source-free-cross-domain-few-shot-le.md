@@ -7,9 +7,9 @@ title: Reclaiming Lost Text Layers for Source-Free Cross-Domain Few-Shot Learnin
 **arXiv**：[2603.05235v1](https://arxiv.org/abs/2603.05235) · [PDF](https://arxiv.org/pdf/2603.05235.pdf)  
 **作者**：Zhenyu Zhang, Guangyao Chen, Yixiong Zou, Yuhua Li, Ruixuan Li  
 
-**一句话要点**：提出重利用文本编码器丢失层的方法，以提升源自由跨域少样本学习性能。
+**一句话要点**：提出重利用文本编码器丢失层方法，以提升源自由跨域少样本学习性能。
 
-**关键词**：源自由跨域少样本学习, 文本编码器优化, 视觉-语言模型, 域适应, 少样本学习
+**关键词**：源自由跨域少样本学习, 文本编码器优化, 层重利用, 视觉-文本对齐, 域适应, 少样本学习
 
 ## 3 点简述
 - 核心问题：CLIP文本编码器中某些中间层在跨域少样本学习中被视为冗余，但实际包含有益信息未被充分利用。

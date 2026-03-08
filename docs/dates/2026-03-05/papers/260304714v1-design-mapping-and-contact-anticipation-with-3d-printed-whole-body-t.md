@@ -9,7 +9,7 @@ title: Design, Mapping, and Contact Anticipation with 3D-printed Whole-Body Tact
 
 **一句话要点**：提出GenTact-Prox全3D打印人工皮肤，集成触觉与接近传感，用于动态环境中机器人的接触检测与预测。
 
-**关键词**：3D打印人工皮肤, 触觉与接近传感, 接触预测, 机器人感知, 模块化设计, 数据驱动映射
+**关键词**：3D打印人工皮肤, 触觉接近传感, 接触预测, 机器人感知, 模块化设计, Perisensory Space映射
 
 ## 3 点简述
 - 核心问题：机器人在动态共享环境中需提前预测接触以避免碰撞。

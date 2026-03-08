@@ -7,14 +7,14 @@ title: Person Detection and Tracking from an Overhead Crane LiDAR
 **arXiv**：[2603.04938v1](https://arxiv.org/abs/2603.04938) · [PDF](https://arxiv.org/pdf/2603.04938.pdf)  
 **作者**：Nilusha Jayawickrama, Henrik Toikka, Risto Ojala  
 
-**一句话要点**：提出基于天车LiDAR的人员检测与跟踪方法，以解决工业室内场景中的领域转移问题。
+**一句话要点**：提出基于天车LiDAR的人员检测与跟踪方法，以解决工业室内场景中的领域偏移问题
 
 **关键词**：天车LiDAR, 人员检测, 3D目标检测, 人员跟踪, 工业室内场景, 领域适应
 
 ## 3 点简述
-- 核心问题：天车视角LiDAR数据与常见车载基准存在领域差异，且缺乏公开训练数据。
-- 方法要点：构建站点特定数据集，适配3D检测器，并集成轻量级跟踪算法如AB3DMOT和SimpleTrack。
-- 实验或效果：在5.0米半径内平均精度达0.84，1.0米时提升至0.97，VoxelNeXt和SECOND表现最佳。
+- 核心问题：天车视角LiDAR数据与常见车载基准存在领域偏移，且缺乏公开训练数据
+- 方法要点：构建特定场景数据集，适配3D检测器，并集成轻量级跟踪算法
+- 实验或效果：在5米半径内平均精度达0.84，1米内提升至0.97，并验证实时可行性
 
 ## 摘要（原文）
 

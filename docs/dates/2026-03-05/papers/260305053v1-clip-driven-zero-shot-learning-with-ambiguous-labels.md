@@ -7,14 +7,14 @@ title: CLIP-driven Zero-shot Learning with Ambiguous Labels
 **arXiv**：[2603.05053v1](https://arxiv.org/abs/2603.05053) · [PDF](https://arxiv.org/pdf/2603.05053.pdf)  
 **作者**：Jinfu Fan, Jiangnan Li, Xiaowen Yan, Xiaohui Zhong, Wenpeng Lu, Linqing Huang  
 
-**一句话要点**：提出CLIP驱动的部分标签零样本学习框架以处理现实场景中的标签模糊问题
+**一句话要点**：提出CLIP驱动的部分标签零样本学习框架以处理现实场景中的标签模糊问题。
 
 **关键词**：零样本学习, 标签模糊, CLIP模型, 语义对齐, 部分标签学习
 
 ## 3 点简述
-- 核心问题：零样本学习中训练实例的标签常存在噪声和模糊，降低模型性能
-- 方法要点：利用CLIP提取特征，通过语义挖掘块和部分零样本损失逐步识别真实标签
-- 实验或效果：在多个数据集上验证了CLIP-PZSL的优势，未知具体性能提升幅度
+- 核心问题：零样本学习中训练实例的标签常存在噪声和模糊，降低模型性能。
+- 方法要点：利用CLIP提取特征，通过语义挖掘块融合特征，并设计部分零样本损失逐步识别真实标签。
+- 实验或效果：在多个数据集上验证了CLIP-PZSL的优势，未知具体性能提升数值。
 
 ## 摘要（原文）
 

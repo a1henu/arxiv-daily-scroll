@@ -12,9 +12,9 @@ title: Stable-LoRA: Stabilizing Feature Learning of Low-Rank Adaptation
 **关键词**：低秩适应, 特征学习稳定性, 权重收缩优化, 参数高效微调, 大语言模型
 
 ## 3 点简述
-- LoRA在适当超参数和初始化下可自稳定，但非零初始化A会破坏稳定性。
-- Stable-LoRA通过早期训练步骤动态收缩A，增强特征学习稳定性。
-- 实验表明Stable-LoRA在多种模型和任务中优于基线，无额外内存开销。
+- LoRA在适当超参数和初始化下可自稳定，但非零初始化A会破坏稳定性
+- Stable-LoRA通过早期训练步骤动态收缩A来增强特征学习稳定性
+- 实验表明Stable-LoRA在多种模型和任务中优于基线，无额外内存开销
 
 ## 摘要（原文）
 

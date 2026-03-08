@@ -7,14 +7,14 @@ title: Early Warning of Intraoperative Adverse Events via Transformer-Driven Mul
 **arXiv**：[2603.05212v1](https://arxiv.org/abs/2603.05212) · [PDF](https://arxiv.org/pdf/2603.05212.pdf)  
 **作者**：Xueyao Wang, Xiuding Cai, Honglin Shang, Yaoyao Zhu, Yu Yao  
 
-**一句话要点**：提出IAENet框架，通过Transformer多标签学习预测术中不良事件，提升早期预警性能。
+**一句话要点**：提出IAENet框架以解决术中不良事件早期预警中的多标签依赖与数据不平衡问题
 
-**关键词**：术中不良事件预测, 多标签学习, Transformer模型, 时间序列分析, 类别不平衡处理
+**关键词**：多标签学习, Transformer模型, 术中不良事件预警, 时间序列分析, 类别不平衡处理
 
 ## 3 点简述
-- 核心问题：术中不良事件预测存在事件依赖忽略、异构数据利用不足和类别不平衡挑战。
-- 方法要点：结合TAFiLM模块融合静态与动态数据，引入LCRLoss正则化处理事件共现与不平衡。
-- 实验或效果：在5、10、15分钟预警任务中，平均F1分数分别提升5.05%、2.82%和7.57%。
+- 核心问题：术中不良事件预测存在事件依赖忽略、异构数据利用不足和类别不平衡挑战
+- 方法要点：结合改进的TAFiLM模块融合静态与动态变量，并引入LCRLoss正则化处理不平衡
+- 实验或效果：在5、10、15分钟预警任务上平均F1分数提升显著，优于基线方法
 
 ## 摘要（原文）
 

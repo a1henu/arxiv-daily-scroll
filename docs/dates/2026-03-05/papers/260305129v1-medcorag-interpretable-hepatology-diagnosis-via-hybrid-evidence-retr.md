@@ -7,14 +7,14 @@ title: MedCoRAG: Interpretable Hepatology Diagnosis via Hybrid Evidence Retrieva
 **arXiv**：[2603.05129v1](https://arxiv.org/abs/2603.05129) · [PDF](https://arxiv.org/pdf/2603.05129.pdf)  
 **作者**：Zheng Li, Jiayi Xu, Zhikai Hu, Hechang Chen, Lele Cong, Yunyun Wang, Shuchao Pang  
 
-**一句话要点**：提出MedCoRAG框架，通过混合证据检索和多专家协作提升肝病诊断的准确性与可解释性。
+**一句话要点**：提出MedCoRAG框架，通过混合证据检索和多专家协作解决肝脏疾病诊断的准确性与可解释性问题。
 
-**关键词**：肝病诊断, 检索增强生成, 多智能体协作, 可解释AI, 临床决策支持, 知识图谱
+**关键词**：医学诊断, 检索增强生成, 多智能体协作, 知识图谱, 可解释AI, 肝脏疾病
 
 ## 3 点简述
-- 核心问题：现有AI临床诊断方法缺乏透明度、结构化推理和可部署性，尤其在肝病诊断中。
+- 核心问题：现有AI临床诊断方法缺乏透明度、结构化推理和可部署性，尤其在肝脏疾病诊断中。
 - 方法要点：结合UMLS知识图谱和临床指南进行证据检索与剪枝，采用多智能体协作推理模拟多学科会诊。
-- 实验或效果：在MIMIC-IV肝病案例上，MedCoRAG在诊断性能和推理可解释性上优于现有方法和闭源模型。
+- 实验或效果：在MIMIC-IV数据集上，MedCoRAG在诊断性能和推理可解释性方面优于现有方法和闭源模型。
 
 ## 摘要（原文）
 

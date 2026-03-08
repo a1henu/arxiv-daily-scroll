@@ -14,7 +14,7 @@ title: SPyCer: Semi-Supervised Physics-Guided Contextual Attention for Near-Surf
 ## 3 点简述
 - 问题：近地表气温传感器稀疏，难以提供连续空间测量。
 - 方法：结合像素监督与物理约束，通过注意力机制捕获邻域物理影响。
-- 效果：在真实数据集上优于基线，产生空间一致且物理一致的估计。
+- 效果：在真实数据集上优于基线，实现空间一致且物理一致的估计。
 
 ## 摘要（原文）
 

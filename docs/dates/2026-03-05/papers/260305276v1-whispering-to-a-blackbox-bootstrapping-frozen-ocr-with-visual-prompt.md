@@ -7,14 +7,14 @@ title: Whispering to a Blackbox: Bootstrapping Frozen OCR with Visual Prompts
 **arXiv**：[2603.05276v1](https://arxiv.org/abs/2603.05276) · [PDF](https://arxiv.org/pdf/2603.05276.pdf)  
 **作者**：Samandar Samandarov, Nazirjon Ismoiljonov, Abdullah Sattorov, Temirlan Sabyrbayev  
 
-**一句话要点**：提出视觉提示框架Whisperer，通过扩散模型预处理输入以提升冻结OCR性能
+**一句话要点**：提出Whisperer视觉提示框架，通过扩散预处理增强冻结OCR模型性能
 
-**关键词**：视觉提示, 扩散模型, 行为克隆, OCR增强, 冻结模型适配
+**关键词**：视觉提示, 扩散模型, 行为克隆, OCR增强, 冻结模型适配, 像素空间优化
 
 ## 3 点简述
-- 核心问题：冻结预训练模型在特定任务上因数据分布不匹配而表现不佳
-- 方法要点：采用行为克隆学习扩散模型预处理器，在像素空间优化输入
-- 实验或效果：在30万张退化合成文本图像上，字符错误率降低8%（相对10.6%）
+- 问题：冻结预训练模型在特定任务上因数据分布不匹配而表现不佳
+- 方法：使用行为克隆学习扩散预处理器，在像素空间优化输入以适配下游模型
+- 效果：在30万张退化合成文本图像上，字符错误率相对降低10.6%，超越手工基线
 
 ## 摘要（原文）
 

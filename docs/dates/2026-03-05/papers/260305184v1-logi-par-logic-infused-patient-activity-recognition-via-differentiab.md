@@ -7,14 +7,14 @@ title: Logi-PAR: Logic-Infused Patient Activity Recognition via Differentiable R
 **arXiv**：[2603.05184v1](https://arxiv.org/abs/2603.05184) · [PDF](https://arxiv.org/pdf/2603.05184.pdf)  
 **作者**：Muhammad Zarar, MingZheng Zhang, Xiaowang Zhang, Zhiyong Feng, Sofonias Yitagesu, Kawsar Farooq  
 
-**一句话要点**：提出Logi-PAR框架，通过可微分逻辑规则增强临床患者活动识别，提升可解释性与安全性。
+**一句话要点**：提出Logi-PAR框架，通过可微分逻辑规则增强临床患者活动识别，实现可解释推理。
 
-**关键词**：患者活动识别, 可微分逻辑规则, 多视图特征提取, 临床安全, 可解释人工智能, 端到端学习
+**关键词**：患者活动识别, 可微分逻辑规则, 可解释人工智能, 临床安全, 多视图融合, 端到端学习
 
 ## 3 点简述
-- 核心问题：现有患者活动识别模型仅分类活动，缺乏逻辑推理能力以解释风险原因。
+- 核心问题：现有患者活动识别模型仅分类活动，缺乏逻辑显式推理以解释风险原因。
 - 方法要点：集成上下文事实融合作为多视图基元提取器，并注入神经引导的可微分规则进行端到端学习。
-- 实验或效果：在VAST和OmniFall基准上实现最先进性能，优于视觉语言模型和Transformer基线。
+- 实验或效果：在VAST和OmniFall基准上实现最先进性能，优于视觉语言模型和Transformer基线，提供可审计解释。
 
 ## 摘要（原文）
 

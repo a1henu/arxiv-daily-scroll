@@ -7,14 +7,14 @@ title: DARE: Aligning LLM Agents with the R Statistical Ecosystem via Distributi
 **arXiv**：[2603.04743v1](https://arxiv.org/abs/2603.04743) · [PDF](https://arxiv.org/pdf/2603.04743.pdf)  
 **作者**：Maojun Sun, Yue Wu, Yifei Xie, Ruijian Han, Binyan Jiang, Defeng Sun, Yancheng Yuan, Jian Huang  
 
-**一句话要点**：提出DARE嵌入模型，通过分布感知检索提升LLM代理在R统计生态系统中的代码生成能力。
+**一句话要点**：提出DARE模型，通过分布感知检索对齐LLM代理与R统计生态系统，以解决统计工具检索不足问题。
 
-**关键词**：大语言模型代理, R统计生态系统, 分布感知检索, 代码生成, 检索增强, 数据科学自动化
+**关键词**：LLM代理, R统计生态系统, 分布感知检索, R包知识库, 代码生成, 数据分析任务
 
 ## 3 点简述
-- 问题：LLM代理在自动化数据科学工作流时，因统计知识不足和工具检索困难，难以有效利用R中的统计方法。
-- 方法：开发DARE模型，融合数据分布特征与函数元数据，构建RPKB知识库，以轻量级方式改进R包检索。
-- 效果：DARE在包检索上NDCG@10达93.47%，优于开源模型，集成到RCodingAgent后提升下游分析任务性能。
+- 核心问题：LLM代理在自动化数据科学工作流时，因缺乏统计知识和忽略数据分布，难以有效检索R包中的严谨统计方法。
+- 方法要点：开发DARE，一个轻量级即插即用检索模型，融合数据分布特征与函数元数据，提升R包检索相关性。
+- 实验或效果：DARE在包检索任务上NDCG@10达93.47%，优于开源模型达17%，集成到RCodingAgent后显著提升下游分析任务性能。
 
 ## 摘要（原文）
 

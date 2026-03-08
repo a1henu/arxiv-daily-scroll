@@ -7,14 +7,14 @@ title: Timer-S1: A Billion-Scale Time Series Foundation Model with Serial Scalin
 **arXiv**：[2603.04791v1](https://arxiv.org/abs/2603.04791) · [PDF](https://arxiv.org/pdf/2603.04791.pdf)  
 **作者**：Yong Liu, Xingjian Su, Shiyu Wang, Haoran Zhang, Haixuan Liu, Yuxuan Wang, Zhou Ye, Yang Xiang, Jianmin Wang, Mingsheng Long  
 
-**一句话要点**：提出Timer-S1时间序列基础模型，通过串行缩放解决现有模型扩展瓶颈，实现高效长期预测。
+**一句话要点**：提出Timer-S1时间序列基础模型，通过串行缩放解决现有模型扩展瓶颈，实现高效长序列预测。
 
-**关键词**：时间序列基础模型, 串行缩放, 混合专家模型, 串行令牌预测, 长期预测, 数据增强
+**关键词**：时间序列基础模型, 串行缩放, 混合专家模型, 串行令牌预测, 长序列预测, 预训练模型
 
 ## 3 点简述
-- 核心问题：现有时间序列基础模型存在扩展瓶颈，导致长期预测误差累积和推理成本高。
-- 方法要点：采用串行缩放策略，结合稀疏TimeMoE块和通用TimeSTP块，通过串行令牌预测优化训练目标。
-- 实验或效果：在GIFT-Eval排行榜上取得最佳MASE和CRPS分数，作为预训练模型达到最先进预测性能。
+- 核心问题：现有时间序列基础模型存在扩展瓶颈，导致长序列预测时计算成本高且误差累积显著。
+- 方法要点：采用串行缩放策略，结合稀疏TimeMoE块和通用TimeSTP块，通过串行令牌预测目标优化模型架构、数据集和训练流程。
+- 实验或效果：在GIFT-Eval基准测试中，Timer-S1作为预训练模型取得最佳MASE和CRPS分数，展现出最先进的预测性能。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: DeformTrace: A Deformable State Space Model with Relay Tokens for Tempora
 **arXiv**：[2603.04882v1](https://arxiv.org/abs/2603.04882) · [PDF](https://arxiv.org/pdf/2603.04882.pdf)  
 **作者**：Xiaodong Zhu, Suting Wang, Yuanming Zheng, Junqi Yang, Yangxu Liao, Yuhong Yang, Weiping Tu, Zhongyuan Wang  
 
-**一句话要点**：提出DeformTrace，一种结合可变形状态空间模型与中继令牌的混合架构，用于视频音频时序伪造定位。
+**一句话要点**：提出DeformTrace，通过可变形状态空间模型与中继令牌机制解决时序伪造定位中的边界模糊与稀疏伪造问题
 
-**关键词**：时序伪造定位, 状态空间模型, 可变形机制, 中继令牌, 混合架构, 视频音频安全
+**关键词**：时序伪造定位, 状态空间模型, 可变形机制, 中继令牌, 视频伪造检测, 音频伪造检测
 
 ## 3 点简述
-- 核心问题：时序伪造定位面临模糊边界、稀疏伪造和长程建模限制。
-- 方法要点：引入可变形自状态空间模型和可变形交叉状态空间模型，增强精确定位和稀疏伪造敏感性。
-- 实验或效果：在减少参数和加速推理的同时，实现最先进性能与强鲁棒性。
+- 时序伪造定位面临边界模糊、伪造稀疏和长程建模受限等挑战
+- DeformTrace结合可变形自状态空间模型、中继令牌机制和可变形交叉状态空间模型，提升定位精度与效率
+- 实验表明模型在参数更少、推理更快的情况下实现最优性能，并增强鲁棒性
 
 ## 摘要（原文）
 

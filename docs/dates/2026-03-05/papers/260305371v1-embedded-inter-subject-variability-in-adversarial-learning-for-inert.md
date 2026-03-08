@@ -7,14 +7,14 @@ title: Embedded Inter-Subject Variability in Adversarial Learning for Inertial S
 **arXiv**：[2603.05371v1](https://arxiv.org/abs/2603.05371) · [PDF](https://arxiv.org/pdf/2603.05371.pdf)  
 **作者**：Francisco M. Calatrava-Nicolás, Shoko Miyauchi, Vitor Fortes Rey, Paul Lukowicz, Todor Stoyanov, Oscar Martinez Mozos  
 
-**一句话要点**：提出嵌入主体间变异的对抗学习框架，以提升惯性传感器人体活动识别的泛化性能
+**一句话要点**：提出嵌入主体间变异性的对抗学习框架，以提升惯性传感器人体活动识别的泛化能力。
 
-**关键词**：人体活动识别, 惯性传感器, 对抗学习, 主体间变异, 特征表示, 泛化性能
+**关键词**：人体活动识别, 惯性传感器, 对抗学习, 主体间变异性, 特征表示, 泛化能力
 
 ## 3 点简述
-- 核心问题：人体活动识别中主体间变异导致模型对新个体泛化能力差
-- 方法要点：通过对抗任务集成主体间变异，鼓励主体不变特征表示
-- 实验或效果：在三个数据集上使用留一主体交叉验证，性能优于先前方法
+- 核心问题：人体活动识别中主体间变异性导致模型对新个体泛化能力差。
+- 方法要点：通过对抗任务集成主体间变异性，鼓励主体不变特征表示。
+- 实验或效果：在三个数据集上使用留一主体交叉验证，性能优于先前方法。
 
 ## 摘要（原文）
 

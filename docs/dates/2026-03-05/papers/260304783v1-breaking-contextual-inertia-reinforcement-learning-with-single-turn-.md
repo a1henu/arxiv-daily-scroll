@@ -14,7 +14,7 @@ title: Breaking Contextual Inertia: Reinforcement Learning with Single-Turn Anch
 ## 3 点简述
 - 核心问题：LLMs在多轮交互中因上下文惯性而忽略新信息，导致性能下降
 - 方法要点：利用模型单轮能力作为锚点，通过强化学习对齐多轮响应以打破惯性
-- 实验或效果：RLSTA显著优于标准微调，展现跨领域泛化能力且无需外部验证器
+- 实验或效果：RLSTA显著优于标准微调，具有跨领域泛化能力且无需外部验证器
 
 ## 摘要（原文）
 

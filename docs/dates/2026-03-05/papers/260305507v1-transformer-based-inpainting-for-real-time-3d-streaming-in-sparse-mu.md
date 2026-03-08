@@ -7,14 +7,14 @@ title: Transformer-Based Inpainting for Real-Time 3D Streaming in Sparse Multi-C
 **arXiv**：[2603.05507v1](https://arxiv.org/abs/2603.05507) · [PDF](https://arxiv.org/pdf/2603.05507.pdf)  
 **作者**：Leif Van Holland, Domenic Zingsheim, Mana Takhsha, Hannah Dröge, Patrick Stotko, Markus Plack, Reinhard Klein  
 
-**一句话要点**：提出基于Transformer的实时3D流媒体修复方法，用于稀疏多相机设置中的纹理补全。
+**一句话要点**：提出基于Transformer的修复方法，用于稀疏多相机实时3D流中的纹理补全。
 
-**关键词**：3D流媒体修复, Transformer网络, 多相机系统, 实时处理, 时空一致性, 自适应补丁选择
+**关键词**：3D流媒体, 图像修复, Transformer网络, 多相机系统, 实时处理, 时空一致性
 
 ## 3 点简述
-- 核心问题：稀疏多相机实时3D流媒体中，视图有限导致渲染图像缺失纹理和表面不完整，现有方法易产生不一致或视觉伪影。
-- 方法要点：设计独立于底层表示的图像后处理模块，采用多视图感知的Transformer网络架构，结合时空嵌入确保帧间一致性并保留细节。
-- 实验或效果：在实时约束下评估，模型在质量和速度间取得最佳平衡，图像和视频指标均优于现有技术。
+- 核心问题：稀疏多相机实时3D流导致渲染图像缺失信息，现有启发式修复方法易产生不一致或视觉伪影。
+- 方法要点：设计独立于底层表示的图像后处理模块，采用多视图感知的Transformer网络，结合时空嵌入确保帧间一致性。
+- 实验或效果：在实时约束下评估，模型在质量和速度间取得最佳平衡，优于现有修复技术。
 
 ## 摘要（原文）
 

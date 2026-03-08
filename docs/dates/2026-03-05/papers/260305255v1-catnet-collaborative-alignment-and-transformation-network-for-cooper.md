@@ -12,7 +12,7 @@ title: CATNet: Collaborative Alignment and Transformation Network for Cooperativ
 **关键词**：协同感知, 时延补偿, 噪声抑制, 特征对齐, 自适应融合, 交通场景
 
 ## 3 点简述
-- 核心问题：真实世界多源数据集成存在高时延和噪声干扰，影响协同感知性能。
+- 核心问题：协同感知中多源数据集成面临高时延和噪声干扰，影响场景理解。
 - 方法要点：通过STSync对齐异步特征流，WTDen抑制噪声并重构特征，AdpSel动态选择关键特征进行融合。
 - 实验或效果：在多个数据集上验证，CATNet在复杂交通条件下优于现有方法，展现鲁棒性和适应性。
 

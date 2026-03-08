@@ -14,7 +14,7 @@ title: GCAgent: Enhancing Group Chat Communication through Dialogue Agents Syste
 ## 3 点简述
 - 核心问题：群聊中活跃度低与管理困难，阻碍兴趣交流与问题解决。
 - 方法要点：系统包含Agent Builder定制代理、Dialogue Manager协调对话、Interface Plugins降低交互障碍。
-- 实验或效果：实验平均得分4.68，部署350天消息量增28.80%，提升群组活跃度。
+- 实验或效果：实验平均得分4.68，部署350天消息量增加28.80%，提升群组活跃度。
 
 ## 摘要（原文）
 

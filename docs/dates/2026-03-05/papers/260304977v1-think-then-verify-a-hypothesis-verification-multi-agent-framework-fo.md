@@ -7,14 +7,14 @@ title: Think, Then Verify: A Hypothesis-Verification Multi-Agent Framework for L
 **arXiv**：[2603.04977v1](https://arxiv.org/abs/2603.04977) · [PDF](https://arxiv.org/pdf/2603.04977.pdf)  
 **作者**：Zheng Wang, Haoran Chen, Haoxuan Qin, Zhipeng Wei, Tianwen Qian, Cong Bai  
 
-**一句话要点**：提出VideoHV-Agent框架，通过假设验证多智能体解决长视频理解中的语义漂移和计算冗余问题。
+**一句话要点**：提出VideoHV-Agent框架，通过假设验证多智能体解决长视频问答中的语义漂移和计算冗余问题。
 
-**关键词**：长视频理解, 假设验证框架, 多智能体系统, 视频问答, 语义漂移缓解, 计算效率优化
+**关键词**：长视频理解, 假设验证, 多智能体框架, 视频问答, 语义漂移, 计算效率
 
 ## 3 点简述
-- 核心问题：长视频理解面临视觉冗余、长程依赖，以及链式思维和检索方法易导致语义漂移和相关性错误。
-- 方法要点：基于视频摘要，采用Thinker、Judge、Verifier和Answer多智能体，将问答重构为结构化假设验证过程，先思考后验证。
-- 实验或效果：在三个长视频理解基准测试中达到最先进准确率，同时提升可解释性、逻辑严谨性并降低计算成本。
+- 核心问题：长视频理解面临视觉冗余、长程依赖，以及现有方法易累积语义漂移和相关性错误。
+- 方法要点：基于视频摘要，采用Thinker、Judge、Verifier和Answer智能体，将问答重构为结构化假设验证过程。
+- 实验效果：在三个长视频基准测试中实现最先进准确率，提升可解释性、逻辑严谨性并降低计算成本。
 
 ## 摘要（原文）
 

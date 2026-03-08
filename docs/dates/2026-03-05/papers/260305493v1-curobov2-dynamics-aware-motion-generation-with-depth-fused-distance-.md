@@ -7,13 +7,13 @@ title: cuRoboV2: Dynamics-Aware Motion Generation with Depth-Fused Distance Fiel
 **arXiv**：[2603.05493v1](https://arxiv.org/abs/2603.05493) · [PDF](https://arxiv.org/pdf/2603.05493.pdf)  
 **作者**：Balakumar Sundaralingam, Adithyavairavan Murali, Stan Birchfield  
 
-**一句话要点**：提出cuRoboV2框架，通过GPU原生感知与优化实现高自由度机器人的动态感知运动生成。
+**一句话要点**：提出cuRoboV2框架，通过B样条优化、GPU感知和全身计算实现高自由度机器人的动态感知运动生成。
 
-**关键词**：运动生成, 高自由度机器人, GPU计算, 碰撞避免, 轨迹优化, 感知管道
+**关键词**：机器人运动生成, GPU加速, 距离场感知, 高自由度系统, 轨迹优化, 碰撞检测
 
 ## 3 点简述
-- 核心问题：现有方法在高自由度机器人中运动生成不统一，存在轨迹不可执行、感知不精确和计算不可扩展的问题。
-- 方法要点：结合B样条轨迹优化、GPU原生TSDF/ESDF感知管道和可扩展GPU原生全身计算，确保平滑性、碰撞避免和高效性。
+- 核心问题：现有方法在高自由度机器人中运动生成不安全、不可行或反应慢，缺乏统一解决方案。
+- 方法要点：结合B样条轨迹优化、GPU原生TSDF/ESDF感知管道和可扩展GPU全身计算，确保平滑、碰撞感知和高效。
 - 实验或效果：在负载、碰撞避免和约束满足等基准测试中表现优异，成功率高达99.7%，并实现高达61倍加速。
 
 ## 摘要（原文）

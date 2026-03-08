@@ -7,14 +7,14 @@ title: Free Lunch for Pass@$k$? Low Cost Diverse Sampling for Diffusion Language
 **arXiv**：[2603.04893v1](https://arxiv.org/abs/2603.04893) · [PDF](https://arxiv.org/pdf/2603.04893.pdf)  
 **作者**：Sean Lamont, Christian Walder, Paul Montague, Amir Dezfouli, Michael Norrish  
 
-**一句话要点**：提出低成本干预方法以增强扩散语言模型的生成多样性，提升Pass@k性能
+**一句话要点**：提出低成本干预方法以增强扩散语言模型的生成多样性，提升Pass@k性能。
 
-**关键词**：扩散语言模型, 生成多样性, Pass@k, 低成本采样, 特征空间排斥
+**关键词**：扩散语言模型, 生成多样性, Pass@k, 低成本采样, 特征空间排斥, 代码生成
 
 ## 3 点简述
-- 核心问题：扩散语言模型采样时样本易重复，浪费计算资源，影响Pass@k任务中的解决方案探索。
-- 方法要点：无需训练，通过顺序修改批次样本，在特征空间排斥冗余，主动惩罚相似性，计算开销低。
-- 实验或效果：在HumanEval和GSM8K基准上使用LLaDA-8B-Instruct模型，显著提升多样性和Pass@k性能。
+- 核心问题：扩散语言模型采样时样本易重复，浪费计算资源，影响Pass@k任务探索。
+- 方法要点：训练免费，通过顺序修改批次样本，在特征空间排斥冗余，增加多样性。
+- 实验或效果：在HumanEval和GSM8K基准测试中，使用LLaDA-8B-Instruct模型，显著提升多样性和Pass@k性能。
 
 ## 摘要（原文）
 

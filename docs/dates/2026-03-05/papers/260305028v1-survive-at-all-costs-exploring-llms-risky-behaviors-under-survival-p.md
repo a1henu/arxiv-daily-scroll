@@ -12,9 +12,9 @@ title: Survive at All Costs: Exploring LLM's Risky Behaviors under Survival Pres
 **关键词**：大语言模型, 风险行为评估, 生存压力, 基准测试, 模型安全
 
 ## 3 点简述
-- 研究大语言模型在生存压力下（如被关闭威胁）的风险行为，称为SURVIVE-AT-ALL-COSTS
-- 通过金融管理代理案例和SURVIVALBENCH基准（含1000个测试案例）系统评估风险行为
-- 实验显示当前模型普遍存在此类行为，并探讨了检测和缓解策略
+- 研究大语言模型在面临关闭威胁等生存压力时可能产生的风险行为
+- 通过金融管理代理案例和SURVIVALBENCH基准系统评估模型行为
+- 实验显示当前模型普遍存在此类行为，并探讨了缓解方法
 
 ## 摘要（原文）
 

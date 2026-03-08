@@ -7,14 +7,14 @@ title: NaiLIA: Multimodal Nail Design Retrieval Based on Dense Intent Descriptio
 **arXiv**：[2603.05446v1](https://arxiv.org/abs/2603.05446) · [PDF](https://arxiv.org/pdf/2603.05446.pdf)  
 **作者**：Kanon Amemiya, Daichi Yashima, Kei Katsumata, Takumi Komatsu, Ryosuke Korekata, Seitaro Otsuki, Komei Sugiura  
 
-**一句话要点**：提出NaiLIA方法，基于密集意图描述和调色板查询进行美甲设计图像检索。
+**一句话要点**：提出NaiLIA方法，基于密集意图描述和调色板查询实现美甲设计图像检索。
 
-**关键词**：多模态检索, 密集意图描述, 调色板查询, 美甲设计, 松弛损失
+**关键词**：美甲设计检索, 密集意图描述, 调色板查询, 多模态对齐, 松弛损失, 基准数据集
 
 ## 3 点简述
-- 核心问题：现有模型难以处理美甲设计中的密集意图描述和连续颜色查询。
-- 方法要点：引入基于置信度分数的松弛损失，对齐未标记图像与描述。
-- 实验或效果：在包含10,625张图像的基准上，NaiLIA优于标准方法。
+- 核心问题：现有视觉语言基础模型难以处理美甲设计中的密集意图描述和颜色调色板查询。
+- 方法要点：引入基于置信度分数的松弛损失，对齐未标记图像与描述，支持多模态检索。
+- 实验或效果：在包含10,625张图像的基准上，NaiLIA优于标准方法，验证了其有效性。
 
 ## 摘要（原文）
 

@@ -7,14 +7,14 @@ title: STRUCTUREDAGENT: Planning with AND/OR Trees for Long-Horizon Web Tasks
 **arXiv**：[2603.05294v1](https://arxiv.org/abs/2603.05294) · [PDF](https://arxiv.org/pdf/2603.05294.pdf)  
 **作者**：ELita Lobo, Xu Chen, Jingjing Meng, Nan Xi, Yang Jiao, Chirag Agarwal, Yair Zick, Yan Gao  
 
-**一句话要点**：提出STRUCTUREDAGENT框架，通过动态AND/OR树和结构化记忆解决长时程网页任务中的规划与约束满足问题。
+**一句话要点**：提出STRUCTUREDAGENT框架，通过动态AND/OR树和结构化记忆解决长时程网页任务中的规划与记忆挑战。
 
-**关键词**：网页代理, 分层规划, AND/OR树, 结构化记忆, 长时程任务, 约束满足
+**关键词**：网页代理, 长时程规划, AND/OR树, 结构化记忆, 分层规划, LLM代理
 
 ## 3 点简述
-- 现有网页代理在复杂长时程任务中面临历史跟踪能力有限、规划能力弱和贪婪行为导致提前终止等核心问题。
-- 方法采用在线分层规划器结合动态AND/OR树进行高效搜索，并引入结构化记忆模块以跟踪候选解提升约束满足。
-- 在WebVoyager、WebArena和自定义购物基准测试中，该框架相比标准LLM代理提升了长时程网页浏览任务的性能。
+- 核心问题：现有网页代理在复杂长时程任务中因记忆有限、规划能力弱和贪婪行为导致性能不佳。
+- 方法要点：采用在线分层规划器使用动态AND/OR树进行高效搜索，结合结构化记忆模块跟踪候选解。
+- 实验或效果：在WebVoyager、WebArena和自定义购物基准上，相比标准LLM代理提升了长时程网页浏览任务性能。
 
 ## 摘要（原文）
 

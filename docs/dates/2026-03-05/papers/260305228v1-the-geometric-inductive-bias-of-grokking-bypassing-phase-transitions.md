@@ -9,11 +9,11 @@ title: The Geometric Inductive Bias of Grokking: Bypassing Phase Transitions via
 
 **一句话要点**：通过修改架构拓扑加速Transformer在循环模加法任务中的grokking现象
 
-**关键词**：grokking现象, 架构拓扑, Transformer, 循环模加法, 泛化加速, 对称性对齐
+**关键词**：grokking现象, Transformer架构, 机械可解释性, 循环模加法, 架构拓扑, 训练动力学
 
 ## 3 点简述
 - 研究grokking现象，即Transformer在循环模加法任务中延迟泛化的问题
-- 引入球形拓扑和均匀注意力消融，移除架构自由度以加速泛化
+- 引入球形拓扑和均匀注意力消融，消除架构自由度以加速泛化
 - 实验表明加速依赖于任务对称性与架构先验的对齐，而非通用优化稳定器
 
 ## 摘要（原文）

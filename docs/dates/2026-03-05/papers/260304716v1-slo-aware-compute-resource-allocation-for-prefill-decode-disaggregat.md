@@ -9,7 +9,7 @@ title: SLO-Aware Compute Resource Allocation for Prefill-Decode Disaggregated LL
 
 **一句话要点**：提出混合方法以优化预填充-解码解耦LLM推理中的计算资源分配
 
-**关键词**：LLM推理优化, 预填充-解码解耦, 服务级别目标, 排队论建模, 资源分配
+**关键词**：LLM推理优化, 预填充-解码解耦, 服务级别目标, 排队理论, 资源分配, 吞吐量建模
 
 ## 3 点简述
 - 核心问题：缺乏在吞吐量、SLO和请求特征约束下确定预填充-解码硬件资源数量的方法

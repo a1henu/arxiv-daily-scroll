@@ -7,14 +7,14 @@ title: On the Strengths and Weaknesses of Data for Open-set Embodied Assistance
 **arXiv**：[2603.04819v1](https://arxiv.org/abs/2603.04819) · [PDF](https://arxiv.org/pdf/2603.04819.pdf)  
 **作者**：Pradyumna Tambwekar, Andrew Silva, Deepak Gopinath, Jonathan DeCastro, Xiongyi Cui, Guy Rosman  
 
-**一句话要点**：提出基于多样化交互数据的多模态基础模型，以解决开放集具身辅助中的泛化问题。
+**一句话要点**：研究多样化交互数据对开放集具身辅助模型泛化能力的影响
 
-**关键词**：具身辅助, 开放集泛化, 多模态基础模型, 交互数据生成, 合成数据集
+**关键词**：具身基础模型, 开放集辅助, 数据泛化, 多模态学习, 合成数据集
 
 ## 3 点简述
-- 研究开放集纠正辅助任务，要求模型在未见用户行为和新配置下提供纠正或语言反馈。
-- 在Overcooked中生成合成辅助数据集，微调LLaMA模型评估泛化能力。
-- 发现性能模型受益于覆盖多模态接地、缺陷推断和多样化场景的数据集。
+- 核心问题：开放集纠正辅助任务中，模型需泛化至未见用户行为和新配置。
+- 方法要点：在Overcooked中生成合成辅助数据集，微调LLaMA模型评估泛化能力。
+- 实验或效果：发现性能模型受益于覆盖多模态接地、缺陷推断和多样场景的数据集。
 
 ## 摘要（原文）
 

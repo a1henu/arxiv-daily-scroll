@@ -14,7 +14,7 @@ title: Hyperbolic Multiview Pretraining for Robotic Manipulation
 ## 3 点简述
 - 现有方法局限于欧几里得嵌入空间，难以建模结构关系，影响机器人空间感知。
 - 扩展掩码自编码器范式，设计GeoLink编码器学习多视图双曲表示，并引入3D-MOV数据集支持预训练。
-- 在COLOSSEUM、RLBench和真实场景评估中，HyperMVP在多种任务和扰动设置下优于基线方法。
+- 在COLOSSEUM、RLBench和真实场景中评估，HyperMVP在多种任务和扰动设置下优于基线方法。
 
 ## 摘要（原文）
 

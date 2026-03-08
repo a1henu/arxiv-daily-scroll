@@ -7,14 +7,14 @@ title: TAPFormer: Robust Arbitrary Point Tracking via Transient Asynchronous Fus
 **arXiv**：[2603.04989v1](https://arxiv.org/abs/2603.04989) · [PDF](https://arxiv.org/pdf/2603.04989.pdf)  
 **作者**：Jiaxiong Liu, Zhen Tan, Jinpu Zhang, Yi Zhou, Hui Shen, Xieyuanli Chen, Dewen Hu  
 
-**一句话要点**：提出TAPFormer，通过帧与事件的异步融合实现鲁棒任意点跟踪
+**一句话要点**：提出TAPFormer框架，通过异步融合帧与事件实现鲁棒任意点跟踪
 
 **关键词**：任意点跟踪, 帧事件融合, 异步融合, Transformer, 鲁棒跟踪, 跨模态注意力
 
 ## 3 点简述
-- 核心问题：现有方法融合RGB帧和事件流时存在时间错位和模态失效问题
-- 方法要点：引入TAF机制建模帧间时间演化，CLWF模块自适应调整空间注意力
-- 实验或效果：在真实数据集上平均像素误差提升28.2%，标准基准测试中表现最佳
+- 核心问题：现有方法融合帧与事件时存在时间错位和模态失效问题
+- 方法要点：采用TAF机制建模帧间时间演化，CLWF模块自适应调整空间注意力
+- 实验或效果：在真实数据集上平均像素误差提升28.2%，基准测试表现最佳
 
 ## 摘要（原文）
 

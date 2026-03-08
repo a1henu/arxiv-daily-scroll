@@ -7,14 +7,14 @@ title: Task-Relevant and Irrelevant Region-Aware Augmentation for Generalizable 
 **arXiv**：[2603.04845v1](https://arxiv.org/abs/2603.04845) · [PDF](https://arxiv.org/pdf/2603.04845.pdf)  
 **作者**：Shun Hattori, Hikaru Sasaki, Takumi Hachimine, Yusuke Mizutani, Takamitsu Matsubara  
 
-**一句话要点**：提出DRAIL区域感知增强框架，以提升农业机器人视觉模仿学习的泛化能力
+**一句话要点**：提出DRAIL区域感知增强框架，以提升农业机器人视觉模仿学习的泛化能力。
 
 **关键词**：视觉模仿学习, 农业机器人, 数据增强, 泛化能力, 区域感知, 扩散策略
 
 ## 3 点简述
-- 核心问题：农业视觉模仿学习因数据稀缺和作物外观、背景变化导致泛化受限
-- 方法要点：DRAIL分离任务相关与无关区域，分别进行知识驱动增强和随机化处理
-- 实验或效果：在蔬菜收获和生菜采摘任务中，DRAIL在未见视觉条件下提升成功率
+- 核心问题：农业视觉模仿学习泛化受限，源于数据稀缺和作物外观多样性与背景变化导致的视觉域差距。
+- 方法要点：DRAIL将视觉观察分为任务相关与无关区域，分别进行知识驱动增强和随机化，以抑制虚假背景关联。
+- 实验或效果：在人工蔬菜收获和真实生菜缺陷叶采摘任务中，DRAIL在未见视觉条件下成功率优于基线，提升鲁棒性和泛化性。
 
 ## 摘要（原文）
 

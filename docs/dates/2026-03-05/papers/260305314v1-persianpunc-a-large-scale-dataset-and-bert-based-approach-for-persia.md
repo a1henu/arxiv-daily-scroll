@@ -7,14 +7,14 @@ title: PersianPunc: A Large-Scale Dataset and BERT-Based Approach for Persian Pu
 **arXiv**：[2603.05314v1](https://arxiv.org/abs/2603.05314) · [PDF](https://arxiv.org/pdf/2603.05314.pdf)  
 **作者**：Mohammad Javad Ranjbar Kalahroodi, Heshaam Faili, Azadeh Shakery  
 
-**一句话要点**：提出PersianPunc数据集与BERT方法，用于波斯语标点恢复以提升ASR输出质量。
+**一句话要点**：提出PersianPunc数据集与BERT方法，用于波斯语标点恢复以提升ASR输出可读性。
 
-**关键词**：波斯语标点恢复, 序列标注, BERT微调, ASR后处理, 低资源语言, 数据集构建
+**关键词**：标点恢复, 波斯语处理, 序列标注, BERT微调, 低资源语言, ASR后处理
 
 ## 3 点简述
 - 波斯语标点恢复研究不足，影响ASR输出可读性与下游应用。
-- 构建大规模高质量数据集，并基于ParsBERT微调实现序列标注任务。
-- 方法在测试集上宏平均F1达91.33%，优于大模型且计算高效。
+- 构建大规模高质量数据集，采用序列标注任务微调ParsBERT实现高效恢复。
+- BERT方法在测试集上宏平均F1达91.33%，优于大模型避免过校正与高计算成本。
 
 ## 摘要（原文）
 

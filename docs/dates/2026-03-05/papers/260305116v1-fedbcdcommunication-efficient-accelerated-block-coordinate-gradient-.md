@@ -14,7 +14,7 @@ title: FedBCD:Communication-Efficient Accelerated Block Coordinate Gradient Desc
 ## 3 点简述
 - 针对联邦学习中大规模模型通信开销高的问题
 - 通过参数分块上传和加速算法降低通信复杂度
-- 理论分析和实验验证了方法的优越性和收敛速度
+- 理论分析和实验验证了方法的优越性和收敛性
 
 ## 摘要（原文）
 

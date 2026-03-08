@@ -14,7 +14,7 @@ title: BiEvLight: Bi-level Learning of Task-Aware Event Refinement for Low-Light
 ## 3 点简述
 - 核心问题：事件相机固有背景活动噪声与图像低信噪比导致模态融合时噪声耦合，限制低光增强性能。
 - 方法要点：利用图像与事件梯度相关性构建梯度引导去噪先验，并采用双层优化将事件去噪约束于增强任务，实现任务感知协同优化。
-- 实验或效果：在SDE数据集上显著优于现有方法，PSNR平均提升1.30dB，PSNR*提升2.03dB，SSIM提升0.047。
+- 实验或效果：在SDE数据集上显著超越现有方法，PSNR平均提升1.30dB，PSNR*提升2.03dB，SSIM提升0.047。
 
 ## 摘要（原文）
 

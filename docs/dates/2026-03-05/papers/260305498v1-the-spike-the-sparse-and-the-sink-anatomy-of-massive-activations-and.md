@@ -7,14 +7,14 @@ title: The Spike, the Sparse and the Sink: Anatomy of Massive Activations and At
 **arXiv**：[2603.05498v1](https://arxiv.org/abs/2603.05498) · [PDF](https://arxiv.org/pdf/2603.05498.pdf)  
 **作者**：Shangwen Sun, Alfredo Canziani, Yann LeCun, Jiachen Zhu  
 
-**一句话要点**：揭示Transformer中大规模激活与注意力汇的解剖关系，指出预归一化配置是关键耦合因素。
+**一句话要点**：揭示Transformer中大规模激活与注意力汇的共现机制及功能差异
 
-**关键词**：Transformer语言模型, 大规模激活, 注意力汇, 预归一化, 隐式参数, 注意力调制
+**关键词**：Transformer语言模型, 大规模激活, 注意力汇, 预归一化, 隐式参数, 注意力机制
 
 ## 3 点简述
-- 核心问题：Transformer语言模型中大规模激活与注意力汇的共现现象及其功能角色和因果关系不明。
-- 方法要点：通过系统实验分析，发现大规模激活作为全局隐式参数，注意力汇作为局部调制器。
-- 实验或效果：识别预归一化配置为共现关键，消融后两者解耦，证明是架构设计产物。
+- 研究Transformer语言模型中大规模激活和注意力汇的共现现象及其功能角色
+- 通过系统实验证明共现源于预归一化配置，两者分别起全局隐式参数和局部注意力调制作用
+- 消融预归一化导致现象解耦，验证了架构选择的关键影响
 
 ## 摘要（原文）
 
