@@ -1,0 +1,503 @@
+{
+  "site": {
+    "title": "arXiv·cs.CV 中文要点汇总（with DeepSeek）"
+  },
+  "generated_at": "2026-03-11 15:37:58",
+  "summary": {
+    "total_dates": 98,
+    "total_papers": 20278,
+    "latest_date": "2026-03-10"
+  },
+  "dates": [
+    {
+      "date": "2026-03-10",
+      "paper_count": 336,
+      "data_path": "data/2026-03-10.json"
+    },
+    {
+      "date": "2026-03-09",
+      "paper_count": 333,
+      "data_path": "data/2026-03-09.json"
+    },
+    {
+      "date": "2026-03-08",
+      "paper_count": 282,
+      "data_path": "data/2026-03-08.json"
+    },
+    {
+      "date": "2026-03-05",
+      "paper_count": 312,
+      "data_path": "data/2026-03-05.json"
+    },
+    {
+      "date": "2026-03-04",
+      "paper_count": 292,
+      "data_path": "data/2026-03-04.json"
+    },
+    {
+      "date": "2026-03-03",
+      "paper_count": 301,
+      "data_path": "data/2026-03-03.json"
+    },
+    {
+      "date": "2026-03-02",
+      "paper_count": 349,
+      "data_path": "data/2026-03-02.json"
+    },
+    {
+      "date": "2026-03-01",
+      "paper_count": 261,
+      "data_path": "data/2026-03-01.json"
+    },
+    {
+      "date": "2026-02-26",
+      "paper_count": 344,
+      "data_path": "data/2026-02-26.json"
+    },
+    {
+      "date": "2026-02-24",
+      "paper_count": 258,
+      "data_path": "data/2026-02-24.json"
+    },
+    {
+      "date": "2026-02-23",
+      "paper_count": 254,
+      "data_path": "data/2026-02-23.json"
+    },
+    {
+      "date": "2026-02-22",
+      "paper_count": 151,
+      "data_path": "data/2026-02-22.json"
+    },
+    {
+      "date": "2026-02-19",
+      "paper_count": 224,
+      "data_path": "data/2026-02-19.json"
+    },
+    {
+      "date": "2026-02-18",
+      "paper_count": 193,
+      "data_path": "data/2026-02-18.json"
+    },
+    {
+      "date": "2026-02-17",
+      "paper_count": 175,
+      "data_path": "data/2026-02-17.json"
+    },
+    {
+      "date": "2026-02-16",
+      "paper_count": 207,
+      "data_path": "data/2026-02-16.json"
+    },
+    {
+      "date": "2026-02-15",
+      "paper_count": 228,
+      "data_path": "data/2026-02-15.json"
+    },
+    {
+      "date": "2026-02-12",
+      "paper_count": 316,
+      "data_path": "data/2026-02-12.json"
+    },
+    {
+      "date": "2026-02-10",
+      "paper_count": 284,
+      "data_path": "data/2026-02-10.json"
+    },
+    {
+      "date": "2026-02-09",
+      "paper_count": 353,
+      "data_path": "data/2026-02-09.json"
+    },
+    {
+      "date": "2026-02-08",
+      "paper_count": 270,
+      "data_path": "data/2026-02-08.json"
+    },
+    {
+      "date": "2026-02-05",
+      "paper_count": 363,
+      "data_path": "data/2026-02-05.json"
+    },
+    {
+      "date": "2026-02-04",
+      "paper_count": 287,
+      "data_path": "data/2026-02-04.json"
+    },
+    {
+      "date": "2026-02-02",
+      "paper_count": 474,
+      "data_path": "data/2026-02-02.json"
+    },
+    {
+      "date": "2026-02-01",
+      "paper_count": 362,
+      "data_path": "data/2026-02-01.json"
+    },
+    {
+      "date": "2026-01-29",
+      "paper_count": 478,
+      "data_path": "data/2026-01-29.json"
+    },
+    {
+      "date": "2026-01-28",
+      "paper_count": 237,
+      "data_path": "data/2026-01-28.json"
+    },
+    {
+      "date": "2026-01-27",
+      "paper_count": 266,
+      "data_path": "data/2026-01-27.json"
+    },
+    {
+      "date": "2026-01-26",
+      "paper_count": 238,
+      "data_path": "data/2026-01-26.json"
+    },
+    {
+      "date": "2026-01-25",
+      "paper_count": 167,
+      "data_path": "data/2026-01-25.json"
+    },
+    {
+      "date": "2026-01-22",
+      "paper_count": 186,
+      "data_path": "data/2026-01-22.json"
+    },
+    {
+      "date": "2026-01-21",
+      "paper_count": 227,
+      "data_path": "data/2026-01-21.json"
+    },
+    {
+      "date": "2026-01-20",
+      "paper_count": 235,
+      "data_path": "data/2026-01-20.json"
+    },
+    {
+      "date": "2026-01-18",
+      "paper_count": 174,
+      "data_path": "data/2026-01-18.json"
+    },
+    {
+      "date": "2026-01-15",
+      "paper_count": 218,
+      "data_path": "data/2026-01-15.json"
+    },
+    {
+      "date": "2026-01-14",
+      "paper_count": 196,
+      "data_path": "data/2026-01-14.json"
+    },
+    {
+      "date": "2026-01-13",
+      "paper_count": 255,
+      "data_path": "data/2026-01-13.json"
+    },
+    {
+      "date": "2026-01-12",
+      "paper_count": 233,
+      "data_path": "data/2026-01-12.json"
+    },
+    {
+      "date": "2026-01-11",
+      "paper_count": 168,
+      "data_path": "data/2026-01-11.json"
+    },
+    {
+      "date": "2026-01-08",
+      "paper_count": 278,
+      "data_path": "data/2026-01-08.json"
+    },
+    {
+      "date": "2026-01-07",
+      "paper_count": 220,
+      "data_path": "data/2026-01-07.json"
+    },
+    {
+      "date": "2026-01-06",
+      "paper_count": 204,
+      "data_path": "data/2026-01-06.json"
+    },
+    {
+      "date": "2026-01-05",
+      "paper_count": 213,
+      "data_path": "data/2026-01-05.json"
+    },
+    {
+      "date": "2026-01-04",
+      "paper_count": 80,
+      "data_path": "data/2026-01-04.json"
+    },
+    {
+      "date": "2025-12-31",
+      "paper_count": 146,
+      "data_path": "data/2025-12-31.json"
+    },
+    {
+      "date": "2025-12-29",
+      "paper_count": 193,
+      "data_path": "data/2025-12-29.json"
+    },
+    {
+      "date": "2025-12-28",
+      "paper_count": 73,
+      "data_path": "data/2025-12-28.json"
+    },
+    {
+      "date": "2025-12-24",
+      "paper_count": 156,
+      "data_path": "data/2025-12-24.json"
+    },
+    {
+      "date": "2025-12-23",
+      "paper_count": 188,
+      "data_path": "data/2025-12-23.json"
+    },
+    {
+      "date": "2025-12-22",
+      "paper_count": 228,
+      "data_path": "data/2025-12-22.json"
+    },
+    {
+      "date": "2025-12-21",
+      "paper_count": 228,
+      "data_path": "data/2025-12-21.json"
+    },
+    {
+      "date": "2025-12-18",
+      "paper_count": 274,
+      "data_path": "data/2025-12-18.json"
+    },
+    {
+      "date": "2025-12-17",
+      "paper_count": 210,
+      "data_path": "data/2025-12-17.json"
+    },
+    {
+      "date": "2025-12-16",
+      "paper_count": 231,
+      "data_path": "data/2025-12-16.json"
+    },
+    {
+      "date": "2025-12-15",
+      "paper_count": 236,
+      "data_path": "data/2025-12-15.json"
+    },
+    {
+      "date": "2025-12-14",
+      "paper_count": 187,
+      "data_path": "data/2025-12-14.json"
+    },
+    {
+      "date": "2025-12-11",
+      "paper_count": 267,
+      "data_path": "data/2025-12-11.json"
+    },
+    {
+      "date": "2025-12-10",
+      "paper_count": 217,
+      "data_path": "data/2025-12-10.json"
+    },
+    {
+      "date": "2025-12-09",
+      "paper_count": 245,
+      "data_path": "data/2025-12-09.json"
+    },
+    {
+      "date": "2025-12-08",
+      "paper_count": 258,
+      "data_path": "data/2025-12-08.json"
+    },
+    {
+      "date": "2025-12-07",
+      "paper_count": 192,
+      "data_path": "data/2025-12-07.json"
+    },
+    {
+      "date": "2025-12-04",
+      "paper_count": 261,
+      "data_path": "data/2025-12-04.json"
+    },
+    {
+      "date": "2025-12-03",
+      "paper_count": 246,
+      "data_path": "data/2025-12-03.json"
+    },
+    {
+      "date": "2025-12-02",
+      "paper_count": 251,
+      "data_path": "data/2025-12-02.json"
+    },
+    {
+      "date": "2025-12-01",
+      "paper_count": 299,
+      "data_path": "data/2025-12-01.json"
+    },
+    {
+      "date": "2025-11-30",
+      "paper_count": 209,
+      "data_path": "data/2025-11-30.json"
+    },
+    {
+      "date": "2025-11-26",
+      "paper_count": 248,
+      "data_path": "data/2025-11-26.json"
+    },
+    {
+      "date": "2025-11-25",
+      "paper_count": 328,
+      "data_path": "data/2025-11-25.json"
+    },
+    {
+      "date": "2025-11-24",
+      "paper_count": 189,
+      "data_path": "data/2025-11-24.json"
+    },
+    {
+      "date": "2025-11-23",
+      "paper_count": 136,
+      "data_path": "data/2025-11-23.json"
+    },
+    {
+      "date": "2025-11-20",
+      "paper_count": 124,
+      "data_path": "data/2025-11-20.json"
+    },
+    {
+      "date": "2025-11-19",
+      "paper_count": 122,
+      "data_path": "data/2025-11-19.json"
+    },
+    {
+      "date": "2025-11-18",
+      "paper_count": 141,
+      "data_path": "data/2025-11-18.json"
+    },
+    {
+      "date": "2025-11-17",
+      "paper_count": 174,
+      "data_path": "data/2025-11-17.json"
+    },
+    {
+      "date": "2025-11-16",
+      "paper_count": 142,
+      "data_path": "data/2025-11-16.json"
+    },
+    {
+      "date": "2025-11-13",
+      "paper_count": 117,
+      "data_path": "data/2025-11-13.json"
+    },
+    {
+      "date": "2025-11-12",
+      "paper_count": 88,
+      "data_path": "data/2025-11-12.json"
+    },
+    {
+      "date": "2025-11-11",
+      "paper_count": 153,
+      "data_path": "data/2025-11-11.json"
+    },
+    {
+      "date": "2025-11-10",
+      "paper_count": 129,
+      "data_path": "data/2025-11-10.json"
+    },
+    {
+      "date": "2025-11-09",
+      "paper_count": 83,
+      "data_path": "data/2025-11-09.json"
+    },
+    {
+      "date": "2025-11-06",
+      "paper_count": 79,
+      "data_path": "data/2025-11-06.json"
+    },
+    {
+      "date": "2025-11-05",
+      "paper_count": 57,
+      "data_path": "data/2025-11-05.json"
+    },
+    {
+      "date": "2025-11-04",
+      "paper_count": 76,
+      "data_path": "data/2025-11-04.json"
+    },
+    {
+      "date": "2025-11-02",
+      "paper_count": 88,
+      "data_path": "data/2025-11-02.json"
+    },
+    {
+      "date": "2025-10-30",
+      "paper_count": 94,
+      "data_path": "data/2025-10-30.json"
+    },
+    {
+      "date": "2025-10-29",
+      "paper_count": 79,
+      "data_path": "data/2025-10-29.json"
+    },
+    {
+      "date": "2025-10-28",
+      "paper_count": 104,
+      "data_path": "data/2025-10-28.json"
+    },
+    {
+      "date": "2025-10-27",
+      "paper_count": 115,
+      "data_path": "data/2025-10-27.json"
+    },
+    {
+      "date": "2025-10-23",
+      "paper_count": 106,
+      "data_path": "data/2025-10-23.json"
+    },
+    {
+      "date": "2025-10-22",
+      "paper_count": 90,
+      "data_path": "data/2025-10-22.json"
+    },
+    {
+      "date": "2025-10-21",
+      "paper_count": 99,
+      "data_path": "data/2025-10-21.json"
+    },
+    {
+      "date": "2025-10-20",
+      "paper_count": 118,
+      "data_path": "data/2025-10-20.json"
+    },
+    {
+      "date": "2025-10-19",
+      "paper_count": 99,
+      "data_path": "data/2025-10-19.json"
+    },
+    {
+      "date": "2025-10-16",
+      "paper_count": 135,
+      "data_path": "data/2025-10-16.json"
+    },
+    {
+      "date": "2025-10-15",
+      "paper_count": 119,
+      "data_path": "data/2025-10-15.json"
+    },
+    {
+      "date": "2025-10-14",
+      "paper_count": 117,
+      "data_path": "data/2025-10-14.json"
+    },
+    {
+      "date": "2025-10-13",
+      "paper_count": 143,
+      "data_path": "data/2025-10-13.json"
+    },
+    {
+      "date": "2025-10-12",
+      "paper_count": 109,
+      "data_path": "data/2025-10-12.json"
+    }
+  ]
+}

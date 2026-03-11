@@ -1,4 +1,4 @@
-name: Daily arXiv cs.CV fetch & build
+name: Daily arXiv fetch & publish
 
 on:
   schedule:
@@ -55,9 +55,9 @@ jobs:
           # 输出到 data/<YYYY-MM-DD>/ai_summary.json
           python main.py
 
-      - name: Build GitHub Pages (multi-date switch)
+      - name: Build static site bundle
         run: |
-          # 生成 docs/ 目录（多日期切换首页 + 每日目录/详情页）
+          # 生成 docs/ 目录（index.html + assets + data/*.json）
           python build_page.py
 
       - name: Commit & push if changed

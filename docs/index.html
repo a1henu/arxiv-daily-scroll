@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>arXiv Daily Scroll</title>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <p class="eyebrow">arXiv Daily Scroll</p>
+      <div class="hero-copy">
+        <h1 id="site-title">加载中...</h1>
+        <p id="site-subtitle" class="hero-subtitle">正在读取每日论文索引。</p>
+      </div>
+      <div class="hero-meta">
+        <div class="hero-chip">
+          <span class="chip-label">Latest Date</span>
+          <strong id="hero-latest">-</strong>
+        </div>
+        <div class="hero-chip">
+          <span class="chip-label">Papers</span>
+          <strong id="hero-count">-</strong>
+        </div>
+      </div>
+    </header>
+
+    <main class="workspace">
+      <aside class="panel sidebar">
+        <div class="panel-head">
+          <h2>Browse</h2>
+          <p>按日期切换，按标题或关键词搜索。</p>
+        </div>
+        <label class="field">
+          <span>日期</span>
+          <select id="date-select"></select>
+        </label>
+        <label class="field">
+          <span>搜索</span>
+          <input id="search-input" type="search" placeholder="标题 / 作者 / 中文要点 / 关键词">
+        </label>
+        <div class="sidebar-stats">
+          <div>
+            <span class="stat-label">匹配结果</span>
+            <strong id="result-count">0</strong>
+          </div>
+          <div>
+            <span class="stat-label">生成时间</span>
+            <strong id="generated-at">-</strong>
+          </div>
+        </div>
+        <div class="tag-strip">
+          <div class="tag-strip-head">
+            <h3>热门关键词</h3>
+            <button id="clear-tag" class="ghost-button" type="button" hidden>清除筛选</button>
+          </div>
+          <div id="tag-cloud" class="tag-cloud"></div>
+        </div>
+      </aside>
+
+      <section class="panel list-panel">
+        <div class="panel-head panel-head-row">
+          <div>
+            <h2 id="list-title">Papers</h2>
+            <p id="list-subtitle">等待数据加载。</p>
+          </div>
+          <button id="copy-link" class="ghost-button" type="button">复制当前链接</button>
+        </div>
+        <div id="paper-list" class="paper-list"></div>
+      </section>
+
+      <section class="panel detail-panel">
+        <div id="paper-detail" class="paper-detail empty-state">
+          <p>选择一篇论文查看摘要与中文总结。</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script type="module" src="./assets/app.js"></script>
+</body>
+</html>
