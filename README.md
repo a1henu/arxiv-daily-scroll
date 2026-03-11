@@ -7,6 +7,7 @@ Fetch the latest arXiv papers for selected categories, generate concise Chinese 
 - Call DeepSeek to produce a one-line headline, three bullet points, and keywords in Chinese.
 - Save raw metadata + AI summaries under `data/YYYY-MM-DD/`.
 - Build a JSON-driven single-page site under `docs/` that GitHub Pages can serve directly.
+- Expose a browser-style reading UI with date shortcuts, keyword filters, deep links, and keyboard navigation.
 
 ## Project layout
 - `main.py`: Fetch today’s arXiv window and generate AI summaries.
@@ -36,6 +37,12 @@ python build_page.py --data data --outdir docs --title "arXiv·cs.CV 中文要�
 ```
 Open `docs/index.html` locally, or push and enable GitHub Pages (see below).
 
+## Frontend highlights
+- Browse recent update dates from the side panel or the main date selector.
+- Filter by free-text search, hot tags, or a sharable deep link (`?date=...&paper=...`).
+- Navigate papers with the UI buttons or keyboard shortcuts: `/` focuses search, `j` and `k` move between papers.
+- Read the Chinese one-line takeaway, three bullet points, keywords, and original abstract in a single detail view.
+
 ## GitHub Actions setup (auto daily build + Pages deploy)
 The workflow `.github/workflows/daily.yml` is already included. To wire it up:
 1) Add a repo secret `DEEPSEEK_API_KEY` (Settings → Secrets and variables → Actions → New repository secret).
@@ -64,6 +71,9 @@ What the workflow does:
 - `docs/data/manifest.json`: site-level metadata and available dates.
 - `docs/data/YYYY-MM-DD.json`: per-day paper bundle rendered on the client side.
 - `docs/.nojekyll`: disables Jekyll processing so Pages serves the files as-is.
+
+## Notes
+- Empty `ai_summary.json` days are skipped during site generation and will not appear in the UI.
 
 ## License
 GPL-3.0. See `LICENSE`.
