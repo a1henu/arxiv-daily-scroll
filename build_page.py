@@ -23,71 +23,104 @@ INDEX_HTML = """<!doctype html>
 </head>
 <body>
   <div class="page-shell">
-    <header class="hero">
-      <p class="eyebrow">arXiv Daily Scroll</p>
-      <div class="hero-copy">
+    <header class="masthead">
+      <div class="masthead-copy">
+        <p class="eyebrow">Daily Research Dispatch</p>
         <h1 id="site-title">加载中...</h1>
-        <p id="site-subtitle" class="hero-subtitle">正在读取每日论文索引。</p>
+        <p id="site-subtitle" class="masthead-subtitle">正在读取每日论文索引。</p>
       </div>
-      <div class="hero-meta">
-        <div class="hero-chip">
-          <span class="chip-label">Latest Date</span>
+      <div class="stat-grid">
+        <article class="stat-card">
+          <span class="stat-label">Latest Update</span>
           <strong id="hero-latest">-</strong>
-        </div>
-        <div class="hero-chip">
-          <span class="chip-label">Papers</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">Archive Size</span>
           <strong id="hero-count">-</strong>
-        </div>
+        </article>
+        <article class="stat-card accent">
+          <span class="stat-label">Active Day</span>
+          <strong id="hero-active">-</strong>
+        </article>
       </div>
     </header>
 
-    <main class="workspace">
-      <aside class="panel sidebar">
-        <div class="panel-head">
-          <h2>Browse</h2>
-          <p>按日期切换，按标题或关键词搜索。</p>
-        </div>
-        <label class="field">
-          <span>日期</span>
-          <select id="date-select"></select>
-        </label>
-        <label class="field">
-          <span>搜索</span>
-          <input id="search-input" type="search" placeholder="标题 / 作者 / 中文要点 / 关键词">
-        </label>
-        <div class="sidebar-stats">
+    <section class="control-deck">
+      <section class="control-main panel">
+        <div class="section-head">
           <div>
-            <span class="stat-label">匹配结果</span>
+            <p class="section-kicker">Control Room</p>
+            <h2>快速切换日期、搜索主题、聚焦标签</h2>
+          </div>
+          <span id="generated-at" class="generated-at">-</span>
+        </div>
+        <div class="control-grid">
+          <label class="field">
+            <span>日期</span>
+            <select id="date-select"></select>
+          </label>
+          <label class="field">
+            <span>搜索</span>
+            <input id="search-input" type="search" placeholder="标题 / 作者 / 中文要点 / 关键词 / 摘要">
+          </label>
+        </div>
+        <div class="control-actions">
+          <button id="clear-filters" class="ghost-button" type="button">清空搜索与标签</button>
+          <button id="copy-link" class="ghost-button" type="button">复制当前链接</button>
+        </div>
+        <div id="active-filters" class="filter-pills"></div>
+      </section>
+
+      <div class="control-side">
+        <section class="quick-panel panel">
+          <div class="section-head compact">
+            <div>
+              <p class="section-kicker">Recent Drops</p>
+              <h3>最近更新</h3>
+            </div>
             <strong id="result-count">0</strong>
           </div>
-          <div>
-            <span class="stat-label">生成时间</span>
-            <strong id="generated-at">-</strong>
-          </div>
-        </div>
-        <div class="tag-strip">
-          <div class="tag-strip-head">
-            <h3>热门关键词</h3>
-            <button id="clear-tag" class="ghost-button" type="button" hidden>清除筛选</button>
+          <div id="recent-dates" class="recent-dates"></div>
+        </section>
+
+        <section class="quick-panel panel">
+          <div class="section-head compact">
+            <div>
+              <p class="section-kicker">Tag Lens</p>
+              <h3>热门关键词</h3>
+            </div>
+            <button id="clear-tag" class="ghost-button" type="button" hidden>清除标签</button>
           </div>
           <div id="tag-cloud" class="tag-cloud"></div>
-        </div>
-      </aside>
+        </section>
+      </div>
+    </section>
 
-      <section class="panel list-panel">
-        <div class="panel-head panel-head-row">
+    <main class="reading-room">
+      <section class="panel library-panel">
+        <div class="panel-head">
           <div>
+            <p class="section-kicker" id="list-kicker">Archive</p>
             <h2 id="list-title">Papers</h2>
             <p id="list-subtitle">等待数据加载。</p>
           </div>
-          <button id="copy-link" class="ghost-button" type="button">复制当前链接</button>
         </div>
         <div id="paper-list" class="paper-list"></div>
       </section>
 
       <section class="panel detail-panel">
+        <div class="detail-toolbar">
+          <div>
+            <p class="section-kicker" id="detail-kicker">Selected Paper</p>
+            <h2>Paper Notes</h2>
+          </div>
+          <div class="detail-nav">
+            <button id="prev-paper" class="ghost-button" type="button">上一篇</button>
+            <button id="next-paper" class="ghost-button" type="button">下一篇</button>
+          </div>
+        </div>
         <div id="paper-detail" class="paper-detail empty-state">
-          <p>选择一篇论文查看摘要与中文总结。</p>
+          <p>选择一篇论文查看摘要、中文总结与关键词。</p>
         </div>
       </section>
     </main>
@@ -100,17 +133,22 @@ INDEX_HTML = """<!doctype html>
 
 
 STYLE_CSS = """:root{
-  --bg: #f6f0e8;
-  --paper: rgba(255,255,255,0.86);
-  --paper-strong: #fffaf4;
-  --ink: #1f1a17;
-  --muted: #665f58;
-  --line: rgba(61,42,26,0.14);
-  --accent: #b84d22;
-  --accent-strong: #8f3410;
-  --accent-soft: rgba(184,77,34,0.12);
-  --shadow: 0 18px 48px rgba(61,42,26,0.12);
-  --radius-lg: 28px;
+  --bg: #f4efe6;
+  --panel: rgba(255, 250, 242, 0.82);
+  --panel-strong: rgba(255, 252, 247, 0.94);
+  --panel-soft: rgba(255, 247, 236, 0.8);
+  --ink: #1d1814;
+  --muted: #6c645a;
+  --line: rgba(49, 35, 21, 0.11);
+  --accent: #bb5c2b;
+  --accent-strong: #8f3912;
+  --accent-soft: rgba(187, 92, 43, 0.12);
+  --secondary: #18493d;
+  --secondary-soft: rgba(24, 73, 61, 0.1);
+  --shadow: 0 28px 80px rgba(69, 45, 24, 0.12);
+  --shadow-soft: 0 14px 38px rgba(69, 45, 24, 0.08);
+  --radius-xl: 34px;
+  --radius-lg: 24px;
   --radius-md: 18px;
   --radius-sm: 12px;
 }
@@ -120,124 +158,371 @@ STYLE_CSS = """:root{
 html{
   min-height:100%;
   background:
-    radial-gradient(circle at top left, rgba(184,77,34,0.18), transparent 30%),
-    radial-gradient(circle at top right, rgba(65,105,77,0.12), transparent 26%),
-    linear-gradient(180deg, #f9f4ec 0%, #f3eadf 100%);
+    radial-gradient(circle at 10% 0%, rgba(187, 92, 43, 0.18), transparent 24%),
+    radial-gradient(circle at 100% 10%, rgba(24, 73, 61, 0.16), transparent 22%),
+    linear-gradient(180deg, #faf5ed 0%, #f1e7dc 100%);
 }
 
 body{
   margin:0;
   color:var(--ink);
   font:16px/1.6 "Avenir Next","Segoe UI Variable","Segoe UI",sans-serif;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.14), rgba(255,255,255,0));
 }
 
-a{color:inherit}
+button,
+input,
+select{
+  font:inherit;
+}
+
+a{
+  color:inherit;
+}
 
 .page-shell{
-  width:min(1440px, calc(100vw - 32px));
-  margin:24px auto 40px;
+  width:min(1500px, calc(100vw - 30px));
+  margin:18px auto 34px;
 }
 
-.hero{
+.masthead{
   display:grid;
-  gap:18px;
-  grid-template-columns: 1.8fr 1fr;
-  padding:28px;
+  grid-template-columns:minmax(0, 1.7fr) minmax(320px, 0.95fr);
+  gap:20px;
+  padding:30px;
   border:1px solid var(--line);
-  border-radius:var(--radius-lg);
+  border-radius:var(--radius-xl);
   background:
-    linear-gradient(135deg, rgba(255,250,244,0.95), rgba(255,243,228,0.88)),
+    linear-gradient(150deg, rgba(255,252,246,0.95), rgba(255,240,222,0.84)),
     rgba(255,255,255,0.7);
   box-shadow:var(--shadow);
-  overflow:hidden;
   position:relative;
+  overflow:hidden;
 }
 
-.hero::after{
+.masthead::before{
   content:"";
   position:absolute;
-  inset:auto -80px -90px auto;
-  width:260px;
-  height:260px;
+  inset:auto -110px -120px auto;
+  width:320px;
+  height:320px;
   border-radius:999px;
-  background:radial-gradient(circle, rgba(184,77,34,0.18), transparent 65%);
+  background:radial-gradient(circle, rgba(187, 92, 43, 0.2), transparent 65%);
   pointer-events:none;
 }
 
-.eyebrow{
-  margin:0 0 6px;
-  letter-spacing:.22em;
+.eyebrow,
+.section-kicker{
+  margin:0 0 8px;
+  letter-spacing:.2em;
   text-transform:uppercase;
   font-size:12px;
   color:var(--accent-strong);
 }
 
-.hero-copy h1,
+.masthead-copy h1,
 .panel-head h2,
-.tag-strip-head h3{
+.detail-toolbar h2,
+.section-head h2,
+.section-head h3{
   margin:0;
   font-family:"Iowan Old Style","Palatino Linotype","Book Antiqua",Georgia,serif;
   font-weight:700;
-  letter-spacing:-0.02em;
+  letter-spacing:-0.025em;
 }
 
-.hero-copy h1{
-  font-size:clamp(32px, 5vw, 56px);
-  line-height:1.02;
-  max-width:14ch;
+.masthead-copy h1{
+  font-size:clamp(38px, 5vw, 68px);
+  line-height:.95;
+  max-width:13ch;
 }
 
-.hero-subtitle{
-  margin:14px 0 0;
-  max-width:58ch;
+.masthead-subtitle{
+  margin:16px 0 0;
+  max-width:62ch;
   color:var(--muted);
+  font-size:17px;
 }
 
-.hero-meta{
+.stat-grid{
   display:grid;
   gap:14px;
   align-content:start;
 }
 
-.hero-chip,
+.stat-card,
 .panel{
   border:1px solid var(--line);
-  background:var(--paper);
-  box-shadow:var(--shadow);
+  background:var(--panel);
+  box-shadow:var(--shadow-soft);
+  backdrop-filter:blur(18px);
 }
 
-.hero-chip{
-  padding:18px 20px;
-  border-radius:var(--radius-md);
-  backdrop-filter: blur(14px);
+.stat-card{
+  padding:20px 22px;
+  border-radius:var(--radius-lg);
 }
 
-.chip-label,
+.stat-card.accent{
+  background:linear-gradient(135deg, rgba(24, 73, 61, 0.14), rgba(24, 73, 61, 0.05));
+}
+
 .stat-label,
 .field span{
   display:block;
-  margin-bottom:6px;
+  margin-bottom:8px;
   font-size:12px;
   letter-spacing:.08em;
   text-transform:uppercase;
   color:var(--muted);
 }
 
-.hero-chip strong{
-  font-size:28px;
+.stat-card strong{
+  font-size:30px;
+  line-height:1.05;
 }
 
-.workspace{
+.control-deck{
   display:grid;
-  grid-template-columns: 280px minmax(360px, 520px) minmax(0, 1fr);
+  grid-template-columns:minmax(0, 1.35fr) minmax(320px, 0.95fr);
   gap:18px;
   margin-top:18px;
 }
 
+.control-main,
+.quick-panel,
+.library-panel,
+.detail-panel{
+  border-radius:var(--radius-xl);
+}
+
 .panel{
-  border-radius:var(--radius-lg);
   padding:22px;
-  backdrop-filter: blur(10px);
+}
+
+.control-main{
+  background:
+    linear-gradient(160deg, rgba(255,252,247,0.92), rgba(253,244,232,0.78));
+}
+
+.control-side{
+  display:grid;
+  gap:18px;
+}
+
+.section-head{
+  display:flex;
+  justify-content:space-between;
+  gap:16px;
+  align-items:flex-start;
+  margin-bottom:18px;
+}
+
+.section-head.compact{
+  align-items:center;
+  margin-bottom:14px;
+}
+
+.section-head h2{
+  font-size:26px;
+  line-height:1.05;
+}
+
+.section-head h3{
+  font-size:22px;
+  line-height:1.1;
+}
+
+.generated-at{
+  align-self:center;
+  color:var(--muted);
+  font-size:14px;
+}
+
+.control-grid{
+  display:grid;
+  grid-template-columns:minmax(200px, 280px) minmax(0, 1fr);
+  gap:14px;
+}
+
+.field{
+  display:block;
+}
+
+.field select,
+.field input{
+  width:100%;
+  min-height:52px;
+  padding:12px 16px;
+  border:1px solid rgba(49, 35, 21, 0.14);
+  border-radius:var(--radius-md);
+  background:rgba(255,255,255,0.9);
+  color:var(--ink);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.8);
+}
+
+.field select:focus,
+.field input:focus{
+  outline:2px solid rgba(187, 92, 43, 0.18);
+  border-color:rgba(187, 92, 43, 0.42);
+}
+
+.control-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:14px;
+}
+
+.ghost-button,
+.date-pill,
+.tag-button,
+.filter-chip,
+.paper-link,
+.paper-tag{
+  border-radius:999px;
+  border:1px solid rgba(49, 35, 21, 0.12);
+  background:rgba(255,252,247,0.88);
+  color:var(--ink);
+}
+
+.ghost-button{
+  min-height:42px;
+  padding:10px 14px;
+  cursor:pointer;
+  transition:transform .18s ease, border-color .18s ease, background-color .18s ease;
+}
+
+.ghost-button:hover:not(:disabled),
+.date-pill:hover,
+.tag-button:hover{
+  transform:translateY(-1px);
+  border-color:rgba(187, 92, 43, 0.36);
+  background:rgba(255,247,239,0.98);
+}
+
+.ghost-button:disabled{
+  opacity:.45;
+  cursor:not-allowed;
+}
+
+.filter-pills,
+.tag-cloud,
+.paper-tags,
+.paper-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+}
+
+.filter-pills{
+  margin-top:16px;
+}
+
+.filter-chip{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  min-height:38px;
+  padding:8px 12px;
+  color:var(--accent-strong);
+  background:rgba(255,248,241,0.96);
+}
+
+.filter-chip.static{
+  color:var(--secondary);
+  background:rgba(24, 73, 61, 0.08);
+}
+
+.filter-chip.empty{
+  color:var(--muted);
+}
+
+.date-pill{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:12px;
+  width:100%;
+  min-height:54px;
+  padding:12px 14px;
+  text-align:left;
+  cursor:pointer;
+}
+
+.date-pill.active{
+  border-color:rgba(187, 92, 43, 0.48);
+  background:linear-gradient(135deg, rgba(255,239,225,0.98), rgba(255,248,241,0.98));
+}
+
+.date-pill .date-pill-meta{
+  display:flex;
+  flex-direction:column;
+  min-width:0;
+}
+
+.date-pill .date-pill-label{
+  font-weight:700;
+}
+
+.date-pill .date-pill-count{
+  color:var(--muted);
+  font-size:13px;
+}
+
+.date-pill .date-pill-badge{
+  padding:4px 8px;
+  border-radius:999px;
+  background:var(--accent-soft);
+  color:var(--accent-strong);
+  font-size:12px;
+}
+
+.recent-dates{
+  display:grid;
+  gap:10px;
+}
+
+.tag-button{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  min-height:38px;
+  padding:8px 12px;
+  cursor:pointer;
+  color:var(--accent-strong);
+}
+
+.tag-button.active{
+  background:var(--accent);
+  border-color:var(--accent);
+  color:#fff;
+}
+
+.tag-count{
+  padding:2px 7px;
+  border-radius:999px;
+  background:rgba(255,255,255,0.65);
+  font-size:12px;
+}
+
+.tag-button.active .tag-count{
+  background:rgba(255,255,255,0.18);
+}
+
+.reading-room{
+  display:grid;
+  grid-template-columns:minmax(380px, 470px) minmax(0, 1fr);
+  gap:18px;
+  margin-top:18px;
+}
+
+.library-panel,
+.detail-panel{
+  display:flex;
+  flex-direction:column;
+  min-height:0;
 }
 
 .panel-head{
@@ -246,206 +531,245 @@ a{color:inherit}
 
 .panel-head p,
 .paper-meta,
+.paper-snippet,
 .paper-summary,
 .paper-intro li,
-.empty-state{
+.empty-state,
+.mini-meta,
+.detail-authors,
+.info-card p{
   color:var(--muted);
-}
-
-.panel-head-row{
-  display:flex;
-  justify-content:space-between;
-  gap:12px;
-  align-items:flex-start;
-}
-
-.field{
-  display:block;
-  margin-bottom:16px;
-}
-
-.field select,
-.field input{
-  width:100%;
-  padding:12px 14px;
-  border:1px solid rgba(61,42,26,0.18);
-  border-radius:var(--radius-sm);
-  background:#fffdf9;
-  color:var(--ink);
-  font:inherit;
-}
-
-.field select:focus,
-.field input:focus{
-  outline:2px solid rgba(184,77,34,0.18);
-  border-color:rgba(184,77,34,0.4);
-}
-
-.sidebar-stats{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:12px;
-  margin:18px 0 22px;
-}
-
-.sidebar-stats div{
-  padding:14px;
-  border-radius:var(--radius-sm);
-  background:rgba(255,250,244,0.82);
-  border:1px solid rgba(61,42,26,0.08);
-}
-
-.tag-strip-head{
-  display:flex;
-  justify-content:space-between;
-  gap:12px;
-  align-items:center;
-  margin-bottom:12px;
-}
-
-.tag-cloud,
-.paper-tags{
-  display:flex;
-  flex-wrap:wrap;
-  gap:10px;
-}
-
-.tag-button,
-.paper-tag,
-.ghost-button{
-  border:1px solid rgba(184,77,34,0.18);
-  border-radius:999px;
-  background:#fffaf4;
-  color:var(--accent-strong);
-  padding:8px 12px;
-  font:600 13px/1 "Avenir Next","Segoe UI Variable","Segoe UI",sans-serif;
-}
-
-.tag-button.active{
-  background:var(--accent);
-  color:#fff;
-  border-color:var(--accent);
-}
-
-.ghost-button{
-  cursor:pointer;
-  transition:transform .18s ease, background-color .18s ease;
-}
-
-.ghost-button:hover{
-  transform:translateY(-1px);
-  background:var(--paper-strong);
 }
 
 .paper-list{
   display:grid;
   gap:12px;
-  max-height:calc(100vh - 280px);
   overflow:auto;
-  padding-right:4px;
+  max-height:calc(100vh - 410px);
+  padding-right:6px;
 }
 
 .paper-card{
-  border:1px solid rgba(61,42,26,0.1);
-  border-radius:20px;
-  padding:16px 18px;
-  background:rgba(255,252,246,0.94);
+  position:relative;
+  display:grid;
+  gap:12px;
+  padding:18px;
+  border:1px solid rgba(49, 35, 21, 0.08);
+  border-radius:22px;
+  background:var(--panel-strong);
   cursor:pointer;
   transition:transform .18s ease, border-color .18s ease, box-shadow .18s ease;
 }
 
+.paper-card::before{
+  content:"";
+  position:absolute;
+  inset:14px auto 14px 0;
+  width:4px;
+  border-radius:999px;
+  background:transparent;
+}
+
 .paper-card:hover{
   transform:translateY(-2px);
-  border-color:rgba(184,77,34,0.36);
-  box-shadow:0 12px 26px rgba(61,42,26,0.08);
+  border-color:rgba(187, 92, 43, 0.34);
+  box-shadow:0 14px 30px rgba(69, 45, 24, 0.1);
 }
 
 .paper-card.active{
-  border-color:rgba(184,77,34,0.58);
-  background:linear-gradient(180deg, rgba(255,247,239,0.98), rgba(255,253,249,0.98));
+  border-color:rgba(187, 92, 43, 0.5);
+  background:linear-gradient(180deg, rgba(255,246,235,0.98), rgba(255,252,247,0.98));
+}
+
+.paper-card.active::before{
+  background:linear-gradient(180deg, var(--accent), #df9a61);
+}
+
+.paper-card-head{
+  display:flex;
+  justify-content:space-between;
+  gap:16px;
+  align-items:flex-start;
+}
+
+.paper-rank{
+  font:700 12px/1 "Avenir Next","Segoe UI Variable","Segoe UI",sans-serif;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  color:var(--accent-strong);
+}
+
+.mini-meta{
+  font-size:13px;
 }
 
 .paper-card h3{
-  margin:0 0 8px;
-  font-size:18px;
-  line-height:1.3;
-}
-
-.paper-card p{
   margin:0;
+  font-family:"Iowan Old Style","Palatino Linotype","Book Antiqua",Georgia,serif;
+  font-size:22px;
+  line-height:1.18;
 }
 
-.paper-card .headline{
-  margin-top:10px;
+.paper-headline{
   color:var(--ink);
-  font-weight:600;
+  font-weight:700;
 }
 
-.paper-card .card-tags{
-  margin-top:12px;
+.paper-snippet{
+  display:-webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
+
+.card-tags{
   display:flex;
   flex-wrap:wrap;
   gap:8px;
 }
 
-.paper-card .card-tags span{
-  padding:5px 9px;
+.card-tags span{
+  padding:6px 10px;
   border-radius:999px;
   background:var(--accent-soft);
   color:var(--accent-strong);
   font-size:12px;
 }
 
-.detail-panel{
-  min-height:700px;
+.detail-toolbar{
+  display:flex;
+  justify-content:space-between;
+  gap:16px;
+  align-items:flex-start;
+  padding-bottom:16px;
+  border-bottom:1px solid var(--line);
+  margin-bottom:18px;
 }
 
-.paper-detail{
-  animation:fadeUp .35s ease;
+.detail-toolbar h2{
+  font-size:34px;
+  line-height:1;
 }
 
-.paper-detail h2{
-  margin:0;
-  font-family:"Iowan Old Style","Palatino Linotype","Book Antiqua",Georgia,serif;
-  font-size:clamp(28px, 4vw, 42px);
-  line-height:1.08;
-}
-
-.paper-links{
+.detail-nav{
   display:flex;
   flex-wrap:wrap;
   gap:10px;
-  margin:20px 0;
+}
+
+.paper-detail{
+  overflow:auto;
+  max-height:calc(100vh - 410px);
+  padding-right:6px;
+  animation:fadeUp .28s ease;
+}
+
+.detail-meta-bar{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-bottom:12px;
+}
+
+.detail-badge{
+  display:inline-flex;
+  align-items:center;
+  min-height:34px;
+  padding:6px 11px;
+  border-radius:999px;
+  background:rgba(24, 73, 61, 0.08);
+  color:var(--secondary);
+  font-size:13px;
+}
+
+.detail-badge.alt{
+  background:var(--accent-soft);
+  color:var(--accent-strong);
+}
+
+.paper-detail h3{
+  margin:0;
+  font-family:"Iowan Old Style","Palatino Linotype","Book Antiqua",Georgia,serif;
+  font-size:clamp(30px, 4vw, 48px);
+  line-height:1.02;
+}
+
+.detail-authors{
+  margin:14px 0 0;
+  font-size:15px;
+}
+
+.paper-links{
+  margin:22px 0;
 }
 
 .paper-link{
   display:inline-flex;
   align-items:center;
-  gap:8px;
-  padding:9px 14px;
-  border-radius:999px;
-  background:#fffaf4;
-  border:1px solid rgba(61,42,26,0.12);
+  min-height:42px;
+  padding:10px 14px;
   text-decoration:none;
 }
 
-.paper-lead{
-  margin:18px 0 22px;
-  padding:18px 20px;
-  border-radius:22px;
-  background:linear-gradient(135deg, rgba(184,77,34,0.14), rgba(184,77,34,0.04));
+.info-grid{
+  display:grid;
+  grid-template-columns:1.2fr .8fr;
+  gap:14px;
+  margin:0 0 20px;
 }
 
-.paper-lead strong{
+.info-card{
+  padding:18px 18px 16px;
+  border-radius:22px;
+  border:1px solid rgba(49, 35, 21, 0.09);
+  background:var(--panel-soft);
+}
+
+.info-card strong{
   display:block;
-  margin-bottom:8px;
+  margin-bottom:10px;
   font-size:12px;
   letter-spacing:.08em;
   text-transform:uppercase;
   color:var(--accent-strong);
 }
 
+.info-card p{
+  margin:0;
+}
+
+.paper-tags{
+  gap:8px;
+}
+
+.paper-tag{
+  display:inline-flex;
+  align-items:center;
+  min-height:34px;
+  padding:6px 10px;
+  color:var(--secondary);
+  background:rgba(24, 73, 61, 0.08);
+}
+
+.paper-tag.empty{
+  color:var(--muted);
+  background:rgba(49, 35, 21, 0.05);
+}
+
+.detail-section{
+  margin-top:20px;
+}
+
+.detail-section h4{
+  margin:0 0 10px;
+  font:700 16px/1.2 "Avenir Next","Segoe UI Variable","Segoe UI",sans-serif;
+  letter-spacing:.06em;
+  text-transform:uppercase;
+  color:var(--accent-strong);
+}
+
 .paper-intro{
+  margin:0;
   padding-left:20px;
 }
 
@@ -454,11 +778,12 @@ a{color:inherit}
 }
 
 .paper-summary{
-  white-space:pre-wrap;
+  margin:0;
   padding:18px 20px;
-  border-radius:22px;
-  background:rgba(255,250,244,0.9);
-  border:1px solid rgba(61,42,26,0.08);
+  border-radius:24px;
+  border:1px solid rgba(49, 35, 21, 0.08);
+  background:rgba(255,252,247,0.92);
+  white-space:pre-wrap;
 }
 
 .empty-state,
@@ -466,14 +791,14 @@ a{color:inherit}
 .error-state{
   display:grid;
   place-items:center;
-  min-height:280px;
+  min-height:260px;
   text-align:center;
 }
 
 @keyframes fadeUp{
   from{
     opacity:0;
-    transform:translateY(12px);
+    transform:translateY(10px);
   }
   to{
     opacity:1;
@@ -481,42 +806,56 @@ a{color:inherit}
   }
 }
 
-@media (max-width: 1180px){
-  .workspace{
-    grid-template-columns: 280px 1fr;
+@media (max-width: 1240px){
+  .masthead,
+  .control-deck,
+  .reading-room{
+    grid-template-columns:1fr;
   }
 
-  .detail-panel{
-    grid-column: 1 / -1;
+  .paper-list,
+  .paper-detail{
+    max-height:none;
   }
 }
 
-@media (max-width: 860px){
+@media (max-width: 820px){
   .page-shell{
-    width:min(100vw - 18px, 100%);
-    margin:10px auto 22px;
+    width:min(100vw - 14px, 100%);
+    margin:8px auto 20px;
   }
 
-  .hero{
-    grid-template-columns:1fr;
-    padding:22px;
-  }
-
-  .workspace{
-    grid-template-columns:1fr;
-  }
-
+  .masthead,
   .panel{
     padding:18px;
+    border-radius:26px;
   }
 
-  .paper-list{
-    max-height:none;
+  .masthead-copy h1{
+    max-width:none;
+    font-size:42px;
   }
 
-  .panel-head-row{
+  .section-head,
+  .detail-toolbar,
+  .paper-card-head{
     flex-direction:column;
-    align-items:stretch;
+    align-items:flex-start;
+  }
+
+  .control-grid,
+  .info-grid{
+    grid-template-columns:1fr;
+  }
+
+  .detail-nav,
+  .control-actions{
+    width:100%;
+  }
+
+  .detail-nav .ghost-button,
+  .control-actions .ghost-button{
+    flex:1 1 auto;
   }
 }
 """
@@ -528,6 +867,7 @@ APP_JS = """const state = {
   activeTag: '',
   query: '',
   papers: [],
+  filtered: [],
   selectedPaperId: null,
 };
 
@@ -536,17 +876,25 @@ const nodes = {
   siteSubtitle: document.getElementById('site-subtitle'),
   heroLatest: document.getElementById('hero-latest'),
   heroCount: document.getElementById('hero-count'),
+  heroActive: document.getElementById('hero-active'),
   dateSelect: document.getElementById('date-select'),
   searchInput: document.getElementById('search-input'),
-  resultCount: document.getElementById('result-count'),
   generatedAt: document.getElementById('generated-at'),
+  resultCount: document.getElementById('result-count'),
+  recentDates: document.getElementById('recent-dates'),
+  activeFilters: document.getElementById('active-filters'),
+  clearFilters: document.getElementById('clear-filters'),
   tagCloud: document.getElementById('tag-cloud'),
   clearTag: document.getElementById('clear-tag'),
+  listKicker: document.getElementById('list-kicker'),
   listTitle: document.getElementById('list-title'),
   listSubtitle: document.getElementById('list-subtitle'),
   paperList: document.getElementById('paper-list'),
+  detailKicker: document.getElementById('detail-kicker'),
   paperDetail: document.getElementById('paper-detail'),
   copyLink: document.getElementById('copy-link'),
+  prevPaper: document.getElementById('prev-paper'),
+  nextPaper: document.getElementById('next-paper'),
 };
 
 const urlState = () => {
@@ -559,19 +907,31 @@ const urlState = () => {
   };
 };
 
-function formatDate(value) {
-  if (!value) return '-';
-  return value;
-}
-
 function escapeHtml(value) {
-  return String(value).replace(/[&<>\"']/g, (char) => ({
+  return String(value).replace(/[&<>"']/g, (char) => ({
     '&': '&amp;',
     '<': '&lt;',
     '>': '&gt;',
-    '\"': '&quot;',
-    \"'\": '&#39;',
+    '"': '&quot;',
+    "'": '&#39;',
   }[char]));
+}
+
+function excerpt(text, maxLen = 160) {
+  const clean = String(text || '').replace(/\\s+/g, ' ').trim();
+  if (!clean) return '暂无额外摘要预览。';
+  return clean.length > maxLen ? `${clean.slice(0, maxLen - 1)}…` : clean;
+}
+
+function compactAuthors(authors) {
+  if (!authors.length) return 'Unknown authors';
+  if (authors.length <= 3) return authors.join(', ');
+  return `${authors.slice(0, 3).join(', ')} 等 ${authors.length} 位作者`;
+}
+
+function activeDateEntry() {
+  if (!state.manifest) return null;
+  return state.manifest.dates.find((item) => item.date === state.activeDate) || state.manifest.dates[0] || null;
 }
 
 function buildPaperUrl() {
@@ -636,6 +996,87 @@ function ensureSelectedPaper(list) {
   }
 }
 
+function selectedPaperIndex() {
+  return state.filtered.findIndex((paper) => paper.arxiv_id === state.selectedPaperId);
+}
+
+function scrollActiveCardIntoView() {
+  const activeCard = nodes.paperList.querySelector('.paper-card.active');
+  if (activeCard) {
+    activeCard.scrollIntoView({ block: 'nearest' });
+  }
+}
+
+function renderDateSelect() {
+  nodes.dateSelect.innerHTML = state.manifest.dates.map((item) => `
+    <option value="${escapeHtml(item.date)}" ${item.date === state.activeDate ? 'selected' : ''}>
+      ${escapeHtml(item.date)} (${item.paper_count})
+    </option>
+  `).join('');
+}
+
+function renderRecentDates() {
+  const dates = state.manifest?.dates || [];
+  const recent = dates.slice(0, 10);
+  if (state.activeDate && !recent.some((item) => item.date === state.activeDate)) {
+    const activeItem = dates.find((item) => item.date === state.activeDate);
+    if (activeItem) {
+      recent.pop();
+      recent.push(activeItem);
+    }
+  }
+
+  nodes.recentDates.innerHTML = recent.map((item, index) => `
+    <button class="date-pill ${item.date === state.activeDate ? 'active' : ''}" type="button" data-date="${escapeHtml(item.date)}">
+      <span class="date-pill-meta">
+        <span class="date-pill-label">${escapeHtml(item.date)}</span>
+        <span class="date-pill-count">${item.paper_count} papers</span>
+      </span>
+      <span class="date-pill-badge">${index === 0 ? 'Latest' : 'Open'}</span>
+    </button>
+  `).join('');
+
+  nodes.recentDates.querySelectorAll('[data-date]').forEach((button) => {
+    button.addEventListener('click', async () => {
+      state.selectedPaperId = null;
+      await loadDate(button.dataset.date);
+    });
+  });
+}
+
+function renderActiveFilters() {
+  const chips = [];
+  const entry = activeDateEntry();
+  if (entry) {
+    chips.push(`<span class="filter-chip static">日期 ${escapeHtml(entry.date)} · ${entry.paper_count} 篇</span>`);
+  }
+  if (state.query) {
+    chips.push(`<button class="filter-chip" type="button" data-clear="query">搜索：${escapeHtml(state.query)}</button>`);
+  }
+  if (state.activeTag) {
+    chips.push(`<button class="filter-chip" type="button" data-clear="tag">标签：${escapeHtml(state.activeTag)}</button>`);
+  }
+  if (!state.query && !state.activeTag) {
+    chips.push('<span class="filter-chip empty">当前展示该日期的全部论文。按 / 可快速聚焦搜索框。</span>');
+  }
+
+  nodes.activeFilters.innerHTML = chips.join('');
+  nodes.activeFilters.querySelectorAll('[data-clear]').forEach((button) => {
+    button.addEventListener('click', () => {
+      const kind = button.dataset.clear;
+      if (kind === 'query') {
+        state.query = '';
+        nodes.searchInput.value = '';
+      }
+      if (kind === 'tag') {
+        state.activeTag = '';
+      }
+      render();
+      syncHistory();
+    });
+  });
+}
+
 function renderTags() {
   const tags = topTags(state.papers);
   if (!tags.length) {
@@ -643,12 +1084,15 @@ function renderTags() {
     nodes.clearTag.hidden = true;
     return;
   }
+
   nodes.clearTag.hidden = !state.activeTag;
   nodes.tagCloud.innerHTML = tags.map(([tag, count]) => `
     <button class="tag-button ${tag === state.activeTag ? 'active' : ''}" type="button" data-tag="${escapeHtml(tag)}">
-      ${escapeHtml(tag)} <span aria-hidden="true">·</span> ${count}
+      <span>${escapeHtml(tag)}</span>
+      <span class="tag-count">${count}</span>
     </button>
   `).join('');
+
   nodes.tagCloud.querySelectorAll('[data-tag]').forEach((button) => {
     button.addEventListener('click', () => {
       state.activeTag = button.dataset.tag === state.activeTag ? '' : button.dataset.tag;
@@ -660,92 +1104,143 @@ function renderTags() {
 
 function renderList() {
   const list = filteredPapers();
+  state.filtered = list;
   ensureSelectedPaper(list);
+
+  const entry = activeDateEntry();
   nodes.resultCount.textContent = String(list.length);
-  nodes.listTitle.textContent = `${state.activeDate || '-'} Papers`;
+  nodes.listKicker.textContent = entry ? `${entry.date} · ${entry.paper_count} papers` : 'Archive';
+  nodes.listTitle.textContent = list.length ? 'Filtered Notes' : 'No Matches';
   nodes.listSubtitle.textContent = list.length
-    ? `共 ${state.papers.length} 篇，当前筛出 ${list.length} 篇。`
-    : '当前筛选条件下没有匹配结果。';
+    ? `共 ${state.papers.length} 篇，当前筛出 ${list.length} 篇。支持键盘 / 搜索，j / k 切换论文。`
+    : '当前筛选条件下没有匹配结果。可以清空搜索或切换日期。';
 
   if (!list.length) {
-    nodes.paperList.innerHTML = '<div class="empty-state"><p>换个日期、关键词或标签试试。</p></div>';
+    nodes.paperList.innerHTML = '<div class="empty-state"><p>没有匹配项。试试换个日期、移除标签或缩短关键词。</p></div>';
     return;
   }
 
-  nodes.paperList.innerHTML = list.map((paper) => `
+  nodes.paperList.innerHTML = list.map((paper, index) => `
     <article class="paper-card ${paper.arxiv_id === state.selectedPaperId ? 'active' : ''}" data-paper-id="${escapeHtml(paper.arxiv_id)}">
-      <p class="paper-meta">${escapeHtml(paper.arxiv_id)} · ${escapeHtml(paper.authors_text)}</p>
+      <div class="paper-card-head">
+        <div>
+          <div class="paper-rank">No. ${String(index + 1).padStart(2, '0')}</div>
+          <div class="mini-meta">${escapeHtml(paper.arxiv_id)} · ${escapeHtml(compactAuthors(paper.authors))}</div>
+        </div>
+      </div>
       <h3>${escapeHtml(paper.title)}</h3>
-      <p class="headline">${escapeHtml(paper.headline_zh || '暂无中文一句话要点')}</p>
-      <div class="card-tags">${paper.tags_zh.slice(0, 4).map((tag) => `<span>${escapeHtml(tag)}</span>`).join('')}</div>
+      <div class="paper-headline">${escapeHtml(paper.headline_zh || '暂无中文一句话要点')}</div>
+      <div class="paper-snippet">${escapeHtml(excerpt(paper.intro_zh[0] || paper.summary, 150))}</div>
+      <div class="card-tags">${(paper.tags_zh.length ? paper.tags_zh : ['暂无关键词']).slice(0, 4).map((tag) => `<span>${escapeHtml(tag)}</span>`).join('')}</div>
     </article>
   `).join('');
 
   nodes.paperList.querySelectorAll('[data-paper-id]').forEach((card) => {
     card.addEventListener('click', () => {
       state.selectedPaperId = card.dataset.paperId;
-      renderDetail();
       renderList();
+      renderDetail();
       syncHistory();
+      scrollActiveCardIntoView();
     });
   });
 }
 
+function updateDetailNav() {
+  const index = selectedPaperIndex();
+  nodes.prevPaper.disabled = index <= 0;
+  nodes.nextPaper.disabled = index === -1 || index >= state.filtered.length - 1;
+}
+
 function renderDetail() {
-  const paper = state.papers.find((item) => item.arxiv_id === state.selectedPaperId);
+  const paper = state.filtered.find((item) => item.arxiv_id === state.selectedPaperId);
   if (!paper) {
+    nodes.detailKicker.textContent = 'Selected Paper';
     nodes.paperDetail.className = 'paper-detail empty-state';
-    nodes.paperDetail.innerHTML = '<p>选择一篇论文查看摘要与中文总结。</p>';
+    nodes.paperDetail.innerHTML = '<p>选择一篇论文查看摘要、中文总结与关键词。</p>';
+    updateDetailNav();
     return;
   }
 
+  const index = selectedPaperIndex();
+  const introItems = paper.intro_zh.length
+    ? paper.intro_zh.map((item) => `<li>${escapeHtml(item)}</li>`).join('')
+    : '<li>暂无 3 点简述。</li>';
+  const tags = paper.tags_zh.length
+    ? paper.tags_zh.map((tag) => `<span class="paper-tag">${escapeHtml(tag)}</span>`).join('')
+    : '<span class="paper-tag empty">暂无关键词</span>';
+
+  nodes.detailKicker.textContent = `Selected Paper · ${index + 1}/${state.filtered.length}`;
   nodes.paperDetail.className = 'paper-detail';
   nodes.paperDetail.innerHTML = `
-    <p class="paper-meta">${escapeHtml(paper.arxiv_id)} · ${escapeHtml(paper.authors_text)}</p>
-    <h2>${escapeHtml(paper.title)}</h2>
+    <div class="detail-meta-bar">
+      <span class="detail-badge">${escapeHtml(paper.arxiv_id)}</span>
+      <span class="detail-badge alt">${escapeHtml(compactAuthors(paper.authors))}</span>
+    </div>
+    <h3>${escapeHtml(paper.title)}</h3>
+    <p class="detail-authors">${escapeHtml(paper.authors.join(', ') || 'Unknown authors')}</p>
+
     <div class="paper-links">
-      <a class="paper-link" href="${escapeHtml(paper.abs_url)}" target="_blank" rel="noreferrer">arXiv Abstract</a>
-      <a class="paper-link" href="${escapeHtml(paper.pdf_url)}" target="_blank" rel="noreferrer">PDF</a>
+      <a class="paper-link" href="${escapeHtml(paper.abs_url)}" target="_blank" rel="noreferrer">Open arXiv Abstract</a>
+      <a class="paper-link" href="${escapeHtml(paper.pdf_url)}" target="_blank" rel="noreferrer">Open PDF</a>
     </div>
-    <div class="paper-lead">
-      <strong>中文一句话要点</strong>
-      <div>${escapeHtml(paper.headline_zh || '暂无')}</div>
+
+    <div class="info-grid">
+      <section class="info-card">
+        <strong>中文一句话要点</strong>
+        <p>${escapeHtml(paper.headline_zh || '暂无中文一句话要点')}</p>
+      </section>
+      <section class="info-card">
+        <strong>关键词</strong>
+        <div class="paper-tags">${tags}</div>
+      </section>
     </div>
-    <div class="paper-tags">${paper.tags_zh.map((tag) => `<span class="paper-tag">${escapeHtml(tag)}</span>`).join('')}</div>
-    <section>
-      <h3>3 点简述</h3>
-      <ol class="paper-intro">${paper.intro_zh.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ol>
+
+    <section class="detail-section">
+      <h4>3 点简述</h4>
+      <ol class="paper-intro">${introItems}</ol>
     </section>
-    <section>
-      <h3>原始摘要</h3>
-      <div class="paper-summary">${escapeHtml(paper.summary || '暂无摘要')}</div>
+
+    <section class="detail-section">
+      <h4>原始摘要</h4>
+      <p class="paper-summary">${escapeHtml(paper.summary || '暂无摘要')}</p>
     </section>
   `;
+
+  updateDetailNav();
 }
 
 function renderHeader() {
+  const entry = activeDateEntry();
   document.title = state.manifest.site.title;
   nodes.siteTitle.textContent = state.manifest.site.title;
-  nodes.siteSubtitle.textContent = `共收录 ${state.manifest.summary.total_dates} 天、${state.manifest.summary.total_papers} 篇论文。点击左侧日期可即时切换，无需 GitHub Pages 再跑 Jekyll。`;
-  nodes.heroLatest.textContent = formatDate(state.manifest.summary.latest_date);
-  nodes.heroCount.textContent = String(state.manifest.summary.total_papers);
-  nodes.generatedAt.textContent = state.manifest.generated_at;
-}
-
-function renderDateSelect() {
-  nodes.dateSelect.innerHTML = state.manifest.dates.map((item) => `
-    <option value="${escapeHtml(item.date)}" ${item.date === state.activeDate ? 'selected' : ''}>
-      ${escapeHtml(item.date)} (${item.paper_count})
-    </option>
-  `).join('');
+  nodes.siteSubtitle.textContent = `面向你关注的 arXiv 标签做每日自动抓取与中文总结。当前归档 ${state.manifest.summary.total_dates} 天、${state.manifest.summary.total_papers} 篇论文，可按日期、关键词与全文摘要即时筛选。`;
+  nodes.heroLatest.textContent = state.manifest.summary.latest_date;
+  nodes.heroCount.textContent = `${state.manifest.summary.total_papers}`;
+  nodes.heroActive.textContent = entry ? `${entry.date} · ${entry.paper_count}` : '-';
+  nodes.generatedAt.textContent = `Generated ${state.manifest.generated_at}`;
 }
 
 function render() {
   renderHeader();
   renderDateSelect();
+  renderRecentDates();
+  renderActiveFilters();
   renderTags();
   renderList();
   renderDetail();
+}
+
+function navigateSelection(delta) {
+  const index = selectedPaperIndex();
+  if (index === -1) return;
+  const target = state.filtered[index + delta];
+  if (!target) return;
+  state.selectedPaperId = target.arxiv_id;
+  renderList();
+  renderDetail();
+  syncHistory();
+  scrollActiveCardIntoView();
 }
 
 async function loadDate(date, replace = false) {
@@ -768,10 +1263,14 @@ async function loadDate(date, replace = false) {
   const params = urlState();
   if (params.paper && params.date === state.activeDate) {
     state.selectedPaperId = params.paper;
+  } else {
+    state.selectedPaperId = null;
   }
+
   ensureSelectedPaper(filteredPapers());
   render();
   syncHistory(replace);
+  scrollActiveCardIntoView();
 }
 
 async function init() {
@@ -780,6 +1279,7 @@ async function init() {
     if (!response.ok) {
       throw new Error('manifest load failed');
     }
+
     state.manifest = await response.json();
     const params = urlState();
     state.query = params.q;
@@ -801,9 +1301,25 @@ nodes.dateSelect.addEventListener('change', async (event) => {
 
 nodes.searchInput.addEventListener('input', (event) => {
   state.query = event.target.value;
-  renderList();
-  renderDetail();
+  render();
   syncHistory(true);
+});
+
+nodes.searchInput.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape') {
+    state.query = '';
+    nodes.searchInput.value = '';
+    render();
+    syncHistory(true);
+  }
+});
+
+nodes.clearFilters.addEventListener('click', () => {
+  state.query = '';
+  state.activeTag = '';
+  nodes.searchInput.value = '';
+  render();
+  syncHistory();
 });
 
 nodes.clearTag.addEventListener('click', () => {
@@ -825,6 +1341,9 @@ nodes.copyLink.addEventListener('click', async () => {
   }, 1400);
 });
 
+nodes.prevPaper.addEventListener('click', () => navigateSelection(-1));
+nodes.nextPaper.addEventListener('click', () => navigateSelection(1));
+
 window.addEventListener('popstate', async () => {
   const params = urlState();
   state.query = params.q;
@@ -837,6 +1356,28 @@ window.addEventListener('popstate', async () => {
   }
   state.selectedPaperId = params.paper || state.selectedPaperId;
   render();
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.metaKey || event.ctrlKey || event.altKey) return;
+  const activeTag = document.activeElement?.tagName;
+  if (event.key === '/') {
+    event.preventDefault();
+    nodes.searchInput.focus();
+    nodes.searchInput.select();
+    return;
+  }
+  if (activeTag === 'INPUT' || activeTag === 'TEXTAREA' || activeTag === 'SELECT') {
+    return;
+  }
+  if (event.key === 'j' || event.key === 'ArrowDown') {
+    event.preventDefault();
+    navigateSelection(1);
+  }
+  if (event.key === 'k' || event.key === 'ArrowUp') {
+    event.preventDefault();
+    navigateSelection(-1);
+  }
 });
 
 init();

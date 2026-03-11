@@ -9,71 +9,104 @@
 </head>
 <body>
   <div class="page-shell">
-    <header class="hero">
-      <p class="eyebrow">arXiv Daily Scroll</p>
-      <div class="hero-copy">
+    <header class="masthead">
+      <div class="masthead-copy">
+        <p class="eyebrow">Daily Research Dispatch</p>
         <h1 id="site-title">加载中...</h1>
-        <p id="site-subtitle" class="hero-subtitle">正在读取每日论文索引。</p>
+        <p id="site-subtitle" class="masthead-subtitle">正在读取每日论文索引。</p>
       </div>
-      <div class="hero-meta">
-        <div class="hero-chip">
-          <span class="chip-label">Latest Date</span>
+      <div class="stat-grid">
+        <article class="stat-card">
+          <span class="stat-label">Latest Update</span>
           <strong id="hero-latest">-</strong>
-        </div>
-        <div class="hero-chip">
-          <span class="chip-label">Papers</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">Archive Size</span>
           <strong id="hero-count">-</strong>
-        </div>
+        </article>
+        <article class="stat-card accent">
+          <span class="stat-label">Active Day</span>
+          <strong id="hero-active">-</strong>
+        </article>
       </div>
     </header>
 
-    <main class="workspace">
-      <aside class="panel sidebar">
-        <div class="panel-head">
-          <h2>Browse</h2>
-          <p>按日期切换，按标题或关键词搜索。</p>
-        </div>
-        <label class="field">
-          <span>日期</span>
-          <select id="date-select"></select>
-        </label>
-        <label class="field">
-          <span>搜索</span>
-          <input id="search-input" type="search" placeholder="标题 / 作者 / 中文要点 / 关键词">
-        </label>
-        <div class="sidebar-stats">
+    <section class="control-deck">
+      <section class="control-main panel">
+        <div class="section-head">
           <div>
-            <span class="stat-label">匹配结果</span>
+            <p class="section-kicker">Control Room</p>
+            <h2>快速切换日期、搜索主题、聚焦标签</h2>
+          </div>
+          <span id="generated-at" class="generated-at">-</span>
+        </div>
+        <div class="control-grid">
+          <label class="field">
+            <span>日期</span>
+            <select id="date-select"></select>
+          </label>
+          <label class="field">
+            <span>搜索</span>
+            <input id="search-input" type="search" placeholder="标题 / 作者 / 中文要点 / 关键词 / 摘要">
+          </label>
+        </div>
+        <div class="control-actions">
+          <button id="clear-filters" class="ghost-button" type="button">清空搜索与标签</button>
+          <button id="copy-link" class="ghost-button" type="button">复制当前链接</button>
+        </div>
+        <div id="active-filters" class="filter-pills"></div>
+      </section>
+
+      <div class="control-side">
+        <section class="quick-panel panel">
+          <div class="section-head compact">
+            <div>
+              <p class="section-kicker">Recent Drops</p>
+              <h3>最近更新</h3>
+            </div>
             <strong id="result-count">0</strong>
           </div>
-          <div>
-            <span class="stat-label">生成时间</span>
-            <strong id="generated-at">-</strong>
-          </div>
-        </div>
-        <div class="tag-strip">
-          <div class="tag-strip-head">
-            <h3>热门关键词</h3>
-            <button id="clear-tag" class="ghost-button" type="button" hidden>清除筛选</button>
+          <div id="recent-dates" class="recent-dates"></div>
+        </section>
+
+        <section class="quick-panel panel">
+          <div class="section-head compact">
+            <div>
+              <p class="section-kicker">Tag Lens</p>
+              <h3>热门关键词</h3>
+            </div>
+            <button id="clear-tag" class="ghost-button" type="button" hidden>清除标签</button>
           </div>
           <div id="tag-cloud" class="tag-cloud"></div>
-        </div>
-      </aside>
+        </section>
+      </div>
+    </section>
 
-      <section class="panel list-panel">
-        <div class="panel-head panel-head-row">
+    <main class="reading-room">
+      <section class="panel library-panel">
+        <div class="panel-head">
           <div>
+            <p class="section-kicker" id="list-kicker">Archive</p>
             <h2 id="list-title">Papers</h2>
             <p id="list-subtitle">等待数据加载。</p>
           </div>
-          <button id="copy-link" class="ghost-button" type="button">复制当前链接</button>
         </div>
         <div id="paper-list" class="paper-list"></div>
       </section>
 
       <section class="panel detail-panel">
+        <div class="detail-toolbar">
+          <div>
+            <p class="section-kicker" id="detail-kicker">Selected Paper</p>
+            <h2>Paper Notes</h2>
+          </div>
+          <div class="detail-nav">
+            <button id="prev-paper" class="ghost-button" type="button">上一篇</button>
+            <button id="next-paper" class="ghost-button" type="button">下一篇</button>
+          </div>
+        </div>
         <div id="paper-detail" class="paper-detail empty-state">
-          <p>选择一篇论文查看摘要与中文总结。</p>
+          <p>选择一篇论文查看摘要、中文总结与关键词。</p>
         </div>
       </section>
     </main>
