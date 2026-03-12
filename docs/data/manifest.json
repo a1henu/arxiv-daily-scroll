@@ -1,14 +1,19 @@
 {
   "site": {
-    "title": "arXiv·cs.CV 中文要点汇总（with DeepSeek）"
+    "title": "arXiv·cs.CV 中文要点汇总"
   },
-  "generated_at": "2026-03-11 15:55:02",
+  "generated_at": "2026-03-12 13:35:26",
   "summary": {
-    "total_dates": 98,
-    "total_papers": 20278,
-    "latest_date": "2026-03-10"
+    "total_dates": 99,
+    "total_papers": 20539,
+    "latest_date": "2026-03-11"
   },
   "dates": [
+    {
+      "date": "2026-03-11",
+      "paper_count": 261,
+      "data_path": "data/2026-03-11.json"
+    },
     {
       "date": "2026-03-10",
       "paper_count": 336,
