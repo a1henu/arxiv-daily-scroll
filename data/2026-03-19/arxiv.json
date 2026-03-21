@@ -3255,7 +3255,7 @@
       "authors": [
         "Yuhan Ye",
         "Saurabh Amin",
-        "Asuman Ozdauglar"
+        "Asuman Ozdaglar"
       ],
       "arxiv_id": "2603.18551v1",
       "summary": "We study how to construct compressed datasets that suffice to recover optimal decisions in linear programs with an unknown cost vector $c$ lying in a prior set $\\mathcal{C}$. Recent work by Bennouna et al. provides an exact geometric characterization of sufficient decision datasets (SDDs) via an intrinsic decision-relevant dimension $d^\\star$. However, their algorithm for constructing minimum-size SDDs requires solving mixed-integer programs. In this paper, we establish hardness results showing that computing $d^\\star$ is NP-hard and deciding whether a dataset is globally sufficient is coNP-hard, thereby resolving a recent open problem posed by Bennouna et al. To address this worst-case intractability, we introduce pointwise sufficiency, a relaxation that requires sufficiency for an individual cost vector. Under nondegeneracy, we provide a polynomial-time cutting-plane algorithm for constructing pointwise-sufficient decision datasets. In a data-driven regime with i.i.d.\\ costs, we further propose a cumulative algorithm that aggregates decision-relevant directions across samples, yielding a stable compression scheme of size at most $d^\\star$. This leads to a distribution-free PAC guarantee: with high probability over the training sample, the pointwise sufficiency failure probability on a fresh draw is at most $\\tilde{O}(d^\\star/n)$, and this rate is tight up to logarithmic factors. Finally, we apply decision-sufficient representations to contextual linear optimization, obtaining compressed predictors with generalization bounds scaling as $\\tilde{O}(\\sqrt{d^\\star/n})$ rather than $\\tilde{O}(\\sqrt{d/n})$, where $d$ is the ambient cost dimension."
@@ -4037,7 +4037,8 @@
         "Yunkai Zhang",
         "Dipesh Tamboli",
         "Xiangjun Fan",
-        "Zhuokai Zhao"
+        "Zhuokai Zhao",
+        "Lizhu Zhang"
       ],
       "arxiv_id": "2603.18411v1",
       "summary": "Large language models (LLMs) exhibit strong reasoning capabilities but typically require expensive post-training to reach high performance. Recent test-time alignment methods offer a lightweight alternative, but have been explored mainly for preference alignment rather than reasoning. To bridge this gap, we propose, Token-level Adaptive Routing (TARo), which steers frozen LLMs toward structured reasoning entirely at inference time. Specifically, we first train reward models on step-wise mathematical traces to capture fine-grained logical consistency signals, then introduce a learnable token-level router that automatically controls the guidance of the reward model to the base model. Extensive experiments show that TARo significantly improves reasoning performance by up to +22.4% over base model and +8.4% over existing token-level test-time alignment methods, while also boosting out-of-distribution clinical reasoning (MedXpertQA) and instruction following (AlpacaEval). Furthermore, TARo also generalizes from small to large backbones without retraining, extending test-time alignment from preference optimization to robust, cross-domain reasoning."
