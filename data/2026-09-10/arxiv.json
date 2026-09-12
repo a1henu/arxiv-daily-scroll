@@ -1,5 +1,5 @@
 {
-  "count": 288,
+  "count": 289,
   "papers": [
     {
       "title": "SenseNova-U1.5: Towards Native Unified Visual Intelligence",
@@ -1816,8 +1816,8 @@
     {
       "title": "Deep operator learning for efficient sampling from invariant measures of stochastic differential equations",
       "authors": [
-        "Lin Guo",
-        "Li Lei",
+        "Ling Guo",
+        "Lei Li",
         "Jingtong Zhang"
       ],
       "arxiv_id": "2609.11376v1",
@@ -3494,6 +3494,19 @@
       ],
       "arxiv_id": "2609.10915v1",
       "summary": "Vision-language-action (VLA) policies leverage pretrained vision-language backbones to achieve strong cross-task generalization. A leading design couples this backbone with a dedicated continuous action head trained via diffusion or flow matching. However, such heads rely on iterative multi-step sampling, for example 10 Euler steps in $π_{0.5}$. This creates an inference bottleneck that produces stop-and-go movement in the robot and slower task completion. We introduce IMLE-VLA, which replaces the iterative action head with a single-step conditional generator trained via conditional Implicit Maximum Likelihood Estimation (cIMLE). The cIMLE objective promotes multimodal action coverage, avoiding the mode collapse of naive regression heads while eliminating multi-step sampling entirely. When IMLE-VLA is applied to $π_{0.5}$, it increases inference frequency 3.67x (55 Hz vs. 15 Hz), enabling up to 11x higher action throughput. On the 40-task LIBERO benchmark, IMLE-VLA achieves the highest average success rate (98.0%) among all baselines while leading in inference frequency. Under the test-time perturbations of LIBERO-plus, IMLE-VLA retains $π_{0.5}$'s robustness while other baselines degrade sharply, confirming that the cIMLE head preserves generalization. Real-world experiments on a Franka Emika Panda across four tasks demonstrate smoother motion (2.2x to 3.0x lower jerk) and faster task completion, with IMLE-VLA outperforming $π_{0.5}$ on every task and reducing average VLA inference time per episode by 3.9x to 6.6x. Videos and code are available at https://kianhk6.github.io/IMLE-VLA/"
+    },
+    {
+      "title": "Seamless Whole Slide Label-Free Virtual Staining",
+      "authors": [
+        "Dou Hoon Kwark",
+        "Kianoush Falahkheirkhah",
+        "Ji-hun Oh",
+        "Shirui Luo",
+        "Volodymyr Kindratenko",
+        "Rohit Bhargava"
+      ],
+      "arxiv_id": "2609.10914v1",
+      "summary": "Label-free virtual staining offers a compelling, non-destructive alternative to standard histopathology; however, its clinical adoption is hindered by the computational bottlenecks inherent to processing gigapixel Whole Slide Images (WSIs). Current deep learning approaches require patch-based inference to avoid memory constraints, which disrupts global tissue continuity and introduces tiling artifacts--displaying visible seams and color shifts. To address this, we introduce the Consistency Memory Bank (COMB), a novel label-free virtual staining framework that enforces spatial and channel consistency across tiles without memory bottlenecks. COMB decouples context storage from computation, utilizing a dynamic retrieval mechanism to fetch feature representations from adjacent tiles. This enables a retrieval-based context integration strategy that adopts local padding to resolve spatial discontinuities and neighbor-aware channel attention to stabilize statistical drift. Further optimized with a sliding window schedule to ensure minimal memory overhead, our method demonstrates superior performance over state-of-the-art baselines, achieving significant improvements in both perceptual fidelity and tiling consistency, while suggesting its downstream utility in tumor segmentation. Code is available at https://github.com/dou0000/COMB."
     }
   ]
 }
