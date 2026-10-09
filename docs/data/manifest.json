@@ -2,13 +2,18 @@
   "site": {
     "title": "arXiv·cs.CV 中文要点汇总"
   },
-  "generated_at": "2026-10-08 19:44:14",
+  "generated_at": "2026-10-09 19:41:09",
   "summary": {
-    "total_dates": 222,
-    "total_papers": 61102,
-    "latest_date": "2026-10-07"
+    "total_dates": 223,
+    "total_papers": 61680,
+    "latest_date": "2026-10-08"
   },
   "dates": [
+    {
+      "date": "2026-10-08",
+      "paper_count": 578,
+      "data_path": "data/2026-10-08.json"
+    },
     {
       "date": "2026-10-07",
       "paper_count": 530,
